@@ -41,8 +41,15 @@
     .wrap { max-width: 1180px; margin: 0 auto; padding: 18px 16px 80px; }
     .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; margin-bottom: 14px; }
     .stat { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+    .stat.clickable { cursor: pointer; }
+    .stat.clickable:hover { border-color: #c9bfae; }
+    .stat.on { outline: 2px solid var(--accent); }
     .stat b { display: block; font-size: 22px; }
     .stat span { color: var(--muted); font-size: 12px; }
+    .reopen {
+      border: 1px solid var(--line); background: #fff; color: var(--ink);
+      padding: 6px 10px; border-radius: 8px; cursor: pointer; font: inherit; font-weight: 650;
+    }
     .tabs { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0 12px; }
     .tabs button {
       border: 1px solid var(--line); background: var(--paper); color: var(--ink);
@@ -92,6 +99,17 @@
     dialog::backdrop { background: rgba(28,25,21,.35); }
     footer { margin-top: 24px; color: var(--muted); font-size: 12px; }
     .empty { color: var(--muted); padding: 24px; text-align: center; }
+    .create-form {
+      margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--line);
+    }
+    .create-form h4 { margin: 0 0 4px; font-size: 14px; }
+    .form-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 8px 12px; margin-top: 8px;
+    }
+    .form-grid label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--muted); }
+    .form-grid label.wide { grid-column: 1 / -1; }
+    .form-grid input, .form-grid textarea { width: 100%; }
+    @media (max-width: 720px) { .form-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
@@ -114,8 +132,8 @@
       <input type="search" id="q" placeholder="Search service, package, supplier…" />
       <select id="statusFilter">
         <option value="open">Open only</option>
-        <option value="all">All</option>
-        <option value="decided">Decided</option>
+        <option value="all">All on this tab</option>
+        <option value="decided">Decided on this tab</option>
       </select>
     </div>
     <div class="help" id="help"></div>
@@ -123,7 +141,9 @@
     <footer>
       Decisions live in three places: this browser (localStorage), a downloaded JSON file, and
       <code>decisions.json</code> in the GitHub repo (after Save online). Hosted on GitHub Pages for as long as the repo exists.
-      When this round is finished, say so in chat — we merge Yes/No, chosen match, and notes back onto the Excel workbooks (problem sheets + By TM package) so everything sits in one table again.
+      Use <b>All decided</b> (or the Decided number at the top) to reopen anything and change it.
+      Fully missing services (not on ST and not on Prod) show the Service Template field set under Yes/No.
+      When this round is finished, say so in chat — we merge Yes/No, chosen match, form fields, and notes back onto the Excel workbooks.
     </footer>
   </div>
   <dialog id="settings">

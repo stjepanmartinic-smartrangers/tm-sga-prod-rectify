@@ -26,10 +26,18 @@ Save online needs a GitHub token (Contents: Read and write on this repo only). O
 
 `data.js` is generated from the current SGA vs Prod Excel problem sheets. Re-run `export_rectify_data.py` in `C:\VsCode\TailorMade\data\tm-packages-v1` when the workbooks change, then replace `data.js` here.
 
+## Review / change decisions
+
+Open **All decided** (first tab) or click the **Decided** number at the top. Every Yes/No is listed across problem types. Change the choice there, edit the create form, or **Reopen** to put it back in the open queue. Per-tab filter still has **Decided on this tab**.
+
+## Fully missing services
+
+Cards that are not on ST and not on Prod show the Service Template field set under Yes/No (Name, Location, type, PCs, seasons, price, supplier, comment, …). Hidden if you accept a Prod fuzzy match. Saved in `decisions.json` as `form`.
+
 ## Merge back into Excel
 
 When decisions are finished, run:
 
 `python merge_rectify_decisions.py`
 
-from `C:\VsCode\TailorMade\data\tm-packages-v1`. That writes **Rectify status / decision / selected / notes** onto each P/SA sheet and onto **By TM package**, then copies the workbooks to `C:\ForSharing`.
+from `C:\VsCode\TailorMade\data\tm-packages-v1`. That writes **Rectify status / decision / selected / notes / form** onto each P/SA sheet and onto **By TM package**, then copies the workbooks to `C:\ForSharing`.

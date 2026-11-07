@@ -42,7 +42,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "4WD Excursion",
+            "location": "Erg Chigaga",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::afternoon hammam & massage - mythic oriental spa",
@@ -74,7 +89,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Afternoon Hammam & Massage - Mythic Oriental Spa",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::afternoon hammam experience - mythic oriental spa",
@@ -111,7 +141,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Afternoon Hammam Experience - Mythic Oriental Spa",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::amazigh brunch in the valley",
@@ -143,7 +188,22 @@ window.ISSUE_DATA = {
           "stType": "Meal",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Amazigh Brunch in the Valley",
+            "location": "Todra Gorge",
+            "businessUnit": "",
+            "serviceType": "Meal",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::ancient library tamegroute",
@@ -176,7 +236,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Ancient Library Tamegroute",
+            "location": "Tamegroute",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::atlas film studio visit",
@@ -209,7 +283,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Atlas Film Studio visit",
+            "location": "Ouarzazate",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::atlas studios visit",
@@ -246,7 +334,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Atlas Studios Visit",
+            "location": "Ouarzazate",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::azawad luxury desert camp - hb",
@@ -299,7 +402,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Azawad Luxury Desert Camp - HB",
+            "location": "Merzouga",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::azawad luxury desert camp hb",
@@ -342,7 +460,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Azawad Luxury Desert Camp HB",
+            "location": "Merzouga",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::azawad luxury desert camp-hb",
@@ -401,7 +534,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Azawad Luxury Desert Camp-HB",
+            "location": "Merzouga Desert Camp",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::bahia palace entrance",
@@ -434,7 +582,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Bahia palace entrance",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::bread cooking  demonstration",
@@ -476,7 +639,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Bread cooking  Demonstration",
+            "location": "Imlil",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::bread-making demonstration",
@@ -518,7 +696,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Bread-Making Demonstration",
+            "location": "Ouirgane",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::camel ride",
@@ -551,7 +744,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Camel Ride",
+            "location": "Erg Chegaga; Erg Chigaga",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::camel ride - sunrise",
@@ -593,7 +800,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Camel Ride - Sunrise",
+            "location": "Merzouga",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::camel ride - sunset",
@@ -631,7 +853,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Camel Ride - Sunset",
+            "location": "Agafay; Merzouga",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::camp alladin -hb",
@@ -663,7 +899,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Camp Alladin -HB",
+            "location": "Erg Chigaga",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::camp caravane -hb",
@@ -706,7 +957,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Camp Caravane -HB",
+            "location": "Merzouga Desert Camp",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::camp caravane hb",
@@ -749,7 +1015,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Camp Caravane HB",
+            "location": "Merzouga Desert Camp",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::camp caravane-hb",
@@ -793,7 +1074,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Camp Caravane-HB",
+            "location": "Merzouga Desert Camp",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::camp la caravane - hb",
@@ -841,7 +1137,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Camp la Caravane - HB",
+            "location": "Merzouga",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::camp le sand-hb",
@@ -899,7 +1210,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Camp le sand-HB",
+            "location": "Erg Chigaga",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::cap spartel",
@@ -934,7 +1260,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Cap spartel",
+            "location": "Tangier",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::cheese tasting",
@@ -967,7 +1307,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Cheese Tasting",
+            "location": "Chefcharouen",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::cooking class and lunch at tawsna association",
@@ -1000,7 +1354,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Cooking Class and Lunch at Tawsna Association",
+            "location": "Ait Benhaddou",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::daily crew bonus accrual",
@@ -1048,7 +1416,22 @@ window.ISSUE_DATA = {
           "stType": "Leader Service",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Daily Crew Bonus Accrual",
+            "location": "Morocco",
+            "businessUnit": "",
+            "serviceType": "Leader Service",
+            "priceCategory": "Per Day",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::day trip to khamlia 4x4 excursion",
@@ -1081,7 +1464,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Day Trip to Khamlia 4x4 Excursion",
+            "location": "Merzouga Desert Camp",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::domaine de la roseraie resort and spa hb",
@@ -1114,7 +1511,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Domaine de la Roseraie Resort and Spa HB",
+            "location": "Ouirgane",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::ecolodge dar itrane -hb",
@@ -1146,7 +1558,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Ecolodge Dar Itrane -HB",
+            "location": "Ait Bouguemez",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::essaouira cooking class- madada",
@@ -1184,7 +1611,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Essaouira Cooking Class- Madada",
+            "location": "Essaouira",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::farewell dinner marrakech - el fassia restaurant",
@@ -1226,7 +1668,22 @@ window.ISSUE_DATA = {
           "stType": "Meal",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Farewell Dinner Marrakech - El Fassia Restaurant",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Meal",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::free time",
@@ -1259,7 +1716,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Free Time",
+            "location": "Oualidia; Sefrou",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "N/A",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::guided hike - ait bouguemez (happy valley)",
@@ -1301,7 +1773,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Guided Hike - Ait Bouguemez (Happy Valley)",
+            "location": "Ait Bouguemez",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::hassan ii mosque visit",
@@ -1336,7 +1823,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hassan II Mosque Visit",
+            "location": "Casablanca",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::hassan tower",
@@ -1374,7 +1875,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Hassan Tower",
+            "location": "Rabat",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::home cooked lunch",
@@ -1416,7 +1932,22 @@ window.ISSUE_DATA = {
           "stType": "Meal",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Home cooked Lunch",
+            "location": "Imlil",
+            "businessUnit": "",
+            "serviceType": "Meal",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::home-cooked lunch",
@@ -1459,7 +1990,22 @@ window.ISSUE_DATA = {
           "stType": "Meal",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Home-Cooked Lunch",
+            "location": "Ouirgane",
+            "businessUnit": "",
+            "serviceType": "Meal",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::hotel hilton",
@@ -1492,7 +2038,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Hotel Hilton",
+            "location": "Tangier",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::hotel karam palace-hb",
@@ -1534,7 +2095,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Hotel Karam palace-HB",
+            "location": "Ouarzazate",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::hotel le caspien",
@@ -1563,7 +2139,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel le Caspien",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::hotel oscar-hb",
@@ -1621,7 +2211,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Hotel Oscar-HB",
+            "location": "Ouarzazate",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::hotel riad bahammou dades-hb",
@@ -1684,7 +2289,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Hotel Riad BaHammou Dades-HB",
+            "location": "Dades Gorge",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::hotel toumbouctou-hb",
@@ -1717,7 +2337,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Hotel Toumbouctou-HB",
+            "location": "Merzouga",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::hotel transatlantique",
@@ -1749,7 +2384,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Hotel Transatlantique",
+            "location": "Meknes",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::hotel xaluca dades-hb",
@@ -1802,7 +2452,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Hotel Xaluca Dades-HB",
+            "location": "Dades Gorge",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::hotel xaluxa dades hb",
@@ -1850,7 +2515,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Hotel Xaluxa Dades HB",
+            "location": "Dades Gorge",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::hotel yassmina-hb",
@@ -1909,7 +2589,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Hotel Yassmina-HB",
+            "location": "Merzouga",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::kasbah africa hb",
@@ -1942,7 +2637,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Kasbah Africa HB",
+            "location": "Ouirgane",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::kasbah ait ben damiette-hb",
@@ -1990,7 +2700,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Kasbah Ait Ben Damiette-HB",
+            "location": "Skoura",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::kasbah ait benhaddou visit",
@@ -2026,7 +2751,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Kasbah Ait Benhaddou Visit",
+            "location": "Ait Benhaddou",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::kasbah amridil visit",
@@ -2060,7 +2799,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Kasbah Amridil Visit",
+            "location": "Skoura",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::kasbah chefchaouen",
@@ -2094,7 +2847,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Kasbah Chefchaouen",
+            "location": "Chefcharouen",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::kasbah des oudaias",
@@ -2127,7 +2894,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Kasbah des Oudaias",
+            "location": "Rabat",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::kasbah du toubkal - hb",
@@ -2181,7 +2963,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Kasbah du Toubkal - HB",
+            "location": "Imlil",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::kasbah itrane-hb",
@@ -2239,7 +3035,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Kasbah Itrane-HB",
+            "location": "Agdz",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::kasbah la famille berbere-hb",
@@ -2287,7 +3098,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Kasbah la famille berbere-HB",
+            "location": "Dades Gorge",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::ksar timnay riad mimouna-hb",
@@ -2351,7 +3177,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Ksar Timnay Riad Mimouna-HB",
+            "location": "Midelt",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::l'ma lodge-hb",
@@ -2383,7 +3224,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "L'ma lodge-HB",
+            "location": "Skoura",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::le palais des cerisiers-hb",
@@ -2415,7 +3271,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Le Palais des Cerisiers-HB",
+            "location": "Azrou",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::leader communication allowance",
@@ -2469,7 +3340,22 @@ window.ISSUE_DATA = {
           "stType": "Leader Service",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Leader Communication Allowance",
+            "location": "Morocco",
+            "businessUnit": "",
+            "serviceType": "Leader Service",
+            "priceCategory": "Per Day",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::local embroidery workshop visit",
@@ -2501,7 +3387,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Local Embroidery Workshop Visit",
+            "location": "Ouarzazate",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::local guide ait benhaddou",
@@ -2541,7 +3442,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Ait Benhaddou",
+            "location": "Ait Benhaddou",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::local guide casablanca",
@@ -2587,7 +3502,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Local Guide Casablanca",
+            "location": "Casablanca",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per day",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::local guide chefchaouen",
@@ -2636,7 +3566,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Local Guide Chefchaouen",
+            "location": "Chefcharouen",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group; Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::local guide essaouira",
@@ -2685,7 +3630,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Local guide Essaouira",
+            "location": "Essaouira",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::local guide fes half day",
@@ -2735,7 +3695,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Local Guide Fes Half Day",
+            "location": "Fes",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::local guide half day casablanca",
@@ -2784,7 +3759,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Local guide half day Casablanca",
+            "location": "Casablanca",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::local guide half day essaouira",
@@ -2824,7 +3814,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Half day Essaouira",
+            "location": "Essaouira",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::local guide half day imlil",
@@ -2863,7 +3867,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Half day Imlil",
+            "location": "Imlil",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::local guide half day marrakech",
@@ -2904,7 +3922,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Half day Marrakech",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::local guide half day ouirgane",
@@ -2953,7 +3985,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Local guide half day Ouirgane",
+            "location": "Ouirgane",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::local guide marrakech",
@@ -3010,7 +4057,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Local guide Marrakech",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group; per day",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::local guide rabat",
@@ -3059,7 +4121,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Local Guide Rabat",
+            "location": "Rabat",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::local guide tanger",
@@ -3107,7 +4184,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Local Guide Tanger",
+            "location": "Tangier",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::local guide tangier",
@@ -3151,7 +4243,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Local guide Tangier",
+            "location": "Tangier",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::lunch at tawesna",
@@ -3193,7 +4300,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Lunch at Tawesna",
+            "location": "Ait Benhaddou",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::lunch en route",
@@ -3235,7 +4357,22 @@ window.ISSUE_DATA = {
           "stType": "Meal",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Lunch En Route",
+            "location": "Morocco",
+            "businessUnit": "",
+            "serviceType": "Meal",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::lunch with a local family in todra",
@@ -3269,7 +4406,21 @@ window.ISSUE_DATA = {
           "stType": "Meal",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Lunch With a Local Family in Todra",
+            "location": "Todra Gorge",
+            "businessUnit": "",
+            "serviceType": "Meal",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::maison d'hôtes kasbah azul-hb",
@@ -3301,7 +4452,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Maison d'Hôtes Kasbah Azul-HB",
+            "location": "Agdz",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::marrakech food tasting budget",
@@ -3333,7 +4499,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Marrakech food tasting budget",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::marrakech simply tasting trail",
@@ -3369,7 +4550,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Marrakech Simply Tasting Trail",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::mausoleum hassan ii",
@@ -3403,7 +4598,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Mausoleum Hassan II",
+            "location": "Rabat",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::mausoleum mohammed v",
@@ -3437,7 +4646,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Mausoleum Mohammed V",
+            "location": "Rabat",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::mint tea with sweets",
@@ -3470,7 +4693,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Mint Tea with sweets",
+            "location": "Rabat",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::palais bahia visit marrakech",
@@ -3503,7 +4741,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Palais Bahia Visit Marrakech",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::palmeras y dunas hb",
@@ -3566,7 +4818,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Palmeras y Dunas HB",
+            "location": "Merzouga Desert Camp",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::palmeras y dunas luxury camp  hb",
@@ -3614,7 +4881,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Palmeras Y Dunas Luxury Camp  HB",
+            "location": "Merzouga",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::palmeras y dunas luxury camp - hb",
@@ -3663,7 +4945,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Palmeras Y Dunas Luxury Camp - HB",
+            "location": "Merzouga",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::palmeras y dunas-hb",
@@ -3728,7 +5024,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Palmeras y Dunas-HB",
+            "location": "Merzouga Desert Camp",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::pastries tasting",
@@ -3761,7 +5072,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Pastries tasting",
+            "location": "Casablanca",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::private vehicle & driver",
@@ -3810,7 +5136,22 @@ window.ISSUE_DATA = {
           "stType": "Transport",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Private Vehicle & Driver",
+            "location": "Casablanca; Fes; Marrakech; Tangier",
+            "businessUnit": "",
+            "serviceType": "Transport",
+            "priceCategory": "Per Day",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::riad chakir",
@@ -3868,7 +5209,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Riad Chakir",
+            "location": "Essaouira",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::riad chebbi-hb",
@@ -3901,7 +5257,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Riad Chebbi-HB",
+            "location": "Merzouga",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::riad jnane imlil - hb",
@@ -3959,7 +5330,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Riad Jnane Imlil - HB",
+            "location": "Imlil",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::riad ksar ighnda-hb",
@@ -4023,7 +5409,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Riad Ksar Ighnda-HB",
+            "location": "Ait Benhaddou",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::seafood market lunch",
@@ -4057,7 +5458,21 @@ window.ISSUE_DATA = {
           "stType": "Meal",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Seafood Market Lunch",
+            "location": "Essaouira",
+            "businessUnit": "",
+            "serviceType": "Meal",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::skoura lodge- hb",
@@ -4115,7 +5530,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Skoura Lodge- HB",
+            "location": "Skoura",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::sunset drink at taman’art space studio",
@@ -4147,7 +5577,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Sunset drink at Taman’Art Space Studio",
+            "location": "Ait Benhaddou",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::taourirt kasbah visit",
@@ -4184,7 +5629,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Taourirt Kasbah Visit",
+            "location": "Ouarzazate",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::todra gorge visit",
@@ -4221,7 +5681,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Todra Gorge Visit",
+            "location": "Todra Gorge",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::train ticket  1st class",
@@ -4258,7 +5733,22 @@ window.ISSUE_DATA = {
           "stType": "Transport",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Train Ticket  1st class",
+            "location": "Casablanca",
+            "businessUnit": "",
+            "serviceType": "Transport",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::train ticket- 1st class",
@@ -4295,7 +5785,22 @@ window.ISSUE_DATA = {
           "stType": "Transport",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Train ticket- 1st class",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Transport",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::transfer - hotel to train station",
@@ -4344,7 +5849,22 @@ window.ISSUE_DATA = {
           "stType": "Transport",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transfer - Hotel to Train Station",
+            "location": "Casablanca; Marrakech",
+            "businessUnit": "",
+            "serviceType": "Transport",
+            "priceCategory": "Banded",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::transfer - train station to hotel",
@@ -4387,7 +5907,22 @@ window.ISSUE_DATA = {
           "stType": "Transport",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transfer - Train Station to Hotel",
+            "location": "Casablanca; Marrakech",
+            "businessUnit": "",
+            "serviceType": "Transport",
+            "priceCategory": "Banded",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::transfer to tasting trail",
@@ -4425,7 +5960,22 @@ window.ISSUE_DATA = {
           "stType": "Transport",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transfer to Tasting Trail",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Transport",
+            "priceCategory": "Banded",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::transfer to the guided tour casablanca",
@@ -4458,7 +6008,22 @@ window.ISSUE_DATA = {
           "stType": "Transport",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transfer to The Guided Tour Casablanca",
+            "location": "Casablanca",
+            "businessUnit": "",
+            "serviceType": "Transport",
+            "priceCategory": "Banded",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::transport between trip- marrakech fes",
@@ -4490,7 +6055,22 @@ window.ISSUE_DATA = {
           "stType": "Operational",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transport Between Trip- Marrakech Fes",
+            "location": "Fes",
+            "businessUnit": "",
+            "serviceType": "Operational",
+            "priceCategory": "Per Trip",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::transport between trip- tangier marrakech",
@@ -4522,7 +6102,22 @@ window.ISSUE_DATA = {
           "stType": "Operational",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transport Between Trip- Tangier Marrakech",
+            "location": "Tangier",
+            "businessUnit": "",
+            "serviceType": "Operational",
+            "priceCategory": "Per Trip",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::transport between trips  -marrakech tangier",
@@ -4564,7 +6159,22 @@ window.ISSUE_DATA = {
           "stType": "Operational",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transport Between Trips  -Marrakech Tangier",
+            "location": "Tangier",
+            "businessUnit": "",
+            "serviceType": "Operational",
+            "priceCategory": "Per Trip",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::transport between trips -  fes marrakech",
@@ -4606,7 +6216,22 @@ window.ISSUE_DATA = {
           "stType": "Operational",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transport Between Trips -  Fes Marrakech",
+            "location": "Fes",
+            "businessUnit": "",
+            "serviceType": "Operational",
+            "priceCategory": "Per Trip",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::transport between trips - casablanca marrakech",
@@ -4648,7 +6273,22 @@ window.ISSUE_DATA = {
           "stType": "Operational",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transport Between Trips - Casablanca Marrakech",
+            "location": "Casablanca",
+            "businessUnit": "",
+            "serviceType": "Operational",
+            "priceCategory": "Per Trip",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::transport between trips - fes marrakech",
@@ -4690,7 +6330,22 @@ window.ISSUE_DATA = {
           "stType": "Operational",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transport between Trips - Fes Marrakech",
+            "location": "Fes",
+            "businessUnit": "",
+            "serviceType": "Operational",
+            "priceCategory": "Per Trip",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::transport between trips - marrakech fes",
@@ -4735,7 +6390,22 @@ window.ISSUE_DATA = {
           "stType": "Operational",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transport between trips - Marrakech Fes",
+            "location": "Fes",
+            "businessUnit": "",
+            "serviceType": "Operational",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::transport between trips - marrakech tangier",
@@ -4777,7 +6447,22 @@ window.ISSUE_DATA = {
           "stType": "Operational",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transport between Trips - Marrakech Tangier",
+            "location": "Tangier",
+            "businessUnit": "",
+            "serviceType": "Operational",
+            "priceCategory": "Per Trip",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::transport between trips- casablanca marrakech",
@@ -4819,7 +6504,22 @@ window.ISSUE_DATA = {
           "stType": "Operational",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transport Between Trips- Casablanca Marrakech",
+            "location": "Casablanca",
+            "businessUnit": "",
+            "serviceType": "Operational",
+            "priceCategory": "Per Trip",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::transport between trips- marrakech casablanca",
@@ -4862,7 +6562,22 @@ window.ISSUE_DATA = {
           "stType": "Operational",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transport Between Trips- Marrakech Casablanca",
+            "location": "Casablanca",
+            "businessUnit": "",
+            "serviceType": "Operational",
+            "priceCategory": "Per Trip",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::transport between trips- tangier marrakech",
@@ -4904,7 +6619,22 @@ window.ISSUE_DATA = {
           "stType": "Operational",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transport between trips- Tangier Marrakech",
+            "location": "Casablanca",
+            "businessUnit": "",
+            "serviceType": "Operational",
+            "priceCategory": "Per Trip",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::underground kasbah guided tour",
@@ -4936,7 +6666,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Underground Kasbah Guided Tour",
+            "location": "Tamegroute",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::wine tasting & lunch at château roslane",
@@ -4973,7 +6718,22 @@ window.ISSUE_DATA = {
           "stType": "Meal",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Wine Tasting & Lunch at Château Roslane",
+            "location": "Chatteau Roslane",
+            "businessUnit": "",
+            "serviceType": "Meal",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::wine tasting & lunch at val d'argan",
@@ -5010,7 +6770,22 @@ window.ISSUE_DATA = {
           "stType": "Meal",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Wine Tasting & Lunch at Val d'Argan",
+            "location": "Essaouira",
+            "businessUnit": "",
+            "serviceType": "Meal",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::xaluxa aguelmame sidi ali-hb",
@@ -5043,7 +6818,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Xaluxa aguelmame sidi Ali-HB",
+            "location": "Aguelmame Sidi Ali",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P1::zephyr hotel- hb",
@@ -5075,7 +6865,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Zephyr Hotel- HB",
+            "location": "Ifrane",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         }
       ]
     },
@@ -5153,7 +6958,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Belere",
+            "location": "Rabat",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Belere",
+            "comment": ""
+          }
         },
         {
           "id": "P2::hotel caspien",
@@ -5200,7 +7019,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Caspien",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Le Caspien",
+            "comment": ""
+          }
         },
         {
           "id": "P2::hotel riad bahammou dades hb",
@@ -5248,7 +7081,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Riad BaHammou Dades HB",
+            "location": "Dades; Dades Gorge",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad BaHammou Dades",
+            "comment": ""
+          }
         },
         {
           "id": "P2::kasbah hnini hb",
@@ -5294,7 +7141,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Kasbah Hnini HB",
+            "location": "Zagora",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Dar Hnini",
+            "comment": ""
+          }
         },
         {
           "id": "P2::medersa attarine fes",
@@ -5336,7 +7197,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Medersa Attarine Fes",
+            "location": "Fes",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "P2::mia camp hb",
@@ -5383,7 +7258,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Mia Camp HB",
+            "location": "Agafay",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Mia Hotels",
+            "comment": ""
+          }
         },
         {
           "id": "P2::morocco fit - tour leader daily services - standard",
@@ -5438,7 +7327,21 @@ window.ISSUE_DATA = {
           "stType": "Crew Service; Leader Service",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Morocco FIT - Tour Leader Daily Services - Standard",
+            "location": "Morocco",
+            "businessUnit": "",
+            "serviceType": "Crew Service; Leader Service",
+            "priceCategory": "Per Day",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Crew Services",
+            "comment": ""
+          }
         },
         {
           "id": "P2::moulay driss couscous lunch",
@@ -5478,7 +7381,21 @@ window.ISSUE_DATA = {
           "stType": "Activity; Meal",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Moulay Driss Couscous Lunch",
+            "location": "Moulay Driss; Moulday Idriss",
+            "businessUnit": "",
+            "serviceType": "Activity; Meal",
+            "priceCategory": "N/A",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "P2::riad 48",
@@ -5532,7 +7449,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad 48",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad 48",
+            "comment": ""
+          }
         }
       ]
     },
@@ -5572,7 +7503,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "4WD Excursion",
+            "location": "Erg Chigaga",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::afternoon hammam & massage - mythic oriental spa",
@@ -5601,7 +7547,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Afternoon Hammam & Massage - Mythic Oriental Spa",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::amadil",
@@ -5622,7 +7583,22 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Amadil",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::amadil ocean club bb",
@@ -5648,7 +7624,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Amadil Ocean Club BB",
+            "location": "Agadir",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "City Tax; Double - Garden View; Double - Pool View; Double - Sea View; Leader Room Single - Standard; Single - Garden View; Single - Pool View; Single - Sea View; Twin - Garden View; Twin - Pool View; Twin - Sea View",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Amadil Ocean Club BB",
+            "comment": ""
+          }
         },
         {
           "id": "P3::amazigh brunch in the valley",
@@ -5677,7 +7667,22 @@ window.ISSUE_DATA = {
           "stType": "Meal",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Amazigh Brunch in the Valley",
+            "location": "Todra Gorge",
+            "businessUnit": "",
+            "serviceType": "Meal",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::auberge & camp yasmina",
@@ -5698,7 +7703,22 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Auberge & Camp Yasmina",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::azrou cedar forest & barbary macaques visit",
@@ -5731,7 +7751,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Azrou Cedar Forest & Barbary Macaques Visit",
+            "location": "Azrou; Ifrane",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "P3::bahia palace entrance",
@@ -5760,7 +7794,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Bahia palace entrance",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::bhalil cave house visit with tea break",
@@ -5793,7 +7842,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Bhalil Cave House Visit with Tea Break",
+            "location": "Bhalil; Sefrou",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "P3::camp aladdin",
@@ -5814,7 +7877,22 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Camp Aladdin",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::camp alladin -hb",
@@ -5843,7 +7921,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Camp Alladin -HB",
+            "location": "Erg Chigaga",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::domaine de la roseraie",
@@ -5870,7 +7963,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Domaine de La Roseraie",
+            "location": "Ouirgane",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "City Tax; Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Domaine de la Roseraie",
+            "comment": ""
+          }
         },
         {
           "id": "P3::domaine de la roseraie resort and spa hb",
@@ -5899,7 +8006,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Domaine de la Roseraie Resort and Spa HB",
+            "location": "Ouirgane",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::ecolodge dar itrane -hb",
@@ -5928,7 +8050,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Ecolodge Dar Itrane -HB",
+            "location": "Ait Bouguemez",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::emeraude camp bb",
@@ -5955,7 +8092,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Emeraude Camp BB",
+            "location": "Agafay",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double - Dome; Double - Tent; HB Supplement; Leader Single Room; Single - Dome; Single - Tent; Triple - Tent; Twin - Dome; Twin - Tent",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Emeraude Luxury Camp and Tents",
+            "comment": ""
+          }
         },
         {
           "id": "P3::emeraude camp hb",
@@ -5982,7 +8133,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Emeraude Camp HB",
+            "location": "Agafay",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double - Dome; Double - Tent; HB Supplement; Leader Single Room; Single - Dome; Single - Tent; Triple - Tent; Twin - Dome; Twin - Tent",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Emeraude Luxury Camp and Tents",
+            "comment": ""
+          }
         },
         {
           "id": "P3::free time",
@@ -6011,7 +8176,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Free Time",
+            "location": "Oualidia; Sefrou",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "N/A",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::hotel hilton",
@@ -6040,7 +8220,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Hotel Hilton",
+            "location": "Tangier",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::hotel lac aguelmam",
@@ -6061,7 +8256,22 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Hotel Lac Aguelmam",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::hotel tarek",
@@ -6094,7 +8304,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Tarek",
+            "location": "Chefchaouen; Chefcharouen",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Tarek",
+            "comment": ""
+          }
         },
         {
           "id": "P3::hotel toumbouctou-hb",
@@ -6123,7 +8347,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Hotel Toumbouctou-HB",
+            "location": "Merzouga",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::hotel transatlantique",
@@ -6152,7 +8391,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Hotel Transatlantique",
+            "location": "Meknes",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::kasbah africa",
@@ -6179,7 +8433,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Kasbah Africa",
+            "location": "Ouirgane",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "City Tax; Double - Standard Room; Single - Standard Room; Twin - Standard Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Kasbah Africa",
+            "comment": ""
+          }
         },
         {
           "id": "P3::kasbah africa hb",
@@ -6208,7 +8476,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Kasbah Africa HB",
+            "location": "Ouirgane",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::kasbah des oudaias",
@@ -6237,7 +8520,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Kasbah des Oudaias",
+            "location": "Rabat",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::l'ma lodge-hb",
@@ -6266,7 +8564,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "L'ma lodge-HB",
+            "location": "Skoura",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::le palais des cerisiers",
@@ -6287,7 +8600,22 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Le Palais des Cerisiers",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::le palais des cerisiers - bb",
@@ -6314,7 +8642,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Le Palais des Cerisiers - BB",
+            "location": "Azrou",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "City Tax PP (Add-ons); Double - Standard Room; Leader Single Room - Standard; Single - Standard Room; Twin - Standard Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Le Palais des Cerisiers",
+            "comment": ""
+          }
         },
         {
           "id": "P3::le palais des cerisiers - hb",
@@ -6341,7 +8683,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Le Palais des Cerisiers - HB",
+            "location": "Azrou",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "City Tax PP (Add-ons); Double - Standard Room; Leader Single Room - Standard; Single - Standard Room; Twin - Standard Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Le Palais des Cerisiers",
+            "comment": ""
+          }
         },
         {
           "id": "P3::le palais des cerisiers-hb",
@@ -6370,7 +8726,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Le Palais des Cerisiers-HB",
+            "location": "Azrou",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::local embroidery workshop visit",
@@ -6399,7 +8770,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Local Embroidery Workshop Visit",
+            "location": "Ouarzazate",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::lodge hara oasis bb",
@@ -6425,7 +8811,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Lodge Hara Oasis BB",
+            "location": "Agdez",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "City Tax PP (Add-ons); Double - Standard Bangalow; Leader - Standard Bangalow; Promotion Tax PP (Add-ons); Single - Standard Bangalow; Twin - Standard Bangalow",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Lodge Hara Oasis",
+            "comment": ""
+          }
         },
         {
           "id": "P3::lodge hara oasis hb",
@@ -6457,7 +8857,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Lodge Hara Oasis HB",
+            "location": "Agdez; Agdz",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Lodge Hara Oasis",
+            "comment": ""
+          }
         },
         {
           "id": "P3::maison d'hôtes kasbah azul-hb",
@@ -6486,7 +8900,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Maison d'Hôtes Kasbah Azul-HB",
+            "location": "Agdz",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::marina bay city center",
@@ -6518,7 +8947,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation; City Tax (Add-ons)",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Marina Bay City Center",
+            "location": "Tangier",
+            "businessUnit": "",
+            "serviceType": "Accommodation; City Tax (Add-ons)",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Marina Bay City Center",
+            "comment": ""
+          }
         },
         {
           "id": "P3::marrakech food tasting budget",
@@ -6547,7 +8990,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Marrakech food tasting budget",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::mia hotels",
@@ -6568,7 +9026,22 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Mia Hotels",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::mint tea with sweets",
@@ -6597,7 +9070,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Mint Tea with sweets",
+            "location": "Rabat",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::pastries tasting",
@@ -6626,7 +9114,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Pastries tasting",
+            "location": "Casablanca",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::private vehicle & driver",
@@ -6655,7 +9158,22 @@ window.ISSUE_DATA = {
           "stType": "Transport",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Private Vehicle & Driver",
+            "location": "Casablanca; Fes; Marrakech; Tangier",
+            "businessUnit": "",
+            "serviceType": "Transport",
+            "priceCategory": "Per Day",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::private vehicle & driver - over 5 days",
@@ -6682,7 +9200,21 @@ window.ISSUE_DATA = {
           "stType": "Transport",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Private Vehicle & Driver - Over 5 Days",
+            "location": "Morocco",
+            "businessUnit": "",
+            "serviceType": "Transport",
+            "priceCategory": "Per Vehicle (Max14); Per Vehicle (Max17); Per Vehicle (Max18); Per Vehicle (Max28); Per Vehicle (Max38); Per Vehicle (Max48); Per Vehicle (Max8); Relocation Per Vehicle (Max14) less Than 10days; Relocation Per Vehicle (Max17) less Than 10days; Relocation Per Vehicle (Max18) less Than 10days; Relocation Per Vehicle (Max28) less Than 10days; Relocation Per Vehicle (Max38) less Than 10days; Relocation Per Vehicle (Max48) less Than 10days; Relocation Per Vehicle (Max8) less Than 10days",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Ouhra Transport",
+            "comment": ""
+          }
         },
         {
           "id": "P3::riad & camp chebbi",
@@ -6703,7 +9235,22 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Riad & Camp Chebbi",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::riad chebbi-hb",
@@ -6732,7 +9279,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Riad Chebbi-HB",
+            "location": "Merzouga",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::riad joddour",
@@ -6759,7 +9321,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Joddour",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Joudour",
+            "comment": ""
+          }
         },
         {
           "id": "P3::sunset drink at taman’art space studio",
@@ -6788,7 +9364,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Sunset drink at Taman’Art Space Studio",
+            "location": "Ait Benhaddou",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::the white camel",
@@ -6814,7 +9405,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "The White Camel",
+            "location": "Agafay",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "New Year Supplement PP; Oasis Lodge -  Double For Single Tent; Oasis Lodge -  Leader Tent; Oasis Lodge - Double Tent; Oasis Lodge - Twin Tent",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Thw White Camel",
+            "comment": ""
+          }
         },
         {
           "id": "P3::transfer to the guided tour casablanca",
@@ -6843,7 +9448,22 @@ window.ISSUE_DATA = {
           "stType": "Transport",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transfer to The Guided Tour Casablanca",
+            "location": "Casablanca",
+            "businessUnit": "",
+            "serviceType": "Transport",
+            "priceCategory": "Banded",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::transport between trip- marrakech fes",
@@ -6872,7 +9492,22 @@ window.ISSUE_DATA = {
           "stType": "Operational",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transport Between Trip- Marrakech Fes",
+            "location": "Fes",
+            "businessUnit": "",
+            "serviceType": "Operational",
+            "priceCategory": "Per Trip",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::transport between trip- tangier marrakech",
@@ -6901,7 +9536,22 @@ window.ISSUE_DATA = {
           "stType": "Operational",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Transport Between Trip- Tangier Marrakech",
+            "location": "Tangier",
+            "businessUnit": "",
+            "serviceType": "Operational",
+            "priceCategory": "Per Trip",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::underground kasbah guided tour",
@@ -6930,7 +9580,22 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Underground Kasbah Guided Tour",
+            "location": "Tamegroute",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::xaluca lac aguelmame hb",
@@ -6957,7 +9622,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation; City Tax (Add on)",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Xaluca Lac Aguelmame HB",
+            "location": "Aguelmam",
+            "businessUnit": "",
+            "serviceType": "Accommodation; City Tax (Add on)",
+            "priceCategory": "City Tax PP; New Year Dinner; New Year Dinner PP; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Twin - Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Xaluca Hotels",
+            "comment": ""
+          }
         },
         {
           "id": "P3::xaluxa aguelmame sidi ali-hb",
@@ -6986,7 +9665,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Xaluxa aguelmame sidi Ali-HB",
+            "location": "Aguelmame Sidi Ali",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::zephyr hotel- hb",
@@ -7015,7 +9709,22 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Zephyr Hotel- HB",
+            "location": "Ifrane",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P3::zephyr mazagan",
@@ -7041,7 +9750,21 @@ window.ISSUE_DATA = {
           "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Zephyr Mazagan",
+            "location": "El Jadida",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Apartement F2; Apartement F3; Breakfast; City Tax; Dinner; Double - Standard Room; Double - Suite; Leader Room Single - Standard; Lunch; Single - Standard Room; Single - Suite; Twin - Standard Room; Twin - Suite",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Zephyr Mazagan",
+            "comment": ""
+          }
         }
       ]
     },
@@ -7083,7 +9806,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Atlas Film Studio visit",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::azawad luxury desert camp",
@@ -7115,7 +9852,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Azawad Luxury Desert Camp",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026  -  31/12/2026",
+            "pricelist": "",
+            "price": "Single - Tent 980 MAD [FIT/Group Series] 2026 All Year; Double - Tent 1420 MAD [FIT/Group Series] 2026 All Year; Twin - Tent 1420 MAD [FIT/Group Series] 2026 All Year; Triple- Tent 1860 MAD [FIT/Group Series] 2026 All Year; Quadruple- Tent 2300 MAD [FIT/Group Series] 2026 All Year; Leader Single - Tent 980 MAD [FIT/Group Series] 2026 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::cap spartel",
@@ -7148,7 +9899,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Cap spartel",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::cooking class and lunch at tawsna association",
@@ -7178,7 +9943,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Cooking Class and Lunch at Tawsna Association",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::dar cherifa",
@@ -7210,7 +9989,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Dar cherifa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026  -  31/12/2026",
+            "pricelist": "",
+            "price": "Standard - Double Room 1280 MAD [FIT] 2026 All Year; Standard - Twin Room 1280 MAD [FIT] 2026 All Year; Double for Single Use 980 MAD [FIT] 2026 All Year; Standard - Single Room 980 MAD [FIT] 2026 All Year; Leader Single Room 0 MAD [FIT] 2026 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::day trip to khamlia 4x4 excursion",
@@ -7241,7 +10034,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Day Trip to Khamlia 4x4 Excursion",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::etoile filante d'or hb",
@@ -7288,7 +10095,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Etoile Filante D'or HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2027  -  31/12/2027; 1/5/2025  -  31/12/2026",
+            "pricelist": "",
+            "price": "Standard - Double Room 330 MAD [FIT/Group Series] 2025-2026 All Year; Twin - Twin Room 330 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Single Room 300 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Leader Single Room 0 MAD [FIT/Group Series] 2025-2026 All Year; Double for Single Use 300 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Triple Room 495 MAD [FIT/Group Series] 2025-2026 All Year; Crew Twin Room 0 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Double Room 380 MAD [FIT/Group Series] 2027 All Year; Twin - Twin Room 380 MAD [FIT/Group Series] 2027 All Year; Standard - Single Room 300 MAD [FIT/Group Series] 2027 All Year; Standard - Leader Single Room 0 MAD [FIT/Group Series] 2027 All Year; Double for Single Use 300 MAD [FIT/Group Series] 2027 All Year; Standard - Triple Room 530 MAD [FIT/Group Series] 2027 All Year; Crew Twin Room 0 MAD [FIT/Group Series] 2027 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::executive boutique hotel rabat",
@@ -7321,7 +10142,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Executive Boutique Hotel Rabat",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026 - 31/12/2027",
+            "pricelist": "",
+            "price": "Double - Standard Room 950 MAD [FIT/Group series] 2026-2027 All Year; Twin - Standard Room 950 MAD [FIT/Group series] 2026-2027 All Year; Single - Standard Room 850 MAD [FIT/Group series] 2026-2027 All Year; Leader Room Single - Standard 850 MAD [FIT/Group series] 2026-2027 All Year; Suite - Double 1400 MAD [FIT/Group series] 2026-2027 All Year; Suite - Twin 1400 MAD [FIT/Group series] 2026-2027 All Year; Suite - Single 1400 MAD [FIT/Group series] 2026-2027 All Year; City Tax 13.2 MAD [FIT/Group series] 2026-2027 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::hotel charf",
@@ -7356,7 +10191,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Charf",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026  -  30/6/2026\n 1/9/2026  -  31/12/2026   \n1/1/2027  -  30/6/2027   \n1/9/2027  -  31/12/2027; 1/7/2026  -  31/8/2026   \n1/7/2027  -  31/8/2027",
+            "pricelist": "",
+            "price": "Double - Standard Room 572 MAD [FIT/Group series] 2026-2027 Low Season; Twin - Standard Room 572 MAD [FIT/Group series] 2026-2027 Low Season; Single - Standard Room 561 MAD [FIT/Group series] 2026-2027 Low Season; Breakfast 55 MAD [FIT/Group series] 2026-2027 Low Season; Double-Junior 902 MAD [FIT/Group series] 2026-2027 Low Season; Twin-Junior 902 MAD [FIT/Group series] 2026-2027 Low Season; Single-Junior 891 MAD [FIT/Group series] 2026-2027 Low Season; Maos Method Multiple Crew Room (Pax Banded) Max 8 500 MAD [FIT/Group series] 2026-2027 Low Season; Maos Method Multiple Crew Room (Pax Banded) Max 16 325 MAD [FIT/Group series] 2026-2027 Low Season; Double - Standard Room 847 MAD [FIT/Group series] 2026-2027 High Season; Twin - Standard Room 847 MAD [FIT/Group series] 2026-2027 High Season; Single - Standard Room 836 MAD [FIT/Group series] 2026-2027 High Season; Breakfast 55 MAD [FIT/Group series] 2026-2027 High Season; Double-Junior 902 MAD [FIT/Group series] 2026-2027 High Season; Twin-Junior 902 MAD [FIT/Group series] 2026-2027 High Season; Single-Junior 891 MAD [FIT/Group series] 2026-2027 High Season; Maos Method Multiple Crew Room (Pax Banded) Max 8 500 MAD [FIT/Group series] 2026-2027 High Season; Maos Method Multiple Crew Room (Pax Banded) Max 16 325 MAD [FIT/Group series] 2026-2027 High Season",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::hotel karam palace hb",
@@ -7409,7 +10258,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Karam Palace HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "01/11/2026 - 31/10/2027",
+            "pricelist": "",
+            "price": "Double Room - Standard 960 MAD [FIT] 26-2027 All Year; Twin Room - Standard 960 MAD [FIT] 26-2027 All Year; Single Room - Standard 730 MAD [FIT] 26-2027 All Year; Leader Single Room - Standard 730 MAD [FIT] 26-2027 All Year; City Tax 16.5 MAD [FIT] 26-2027 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::hotel swani",
@@ -7472,7 +10335,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Swani",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026 - 31/12/2027",
+            "pricelist": "",
+            "price": "Double - Standard Room 380 MAD [FIT] 2026-27 All Year; Twin - Standard Rom 380 MAD [FIT] 2026-27 All Year; Double for Single Use 279 MAD [FIT] 2026-27 All Year; Single - Standard Room 279 MAD [FIT] 2026-27 All Year; Triple - Standard Room 510 MAD [FIT] 2026-27 All Year; Leader Room Single - Standard 0 MAD [FIT] 2026-27 All Year; Sawadee - 2nd Leader Room 279 MAD [FIT] 2026-27 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::hotel xaluca dades hb",
@@ -7528,7 +10405,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Xaluca Dades HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "01/11/2026 - 30/12/2026 \n01/01/2027 - 14/06/2027\n01/09/2027 - 31/10/2027; 1/10/2026 - 31/10/2026; 15/06/2027 - 31/08/2027; 31/12/2026 - 31/12/2026",
+            "pricelist": "",
+            "price": "Standard - Double Room 1560 MAD [FIT] 2026-27 High; Twin - Twin Room 1560 MAD [FIT] 2026-27 High; Standard - Single Room 1130 MAD [FIT] 2026-27 High; Standard - Leader Single Room 0 MAD [FIT] 2026-27 High; City Tax 16.5 MAD [FIT] 2026-27 High; Standard - Double Room 1500 MAD [FIT] 2026-27 Low; Twin - Twin Room 1500 MAD [FIT] 2026-27 Low; Standard - Single Room 1100 MAD [FIT] 2026-27 Low; Standard - Leader Single Room 0 MAD [FIT] 2026-27 Low; City Tax 16.5 MAD [FIT] 2026-27 Low; Standard - Double Room 3160 MAD [FIT] 2026-27 New Year; Twin - Twin Room 3160 MAD [FIT] 2026-27 New Year; Standard - Single Room 1930 MAD [FIT] 2026-27 New Year; Standard - Leader Single Room 0 MAD [FIT] 2026-27 New Year; City Tax 16.5 MAD [FIT] 2026-27 New Year; Standard - Double Room 1360 MAD [FIT] 2026 High; Twin - Twin Room 1360 MAD [FIT] 2026 High; Standard - Single Room 1030 MAD [FIT] 2026 High; Standard - Leader Single Room 0 MAD [FIT] 2026 High; City Tax 16.5 MAD [FIT] 2026 High",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::kasbah ait benhaddou visit",
@@ -7561,7 +10452,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Kasbah Ait Benhaddou Visit",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::kasbah amridil visit",
@@ -7592,7 +10497,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Kasbah Amridil Visit",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::kasbah chefchaouen",
@@ -7623,7 +10542,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Kasbah Chefchaouen",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::kasbah du toubkal - hb",
@@ -7675,7 +10608,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Kasbah du Toubkal - HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::kasbah la famille berbere hb",
@@ -7709,7 +10656,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Kasbah La Famille Berbere HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026  -  31/12/2027",
+            "pricelist": "",
+            "price": "Single Room 300 MAD [FIT/Group series] 2026 - 2027 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::ksar shama hb",
@@ -7768,7 +10729,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Ksar Shama HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026 - 31/12/2027",
+            "pricelist": "",
+            "price": "Double - Standard Room 950 MAD [FIT] 2026-27 All Year; Twin - Standard Room 950 MAD [FIT] 2026-27 All Year; Single - Standard Room 750 MAD [FIT] 2026-27 All Year; Double for Single Use 850 MAD [FIT] 2026-27 All Year; Leader Room Single - Standard 750 MAD [FIT] 2026-27 All Year; City Tax 15 MAD [FIT] 2026-27 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::local guide ait benhaddou",
@@ -7806,7 +10781,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Ait Benhaddou",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::local guide half day essaouira",
@@ -7844,7 +10833,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Half day Essaouira",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::local guide half day imlil",
@@ -7881,7 +10884,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Half day Imlil",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::local guide half day marrakech",
@@ -7920,7 +10937,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Half day Marrakech",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::local guide half day meknes",
@@ -7958,7 +10989,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Half day Meknes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
+            "pricelist": "",
+            "price": "Per Group 300 MAD [FIT] 2026 All Year; Per Group 350 MAD [FIT] 2027 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::local guide site visit volubilis",
@@ -7996,7 +11041,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local Guide Site Visit Volubilis",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
+            "pricelist": "",
+            "price": "Per Group 200 MAD [FIT] 2026 All Year; Per Group 300 MAD [FIT] 2027 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::lunch with a local family in todra",
@@ -8028,7 +11087,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Lunch With a Local Family in Todra",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::palmeras y dunas luxury camp - hb",
@@ -8075,7 +11148,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Palmeras Y Dunas Luxury Camp - HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::riad atlas 4 seasons - hb",
@@ -8106,7 +11193,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Atlas 4 Seasons - HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026  -  31/12/2026",
+            "pricelist": "",
+            "price": "Double - Standard Room 490 MAD [FIT/Group Series] 2026 All Year; Twin - Standard Room 490 MAD [FIT/Group Series] 2026 All Year; Single - Standard Room 350 MAD [FIT/Group Series] 2026 All Year; Leader Room Single - Standard 0 MAD [FIT/Group Series] 2026 All Year; Triple - Standard Room 740 MAD [FIT/Group Series] 2026 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::riad chbanate",
@@ -8187,7 +11288,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Chbanate",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026  -  31/12/2027",
+            "pricelist": "",
+            "price": "Double - Suite Confort 1320 MAD [FIT] 2026-27 All Year; Twin - Suite Confoort 1320 MAD [FIT] 2026-27 All Year; Double For Single  - Suite Confort 1320 MAD [FIT] 2026-27 All Year; Leader Room Single - Standard 1320 MAD [FIT] 2026-27 All Year; Double - Suite Romantic 1680 MAD [FIT] 2026-27 All Year; Twin - Suite Romantic 1680 MAD [FIT] 2026-27 All Year; Double For Single  - Suite Romantic 1680 MAD [FIT] 2026-27 All Year; Double - Suite Panoramic 2080 MAD [FIT] 2026-27 All Year; Twin - Suite Panoramic 2080 MAD [FIT] 2026-27 All Year; Double For Single  - Suite Panoramic 2080 MAD [FIT] 2026-27 All Year; City Tax PP 33 MAD [FIT] 2026-27 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::riad ksar ighnda hb",
@@ -8221,7 +11336,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Ksar Ighnda HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026 - 31/12/2026; 1/1/2027 - 31/12/2027",
+            "pricelist": "",
+            "price": "Double - Suite 3340 MAD [FIT/Group Series] 2026 All Year; Twin - Suite 3340 MAD [FIT/Group Series] 2026 All Year; Single - Suite 2950 MAD [FIT/Group Series] 2026 All Year; Double - Superior 2710 MAD [FIT/Group Series] 2026 All Year; Twin - Superior 2710 MAD [FIT/Group Series] 2026 All Year; Single - Superior 2320 MAD [FIT/Group Series] 2026 All Year; City Tax 31 MAD [FIT/Group Series] 2026 All Year; Double - Suite 3475 MAD [FIT/Group Series] 2027 All Year; Twin - Suite 3475 MAD [FIT/Group Series] 2027 All Year; Single - Suite 3910 MAD [FIT/Group Series] 2027 All Year; Double - Superior 2790 MAD [FIT/Group Series] 2027 All Year; Twin - Superior 2790 MAD [FIT/Group Series] 2027 All Year; Single - Superior 23355 MAD [FIT/Group Series] 2027 All Year; City Tax 31 MAD [FIT/Group Series] 2027 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::riad la cle d’or",
@@ -8282,7 +11411,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad la Cle d’Or",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "1/11/2026  -  26/12/2026; 1/6/2027 - 10/9/2027; 4/1/2027 - 31/5/207\n11/9/2027 - 31/10/2027",
+            "pricelist": "",
+            "price": "Standard - Double Room 2690 MAD [FIT/Group series] 2026 High; Standard - Twin Room 2690 MAD [FIT/Group series] 2026 High; Standard - Single Room 2645 MAD [FIT/Group series] 2026 High; Leader Single Room 0 MAD [FIT/Group series] 2026 High; Standard - Double Room 2690 MAD [FIT/Group series] 2027 High; Standard - Twin Room 2690 MAD [FIT/Group series] 2027 High; Standard - Single Room 2645 MAD [FIT/Group series] 2027 High; Leader Single Room 0 MAD [FIT/Group series] 2027 High; Standard - Double Room 1990 MAD [FIT/Group series] 2027 Low; Standard - Twin Room 1990 MAD [FIT/Group series] 2027 Low; Standard - Single Room 1945 MAD [FIT/Group series] 2027 Low; Leader Single Room 0 MAD [FIT/Group series] 2027 Low",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::sahara aventures camp",
@@ -8335,7 +11478,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Sahara Aventures Camp",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
+            "pricelist": "",
+            "price": "Single - Tent 250 MAD [FIT/Group Series] 2026 All Year; Leader Tent Single 0 MAD [FIT/Group Series] 2026 All Year; Triple - Tent 750 MAD [FIT/Group Series] 2026 All Year; Double - Tent 500 MAD [FIT/Group Series] 2026 All Year; Twin - Tent 500 MAD [FIT/Group Series] 2026 All Year; Single - Tent 260 MAD [FIT/Group Series] 2027 All Year; Leader Tent Single 0 MAD [FIT/Group Series] 2027 All Year; Triple - Tent 780 MAD [FIT/Group Series] 2027 All Year; Double - Tent 520 MAD [FIT/Group Series] 2027 All Year; Twin - Tent 520 MAD [FIT/Group Series] 2027 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::seafood market lunch",
@@ -8367,7 +11524,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Seafood Market Lunch",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         }
       ]
     },
@@ -8411,7 +11582,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Executive Boutique Hotel Rabat",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Executive Boutique Hotel",
+            "comment": ""
+          }
         },
         {
           "id": "P5::idou anfa hotel & spa",
@@ -8447,7 +11632,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Idou Anfa Hotel & Spa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "9; Idou Anfa Hotel & Spa",
+            "comment": ""
+          }
         },
         {
           "id": "P5::maison du sud",
@@ -8482,7 +11681,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Maison du Sud",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "2 Ciels Luxury Boutique; Maison du Sud",
+            "comment": ""
+          }
         },
         {
           "id": "P5::mia hotel - fes",
@@ -8520,7 +11733,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Mia Hotel - Fes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Mia Hotel",
+            "comment": ""
+          }
         },
         {
           "id": "P5::morocco - leader communication allowance",
@@ -8561,7 +11788,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Morocco - Leader Communication Allowance",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Crew Services",
+            "comment": ""
+          }
         },
         {
           "id": "P5::riad chbanate",
@@ -8596,7 +11837,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Chbanate",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "2 Ciels Luxury Boutique",
+            "comment": ""
+          }
         }
       ]
     },
@@ -8661,7 +11916,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Azawad Luxury Desert Camp",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::azrou cedar forest & barbary macaques visit",
@@ -8692,7 +11961,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Azrou Cedar Forest & Barbary Macaques Visit",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::bhalil cave house visit with tea break",
@@ -8723,7 +12006,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Bhalil Cave House Visit with Tea Break",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::dar cherifa",
@@ -8772,7 +12069,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Dar cherifa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::etoile filante d'or hb",
@@ -8841,7 +12152,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Etoile Filante D'or HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::executive boutique hotel rabat",
@@ -8896,7 +12221,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Executive Boutique Hotel Rabat",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::fondouk nejjarine fes",
@@ -8936,7 +12275,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Fondouk Nejjarine Fes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::hotel al walid",
@@ -8993,7 +12346,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Al Walid",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::hotel belere",
@@ -9073,7 +12440,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Belere",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::hotel caspien",
@@ -9133,7 +12514,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Caspien",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::hotel charf",
@@ -9190,7 +12585,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Charf",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::hotel karam palace hb",
@@ -9250,7 +12659,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Karam Palace HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::hotel le musee",
@@ -9304,7 +12727,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Le Musee",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::hotel les saisons",
@@ -9359,7 +12796,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Les Saisons",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::hotel parador",
@@ -9413,7 +12864,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Parador",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::hotel riad bahammou dades hb",
@@ -9469,7 +12934,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Riad BaHammou Dades HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::hotel rose valley",
@@ -9522,7 +13001,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Rose Valley",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::hotel swani",
@@ -9607,7 +13100,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Swani",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::hotel taddart hb",
@@ -9661,7 +13168,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Taddart HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::hotel tarek",
@@ -9715,7 +13236,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Tarek",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::hotel xaluca dades hb",
@@ -9793,7 +13328,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Xaluca Dades HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::idou anfa hotel & spa",
@@ -9849,7 +13398,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Idou Anfa Hotel & Spa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::kasbah hnini hb",
@@ -9908,7 +13471,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Kasbah Hnini HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::kasbah la famille berbere hb",
@@ -9959,7 +13536,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Kasbah La Famille Berbere HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::ksar shama hb",
@@ -10040,7 +13631,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Ksar Shama HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::local guide half day meknes",
@@ -10078,7 +13683,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Half day Meknes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::local guide site visit volubilis",
@@ -10116,7 +13735,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local Guide Site Visit Volubilis",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::lodge hara oasis hb",
@@ -10169,7 +13802,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Lodge Hara Oasis HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::maison du sud",
@@ -10225,7 +13872,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Maison du Sud",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::marina bay city center",
@@ -10279,7 +13940,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Marina Bay City Center",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::medersa attarine fes",
@@ -10319,7 +13994,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Medersa Attarine Fes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::mia camp hb",
@@ -10379,7 +14068,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Mia Camp HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::mia hotel - fes",
@@ -10438,7 +14141,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Mia Hotel - Fes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::morocco - daily crew bonus accrual",
@@ -10484,7 +14201,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Morocco - Daily Crew Bonus Accrual",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Day",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::morocco - leader communication allowance",
@@ -10530,7 +14261,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Morocco - Leader Communication Allowance",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Day",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::morocco fit - tour leader daily services - standard",
@@ -10583,7 +14328,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Morocco FIT - Tour Leader Daily Services - Standard",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Day",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::moulay driss couscous lunch",
@@ -10614,7 +14373,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Moulay Driss Couscous Lunch",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "N/A",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::palais ommeyad suites and spa",
@@ -10670,7 +14443,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Palais Ommeyad Suites and Spa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::riad 48",
@@ -10737,7 +14524,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad 48",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::riad atlas 4 seasons - hb",
@@ -10790,7 +14591,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Atlas 4 Seasons - HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::riad chakir mogador",
@@ -10845,7 +14660,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Chakir Mogador",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::riad chbanate",
@@ -10948,7 +14777,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Chbanate",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::riad ksar ighnda hb",
@@ -11004,7 +14847,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Ksar Ighnda HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::riad la cle d’or",
@@ -11082,7 +14939,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad la Cle d’Or",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::riad lamane - hb",
@@ -11135,7 +15006,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Lamane - HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::riad maktoub hb",
@@ -11186,7 +15071,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Maktoub HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::riad ritaj",
@@ -11239,7 +15138,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Ritaj",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::riad sayeda al hora",
@@ -11294,7 +15207,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Sayeda al Hora",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P6::sahara aventures camp",
@@ -11369,7 +15296,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Sahara Aventures Camp",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         }
       ]
     },
@@ -11409,7 +15350,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Auberge Chez Ali HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::azawad luxury desert camp",
@@ -11440,7 +15395,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Azawad Luxury Desert Camp",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::bread cooking demonstration",
@@ -11469,7 +15438,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Bread cooking Demonstration",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Crew; Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::etoile filante d'or hb",
@@ -11503,7 +15486,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Etoile Filante D'or HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::executive boutique hotel rabat",
@@ -11534,7 +15531,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Executive Boutique Hotel Rabat",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::fondouk nejjarine fes",
@@ -11567,7 +15578,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Fondouk Nejjarine Fes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::hotel charf",
@@ -11601,7 +15626,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Charf",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::hotel karam palace hb",
@@ -11631,7 +15670,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Karam Palace HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::hotel le musee",
@@ -11662,7 +15715,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Le Musee",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::hotel parador",
@@ -11693,7 +15760,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Parador",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::hotel rose valley",
@@ -11723,7 +15804,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Rose Valley",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::hotel swani",
@@ -11753,7 +15848,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Swani",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::hotel taddart hb",
@@ -11784,7 +15893,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Taddart HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::hotel xaluca dades hb",
@@ -11818,7 +15941,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Hotel Xaluca Dades HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::kasbah la famille berbere hb",
@@ -11852,7 +15989,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Kasbah La Famille Berbere HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::local guide half day meknes",
@@ -11882,7 +16033,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Half day Meknes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::local guide site visit volubilis",
@@ -11913,7 +16078,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local Guide Site Visit Volubilis",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::mia hotel - fes",
@@ -11949,7 +16128,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Mia Hotel - Fes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::morocco - daily crew bonus accrual",
@@ -11988,7 +16181,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Morocco - Daily Crew Bonus Accrual",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Day",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::morocco - leader communication allowance",
@@ -12027,7 +16234,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Morocco - Leader Communication Allowance",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Day",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::palais ommeyad suites and spa",
@@ -12060,7 +16281,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Palais Ommeyad Suites and Spa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::riad atlas 4 seasons - hb",
@@ -12090,7 +16325,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Atlas 4 Seasons - HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::riad chakir mogador",
@@ -12123,7 +16372,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Chakir Mogador",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::riad la cle d’or",
@@ -12161,7 +16424,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad la Cle d’Or",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::riad lamane - hb",
@@ -12191,7 +16468,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Lamane - HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::riad ritaj",
@@ -12222,7 +16513,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Riad Ritaj",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::sahara aventures camp",
@@ -12253,7 +16558,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Sahara Aventures Camp",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P8::volubilis visit",
@@ -12283,7 +16602,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Volubilis Visit",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Person",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         }
       ]
     },
@@ -12325,7 +16658,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "Activity",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Atlas Film Studio visit",
+            "location": "Ouarzazate",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P9::bread cooking demonstration",
@@ -12356,7 +16703,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "Activity",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Bread cooking Demonstration",
+            "location": "Imlil",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P9::cheese tasting",
@@ -12387,7 +16748,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "Activity",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Cheese Tasting",
+            "location": "Chefcharouen",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P9::day trip to khamlia 4x4 excursion",
@@ -12418,7 +16793,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "Activity",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Day Trip to Khamlia 4x4 Excursion",
+            "location": "Merzouga Desert Camp",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P9::kasbah chefchaouen",
@@ -12450,7 +16839,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "Activity",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Kasbah Chefchaouen",
+            "location": "Chefcharouen",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         }
       ]
     },
@@ -12493,7 +16896,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "Local Guide",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Ait Benhaddou",
+            "location": "Ait Benhaddou",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P10::local guide half day essaouira",
@@ -12525,7 +16942,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "Local Guide",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Half day Essaouira",
+            "location": "Essaouira",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P10::local guide half day imlil",
@@ -12556,7 +16987,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "Local Guide",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Half day Imlil",
+            "location": "Imlil",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P10::local guide half day marrakech",
@@ -12589,7 +17034,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "Local Guide",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Half day Marrakech",
+            "location": "Marrakech",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P10::local guide half day meknes",
@@ -12620,7 +17079,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "Local Guide",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local guide Half day Meknes",
+            "location": "Meknes",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P10::local guide site visit volubilis",
@@ -12652,7 +17125,21 @@ window.ISSUE_DATA = {
           "stType": "Activity",
           "prodType": "Local Guide",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Local Guide Site Visit Volubilis",
+            "location": "Volubilis",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P10::morocco - daily crew bonus accrual",
@@ -12692,7 +17179,21 @@ window.ISSUE_DATA = {
           "stType": "Crew Service; Leader Service",
           "prodType": "Crew Services",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Morocco - Daily Crew Bonus Accrual",
+            "location": "Morocco",
+            "businessUnit": "",
+            "serviceType": "Crew Service; Leader Service",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P10::morocco - leader communication allowance",
@@ -12732,7 +17233,21 @@ window.ISSUE_DATA = {
           "stType": "Crew Service; Leader Service",
           "prodType": "Crew Services",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Morocco - Leader Communication Allowance",
+            "location": "Morocco",
+            "businessUnit": "",
+            "serviceType": "Crew Service; Leader Service",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         }
       ]
     },
@@ -12772,7 +17287,22 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "fullyMissing": true,
+          "formDefaults": {
+            "name": "Free Time",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "N/A",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P11::moulay driss couscous lunch",
@@ -12801,7 +17331,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": ""
+          "prodAgreement": "",
+          "formDefaults": {
+            "name": "Moulay Driss Couscous Lunch",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "N/A",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         }
       ]
     },
@@ -12838,7 +17382,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "4WD Excursion",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::afternoon hammam & massage - mythic oriental spa",
@@ -12864,7 +17422,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Afternoon Hammam & Massage - Mythic Oriental Spa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::afternoon hammam experience - mythic oriental spa",
@@ -12896,7 +17468,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Afternoon Hammam Experience - Mythic Oriental Spa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::amazigh brunch in the valley",
@@ -12922,7 +17508,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Amazigh Brunch in the Valley",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::ancient library tamegroute",
@@ -12950,7 +17550,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Ancient Library Tamegroute",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::atlas film studio visit",
@@ -12978,7 +17592,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Atlas Film Studio visit",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::atlas studios visit",
@@ -13010,7 +17638,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Atlas Studios Visit",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::auberge chez ali hb",
@@ -13039,7 +17681,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Auberge Chez Ali HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Auberge Chez Ali",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::azawad luxury desert camp - hb",
@@ -13071,7 +17727,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Azawad Luxury Desert Camp - HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::azawad luxury desert camp hb",
@@ -13103,7 +17773,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Azawad Luxury Desert Camp HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::azawad luxury desert camp-hb",
@@ -13136,7 +17820,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Azawad Luxury Desert Camp-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::azrou cedar forest & barbary macaques visit",
@@ -13163,7 +17861,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Azrou Cedar Forest & Barbary Macaques Visit",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::bahia palace entrance",
@@ -13190,7 +17902,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Bahia palace entrance",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::bhalil cave house visit with tea break",
@@ -13217,7 +17943,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Bhalil Cave House Visit with Tea Break",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::bread cooking  demonstration",
@@ -13254,7 +17994,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Bread cooking  Demonstration",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::bread cooking demonstration",
@@ -13283,7 +18037,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Bread cooking Demonstration",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::bread-making demonstration",
@@ -13320,7 +18088,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Bread-Making Demonstration",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::camel ride",
@@ -13348,7 +18130,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Camel Ride",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Sahara Aventures",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::camel ride - sunrise",
@@ -13385,7 +18181,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Camel Ride - Sunrise",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::camel ride - sunset",
@@ -13418,7 +18228,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Camel Ride - Sunset",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::camp alladin -hb",
@@ -13444,7 +18268,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Camp Alladin -HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::camp caravane -hb",
@@ -13476,7 +18314,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Camp Caravane -HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::camp caravane hb",
@@ -13508,7 +18360,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Camp Caravane HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::camp caravane-hb",
@@ -13541,7 +18407,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Camp Caravane-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::camp la caravane - hb",
@@ -13578,7 +18458,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Camp la Caravane - HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::camp le sand-hb",
@@ -13610,7 +18504,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Camp le sand-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::cap spartel",
@@ -13640,7 +18548,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Cap spartel",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::cheese tasting",
@@ -13668,7 +18590,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Cheese Tasting",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Europe West - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::cooking class and lunch at tawsna association",
@@ -13696,7 +18632,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Cooking Class and Lunch at Tawsna Association",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::daily crew bonus accrual",
@@ -13739,7 +18689,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Daily Crew Bonus Accrual",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::dar cherifa",
@@ -13771,7 +18735,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Dar cherifa 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Dar cherifa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Dar cherifa",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::day trip to khamlia 4x4 excursion",
@@ -13799,7 +18777,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Day Trip to Khamlia 4x4 Excursion",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::domaine de la roseraie resort and spa hb",
@@ -13826,7 +18818,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Domaine de la Roseraie Resort and Spa HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::ecolodge dar itrane -hb",
@@ -13852,7 +18858,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Ecolodge Dar Itrane -HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::essaouira cooking class- madada",
@@ -13885,7 +18905,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Essaouira Cooking Class- Madada",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::etoile filante d'or hb",
@@ -13918,7 +18952,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Etoile Filante D'or HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Etoile Filante D'or",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::executive boutique hotel rabat",
@@ -13949,7 +18997,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Executive Boutique Hotel Rabat",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Executive Boutique Hotel",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::farewell dinner marrakech - el fassia restaurant",
@@ -13986,7 +19048,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Farewell Dinner Marrakech - El Fassia Restaurant",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::fondouk nejjarine fes",
@@ -14017,7 +19093,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Fondouk Nejjarine Fes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::free time",
@@ -14044,7 +19134,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Free Time",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::guided hike - ait bouguemez (happy valley)",
@@ -14081,7 +19185,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Guided Hike - Ait Bouguemez (Happy Valley)",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hassan ii mosque visit",
@@ -14111,7 +19229,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hassan II Mosque Visit",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hassan tower",
@@ -14144,7 +19276,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hassan Tower",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::home cooked lunch",
@@ -14181,7 +19327,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Home cooked Lunch",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::home-cooked lunch",
@@ -14219,7 +19379,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Home-Cooked Lunch",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel al walid",
@@ -14255,7 +19429,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Al Walid 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Al Walid",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Al Walid",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel belere",
@@ -14291,7 +19479,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Belere 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Belere",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Belere",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel caspien",
@@ -14331,7 +19533,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Caspien",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Le Caspien",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel hilton",
@@ -14360,7 +19576,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Hilton 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Hilton",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel karam palace hb",
@@ -14389,7 +19619,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Karam Palace HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Karam Palace",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel karam palace-hb",
@@ -14426,7 +19670,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Karam palace-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel le caspien",
@@ -14456,7 +19714,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel le Caspien 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel le Caspien",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Le Caspien",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel le musee",
@@ -14488,7 +19760,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Musee 2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Le Musee",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Le Musee",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel les saisons",
@@ -14522,7 +19808,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Les Saisons  2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Les Saisons",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Les Saisons",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel oscar-hb",
@@ -14554,7 +19854,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Oscar-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel parador",
@@ -14586,7 +19900,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Parador 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Parador",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Parador",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel riad bahammou dades hb",
@@ -14627,7 +19955,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Riad BaHammou Dades HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad BaHammou Dades",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel riad bahammou dades-hb",
@@ -14664,7 +20006,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Riad BaHammou Dades-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel rose valley",
@@ -14695,7 +20051,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Rose Valley 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Rose Valley",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Rose Valley",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel swani",
@@ -14726,7 +20096,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Swani 2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Swani",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Swani",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel taddart hb",
@@ -14756,7 +20140,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Taddart HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Taddart",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel tarek",
@@ -14786,7 +20184,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Tarek 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Tarek",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Tarek",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel toumbouctou-hb",
@@ -14813,7 +20225,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Toumbouctou-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel transatlantique",
@@ -14839,7 +20265,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Transatlantique",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel xaluca dades-hb",
@@ -14876,7 +20316,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Xaluca Dades-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel xaluxa dades hb",
@@ -14908,7 +20362,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Xaluxa Dades HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::hotel yassmina-hb",
@@ -14941,7 +20409,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Yassmina-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::idou anfa hotel & spa",
@@ -14975,7 +20457,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Idou Anfa 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Idou Anfa Hotel & Spa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "9; Idou Anfa Hotel & Spa",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::kasbah africa hb",
@@ -15002,7 +20498,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Kasbah Africa HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::kasbah ait ben damiette-hb",
@@ -15039,7 +20549,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Kasbah Ait Ben Damiette-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::kasbah ait benhaddou visit",
@@ -15069,7 +20593,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Kasbah Ait Benhaddou Visit",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::kasbah amridil visit",
@@ -15098,7 +20636,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Kasbah Amridil Visit",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::kasbah chefchaouen",
@@ -15127,7 +20679,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Kasbah Chefchaouen",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::kasbah des oudaias",
@@ -15154,7 +20720,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Kasbah des Oudaias",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::kasbah hnini hb",
@@ -15187,7 +20767,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Kasbah Hnini HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Dar Hnini",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::kasbah itrane-hb",
@@ -15219,7 +20813,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Kasbah Itrane-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::kasbah la famille berbere-hb",
@@ -15256,7 +20864,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Kasbah la famille berbere-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::ksar timnay riad mimouna-hb",
@@ -15294,7 +20916,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Ksar Timnay Riad Mimouna-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::l'ma lodge-hb",
@@ -15320,7 +20956,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "L'ma lodge-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::le palais des cerisiers-hb",
@@ -15346,7 +20996,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Le Palais des Cerisiers-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::leader communication allowance",
@@ -15389,7 +21053,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Leader Communication Allowance",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local embroidery workshop visit",
@@ -15415,7 +21093,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Local Embroidery Workshop Visit",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide ait benhaddou",
@@ -15444,7 +21136,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Local guide Ait Benhaddou",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide casablanca",
@@ -15479,7 +21185,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Local Guide Casablanca",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide chefchaouen",
@@ -15517,7 +21237,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Local Guide Chefchaouen",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide essaouira",
@@ -15555,7 +21289,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Local guide Essaouira",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide fes half day",
@@ -15594,7 +21342,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Local Guide Fes Half Day",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide half day casablanca",
@@ -15632,7 +21394,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Local guide half day Casablanca",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide half day essaouira",
@@ -15661,7 +21437,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Local guide Half day Essaouira",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide half day imlil",
@@ -15689,7 +21479,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Local guide Half day Imlil",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide half day marrakech",
@@ -15719,7 +21523,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Local guide Half day Marrakech",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide half day meknes",
@@ -15748,7 +21566,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Local guide Half day Meknes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide half day ouirgane",
@@ -15786,7 +21618,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Local guide half day Ouirgane",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide marrakech",
@@ -15827,7 +21673,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Local guide Marrakech",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide rabat",
@@ -15865,7 +21725,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Local Guide Rabat",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide site visit volubilis",
@@ -15894,7 +21768,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Local Guide Site Visit Volubilis",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide tanger",
@@ -15931,7 +21819,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Local Guide Tanger",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::local guide tangier",
@@ -15964,7 +21866,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Local guide Tangier",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::lodge hara oasis hb",
@@ -15993,7 +21909,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Lodge Hara Oasis 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Lodge Hara Oasis HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Lodge Hara Oasis",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::lunch at tawesna",
@@ -16030,7 +21960,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Lunch at Tawesna",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::lunch en route",
@@ -16067,7 +22011,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Lunch En Route",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::lunch with a local family in todra",
@@ -16096,7 +22054,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Lunch With a Local Family in Todra",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::maison d'hôtes kasbah azul-hb",
@@ -16122,7 +22094,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Maison d'Hôtes Kasbah Azul-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::maison du sud",
@@ -16155,7 +22141,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Maison du Sud",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "2 Ciels Luxury Boutique; Maison du Sud",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::marina bay city center",
@@ -16183,7 +22183,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Marina Bay City Center",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Marina Bay City Center",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::marrakech food tasting budget",
@@ -16209,7 +22223,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Marrakech food tasting budget",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::marrakech simply tasting trail",
@@ -16240,7 +22268,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Marrakech Simply Tasting Trail",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::mausoleum hassan ii",
@@ -16269,7 +22311,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Mausoleum Hassan II",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::mausoleum mohammed v",
@@ -16298,7 +22354,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Mausoleum Mohammed V",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::medersa attarine fes",
@@ -16333,7 +22403,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Medersa Attarine Fes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::mia camp hb",
@@ -16367,7 +22451,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Mia Camp HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Mia Hotels",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::mia hotel - fes",
@@ -16403,7 +22501,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Mia Hotel - Fes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Mia Hotel",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::mint tea with sweets",
@@ -16430,7 +22542,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Mint Tea with sweets",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::morocco - daily crew bonus accrual",
@@ -16467,7 +22593,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Morocco - Daily Crew Bonus Accrual",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Crew Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::morocco - leader communication allowance",
@@ -16505,7 +22645,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Morocco - Leader Communication Allowance",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Crew Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::morocco fit - tour leader daily services - standard",
@@ -16553,7 +22707,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Morocco FIT - Tour Leader Daily Services - Standard",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Crew Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::moulay driss couscous lunch",
@@ -16586,7 +22754,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Moulay Driss Couscous Lunch",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::palais bahia visit marrakech",
@@ -16614,7 +22796,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Palais Bahia Visit Marrakech",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::palmeras y dunas hb",
@@ -16651,7 +22847,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Palmeras y Dunas HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::palmeras y dunas luxury camp  hb",
@@ -16688,7 +22898,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Palmeras Y Dunas Luxury Camp  HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::palmeras y dunas luxury camp - hb",
@@ -16716,7 +22940,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Palmeras Y Dunas Luxury Camp - HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Palmeras Y Dunas Luxury Camp",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::palmeras y dunas-hb",
@@ -16755,7 +22993,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Palmeras y Dunas-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::pastries tasting",
@@ -16782,7 +23034,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Pastries tasting",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::private vehicle & driver",
@@ -16825,7 +23091,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Private Vehicle & Driver",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::riad 48",
@@ -16866,7 +23146,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad 48",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad 48",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::riad atlas 4 seasons - hb",
@@ -16895,7 +23189,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad Atlas 4 Seasons - HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Atlas 4 Seasons",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::riad chakir",
@@ -16927,7 +23235,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad Chakir",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::riad chakir mogador",
@@ -16960,7 +23282,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Chakir Mogador 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad Chakir Mogador",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Chakir Mogador",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::riad chebbi-hb",
@@ -16987,7 +23323,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad Chebbi-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::riad jnane imlil - hb",
@@ -17019,7 +23369,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad Jnane Imlil - HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::riad ksar ighnda-hb",
@@ -17057,7 +23421,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad Ksar Ighnda-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::riad lamane - hb",
@@ -17086,7 +23464,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad Lamane - HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Lamane",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::riad maktoub hb",
@@ -17119,7 +23511,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad Maktoub HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Maktoub",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::riad ritaj",
@@ -17150,7 +23556,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Ritaj 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad Ritaj",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Ritaj",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::riad sayeda al hora",
@@ -17184,7 +23604,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Sayeda al Hora 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad Sayeda al Hora",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Sayeda al Hora",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::sahara aventures camp",
@@ -17215,7 +23649,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Sahara Aventures Camp 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Sahara Aventures Camp",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Sahara Aventures",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::seafood market lunch",
@@ -17244,7 +23692,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Seafood Market Lunch",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::skoura lodge- hb",
@@ -17276,7 +23738,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Skoura Lodge- HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::sunset drink at taman’art space studio",
@@ -17302,7 +23778,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Sunset drink at Taman’Art Space Studio",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::taourirt kasbah visit",
@@ -17334,7 +23824,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Taourirt Kasbah Visit",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::todra gorge visit",
@@ -17366,7 +23870,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Todra Gorge Visit",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::train ticket  1st class",
@@ -17398,7 +23916,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Train Ticket  1st class",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::train ticket- 1st class",
@@ -17430,7 +23962,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Train ticket- 1st class",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::transfer - hotel to train station",
@@ -17468,7 +24014,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Transfer - Hotel to Train Station",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::transfer - train station to hotel",
@@ -17506,7 +24066,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Transfer - Train Station to Hotel",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::transfer to tasting trail",
@@ -17539,7 +24113,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Transfer to Tasting Trail",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::transfer to the guided tour casablanca",
@@ -17566,7 +24154,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Transfer to The Guided Tour Casablanca",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::transport between trip- marrakech fes",
@@ -17592,7 +24194,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Transport Between Trip- Marrakech Fes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::transport between trip- tangier marrakech",
@@ -17618,7 +24234,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Transport Between Trip- Tangier Marrakech",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::transport between trips  -marrakech tangier",
@@ -17655,7 +24285,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Transport Between Trips  -Marrakech Tangier",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::transport between trips -  fes marrakech",
@@ -17692,7 +24336,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Transport Between Trips -  Fes Marrakech",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::transport between trips - casablanca marrakech",
@@ -17729,7 +24387,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Transport Between Trips - Casablanca Marrakech",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::transport between trips - fes marrakech",
@@ -17766,7 +24438,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Transport between Trips - Fes Marrakech",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::transport between trips - marrakech fes",
@@ -17807,7 +24493,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Transport between trips - Marrakech Fes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::transport between trips - marrakech tangier",
@@ -17844,7 +24544,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Transport between Trips - Marrakech Tangier",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::transport between trips- casablanca marrakech",
@@ -17881,7 +24595,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Transport Between Trips- Casablanca Marrakech",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::transport between trips- marrakech casablanca",
@@ -17919,7 +24647,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Transport Between Trips- Marrakech Casablanca",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::transport between trips- tangier marrakech",
@@ -17956,7 +24698,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Transport between trips- Tangier Marrakech",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::underground kasbah guided tour",
@@ -17982,7 +24738,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Underground Kasbah Guided Tour",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::volubilis visit",
@@ -18011,7 +24781,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Volubilis Visit",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Cash Paid Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::wine tasting & lunch at château roslane",
@@ -18043,7 +24827,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Wine Tasting & Lunch at Château Roslane",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::wine tasting & lunch at val d'argan",
@@ -18075,7 +24873,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Wine Tasting & Lunch at Val d'Argan",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::xaluxa aguelmame sidi ali-hb",
@@ -18102,7 +24914,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Xaluxa aguelmame sidi Ali-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA1::zephyr hotel- hb",
@@ -18128,7 +24954,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Zephyr Hotel- HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         }
       ]
     },
@@ -18167,7 +25007,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "2 Ciels Luxury Boutique 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "2 Ciels Luxury Boutique",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "2Ciels Luxury Boutique",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::aladdin camp",
@@ -18195,7 +25049,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Aladdin Camp 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Aladdin Camp",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Chez Le Pacha",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::amadil",
@@ -18221,7 +25089,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Amadil 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Amadil",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::auberge & camp yasmina",
@@ -18247,7 +25129,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Auberge & Camp Yasmina 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Auberge & Camp Yasmina",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::auberge chez ali",
@@ -18273,7 +25169,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Auberge Chez Ali 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Auberge Chez Ali",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::auberge chez momo",
@@ -18299,7 +25209,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Auberge Chez Momo 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Auberge Chez Momo",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::azawad luxury desert camp",
@@ -18327,7 +25251,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Azawad Riad & Desert Camp 2026-2027",
-          "prodAgreement": "Jan 2026-"
+          "prodAgreement": "Jan 2026-",
+          "formDefaults": {
+            "name": "Azawad Luxury Desert Camp",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Azawad Riad & Desert Camp",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::camp aladdin",
@@ -18354,7 +25292,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Camp Aladdin 2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Camp Aladdin",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::camp la caravane",
@@ -18382,7 +25334,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Camp La Caravane 2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Camp La Caravane",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Auberge la Caravane",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::château roslane boutique hôtel & spa",
@@ -18410,7 +25376,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Château Roslane Boutique Hôtel & SPA 2026-2027",
-          "prodAgreement": "Jan 2026-"
+          "prodAgreement": "Jan 2026-",
+          "formDefaults": {
+            "name": "Château Roslane Boutique Hôtel & Spa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Chateau Roslane Boutique Hotel & Spa",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::cote ocean mogador hotel",
@@ -18438,7 +25418,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Cote Ocean Mogador Hotel 2026-2027",
-          "prodAgreement": "Jan 2026-"
+          "prodAgreement": "Jan 2026-",
+          "formDefaults": {
+            "name": "Cote Ocean Mogador Hotel",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Cote Ocean Mogador Hotel",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::dar baibou",
@@ -18466,7 +25460,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Dar Baibou 2026-2027",
-          "prodAgreement": "Jan 2026-"
+          "prodAgreement": "Jan 2026-",
+          "formDefaults": {
+            "name": "Dar Baibou",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Dar Baibou",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::dar cherifa",
@@ -18495,7 +25503,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Dar cherifa 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Dar cherifa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Dar cherifa",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::dar echaouen",
@@ -18523,7 +25545,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Dar Echaouen 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Dar Echaouen",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Dar echaouen",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::diyar timnay",
@@ -18549,7 +25585,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Diyar Timnay 2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Diyar Timnay",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::emeraude luxury camp & tents",
@@ -18575,7 +25625,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Emeraude Luxury Camp & Tents 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Emeraude Luxury Camp & Tents",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::etoile filante d'or",
@@ -18601,7 +25665,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Etoile Filante D'or 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Etoile Filante D'or",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::executive boutique hotel",
@@ -18627,7 +25705,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Executive Boutique Hotel 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Executive Boutique Hotel",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel al kalaa",
@@ -18655,7 +25747,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Al Kalaa 2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Al Kalaa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Al Kalaa",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel al walid",
@@ -18684,7 +25790,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Al Walid 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Al Walid",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Al Walid",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel belere",
@@ -18711,7 +25831,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Belere 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Belere",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel charf",
@@ -18739,7 +25873,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Charf 2026-2027",
-          "prodAgreement": "Jan 2026-"
+          "prodAgreement": "Jan 2026-",
+          "formDefaults": {
+            "name": "Hotel Charf",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Charf",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel gomassine",
@@ -18767,7 +25915,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Gomassine 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Gomassine",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Gomassine",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel grand plaza",
@@ -18795,7 +25957,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Grand Plaza 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Grand Plaza",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Grand Plaza",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel gray boutique",
@@ -18823,7 +25999,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Gray Boutique Hotel 2026-2027",
-          "prodAgreement": "Jan 2026-"
+          "prodAgreement": "Jan 2026-",
+          "formDefaults": {
+            "name": "Hotel Gray Boutique",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Gray Boutique Hotel Casablanca 42 suites",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel hilton",
@@ -18850,7 +26040,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Hilton 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Hilton",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel karam palace",
@@ -18876,7 +26080,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Karam Palace 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Karam Palace",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel lac aguelmam",
@@ -18902,7 +26120,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Xaluca Lac Aguelmam 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Lac Aguelmam",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel le caspien",
@@ -18931,7 +26163,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel le Caspien 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel le Caspien",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Le Caspien",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel le musee",
@@ -18960,7 +26206,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Musee 2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Le Musee",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Le Musee",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel les saisons",
@@ -18989,7 +26249,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Les Saisons  2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Les Saisons",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Les Saisons",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel longue vie",
@@ -19015,7 +26289,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Longue Vie 2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Longue Vie",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel miramar / hotel miramar sea view",
@@ -19041,7 +26329,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Miramar 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Miramar / Hotel Miramar Sea View",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel mont gueliz",
@@ -19069,7 +26371,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Mont Gueliz 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Mont Gueliz",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Mont Gueliz",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel oasis & spa",
@@ -19095,7 +26411,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Oasis & Spa 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Oasis & Spa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel olympic",
@@ -19123,7 +26453,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Olympic 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Olympic",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Olympic",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel parador",
@@ -19152,7 +26496,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Parador 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Parador",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Parador",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel rose valley",
@@ -19181,7 +26539,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Rose Valley 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Rose Valley",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Rose Valley",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel swani",
@@ -19210,7 +26582,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Swani 2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Swani",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Swani",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel taddart",
@@ -19236,7 +26622,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Taddart 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Taddart",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel tarek",
@@ -19263,7 +26663,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Tarek 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Hotel Tarek",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel tomboctou xaluca",
@@ -19291,7 +26705,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Tomboctou Xaluca 2026-2027",
-          "prodAgreement": "Jan 2026-"
+          "prodAgreement": "Jan 2026-",
+          "formDefaults": {
+            "name": "Hotel Tomboctou Xaluca",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Xaluca Hotels",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel volubilis",
@@ -19319,7 +26747,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Volubilis 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Volubilis",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Volubilis",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel xaluca dades",
@@ -19347,7 +26789,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Xaluca Dades 2026-2027",
-          "prodAgreement": "Jan 2026-"
+          "prodAgreement": "Jan 2026-",
+          "formDefaults": {
+            "name": "Hotel Xaluca Dades",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Xaluca Hotels",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::hotel yasmina",
@@ -19375,7 +26831,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Yasmina 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Hotel Yasmina",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Hotel Yasmina",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::idou anfa hotel & spa",
@@ -19404,7 +26874,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Idou Anfa 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Idou Anfa Hotel & Spa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Idou Anfa Hotel & Spa",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::kasbah du toubkal",
@@ -19430,7 +26914,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Kasbah du Toubkal 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Kasbah du Toubkal",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::kasbah hnini",
@@ -19456,7 +26954,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Kasbah Hnini 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Kasbah Hnini",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::kasbah la famille berbere",
@@ -19482,7 +26994,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Kasbah La Famille Berbere 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Kasbah La Famille Berbere",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::ksar shama",
@@ -19508,7 +27034,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Ksar Shama 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Ksar Shama",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::ksar timnay riad mimouna",
@@ -19536,7 +27076,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Ksar Timnay Riad Mimouna 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Ksar Timnay Riad Mimouna",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Ksar Timnay",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::la colombe blanche",
@@ -19562,7 +27116,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "La Colombe Blanche 2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "La Colombe Blanche",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::le palais des cerisiers",
@@ -19588,7 +27156,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Le Palais des Cerisiers 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Le Palais des Cerisiers",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::lodge hara oasis bb",
@@ -19614,7 +27196,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Lodge Hara Oasis 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Lodge Hara Oasis BB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::lodge hara oasis hb",
@@ -19641,7 +27237,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Lodge Hara Oasis 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Lodge Hara Oasis HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::marina bay",
@@ -19667,7 +27277,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Marina Bay 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Marina Bay",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::mia hotels",
@@ -19693,7 +27317,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Mia Hotels 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Mia Hotels",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::moroccan house hotel marrakech",
@@ -19721,7 +27359,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Moroccan House Hotel Marrakech 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Moroccan House Hotel Marrakech",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Moroccan House Hotel Marrakech",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::palais houyam",
@@ -19749,7 +27401,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Palais Houyam 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Palais Houyam",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Houyam",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::palais ommeyad",
@@ -19775,7 +27441,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Palais Ommeyad  2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Palais Ommeyad",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::palmeras y dunas luxury camp",
@@ -19803,7 +27483,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Palmeras Y Dunas Luxury Camp 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Palmeras Y Dunas Luxury Camp",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Palmeras Y Dunas Luxury Camp",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::puerta azul",
@@ -19829,7 +27523,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Puerta Azul 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Puerta Azul",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad & camp chebbi",
@@ -19855,7 +27563,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad & Camp Chebbi 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad & Camp Chebbi",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad 48 & spa",
@@ -19883,7 +27605,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Kasbah Riad 48 & Spa 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad 48 & Spa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Kasbah Riad 48 & Spa",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad atlas 4 seasons",
@@ -19909,7 +27645,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Atlas 4 Seasons 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad Atlas 4 Seasons",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad bahammou",
@@ -19935,7 +27685,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "RIAD BAHAMMOU 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "RIAD BAHAMMOU",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad benatar",
@@ -19963,7 +27727,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Benatar 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad Benatar",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Benatar",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad chakir mogador",
@@ -19992,7 +27770,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Chakir Mogador 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad Chakir Mogador",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Chakir Mogador",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad chbanate",
@@ -20021,7 +27813,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Chbanate 2026-2027",
-          "prodAgreement": "Jan 2026-"
+          "prodAgreement": "Jan 2026-",
+          "formDefaults": {
+            "name": "Riad Chbanate",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Chbanate",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad el palacio & spa",
@@ -20049,7 +27855,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad El Palacio & Spa 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad El Palacio & Spa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad El Palacio & Spa",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad fes ziyat",
@@ -20075,7 +27895,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Fes Ziyat 2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad Fes ziyat",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad jnane imlil",
@@ -20101,7 +27935,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Jnane Imlil 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad Jnane Imlil",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad joudour",
@@ -20127,7 +27975,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Joudour 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad Joudour",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad ksar ighnda",
@@ -20153,7 +28015,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Ksar Ighnda 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad Ksar Ighnda",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad la cle d’or",
@@ -20182,7 +28058,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad la Clé d'Or 2026-2027",
-          "prodAgreement": "Jan 2026-"
+          "prodAgreement": "Jan 2026-",
+          "formDefaults": {
+            "name": "Riad la Cle d’Or",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad la Cle d’Or",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad lamane",
@@ -20208,7 +28098,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Lamane 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad Lamane",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad maison du sud",
@@ -20234,7 +28138,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Maison du Sud 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad Maison du Sud",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad maktoub",
@@ -20260,7 +28178,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Maktoub 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad Maktoub",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad marrakech by hivernage",
@@ -20288,7 +28220,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Marrakech By Hivernage 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad Marrakech By Hivernage",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Marrakech by Hivernage",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad mimouna",
@@ -20314,7 +28260,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Mimouna 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad Mimouna",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad nesma",
@@ -20342,7 +28302,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Nesma 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad Nesma",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Nesma",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad ouinz",
@@ -20368,7 +28342,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad ouinz 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Riad ouinz",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad oussagou",
@@ -20396,7 +28384,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Oussagou 2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad Oussagou",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Oussagou",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad raoud rayhane",
@@ -20424,7 +28426,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Raoud Rayhane 2026-2027",
-          "prodAgreement": "Jan 2026-"
+          "prodAgreement": "Jan 2026-",
+          "formDefaults": {
+            "name": "Riad Raoud Rayhane",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Raoud Rayhan",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad ritaj",
@@ -20453,7 +28469,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Ritaj 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad Ritaj",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Ritaj",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad sayeda al hora",
@@ -20482,7 +28512,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Sayeda al Hora 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad Sayeda al Hora",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Sayeda al Hora",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::riad tafilalet",
@@ -20510,7 +28554,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Tafilalet 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Riad Tafilalet",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Tafilalet",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::sahara aventure",
@@ -20536,7 +28594,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Sahara Aventure 2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Sahara Aventure",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::sahara aventures camp",
@@ -20565,7 +28637,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Sahara Aventures Camp 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Sahara Aventures Camp",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Sahara Aventures",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::stars hotel",
@@ -20593,7 +28679,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Stars Hotel 2026-2027",
-          "prodAgreement": "Jan 2026-"
+          "prodAgreement": "Jan 2026-",
+          "formDefaults": {
+            "name": "Stars Hotel",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Stars Hotel",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::the view agadir",
@@ -20621,7 +28721,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "The View Agadir 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "The View Agadir",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "The View Hotels",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::the white camel",
@@ -20648,7 +28762,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "The White Camel 2026",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "The White Camel",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::villa pomme d'or",
@@ -20674,7 +28802,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Villa Pomme D'Or 2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Villa Pomme D'Or",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "SA3::zephyr mazagan",
@@ -20700,7 +28842,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Zephyr Mazagan 2026-2027",
-          "prodAgreement": "—"
+          "prodAgreement": "—",
+          "formDefaults": {
+            "name": "Zephyr Mazagan",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         }
       ]
     },
@@ -20743,7 +28899,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Executive Boutique Hotel Rabat",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Executive Boutique Hotel",
+            "comment": ""
+          }
         },
         {
           "id": "SA5::idou anfa hotel & spa",
@@ -20778,7 +28948,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Hotel Idou Anfa 2026-2027",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Idou Anfa Hotel & Spa",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "9; Idou Anfa Hotel & Spa",
+            "comment": ""
+          }
         },
         {
           "id": "SA5::maison du sud",
@@ -20812,7 +28996,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Maison du Sud",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "2 Ciels Luxury Boutique; Maison du Sud",
+            "comment": ""
+          }
         },
         {
           "id": "SA5::mia hotel - fes",
@@ -20849,7 +29047,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Mia Hotel - Fes",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Mia Hotel",
+            "comment": ""
+          }
         },
         {
           "id": "SA5::morocco - leader communication allowance",
@@ -20888,7 +29100,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "None assigned"
+          "prodAgreement": "None assigned",
+          "formDefaults": {
+            "name": "Morocco - Leader Communication Allowance",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "DMC Morocco - Crew Services",
+            "comment": ""
+          }
         },
         {
           "id": "SA5::riad chbanate",
@@ -20923,7 +29149,21 @@ window.ISSUE_DATA = {
           "stType": "",
           "prodType": "",
           "saTemplateName": "Riad Chbanate 2026-2027",
-          "prodAgreement": "Jan 2026-"
+          "prodAgreement": "Jan 2026-",
+          "formDefaults": {
+            "name": "Riad Chbanate",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "2 Ciels Luxury Boutique",
+            "comment": ""
+          }
         }
       ]
     }

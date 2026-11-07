@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TailorMade — SGA vs Prod rectify</title>
+  <style>
+    :root {
+      --bg: #f4f1ea;
+      --paper: #fffdf8;
+      --ink: #1c1915;
+      --muted: #5c564c;
+      --line: #e4ddd0;
+      --accent: #1d4e89;
+      --accent-2: #1F4E79;
+      --yes: #1f6b4a;
+      --yes-bg: #e5f4ec;
+      --no: #9a3412;
+      --no-bg: #fde8dc;
+      --open: #92400e;
+      --open-bg: #fef3c7;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: var(--bg); color: var(--ink);
+      font: 14px/1.45 "Segoe UI", system-ui, sans-serif; }
+    header {
+      position: sticky; top: 0; z-index: 5;
+      background: #1F4E79; color: #fff;
+      padding: 14px 20px 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,.12);
+    }
+    header h1 { font-size: 18px; margin: 0 0 4px; font-weight: 650; }
+    header p { margin: 0; color: #d6e4f0; font-size: 12px; }
+    .bar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 10px; }
+    .bar button, .bar label.btn {
+      border: 0; background: #fff; color: #1F4E79; padding: 7px 12px; border-radius: 8px;
+      cursor: pointer; font: inherit; font-weight: 650;
+    }
+    .bar button.ghost { background: transparent; color: #fff; border: 1px solid #7aa0c4; }
+    .save-state { font-size: 12px; color: #d6e4f0; }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 18px 16px 80px; }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; margin-bottom: 14px; }
+    .stat { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+    .stat b { display: block; font-size: 22px; }
+    .stat span { color: var(--muted); font-size: 12px; }
+    .tabs { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0 12px; }
+    .tabs button {
+      border: 1px solid var(--line); background: var(--paper); color: var(--ink);
+      padding: 6px 10px; border-radius: 999px; cursor: pointer; font: inherit;
+    }
+    .tabs button.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+    .tabs button .n { opacity: .75; font-size: 11px; }
+    .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+    input[type="search"], input[type="password"], input[type="text"], textarea, select {
+      border: 1px solid var(--line); background: var(--paper); color: var(--ink);
+      padding: 8px 10px; border-radius: 8px; font: inherit;
+    }
+    input[type="search"] { min-width: 240px; flex: 1; }
+    .help { background: #eef3f9; border: 1px solid #d3e0ee; color: #1F4E79;
+      padding: 10px 12px; border-radius: 8px; margin-bottom: 12px; }
+    .card {
+      background: var(--paper); border: 1px solid var(--line); border-radius: 12px;
+      padding: 14px 16px; margin-bottom: 10px;
+    }
+    .card.yes { border-left: 4px solid var(--yes); }
+    .card.no { border-left: 4px solid var(--no); }
+    .card.done { border-left: 4px solid var(--accent); }
+    .card.open { border-left: 4px solid #c4b8a4; }
+    .card h3 { margin: 0 0 4px; font-size: 16px; }
+    .meta { color: var(--muted); font-size: 12px; margin-bottom: 8px; }
+    .pkgs { display: flex; gap: 4px; flex-wrap: wrap; margin: 4px 0 8px; }
+    .pkg { background: #f3eee4; border-radius: 999px; padding: 2px 8px; font-size: 11px; }
+    .fields { display: grid; grid-template-columns: 160px 1fr; gap: 2px 10px; font-size: 13px; margin: 8px 0; }
+    .fields dt { color: var(--muted); }
+    .fields dd { margin: 0; }
+    .choices { display: flex; flex-direction: column; gap: 6px; margin: 8px 0; }
+    .choices label {
+      display: flex; gap: 8px; align-items: flex-start; background: #faf7f0;
+      border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; cursor: pointer;
+    }
+    .choices label:hover { border-color: #c9bfae; }
+    .choices label input { margin-top: 3px; }
+    .score { color: var(--accent); font-weight: 650; font-size: 12px; }
+    textarea { width: 100%; min-height: 52px; }
+    .row-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+    .tag { display: inline-block; font-size: 11px; font-weight: 650; padding: 2px 8px; border-radius: 999px; }
+    .tag.yes { background: var(--yes-bg); color: var(--yes); }
+    .tag.no { background: var(--no-bg); color: var(--no); }
+    .tag.done { background: #e8eef7; color: var(--accent); }
+    .tag.open { background: var(--open-bg); color: var(--open); }
+    dialog { border: 1px solid var(--line); border-radius: 12px; padding: 16px; max-width: 520px; }
+    dialog::backdrop { background: rgba(28,25,21,.35); }
+    footer { margin-top: 24px; color: var(--muted); font-size: 12px; }
+    .empty { color: var(--muted); padding: 24px; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TailorMade — SGA vs Prod rectify</h1>
+    <p>Decide each issue here. Saves in this browser immediately. Use <b>Save online</b> to write <code>decisions.json</code> to GitHub so it survives if this page goes down.</p>
+    <div class="bar">
+      <button type="button" id="btnSave">Save online</button>
+      <button type="button" id="btnLoad" class="ghost">Reload from GitHub</button>
+      <button type="button" id="btnExport" class="ghost">Download JSON</button>
+      <label class="btn">Import JSON<input type="file" id="fileImport" accept="application/json" hidden /></label>
+      <button type="button" id="btnSettings" class="ghost">GitHub token</button>
+      <span class="save-state" id="saveState">Not saved yet</span>
+    </div>
+  </header>
+  <div class="wrap">
+    <div class="stats" id="stats"></div>
+    <div class="tabs" id="tabs"></div>
+    <div class="filters">
+      <input type="search" id="q" placeholder="Search service, package, supplier…" />
+      <select id="statusFilter">
+        <option value="open">Open only</option>
+        <option value="all">All</option>
+        <option value="decided">Decided</option>
+      </select>
+    </div>
+    <div class="help" id="help"></div>
+    <div id="list"></div>
+    <footer>
+      Decisions live in three places: this browser (localStorage), a downloaded JSON file, and
+      <code>decisions.json</code> in the GitHub repo (after Save online). Hosted on GitHub Pages for as long as the repo exists.
+    </footer>
+  </div>
+  <dialog id="settings">
+    <h3>Save online with GitHub</h3>
+    <p>Create a fine-grained PAT with <b>Contents: Read and write</b> on <code>tm-sga-prod-rectify</code>. It stays in this browser only.</p>
+    <input type="password" id="pat" placeholder="ghp_…" style="width:100%" />
+    <div class="row-actions">
+      <button type="button" id="btnSavePat">Store token</button>
+      <button type="button" id="btnCloseSettings">Close</button>
+    </div>
+  </dialog>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

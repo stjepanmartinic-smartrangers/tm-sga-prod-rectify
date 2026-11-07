@@ -801,23 +801,23 @@
   ];
 
   const SA_FORM = [
-    { key: "agreementName", label: "Agreement Name" },
-    { key: "dateFrom", label: "Date from" },
-    { key: "dateTo", label: "Date To" },
-    { key: "businessUnit", label: "Business Unit" },
-    { key: "channel", label: "Channel", options: OPT_CHANNEL },
-    { key: "invoiceBasis", label: "Supplier Invoice Basis", options: OPT_INVOICE },
-    { key: "cancellationPolicy", label: "Cancellation Policy" },
-    { key: "agreementType", label: "Agreement Type", options: OPT_AGREEMENT_TYPE },
-    { key: "paymentType", label: "Type", options: OPT_PAY_TYPE },
-    { key: "paymentMethod", label: "Payment Method", options: OPT_PAY_METHOD },
-    { key: "costBearer", label: "Cost Bearer", options: OPT_BEARER },
-    { key: "days", label: "Days" },
-    { key: "when", label: "When", options: OPT_WHEN },
-    { key: "service", label: "Service" },
-    { key: "priceCategory", label: "Price Category" },
-    { key: "addOns", label: "Add ons" },
-    { key: "fees", label: "Fees" },
+    { key: "agreementName", label: "Agreement Name", section: "Agreement", wide: true, help: "Please include Account name in the name." },
+    { key: "dateFrom", label: "Date from", section: "Agreement" },
+    { key: "dateTo", label: "Date To", section: "Agreement" },
+    { key: "businessUnit", label: "Business Unit", section: "Agreement" },
+    { key: "channel", label: "Channel", options: OPT_CHANNEL, section: "Payment Rule" },
+    { key: "invoiceBasis", label: "Supplier Invoice Basis", options: OPT_INVOICE, section: "Payment Rule" },
+    { key: "cancellationPolicy", label: "Cancellation Policy", section: "Payment Rule" },
+    { key: "agreementType", label: "Agreement Type", options: OPT_AGREEMENT_TYPE, section: "Payment Rule" },
+    { key: "paymentType", label: "Type", options: OPT_PAY_TYPE, section: "Payment Rule" },
+    { key: "paymentMethod", label: "Payment Method", options: OPT_PAY_METHOD, section: "Payment Rule" },
+    { key: "costBearer", label: "Cost Bearer", options: OPT_BEARER, section: "Payment Rule" },
+    { key: "days", label: "Days", section: "Payment Rule" },
+    { key: "when", label: "When", options: OPT_WHEN, section: "Payment Rule" },
+    { key: "service", label: "Service", section: "Supplier Agreement Assignment" },
+    { key: "priceCategory", label: "Price Category", section: "Supplier Agreement Assignment" },
+    { key: "addOns", label: "Add ons", section: "Supplier Agreement Assignment" },
+    { key: "fees", label: "Fees", section: "Supplier Agreement Assignment" },
     { key: "supplierName", label: "Supplier Name" },
     { key: "comment", label: "Comment", wide: true, area: true },
   ];
@@ -943,7 +943,8 @@
             } else {
               control = `<input type="text" data-form="${f.key}" data-id="${issue.id}" value="${esc(val)}" />`;
             }
-            return `<label class="${cls}">${esc(f.label)}${control}</label>`;
+            const help = f.help ? `<span class="field-help">${esc(f.help)}</span>` : "";
+            return `<label class="${cls}">${esc(f.label)}${help}${control}</label>`;
           })
           .join("");
         return `<section class="form-section">${heading}<div class="form-grid">${fields}</div></section>`;

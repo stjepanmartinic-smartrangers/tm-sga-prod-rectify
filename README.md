@@ -27,9 +27,11 @@ The yellow banner at the top is the reminder: **Save online** or other people wi
 
 `data.js` is generated from the current SGA vs Prod Excel problem sheets. Re-run `export_rectify_data.py` in `C:\VsCode\TailorMade\data\tm-packages-v1` when the workbooks change, then replace `data.js` here.
 
-## Who are you
+## Who are you / History
 
-The header has **Who are you**. Your name is stored in this browser (`localStorage`) so you are not asked every time. **Add a name…** grows the shared people list. After **Save online**, other machines see those names in the dropdown (Reload from GitHub).
+The header has **Who are you**. Your name is stored in this browser (`localStorage`) so you are not asked every time. **Add a name…** grows the shared people list. After **Save online**, other machines see those names.
+
+**History** tab lists who changed what, newest first. It is stored with the decisions (same Save online). When we merge back to Excel, History becomes a **Rectify History** sheet, and two JSON snapshots are written to `C:\ForSharing` (`tm-sga-prod-rectify-decisions.json` and `tm-sga-prod-rectify-history.json`).
 
 ## Review / change decisions
 

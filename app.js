@@ -21,6 +21,7 @@
   $("q").addEventListener("input", render);
   $("statusFilter").addEventListener("change", render);
   $("decisionFilter").addEventListener("change", render);
+  $("historyWho").addEventListener("change", render);
   $("btnSave").addEventListener("click", () => saveOnline(false));
   $("btnLoad").addEventListener("click", () => {
     const ok = window.confirm(
@@ -106,6 +107,10 @@
       `<option value="">Select…</option>` +
       names.map((n) => `<option value="${esc(n)}" ${n === me ? "selected" : ""}>${esc(n)}</option>`).join("") +
       `<option value="__add__">Add a name…</option>`;
+    const hw = $("historyWho").value || "all";
+    $("historyWho").innerHTML =
+      `<option value="all">Everyone</option>` +
+      names.map((n) => `<option value="${esc(n)}" ${n === hw ? "selected" : ""}>${esc(n)}</option>`).join("");
   }
 
   function confirmWho() {
@@ -131,6 +136,33 @@
     $("whoName").value = "";
     $("whoDialog").showModal();
     $("whoName").focus();
+  }
+
+  function logHistory(entry) {
+    ensureShape();
+    decisions.history.push({
+      at: new Date().toISOString(),
+      by: currentWho() || "Unknown",
+      ...entry,
+    });
+    if (decisions.history.length > 3000) {
+      decisions.history = decisions.history.slice(-3000);
+    }
+  }
+
+  function choiceLabel(sheet, issue, value) {
+    if (!value) return "Open";
+    if (!sheet || !issue) return value;
+    const o = optionsFor(sheet, issue).find((x) => x.value === value);
+    return o ? o.label : value;
+  }
+
+  function fmtWhen(iso) {
+    try {
+      return new Date(iso).toLocaleString();
+    } catch {
+      return iso || "";
+    }
   }
 
   function maybeAskWho() {
@@ -277,7 +309,19 @@
 
   function reopen(id) {
     requireWho(() => {
+      const issue = findIssue(id);
+      const sheet = findSheet(String(id).split("::")[0]);
       const d = dec(id);
+      logHistory({
+        kind: "reopen",
+        issueId: id,
+        sheetId: sheet ? sheet.id : "",
+        service: issue.service || "",
+        from: choiceLabel(sheet, issue, d.choice),
+        to: "Open",
+        choice: "",
+        status: "open",
+      });
       d.status = "open";
       d.choice = "";
       d.selected = "";
@@ -293,6 +337,7 @@
 
   function applyChoiceNow(id, value, issue, sheet) {
     const d = dec(id);
+    const prevChoice = d.choice;
     d.choice = value;
     d.updatedAt = new Date().toISOString();
     if (value === "no" || value === "skip") d.status = "no";
@@ -326,6 +371,17 @@
     } else if (value === "no") {
       d.selected = "";
     }
+    logHistory({
+      kind: "choice",
+      issueId: id,
+      sheetId: sheet.id,
+      service: issue.service,
+      from: choiceLabel(sheet, issue, prevChoice),
+      to: choiceLabel(sheet, issue, value),
+      selected: d.selected || "",
+      choice: value,
+      status: d.status,
+    });
     lastFocusId = id;
     if ($("statusFilter").value === "open") $("statusFilter").value = "all";
     scheduleSave();
@@ -350,6 +406,7 @@
       <div class="stat"><b>${c.total}</b><span>Unique issues</span></div>
       <div class="stat clickable ${sheetId !== "__decided__" && $("statusFilter").value === "open" ? "on" : ""}" id="statOpen"><b>${c.open}</b><span>Open — click to work these</span></div>
       <div class="stat clickable ${sheetId === "__decided__" ? "on" : ""}" id="statDecided"><b>${c.decided}</b><span>Decided — click to review / change</span></div>
+      <div class="stat clickable ${sheetId === "__history__" ? "on" : ""}" id="statHistory"><b>${(decisions.history || []).length}</b><span>History — who changed what</span></div>
       <div class="stat"><b>${data.generated}</b><span>Data extract</span></div>`;
     $("statOpen").onclick = () => {
       sheetId = data.sheets[0].id;
@@ -361,13 +418,20 @@
       $("statusFilter").value = "decided";
       render();
     };
+    $("statHistory").onclick = () => {
+      sheetId = "__history__";
+      render();
+    };
   }
 
   function renderTabs() {
     const decidedN = counts().decided;
     const decidedBtn = `<button type="button" data-id="__decided__" class="${sheetId === "__decided__" ? "on" : ""}">All decided <span class="n">${decidedN}</span></button>`;
+    const histN = (decisions.history || []).length;
+    const histBtn = `<button type="button" data-id="__history__" class="${sheetId === "__history__" ? "on" : ""}">History <span class="n">${histN}</span></button>`;
     $("tabs").innerHTML =
       decidedBtn +
+      histBtn +
       data.sheets
         .map((s) => {
           const left = s.issues.filter((i) => !isDecided(dec(i.id))).length;
@@ -378,7 +442,7 @@
       b.onclick = () => {
         const next = b.dataset.id;
         if (next === "__decided__") $("statusFilter").value = "decided";
-        else if (sheetId === "__decided__") {
+        else if (next !== "__history__" && (sheetId === "__decided__" || sheetId === "__history__")) {
           $("statusFilter").value = "all";
         }
         sheetId = next;
@@ -412,8 +476,18 @@
     });
     $("list").querySelectorAll("textarea[data-notes]").forEach((el) => {
       el.addEventListener("change", () => {
+        const pair = pairs.find((p) => p.issue.id === el.dataset.id);
         requireWho(() => {
+          const prev = dec(el.dataset.id).notes || "";
           dec(el.dataset.id).notes = el.value;
+          logHistory({
+            kind: "notes",
+            issueId: el.dataset.id,
+            sheetId: pair.sheet.id,
+            service: pair.issue.service,
+            from: prev,
+            to: el.value,
+          });
           scheduleSave();
         });
       });
@@ -427,14 +501,82 @@
       };
       el.addEventListener("input", saveForm);
       el.addEventListener("change", () => {
+        const pair = pairs.find((p) => p.issue.id === el.dataset.id);
         requireWho(() => {
           saveForm();
+          const field = ALL_FORM_FIELDS.find((f) => f.key === el.dataset.form);
+          logHistory({
+            kind: "form",
+            issueId: el.dataset.id,
+            sheetId: pair.sheet.id,
+            service: pair.issue.service,
+            field: field ? field.label : el.dataset.form,
+            to: el.value,
+          });
           scheduleSave();
         });
       });
     });
     $("list").querySelectorAll("[data-reopen]").forEach((el) => {
       el.addEventListener("click", () => reopen(el.dataset.id));
+    });
+  }
+
+  function historyHtml(h) {
+    const title =
+      h.kind === "form"
+        ? `Updated ${h.field || "field"}`
+        : h.kind === "notes"
+          ? "Updated notes"
+          : h.kind === "reopen"
+            ? "Reopened"
+            : h.to || "Changed";
+    const detail =
+      h.kind === "form" || h.kind === "notes"
+        ? esc(h.to || "")
+        : h.from && h.from !== h.to
+          ? `${esc(h.from)} → ${esc(h.to)}`
+          : esc(h.to || "");
+    const selected = h.selected ? `<div class="meta">${esc(h.selected)}</div>` : "";
+    return `<article class="card history-row" data-goto="${esc(h.issueId || "")}">
+      <div class="when">${esc(fmtWhen(h.at))} · ${esc(h.by || "Unknown")}</div>
+      <h3>${esc(h.service || h.issueId || "")}</h3>
+      <div class="meta">${esc(h.sheetId || "")} · ${esc(title)}</div>
+      <p>${detail}</p>
+      ${selected}
+    </article>`;
+  }
+
+  function renderHistory() {
+    $("help").textContent =
+      "Newest first. Click a row to open that service. Filter by person. This is the audit of who changed what — it is saved with Save online and used when we merge back to Excel.";
+    $("statusFilter").style.display = "none";
+    $("decisionFilter").style.display = "none";
+    $("historyWho").style.display = "";
+    const q = $("q").value.trim().toLowerCase();
+    const who = $("historyWho").value || "all";
+    const rows = (decisions.history || [])
+      .slice()
+      .reverse()
+      .filter((h) => {
+        if (who !== "all" && h.by !== who) return false;
+        if (!q) return true;
+        return [h.service, h.by, h.sheetId, h.to, h.from, h.field, h.selected].join(" ").toLowerCase().includes(q);
+      });
+    if (!rows.length) {
+      $("list").innerHTML = "<p class='empty'>No history yet. Decisions and form edits appear here with the person’s name after Save online.</p>";
+      return;
+    }
+    $("list").innerHTML = rows.map(historyHtml).join("");
+    $("list").querySelectorAll("[data-goto]").forEach((el) => {
+      el.addEventListener("click", () => {
+        const id = el.dataset.goto;
+        if (!id || !id.includes("::")) return;
+        sheetId = id.split("::")[0];
+        $("statusFilter").value = "all";
+        lastFocusId = id;
+        render();
+      });
     });
   }
 
@@ -446,8 +588,14 @@
     const q = $("q").value.trim().toLowerCase();
     const sf = $("statusFilter").value;
     const df = $("decisionFilter").value;
-    $("statusFilter").style.display = "";
+    $("statusFilter").style.display = sheetId === "__history__" ? "none" : "";
     $("decisionFilter").style.display = sheetId === "__decided__" ? "" : "none";
+    $("historyWho").style.display = sheetId === "__history__" ? "" : "none";
+    if (sheetId === "__history__") {
+      renderHistory();
+      maybeAskWho();
+      return;
+    }
     let pairs = [];
     if (sheetId === "__decided__") {
       $("help").textContent =

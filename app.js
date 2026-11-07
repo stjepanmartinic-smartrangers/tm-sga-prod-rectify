@@ -805,6 +805,7 @@
     { key: "dateFrom", label: "Date from", section: "Agreement" },
     { key: "dateTo", label: "Date To", section: "Agreement" },
     { key: "businessUnit", label: "Business Unit", section: "Agreement" },
+    { key: "supplierName", label: "Supplier Name", section: "Agreement" },
     { key: "channel", label: "Channel", options: OPT_CHANNEL, section: "Payment Rule" },
     { key: "invoiceBasis", label: "Supplier Invoice Basis", options: OPT_INVOICE, section: "Payment Rule" },
     { key: "cancellationPolicy", label: "Cancellation Policy", section: "Payment Rule" },
@@ -818,7 +819,6 @@
     { key: "priceCategory", label: "Price Category", section: "Supplier Agreement Assignment" },
     { key: "addOns", label: "Add ons", section: "Supplier Agreement Assignment" },
     { key: "fees", label: "Fees", section: "Supplier Agreement Assignment" },
-    { key: "supplierName", label: "Supplier Name" },
     { key: "comment", label: "Comment", wide: true, area: true },
   ];
 

@@ -46,7 +46,7 @@ Picklist fields use dropdowns from IntrepidProd (read-only describe): service re
 
 The Service Template create form is grouped: Service, Price Category, Price Season, Pricing, Supplier.
 
-The Supplier Agreement create form is grouped: Agreement, Payment Rule, Supplier Agreement Assignment. Agreement Name has help text: include the Account name in the name.
+The Supplier Agreement create form is grouped: Agreement (Supplier Name last), Payment Rule, Supplier Agreement Assignment. Agreement Name has help text: include the Account name in the name.
 
 ## Merge back into Excel
 

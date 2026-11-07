@@ -60,10 +60,7 @@
     .tabs button.on { background: var(--ink); color: #fff; border-color: var(--ink); }
     .tabs button .n { opacity: .75; font-size: 11px; }
     .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
-    #decisionFilter, #historyWho { display: none; }
-    .history-row { cursor: pointer; }
-    .history-row:hover { border-color: #c9bfae; }
-    .history-row .when { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+    #decisionFilter { display: none; }
     input[type="search"], input[type="password"], input[type="text"], textarea, select {
       border: 1px solid var(--line); background: var(--paper); color: var(--ink);
       padding: 8px 10px; border-radius: 8px; font: inherit;
@@ -156,9 +153,6 @@
         <option value="no">No only</option>
         <option value="done">Done only</option>
       </select>
-      <select id="historyWho">
-        <option value="all">Everyone</option>
-      </select>
     </div>
     <div class="help" id="help"></div>
     <div id="list"></div>
@@ -167,7 +161,7 @@
       <code>decisions.json</code> in the GitHub repo (after Save online). Hosted on GitHub Pages for as long as the repo exists.
       Use <b>All decided</b> (or the Decided number at the top) to reopen anything and change it.
       Default list is <b>All on this tab</b> so Yes/No stay on screen. <b>No</b> on a missing service opens the Service Template fields on that same card.
-      <b>History</b> lists who changed what. Your name is remembered in this browser; the people list is shared after Save online.
+      Your name is remembered in this browser; the people list is shared after Save online.
       When this round is finished, say so in chat — we merge Yes/No, chosen match, form fields, and notes back onto the Excel workbooks.
     </footer>
   </div>

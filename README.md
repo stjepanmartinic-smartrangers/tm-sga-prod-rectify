@@ -12,13 +12,12 @@ GitHub Pages stays up for as long as this repository exists (months is fine). It
 
 | Place | Survives if the site is offline? |
 | --- | --- |
-| Browser `localStorage` | Yes, on that computer/browser |
-| **Download JSON** | Yes — keep the file in `C:\ForSharing` |
+| Browser `localStorage` | Yes, on that computer/browser only |
 | **`decisions.json` in this repo** (Save online) | Yes — it is git history, independent of Pages |
 
 The yellow banner at the top is the reminder: **Save online** or other people will not see your work. Local browser save is not enough.
 
-Save online needs a GitHub token (Contents: Read and write on this repo only). Open **GitHub token** on the page, paste it, then **Save online**. Reload from GitHub to pick up someone else’s saves.
+Save online needs a GitHub token (Contents: Read and write on this repo only). The first Save online prompt stores it in this browser. **Reload from GitHub** warns and then overwrites this browser with the GitHub file.
 
 ## Local copy
 

@@ -25,17 +25,21 @@
   $("q").addEventListener("input", render);
   $("statusFilter").addEventListener("change", render);
   $("decisionFilter").addEventListener("change", render);
-  $("btnExport").addEventListener("click", exportJson);
-  $("fileImport").addEventListener("change", importJson);
-  $("btnSettings").addEventListener("click", () => $("settings").showModal());
   $("btnCloseSettings").addEventListener("click", () => $("settings").close());
   $("btnSavePat").addEventListener("click", () => {
     localStorage.setItem(LS_PAT, $("pat").value.trim());
     $("settings").close();
     setState("Token stored in this browser.");
+    saveOnline(false);
   });
   $("btnSave").addEventListener("click", () => saveOnline(false));
-  $("btnLoad").addEventListener("click", () => loadOnline(false));
+  $("btnLoad").addEventListener("click", () => {
+    const ok = window.confirm(
+      "Reload from GitHub will overwrite everything in this browser.\n\nAny decisions that were not Saved online will be lost. Continue?"
+    );
+    if (!ok) return;
+    loadOnline(false, true);
+  });
   $("pat").value = localStorage.getItem(LS_PAT) || "";
   $("who").addEventListener("change", () => {
     if ($("who").value === "__add__") {
@@ -801,34 +805,6 @@
       .replace(/"/g, "&quot;");
   }
 
-  function exportJson() {
-    persistLocal();
-    const blob = new Blob([JSON.stringify(decisions, null, 2)], { type: "application/json" });
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(blob);
-    a.download = "tm-sga-prod-rectify-decisions.json";
-    a.click();
-  }
-
-  function importJson(ev) {
-    const file = ev.target.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = () => {
-      try {
-        const parsed = JSON.parse(reader.result);
-        if (!parsed.byId) throw new Error("Missing byId");
-        adopt(parsed);
-        persistLocal();
-        render();
-      } catch (e) {
-        alert("Could not import: " + e.message);
-      }
-    };
-    reader.readAsText(file);
-    ev.target.value = "";
-  }
-
   async function saveOnline(quiet) {
     const token = localStorage.getItem(LS_PAT);
     if (!token) {
@@ -868,16 +844,27 @@
     }
   }
 
-  async function loadOnline(quiet) {
+  function replaceFromRemote(parsed) {
+    ensureShape(parsed);
+    decisions = {
+      byId: parsed.byId || {},
+      history: parsed.history || [],
+      people: parsed.people || [],
+      updatedAt: parsed.updatedAt || new Date().toISOString(),
+    };
+  }
+
+  async function loadOnline(quiet, replace) {
     try {
       const res = await fetch(RAW + "?t=" + Date.now());
       if (!res.ok) throw new Error("HTTP " + res.status);
       const parsed = await res.json();
       if (!parsed.byId) throw new Error("Remote file has no decisions yet");
-      adopt(parsed);
+      if (replace) replaceFromRemote(parsed);
+      else adopt(parsed);
       persistLocal();
       render();
-      setState("Loaded from GitHub · " + new Date().toLocaleTimeString());
+      setState((replace ? "Replaced from GitHub" : "Loaded from GitHub") + " · " + new Date().toLocaleTimeString());
     } catch (e) {
       if (!quiet) alert("Could not load GitHub decisions yet: " + e.message);
     }

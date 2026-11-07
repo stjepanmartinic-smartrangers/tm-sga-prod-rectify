@@ -522,6 +522,19 @@
     });
   }
 
+  function histKind(text, status) {
+    const t = String(text || "").toLowerCase();
+    if (status === "yes" || t.startsWith("yes")) return "yes";
+    if (status === "no" || status === "skip" || t.startsWith("no") || t.startsWith("skip")) return "no";
+    if (status === "done" || t.startsWith("done")) return "done";
+    return "open";
+  }
+
+  function histTag(text, status) {
+    if (!text) return "";
+    return `<span class="tag ${histKind(text, status)}">${esc(text)}</span>`;
+  }
+
   function historyHtml(h) {
     const title =
       h.kind === "form"
@@ -531,18 +544,24 @@
           : h.kind === "reopen"
             ? "Reopened"
             : h.to || "Changed";
-    const detail =
-      h.kind === "form" || h.kind === "notes"
-        ? esc(h.to || "")
-        : h.from && h.from !== h.to
-          ? `${esc(h.from)} → ${esc(h.to)}`
-          : esc(h.to || "");
+    let detail;
+    if (h.kind === "form" || h.kind === "notes") {
+      detail = `<p>${esc(h.to || "")}</p>`;
+    } else {
+      const fromTag = histTag(h.from);
+      const toTag = histTag(h.to, h.kind === "reopen" ? "open" : h.status);
+      detail =
+        h.from && h.from !== h.to
+          ? `<p class="hist-change">${fromTag}<span class="hist-arrow">→</span>${toTag}</p>`
+          : `<p class="hist-change">${toTag}</p>`;
+    }
     const selected = h.selected ? `<div class="meta">${esc(h.selected)}</div>` : "";
-    return `<article class="card history-row" data-goto="${esc(h.issueId || "")}">
+    const cardCls = h.kind === "reopen" ? "open" : histKind(h.to, h.status);
+    return `<article class="card history-row ${cardCls}" data-goto="${esc(h.issueId || "")}">
       <div class="when">${esc(fmtWhen(h.at))} · ${esc(h.by || "Unknown")}</div>
       <h3>${esc(h.service || h.issueId || "")}</h3>
       <div class="meta">${esc(h.sheetId || "")} · ${esc(title)}</div>
-      <p>${detail}</p>
+      ${detail}
       ${selected}
     </article>`;
   }

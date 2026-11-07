@@ -838,24 +838,25 @@
     if (!kind) return "";
     const form = d.form || {};
     let spec;
+    const extra = issue.formDefaults || {};
     if (kind === "sa") {
       spec = {
         fields: SA_FORM,
-        defs: saDefaults(issue),
+        defs: Object.assign({}, saDefaults(issue), extra),
         title: "New supplier agreement — template fields",
         hint: "Fill these so we can create the agreement.",
       };
     } else if (kind === "supplier") {
       spec = {
         fields: SUPPLIER_FORM,
-        defs: supplierDefaults(issue),
+        defs: Object.assign({}, supplierDefaults(issue), extra),
         title: "New / different supplier — service fields",
         hint: "Supplier Name plus the supplier fields from the Service Template, and the TM package.",
       };
     } else {
       spec = {
         fields: ST_FORM,
-        defs: issue.formDefaults || {},
+        defs: extra,
         title: "New service — Service Template fields",
         hint: "No — brand new, and not on ST or Prod. Fill these so we can create it.",
       };

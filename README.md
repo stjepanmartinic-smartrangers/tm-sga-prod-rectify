@@ -40,6 +40,8 @@ The default list is **All on this tab**, so a Yes or No stays on the same screen
 
 Cards that are not on ST and not on Prod show the Service Template field set **only after you mark No** (brand new). Hidden on Yes / fuzzy Prod match. Saved in `decisions.json` as `form`.
 
+SA1 uses Yes/No (not Done). **Yes** opens the Supplier Agreement Template fields. SA3 **No** opens the same agreement fields. SA5 **No** (different / new account) opens Supplier Name plus the supplier fields from the Service Template, and the TM package.
+
 ## Merge back into Excel
 
 When decisions are finished, run:

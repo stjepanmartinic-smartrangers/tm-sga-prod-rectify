@@ -304,7 +304,7 @@
   }
 
   function optionsFor(sheet, issue) {
-    const kind = sheet.choice;
+    const kind = sheet.id === "SA1" ? "sa-create" : sheet.choice;
     if (kind === "fuzzy-service") {
       const opts = (issue.fuzzyService || []).map((f, i) => ({
         value: "match:" + i,
@@ -343,6 +343,12 @@
       if (issue.stType) opts.push({ value: "st", label: "Keep ST type: " + issue.stType, extra: "" });
       opts.push({ value: "no", label: "No — neither is right (picklist noise)", extra: "" });
       return opts;
+    }
+    if (sheet.id === "SA1" || kind === "sa-create") {
+      return [
+        { value: "yes", label: "Yes — create a new supplier agreement", extra: "" },
+        { value: "no", label: "No — not needed for this service", extra: "" },
+      ];
     }
     if (kind === "sa-name") {
       const opts = [];
@@ -560,7 +566,7 @@
         const pair = pairs.find((p) => p.issue.id === el.dataset.id);
         requireWho(() => {
           saveForm();
-          const field = ST_FORM.find((f) => f.key === el.dataset.form);
+          const field = ALL_FORM_FIELDS.find((f) => f.key === el.dataset.form);
           logHistory({
             kind: "form",
             issueId: el.dataset.id,
@@ -668,7 +674,14 @@
       }
     } else {
       const sheet = data.sheets.find((s) => s.id === sheetId);
-      $("help").textContent = sheet.help;
+      $("help").textContent =
+        sheet.id === "SA1"
+          ? "No Prod agreement. Yes opens the Supplier Agreement Template fields to create one. No = not needed."
+          : sheet.id === "SA3"
+            ? "Template name does not match Prod. No opens the agreement fields for a different / new agreement."
+            : sheet.id === "SA5"
+              ? "ST supplier does not match Prod. No opens Supplier Name and the other supplier fields from the Service Template, plus the TM package."
+              : sheet.help;
       pairs = sheet.issues
         .filter((issue) => {
           const decided = isDecided(dec(issue.id));
@@ -739,26 +752,127 @@
     { key: "comment", label: "Comment", wide: true, area: true },
   ];
 
-  function showCreateForm(issue, d) {
-    if (!issue.fullyMissing) return false;
-    return d.choice === "no";
+  const SA_FORM = [
+    { key: "agreementName", label: "Agreement Name" },
+    { key: "dateFrom", label: "Date from" },
+    { key: "dateTo", label: "Date To" },
+    { key: "businessUnit", label: "Business Unit" },
+    { key: "channel", label: "Channel" },
+    { key: "invoiceBasis", label: "Supplier Invoice Basis" },
+    { key: "cancellationPolicy", label: "Cancellation Policy" },
+    { key: "agreementType", label: "Agreement Type (Net Rate, Commission)" },
+    { key: "paymentType", label: "Type (Billback, Deposit %, Balance, …)" },
+    { key: "paymentMethod", label: "Payment Method (Credit Card, Cash, Bank Payment)" },
+    { key: "costBearer", label: "Cost Bearer (Office, Tour Leader)" },
+    { key: "days", label: "Days" },
+    { key: "when", label: "When (After Booking Date, Before Travel Date, …)" },
+    { key: "service", label: "Service" },
+    { key: "priceCategory", label: "Price Category" },
+    { key: "addOns", label: "Add ons" },
+    { key: "fees", label: "Fees" },
+    { key: "supplierName", label: "Supplier Name" },
+    { key: "comment", label: "Comment", wide: true, area: true },
+  ];
+
+  const SUPPLIER_FORM = [
+    { key: "supplierName", label: "Supplier Name" },
+    { key: "supplierBu", label: "Supplier Business Unit" },
+    { key: "supplierConfirm", label: "Supplier Confirmation Method (Manual, Confirmation Not Needed)" },
+    { key: "preferredComm", label: "Preferred communication (Email, Phone, Fax, Print, SMS)" },
+    { key: "packages", label: "TM package" },
+    { key: "location", label: "Location" },
+    { key: "comment", label: "Comment", wide: true, area: true },
+  ];
+
+  const ALL_FORM_FIELDS = ST_FORM.concat(SA_FORM, SUPPLIER_FORM);
+
+  function saDefaults(issue) {
+    const fields = issue.fields || {};
+    return {
+      agreementName: issue.saTemplateName || (issue.service ? issue.service + " 2026-2027" : ""),
+      dateFrom: "2026-01-01",
+      dateTo: "2027-12-31",
+      businessUnit: "Intrepid Morocco",
+      channel: "Tailor-made (Morocco)",
+      invoiceBasis: "",
+      cancellationPolicy: "",
+      agreementType: "Net Rate",
+      paymentType: "",
+      paymentMethod: "Bank Payment",
+      costBearer: "Office",
+      days: "",
+      when: "",
+      service: issue.service || "",
+      priceCategory: fields["Package PCs"] || fields["ST PCs"] || "",
+      addOns: "",
+      fees: "",
+      supplierName: issue.stSupplier || issue.prodSupplier || "",
+      comment: "",
+    };
   }
 
-  function formHtml(issue, d) {
-    if (!showCreateForm(issue, d)) return "";
+  function supplierDefaults(issue) {
+    const fields = issue.fields || {};
+    return {
+      supplierName: issue.stSupplier || issue.prodSupplier || "",
+      supplierBu: "Intrepid Morocco",
+      supplierConfirm: "",
+      preferredComm: "",
+      packages: (issue.packages || []).join("; "),
+      location: issue.stLocation || fields["Template location"] || "",
+      comment: "",
+    };
+  }
+
+  function formKind(sheet, issue, d) {
+    const c = d && d.choice;
+    if (sheet.id === "SA1" && c === "yes") return "sa";
+    if (sheet.id === "SA3" && c === "no") return "sa";
+    if (sheet.id === "SA5" && c === "no") return "supplier";
+    if (issue.fullyMissing && c === "no") return "st";
+    return "";
+  }
+
+  function formHtml(sheet, issue, d) {
+    const kind = formKind(sheet, issue, d);
+    if (!kind) return "";
     const form = d.form || {};
-    const defs = issue.formDefaults || {};
-    const fields = ST_FORM.map((f) => {
-      const val = form[f.key] != null && form[f.key] !== "" ? form[f.key] : defs[f.key] || "";
-      const cls = f.wide ? "wide" : "";
-      const control = f.area
-        ? `<textarea data-form="${f.key}" data-id="${issue.id}">${esc(val)}</textarea>`
-        : `<input type="text" data-form="${f.key}" data-id="${issue.id}" value="${esc(val)}" />`;
-      return `<label class="${cls}">${esc(f.label)}${control}</label>`;
-    }).join("");
+    let spec;
+    if (kind === "sa") {
+      spec = {
+        fields: SA_FORM,
+        defs: saDefaults(issue),
+        title: "New supplier agreement — template fields",
+        hint: "Fill these so we can create the agreement.",
+      };
+    } else if (kind === "supplier") {
+      spec = {
+        fields: SUPPLIER_FORM,
+        defs: supplierDefaults(issue),
+        title: "New / different supplier — service fields",
+        hint: "Supplier Name plus the supplier fields from the Service Template, and the TM package.",
+      };
+    } else {
+      spec = {
+        fields: ST_FORM,
+        defs: issue.formDefaults || {},
+        title: "New service — Service Template fields",
+        hint: "No — brand new, and not on ST or Prod. Fill these so we can create it.",
+      };
+    }
+    const fields = spec.fields
+      .map((f) => {
+        const val = form[f.key] != null && form[f.key] !== "" ? form[f.key] : spec.defs[f.key] || "";
+        const cls = f.wide ? "wide" : "";
+        const control = f.area
+          ? `<textarea data-form="${f.key}" data-id="${issue.id}">${esc(val)}</textarea>`
+          : `<input type="text" data-form="${f.key}" data-id="${issue.id}" value="${esc(val)}" />`;
+        return `<label class="${cls}">${esc(f.label)}${control}</label>`;
+      })
+      .join("");
     return `<div class="create-form">
-      <h4>New service — Service Template fields</h4>
-      <p class="meta">No — brand new, and not on ST or Prod. Fill these so we can create it.</p>
+      <h4>${esc(spec.title)}</h4>
+      <p class="meta">${esc(spec.hint)}</p>
       <div class="form-grid">${fields}</div>
     </div>`;
   }
@@ -795,7 +909,7 @@
       ${pc && sheet.choice === "pc-map" ? `<p><b>Suggested PC map</b><br>${pc}</p>` : ""}
       <dl class="fields">${fieldRows}</dl>
       <div class="choices">${choice}</div>
-      ${formHtml(issue, d)}
+      ${formHtml(sheet, issue, d)}
       <textarea data-notes data-id="${issue.id}" placeholder="Decision notes">${esc(d.notes || "")}</textarea>
       ${reopenBtn}
     </article>`;

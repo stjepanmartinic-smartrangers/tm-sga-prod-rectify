@@ -4,6 +4,7 @@
   const PATH = "decisions.json";
   const LS_DECISIONS = "tm-sga-prod-rectify-decisions";
   const LS_PAT = "tm-sga-prod-rectify-pat";
+  const LS_WHO = "tm-sga-prod-rectify-who";
   const RAW = `https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${PATH}`;
 
   const data = window.ISSUE_DATA;
@@ -17,11 +18,14 @@
   let decisions = loadLocal();
   let saveTimer = null;
   let lastFocusId = null;
+  let pendingAction = null;
+  let askedWho = false;
 
   const $ = (id) => document.getElementById(id);
   $("q").addEventListener("input", render);
   $("statusFilter").addEventListener("change", render);
   $("decisionFilter").addEventListener("change", render);
+  $("historyWho").addEventListener("change", render);
   $("btnExport").addEventListener("click", exportJson);
   $("fileImport").addEventListener("change", importJson);
   $("btnSettings").addEventListener("click", () => $("settings").showModal());
@@ -34,18 +38,177 @@
   $("btnSave").addEventListener("click", saveOnline);
   $("btnLoad").addEventListener("click", loadOnline);
   $("pat").value = localStorage.getItem(LS_PAT) || "";
+  $("who").addEventListener("change", () => {
+    if ($("who").value === "__add__") {
+      $("whoName").value = "";
+      $("whoDialog").showModal();
+      $("whoName").focus();
+      fillWhoSelect();
+      return;
+    }
+    if ($("who").value) setWho($("who").value);
+  });
+  $("btnWhoOk").addEventListener("click", confirmWho);
+  $("btnWhoCancel").addEventListener("click", () => {
+    pendingAction = null;
+    $("whoDialog").close();
+    render();
+  });
+  $("whoName").addEventListener("keydown", (ev) => {
+    if (ev.key === "Enter") confirmWho();
+  });
 
   function loadLocal() {
     try {
-      return JSON.parse(localStorage.getItem(LS_DECISIONS) || "{}");
+      return ensureShape(JSON.parse(localStorage.getItem(LS_DECISIONS) || "{}"));
     } catch {
-      return {};
+      return ensureShape({});
     }
   }
   function persistLocal() {
+    ensureShape();
     decisions.updatedAt = new Date().toISOString();
     localStorage.setItem(LS_DECISIONS, JSON.stringify(decisions));
     setState("Saved in this browser · " + new Date().toLocaleTimeString());
+  }
+
+  function ensureShape(obj) {
+    const d = obj || decisions;
+    if (!d.byId) d.byId = {};
+    if (!Array.isArray(d.history)) d.history = [];
+    if (!Array.isArray(d.people)) d.people = [];
+    return d;
+  }
+
+  function currentWho() {
+    return (localStorage.getItem(LS_WHO) || "").trim();
+  }
+
+  function peopleList() {
+    ensureShape();
+    const names = new Set(decisions.people || []);
+    (decisions.history || []).forEach((h) => {
+      if (h.by) names.add(h.by);
+    });
+    const me = currentWho();
+    if (me) names.add(me);
+    return [...names].sort((a, b) => a.localeCompare(b));
+  }
+
+  function setWho(name) {
+    const who = String(name || "").trim();
+    if (!who) return;
+    localStorage.setItem(LS_WHO, who);
+    ensureShape();
+    if (!decisions.people.includes(who)) {
+      decisions.people.push(who);
+      decisions.people.sort((a, b) => a.localeCompare(b));
+      persistLocal();
+    }
+    fillWhoSelect();
+  }
+
+  function fillWhoSelect() {
+    const me = currentWho();
+    const names = peopleList();
+    $("who").innerHTML =
+      `<option value="">Select…</option>` +
+      names.map((n) => `<option value="${esc(n)}" ${n === me ? "selected" : ""}>${esc(n)}</option>`).join("") +
+      `<option value="__add__">Add a name…</option>`;
+    const hw = $("historyWho").value || "all";
+    $("historyWho").innerHTML =
+      `<option value="all">Everyone</option>` +
+      names.map((n) => `<option value="${esc(n)}" ${n === hw ? "selected" : ""}>${esc(n)}</option>`).join("");
+  }
+
+  function confirmWho() {
+    const name = $("whoName").value.trim();
+    if (!name) {
+      $("whoName").focus();
+      return;
+    }
+    setWho(name);
+    $("whoDialog").close();
+    const fn = pendingAction;
+    pendingAction = null;
+    if (fn) fn();
+    else render();
+  }
+
+  function requireWho(fn) {
+    if (currentWho()) {
+      fn();
+      return;
+    }
+    pendingAction = fn;
+    $("whoName").value = "";
+    $("whoDialog").showModal();
+    $("whoName").focus();
+  }
+
+  function maybeAskWho() {
+    if (askedWho || currentWho()) return;
+    askedWho = true;
+    $("whoName").value = "";
+    $("whoDialog").showModal();
+    $("whoName").focus();
+  }
+
+  function logHistory(entry) {
+    ensureShape();
+    decisions.history.push({
+      at: new Date().toISOString(),
+      by: currentWho() || "Unknown",
+      ...entry,
+    });
+    if (decisions.history.length > 3000) {
+      decisions.history = decisions.history.slice(-3000);
+    }
+  }
+
+  function mergeHist(a, b) {
+    const seen = new Set();
+    const out = [];
+    for (const h of [...(a || []), ...(b || [])]) {
+      const k = [h.at, h.by, h.issueId, h.kind, h.to, h.field].join("|");
+      if (seen.has(k)) continue;
+      seen.add(k);
+      out.push(h);
+    }
+    out.sort((x, y) => String(x.at).localeCompare(String(y.at)));
+    return out.slice(-3000);
+  }
+
+  function adopt(parsed) {
+    ensureShape();
+    ensureShape(parsed);
+    const localHist = decisions.history;
+    const localPeople = decisions.people;
+    decisions = parsed;
+    ensureShape();
+    decisions.history = mergeHist(localHist, parsed.history);
+    decisions.people = [...new Set([...(localPeople || []), ...(parsed.people || [])])].sort((a, b) =>
+      a.localeCompare(b)
+    );
+  }
+
+  function findSheet(id) {
+    return data.sheets.find((s) => s.id === id);
+  }
+
+  function choiceLabel(sheet, issue, value) {
+    if (!value) return "Open";
+    if (!sheet || !issue) return value;
+    const o = optionsFor(sheet, issue).find((x) => x.value === value);
+    return o ? o.label : value;
+  }
+
+  function fmtWhen(iso) {
+    try {
+      return new Date(iso).toLocaleString();
+    } catch {
+      return iso || "";
+    }
   }
   function scheduleSave() {
     persistLocal();
@@ -127,17 +290,34 @@
   }
 
   function reopen(id) {
-    const d = dec(id);
-    d.status = "open";
-    d.choice = "";
-    d.selected = "";
-    d.updatedAt = new Date().toISOString();
-    scheduleSave();
-    render();
+    requireWho(() => {
+      const issue = findIssue(id);
+      const sheet = findSheet(String(id).split("::")[0]);
+      const d = dec(id);
+      logHistory({
+        kind: "reopen",
+        issueId: id,
+        sheetId: sheet ? sheet.id : "",
+        service: issue.service || "",
+        from: choiceLabel(sheet, issue, d.choice),
+        to: "Open",
+      });
+      d.status = "open";
+      d.choice = "";
+      d.selected = "";
+      d.updatedAt = new Date().toISOString();
+      scheduleSave();
+      render();
+    });
   }
 
   function applyChoice(id, value, issue, sheet) {
+    requireWho(() => applyChoiceNow(id, value, issue, sheet));
+  }
+
+  function applyChoiceNow(id, value, issue, sheet) {
     const d = dec(id);
+    const prevChoice = d.choice;
     d.choice = value;
     d.updatedAt = new Date().toISOString();
     if (value === "no" || value === "skip") d.status = "no";
@@ -171,6 +351,15 @@
     } else if (value === "no") {
       d.selected = "";
     }
+    logHistory({
+      kind: "choice",
+      issueId: id,
+      sheetId: sheet.id,
+      service: issue.service,
+      from: choiceLabel(sheet, issue, prevChoice),
+      to: choiceLabel(sheet, issue, value),
+      selected: d.selected || "",
+    });
     lastFocusId = id;
     if ($("statusFilter").value === "open") $("statusFilter").value = "all";
     scheduleSave();
@@ -195,6 +384,7 @@
       <div class="stat"><b>${c.total}</b><span>Unique issues</span></div>
       <div class="stat clickable ${sheetId !== "__decided__" && $("statusFilter").value === "open" ? "on" : ""}" id="statOpen"><b>${c.open}</b><span>Open — click to work these</span></div>
       <div class="stat clickable ${sheetId === "__decided__" ? "on" : ""}" id="statDecided"><b>${c.decided}</b><span>Decided — click to review / change</span></div>
+      <div class="stat clickable ${sheetId === "__history__" ? "on" : ""}" id="statHistory"><b>${(decisions.history || []).length}</b><span>History — who changed what</span></div>
       <div class="stat"><b>${data.generated}</b><span>Data extract</span></div>`;
     $("statOpen").onclick = () => {
       sheetId = data.sheets[0].id;
@@ -206,13 +396,20 @@
       $("statusFilter").value = "decided";
       render();
     };
+    $("statHistory").onclick = () => {
+      sheetId = "__history__";
+      render();
+    };
   }
 
   function renderTabs() {
     const decidedN = counts().decided;
     const decidedBtn = `<button type="button" data-id="__decided__" class="${sheetId === "__decided__" ? "on" : ""}">All decided <span class="n">${decidedN}</span></button>`;
+    const histN = (decisions.history || []).length;
+    const histBtn = `<button type="button" data-id="__history__" class="${sheetId === "__history__" ? "on" : ""}">History <span class="n">${histN}</span></button>`;
     $("tabs").innerHTML =
       decidedBtn +
+      histBtn +
       data.sheets
         .map((s) => {
           const left = s.issues.filter((i) => !isDecided(dec(i.id))).length;
@@ -223,7 +420,9 @@
       b.onclick = () => {
         const next = b.dataset.id;
         if (next === "__decided__") $("statusFilter").value = "decided";
-        else if (sheetId === "__decided__") $("statusFilter").value = "all";
+        else if (next !== "__history__" && (sheetId === "__decided__" || sheetId === "__history__")) {
+          $("statusFilter").value = "all";
+        }
         sheetId = next;
         render();
       };
@@ -255,8 +454,20 @@
     });
     $("list").querySelectorAll("textarea[data-notes]").forEach((el) => {
       el.addEventListener("change", () => {
-        dec(el.dataset.id).notes = el.value;
-        scheduleSave();
+        const pair = pairs.find((p) => p.issue.id === el.dataset.id);
+        requireWho(() => {
+          const prev = dec(el.dataset.id).notes || "";
+          dec(el.dataset.id).notes = el.value;
+          logHistory({
+            kind: "notes",
+            issueId: el.dataset.id,
+            sheetId: pair.sheet.id,
+            service: pair.issue.service,
+            from: prev,
+            to: el.value,
+          });
+          scheduleSave();
+        });
       });
     });
     $("list").querySelectorAll("[data-form]").forEach((el) => {
@@ -267,20 +478,104 @@
         scheduleSave();
       };
       el.addEventListener("input", saveForm);
-      el.addEventListener("change", saveForm);
+      el.addEventListener("change", () => {
+        const pair = pairs.find((p) => p.issue.id === el.dataset.id);
+        requireWho(() => {
+          saveForm();
+          const field = ST_FORM.find((f) => f.key === el.dataset.form);
+          logHistory({
+            kind: "form",
+            issueId: el.dataset.id,
+            sheetId: pair.sheet.id,
+            service: pair.issue.service,
+            field: field ? field.label : el.dataset.form,
+            to: el.value,
+          });
+          scheduleSave();
+        });
+      });
     });
     $("list").querySelectorAll("[data-reopen]").forEach((el) => {
       el.addEventListener("click", () => reopen(el.dataset.id));
     });
   }
 
+  function historyHtml(h) {
+    const title =
+      h.kind === "form"
+        ? `Updated ${h.field || "ST field"}`
+        : h.kind === "notes"
+          ? "Updated notes"
+          : h.kind === "reopen"
+            ? "Reopened"
+            : h.to || "Changed";
+    const detail =
+      h.kind === "form"
+        ? esc(h.to || "")
+        : h.kind === "notes"
+          ? esc(h.to || "")
+          : h.from && h.from !== h.to
+            ? `${esc(h.from)} → ${esc(h.to)}`
+            : esc(h.to || "");
+    const selected = h.selected ? `<div class="meta">${esc(h.selected)}</div>` : "";
+    return `<article class="card history-row" data-goto="${esc(h.issueId || "")}">
+      <div class="when">${esc(fmtWhen(h.at))} · ${esc(h.by || "Unknown")}</div>
+      <h3>${esc(h.service || h.issueId || "")}</h3>
+      <div class="meta">${esc(h.sheetId || "")} · ${esc(title)}</div>
+      <p>${detail}</p>
+      ${selected}
+    </article>`;
+  }
+
+  function renderHistory() {
+    $("help").textContent =
+      "Newest first. Click a row to open that service. Filter by person, or search. Names come from Who are you — yours is remembered in this browser.";
+    $("statusFilter").style.display = "none";
+    $("decisionFilter").style.display = "none";
+    $("historyWho").style.display = "";
+    const q = $("q").value.trim().toLowerCase();
+    const who = $("historyWho").value || "all";
+    const rows = (decisions.history || [])
+      .slice()
+      .reverse()
+      .filter((h) => {
+        if (who !== "all" && h.by !== who) return false;
+        if (!q) return true;
+        return [h.service, h.by, h.sheetId, h.to, h.from, h.field, h.selected].join(" ").toLowerCase().includes(q);
+      });
+    if (!rows.length) {
+      $("list").innerHTML = "<p class='empty'>No history yet. Decisions and form edits will appear here with the person’s name.</p>";
+      return;
+    }
+    $("list").innerHTML = rows.map(historyHtml).join("");
+    $("list").querySelectorAll("[data-goto]").forEach((el) => {
+      el.addEventListener("click", () => {
+        const id = el.dataset.goto;
+        if (!id || !id.includes("::")) return;
+        sheetId = id.split("::")[0];
+        $("statusFilter").value = "all";
+        lastFocusId = id;
+        render();
+      });
+    });
+  }
+
   function render() {
+    ensureShape();
+    fillWhoSelect();
     renderStats();
     renderTabs();
     const q = $("q").value.trim().toLowerCase();
     const sf = $("statusFilter").value;
     const df = $("decisionFilter").value;
+    $("statusFilter").style.display = sheetId === "__history__" ? "none" : "";
     $("decisionFilter").style.display = sheetId === "__decided__" ? "" : "none";
+    $("historyWho").style.display = sheetId === "__history__" ? "" : "none";
+    if (sheetId === "__history__") {
+      renderHistory();
+      maybeAskWho();
+      return;
+    }
     let pairs = [];
     if (sheetId === "__decided__") {
       $("help").textContent =
@@ -310,6 +605,7 @@
         sheetId === "__decided__"
           ? "<p class='empty'>Nothing in this Yes/No filter yet. Decisions collect here as you work through the tabs.</p>"
           : "<p class='empty'>Nothing to show in this filter.</p>";
+      maybeAskWho();
       return;
     }
     $("list").innerHTML = pairs.map((p) => cardHtml(p.sheet, p.issue)).join("");
@@ -321,6 +617,7 @@
       if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
       lastFocusId = null;
     }
+    maybeAskWho();
   }
 
   function findIssue(id) {
@@ -451,7 +748,7 @@
       try {
         const parsed = JSON.parse(reader.result);
         if (!parsed.byId) throw new Error("Missing byId");
-        decisions = parsed;
+        adopt(parsed);
         persistLocal();
         render();
       } catch (e) {
@@ -507,7 +804,7 @@
       if (!res.ok) throw new Error("HTTP " + res.status);
       const parsed = await res.json();
       if (!parsed.byId) throw new Error("Remote file has no decisions yet");
-      decisions = parsed;
+      adopt(parsed);
       persistLocal();
       render();
       setState("Loaded from GitHub · " + new Date().toLocaleTimeString());

@@ -38,6 +38,8 @@
     }
     .bar button.ghost { background: transparent; color: #fff; border: 1px solid #7aa0c4; }
     .save-state { font-size: 12px; color: #d6e4f0; }
+    .who-wrap { display: flex; align-items: center; gap: 6px; color: #d6e4f0; font-size: 12px; }
+    .bar select { background: #fff; color: #1F4E79; font-weight: 650; min-width: 150px; }
     .wrap { max-width: 1180px; margin: 0 auto; padding: 18px 16px 80px; }
     .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; margin-bottom: 14px; }
     .stat { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
@@ -58,7 +60,10 @@
     .tabs button.on { background: var(--ink); color: #fff; border-color: var(--ink); }
     .tabs button .n { opacity: .75; font-size: 11px; }
     .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
-    #decisionFilter { display: none; }
+    #decisionFilter, #historyWho { display: none; }
+    .history-row { cursor: pointer; }
+    .history-row:hover { border-color: #c9bfae; }
+    .history-row .when { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
     input[type="search"], input[type="password"], input[type="text"], textarea, select {
       border: 1px solid var(--line); background: var(--paper); color: var(--ink);
       padding: 8px 10px; border-radius: 8px; font: inherit;
@@ -123,6 +128,9 @@
       <button type="button" id="btnExport" class="ghost">Download JSON</button>
       <label class="btn">Import JSON<input type="file" id="fileImport" accept="application/json" hidden /></label>
       <button type="button" id="btnSettings" class="ghost">GitHub token</button>
+      <label class="who-wrap">Who are you
+        <select id="who"></select>
+      </label>
       <span class="save-state" id="saveState">Not saved yet</span>
     </div>
   </header>
@@ -142,6 +150,9 @@
         <option value="no">No only</option>
         <option value="done">Done only</option>
       </select>
+      <select id="historyWho">
+        <option value="all">Everyone</option>
+      </select>
     </div>
     <div class="help" id="help"></div>
     <div id="list"></div>
@@ -150,9 +161,19 @@
       <code>decisions.json</code> in the GitHub repo (after Save online). Hosted on GitHub Pages for as long as the repo exists.
       Use <b>All decided</b> (or the Decided number at the top) to reopen anything and change it.
       Default list is <b>All on this tab</b> so Yes/No stay on screen. <b>No</b> on a missing service opens the Service Template fields on that same card.
+      <b>History</b> lists who changed what. Your name is remembered in this browser; the people list is shared after Save online.
       When this round is finished, say so in chat — we merge Yes/No, chosen match, form fields, and notes back onto the Excel workbooks.
     </footer>
   </div>
+  <dialog id="whoDialog">
+    <h3>Who are you?</h3>
+    <p>This name is stored in this browser so you do not have to type it every time. After Save online, other people can pick it from the list too.</p>
+    <input type="text" id="whoName" placeholder="Your name" style="width:100%" />
+    <div class="row-actions">
+      <button type="button" id="btnWhoOk">Continue</button>
+      <button type="button" id="btnWhoCancel">Cancel</button>
+    </div>
+  </dialog>
   <dialog id="settings">
     <h3>Save online with GitHub</h3>
     <p>Create a fine-grained PAT with <b>Contents: Read and write</b> on <code>tm-sga-prod-rectify</code>. It stays in this browser only.</p>

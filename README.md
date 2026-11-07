@@ -26,6 +26,12 @@ Save online needs a GitHub token (Contents: Read and write on this repo only). O
 
 `data.js` is generated from the current SGA vs Prod Excel problem sheets. Re-run `export_rectify_data.py` in `C:\VsCode\TailorMade\data\tm-packages-v1` when the workbooks change, then replace `data.js` here.
 
+## Who are you / History
+
+The header has **Who are you**. Your name is stored in this browser (`localStorage`) so you are not asked every time. **Add a name…** grows the shared people list. After **Save online**, other machines see those names in the dropdown (Reload from GitHub).
+
+**History** tab (and the History count) lists who changed what, newest first. Click a row to open that service. Filter by person.
+
 ## Review / change decisions
 
 The default list is **All on this tab**, so a Yes or No stays on the same screen (use **Reopen** if it was accidental). **No** on a missing service opens the Service Template fields on that card — you do not need All decided to fill them. **All decided** is only for review; it has a Yes / No / Done filter.

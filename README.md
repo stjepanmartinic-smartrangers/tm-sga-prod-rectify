@@ -25,3 +25,11 @@ Save online needs a GitHub token (Contents: Read and write on this repo only). O
 ## Data
 
 `data.js` is generated from the current SGA vs Prod Excel problem sheets. Re-run `export_rectify_data.py` in `C:\VsCode\TailorMade\data\tm-packages-v1` when the workbooks change, then replace `data.js` here.
+
+## Merge back into Excel
+
+When decisions are finished, run:
+
+`python merge_rectify_decisions.py`
+
+from `C:\VsCode\TailorMade\data\tm-packages-v1`. That writes **Rectify status / decision / selected / notes** onto each P/SA sheet and onto **By TM package**, then copies the workbooks to `C:\ForSharing`.

@@ -58,6 +58,7 @@
     .tabs button.on { background: var(--ink); color: #fff; border-color: var(--ink); }
     .tabs button .n { opacity: .75; font-size: 11px; }
     .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+    #decisionFilter { display: none; }
     input[type="search"], input[type="password"], input[type="text"], textarea, select {
       border: 1px solid var(--line); background: var(--paper); color: var(--ink);
       padding: 8px 10px; border-radius: 8px; font: inherit;
@@ -135,6 +136,12 @@
         <option value="all">All on this tab</option>
         <option value="decided">Decided on this tab</option>
       </select>
+      <select id="decisionFilter">
+        <option value="all">Yes and No</option>
+        <option value="yes">Yes only</option>
+        <option value="no">No only</option>
+        <option value="done">Done only</option>
+      </select>
     </div>
     <div class="help" id="help"></div>
     <div id="list"></div>
@@ -142,7 +149,7 @@
       Decisions live in three places: this browser (localStorage), a downloaded JSON file, and
       <code>decisions.json</code> in the GitHub repo (after Save online). Hosted on GitHub Pages for as long as the repo exists.
       Use <b>All decided</b> (or the Decided number at the top) to reopen anything and change it.
-      Fully missing services (not on ST and not on Prod) show the Service Template field set under Yes/No.
+      Fully missing services show the Service Template fields only after you mark <b>No</b> (brand new).
       When this round is finished, say so in chat — we merge Yes/No, chosen match, form fields, and notes back onto the Excel workbooks.
     </footer>
   </div>

@@ -28,11 +28,11 @@ Save online needs a GitHub token (Contents: Read and write on this repo only). O
 
 ## Review / change decisions
 
-Open **All decided** (first tab) or click the **Decided** number at the top. Every Yes/No is listed across problem types. Change the choice there, edit the create form, or **Reopen** to put it back in the open queue. Per-tab filter still has **Decided on this tab**.
+Open **All decided** (first tab) or click the **Decided** number at the top. Filter that list by Yes / No / Done. Change the choice there, or **Reopen** to put it back in the open queue. Per-tab filter still has **Decided on this tab**.
 
 ## Fully missing services
 
-Cards that are not on ST and not on Prod show the Service Template field set under Yes/No (Name, Location, type, PCs, seasons, price, supplier, comment, …). Hidden if you accept a Prod fuzzy match. Saved in `decisions.json` as `form`.
+Cards that are not on ST and not on Prod show the Service Template field set **only after you mark No** (brand new). Hidden on Yes / fuzzy Prod match. Saved in `decisions.json` as `form`.
 
 ## Merge back into Excel
 

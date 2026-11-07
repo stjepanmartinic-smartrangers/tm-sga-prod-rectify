@@ -20,6 +20,7 @@
   const $ = (id) => document.getElementById(id);
   $("q").addEventListener("input", render);
   $("statusFilter").addEventListener("change", render);
+  $("decisionFilter").addEventListener("change", render);
   $("btnExport").addEventListener("click", exportJson);
   $("fileImport").addEventListener("change", importJson);
   $("btnSettings").addEventListener("click", () => $("settings").showModal());
@@ -275,13 +276,18 @@
     renderTabs();
     const q = $("q").value.trim().toLowerCase();
     const sf = $("statusFilter").value;
+    const df = $("decisionFilter").value;
+    $("decisionFilter").style.display = sheetId === "__decided__" ? "" : "none";
     let pairs = [];
     if (sheetId === "__decided__") {
       $("help").textContent =
-        "Every decision so far, across all problem types. Change Yes/No here, edit the create form, or Reopen to put it back in the open queue.";
+        "Every decision so far, across all problem types. Filter by Yes / No, change a choice, or Reopen. The create form appears only on No for services that are not on ST or Prod.";
       for (const s of data.sheets) {
         for (const issue of s.issues) {
-          if (isDecided(dec(issue.id)) && matchesQuery(issue, q)) pairs.push({ sheet: s, issue });
+          const d = dec(issue.id);
+          if (!isDecided(d) || !matchesQuery(issue, q)) continue;
+          if (df !== "all" && d.status !== df) continue;
+          pairs.push({ sheet: s, issue });
         }
       }
     } else {
@@ -299,7 +305,7 @@
     if (!pairs.length) {
       $("list").innerHTML =
         sheetId === "__decided__"
-          ? "<p class='empty'>No decisions yet. They will collect here as you work through the tabs.</p>"
+          ? "<p class='empty'>Nothing in this Yes/No filter yet. Decisions collect here as you work through the tabs.</p>"
           : "<p class='empty'>Nothing to show in this filter.</p>";
       return;
     }
@@ -350,8 +356,7 @@
 
   function showCreateForm(issue, d) {
     if (!issue.fullyMissing) return false;
-    if (d.choice && String(d.choice).startsWith("match:")) return false;
-    return true;
+    return d.choice === "no";
   }
 
   function formHtml(issue, d) {
@@ -368,7 +373,7 @@
     }).join("");
     return `<div class="create-form">
       <h4>New service — Service Template fields</h4>
-      <p class="meta">Not on ST and not on Prod. Update these so we can create it. Saved with your Yes/No.</p>
+      <p class="meta">No — brand new, and not on ST or Prod. Fill these so we can create it.</p>
       <div class="form-grid">${fields}</div>
     </div>`;
   }

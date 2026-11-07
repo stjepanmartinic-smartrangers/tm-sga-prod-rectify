@@ -31,6 +31,18 @@
     }
     header h1 { font-size: 18px; margin: 0 0 4px; font-weight: 650; }
     header p { margin: 0; color: #d6e4f0; font-size: 12px; }
+    .save-banner {
+      margin-top: 12px;
+      background: #fde68a;
+      color: #78350f;
+      border: 3px solid #f59e0b;
+      border-radius: 10px;
+      padding: 12px 14px;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+    .save-banner em { font-style: normal; text-transform: uppercase; letter-spacing: .03em; }
     .bar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 10px; }
     .bar button, .bar label.btn {
       border: 0; background: #fff; color: #1F4E79; padding: 7px 12px; border-radius: 8px;
@@ -124,7 +136,11 @@
 <body>
   <header>
     <h1>TailorMade — SGA vs Prod rectify</h1>
-    <p>Decide each issue here. Saves in this browser immediately. Use <b>Save online</b> to write <code>decisions.json</code> to GitHub so it survives if this page goes down.</p>
+    <p>Decide each issue here. This browser saves locally right away — that is not enough for the team.</p>
+    <div class="save-banner" role="alert">
+      Click <em>Save online</em> or your changes stay on this computer only.
+      Other people will not see them until you do.
+    </div>
     <div class="bar">
       <button type="button" id="btnSave">Save online</button>
       <button type="button" id="btnLoad" class="ghost">Reload from GitHub</button>

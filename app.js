@@ -702,7 +702,7 @@
     $("list").innerHTML = pairs.map((p) => cardHtml(p.sheet, p.issue)).join("");
     bindList(pairs);
     if (lastFocusId) {
-      const form = $("list").querySelector(`.create-form textarea[data-id="${lastFocusId}"], .create-form input[data-id="${lastFocusId}"]`);
+      const form = $("list").querySelector(`.create-form textarea[data-id="${lastFocusId}"], .create-form input[data-id="${lastFocusId}"], .create-form select[data-id="${lastFocusId}"]`);
       const card = $("list").querySelector(`input[data-choice][data-id="${lastFocusId}"]`);
       const el = form ? form.closest(".create-form") : card ? card.closest(".card") : null;
       if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
@@ -765,40 +765,38 @@
     "After Booking Date",
     "Before Travel Date",
   ];
-  const OPT_BU = ["Intrepid Morocco"];
   const OPT_CHANNEL = ["Tailor-made (Morocco)"];
-  const OPT_TAX = ["MAVAT"];
 
   const ST_FORM = [
-    { key: "name", label: "Name" },
-    { key: "location", label: "Location" },
-    { key: "businessUnit", label: "Business Unit", options: OPT_BU },
-    { key: "serviceType", label: "Service Type (Record Type)", options: RT_SERVICE },
-    { key: "allowDayUse", label: "Allow Day Use", options: OPT_TRUE_FALSE },
-    { key: "costType", label: "Cost Type", options: OPT_COST },
-    { key: "pricingType", label: "Pricing Type", options: OPT_PRICING },
-    { key: "taxGroup", label: "TaxGroup", options: OPT_TAX },
-    { key: "allocationType", label: "Allocation Type", options: OPT_ALLOC },
-    { key: "checkInTime", label: "CheckIn Time" },
-    { key: "checkOutTime", label: "CheckOut Time" },
-    { key: "timeSetup", label: "Time Setup", options: OPT_TIME_SETUP },
-    { key: "preferredComm", label: "Preferred communication", options: OPT_COMM },
-    { key: "priceCategory", label: "Price Category" },
-    { key: "maxAdults", label: "Price Category MaxAdults" },
-    { key: "maxChildren", label: "Price Category MaxChildren" },
-    { key: "priceSeason", label: "Price Season" },
-    { key: "priceSeasonDates", label: "Price Season Dates" },
-    { key: "priceSeasonDays", label: "Price Season Days", options: OPT_DAYS },
-    { key: "pricelist", label: "Pricelist", options: OPT_PRICELIST },
-    { key: "qtyMin", label: "Quantity Minimum" },
-    { key: "priceType", label: "Price Type", options: OPT_PRICE_TYPE },
-    { key: "priceGroup", label: "Price Group" },
-    { key: "price", label: "Price" },
-    { key: "priceCurrency", label: "Price Currency", options: OPT_CURRENCY },
-    { key: "inventoryType", label: "Inventory Type", options: OPT_INVENTORY },
-    { key: "supplierName", label: "Supplier Name" },
-    { key: "supplierBu", label: "Supplier Business Unit", options: OPT_BU },
-    { key: "supplierConfirm", label: "Supplier Confirmation Method", options: OPT_CONFIRM },
+    { key: "name", label: "Name", section: "Service" },
+    { key: "location", label: "Location", section: "Service" },
+    { key: "businessUnit", label: "Business Unit", section: "Service" },
+    { key: "serviceType", label: "Service Type (Record Type)", options: RT_SERVICE, section: "Service" },
+    { key: "allowDayUse", label: "Allow Day Use", options: OPT_TRUE_FALSE, section: "Service" },
+    { key: "costType", label: "Cost Type", options: OPT_COST, section: "Service" },
+    { key: "pricingType", label: "Pricing Type", options: OPT_PRICING, section: "Service" },
+    { key: "taxGroup", label: "TaxGroup", section: "Service" },
+    { key: "allocationType", label: "Allocation Type", options: OPT_ALLOC, section: "Service" },
+    { key: "checkInTime", label: "CheckIn Time", section: "Service" },
+    { key: "checkOutTime", label: "CheckOut Time", section: "Service" },
+    { key: "timeSetup", label: "Time Setup", options: OPT_TIME_SETUP, section: "Service" },
+    { key: "preferredComm", label: "Preferred communication", options: OPT_COMM, section: "Service" },
+    { key: "priceCategory", label: "Price Category", section: "Price Category" },
+    { key: "maxAdults", label: "Price Category MaxAdults", section: "Price Category" },
+    { key: "maxChildren", label: "Price Category MaxChildren", section: "Price Category" },
+    { key: "priceSeason", label: "Price Season", section: "Price Season" },
+    { key: "priceSeasonDates", label: "Price Season Dates", section: "Price Season" },
+    { key: "priceSeasonDays", label: "Price Season Days", options: OPT_DAYS, section: "Price Season" },
+    { key: "pricelist", label: "Pricelist", options: OPT_PRICELIST, section: "Pricing" },
+    { key: "qtyMin", label: "Quantity Minimum", section: "Pricing" },
+    { key: "priceType", label: "Price Type", options: OPT_PRICE_TYPE, section: "Pricing" },
+    { key: "priceGroup", label: "Price Group", section: "Pricing" },
+    { key: "price", label: "Price", section: "Pricing" },
+    { key: "priceCurrency", label: "Price Currency", options: OPT_CURRENCY, section: "Pricing" },
+    { key: "inventoryType", label: "Inventory Type", options: OPT_INVENTORY, section: "Pricing" },
+    { key: "supplierName", label: "Supplier Name", section: "Supplier" },
+    { key: "supplierBu", label: "Supplier Business Unit", section: "Supplier" },
+    { key: "supplierConfirm", label: "Supplier Confirmation Method", options: OPT_CONFIRM, section: "Supplier" },
     { key: "comment", label: "Comment", wide: true, area: true },
   ];
 
@@ -806,7 +804,7 @@
     { key: "agreementName", label: "Agreement Name" },
     { key: "dateFrom", label: "Date from" },
     { key: "dateTo", label: "Date To" },
-    { key: "businessUnit", label: "Business Unit", options: OPT_BU },
+    { key: "businessUnit", label: "Business Unit" },
     { key: "channel", label: "Channel", options: OPT_CHANNEL },
     { key: "invoiceBasis", label: "Supplier Invoice Basis", options: OPT_INVOICE },
     { key: "cancellationPolicy", label: "Cancellation Policy" },
@@ -826,7 +824,7 @@
 
   const SUPPLIER_FORM = [
     { key: "supplierName", label: "Supplier Name" },
-    { key: "supplierBu", label: "Supplier Business Unit", options: OPT_BU },
+    { key: "supplierBu", label: "Supplier Business Unit" },
     { key: "supplierConfirm", label: "Supplier Confirmation Method", options: OPT_CONFIRM },
     { key: "preferredComm", label: "Preferred communication", options: OPT_COMM },
     { key: "packages", label: "TM package" },
@@ -911,35 +909,50 @@
         hint: "No — brand new, and not on ST or Prod. Fill these so we can create it.",
       };
     }
-    const fields = spec.fields
-      .map((f) => {
-        const val = form[f.key] != null && form[f.key] !== "" ? form[f.key] : spec.defs[f.key] || "";
-        const cls = f.wide ? "wide" : "";
-        let control;
-        if (f.area) {
-          control = `<textarea data-form="${f.key}" data-id="${issue.id}">${esc(val)}</textarea>`;
-        } else if (f.options) {
-          const opts = f.options.slice();
-          if (val && !opts.includes(val)) opts.unshift(val);
-          const body = [`<option value="">Select…</option>`]
-            .concat(
-              opts.map(
-                (o) =>
-                  `<option value="${esc(o)}" ${o === val ? "selected" : ""}>${esc(o)}</option>`
-              )
-            )
-            .join("");
-          control = `<select data-form="${f.key}" data-id="${issue.id}">${body}</select>`;
-        } else {
-          control = `<input type="text" data-form="${f.key}" data-id="${issue.id}" value="${esc(val)}" />`;
-        }
-        return `<label class="${cls}">${esc(f.label)}${control}</label>`;
+    const groups = [];
+    spec.fields.forEach((f) => {
+      const name = f.section || "";
+      const last = groups[groups.length - 1];
+      if (!last || last.section !== name) groups.push({ section: name, fields: [f] });
+      else last.fields.push(f);
+    });
+    const sections = groups
+      .map((g) => {
+        const heading = g.section
+          ? `<h5 class="form-section-title">${esc(g.section)}</h5>`
+          : "";
+        const fields = g.fields
+          .map((f) => {
+            const val = form[f.key] != null && form[f.key] !== "" ? form[f.key] : spec.defs[f.key] || "";
+            const cls = f.wide ? "wide" : "";
+            let control;
+            if (f.area) {
+              control = `<textarea data-form="${f.key}" data-id="${issue.id}">${esc(val)}</textarea>`;
+            } else if (f.options) {
+              const opts = f.options.slice();
+              if (val && !opts.includes(val)) opts.unshift(val);
+              const body = [`<option value="">Select…</option>`]
+                .concat(
+                  opts.map(
+                    (o) =>
+                      `<option value="${esc(o)}" ${o === val ? "selected" : ""}>${esc(o)}</option>`
+                  )
+                )
+                .join("");
+              control = `<select data-form="${f.key}" data-id="${issue.id}">${body}</select>`;
+            } else {
+              control = `<input type="text" data-form="${f.key}" data-id="${issue.id}" value="${esc(val)}" />`;
+            }
+            return `<label class="${cls}">${esc(f.label)}${control}</label>`;
+          })
+          .join("");
+        return `<section class="form-section">${heading}<div class="form-grid">${fields}</div></section>`;
       })
       .join("");
     return `<div class="create-form">
       <h4>${esc(spec.title)}</h4>
       <p class="meta">${esc(spec.hint)}</p>
-      <div class="form-grid">${fields}</div>
+      ${sections}
     </div>`;
   }
 

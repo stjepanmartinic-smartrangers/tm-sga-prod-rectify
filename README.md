@@ -42,7 +42,9 @@ Cards that are not on ST and not on Prod show the Service Template field set **o
 
 SA1 uses Yes/No (not Done). **Yes** opens the Supplier Agreement Template fields. SA3 **No** opens the same agreement fields. SA5 **No** (different / new account) opens Supplier Name plus the supplier fields from the Service Template, and the TM package.
 
-Picklist fields use dropdowns from IntrepidProd (read-only describe): service record type, cost type, pricing type, allocation, time setup, preferred communication, pricelist, price type, currency, inventory type, confirmation method, invoice basis, agreement type, payment type/method, cost bearer, when. Location, supplier name, and price category stay typed. If a saved value is not in the list, it is kept as an extra option.
+Picklist fields use dropdowns from IntrepidProd (read-only describe): service record type, cost type, pricing type, allocation, time setup, preferred communication, pricelist, price type, currency, inventory type, confirmation method, invoice basis, agreement type, payment type/method, cost bearer, when. Lookups stay typed: location, business unit, tax group, supplier name, price category. If a saved value is not in the list, it is kept as an extra option.
+
+The Service Template create form is grouped: Service, Price Category, Price Season, Pricing, Supplier.
 
 ## Merge back into Excel
 

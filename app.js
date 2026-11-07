@@ -1,11 +1,7 @@
 (() => {
-  const OWNER = "stjepanmartinic-smartrangers";
-  const REPO = "tm-sga-prod-rectify";
-  const PATH = "decisions.json";
   const LS_DECISIONS = "tm-sga-prod-rectify-decisions";
-  const LS_PAT = "tm-sga-prod-rectify-pat";
   const LS_WHO = "tm-sga-prod-rectify-who";
-  const RAW = `https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${PATH}`;
+  const STORE = "https://crudcrud.com/api/5ce21a106f8b4ae796b59dbcb9e09adc/decisions/6aef643b3d1c7403e888af0c";
 
   const data = window.ISSUE_DATA;
   if (!data) {
@@ -25,22 +21,14 @@
   $("q").addEventListener("input", render);
   $("statusFilter").addEventListener("change", render);
   $("decisionFilter").addEventListener("change", render);
-  $("btnCloseSettings").addEventListener("click", () => $("settings").close());
-  $("btnSavePat").addEventListener("click", () => {
-    localStorage.setItem(LS_PAT, $("pat").value.trim());
-    $("settings").close();
-    setState("Token stored in this browser.");
-    saveOnline(false);
-  });
   $("btnSave").addEventListener("click", () => saveOnline(false));
   $("btnLoad").addEventListener("click", () => {
     const ok = window.confirm(
-      "Reload from GitHub will overwrite everything in this browser.\n\nAny decisions that were not Saved online will be lost. Continue?"
+      "Reload saved work will overwrite everything in this browser.\n\nAny decisions that were not Saved online will be lost. Continue?"
     );
     if (!ok) return;
     loadOnline(false, true);
   });
-  $("pat").value = localStorage.getItem(LS_PAT) || "";
   $("who").addEventListener("change", () => {
     if ($("who").value === "__add__") {
       $("whoName").value = "";
@@ -207,9 +195,7 @@
   function scheduleSave() {
     persistLocal();
     clearTimeout(saveTimer);
-    saveTimer = setTimeout(() => {
-      if (localStorage.getItem(LS_PAT)) saveOnline(true);
-    }, 4000);
+    saveTimer = setTimeout(() => saveOnline(true), 4000);
   }
   function setState(t) {
     $("saveState").textContent = t;
@@ -805,42 +791,49 @@
       .replace(/"/g, "&quot;");
   }
 
+  function fromRemote(raw) {
+    const byId = {};
+    (raw.items || []).forEach((item) => {
+      const row = Object.assign({}, item);
+      const id = row.id;
+      delete row.id;
+      delete row._id;
+      if (id) byId[id] = row;
+    });
+    return {
+      byId,
+      people: raw.people || [],
+      history: raw.history || [],
+      updatedAt: raw.updatedAt || "",
+    };
+  }
+
+  function toRemote() {
+    return {
+      updatedAt: decisions.updatedAt || new Date().toISOString(),
+      people: decisions.people || [],
+      history: decisions.history || [],
+      items: Object.keys(decisions.byId || {}).map((id) => {
+        const row = Object.assign({}, decisions.byId[id], { id });
+        delete row._id;
+        return row;
+      }),
+    };
+  }
+
   async function saveOnline(quiet) {
-    const token = localStorage.getItem(LS_PAT);
-    if (!token) {
-      if (!quiet) $("settings").showModal();
-      return;
-    }
     persistLocal();
     try {
-      const get = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${PATH}`, {
-        headers: { Authorization: "Bearer " + token, Accept: "application/vnd.github+json" },
-      });
-      let sha;
-      if (get.ok) {
-        const body = await get.json();
-        sha = body.sha;
-      }
-      const content = btoa(unescape(encodeURIComponent(JSON.stringify(decisions, null, 2))));
-      const put = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${PATH}`, {
+      const put = await fetch(STORE, {
         method: "PUT",
-        headers: {
-          Authorization: "Bearer " + token,
-          Accept: "application/vnd.github+json",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          message: "chore: save rectify decisions",
-          content,
-          sha,
-          branch: "main",
-        }),
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(toRemote()),
       });
-      if (!put.ok) throw new Error(await put.text());
-      setState("Saved online to GitHub · " + new Date().toLocaleTimeString());
+      if (!put.ok) throw new Error("HTTP " + put.status);
+      setState("Saved online · " + new Date().toLocaleTimeString());
     } catch (e) {
       setState("Online save failed: " + e.message);
-      if (!quiet) alert("Online save failed. Token needs Contents write on " + REPO + ".\n" + e.message);
+      if (!quiet) alert("Online save failed.\n" + e.message);
     }
   }
 
@@ -856,17 +849,16 @@
 
   async function loadOnline(quiet, replace) {
     try {
-      const res = await fetch(RAW + "?t=" + Date.now());
+      const res = await fetch(STORE + "?t=" + Date.now());
       if (!res.ok) throw new Error("HTTP " + res.status);
-      const parsed = await res.json();
-      if (!parsed.byId) throw new Error("Remote file has no decisions yet");
+      const parsed = fromRemote(await res.json());
       if (replace) replaceFromRemote(parsed);
       else adopt(parsed);
       persistLocal();
       render();
-      setState((replace ? "Replaced from GitHub" : "Loaded from GitHub") + " · " + new Date().toLocaleTimeString());
+      setState((replace ? "Replaced from online" : "Loaded from online") + " · " + new Date().toLocaleTimeString());
     } catch (e) {
-      if (!quiet) alert("Could not load GitHub decisions yet: " + e.message);
+      if (!quiet) alert("Could not load saved work yet: " + e.message);
     }
   }
 

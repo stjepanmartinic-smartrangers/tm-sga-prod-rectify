@@ -143,7 +143,7 @@
     </div>
     <div class="bar">
       <button type="button" id="btnSave">Save online</button>
-      <button type="button" id="btnLoad" class="ghost">Reload from GitHub</button>
+      <button type="button" id="btnLoad" class="ghost">Reload saved work</button>
       <label class="who-wrap">Who are you
         <select id="who"></select>
       </label>
@@ -170,8 +170,7 @@
     <div class="help" id="help"></div>
     <div id="list"></div>
     <footer>
-      Decisions live in this browser until you click <b>Save online</b>, then they are in
-      <code>decisions.json</code> on GitHub. Hosted on GitHub Pages for as long as the repo exists.
+      Decisions live in this browser until you click <b>Save online</b>. No GitHub token is needed. Hosted on GitHub Pages for as long as the repo exists.
       Use <b>All decided</b> (or the Decided number at the top) to reopen anything and change it.
       Default list is <b>All on this tab</b> so Yes/No stay on screen. <b>No</b> on a missing service opens the Service Template fields on that same card.
       Your name is remembered in this browser; the people list is shared after Save online.
@@ -185,15 +184,6 @@
     <div class="row-actions">
       <button type="button" id="btnWhoOk">Continue</button>
       <button type="button" id="btnWhoCancel">Cancel</button>
-    </div>
-  </dialog>
-  <dialog id="settings">
-    <h3>Save online with GitHub</h3>
-    <p>Create a fine-grained PAT with <b>Contents: Read and write</b> on <code>tm-sga-prod-rectify</code>. It stays in this browser only.</p>
-    <input type="password" id="pat" placeholder="ghp_…" style="width:100%" />
-    <div class="row-actions">
-      <button type="button" id="btnSavePat">Store token</button>
-      <button type="button" id="btnCloseSettings">Close</button>
     </div>
   </dialog>
   <script src="data.js"></script>

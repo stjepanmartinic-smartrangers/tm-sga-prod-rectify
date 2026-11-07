@@ -132,8 +132,8 @@
     <div class="filters">
       <input type="search" id="q" placeholder="Search service, package, supplier…" />
       <select id="statusFilter">
+        <option value="all" selected>All on this tab</option>
         <option value="open">Open only</option>
-        <option value="all">All on this tab</option>
         <option value="decided">Decided on this tab</option>
       </select>
       <select id="decisionFilter">
@@ -149,7 +149,7 @@
       Decisions live in three places: this browser (localStorage), a downloaded JSON file, and
       <code>decisions.json</code> in the GitHub repo (after Save online). Hosted on GitHub Pages for as long as the repo exists.
       Use <b>All decided</b> (or the Decided number at the top) to reopen anything and change it.
-      Fully missing services show the Service Template fields only after you mark <b>No</b> (brand new).
+      Default list is <b>All on this tab</b> so Yes/No stay on screen. <b>No</b> on a missing service opens the Service Template fields on that same card.
       When this round is finished, say so in chat — we merge Yes/No, chosen match, form fields, and notes back onto the Excel workbooks.
     </footer>
   </div>

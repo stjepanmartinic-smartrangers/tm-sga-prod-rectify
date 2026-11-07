@@ -28,7 +28,7 @@ Save online needs a GitHub token (Contents: Read and write on this repo only). O
 
 ## Review / change decisions
 
-Open **All decided** (first tab) or click the **Decided** number at the top. Filter that list by Yes / No / Done. Change the choice there, or **Reopen** to put it back in the open queue. Per-tab filter still has **Decided on this tab**.
+The default list is **All on this tab**, so a Yes or No stays on the same screen (use **Reopen** if it was accidental). **No** on a missing service opens the Service Template fields on that card — you do not need All decided to fill them. **All decided** is only for review; it has a Yes / No / Done filter.
 
 ## Fully missing services
 

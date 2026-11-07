@@ -16,6 +16,7 @@
   let sheetId = data.sheets[0].id;
   let decisions = loadLocal();
   let saveTimer = null;
+  let lastFocusId = null;
 
   const $ = (id) => document.getElementById(id);
   $("q").addEventListener("input", render);
@@ -170,6 +171,8 @@
     } else if (value === "no") {
       d.selected = "";
     }
+    lastFocusId = id;
+    if ($("statusFilter").value === "open") $("statusFilter").value = "all";
     scheduleSave();
     render();
   }
@@ -220,7 +223,7 @@
       b.onclick = () => {
         const next = b.dataset.id;
         if (next === "__decided__") $("statusFilter").value = "decided";
-        else if (sheetId === "__decided__") $("statusFilter").value = "open";
+        else if (sheetId === "__decided__") $("statusFilter").value = "all";
         sheetId = next;
         render();
       };
@@ -311,6 +314,13 @@
     }
     $("list").innerHTML = pairs.map((p) => cardHtml(p.sheet, p.issue)).join("");
     bindList(pairs);
+    if (lastFocusId) {
+      const form = $("list").querySelector(`.create-form textarea[data-id="${lastFocusId}"], .create-form input[data-id="${lastFocusId}"]`);
+      const card = $("list").querySelector(`input[data-choice][data-id="${lastFocusId}"]`);
+      const el = form ? form.closest(".create-form") : card ? card.closest(".card") : null;
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
+      lastFocusId = null;
+    }
   }
 
   function findIssue(id) {

@@ -719,36 +719,86 @@
     return {};
   }
 
+  const RT_SERVICE = [
+    "Accommodation",
+    "Activity",
+    "Airport Transfer",
+    "Crew Services",
+    "Cruise",
+    "Equipment & Supplies",
+    "Flight",
+    "Gifts & Miscellaneous Items",
+    "Leader Service",
+    "Local Guide",
+    "Meal",
+    "Multi-Day Service",
+    "Operational",
+    "Tolls & Charges",
+    "Transfer",
+    "Transport",
+    "Vehicle Fleet",
+  ];
+  const OPT_TRUE_FALSE = ["true", "false"];
+  const OPT_COST = ["Direct Cost", "Indirect Cost"];
+  const OPT_PRICING = ["Standard", "Booking"];
+  const OPT_ALLOC = ["booking", "day", "night"];
+  const OPT_TIME_SETUP = ["Time Required", "Time From Only", "Time Not Required"];
+  const OPT_COMM = ["Email", "Phone", "Fax", "Print", "SMS"];
+  const OPT_DAYS = ["Mon;Tue;Wed;Thu;Fri;Sat;Sun", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+  const OPT_PRICELIST = ["FIT", "All Group Series", "GIT", "Pre/Post", "FIT/Group Series"];
+  const OPT_PRICE_TYPE = ["Cost", "Selling"];
+  const OPT_CURRENCY = ["MAD", "EUR", "USD", "GBP", "Moroccan Dirham", "Euro", "U.S. Dollar", "British Pound"];
+  const OPT_INVENTORY = ["First Day Only", "Each Day", "N/A"];
+  const OPT_CONFIRM = ["Manual", "Email", "Confirmation Not Needed"];
+  const OPT_INVOICE = ["Itinerary Item", "Itinerary Service", "Prepayment"];
+  const OPT_AGREEMENT_TYPE = ["Net Rate", "Commission", "DMC", "DMC Global"];
+  const OPT_PAY_TYPE = ["Deposit", "Final Balance", "Billback", "Billback Self-Bill", "Deposit %", "Deposit (Amount)", "Balance"];
+  const OPT_PAY_METHOD = ["Credit Card", "Cash", "Bank Transfer", "Bank Payment"];
+  const OPT_BEARER = ["Office", "Tour Leader"];
+  const OPT_WHEN = [
+    "After Booking",
+    "Before Travel",
+    "After Travel",
+    "Fixed Date",
+    "Before Package Departure",
+    "After Package Departure",
+    "After Booking Date",
+    "Before Travel Date",
+  ];
+  const OPT_BU = ["Intrepid Morocco"];
+  const OPT_CHANNEL = ["Tailor-made (Morocco)"];
+  const OPT_TAX = ["MAVAT"];
+
   const ST_FORM = [
     { key: "name", label: "Name" },
     { key: "location", label: "Location" },
-    { key: "businessUnit", label: "Business Unit" },
-    { key: "serviceType", label: "Service Type (Record Type)" },
-    { key: "allowDayUse", label: "Allow Day Use (true, false)" },
-    { key: "costType", label: "Cost Type" },
-    { key: "pricingType", label: "Pricing Type (Standard, Booking)" },
-    { key: "taxGroup", label: "TaxGroup" },
-    { key: "allocationType", label: "Allocation Type (day, night, booking)" },
+    { key: "businessUnit", label: "Business Unit", options: OPT_BU },
+    { key: "serviceType", label: "Service Type (Record Type)", options: RT_SERVICE },
+    { key: "allowDayUse", label: "Allow Day Use", options: OPT_TRUE_FALSE },
+    { key: "costType", label: "Cost Type", options: OPT_COST },
+    { key: "pricingType", label: "Pricing Type", options: OPT_PRICING },
+    { key: "taxGroup", label: "TaxGroup", options: OPT_TAX },
+    { key: "allocationType", label: "Allocation Type", options: OPT_ALLOC },
     { key: "checkInTime", label: "CheckIn Time" },
     { key: "checkOutTime", label: "CheckOut Time" },
-    { key: "timeSetup", label: "Time Setup" },
-    { key: "preferredComm", label: "Preferred communication" },
+    { key: "timeSetup", label: "Time Setup", options: OPT_TIME_SETUP },
+    { key: "preferredComm", label: "Preferred communication", options: OPT_COMM },
     { key: "priceCategory", label: "Price Category" },
     { key: "maxAdults", label: "Price Category MaxAdults" },
     { key: "maxChildren", label: "Price Category MaxChildren" },
     { key: "priceSeason", label: "Price Season" },
     { key: "priceSeasonDates", label: "Price Season Dates" },
-    { key: "priceSeasonDays", label: "Price Season Days" },
-    { key: "pricelist", label: "Pricelist (FIT / Group Series / GIT)" },
+    { key: "priceSeasonDays", label: "Price Season Days", options: OPT_DAYS },
+    { key: "pricelist", label: "Pricelist", options: OPT_PRICELIST },
     { key: "qtyMin", label: "Quantity Minimum" },
-    { key: "priceType", label: "Price Type (Cost/Sell)" },
+    { key: "priceType", label: "Price Type", options: OPT_PRICE_TYPE },
     { key: "priceGroup", label: "Price Group" },
     { key: "price", label: "Price" },
-    { key: "priceCurrency", label: "Price Currency" },
-    { key: "inventoryType", label: "Inventory Type" },
+    { key: "priceCurrency", label: "Price Currency", options: OPT_CURRENCY },
+    { key: "inventoryType", label: "Inventory Type", options: OPT_INVENTORY },
     { key: "supplierName", label: "Supplier Name" },
-    { key: "supplierBu", label: "Supplier Business Unit" },
-    { key: "supplierConfirm", label: "Supplier Confirmation Method" },
+    { key: "supplierBu", label: "Supplier Business Unit", options: OPT_BU },
+    { key: "supplierConfirm", label: "Supplier Confirmation Method", options: OPT_CONFIRM },
     { key: "comment", label: "Comment", wide: true, area: true },
   ];
 
@@ -756,16 +806,16 @@
     { key: "agreementName", label: "Agreement Name" },
     { key: "dateFrom", label: "Date from" },
     { key: "dateTo", label: "Date To" },
-    { key: "businessUnit", label: "Business Unit" },
-    { key: "channel", label: "Channel" },
-    { key: "invoiceBasis", label: "Supplier Invoice Basis" },
+    { key: "businessUnit", label: "Business Unit", options: OPT_BU },
+    { key: "channel", label: "Channel", options: OPT_CHANNEL },
+    { key: "invoiceBasis", label: "Supplier Invoice Basis", options: OPT_INVOICE },
     { key: "cancellationPolicy", label: "Cancellation Policy" },
-    { key: "agreementType", label: "Agreement Type (Net Rate, Commission)" },
-    { key: "paymentType", label: "Type (Billback, Deposit %, Balance, …)" },
-    { key: "paymentMethod", label: "Payment Method (Credit Card, Cash, Bank Payment)" },
-    { key: "costBearer", label: "Cost Bearer (Office, Tour Leader)" },
+    { key: "agreementType", label: "Agreement Type", options: OPT_AGREEMENT_TYPE },
+    { key: "paymentType", label: "Type", options: OPT_PAY_TYPE },
+    { key: "paymentMethod", label: "Payment Method", options: OPT_PAY_METHOD },
+    { key: "costBearer", label: "Cost Bearer", options: OPT_BEARER },
     { key: "days", label: "Days" },
-    { key: "when", label: "When (After Booking Date, Before Travel Date, …)" },
+    { key: "when", label: "When", options: OPT_WHEN },
     { key: "service", label: "Service" },
     { key: "priceCategory", label: "Price Category" },
     { key: "addOns", label: "Add ons" },
@@ -776,9 +826,9 @@
 
   const SUPPLIER_FORM = [
     { key: "supplierName", label: "Supplier Name" },
-    { key: "supplierBu", label: "Supplier Business Unit" },
-    { key: "supplierConfirm", label: "Supplier Confirmation Method (Manual, Confirmation Not Needed)" },
-    { key: "preferredComm", label: "Preferred communication (Email, Phone, Fax, Print, SMS)" },
+    { key: "supplierBu", label: "Supplier Business Unit", options: OPT_BU },
+    { key: "supplierConfirm", label: "Supplier Confirmation Method", options: OPT_CONFIRM },
+    { key: "preferredComm", label: "Preferred communication", options: OPT_COMM },
     { key: "packages", label: "TM package" },
     { key: "location", label: "Location" },
     { key: "comment", label: "Comment", wide: true, area: true },
@@ -865,9 +915,24 @@
       .map((f) => {
         const val = form[f.key] != null && form[f.key] !== "" ? form[f.key] : spec.defs[f.key] || "";
         const cls = f.wide ? "wide" : "";
-        const control = f.area
-          ? `<textarea data-form="${f.key}" data-id="${issue.id}">${esc(val)}</textarea>`
-          : `<input type="text" data-form="${f.key}" data-id="${issue.id}" value="${esc(val)}" />`;
+        let control;
+        if (f.area) {
+          control = `<textarea data-form="${f.key}" data-id="${issue.id}">${esc(val)}</textarea>`;
+        } else if (f.options) {
+          const opts = f.options.slice();
+          if (val && !opts.includes(val)) opts.unshift(val);
+          const body = [`<option value="">Select…</option>`]
+            .concat(
+              opts.map(
+                (o) =>
+                  `<option value="${esc(o)}" ${o === val ? "selected" : ""}>${esc(o)}</option>`
+              )
+            )
+            .join("");
+          control = `<select data-form="${f.key}" data-id="${issue.id}">${body}</select>`;
+        } else {
+          control = `<input type="text" data-form="${f.key}" data-id="${issue.id}" value="${esc(val)}" />`;
+        }
         return `<label class="${cls}">${esc(f.label)}${control}</label>`;
       })
       .join("");

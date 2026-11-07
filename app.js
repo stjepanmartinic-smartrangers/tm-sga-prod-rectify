@@ -35,8 +35,8 @@
     $("settings").close();
     setState("Token stored in this browser.");
   });
-  $("btnSave").addEventListener("click", saveOnline);
-  $("btnLoad").addEventListener("click", loadOnline);
+  $("btnSave").addEventListener("click", () => saveOnline(false));
+  $("btnLoad").addEventListener("click", () => loadOnline(false));
   $("pat").value = localStorage.getItem(LS_PAT) || "";
   $("who").addEventListener("change", () => {
     if ($("who").value === "__add__") {
@@ -179,17 +179,91 @@
     return out.slice(-3000);
   }
 
+  function newerDec(a, b) {
+    if (!a) return b;
+    if (!b) return a;
+    const at = Date.parse(a.updatedAt || 0) || 0;
+    const bt = Date.parse(b.updatedAt || 0) || 0;
+    if (bt !== at) return bt > at ? b : a;
+    if (isDecided(a) && !isDecided(b)) return a;
+    if (isDecided(b) && !isDecided(a)) return b;
+    return a;
+  }
+
+  function mergeById(local, remote) {
+    const out = {};
+    const ids = new Set([...Object.keys(local || {}), ...Object.keys(remote || {})]);
+    ids.forEach((id) => {
+      out[id] = newerDec((local || {})[id], (remote || {})[id]);
+    });
+    return out;
+  }
+
+  function statusFromChoice(value) {
+    if (!value) return "open";
+    if (value === "no" || value === "skip") return "no";
+    if (value === "done") return "done";
+    return "yes";
+  }
+
+  function choiceFromHistory(h, sheet, issue) {
+    if (h.kind === "reopen") return "";
+    if (h.choice) return h.choice;
+    if (!sheet || !issue || !h.to) return "";
+    const o = optionsFor(sheet, issue).find((x) => x.label === h.to);
+    return o ? o.value : "";
+  }
+
+  function hydrateFromHistory() {
+    ensureShape();
+    const latest = {};
+    for (const h of decisions.history || []) {
+      if (!h.issueId) continue;
+      if (h.kind === "choice" || h.kind === "reopen") latest[h.issueId] = h;
+    }
+    let changed = false;
+    for (const [id, h] of Object.entries(latest)) {
+      const d = dec(id);
+      const histAt = Date.parse(h.at || 0) || 0;
+      const decAt = Date.parse(d.updatedAt || 0) || 0;
+      if (isDecided(d) && decAt >= histAt) continue;
+      const sheet = findSheet(String(id).split("::")[0]);
+      const issue = findIssue(id);
+      if (h.kind === "reopen") {
+        if (histAt >= decAt && d.status !== "open") {
+          d.status = "open";
+          d.choice = "";
+          d.selected = "";
+          d.updatedAt = h.at;
+          changed = true;
+        }
+        continue;
+      }
+      const value = choiceFromHistory(h, sheet, issue);
+      if (!value) continue;
+      if (d.choice === value && isDecided(d) && decAt >= histAt) continue;
+      d.choice = value;
+      d.status = h.status || statusFromChoice(value);
+      if (h.selected) d.selected = h.selected;
+      d.updatedAt = h.at || d.updatedAt;
+      changed = true;
+    }
+    return changed;
+  }
+
   function adopt(parsed) {
     ensureShape();
     ensureShape(parsed);
-    const localHist = decisions.history;
-    const localPeople = decisions.people;
-    decisions = parsed;
-    ensureShape();
-    decisions.history = mergeHist(localHist, parsed.history);
-    decisions.people = [...new Set([...(localPeople || []), ...(parsed.people || [])])].sort((a, b) =>
-      a.localeCompare(b)
-    );
+    const local = decisions;
+    decisions = {
+      byId: mergeById(local.byId, parsed.byId),
+      history: mergeHist(local.history, parsed.history),
+      people: [...new Set([...(local.people || []), ...(parsed.people || [])])].sort((a, b) =>
+        a.localeCompare(b)
+      ),
+      updatedAt: (parsed.updatedAt || "") > (local.updatedAt || "") ? parsed.updatedAt : local.updatedAt,
+    };
+    hydrateFromHistory();
   }
 
   function findSheet(id) {
@@ -301,6 +375,8 @@
         service: issue.service || "",
         from: choiceLabel(sheet, issue, d.choice),
         to: "Open",
+        choice: "",
+        status: "open",
       });
       d.status = "open";
       d.choice = "";
@@ -359,6 +435,8 @@
       from: choiceLabel(sheet, issue, prevChoice),
       to: choiceLabel(sheet, issue, value),
       selected: d.selected || "",
+      choice: value,
+      status: d.status,
     });
     lastFocusId = id;
     if ($("statusFilter").value === "open") $("statusFilter").value = "all";
@@ -798,7 +876,7 @@
     }
   }
 
-  async function loadOnline() {
+  async function loadOnline(quiet) {
     try {
       const res = await fetch(RAW + "?t=" + Date.now());
       if (!res.ok) throw new Error("HTTP " + res.status);
@@ -809,10 +887,11 @@
       render();
       setState("Loaded from GitHub · " + new Date().toLocaleTimeString());
     } catch (e) {
-      alert("Could not load GitHub decisions yet: " + e.message);
+      if (!quiet) alert("Could not load GitHub decisions yet: " + e.message);
     }
   }
 
-  loadOnline().catch(() => {});
+  if (hydrateFromHistory()) persistLocal();
+  loadOnline(true).catch(() => {});
   render();
 })();

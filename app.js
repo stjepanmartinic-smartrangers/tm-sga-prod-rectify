@@ -1,7 +1,8 @@
 (() => {
   const LS_DECISIONS = "tm-sga-prod-rectify-decisions";
   const LS_WHO = "tm-sga-prod-rectify-who";
-  const STORE = "https://crudcrud.com/api/5ce21a106f8b4ae796b59dbcb9e09adc/decisions/6aef643b3d1c7403e888af0c";
+  const STORE_ROOT = "https://crudcrud.com/api/978fb230de0541fd90abdcdb85f031b5/decisions";
+  const SNAPSHOT = "decisions.json";
 
   const data = window.ISSUE_DATA;
   if (!data) {
@@ -988,19 +989,61 @@
     };
   }
 
+  function netMsg(e) {
+    const m = String((e && e.message) || e || "unknown error");
+    if (/Failed to fetch|NetworkError|Load failed/i.test(m)) {
+      return "the shared store did not respond. Firefox often reports this when the store has expired.";
+    }
+    return m;
+  }
+
+  async function fetchJson(url) {
+    const res = await fetch(url, { cache: "no-store" });
+    if (!res.ok) {
+      let extra = "";
+      try {
+        extra = (await res.text()).slice(0, 160);
+      } catch {
+        extra = "";
+      }
+      throw new Error("HTTP " + res.status + (extra ? " — " + extra : ""));
+    }
+    return res.json();
+  }
+
+  function parseStore(raw) {
+    if (!raw) return ensureShape({});
+    if (Array.isArray(raw.items)) return fromRemote(raw);
+    return ensureShape(raw);
+  }
+
+  async function liveDocument() {
+    const list = await fetchJson(STORE_ROOT + "?t=" + Date.now());
+    if (!Array.isArray(list) || !list.length) return { raw: null, id: null };
+    const sorted = list.slice().sort((a, b) =>
+      String(b.updatedAt || "").localeCompare(String(a.updatedAt || ""))
+    );
+    const raw = sorted[0];
+    return { raw, id: raw && raw._id ? raw._id : null };
+  }
+
   async function saveOnline(quiet) {
     persistLocal();
     try {
-      const put = await fetch(STORE, {
-        method: "PUT",
+      const { id } = await liveDocument();
+      const body = JSON.stringify(toRemote());
+      const url = id ? STORE_ROOT + "/" + id : STORE_ROOT;
+      const put = await fetch(url, {
+        method: id ? "PUT" : "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(toRemote()),
+        body,
       });
       if (!put.ok) throw new Error("HTTP " + put.status);
       setState("Saved online · " + new Date().toLocaleTimeString());
     } catch (e) {
-      setState("Online save failed: " + e.message);
-      if (!quiet) alert("Online save failed.\n" + e.message);
+      const msg = netMsg(e);
+      setState("Online save failed: " + msg);
+      if (!quiet) alert("Online save failed.\n" + msg);
     }
   }
 
@@ -1016,16 +1059,33 @@
 
   async function loadOnline(quiet, replace) {
     try {
-      const res = await fetch(STORE + "?t=" + Date.now());
-      if (!res.ok) throw new Error("HTTP " + res.status);
-      const parsed = fromRemote(await res.json());
+      let parsed;
+      let source = "online";
+      try {
+        const { raw } = await liveDocument();
+        if (!raw) throw new Error("empty store");
+        parsed = parseStore(raw);
+      } catch (liveErr) {
+        try {
+          parsed = parseStore(await fetchJson(SNAPSHOT + "?t=" + Date.now()));
+          source = "snapshot";
+        } catch {
+          throw liveErr;
+        }
+      }
       if (replace) replaceFromRemote(parsed);
       else adopt(parsed);
       persistLocal();
       render();
-      setState((replace ? "Replaced from online" : "Loaded from online") + " · " + new Date().toLocaleTimeString());
+      const label = source === "snapshot"
+        ? (replace ? "Replaced from GitHub snapshot" : "Loaded GitHub snapshot")
+        : (replace ? "Replaced from online" : "Loaded from online");
+      setState(label + " · " + new Date().toLocaleTimeString());
+      if (!quiet && source === "snapshot") {
+        alert("Live store did not respond. Loaded the last published snapshot from GitHub instead.");
+      }
     } catch (e) {
-      if (!quiet) alert("Could not load saved work yet: " + e.message);
+      if (!quiet) alert("Could not load saved work yet: " + netMsg(e));
     }
   }
 

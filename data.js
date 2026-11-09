@@ -8,113 +8,10 @@ window.ISSUE_DATA = {
       "title": "Package not in ST",
       "sheet": "P1 Package not in ST",
       "workbook": "pricing",
-      "help": "On a TM package or SGA itinerary, not on the Service Template. Yes = add it using the selected Prod name. No = brand new — fill the Service Template fields; a new service will be created.",
+      "help": "On a TM package, not on the Service Template. SGA itinerary services are not listed here — they already exist on Prod and will be carried onto a package. Yes = add it using the selected Prod name. No = brand new — fill the Service Template fields.",
       "choice": "fuzzy-service",
-      "count": 351,
+      "count": 122,
       "issues": [
-        {
-          "id": "P1::1 hour surf lesson",
-          "service": "1 Hour Surf Lesson",
-          "packages": [
-            "SGA XMFE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFE",
-            "Prod exists": "Yes",
-            "Prod Name": "1 Hour Surf Lesson",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Essaouira",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Essaouira",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "1 Hour Surf Lesson",
-            "location": "Essaouira",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::10 days xmfp private transfer",
-          "service": "10 Days XMFP Private Transfer",
-          "packages": [
-            "SGA XMFP"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P9",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod exists": "Yes",
-            "Prod Name": "10 Days XMFP Private Transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4; P9",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle Banded (Max7)",
-              "score": 76.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "10 Days XMFP Private Transfer",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
         {
           "id": "P1::4wd excursion",
           "service": "4WD Excursion",
@@ -154,115 +51,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::5 days package morocco expedition: women in focus hike",
-          "service": "5 Days Package Morocco Expedition: Women in Focus Hike",
-          "packages": [
-            "SGA XMRW"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMRW",
-            "Prod exists": "Yes",
-            "Prod Name": "5 Days Package Morocco Expedition: Women in Focus Hike",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Boutaghrar",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Boutaghrar",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "5 Days Package Morocco Expedition: Women in Focus Hike",
-            "location": "Boutaghrar",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::aday hotel",
-          "service": "Aday Hotel",
-          "packages": [
-            "SGA XMFP"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod exists": "Yes",
-            "Prod Name": "Aday Hotel",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Double For Single",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Aday Hotel",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -375,269 +163,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::agafay stargazing",
-          "service": "Agafay StarGazing",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod exists": "Yes",
-            "Prod Name": "Agafay StarGazing",
-            "Package PCs": "Per Group (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Agafay",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Agafay",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Agafay StarGazing",
-            "location": "Agafay",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::agriculture meeting in dades fields",
-          "service": "Agriculture Meeting in Dades Fields",
-          "packages": [
-            "SGA XMSS"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMSS",
-            "Prod exists": "Yes",
-            "Prod Name": "Agriculture Meeting in Dades Fields",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Dades",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Dades",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Agriculture Meeting in Dades Fields",
-            "location": "Dades",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::ain echchaouen xmkc",
-          "service": "Ain Echchaouen XMKC",
-          "packages": [
-            "SGA XMKC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "Ain Echchaouen XMKC",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Chefchaouen",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Ain Echchaouen XMKC",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::ait benhaddou painting demonstration with gift",
-          "service": "Ait BenHaddou Painting Demonstration with Gift",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMKN"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Ait BenHaddou Painting Demonstration with Gift",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ait Benhaddou",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ait Benhaddou",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Ait BenHaddou Painting Demonstration with Gift",
-            "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::amal association side dishes cooking class",
-          "service": "Amal Association Side Dishes Cooking Class",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod exists": "Yes",
-            "Prod Name": "Amal Association Side Dishes Cooking Class",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Amal Association Side Dishes Cooking Class",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::amazigh brunch in the valley",
           "service": "Amazigh Brunch in the Valley",
           "packages": [
@@ -726,110 +251,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::argan oil cooperative visit tichka",
-          "service": "Argan Oil Cooperative Visit Tichka",
-          "packages": [
-            "SGA XMSS",
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMSS",
-            "Prod exists": "Yes",
-            "Prod Name": "Argan Oil Cooperative Visit Tichka",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ouarzazate",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ouarzazate",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Argan Oil Cooperative Visit Tichka",
-            "location": "Ouarzazate",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::astrologist transportation to oukaimden with return",
-          "service": "Astrologist transportation to Oukaimden with return",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "Astrologist transportation to Oukaimden with return",
-            "Package PCs": "Per Groupe Non-Banded",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Groupe Non-Banded",
-              "value": "Per Groupe Non Banded",
-              "score": 99.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Astrologist transportation to Oukaimden with return",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Groupe Non-Banded",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -933,76 +354,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::auberge chez momo - standard",
-          "service": "Auberge Chez Momo - Standard",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Auberge Chez Momo - Standard",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Ouirgane",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double Standard Room",
-              "score": 60.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single Standard Room",
-              "score": 60.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ouirgane",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Auberge Chez Momo - Standard",
-            "location": "Ouirgane",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -1268,400 +619,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::berber lunch at a local family guesthouse",
-          "service": "Berber Lunch at a Local Family Guesthouse",
-          "packages": [
-            "SGA XMFK"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod exists": "Yes",
-            "Prod Name": "Berber Lunch at a Local Family Guesthouse",
-            "Package PCs": "Lunch",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Todra Gorge",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Todra Gorge",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Berber Lunch at a Local Family Guesthouse",
-            "location": "Todra Gorge",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Lunch",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::berber museum tinjedad",
-          "service": "Berber Museum Tinjedad",
-          "packages": [
-            "SGA XMSC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMSC",
-            "Prod exists": "Yes",
-            "Prod Name": "Berber Museum Tinjedad",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Tinjdad",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tinjdad",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Berber Museum Tinjedad",
-            "location": "Tinjdad",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::bicycle cleaning",
-          "service": "Bicycle Cleaning",
-          "packages": [
-            "SGA XMXC",
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Bicycle Cleaning",
-            "Package PCs": "Per Group (Fixed)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech; Morocco",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech; Morocco",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Bicycle Cleaning",
-            "location": "Marrakech; Morocco",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group (Fixed)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::bike hire - intrepid",
-          "service": "Bike Hire - Intrepid",
-          "packages": [
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Bike Hire - Intrepid",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Bike Hire - Intrepid",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::bike hire - xmxm",
-          "service": "Bike Hire - XMXM",
-          "packages": [
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMXM",
-            "Prod exists": "Yes",
-            "Prod Name": "Bike Hire - XMXM",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Bike Hire - XMXM",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::bike storage",
-          "service": "Bike Storage",
-          "packages": [
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P9; P10",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Bike Storage",
-            "Package PCs": "Per Group (Fixed)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P9; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Bike Storage",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group (Fixed)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::boat ride and picnic lunch",
-          "service": "Boat Ride and Picnic Lunch",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod exists": "Yes",
-            "Prod Name": "Boat Ride and Picnic Lunch",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Bin el Ouidane",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Bin el Ouidane",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Boat Ride and Picnic Lunch",
-            "location": "Bin el Ouidane",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::boutaghrar to marrakech private transfer xmrw",
-          "service": "Boutaghrar to Marrakech Private Transfer XMRW",
-          "packages": [
-            "SGA XMRW"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMRW",
-            "Prod exists": "Yes",
-            "Prod Name": "Boutaghrar to Marrakech Private Transfer XMRW",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Boutaghrar",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Boutaghrar",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Boutaghrar to Marrakech Private Transfer XMRW",
-            "location": "Boutaghrar",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::bread cooking  demonstration",
           "service": "Bread cooking  Demonstration",
           "packages": [
@@ -1708,55 +665,6 @@ window.ISSUE_DATA = {
           "formDefaults": {
             "name": "Bread cooking  Demonstration",
             "location": "Imlil",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::bread preparation",
-          "service": "Bread Preparation",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P9",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod exists": "Yes",
-            "Prod Name": "Bread Preparation",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P9",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Bread Preparation",
-            "location": "Morocco",
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Person",
@@ -1819,54 +727,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::camel burger lunch with side",
-          "service": "Camel Burger Lunch with Side",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod exists": "Yes",
-            "Prod Name": "Camel Burger Lunch with Side",
-            "Package PCs": "Lunch",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Meknes",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Meknes",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Camel Burger Lunch with Side",
-            "location": "Meknes",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Lunch",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -2028,150 +888,6 @@ window.ISSUE_DATA = {
           "formDefaults": {
             "name": "Camel Ride - Sunset",
             "location": "Agafay; Merzouga",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::camel ride at sunset - trova prem dwob",
-          "service": "Camel Ride at Sunset - Trova Prem DWOB",
-          "packages": [
-            "SGA XMFE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFE",
-            "Prod exists": "Yes",
-            "Prod Name": "Camel Ride at Sunset - Trova Prem DWOB",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Agafay",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Agafay",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Camel Ride at Sunset - Trova Prem DWOB",
-            "location": "Agafay",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::camel ride in desert",
-          "service": "Camel Ride in Desert",
-          "packages": [
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Camel Ride in Desert",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Merzouga",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Camel Ride in Desert",
-            "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::camel ride merzouga",
-          "service": "Camel Ride Merzouga",
-          "packages": [
-            "SGA XMKN"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMKN",
-            "Prod exists": "Yes",
-            "Prod Name": "Camel Ride Merzouga",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Merzouga",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Camel Ride Merzouga",
-            "location": "Merzouga",
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Person",
@@ -2554,130 +1270,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::camp yasmina luxury",
-          "service": "Camp Yasmina Luxury",
-          "packages": [
-            "SGA XMFK"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod exists": "Yes",
-            "Prod Name": "Camp Yasmina Luxury",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Merzouga",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Camp Yasmina Luxury",
-            "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::camp yasmina original",
-          "service": "Camp Yasmina Original",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMKN",
-            "SGA XMSC",
-            "SGA XMSS",
-            "SGA XMXM",
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Camp Yasmina Original",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Merzouga",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room (Family)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Camp Yasmina Original",
-            "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::cap spartel",
           "service": "Cap spartel",
           "packages": [
@@ -2719,841 +1311,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca airport to city hotel group transfer",
-          "service": "Casablanca Airport to City Hotel Group Transfer",
-          "packages": [
-            "SGA XMFK"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca Airport to City Hotel Group Transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Airport Transfer",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Airport Transfer",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca Airport to City Hotel Group Transfer",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Airport Transfer",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca airport to hotel private transfer",
-          "service": "Casablanca Airport to Hotel Private Transfer",
-          "packages": [
-            "SGA XMFP"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca Airport to Hotel Private Transfer",
-            "Package PCs": "Transport (Per Person)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Airport Transfer",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Airport Transfer",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca Airport to Hotel Private Transfer",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Airport Transfer",
-            "priceCategory": "Transport (Per Person)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca airport to hotel private transfer individual xmkc / xmkn",
-          "service": "Casablanca Airport to Hotel Private Transfer Individual XMKC / XMKN",
-          "packages": [
-            "SGA XMKC",
-            "SGA XMKN"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca Airport to Hotel Private Transfer Individual XMKC / XMKN",
-            "Package PCs": "Transport (Per Person)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Airport Transfer",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Airport Transfer",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca Airport to Hotel Private Transfer Individual XMKC / XMKN",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Airport Transfer",
-            "priceCategory": "Transport (Per Person)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca airport to marly boutique hotel individual",
-          "service": "Casablanca Airport to Marly Boutique Hotel Individual",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca Airport to Marly Boutique Hotel Individual",
-            "Package PCs": "Transport (Per Person)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Airport Transfer",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Airport Transfer",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca Airport to Marly Boutique Hotel Individual",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Airport Transfer",
-            "priceCategory": "Transport (Per Person)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca airport to marrakech private transfer",
-          "service": "Casablanca Airport to Marrakech Private Transfer",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P9; P10",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca Airport to Marrakech Private Transfer",
-            "Package PCs": "Transport (Per Person)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Airport Transfer",
-            "Also listed in": "Also listed in P4; P9; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Airport Transfer",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca Airport to Marrakech Private Transfer",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Airport Transfer",
-            "priceCategory": "Transport (Per Person)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca hotel placeholder  xmsb",
-          "service": "Casablanca Hotel Placeholder  XMSB",
-          "packages": [
-            "SGA XMSB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSB",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca Hotel Placeholder  XMSB",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single - Standard Room",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca Hotel Placeholder  XMSB",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca hotel to train station grand taxi",
-          "service": "Casablanca Hotel to Train Station Grand Taxi",
-          "packages": [
-            "SGA XMSB",
-            "SGA XMSC",
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSB",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca Hotel to Train Station Grand Taxi",
-            "Package PCs": "Per Unit (Max 0...); Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca Hotel to Train Station Grand Taxi",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Unit (Max 0...); Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca to fes 1st class train",
-          "service": "Casablanca to Fes 1st Class Train",
-          "packages": [
-            "SGA XMFK"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca to Fes 1st Class Train",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Transport",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca to Fes 1st Class Train",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca to marrakech 11 days xmkc private transfer",
-          "service": "Casablanca to Marrakech 11 Days XMKC Private Transfer",
-          "packages": [
-            "SGA XMKC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca to Marrakech 11 Days XMKC Private Transfer",
-            "Package PCs": "Per Unit (Max 12); Per Unit (Max 16); Per Unit (Max 6)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Transport",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca to Marrakech 11 Days XMKC Private Transfer",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Unit (Max 12); Per Unit (Max 16); Per Unit (Max 6)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca to marrakech train 1st class",
-          "service": "Casablanca to Marrakech Train 1st class",
-          "packages": [
-            "SGA XMFB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca to Marrakech Train 1st class",
-            "Package PCs": "Transport (Per Person)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Transport",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca to Marrakech Train 1st class",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Transport (Per Person)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca to marrakech xmkn private transfer",
-          "service": "Casablanca to Marrakech XMKN Private Transfer",
-          "packages": [
-            "SGA XMKN"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMKN",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca to Marrakech XMKN Private Transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca to Marrakech XMKN Private Transfer",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca to marrakech xmpe  private transfer",
-          "service": "Casablanca to Marrakech XMPE  Private Transfer",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca to Marrakech XMPE  Private Transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca to Marrakech XMPE  Private Transfer",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca to marrakech xmpm private transfer",
-          "service": "Casablanca to Marrakech XMPM Private Transfer",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca to Marrakech XMPM Private Transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca to Marrakech XMPM Private Transfer",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca to meknes 2nd class train",
-          "service": "Casablanca to Meknes 2nd Class Train",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca to Meknes 2nd Class Train",
-            "Package PCs": "Transport (Per Person)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Transport",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca to Meknes 2nd Class Train",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Transport (Per Person)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca to tangier fast train",
-          "service": "Casablanca to Tangier Fast Train",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMSB",
-            "SGA XMSC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca to Tangier Fast Train",
-            "Package PCs": "Transport (Per Person)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Transport",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca to Tangier Fast Train",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Transport (Per Person)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::casablanca welcome dinner",
-          "service": "Casablanca Welcome Dinner",
-          "packages": [
-            "SGA XMFK",
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca Welcome Dinner",
-            "Package PCs": "Dinner",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca Welcome Dinner",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Dinner",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -3613,109 +1370,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::chefchaouen local restaurant - dinner",
-          "service": "Chefchaouen Local Restaurant - Dinner",
-          "packages": [
-            "SGA XMFP"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod exists": "Yes",
-            "Prod Name": "Chefchaouen Local Restaurant - Dinner",
-            "Package PCs": "Dinner",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Chefchaouen",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Chefchaouen Local Restaurant - Dinner",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Dinner",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::chefchaouen to essaouira xmsc private transfer",
-          "service": "Chefchaouen to Essaouira XMSC Private Transfer",
-          "packages": [
-            "SGA XMSC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P9",
-          "fields": {
-            "TM package": "SGA XMSC",
-            "Prod exists": "Yes",
-            "Prod Name": "Chefchaouen to Essaouira XMSC Private Transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4; P9",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Chefchaouen to Essaouira XMSC Private Transfer",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::cooking class and lunch at tawsna association",
           "service": "Cooking Class and Lunch at Tawsna Association",
           "packages": [
@@ -3752,200 +1406,6 @@ window.ISSUE_DATA = {
           "formDefaults": {
             "name": "Cooking Class and Lunch at Tawsna Association",
             "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::cooking class at atelier chef tarik",
-          "service": "Cooking Class at Atelier Chef Tarik",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Cooking Class at Atelier Chef Tarik",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Cooking Class at Atelier Chef Tarik",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::couscous cooking demonstration",
-          "service": "Couscous Cooking Demonstration",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod exists": "Yes",
-            "Prod Name": "Couscous Cooking Demonstration",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Moulay Idriss",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Moulay Idriss",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Couscous Cooking Demonstration",
-            "location": "Moulay Idriss",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::cycling days snack pack",
-          "service": "Cycling Days Snack Pack",
-          "packages": [
-            "SGA XMXC",
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P9",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Cycling Days Snack Pack",
-            "Package PCs": "Per Person Per Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Meal",
-            "Also listed in": "Also listed in P9",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Cycling Days Snack Pack",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Per Person Per Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::cycling tour of marrakech xmxc",
-          "service": "Cycling Tour of Marrakech XMXC",
-          "packages": [
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Cycling Tour of Marrakech XMXC",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Cycling Tour of Marrakech XMXC",
-            "location": "Marrakech",
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Person",
@@ -4024,203 +1484,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::dar echchaouen",
-          "service": "Dar Echchaouen",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Dar Echchaouen",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Chefchaouen",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Dar Echchaouen",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::dar tajine",
-          "service": "Dar Tajine",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMFE",
-            "SGA XMSC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Dar Tajine",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Armed",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Standard - Double Room (FIT)",
-              "score": 92.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard (FIT)",
-              "score": 58.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Standard - Single Room (FIT)",
-              "score": 92.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Standard - Twin Room (FIT)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Armed",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Dar Tajine",
-            "location": "Armed",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::day tour fes private transfer",
-          "service": "Day Tour Fes Private Transfer",
-          "packages": [
-            "SGA XMSB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSB",
-            "Prod exists": "Yes",
-            "Prod Name": "Day Tour Fes Private Transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Day Tour Fes Private Transfer",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::day trip to khamlia 4x4 excursion",
           "service": "Day Trip to Khamlia 4x4 Excursion",
           "packages": [
@@ -4260,249 +1523,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::dinner at a restaurant casablanca",
-          "service": "Dinner at a Restaurant Casablanca",
-          "packages": [
-            "SGA XMPE",
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Dinner at a Restaurant Casablanca",
-            "Package PCs": "Dinner",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Dinner at a Restaurant Casablanca",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Dinner",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::dinner at dar dada restaurant",
-          "service": "Dinner at Dar Dada Restaurant",
-          "packages": [
-            "SGA XMFP"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod exists": "Yes",
-            "Prod Name": "Dinner at Dar Dada Restaurant",
-            "Package PCs": "Per Person Per Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Dinner at Dar Dada Restaurant",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Per Person Per Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::dinner at djemma el fna-booking",
-          "service": "Dinner at Djemma El Fna-Booking",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMFK",
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Dinner at Djemma El Fna-Booking",
-            "Package PCs": "Dinner",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Dinner at Djemma El Fna-Booking",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Dinner",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::dinner at el fassia restaurant agdal",
-          "service": "Dinner at el Fassia Restaurant Agdal",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "Dinner at el Fassia Restaurant Agdal",
-            "Package PCs": "Dinner",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Dinner at el Fassia Restaurant Agdal",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Dinner",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::dinner with aromatic herbs",
-          "service": "Dinner With Aromatic Herbs",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod exists": "Yes",
-            "Prod Name": "Dinner With Aromatic Herbs",
-            "Package PCs": "Dinner",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Midelt",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Midelt",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Dinner With Aromatic Herbs",
-            "location": "Midelt",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Dinner",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -4562,54 +1582,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::drink at a rooftop in jamaa el fna",
-          "service": "Drink at a Rooftop in Jamaa El Fna",
-          "packages": [
-            "SGA XMSS"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMSS",
-            "Prod exists": "Yes",
-            "Prod Name": "Drink at a Rooftop in Jamaa El Fna",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Drink at a Rooftop in Jamaa El Fna",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::ecolodge dar itrane -hb",
           "service": "Ecolodge Dar Itrane -HB",
           "packages": [
@@ -4648,172 +1620,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Accommodation",
             "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::emeraude luxury camp & tents hb",
-          "service": "Emeraude Luxury Camp & Tents HB",
-          "packages": [
-            "SGA XMFE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFE",
-            "Prod exists": "Yes",
-            "Prod Name": "Emeraude Luxury Camp & Tents HB",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Agafay",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Dome",
-              "score": 62.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single Room - Standard",
-              "score": 92.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Single Room - Standard",
-              "score": 92.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Dome",
-              "score": 60.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Agafay",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Emeraude Luxury Camp & Tents HB",
-            "location": "Agafay",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::erfoud kasbah visit",
-          "service": "Erfoud Kasbah visit",
-          "packages": [
-            "SGA XMFP"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod exists": "Yes",
-            "Prod Name": "Erfoud Kasbah visit",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Erfoud",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Erfoud",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Erfoud Kasbah visit",
-            "location": "Erfoud",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::erfoud palmary walk local guide",
-          "service": "Erfoud palmary walk local guide",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Erfoud palmary walk local guide",
-            "Package PCs": "Per Group",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Erfoud",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Erfoud",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Erfoud palmary walk local guide",
-            "location": "Erfoud",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -4869,55 +1675,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::essaouira to marrakech public bus",
-          "service": "Essaouira to Marrakech Public Bus",
-          "packages": [
-            "SGA XMSC",
-            "SGA XMSF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMSC",
-            "Prod exists": "Yes",
-            "Prod Name": "Essaouira to Marrakech Public Bus",
-            "Package PCs": "Transport (Per Person)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Essaouira",
-            "Template type": "Transport",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Essaouira",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Essaouira to Marrakech Public Bus",
-            "location": "Essaouira",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Transport (Per Person)",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -4987,310 +1744,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::farewell dinner riad el maha",
-          "service": "Farewell dinner Riad El Maha",
-          "packages": [
-            "SGA XMPE",
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Farewell dinner Riad El Maha",
-            "Package PCs": "Dinner",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Farewell dinner Riad El Maha",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Dinner",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::fes pottery class",
-          "service": "Fes Pottery Class",
-          "packages": [
-            "SGA XMFP"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod exists": "Yes",
-            "Prod Name": "Fes Pottery Class",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Fes Pottery Class",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::fes tea pouring experience",
-          "service": "Fes Tea Pouring Experience",
-          "packages": [
-            "SGA XMPE",
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Fes Tea Pouring Experience",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Fes Tea Pouring Experience",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::fes to marrakech 2nd class train",
-          "service": "Fes to Marrakech 2nd Class Train",
-          "packages": [
-            "SGA XMSB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMSB",
-            "Prod exists": "Yes",
-            "Prod Name": "Fes to Marrakech 2nd Class Train",
-            "Package PCs": "Transport (Per Person)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Transport",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Fes to Marrakech 2nd Class Train",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Transport (Per Person)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::fes to marrakech private transfer xmfk",
-          "service": "Fes to Marrakech Private Transfer XMFK",
-          "packages": [
-            "SGA XMFK"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod exists": "Yes",
-            "Prod Name": "Fes to Marrakech Private Transfer XMFK",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Fes to Marrakech Private Transfer XMFK",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::fes to marrakech xmss private transfer",
-          "service": "Fes to Marrakech XMSS Private Transfer",
-          "packages": [
-            "SGA XMSS"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P9",
-          "fields": {
-            "TM package": "SGA XMSS",
-            "Prod exists": "Yes",
-            "Prod Name": "Fes to Marrakech XMSS Private Transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4; P9",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Fes to Marrakech XMSS Private Transfer",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::free time",
           "service": "Free Time",
           "packages": [
@@ -5331,279 +1784,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "N/A",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::gite omar id mansour",
-          "service": "Gite Omar Id Mansour",
-          "packages": [
-            "SGA XMSF",
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSF",
-            "Prod exists": "Yes",
-            "Prod Name": "Gite Omar Id Mansour",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Armed; Morocco",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Single Room",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Armed; Morocco",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Gite Omar Id Mansour",
-            "location": "Armed; Morocco",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::gite tamaloute",
-          "service": "Gite Tamaloute",
-          "packages": [
-            "SGA XMKC",
-            "SGA XMXC",
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "Gite Tamaloute",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Boutaghrar; Morocco",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Boutaghrar; Morocco",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Gite Tamaloute",
-            "location": "Boutaghrar; Morocco",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::goat cheese tasting",
-          "service": "Goat Cheese Tasting",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Goat Cheese Tasting",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Chefchaouen",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Goat Cheese Tasting",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::goat cheese tasting xmzf / mag rail",
-          "service": "Goat Cheese Tasting XMZF / Mag Rail",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod exists": "Yes",
-            "Prod Name": "Goat Cheese Tasting XMZF / Mag Rail",
-            "Package PCs": "Per Group",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Chefchaouen",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Goat Cheese Tasting XMZF / Mag Rail",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::golden camp",
-          "service": "Golden Camp",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Golden Camp",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Merzouga",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Golden Camp",
-            "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -5784,296 +1964,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::hassan tower visit",
-          "service": "Hassan Tower Visit",
-          "packages": [
-            "SGA XMKC",
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "Hassan Tower Visit",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Rabat",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Rabat",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hassan Tower Visit",
-            "location": "Rabat",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::helmets hire xmxm",
-          "service": "Helmets Hire XMXM",
-          "packages": [
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMXM",
-            "Prod exists": "Yes",
-            "Prod Name": "Helmets Hire XMXM",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Helmets Hire XMXM",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::henna ceremony",
-          "service": "Henna Ceremony",
-          "packages": [
-            "SGA XMKC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "Henna Ceremony",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Kelaa M'Gouna",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Kelaa M'Gouna",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Henna Ceremony",
-            "location": "Kelaa M'Gouna",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::home cooked dinner  marrakech",
-          "service": "Home cooked Dinner  Marrakech",
-          "packages": [
-            "SGA XMRW"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMRW",
-            "Prod exists": "Yes",
-            "Prod Name": "Home cooked Dinner  Marrakech",
-            "Package PCs": "Dinner",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Home cooked Dinner  Marrakech",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Dinner",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::home cooked dinner - pastilla",
-          "service": "Home Cooked Dinner - Pastilla",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Home Cooked Dinner - Pastilla",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Home Cooked Dinner - Pastilla",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::home cooked dinner chefchaouen xmzf",
-          "service": "Home Cooked Dinner Chefchaouen XMZF",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod exists": "Yes",
-            "Prod Name": "Home Cooked Dinner Chefchaouen XMZF",
-            "Package PCs": "Dinner",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Chefchaouen",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Home Cooked Dinner Chefchaouen XMZF",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Dinner",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::home cooked lunch",
           "service": "Home cooked Lunch",
           "packages": [
@@ -6183,277 +2073,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Meal",
             "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::hotel across",
-          "service": "Hotel Across",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMKC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel Across",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room (Family) XMFB",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Across",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::hotel aurocher ourika",
-          "service": "Hotel Aurocher Ourika",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel Aurocher Ourika",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Oukaimden",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard Max",
-              "score": 58.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Oukaimden",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Aurocher Ourika",
-            "location": "Oukaimden",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::hotel dar mounir",
-          "service": "Hotel Dar Mounir",
-          "packages": [
-            "SGA XMSB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSB",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel Dar Mounir",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Chefchaouen",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Dar Mounir",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::hotel esmeralda",
-          "service": "Hotel Esmeralda",
-          "packages": [
-            "SGA XMFP"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel Esmeralda",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Chefchaouen",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double Rooom",
-              "score": 73.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Esmeralda",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -6617,285 +2236,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::hotel les amandiers  bb",
-          "service": "Hotel Les Amandiers  BB",
-          "packages": [
-            "SGA XMSF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSF",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel Les Amandiers  BB",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Tafraoute",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tafraoute",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Les Amandiers  BB",
-            "location": "Tafraoute",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::hotel madrid",
-          "service": "Hotel Madrid",
-          "packages": [
-            "SGA XMSS",
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSS",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel Madrid",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Chefchaouen",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Madrid",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::hotel meriem",
-          "service": "Hotel Meriem",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMRW",
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel Meriem",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Family Room",
-              "score": 61.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Meriem",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::hotel mounia",
-          "service": "Hotel Mounia",
-          "packages": [
-            "SGA XMXC",
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel Mounia",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room ZMSH",
-              "score": 46.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room ZMSH",
-              "score": 46.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Mounia",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::hotel oscar-hb",
           "service": "Hotel Oscar-HB",
           "packages": [
@@ -7041,258 +2381,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Accommodation",
             "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::hotel riad ouinz  hb",
-          "service": "Hotel Riad Ouinz  HB",
-          "packages": [
-            "SGA XMFK",
-            "SGA XMKN"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel Riad Ouinz  HB",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "FIT",
-            "Gap": "FIT only",
-            "Template location": "Ait Benhaddou",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room (Family)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ait Benhaddou",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Riad Ouinz  HB",
-            "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::hotel souiri",
-          "service": "Hotel Souiri",
-          "packages": [
-            "SGA XMSC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSC",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel Souiri",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Essaouira",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room (Family)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Essaouira",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Souiri",
-            "location": "Essaouira",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::hotel to amal association targa return private transfer",
-          "service": "Hotel to Amal Association Targa Return Private Transfer",
-          "packages": [
-            "SGA XMSF",
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSF",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel to Amal Association Targa Return Private Transfer",
-            "Package PCs": "Per Unit (Max 1...)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 1...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel to Amal Association Targa Return Private Transfer",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Unit (Max 1...)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::hotel to djemaa el fna return taxi",
-          "service": "Hotel to Djemaa El Fna Return Taxi",
-          "packages": [
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel to Djemaa El Fna Return Taxi",
-            "Package PCs": "Per Unit (Max 0...)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel to Djemaa El Fna Return Taxi",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Unit (Max 0...)",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -7470,72 +2558,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::hotel xaluca erfoud hb",
-          "service": "Hotel Xaluca Erfoud HB",
-          "packages": [
-            "SGA XMFP",
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel Xaluca Erfoud HB",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Erfoud",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room (Max",
-              "score": 46.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room (Max",
-              "score": 46.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Erfoud",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Xaluca Erfoud HB",
-            "location": "Erfoud",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::hotel xaluxa dades hb",
           "service": "Hotel Xaluxa Dades HB",
           "packages": [
@@ -7667,150 +2689,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Accommodation",
             "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::houariyates activity",
-          "service": "Houariyates Activity",
-          "packages": [
-            "SGA XMRW"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMRW",
-            "Prod exists": "Yes",
-            "Prod Name": "Houariyates Activity",
-            "Package PCs": "Per Group (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Houariyates Activity",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::imlil picnic lunch",
-          "service": "Imlil Picnic Lunch",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "Imlil Picnic Lunch",
-            "Package PCs": "Lunch",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Imlil",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Imlil",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Imlil Picnic Lunch",
-            "location": "Imlil",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Lunch",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::jimi hendrix coffeeshop visit",
-          "service": "Jimi Hendrix Coffeeshop visit",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "Jimi Hendrix Coffeeshop visit",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Essaouira",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Essaouira",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Jimi Hendrix Coffeeshop visit",
-            "location": "Essaouira",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -7979,147 +2857,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::kasbah amazir bb",
-          "service": "Kasbah Amazir BB",
-          "packages": [
-            "SGA XMFK",
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod exists": "Yes",
-            "Prod Name": "Kasbah Amazir BB",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Todra Gorge",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Family Room",
-              "score": 61.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Todra Gorge",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah Amazir BB",
-            "location": "Todra Gorge",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::kasbah amazir hb",
-          "service": "Kasbah Amazir HB",
-          "packages": [
-            "SGA XMKN"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMKN",
-            "Prod exists": "Yes",
-            "Prod Name": "Kasbah Amazir HB",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Todra Gorge",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Todra Gorge",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah Amazir HB",
-            "location": "Todra Gorge",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -8349,76 +3086,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::kasbah itrane",
-          "service": "Kasbah Itrane",
-          "packages": [
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMXM",
-            "Prod exists": "Yes",
-            "Prod Name": "Kasbah Itrane",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Agdez",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Agdez",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah Itrane",
-            "location": "Agdez",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::kasbah itrane-hb",
           "service": "Kasbah Itrane-HB",
           "packages": [
@@ -8546,391 +3213,6 @@ window.ISSUE_DATA = {
           "formDefaults": {
             "name": "Kasbah la famille berbere-HB",
             "location": "Dades Gorge",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::kasbah oudaya visit",
-          "service": "Kasbah Oudaya Visit",
-          "packages": [
-            "SGA XMKC",
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "Kasbah Oudaya Visit",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Rabat",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Rabat",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah Oudaya Visit",
-            "location": "Rabat",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::kasbah skoura visit",
-          "service": "Kasbah Skoura Visit",
-          "packages": [
-            "SGA XMKC",
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "Kasbah Skoura Visit",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Skoura",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Skoura",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah Skoura Visit",
-            "location": "Skoura",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::kasbah taborihte",
-          "service": "Kasbah Taborihte",
-          "packages": [
-            "SGA XMHA",
-            "SGA XMSC",
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMHA",
-            "Prod exists": "Yes",
-            "Prod Name": "Kasbah Taborihte",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco; Todra Gorge",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room (Family)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco; Todra Gorge",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah Taborihte",
-            "location": "Morocco; Todra Gorge",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::ksar ljanoub bb - standard",
-          "service": "Ksar Ljanoub BB - Standard",
-          "packages": [
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Ksar Ljanoub BB - Standard",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ait Benhaddou",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ait Benhaddou",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Ksar Ljanoub BB - Standard",
-            "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::ksar ljanoub hb -standard",
-          "service": "Ksar Ljanoub HB -Standard",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMKC",
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Ksar Ljanoub HB -Standard",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ait Benhaddou",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room (Family)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ait Benhaddou",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Ksar Ljanoub HB -Standard",
-            "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::ksar timnay bb",
-          "service": "Ksar Timnay BB",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMFK",
-            "SGA XMXC",
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Ksar Timnay BB",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Midelt",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room (Family) XMFB",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Midelt",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Ksar Timnay BB",
-            "location": "Midelt",
             "businessUnit": "",
             "serviceType": "Accommodation",
             "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
@@ -9073,194 +3355,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::la fibule d or",
-          "service": "La Fibule D Or",
-          "packages": [
-            "SGA XMSC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSC",
-            "Prod exists": "Yes",
-            "Prod Name": "La Fibule D Or",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ait Benhaddou",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ait Benhaddou",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "La Fibule D Or",
-            "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::la rose du sable",
-          "service": "La Rose du Sable",
-          "packages": [
-            "SGA XMSF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSF",
-            "Prod exists": "Yes",
-            "Prod Name": "La Rose du Sable",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ait Benhaddou",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ait Benhaddou",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "La Rose du Sable",
-            "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::lawrence of arabia desert overnight stay",
-          "service": "Lawrence of Arabia Desert Overnight Stay",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Lawrence of Arabia Desert Overnight Stay",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Merzouga",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Lawrence of Arabia Desert Overnight Stay",
-            "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::le palais des cerisiers-hb",
           "service": "Le Palais des Cerisiers-HB",
           "packages": [
@@ -9296,76 +3390,6 @@ window.ISSUE_DATA = {
           "formDefaults": {
             "name": "Le Palais des Cerisiers-HB",
             "location": "Azrou",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::le relais des sables",
-          "service": "Le Relais Des Sables",
-          "packages": [
-            "SGA XMSF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSF",
-            "Prod exists": "Yes",
-            "Prod Name": "Le Relais Des Sables",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Tata",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tata",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Le Relais Des Sables",
-            "location": "Tata",
             "businessUnit": "",
             "serviceType": "Accommodation",
             "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
@@ -9450,125 +3474,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::lemnaouar erg camp",
-          "service": "Lemnaouar Erg Camp",
-          "packages": [
-            "SGA XMFP"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod exists": "Yes",
-            "Prod Name": "Lemnaouar Erg Camp",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Merzouga",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single Tent",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Tent",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Lemnaouar Erg Camp",
-            "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::local drink at kasbah oudaya",
-          "service": "Local Drink at Kasbah Oudaya",
-          "packages": [
-            "SGA XMKC",
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Drink at Kasbah Oudaya",
-            "Package PCs": "Snacks & Drinks",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Rabat",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Rabat",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Drink at Kasbah Oudaya",
-            "location": "Rabat",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Snacks & Drinks",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::local embroidery workshop visit",
           "service": "Local Embroidery Workshop Visit",
           "packages": [
@@ -9607,120 +3512,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::local guide - half day chefchaouen",
-          "service": "Local Guide - Half Day Chefchaouen",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMFP",
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide - Half Day Chefchaouen",
-            "Package PCs": "Per Group Per Day; Per Group Per Day (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Chefchaouen",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide - Half Day Chefchaouen",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day; Per Group Per Day (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::local guide - sidi chamharouch walk",
-          "service": "Local Guide - Sidi Chamharouch Walk",
-          "packages": [
-            "SGA XMPX",
-            "SGA XMSC",
-            "SGA XMSF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide - Sidi Chamharouch Walk",
-            "Package PCs": "Per Group Per Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Armed",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Armed",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide - Sidi Chamharouch Walk",
-            "location": "Armed",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -9850,61 +3641,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::local guide casablanca - half day",
-          "service": "Local Guide Casablanca - Half Day",
-          "packages": [
-            "SGA XMFK"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Casablanca - Half Day",
-            "Package PCs": "Per Group Per Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Casablanca - Half Day",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::local guide chefchaouen",
           "service": "Local Guide Chefchaouen",
           "packages": [
@@ -9961,61 +3697,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Group; Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::local guide dades-half day",
-          "service": "Local Guide Dades-Half Day",
-          "packages": [
-            "SGA XMSS"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMSS",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Dades-Half Day",
-            "Package PCs": "Per Group Per Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Dades",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Dades",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Dades-Half Day",
-            "location": "Dades",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -10159,61 +3840,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::local guide half day - armed",
-          "service": "Local Guide Half Day - Armed",
-          "packages": [
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMXM",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Half Day - Armed",
-            "Package PCs": "Per Group Per Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Armed",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Armed",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Half Day - Armed",
-            "location": "Armed",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::local guide half day casablanca",
           "service": "Local guide half day Casablanca",
           "packages": [
@@ -10284,10 +3910,7 @@ window.ISSUE_DATA = {
           "service": "Local guide Half day Essaouira",
           "packages": [
             "Essaouira Extention",
-            "South Morocco with Agafay",
-            "SGA XMPX",
-            "SGA XMSC",
-            "SGA XMSF"
+            "South Morocco with Agafay"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
           "also": "Also listed in P4; P10",
@@ -10329,72 +3952,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::local guide half day fes",
-          "service": "Local Guide Half Day Fes",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMFK",
-            "SGA XMFP",
-            "SGA XMKC",
-            "SGA XMKN",
-            "SGA XMPE",
-            "SGA XMPM",
-            "SGA XMSB",
-            "SGA XMSC",
-            "SGA XMSS",
-            "SGA XMXC",
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Half Day Fes",
-            "Package PCs": "Per Group Per Day; Per Group Per Day (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Half Day Fes",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day; Per Group Per Day (Non-Banded)",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -10460,81 +4017,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::local guide half day m'goun",
-          "service": "Local Guide Half Day M'goun",
-          "packages": [
-            "SGA XMKC",
-            "SGA XMPE",
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Half Day M'goun",
-            "Package PCs": "Per Group Per Day; Per Group Per Day (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Kelaa M'Gouna; Morocco",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Kelaa M'Gouna; Morocco",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Half Day M'goun",
-            "location": "Kelaa M'Gouna; Morocco",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day; Per Group Per Day (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::local guide half day marrakech",
           "service": "Local guide Half day Marrakech",
           "packages": [
             "CAS to MAR - Train",
             "MAR to CAS - Train",
-            "South Morocco with Agafay",
-            "SGA XMFB",
-            "SGA XMFE",
-            "SGA XMFK",
-            "SGA XMKC",
-            "SGA XMKN",
-            "SGA XMPE",
-            "SGA XMPM",
-            "SGA XMPX",
-            "SGA XMSB",
-            "SGA XMSC",
-            "SGA XMSS",
-            "SGA XMZF"
+            "South Morocco with Agafay"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
           "also": "Also listed in P4; P10",
@@ -10652,117 +4140,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::local guide half day rabat",
-          "service": "Local Guide Half Day Rabat",
-          "packages": [
-            "SGA XMKC",
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Half Day Rabat",
-            "Package PCs": "Per Group Per Day; Per Group Per Day (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Rabat",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Rabat",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Half Day Rabat",
-            "location": "Rabat",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day; Per Group Per Day (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::local guide half day tangier",
-          "service": "Local Guide Half Day Tangier",
-          "packages": [
-            "SGA XMFB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Half Day Tangier",
-            "Package PCs": "Per Group Per Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Tangier",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tangier",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Half Day Tangier",
-            "location": "Tangier",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::local guide marrakech",
           "service": "Local guide Marrakech",
           "packages": [
@@ -10837,55 +4214,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::local guide ouirgane-half day",
-          "service": "Local Guide Ouirgane-Half Day",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Ouirgane-Half Day",
-            "Package PCs": "Per Group Per Day (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ouirgane",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ouirgane",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Ouirgane-Half Day",
-            "location": "Ouirgane",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::local guide rabat",
           "service": "Local Guide Rabat",
           "packages": [
@@ -10942,110 +4270,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::local guide skoura",
-          "service": "Local Guide Skoura",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Skoura",
-            "Package PCs": "Per Group Per Day (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Skoura",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Skoura",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Skoura",
-            "location": "Skoura",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::local guide tafraoute",
-          "service": "Local Guide Tafraoute",
-          "packages": [
-            "SGA XMSF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMSF",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Tafraoute",
-            "Package PCs": "Per Group Per Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Tafraoute",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tafraoute",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Tafraoute",
-            "location": "Tafraoute",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -11182,356 +4406,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::local guide todra",
-          "service": "Local Guide Todra",
-          "packages": [
-            "SGA XMFB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Todra",
-            "Package PCs": "Per Group Per Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Todra Gorge",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Todra Gorge",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Todra",
-            "location": "Todra Gorge",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::local guide volubilis half day",
-          "service": "Local Guide Volubilis Half Day",
-          "packages": [
-            "SGA XMFP"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Volubilis Half Day",
-            "Package PCs": "Per Group Per Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Volubilis",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Volubilis",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Volubilis Half Day",
-            "location": "Volubilis",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::local street breakfast in fes - xmzf",
-          "service": "Local Street Breakfast in Fes - XMZF",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Street Breakfast in Fes - XMZF",
-            "Package PCs": "Breakfast",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Street Breakfast in Fes - XMZF",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Breakfast",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::luggage storage - imlil",
-          "service": "Luggage Storage - Imlil",
-          "packages": [
-            "SGA XMSC",
-            "SGA XMSF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMSC",
-            "Prod exists": "Yes",
-            "Prod Name": "Luggage Storage - Imlil",
-            "Package PCs": "Per Group (Fixed)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Imlil",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Imlil",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Luggage Storage - Imlil",
-            "location": "Imlil",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group (Fixed)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::luggage storage - meknes",
-          "service": "Luggage Storage - Meknes",
-          "packages": [
-            "SGA XMSB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMSB",
-            "Prod exists": "Yes",
-            "Prod Name": "Luggage Storage - Meknes",
-            "Package PCs": "Per Group (Fixed)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Meknes",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Meknes",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Luggage Storage - Meknes",
-            "location": "Meknes",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group (Fixed)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::luggage storage - tangier",
-          "service": "Luggage Storage - Tangier",
-          "packages": [
-            "SGA XMSB",
-            "SGA XMSC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMSB",
-            "Prod exists": "Yes",
-            "Prod Name": "Luggage Storage - Tangier",
-            "Package PCs": "Per Group (Fixed)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Tangier",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tangier",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Luggage Storage - Tangier",
-            "location": "Tangier",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group (Fixed)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::lunch at lake aguelmame sidi ali",
-          "service": "Lunch at Lake Aguelmame Sidi Ali",
-          "packages": [
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P9",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Lunch at Lake Aguelmame Sidi Ali",
-            "Package PCs": "Lunch",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Meal",
-            "Also listed in": "Also listed in P9",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Lunch at Lake Aguelmame Sidi Ali",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Lunch",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::lunch at tawesna",
           "service": "Lunch at Tawesna",
           "packages": [
@@ -11581,55 +4455,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::lunch at tawesna association",
-          "service": "Lunch at Tawesna Association",
-          "packages": [
-            "SGA XMFK",
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod exists": "Yes",
-            "Prod Name": "Lunch at Tawesna Association",
-            "Package PCs": "Lunch",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ait Benhaddou",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ait Benhaddou",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Lunch at Tawesna Association",
-            "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Lunch",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -11699,247 +4524,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::lunch in marrakech",
-          "service": "Lunch in Marrakech",
-          "packages": [
-            "SGA XMKN",
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMKN",
-            "Prod exists": "Yes",
-            "Prod Name": "Lunch in Marrakech",
-            "Package PCs": "Lunch",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Lunch in Marrakech",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Lunch",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::lunch in ouarzazate",
-          "service": "Lunch in Ouarzazate",
-          "packages": [
-            "SGA XMFB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Lunch in Ouarzazate",
-            "Package PCs": "Lunch",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ouarzazate",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ouarzazate",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Lunch in Ouarzazate",
-            "location": "Ouarzazate",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Lunch",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::lunch in tawesna xmha",
-          "service": "Lunch in Tawesna XMHA",
-          "packages": [
-            "SGA XMHA"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMHA",
-            "Prod exists": "Yes",
-            "Prod Name": "Lunch in Tawesna XMHA",
-            "Package PCs": "Lunch",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ait Benhaddou",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ait Benhaddou",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Lunch in Tawesna XMHA",
-            "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Lunch",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::lunch in todgha",
-          "service": "Lunch in Todgha",
-          "packages": [
-            "SGA XMFK"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod exists": "Yes",
-            "Prod Name": "Lunch in Todgha",
-            "Package PCs": "Lunch",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Todra Gorge",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Todra Gorge",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Lunch in Todgha",
-            "location": "Todra Gorge",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Lunch",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::lunch in todra xmha",
-          "service": "Lunch In Todra XMHA",
-          "packages": [
-            "SGA XMHA"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMHA",
-            "Prod exists": "Yes",
-            "Prod Name": "Lunch In Todra XMHA",
-            "Package PCs": "Lunch (Per Person)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Todra Gorge",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Todra Gorge",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Lunch In Todra XMHA",
-            "location": "Todra Gorge",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Lunch (Per Person)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::lunch with a local family in todra",
           "service": "Lunch With a Local Family in Todra",
           "packages": [
@@ -11990,102 +4574,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::madfouna cooking demonstration",
-          "service": "Madfouna Cooking Demonstration",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod exists": "Yes",
-            "Prod Name": "Madfouna Cooking Demonstration",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Merzouga",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Madfouna Cooking Demonstration",
-            "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::madfouna lunch at khamliya",
-          "service": "Madfouna Lunch at Khamliya",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Madfouna Lunch at Khamliya",
-            "Package PCs": "Lunch",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Merzouga",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Madfouna Lunch at Khamliya",
-            "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Lunch",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::maison d'hôtes kasbah azul-hb",
           "service": "Maison d'Hôtes Kasbah Azul-HB",
           "packages": [
@@ -12124,181 +4612,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Accommodation",
             "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::mama bia boutaghrar tour",
-          "service": "Mama Bia Boutaghrar Tour",
-          "packages": [
-            "SGA XMRW"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMRW",
-            "Prod exists": "Yes",
-            "Prod Name": "Mama Bia Boutaghrar Tour",
-            "Package PCs": "Per Group Per Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Boutaghrar",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Boutaghrar",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Mama Bia Boutaghrar Tour",
-            "location": "Boutaghrar",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::marly boutique hotel",
-          "service": "MARLY BOUTIQUE HOTEL",
-          "packages": [
-            "SGA XMPE",
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "MARLY BOUTIQUE HOTEL",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Deluxe Double",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Roon Single",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single Twin",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Deluxe Twin",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "MARLY BOUTIQUE HOTEL",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::marrakech airport to hotel transfer",
-          "service": "Marrakech Airport to Hotel Transfer",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech Airport to Hotel Transfer",
-            "Package PCs": "Transport (Per Person)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Airport Transfer",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Airport Transfer",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech Airport to Hotel Transfer",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Airport Transfer",
-            "priceCategory": "Transport (Per Person)",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -12402,547 +4715,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::marrakech to agafay astronaut transportation with return",
-          "service": "Marrakech to Agafay Astronaut Transportation with return",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech to Agafay Astronaut Transportation with return",
-            "Package PCs": "Per Unit (Max 1...)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 1...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech to Agafay Astronaut Transportation with return",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Unit (Max 1...)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::marrakech to boutaghrar private transfer xmrw",
-          "service": "Marrakech to Boutaghrar Private Transfer XMRW",
-          "packages": [
-            "SGA XMRW"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMRW",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech to Boutaghrar Private Transfer XMRW",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech to Boutaghrar Private Transfer XMRW",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::marrakech to casablanca",
-          "service": "Marrakech to Casablanca",
-          "packages": [
-            "SGA XMSS"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSS",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech to Casablanca",
-            "Package PCs": "Transport (Per Person)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech to Casablanca",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Transport (Per Person)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::marrakech to essaouira 7 days xmsf private transfer",
-          "service": "Marrakech to Essaouira 7 Days XMSF Private Transfer",
-          "packages": [
-            "SGA XMSF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSF",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech to Essaouira 7 Days XMSF Private Transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech to Essaouira 7 Days XMSF Private Transfer",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::marrakech to marrakech xmfe 6 days private transfer",
-          "service": "Marrakech to Marrakech XMFE 6 Days Private Transfer",
-          "packages": [
-            "SGA XMFE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFE",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech to Marrakech XMFE 6 Days Private Transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech to Marrakech XMFE 6 Days Private Transfer",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::marrakech to marrakech xmha 3 days private transfer",
-          "service": "Marrakech to Marrakech XMHA 3 Days Private Transfer",
-          "packages": [
-            "SGA XMHA"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P9",
-          "fields": {
-            "TM package": "SGA XMHA",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech to Marrakech XMHA 3 Days Private Transfer",
-            "Package PCs": "Per Unit (Max 12); Per Unit (Max 16); Per Unit (Max 6)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P9",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech to Marrakech XMHA 3 Days Private Transfer",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Unit (Max 12); Per Unit (Max 16); Per Unit (Max 6)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::marrakech to marrakech xmxc private transfer",
-          "service": "Marrakech to Marrakech XMXC Private Transfer",
-          "packages": [
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech to Marrakech XMXC Private Transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech to Marrakech XMXC Private Transfer",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::marrakech to marrakech xmxm private transfer",
-          "service": "Marrakech to Marrakech XMXM Private Transfer",
-          "packages": [
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P9",
-          "fields": {
-            "TM package": "SGA XMXM",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech to Marrakech XMXM Private Transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4; P9",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech to Marrakech XMXM Private Transfer",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::marrakech to tangier overnight train",
-          "service": "Marrakech to Tangier Overnight Train",
-          "packages": [
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech to Tangier Overnight Train",
-            "Package PCs": "Overnight Transport",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Overnight Transport",
-              "value": "Overnight Transport (PP)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech to Tangier Overnight Train",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Overnight Transport",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::marrakech train station to hotel taxi",
-          "service": "Marrakech Train Station to Hotel Taxi",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMSB",
-            "SGA XMSC",
-            "SGA XMSS"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech Train Station to Hotel Taxi",
-            "Package PCs": "Per Unit (Max 0...)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech Train Station to Hotel Taxi",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Unit (Max 0...)",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -13057,657 +4829,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::mausoleum moulay ismail",
-          "service": "Mausoleum Moulay Ismail",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Mausoleum Moulay Ismail",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Meknes",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Meknes",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Mausoleum Moulay Ismail",
-            "location": "Meknes",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::medersa attarine  fes",
-          "service": "Medersa Attarine  Fes",
-          "packages": [
-            "SGA XMFP",
-            "SGA XMKC",
-            "SGA XMKN",
-            "SGA XMPE",
-            "SGA XMPM",
-            "SGA XMSB",
-            "SGA XMSC",
-            "SGA XMSS",
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod exists": "Yes",
-            "Prod Name": "Medersa Attarine  Fes",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Medersa Attarine  Fes",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::medina hotel to train station taxi",
-          "service": "Medina Hotel to Train Station Taxi",
-          "packages": [
-            "SGA XMSB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSB",
-            "Prod exists": "Yes",
-            "Prod Name": "Medina Hotel to Train Station Taxi",
-            "Package PCs": "Per Unit (Max 0...)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Medina Hotel to Train Station Taxi",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Unit (Max 0...)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::medina tasting trail and pastilla cooking demonstration",
-          "service": "Medina Tasting Trail and Pastilla Cooking Demonstration",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod exists": "Yes",
-            "Prod Name": "Medina Tasting Trail and Pastilla Cooking Demonstration",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Medina Tasting Trail and Pastilla Cooking Demonstration",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::meet a fisherman in essaouira",
-          "service": "Meet a Fisherman in Essaouira",
-          "packages": [
-            "SGA XMSC",
-            "SGA XMSF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMSC",
-            "Prod exists": "Yes",
-            "Prod Name": "Meet a Fisherman in Essaouira",
-            "Package PCs": "Per Group (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Essaouira",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Essaouira",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Meet a Fisherman in Essaouira",
-            "location": "Essaouira",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::mejhoul dates tasting",
-          "service": "Mejhoul Dates Tasting",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Mejhoul Dates Tasting",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Erfoud",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Erfoud",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Mejhoul Dates Tasting",
-            "location": "Erfoud",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::meknes 3 star hotel placeholder",
-          "service": "Meknes 3 Star Hotel Placeholder",
-          "packages": [
-            "SGA XMKC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "Meknes 3 Star Hotel Placeholder",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Meknes",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Meknes",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Meknes 3 Star Hotel Placeholder",
-            "location": "Meknes",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::meknes to moulay driss via volubilis grand taxi",
-          "service": "Meknes to Moulay Driss via Volubilis Grand Taxi",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod exists": "Yes",
-            "Prod Name": "Meknes to Moulay Driss via Volubilis Grand Taxi",
-            "Package PCs": "Per Unit (Max 0...)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Meknes",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Meknes",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Meknes to Moulay Driss via Volubilis Grand Taxi",
-            "location": "Meknes",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Unit (Max 0...)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::merzouga placeholder xmkc",
-          "service": "Merzouga placeholder XMKC",
-          "packages": [
-            "SGA XMKC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "Merzouga placeholder XMKC",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Merzouga",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Merzouga placeholder XMKC",
-            "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::mhamid to foum zguid via erg chigaga 4x4",
-          "service": "Mhamid to Foum Zguid via Erg Chigaga 4X4",
-          "packages": [
-            "SGA XMSF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSF",
-            "Prod exists": "Yes",
-            "Prod Name": "Mhamid to Foum Zguid via Erg Chigaga 4X4",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "M'hamid",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "M'hamid",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Mhamid to Foum Zguid via Erg Chigaga 4X4",
-            "location": "M'hamid",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::mia camp sunset aperitif",
-          "service": "Mia Camp Sunset Aperitif",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod exists": "Yes",
-            "Prod Name": "Mia Camp Sunset Aperitif",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Agafay",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Agafay",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Mia Camp Sunset Aperitif",
-            "location": "Agafay",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::midelt - walking tour berrem village",
-          "service": "Midelt - Walking Tour Berrem Village",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMFK"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Midelt - Walking Tour Berrem Village",
-            "Package PCs": "Per Group (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Midelt",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Midelt",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Midelt - Walking Tour Berrem Village",
-            "location": "Midelt",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::mint tea with sweets",
           "service": "Mint Tea with sweets",
           "packages": [
@@ -13747,1109 +4868,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::moroccan house hotel casablanca",
-          "service": "Moroccan House Hotel Casablanca",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod exists": "Yes",
-            "Prod Name": "Moroccan House Hotel Casablanca",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Moroccan House Hotel Casablanca",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::moroccan pastries and pancake cooking class",
-          "service": "Moroccan Pastries And Pancake Cooking Class",
-          "packages": [
-            "SGA XMFK"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod exists": "Yes",
-            "Prod Name": "Moroccan Pastries And Pancake Cooking Class",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ait Benhaddou",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ait Benhaddou",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Moroccan Pastries And Pancake Cooking Class",
-            "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::morocco - cycling crew meal allowance",
-          "service": "Morocco - Cycling Crew Meal Allowance",
-          "packages": [
-            "SGA XMXC",
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Morocco - Cycling Crew Meal Allowance",
-            "Package PCs": "Full Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Leader Service",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Leader Service",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Morocco - Cycling Crew Meal Allowance",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Leader Service",
-            "priceCategory": "Full Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::morocco - cycling leader daily services",
-          "service": "Morocco - Cycling Leader Daily Services",
-          "packages": [
-            "SGA XMXC",
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Morocco - Cycling Leader Daily Services",
-            "Package PCs": "Full Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Leader Service",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Leader Service",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Morocco - Cycling Leader Daily Services",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Leader Service",
-            "priceCategory": "Full Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::morocco - cycling mechanic salary",
-          "service": "Morocco - Cycling Mechanic Salary",
-          "packages": [
-            "SGA XMXC",
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Morocco - Cycling Mechanic Salary",
-            "Package PCs": "Full Day Max 16; Full Day Max 6",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Leader Service",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Leader Service",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Morocco - Cycling Mechanic Salary",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Leader Service",
-            "priceCategory": "Full Day Max 16; Full Day Max 6",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::morocco - level 3 tour leader daily services",
-          "service": "Morocco - Level 3 Tour Leader Daily Services",
-          "packages": [
-            "SGA XMHA"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMHA",
-            "Prod exists": "Yes",
-            "Prod Name": "Morocco - Level 3 Tour Leader Daily Services",
-            "Package PCs": "Per Crew Per Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Leader Service",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Leader Service",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Morocco - Level 3 Tour Leader Daily Services",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Leader Service",
-            "priceCategory": "Per Crew Per Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::morocco - tour leader daily services",
-          "service": "Morocco - Tour Leader Daily Services",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMFE",
-            "SGA XMFK",
-            "SGA XMFP",
-            "SGA XMKC",
-            "SGA XMKN",
-            "SGA XMPE",
-            "SGA XMPM",
-            "SGA XMPX",
-            "SGA XMRW",
-            "SGA XMSB",
-            "SGA XMSC",
-            "SGA XMSF",
-            "SGA XMSS",
-            "SGA XMXC",
-            "SGA XMXM",
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Morocco - Tour Leader Daily Services",
-            "Package PCs": "Full Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Leader Service",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Leader Service",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Morocco - Tour Leader Daily Services",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Leader Service",
-            "priceCategory": "Full Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::morocco - transport between trips marrakech to casablanca",
-          "service": "Morocco - Transport Between Trips Marrakech to Casablanca",
-          "packages": [
-            "SGA XMFK",
-            "SGA XMKC",
-            "SGA XMKN",
-            "SGA XMPE",
-            "SGA XMPM",
-            "SGA XMSB",
-            "SGA XMSC",
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P9; P10",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod exists": "Yes",
-            "Prod Name": "Morocco - Transport Between Trips Marrakech to Casablanca",
-            "Package PCs": "Travel Between Trips",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Operational",
-            "Also listed in": "Also listed in P9; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Operational",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Morocco - Transport Between Trips Marrakech to Casablanca",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Operational",
-            "priceCategory": "Travel Between Trips",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::moulay driss to chefchaouen private transfer xmsb",
-          "service": "Moulay Driss to Chefchaouen Private Transfer XMSB",
-          "packages": [
-            "SGA XMSB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSB",
-            "Prod exists": "Yes",
-            "Prod Name": "Moulay Driss to Chefchaouen Private Transfer XMSB",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Moulay Idriss",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Moulay Idriss",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Moulay Driss to Chefchaouen Private Transfer XMSB",
-            "location": "Moulay Idriss",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::moulay driss to fes via volubilis and meknes grand taxi",
-          "service": "Moulay Driss to Fes via Volubilis and Meknes Grand Taxi",
-          "packages": [
-            "SGA XMSB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSB",
-            "Prod exists": "Yes",
-            "Prod Name": "Moulay Driss to Fes via Volubilis and Meknes Grand Taxi",
-            "Package PCs": "Per Unit (Max 0...)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Moulay Idriss",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Moulay Idriss",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Moulay Driss to Fes via Volubilis and Meknes Grand Taxi",
-            "location": "Moulay Idriss",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Unit (Max 0...)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::moulay driss to marrakech xmzf 8 days private transfer",
-          "service": "Moulay Driss to Marrakech XMZF 8 Days Private Transfer",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod exists": "Yes",
-            "Prod Name": "Moulay Driss to Marrakech XMZF 8 Days Private Transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Moulay Idriss",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Moulay Idriss",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Moulay Driss to Marrakech XMZF 8 Days Private Transfer",
-            "location": "Moulay Idriss",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::moulay idriss home cooked lunch",
-          "service": "Moulay Idriss Home cooked Lunch",
-          "packages": [
-            "SGA XMFP"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod exists": "Yes",
-            "Prod Name": "Moulay Idriss Home cooked Lunch",
-            "Package PCs": "Lunch",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Moulay Idriss",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Moulay Idriss",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Moulay Idriss Home cooked Lunch",
-            "location": "Moulay Idriss",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Lunch",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::mountain guide half day - todra gorge",
-          "service": "Mountain Guide Half Day - Todra Gorge",
-          "packages": [
-            "SGA XMXC",
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Mountain Guide Half Day - Todra Gorge",
-            "Package PCs": "Per Group Per Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Todra Gorge",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Todra Gorge",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Mountain Guide Half Day - Todra Gorge",
-            "location": "Todra Gorge",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::mule ride imlil",
-          "service": "Mule Ride Imlil",
-          "packages": [
-            "SGA XMFB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Mule Ride Imlil",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Imlil",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Imlil",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Mule Ride Imlil",
-            "location": "Imlil",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::orange juice at jemaa el fna",
-          "service": "Orange Juice at Jemaa El Fna",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMKC",
-            "SGA XMPE",
-            "SGA XMPM",
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Orange Juice at Jemaa El Fna",
-            "Package PCs": "Snacks & Drinks",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Orange Juice at Jemaa El Fna",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Snacks & Drinks",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::ouirgan lunch xmxm",
-          "service": "Ouirgan Lunch XMXM",
-          "packages": [
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMXM",
-            "Prod exists": "Yes",
-            "Prod Name": "Ouirgan Lunch XMXM",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ouirgane",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ouirgane",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Ouirgan Lunch XMXM",
-            "location": "Ouirgane",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::oukaimden astrologist",
-          "service": "Oukaimden Astrologist",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "Oukaimden Astrologist",
-            "Package PCs": "Per Group (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Oukaimden",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group (Non-Banded)",
-              "value": "Per Group - (Non- Banded)",
-              "score": 99.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Oukaimden",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Oukaimden Astrologist",
-            "location": "Oukaimden",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::oukaimden local guide",
-          "service": "Oukaimden Local Guide",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "Oukaimden Local Guide",
-            "Package PCs": "Per Group Per Day",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Oukaimden",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Oukaimden",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Oukaimden Local Guide",
-            "location": "Oukaimden",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::oukaimden observatory visit",
-          "service": "Oukaimden Observatory Visit",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "Oukaimden Observatory Visit",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Oukaimden",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Oukaimden",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Oukaimden Observatory Visit",
-            "location": "Oukaimden",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::oukaimden picnic lunch",
-          "service": "Oukaimden Picnic Lunch",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "Oukaimden Picnic Lunch",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Oukaimden",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Oukaimden",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Oukaimden Picnic Lunch",
-            "location": "Oukaimden",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::oukaimden tea making demonstartion",
-          "service": "Oukaimden Tea Making Demonstartion",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "Oukaimden Tea Making Demonstartion",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Oukaimden",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Oukaimden",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Oukaimden Tea Making Demonstartion",
-            "location": "Oukaimden",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -15253,200 +5271,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::picnic lunch in oued laou",
-          "service": "Picnic Lunch in Oued Laou",
-          "packages": [
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P9",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Picnic Lunch in Oued Laou",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P9",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Picnic Lunch in Oued Laou",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::picnic lunch in tafraoute",
-          "service": "Picnic Lunch in Tafraoute",
-          "packages": [
-            "SGA XMSF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMSF",
-            "Prod exists": "Yes",
-            "Prod Name": "Picnic Lunch in Tafraoute",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Tafraoute",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tafraoute",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Picnic Lunch in Tafraoute",
-            "location": "Tafraoute",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::pottery making class with a local artisan",
-          "service": "Pottery Making Class with a Local Artisan",
-          "packages": [
-            "SGA XMFB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P9",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Pottery Making Class with a Local Artisan",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P9",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Pottery Making Class with a Local Artisan",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::premium moment seafood market lunch",
-          "service": "Premium Moment Seafood Market Lunch",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "Premium Moment Seafood Market Lunch",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Essaouira",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Essaouira",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Premium Moment Seafood Market Lunch",
-            "location": "Essaouira",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::private vehicle & driver",
           "service": "Private Vehicle & Driver",
           "packages": [
@@ -15502,216 +5326,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Transport",
             "priceCategory": "Per Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::riad 48 & spa",
-          "service": "Riad 48 & Spa",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "Riad 48 & Spa",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single - Standard Room",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Riad 48 & Spa",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::riad al makan",
-          "service": "Riad Al Makan",
-          "packages": [
-            "SGA XMFK"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod exists": "Yes",
-            "Prod Name": "Riad Al Makan",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single (",
-              "score": 99.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Riad Al Makan",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::riad blue eyes",
-          "service": "Riad Blue Eyes",
-          "packages": [
-            "SGA XMKC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "Riad Blue Eyes",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Riad Blue Eyes",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -15833,151 +5447,6 @@ window.ISSUE_DATA = {
           "formDefaults": {
             "name": "Riad Chebbi-HB",
             "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::riad dilar - bb",
-          "service": "Riad Dilar - BB",
-          "packages": [
-            "SGA XMFP"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod exists": "Yes",
-            "Prod Name": "Riad Dilar - BB",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Standard - Double Room",
-              "score": 92.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Single Room",
-              "score": 92.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Standard - Twin Room",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Riad Dilar - BB",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::riad fes ziyat & spa",
-          "service": "Riad Fes Ziyat & Spa",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Fes",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Riad Fes Ziyat & Spa HB",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Riad Fes Ziyat & Spa BB",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Riad Fes Ziyat & Spa",
-            "location": "Fes",
             "businessUnit": "",
             "serviceType": "Accommodation",
             "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
@@ -16147,116 +5616,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::riad la cle d'or xmpm",
-          "service": "Riad La Cle D'or XMPM",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod exists": "Yes",
-            "Prod Name": "Riad La Cle D'or XMPM",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Riad La Cle D'or XMPM",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::rt bag - morocco",
-          "service": "RT Bag - Morocco",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMFE",
-            "SGA XMFK",
-            "SGA XMFP",
-            "SGA XMPE",
-            "SGA XMPM",
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "RT Bag - Morocco",
-            "Package PCs": "Gift (Per Person)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "RT Bag - Morocco",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Gift (Per Person)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::seafood market lunch",
           "service": "Seafood Market Lunch",
           "packages": [
@@ -16296,54 +5655,6 @@ window.ISSUE_DATA = {
             "location": "Essaouira",
             "businessUnit": "",
             "serviceType": "Meal",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::secret garden visit",
-          "service": "Secret Garden Visit",
-          "packages": [
-            "SGA XMKN"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMKN",
-            "Prod exists": "Yes",
-            "Prod Name": "Secret Garden Visit",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Secret Garden Visit",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Activity",
             "priceCategory": "Per Person",
             "priceSeason": "",
             "priceSeasonDates": "",
@@ -16430,247 +5741,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::spiced sand coffee",
-          "service": "Spiced Sand Coffee",
-          "packages": [
-            "SGA XMSB",
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMSB",
-            "Prod exists": "Yes",
-            "Prod Name": "Spiced Sand Coffee",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Spiced Sand Coffee",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::stargazing in merzouga",
-          "service": "Stargazing in Merzouga",
-          "packages": [
-            "SGA XMFP"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod exists": "Yes",
-            "Prod Name": "Stargazing in Merzouga",
-            "Package PCs": "Per Group",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Merzouga",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Stargazing in Merzouga",
-            "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::stop for a mint tea in fes’s medina",
-          "service": "Stop For a Mint Tea in Fes’s Medina",
-          "packages": [
-            "SGA XMKN"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMKN",
-            "Prod exists": "Yes",
-            "Prod Name": "Stop For a Mint Tea in Fes’s Medina",
-            "Package PCs": "Snacks & Drinks",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Stop For a Mint Tea in Fes’s Medina",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Snacks & Drinks",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::storytelling experience zouhair khaznaoui",
-          "service": "Storytelling Experience Zouhair Khaznaoui",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Storytelling Experience Zouhair Khaznaoui",
-            "Package PCs": "Per Group",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Storytelling Experience Zouhair Khaznaoui",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::street breakfast tangier and hotel early checking",
-          "service": "Street Breakfast Tangier and Hotel Early Checking",
-          "packages": [
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Street Breakfast Tangier and Hotel Early Checking",
-            "Package PCs": "Breakfast",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Tangier",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tangier",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Street Breakfast Tangier and Hotel Early Checking",
-            "location": "Tangier",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Breakfast",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::sunset drink at taman’art space studio",
           "service": "Sunset drink at Taman’Art Space Studio",
           "packages": [
@@ -16709,275 +5779,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::supermarket experience local snacks",
-          "service": "Supermarket Experience Local Snacks",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod exists": "Yes",
-            "Prod Name": "Supermarket Experience Local Snacks",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Supermarket Experience Local Snacks",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::tangier bus station to medina taxi",
-          "service": "Tangier Bus Station to Medina Taxi",
-          "packages": [
-            "SGA XMSB",
-            "SGA XMSC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSB",
-            "Prod exists": "Yes",
-            "Prod Name": "Tangier Bus Station to Medina Taxi",
-            "Package PCs": "Per Unit (Max 0...)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Tangier",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tangier",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Tangier Bus Station to Medina Taxi",
-            "location": "Tangier",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Unit (Max 0...)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::tangier port to chefchaouen private transfer",
-          "service": "Tangier Port to Chefchaouen Private Transfer",
-          "packages": [
-            "SGA XMSC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSC",
-            "Prod exists": "Yes",
-            "Prod Name": "Tangier Port to Chefchaouen Private Transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Tangier",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tangier",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Tangier Port to Chefchaouen Private Transfer",
-            "location": "Tangier",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::tangier to chefchaouen private transfer",
-          "service": "Tangier to Chefchaouen Private transfer",
-          "packages": [
-            "SGA XMSB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSB",
-            "Prod exists": "Yes",
-            "Prod Name": "Tangier to Chefchaouen Private transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Tangier",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tangier",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Tangier to Chefchaouen Private transfer",
-            "location": "Tangier",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::tangier to marrakech xmfb 11 days private transfer",
-          "service": "Tangier to Marrakech XMFB 11 days Private Transfer",
-          "packages": [
-            "SGA XMFB"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod exists": "Yes",
-            "Prod Name": "Tangier to Marrakech XMFB 11 days Private Transfer",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Meknes",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Meknes",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Tangier to Marrakech XMFB 11 days Private Transfer",
-            "location": "Meknes",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -17042,348 +5843,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::tea at tawsna",
-          "service": "Tea at Tawsna",
-          "packages": [
-            "SGA XMKC",
-            "SGA XMKN",
-            "SGA XMXM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "Tea at Tawsna",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ait Benhaddou",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ait Benhaddou",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Tea at Tawsna",
-            "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::tea break at taman'art space",
-          "service": "Tea Break at Taman'Art Space",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Tea Break at Taman'Art Space",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ait Benhaddou",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ait Benhaddou",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Tea Break at Taman'Art Space",
-            "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::tea making demonstration",
-          "service": "Tea Making Demonstration",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P9",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod exists": "Yes",
-            "Prod Name": "Tea Making Demonstration",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Beni Mellal",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P9",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Beni Mellal",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Tea Making Demonstration",
-            "location": "Beni Mellal",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::tea making demonstration with berber family",
-          "service": "Tea Making Demonstration With Berber Family",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Tea Making Demonstration With Berber Family",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Kelaa M'Gouna",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Kelaa M'Gouna",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Tea Making Demonstration With Berber Family",
-            "location": "Kelaa M'Gouna",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::tea with nomad family at m'goun valley",
-          "service": "Tea With Nomad Family at M'goun Valley",
-          "packages": [
-            "SGA XMXC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P9",
-          "fields": {
-            "TM package": "SGA XMXC",
-            "Prod exists": "Yes",
-            "Prod Name": "Tea With Nomad Family at M'goun Valley",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P9",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Tea With Nomad Family at M'goun Valley",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::tipping kitty - xmpe",
-          "service": "Tipping Kitty - XMPE",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P9; P10",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Tipping Kitty - XMPE",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P9; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Tipping Kitty - XMPE",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::tipping kitty - xmpm",
-          "service": "Tipping Kitty - XMPM",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P9; P10",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod exists": "Yes",
-            "Prod Name": "Tipping Kitty - XMPM",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Morocco",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P9; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Morocco",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Tipping Kitty - XMPM",
-            "location": "Morocco",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::todra gorge visit",
           "service": "Todra Gorge Visit",
           "packages": [
@@ -17428,61 +5887,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::train station to hotel return taxi",
-          "service": "Train Station to Hotel return Taxi",
-          "packages": [
-            "SGA XMSS"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSS",
-            "Prod exists": "Yes",
-            "Prod Name": "Train Station to Hotel return Taxi",
-            "Package PCs": "Per Unit (Max 0...)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Train Station to Hotel return Taxi",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Unit (Max 0...)",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -18510,346 +6914,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::villa akabar",
-          "service": "Villa Akabar",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Villa Akabar",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ait Benhaddou",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ait Benhaddou",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Villa Akabar",
-            "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::volubilis - roman picnic",
-          "service": "Volubilis - Roman Picnic",
-          "packages": [
-            "SGA XMPE",
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Volubilis - Roman Picnic",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Volubilis",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Volubilis",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Volubilis - Roman Picnic",
-            "location": "Volubilis",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::welcome dinner marrakech xmpx",
-          "service": "Welcome Dinner Marrakech XMPX",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "Welcome Dinner Marrakech XMPX",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Welcome Dinner Marrakech XMPX",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::welcome dinner xmrw",
-          "service": "Welcome Dinner XMRW",
-          "packages": [
-            "SGA XMRW"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMRW",
-            "Prod exists": "Yes",
-            "Prod Name": "Welcome Dinner XMRW",
-            "Package PCs": "Dinner",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Welcome Dinner XMRW",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Dinner",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::widiane resort bb",
-          "service": "Widiane Resort BB",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod exists": "Yes",
-            "Prod Name": "Widiane Resort BB",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Bin el Ouidane",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Superior",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Superior",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Superior",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Bin el Ouidane",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Widiane Resort BB",
-            "location": "Bin el Ouidane",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::widiane resort hb",
-          "service": "Widiane Resort HB",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod exists": "Yes",
-            "Prod Name": "Widiane Resort HB",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Bin el Ouidane",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Superior",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Superior",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Superior",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Bin el Ouidane",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Widiane Resort HB",
-            "location": "Bin el Ouidane",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::wine tasting & lunch at château roslane",
           "service": "Wine Tasting & Lunch at Château Roslane",
           "packages": [
@@ -18994,657 +7058,6 @@ window.ISSUE_DATA = {
           "formDefaults": {
             "name": "Xaluxa aguelmame sidi Ali-HB",
             "location": "Aguelmame Sidi Ali",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::xmfk lunch in midelt",
-          "service": "XMFK Lunch in Midelt",
-          "packages": [
-            "SGA XMFK"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod exists": "Yes",
-            "Prod Name": "XMFK Lunch in Midelt",
-            "Package PCs": "Lunch",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Midelt",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Midelt",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "XMFK Lunch in Midelt",
-            "location": "Midelt",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Lunch",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::xmkc & xmkn casablanca placeholder",
-          "service": "XMKC & XMKN Casablanca Placeholder",
-          "packages": [
-            "SGA XMKC",
-            "SGA XMKN"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod exists": "Yes",
-            "Prod Name": "XMKC & XMKN Casablanca Placeholder",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "XMKC & XMKN Casablanca Placeholder",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::xmpx 9 days private transfer",
-          "service": "XMPX 9 Days Private transfer",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "XMPX 9 Days Private transfer",
-            "Package PCs": "Per Vehicle (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Non-Banded)",
-              "value": "Per Vehicle (Non Banded) Max",
-              "score": 83.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "XMPX 9 Days Private transfer",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::xmpx imlil placeholder",
-          "service": "XMPX Imlil Placeholder",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod exists": "Yes",
-            "Prod Name": "XMPX Imlil Placeholder",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Imlil",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double Room - Standard",
-              "score": 92.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Room Single",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room - Standard",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Imlil",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "XMPX Imlil Placeholder",
-            "location": "Imlil",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::xmsc casablanca pleaceholder hotel",
-          "service": "XMSC Casablanca Pleaceholder Hotel",
-          "packages": [
-            "SGA XMSS"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSS",
-            "Prod exists": "Yes",
-            "Prod Name": "XMSC Casablanca Pleaceholder Hotel",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard (FIT)",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "XMSC Casablanca Pleaceholder Hotel",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::xmsc chefchaouen placeholder",
-          "service": "XMSC Chefchaouen Placeholder",
-          "packages": [
-            "SGA XMSC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSC",
-            "Prod exists": "Yes",
-            "Prod Name": "XMSC Chefchaouen Placeholder",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Chefchaouen",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "XMSC Chefchaouen Placeholder",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::xmsc placeholder marrakech",
-          "service": "XMSC Placeholder Marrakech",
-          "packages": [
-            "SGA XMSC"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSC",
-            "Prod exists": "Yes",
-            "Prod Name": "XMSC Placeholder Marrakech",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Room Single",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "XMSC Placeholder Marrakech",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::xmsf placeholder marrakech",
-          "service": "XMSF Placeholder Marrakech",
-          "packages": [
-            "SGA XMSF"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSF",
-            "Prod exists": "Yes",
-            "Prod Name": "XMSF Placeholder Marrakech",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Room Single",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "XMSF Placeholder Marrakech",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::xmss fes placeholder hotel",
-          "service": "XMSS Fes Placeholder Hotel",
-          "packages": [
-            "SGA XMSC",
-            "SGA XMSS"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSC",
-            "Prod exists": "Yes",
-            "Prod Name": "XMSS Fes Placeholder Hotel",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Fes",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "XMSS Fes Placeholder Hotel",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::xmss placeholder marrakech",
-          "service": "XMSS Placeholder Marrakech",
-          "packages": [
-            "SGA XMSB",
-            "SGA XMSS"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMSB",
-            "Prod exists": "Yes",
-            "Prod Name": "XMSS Placeholder Marrakech",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Room Single",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "XMSS Placeholder Marrakech",
-            "location": "Marrakech",
             "businessUnit": "",
             "serviceType": "Accommodation",
             "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
@@ -20381,7 +7794,7 @@ window.ISSUE_DATA = {
             "SGA XMFP"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P9",
+          "also": "Also listed in P9",
           "fields": {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
@@ -20392,7 +7805,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Vehicle Banded (Max7) 9600.0 MAD [All Group Series]; Per Vehicle Banded (Max14) 10000.0 MAD [All Group Series]; Per Vehicle Banded (Max17) 10800.0 MAD [All Group Series]; Per Vehicle Banded (Max28) 19600.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P9"
+            "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -20633,7 +8046,7 @@ window.ISSUE_DATA = {
             "SGA XMFP"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
@@ -20643,8 +8056,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Triple Room 980.0 MAD [All Group Series]; Double Room 780.0 MAD [All Group Series]; Twin Room 780.0 MAD [All Group Series]; Double For Single 700.0 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Triple Room 980.0 MAD [All Group Series]; Double Room 780.0 MAD [All Group Series]; Twin Room 780.0 MAD [All Group Series]; Double For Single 700.0 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -20718,7 +8130,7 @@ window.ISSUE_DATA = {
             "SGA XMKC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
@@ -20728,8 +8140,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 600.0 MAD [All Group Series]; Single - Standard Room 500.0 MAD [All Group Series]; Double - Standard Room 600.0 MAD [All Group Series]; Double for Single Use 500.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin - Standard Room 650.0 MAD [All Group Series]; Double - Standard Room 650.0 MAD [All Group Series]; Single - Standard Room 650.0 MAD [All Group Series]; Double for Single Use 650.0 MAD [All Group Series]; Single - Standard Room 600.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 600.0 MAD [All Group Series]; Single - Standard Room 500.0 MAD [All Group Series]; Double - Standard Room 600.0 MAD [All Group Series]; Double for Single Use 500.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin - Standard Room 650.0 MAD [All Group Series]; Double - Standard Room 650.0 MAD [All Group Series]; Single - Standard Room 650.0 MAD [All Group Series]; Double for Single Use 650.0 MAD [All Group Series]; Single - Standard Room 600.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -20838,7 +8249,7 @@ window.ISSUE_DATA = {
             "SGA XMPX"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
@@ -20848,8 +8259,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Groupe Non Banded 1000.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Groupe Non Banded 1000.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -20962,7 +8372,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPE",
             "Prod exists": "Yes",
@@ -20972,8 +8382,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Single Standard Room 1100.0 MAD [FIT]; Double Standard Room 1150.0 MAD [FIT]; Twin Standard Room 1150.0 MAD [FIT]; Double For Single Use 1100.0 MAD [FIT]; Leader Room Single Standard 0.0 MAD [FIT]; Double Standard Room 1200.0 MAD [FIT]; Twin Standard Room 1200.0 MAD [FIT]; Single Standard Room 1100.0 MAD [All Group Series]; Double Standard Room 1150.0 MAD [All Group Series]; Twin Standard Room 1150.0 MAD [All Group Series]; Double For Single Use 1100.0 MAD [All Group Series]; Leader Room Single Standard 0.0 MAD [All Group Series]; Double Standard Room 1200.0 MAD [All Group Series]; Twin Standard Room 1200.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Single Standard Room 1100.0 MAD [FIT]; Double Standard Room 1150.0 MAD [FIT]; Twin Standard Room 1150.0 MAD [FIT]; Double For Single Use 1100.0 MAD [FIT]; Leader Room Single Standard 0.0 MAD [FIT]; Double Standard Room 1200.0 MAD [FIT]; Twin Standard Room 1200.0 MAD [FIT]; Single Standard Room 1100.0 MAD [All Group Series]; Double Standard Room 1150.0 MAD [All Group Series]; Twin Standard Room 1150.0 MAD [All Group Series]; Double For Single Use 1100.0 MAD [All Group Series]; Leader Room Single Standard 0.0 MAD [All Group Series]; Double Standard Room 1200.0 MAD [All Group Series]; Twin Standard Room 1200.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -21184,7 +8593,7 @@ window.ISSUE_DATA = {
             "SGA XMRW"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMRW",
             "Prod exists": "Yes",
@@ -21194,8 +8603,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Vehicle (Banded) Max 7 1750.0 MAD [All Group Series]; Per Vehicle (Banded) Max 17 1950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 7 1950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 17 2200.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Vehicle (Banded) Max 7 1750.0 MAD [All Group Series]; Per Vehicle (Banded) Max 17 1950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 7 1950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 17 2200.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -21244,7 +8652,7 @@ window.ISSUE_DATA = {
             "SGA XMFK"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFK",
             "Prod exists": "Yes",
@@ -21254,8 +8662,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Leader Tent Single (with Shared Facilities) (FIT) 0.0 MAD [All Group Series]; Twin - Tent (with Shared Facilities) (FIT) 1000.0 MAD [All Group Series]; Single - Tent (with Shared Facilities) (FIT) 600.0 MAD [All Group Series]; Double - Tent (With Shared Facilities) (FIT) 1000.0 MAD [All Group Series]; (no PC) 10.0 MAD [All Group Series]; (no PC) 300.0 MAD [All Group Series]; Twin - Tent (Family) 1000.0 MAD [All Group Series]; Triple - Tent (FIT) 1500.0 MAD [All Group Series]; Quadruple - Tent (FIT) 2000.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Leader Tent Single (with Shared Facilities) (FIT) 0.0 MAD [All Group Series]; Twin - Tent (with Shared Facilities) (FIT) 1000.0 MAD [All Group Series]; Single - Tent (with Shared Facilities) (FIT) 600.0 MAD [All Group Series]; Double - Tent (With Shared Facilities) (FIT) 1000.0 MAD [All Group Series]; (no PC) 10.0 MAD [All Group Series]; (no PC) 300.0 MAD [All Group Series]; Twin - Tent (Family) 1000.0 MAD [All Group Series]; Triple - Tent (FIT) 1500.0 MAD [All Group Series]; Quadruple - Tent (FIT) 2000.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -21343,7 +8750,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -21353,8 +8760,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 500.0 MAD [All Group Series]; Single - Standard Room 270.0 MAD [All Group Series]; Double - Standard Room 500.0 MAD [All Group Series]; Triple - Standard Room 720.0 MAD [All Group Series]; Quad - Standard Room 960.0 MAD [All Group Series]; Double for Single Use 270.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; (no PC) 10.0 MAD [All Group Series]; (no PC) 300.0 MAD [All Group Series]; Leader Tent Twin (with Shared Facilities) 0.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Twin Room (Family) 516.4 MAD [All Group Series]; Sawadee - 2nd Leader Room 270.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 500.0 MAD [All Group Series]; Single - Standard Room 270.0 MAD [All Group Series]; Double - Standard Room 500.0 MAD [All Group Series]; Triple - Standard Room 720.0 MAD [All Group Series]; Quad - Standard Room 960.0 MAD [All Group Series]; Double for Single Use 270.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; (no PC) 10.0 MAD [All Group Series]; (no PC) 300.0 MAD [All Group Series]; Leader Tent Twin (with Shared Facilities) 0.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Twin Room (Family) 516.4 MAD [All Group Series]; Sawadee - 2nd Leader Room 270.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -21539,7 +8945,7 @@ window.ISSUE_DATA = {
             "SGA XMFK"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMFK",
             "Prod exists": "Yes",
@@ -21550,7 +8956,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Vehicle (Banded) Max 2 350.0 MAD [All Group Series]; Per Vehicle (Banded) Max 5 500.0 MAD [All Group Series]; Per Vehicle (Banded) Max 12 570.0 MAD [All Group Series]; Per Vehicle (Banded) Max 13 640.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 710.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 780.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 850.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 990.0 MAD [All Group Series]; Per Vehicle (Banded) Max 2 385.0 MAD [All Group Series]; Per Vehicle (Banded) Max 5 550.0 MAD [All Group Series]; Per Vehicle (Banded) Max 12 627.0 MAD [All Group Series]; Per Vehicle (Banded) Max 13 704.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 781.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 858.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 935.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 1089.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -21599,7 +9005,7 @@ window.ISSUE_DATA = {
             "SGA XMFP"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
@@ -21610,7 +9016,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Unit (Max 02, Non-Banded) 350.0 MAD [All Group Series]; Per Unit (Max 05, Non-Banded) 500.0 MAD [All Group Series]; Per Unit (Max 12, Non-Banded) 570.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -21663,7 +9069,7 @@ window.ISSUE_DATA = {
             "SGA XMPM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P9; P10",
+          "also": "Also listed in P9; P10",
           "fields": {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
@@ -21674,7 +9080,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Vehicle (Banded) Max 6 1350.0 MAD [All Group Series]; Per Vehicle (Banded) Max 12 1450.0 MAD [All Group Series]; Per Vehicle (Banded) Max 13 1700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 1750.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 1850.0 MAD [All Group Series]; Per Vehicle (Banded) Max 26 2400.0 MAD [All Group Series]; Per Vehicle (Banded) Max 34 2700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 46 3300.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P9; P10"
+            "Also listed in": "Also listed in P9; P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -21752,7 +9158,7 @@ window.ISSUE_DATA = {
             "SGA XMSB"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
@@ -21762,8 +9168,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Double - Standard Room 427.0 MAD [All Group Series]; Twin - Standard Room 427.0 MAD [All Group Series]; Single - Standard Room 365.0 MAD [All Group Series]; Leader Single - Standard Room 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Double - Standard Room 427.0 MAD [All Group Series]; Twin - Standard Room 427.0 MAD [All Group Series]; Single - Standard Room 365.0 MAD [All Group Series]; Leader Single - Standard Room 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -21844,7 +9249,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
@@ -21854,8 +9259,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Unit (Max 04, Non-Banded) 60.0 MAD [All Group Series]; Per Unit (Max 04, Non-Banded) 70.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Unit (Max 04, Non-Banded) 60.0 MAD [All Group Series]; Per Unit (Max 04, Non-Banded) 70.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -21909,7 +9313,7 @@ window.ISSUE_DATA = {
             "SGA XMKN"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMKN",
             "Prod exists": "Yes",
@@ -21919,8 +9323,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 7650.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 8700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 10000.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 7650.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 8700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 10000.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -21974,7 +9377,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPE",
             "Prod exists": "Yes",
@@ -21984,8 +9387,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 13600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 14980.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 17120.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 14000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 15500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 13600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 14980.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 17120.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 14000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 15500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -22039,7 +9441,7 @@ window.ISSUE_DATA = {
             "SGA XMPM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
@@ -22049,8 +9451,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Vehicle (Banded) Max 8 6950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 7500.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 9050.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 7600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 8000.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Vehicle (Banded) Max 8 6950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 7500.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 9050.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 7600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 8000.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -22099,7 +9500,7 @@ window.ISSUE_DATA = {
             "SGA XMSC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P9",
+          "also": "Also listed in P9",
           "fields": {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
@@ -22110,7 +9511,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 8000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 8900.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 10400.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 9500.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 10800.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 12500.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 9785.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 11124.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 12875.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P9"
+            "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -22299,7 +9700,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPE",
             "Prod exists": "Yes",
@@ -22309,8 +9710,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 750.0 MAD [All Group Series]; Single - Standard Room 750.0 MAD [All Group Series]; Double - Standard Room 750.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double for Single Use 750.0 MAD [All Group Series]; Double for Single Use (FIT) 750.0 MAD [All Group Series]; Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Double - Standard Room (FIT) 750.0 MAD [All Group Series]; Twin - Standard Room (FIT) 750.0 MAD [All Group Series]; Single - Standard Room (FIT) 750.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 750.0 MAD [All Group Series]; Single - Standard Room 750.0 MAD [All Group Series]; Double - Standard Room 750.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double for Single Use 750.0 MAD [All Group Series]; Double for Single Use (FIT) 750.0 MAD [All Group Series]; Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Double - Standard Room (FIT) 750.0 MAD [All Group Series]; Twin - Standard Room (FIT) 750.0 MAD [All Group Series]; Single - Standard Room (FIT) 750.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -22421,7 +9821,7 @@ window.ISSUE_DATA = {
             "SGA XMSC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -22431,8 +9831,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Multishare 205.0 MAD [All Group Series]; Standard - Single Room (FIT) 205.0 MAD [All Group Series]; Standard - Double Room (FIT) 410.0 MAD [All Group Series]; Standard - Twin Room (FIT) 410.0 MAD [All Group Series]; Twin (Family) XMFE 386.4968 MAD [All Group Series]; Twin (Family) XMFB 410.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 205.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Multishare 205.0 MAD [All Group Series]; Standard - Single Room (FIT) 205.0 MAD [All Group Series]; Standard - Double Room (FIT) 410.0 MAD [All Group Series]; Standard - Twin Room (FIT) 410.0 MAD [All Group Series]; Twin (Family) XMFE 386.4968 MAD [All Group Series]; Twin (Family) XMFB 410.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 205.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -22531,7 +9930,7 @@ window.ISSUE_DATA = {
             "SGA XMSB"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
@@ -22541,8 +9940,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Vehicle (Banded) Max 8 350.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 680.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 770.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 440.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Vehicle (Banded) Max 8 350.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 680.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 770.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 440.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -22639,7 +10037,7 @@ window.ISSUE_DATA = {
             "SGA XMFE"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFE",
             "Prod exists": "Yes",
@@ -22649,8 +10047,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Single Tent 1155.0 MAD [All Group Series]; Double - Tent 1310.0 MAD [All Group Series]; Twin - Tent 1310.0 MAD [All Group Series]; Triple - Tent 1615.0 MAD [All Group Series]; Single - Dome 1355.0 MAD [All Group Series]; Double - Dome 1510.0 MAD [All Group Series]; Twin - Dome 1510.0 MAD [All Group Series]; Leader Single Room - Standard 0.0 MAD [All Group Series]; Single Tent 1355.0 MAD [All Group Series]; Double - Tent 1510.0 MAD [All Group Series]; Twin - Tent 1510.0 MAD [All Group Series]; Triple - Tent 1815.0 MAD [All Group Series]; Single - Dome 1600.0 MAD [All Group Series]; Double - Dome 1755.0 MAD [All Group Series]; Twin - Dome 1755.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Single Tent 1155.0 MAD [All Group Series]; Double - Tent 1310.0 MAD [All Group Series]; Twin - Tent 1310.0 MAD [All Group Series]; Triple - Tent 1615.0 MAD [All Group Series]; Single - Dome 1355.0 MAD [All Group Series]; Double - Dome 1510.0 MAD [All Group Series]; Twin - Dome 1510.0 MAD [All Group Series]; Leader Single Room - Standard 0.0 MAD [All Group Series]; Single Tent 1355.0 MAD [All Group Series]; Double - Tent 1510.0 MAD [All Group Series]; Twin - Tent 1510.0 MAD [All Group Series]; Triple - Tent 1815.0 MAD [All Group Series]; Single - Dome 1600.0 MAD [All Group Series]; Double - Dome 1755.0 MAD [All Group Series]; Twin - Dome 1755.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -22999,7 +10396,7 @@ window.ISSUE_DATA = {
             "SGA XMFK"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFK",
             "Prod exists": "Yes",
@@ -23009,8 +10406,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Vehicle (Banded) Max 8 7600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 8700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 9800.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Vehicle (Banded) Max 8 7600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 8700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 9800.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -23059,7 +10455,7 @@ window.ISSUE_DATA = {
             "SGA XMSS"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P9",
+          "also": "Also listed in P9",
           "fields": {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
@@ -23070,7 +10466,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 5000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 5500.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 6000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 28 9000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 28 16000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 10000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 9250.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 8900.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P9"
+            "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -23125,7 +10521,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
@@ -23135,8 +10531,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Multishare 200.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin- Standard 0.0 MAD [All Group Series]; Twin Room 400.0 MAD [All Group Series]; Double Room 400.0 MAD [All Group Series]; Single Room 200.0 MAD [All Group Series]; Triple Room 600.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Multishare 200.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin- Standard 0.0 MAD [All Group Series]; Twin Room 400.0 MAD [All Group Series]; Double Room 400.0 MAD [All Group Series]; Single Room 200.0 MAD [All Group Series]; Triple Room 600.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -23217,7 +10612,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
@@ -23227,8 +10622,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 400.0 MAD [All Group Series]; Single - Standard Room 380.0 MAD [All Group Series]; Double - Standard Room 400.0 MAD [All Group Series]; Triple - Standard Room 680.0 MAD [All Group Series]; Quad - Standard Room 850.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Double for Single Use 380.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin - Standard Room 420.0 MAD [All Group Series]; Single - Standard Room 400.0 MAD [All Group Series]; Double - Standard Room 420.0 MAD [All Group Series]; Double for Single Use 400.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 400.0 MAD [All Group Series]; Single - Standard Room 380.0 MAD [All Group Series]; Double - Standard Room 400.0 MAD [All Group Series]; Triple - Standard Room 680.0 MAD [All Group Series]; Quad - Standard Room 850.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Double for Single Use 380.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin - Standard Room 420.0 MAD [All Group Series]; Single - Standard Room 400.0 MAD [All Group Series]; Double - Standard Room 420.0 MAD [All Group Series]; Double for Single Use 400.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -23347,7 +10741,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPE",
             "Prod exists": "Yes",
@@ -23357,8 +10751,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Single - Tent (with Bathroom) (FIT) 1000.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 1200.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 1200.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 400.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 16 0.0 MAD [All Group Series]; Triple - Tent (FIT) 1750.0 MAD [All Group Series]; Quad - Tent (FIT) 2200.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 3400.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 3400.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 2300.0 MAD [All Group Series]; Triple - Tent (FIT) 4500.0 MAD [All Group Series]; Quad - Tent (FIT) 5600.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 1000.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 1300.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 1300.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 1050.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 500.0 MAD [All Group Series]; Triple - Tent (FIT) 1900.0 MAD [All Group Series]; Quad - Tent (FIT) 2400.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Single - Tent (with Bathroom) (FIT) 1000.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 1200.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 1200.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 400.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 16 0.0 MAD [All Group Series]; Triple - Tent (FIT) 1750.0 MAD [All Group Series]; Quad - Tent (FIT) 2200.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 3400.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 3400.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 2300.0 MAD [All Group Series]; Triple - Tent (FIT) 4500.0 MAD [All Group Series]; Quad - Tent (FIT) 5600.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 1000.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 1300.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 1300.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 1050.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 500.0 MAD [All Group Series]; Triple - Tent (FIT) 1900.0 MAD [All Group Series]; Quad - Tent (FIT) 2400.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -23492,7 +10885,7 @@ window.ISSUE_DATA = {
             "SGA XMKC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -23502,8 +10895,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room (FIT) 640.0 MAD [All Group Series]; Single - Standard Room (FIT) 640.0 MAD [All Group Series]; Double - Standard Room (FIT) 640.0 MAD [All Group Series]; Double for Single Use (FIT) 640.0 MAD [All Group Series]; Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Twin Room (Family) XMFK 640.0 MAD [All Group Series]; Twin Room (Family) XMFB 633.6 MAD [All Group Series]; Triple - Standard Room (FIT) 960.0 MAD [All Group Series]; Double - Standard Room 655.0 MAD [All Group Series]; Twin - Standard Room 655.0 MAD [All Group Series]; Double for Single Use 655.0 MAD [All Group Series]; Triple - Standard Room 980.0 MAD [All Group Series]; Single - Standard Room 655.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin Family Room XMFB 660.0 MAD [All Group Series]; Twin Room (Family) XMFK 655.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 640.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 655.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room (FIT) 640.0 MAD [All Group Series]; Single - Standard Room (FIT) 640.0 MAD [All Group Series]; Double - Standard Room (FIT) 640.0 MAD [All Group Series]; Double for Single Use (FIT) 640.0 MAD [All Group Series]; Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Twin Room (Family) XMFK 640.0 MAD [All Group Series]; Twin Room (Family) XMFB 633.6 MAD [All Group Series]; Triple - Standard Room (FIT) 960.0 MAD [All Group Series]; Double - Standard Room 655.0 MAD [All Group Series]; Twin - Standard Room 655.0 MAD [All Group Series]; Double for Single Use 655.0 MAD [All Group Series]; Triple - Standard Room 980.0 MAD [All Group Series]; Single - Standard Room 655.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin Family Room XMFB 660.0 MAD [All Group Series]; Twin Room (Family) XMFK 655.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 640.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 655.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -23642,7 +11034,7 @@ window.ISSUE_DATA = {
             "SGA XMPX"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
@@ -23652,8 +11044,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 1100.0 MAD [All Group Series]; Single - Standard Room 1050.0 MAD [All Group Series]; Double - Standard Room 1100.0 MAD [All Group Series]; Double for Single Use 1050.0 MAD [All Group Series]; Leader Room Single - Standard Max 6 0.0 MAD [All Group Series]; Leader Room Single - Standard Max 6 525.0 MAD [All Group Series]; Double - Standard Room 1250.0 MAD [All Group Series]; Twin - Standard Room 1250.0 MAD [All Group Series]; Double for Single Use 1125.0 MAD [All Group Series]; Single - Standard Room 1125.0 MAD [All Group Series]; Leader Room Single - Standard Max 16 (Cloned) 0.0 MAD [All Group Series]; Double for Single Use 1150.0 MAD [All Group Series]; Single - Standard Room 1150.0 MAD [All Group Series]; Leader Room Single - Standard Max 6 650.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 1100.0 MAD [All Group Series]; Single - Standard Room 1050.0 MAD [All Group Series]; Double - Standard Room 1100.0 MAD [All Group Series]; Double for Single Use 1050.0 MAD [All Group Series]; Leader Room Single - Standard Max 6 0.0 MAD [All Group Series]; Leader Room Single - Standard Max 6 525.0 MAD [All Group Series]; Double - Standard Room 1250.0 MAD [All Group Series]; Twin - Standard Room 1250.0 MAD [All Group Series]; Double for Single Use 1125.0 MAD [All Group Series]; Single - Standard Room 1125.0 MAD [All Group Series]; Leader Room Single - Standard Max 16 (Cloned) 0.0 MAD [All Group Series]; Double for Single Use 1150.0 MAD [All Group Series]; Single - Standard Room 1150.0 MAD [All Group Series]; Leader Room Single - Standard Max 6 650.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -23899,7 +11290,7 @@ window.ISSUE_DATA = {
             "SGA XMSB"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
@@ -23909,8 +11300,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 550.0 MAD [All Group Series]; Single - Standard Room 420.0 MAD [All Group Series]; Double - Standard Room 550.0 MAD [All Group Series]; Triple - Standard Room 750.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double for Single Use 520.0 MAD [All Group Series]; Double for Single Use 530.0 MAD [All Group Series]; Single - Standard Room 430.0 MAD [All Group Series]; Triple - Standard Room 800.0 MAD [All Group Series]; Double - Standard Room 570.0 MAD [All Group Series]; Twin - Standard Room 570.0 MAD [All Group Series]; Single - Standard Room 440.0 MAD [All Group Series]; Triple - Standard Room 820.0 MAD [All Group Series]; Double - Standard Room 580.0 MAD [All Group Series]; Twin - Standard Room 580.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 550.0 MAD [All Group Series]; Single - Standard Room 420.0 MAD [All Group Series]; Double - Standard Room 550.0 MAD [All Group Series]; Triple - Standard Room 750.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double for Single Use 520.0 MAD [All Group Series]; Double for Single Use 530.0 MAD [All Group Series]; Single - Standard Room 430.0 MAD [All Group Series]; Triple - Standard Room 800.0 MAD [All Group Series]; Double - Standard Room 570.0 MAD [All Group Series]; Twin - Standard Room 570.0 MAD [All Group Series]; Single - Standard Room 440.0 MAD [All Group Series]; Triple - Standard Room 820.0 MAD [All Group Series]; Double - Standard Room 580.0 MAD [All Group Series]; Twin - Standard Room 580.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -24044,7 +11434,7 @@ window.ISSUE_DATA = {
             "SGA XMFP"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
@@ -24054,8 +11444,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Double Rooom 1102.5 MAD [All Group Series]; Twin Room 1102.5 MAD [All Group Series]; Single Room 787.5 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Double Rooom 1102.5 MAD [All Group Series]; Twin Room 1102.5 MAD [All Group Series]; Single Room 787.5 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -24490,7 +11879,7 @@ window.ISSUE_DATA = {
             "SGA XMSF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
@@ -24500,8 +11889,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 616.0 MAD [All Group Series]; Single - Standard Room 408.0 MAD [All Group Series]; Double - Standard Room 616.0 MAD [All Group Series]; Double for Single Use 408.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Single - Standard Room 330.0 MAD [All Group Series]; Double - Standard Room 420.0 MAD [All Group Series]; Twin - Standard Room 420.0 MAD [All Group Series]; Double for Single Use 330.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 616.0 MAD [All Group Series]; Single - Standard Room 408.0 MAD [All Group Series]; Double - Standard Room 616.0 MAD [All Group Series]; Double for Single Use 408.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Single - Standard Room 330.0 MAD [All Group Series]; Double - Standard Room 420.0 MAD [All Group Series]; Twin - Standard Room 420.0 MAD [All Group Series]; Double for Single Use 330.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -24606,7 +11994,7 @@ window.ISSUE_DATA = {
             "SGA XMXC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
@@ -24616,8 +12004,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 388.0 MAD [All Group Series]; Single - Standard Room 314.0 MAD [All Group Series]; Double - Standard Room 388.0 MAD [All Group Series]; Double for Single Use 314.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 314.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 388.0 MAD [All Group Series]; Single - Standard Room 314.0 MAD [All Group Series]; Double - Standard Room 388.0 MAD [All Group Series]; Double for Single Use 314.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 314.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -24713,7 +12100,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -24723,8 +12110,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 633.0 MAD [All Group Series]; Single - Standard Room 516.0 MAD [All Group Series]; Double - Standard Room 633.0 MAD [All Group Series]; Triple - Standard Room 904.0 MAD [All Group Series]; Quad - Standard Room 1176.0 MAD [All Group Series]; Double for Single Use 516.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 11 516.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 50 0.0 MAD [All Group Series]; Double - Standard Room 613.0 MAD [All Group Series]; Twin - Standard Room 613.0 MAD [All Group Series]; Single - Standard Room 516.5 MAD [All Group Series]; Triple - Standard Room 876.0 MAD [All Group Series]; Quad - Standard Room 1139.0 MAD [All Group Series]; Leader Room Single - Standard 516.5 MAD [All Group Series]; Single - Standard Room 540.5 MAD [All Group Series]; Double - Standard Room 650.0 MAD [All Group Series]; Twin - Standard Room 650.0 MAD [All Group Series]; Triple - Standard Room 930.0 MAD [All Group Series]; Quad - Standard Room 1207.45 MAD [All Group Series]; Twin Family Room 694.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 516.5 MAD [All Group Series]; Sawadee - 2nd Leader Room 540.5 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 633.0 MAD [All Group Series]; Single - Standard Room 516.0 MAD [All Group Series]; Double - Standard Room 633.0 MAD [All Group Series]; Triple - Standard Room 904.0 MAD [All Group Series]; Quad - Standard Room 1176.0 MAD [All Group Series]; Double for Single Use 516.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 11 516.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 50 0.0 MAD [All Group Series]; Double - Standard Room 613.0 MAD [All Group Series]; Twin - Standard Room 613.0 MAD [All Group Series]; Single - Standard Room 516.5 MAD [All Group Series]; Triple - Standard Room 876.0 MAD [All Group Series]; Quad - Standard Room 1139.0 MAD [All Group Series]; Leader Room Single - Standard 516.5 MAD [All Group Series]; Single - Standard Room 540.5 MAD [All Group Series]; Double - Standard Room 650.0 MAD [All Group Series]; Twin - Standard Room 650.0 MAD [All Group Series]; Triple - Standard Room 930.0 MAD [All Group Series]; Quad - Standard Room 1207.45 MAD [All Group Series]; Twin Family Room 694.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 516.5 MAD [All Group Series]; Sawadee - 2nd Leader Room 540.5 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -25037,7 +12423,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -25047,8 +12433,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Double - Standard Room ZMSH 350.0 MAD [All Group Series]; Single - Standard Room (FIT) 280.0 MAD [All Group Series]; Double - Standard Room (FIT) 350.0 MAD [All Group Series]; Double for Single Use (FIT) 310.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room (FIT) 370.0 MAD [All Group Series]; Double for Single Use (FIT) 325.0 MAD [All Group Series]; Single - Standard Room (FIT) 295.0 MAD [All Group Series]; Triple - Standard Room (FIT) 530.0 MAD [All Group Series]; Leader Room Twin - Standard (FIT) 0.0 MAD [All Group Series]; Double - Standard Room ZMSH 360.0 MAD [All Group Series]; Single - Standard Room ZMSH 290.0 MAD [All Group Series]; Leader Room Single - Standard Room ZMSH 0.0 MAD [All Group Series]; Triple - Standard Room ZMSH 520.0 MAD [All Group Series]; Twin - Standard Room (FIT) 370.0 MAD [All Group Series]; Twin - Standard Room ZMSH 360.0 MAD [All Group Series]; Double for  Single Use ZMSH 310.0 MAD [All Group Series]; Double - Standard Room ZMSH 370.0 MAD [All Group Series]; Twin - Standard Room ZMSH 370.0 MAD [All Group Series]; Double for  Single Use ZMSH 325.0 MAD [All Group Series]; Single - Standard Room ZMSH 295.0 MAD [All Group Series]; Triple - Standard Room ZMSH 530.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 290.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 295.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Double - Standard Room ZMSH 350.0 MAD [All Group Series]; Single - Standard Room (FIT) 280.0 MAD [All Group Series]; Double - Standard Room (FIT) 350.0 MAD [All Group Series]; Double for Single Use (FIT) 310.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room (FIT) 370.0 MAD [All Group Series]; Double for Single Use (FIT) 325.0 MAD [All Group Series]; Single - Standard Room (FIT) 295.0 MAD [All Group Series]; Triple - Standard Room (FIT) 530.0 MAD [All Group Series]; Leader Room Twin - Standard (FIT) 0.0 MAD [All Group Series]; Double - Standard Room ZMSH 360.0 MAD [All Group Series]; Single - Standard Room ZMSH 290.0 MAD [All Group Series]; Leader Room Single - Standard Room ZMSH 0.0 MAD [All Group Series]; Triple - Standard Room ZMSH 520.0 MAD [All Group Series]; Twin - Standard Room (FIT) 370.0 MAD [All Group Series]; Twin - Standard Room ZMSH 360.0 MAD [All Group Series]; Double for  Single Use ZMSH 310.0 MAD [All Group Series]; Double - Standard Room ZMSH 370.0 MAD [All Group Series]; Twin - Standard Room ZMSH 370.0 MAD [All Group Series]; Double for  Single Use ZMSH 325.0 MAD [All Group Series]; Single - Standard Room ZMSH 295.0 MAD [All Group Series]; Triple - Standard Room ZMSH 530.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 290.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 295.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -25311,7 +12696,7 @@ window.ISSUE_DATA = {
             "SGA XMKN"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFK",
             "Prod exists": "Yes",
@@ -25321,8 +12706,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "FIT",
             "Gap": "FIT only",
-            "Prod PCs priced": "Twin - Standard Room 500.0 MAD [FIT]; Single - Standard Room 400.0 MAD [FIT]; Double - Standard Room 500.0 MAD [FIT]; Triple - Standard Room 750.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Twin Room (Family) 500.0 MAD [FIT]; Sawadee - 2nd Leader Room 400.0 MAD [FIT]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 500.0 MAD [FIT]; Single - Standard Room 400.0 MAD [FIT]; Double - Standard Room 500.0 MAD [FIT]; Triple - Standard Room 750.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Twin Room (Family) 500.0 MAD [FIT]; Sawadee - 2nd Leader Room 400.0 MAD [FIT]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -25416,7 +12800,7 @@ window.ISSUE_DATA = {
             "SGA XMSC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
@@ -25426,8 +12810,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 270.0 MAD [All Group Series]; Single - Standard Room 205.0 MAD [All Group Series]; Double - Standard Room 270.0 MAD [All Group Series]; Triple - Standard Room 400.0 MAD [All Group Series]; Double for Single Use 205.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 280.0 MAD [All Group Series]; Twin - Standard Room 280.0 MAD [All Group Series]; Single - Standard Room 250.0 MAD [All Group Series]; Triple - Standard Room 450.0 MAD [All Group Series]; Quad - Standard Room 550.0 MAD [All Group Series]; Twin Room (Family) 284.7 MAD [All Group Series]; Double for Single Use 230.0 MAD [All Group Series]; Single - Standard Room 230.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 250.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 230.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 270.0 MAD [All Group Series]; Single - Standard Room 205.0 MAD [All Group Series]; Double - Standard Room 270.0 MAD [All Group Series]; Triple - Standard Room 400.0 MAD [All Group Series]; Double for Single Use 205.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 280.0 MAD [All Group Series]; Twin - Standard Room 280.0 MAD [All Group Series]; Single - Standard Room 250.0 MAD [All Group Series]; Triple - Standard Room 450.0 MAD [All Group Series]; Quad - Standard Room 550.0 MAD [All Group Series]; Twin Room (Family) 284.7 MAD [All Group Series]; Double for Single Use 230.0 MAD [All Group Series]; Single - Standard Room 230.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 250.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 230.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -25690,7 +13073,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
@@ -25700,8 +13083,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Unit (Max 17, Non-Banded) 200.0 MAD [All Group Series]; Per Unit (Max 8, Non-Banded) 200.0 MAD [All Group Series]; Per Unit (Max 14, Non-Banded) 300.0 MAD [All Group Series]; Per Unit (Max 15, Non-Banded) 350.0 MAD [All Group Series]; Per Unit (Max 17, Non-Banded) 400.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Unit (Max 17, Non-Banded) 200.0 MAD [All Group Series]; Per Unit (Max 8, Non-Banded) 200.0 MAD [All Group Series]; Per Unit (Max 14, Non-Banded) 300.0 MAD [All Group Series]; Per Unit (Max 15, Non-Banded) 350.0 MAD [All Group Series]; Per Unit (Max 17, Non-Banded) 400.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -25770,7 +13152,7 @@ window.ISSUE_DATA = {
             "SGA XMXC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -25780,8 +13162,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Unit (Max 03, Non-Banded) 70.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Unit (Max 03, Non-Banded) 70.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -26109,7 +13490,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
@@ -26119,8 +13500,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 970.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Leader Room Single - Standard 970.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1030.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Leader Room Single - Standard 1030.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1000.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 950.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1010.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1320.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 2960.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1830.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 3100.0 MAD [All Group Series]; Single - Standard Room (Max 10 pax) 1900.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 3100.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1320.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 2960.0 MAD [All Group Series]; Single - Standard Room (Max 10 pax) 1080.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1460.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1460.0 MAD [All Group Series]; Single - Standard Room (Max 10 pax) 1100.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 970.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Leader Room Single - Standard 970.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1030.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Leader Room Single - Standard 1030.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1000.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 950.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1010.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1320.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 2960.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1830.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 3100.0 MAD [All Group Series]; Single - Standard Room (Max 10 pax) 1900.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 3100.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1320.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 2960.0 MAD [All Group Series]; Single - Standard Room (Max 10 pax) 1080.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1460.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1460.0 MAD [All Group Series]; Single - Standard Room (Max 10 pax) 1100.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -26398,7 +13778,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFK",
             "Prod exists": "Yes",
@@ -26408,8 +13788,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 430.0 MAD [All Group Series]; Single - Standard Room 350.0 MAD [All Group Series]; Double - Standard Room 430.0 MAD [All Group Series]; Triple - Standard Room 650.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin- Standard 0.0 MAD [All Group Series]; Twin Family Room 430.97 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 430.0 MAD [All Group Series]; Single - Standard Room 350.0 MAD [All Group Series]; Double - Standard Room 430.0 MAD [All Group Series]; Triple - Standard Room 650.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin- Standard 0.0 MAD [All Group Series]; Twin Family Room 430.97 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -26503,7 +13882,7 @@ window.ISSUE_DATA = {
             "SGA XMKN"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMKN",
             "Prod exists": "Yes",
@@ -26513,8 +13892,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 570.0 MAD [All Group Series]; Single - Standard Room 450.0 MAD [All Group Series]; Double - Standard Room 570.0 MAD [All Group Series]; Triple - Standard Room 850.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 570.0 MAD [All Group Series]; Single - Standard Room 450.0 MAD [All Group Series]; Double - Standard Room 570.0 MAD [All Group Series]; Triple - Standard Room 850.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -26806,7 +14184,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMXM",
             "Prod exists": "Yes",
@@ -26816,8 +14194,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 550.0 MAD [All Group Series]; Single - Standard Room 385.0 MAD [All Group Series]; Double - Standard Room 550.0 MAD [All Group Series]; Triple - Standard Room 760.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Twin - Standard Room 570.0 MAD [All Group Series]; Single - Standard Room 405.0 MAD [All Group Series]; Double - Standard Room 570.0 MAD [All Group Series]; Triple - Standard Room 780.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 385.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 405.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 550.0 MAD [All Group Series]; Single - Standard Room 385.0 MAD [All Group Series]; Double - Standard Room 550.0 MAD [All Group Series]; Triple - Standard Room 760.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Twin - Standard Room 570.0 MAD [All Group Series]; Single - Standard Room 405.0 MAD [All Group Series]; Double - Standard Room 570.0 MAD [All Group Series]; Triple - Standard Room 780.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 385.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 405.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -27013,7 +14390,7 @@ window.ISSUE_DATA = {
             "SGA XMXC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMHA",
             "Prod exists": "Yes",
@@ -27023,8 +14400,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 242.0 MAD [All Group Series]; Single - Standard Room 176.0 MAD [All Group Series]; Double - Standard Room 242.0 MAD [All Group Series]; Triple - Standard Room 350.0 MAD [All Group Series]; Double for Single Use 176.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Double - Standard Room 262.0 MAD [All Group Series]; Twin - Standard Room 262.0 MAD [All Group Series]; Twin Room (Family) 257.0 MAD [All Group Series]; Single - Standard Room 186.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 176.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 186.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 242.0 MAD [All Group Series]; Single - Standard Room 176.0 MAD [All Group Series]; Double - Standard Room 242.0 MAD [All Group Series]; Triple - Standard Room 350.0 MAD [All Group Series]; Double for Single Use 176.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Double - Standard Room 262.0 MAD [All Group Series]; Twin - Standard Room 262.0 MAD [All Group Series]; Twin Room (Family) 257.0 MAD [All Group Series]; Single - Standard Room 186.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 176.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 186.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -27148,7 +14524,7 @@ window.ISSUE_DATA = {
             "SGA XMXC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -27158,8 +14534,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 330.0 MAD [All Group Series]; Single - Standard Room 220.0 MAD [All Group Series]; Double - Standard Room 330.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Triple - Standard Room 440.0 MAD [All Group Series]; Quad - Standard Room 495.0 MAD [All Group Series]; Double for Single Use 220.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 220.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 330.0 MAD [All Group Series]; Single - Standard Room 220.0 MAD [All Group Series]; Double - Standard Room 330.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Triple - Standard Room 440.0 MAD [All Group Series]; Quad - Standard Room 495.0 MAD [All Group Series]; Double for Single Use 220.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 220.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -27265,7 +14640,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -27275,8 +14650,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 440.0 MAD [All Group Series]; Single - Standard Room 320.0 MAD [All Group Series]; Double - Standard Room 440.0 MAD [All Group Series]; Triple - Standard Room 660.0 MAD [All Group Series]; Quad - Standard Room 880.0 MAD [All Group Series]; Double for Single Use 400.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin Room (Family) 440.0 MAD [All Group Series]; Leader Room Twin- Standard 0.0 MAD [All Group Series]; Twin - Standard Room 460.0 MAD [All Group Series]; Single - Standard Room 340.0 MAD [All Group Series]; Double - Standard Room 460.0 MAD [All Group Series]; Triple - Standard Room 720.0 MAD [All Group Series]; Quad - Standard Room 960.0 MAD [All Group Series]; Double for Single Use 420.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 320.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 440.0 MAD [All Group Series]; Single - Standard Room 320.0 MAD [All Group Series]; Double - Standard Room 440.0 MAD [All Group Series]; Triple - Standard Room 660.0 MAD [All Group Series]; Quad - Standard Room 880.0 MAD [All Group Series]; Double for Single Use 400.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin Room (Family) 440.0 MAD [All Group Series]; Leader Room Twin- Standard 0.0 MAD [All Group Series]; Twin - Standard Room 460.0 MAD [All Group Series]; Single - Standard Room 340.0 MAD [All Group Series]; Double - Standard Room 460.0 MAD [All Group Series]; Triple - Standard Room 720.0 MAD [All Group Series]; Quad - Standard Room 960.0 MAD [All Group Series]; Double for Single Use 420.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 320.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -27557,7 +14931,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -27567,8 +14941,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Triple - Standard Room 450.0 MAD [All Group Series]; Twin - Standard Room 300.0 MAD [All Group Series]; Single - Standard Room 280.0 MAD [All Group Series]; Double - Standard Room 300.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Twin Room (Family) XMFK 288.43 MAD [All Group Series]; Twin Room (Family) XMFB 239.99 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Triple - Standard Room 450.0 MAD [All Group Series]; Twin - Standard Room 300.0 MAD [All Group Series]; Single - Standard Room 280.0 MAD [All Group Series]; Double - Standard Room 300.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Twin Room (Family) XMFK 288.43 MAD [All Group Series]; Twin Room (Family) XMFB 239.99 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -27662,7 +15035,7 @@ window.ISSUE_DATA = {
             "SGA XMSC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
@@ -27672,8 +15045,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 416.0 MAD [All Group Series]; Single - Standard Room 210.0 MAD [All Group Series]; Double - Standard Room 416.0 MAD [All Group Series]; Double for Single Use 210.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 416.0 MAD [All Group Series]; Single - Standard Room 210.0 MAD [All Group Series]; Double - Standard Room 416.0 MAD [All Group Series]; Double for Single Use 210.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -27757,7 +15129,7 @@ window.ISSUE_DATA = {
             "SGA XMSF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
@@ -27767,8 +15139,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 250.0 MAD [All Group Series]; Single - Standard Room 160.0 MAD [All Group Series]; Double - Standard Room 250.0 MAD [All Group Series]; Double for Single Use 160.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 260.0 MAD [All Group Series]; Twin - Standard Room 260.0 MAD [All Group Series]; Single - Standard Room 170.0 MAD [All Group Series]; Double for Single Use 170.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 250.0 MAD [All Group Series]; Single - Standard Room 160.0 MAD [All Group Series]; Double - Standard Room 250.0 MAD [All Group Series]; Double for Single Use 160.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 260.0 MAD [All Group Series]; Twin - Standard Room 260.0 MAD [All Group Series]; Single - Standard Room 170.0 MAD [All Group Series]; Double for Single Use 170.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -27872,7 +15243,7 @@ window.ISSUE_DATA = {
             "SGA XMSF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
@@ -27882,8 +15253,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 500.0 MAD [All Group Series]; Single - Standard Room 330.0 MAD [All Group Series]; Double - Standard Room 500.0 MAD [All Group Series]; Leader Room Single - Standard 330.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 24 0.0 MAD [All Group Series]; Double - Standard Room 540.0 MAD [All Group Series]; Twin - Standard Room 540.0 MAD [All Group Series]; Single - Standard Room 355.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 595.0 MAD [All Group Series]; Twin - Standard Room 595.0 MAD [All Group Series]; Single - Standard Room 390.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 500.0 MAD [All Group Series]; Single - Standard Room 330.0 MAD [All Group Series]; Double - Standard Room 500.0 MAD [All Group Series]; Leader Room Single - Standard 330.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 24 0.0 MAD [All Group Series]; Double - Standard Room 540.0 MAD [All Group Series]; Twin - Standard Room 540.0 MAD [All Group Series]; Single - Standard Room 355.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 595.0 MAD [All Group Series]; Twin - Standard Room 595.0 MAD [All Group Series]; Single - Standard Room 390.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -28002,7 +15372,7 @@ window.ISSUE_DATA = {
             "SGA XMFP"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
@@ -28012,8 +15382,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Leader Single Tent 0.0 MAD [All Group Series]; Twin - Tent 1500.0 MAD [All Group Series]; Double - Tent 1500.0 MAD [All Group Series]; Single - Tent 1500.0 MAD [All Group Series]; Double For Single - Tent 1500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Leader Single Tent 0.0 MAD [All Group Series]; Twin - Tent 1500.0 MAD [All Group Series]; Double - Tent 1500.0 MAD [All Group Series]; Single - Tent 1500.0 MAD [All Group Series]; Double For Single - Tent 1500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -28099,7 +15468,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -28110,7 +15479,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Group Per Day (Non-Banded) 350.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 400.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -28161,7 +15530,7 @@ window.ISSUE_DATA = {
             "SGA XMSF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
@@ -28172,7 +15541,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Group Per Day (Non-Banded) 300.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 400.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -28282,7 +15651,7 @@ window.ISSUE_DATA = {
             "SGA XMFK"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMFK",
             "Prod exists": "Yes",
@@ -28293,7 +15662,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Group Per Day (Non-Banded) 500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -28342,7 +15711,7 @@ window.ISSUE_DATA = {
             "SGA XMSS"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
@@ -28353,7 +15722,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Group Per Day (Non-Banded) 250.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 300.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -28402,7 +15771,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMXM",
             "Prod exists": "Yes",
@@ -28413,7 +15782,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Group Per Day (Non-Banded) 200.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 400.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -28537,7 +15906,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -28548,7 +15917,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Group Per Day (Non-Banded) 300.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 400.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -28659,7 +16028,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
@@ -28670,7 +16039,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Group Per Day (Non-Banded) 250.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -28861,7 +16230,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
@@ -28872,7 +16241,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Group Per Day (Non-Banded) 600.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -28921,7 +16290,7 @@ window.ISSUE_DATA = {
             "SGA XMFB"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -28932,7 +16301,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Group Per Day (Non-Banded) 600.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -29051,7 +16420,7 @@ window.ISSUE_DATA = {
             "SGA XMSF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
@@ -29062,7 +16431,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Group Per Day (Non-Banded) 400.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -29111,7 +16480,7 @@ window.ISSUE_DATA = {
             "SGA XMFB"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -29122,7 +16491,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Group Per Half Day (Non-Banded) 300.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -29165,7 +16534,7 @@ window.ISSUE_DATA = {
             "SGA XMFP"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
@@ -29176,7 +16545,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Group Per Day (Non-Banded) 300.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -29285,7 +16654,7 @@ window.ISSUE_DATA = {
             "SGA XMRW"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMRW",
             "Prod exists": "Yes",
@@ -29296,7 +16665,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Group Per Day (Non-Banded) 300.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 350.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -29346,7 +16715,7 @@ window.ISSUE_DATA = {
             "SGA XMPM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPE",
             "Prod exists": "Yes",
@@ -29356,8 +16725,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Deluxe Double 1848.67 MAD [All Group Series]; Deluxe Twin 1848.67 MAD [All Group Series]; Single Twin 1678.94 MAD [All Group Series]; Leader Roon Single 500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Deluxe Double 1848.67 MAD [All Group Series]; Deluxe Twin 1848.67 MAD [All Group Series]; Single Twin 1678.94 MAD [All Group Series]; Leader Roon Single 500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -29436,7 +16804,7 @@ window.ISSUE_DATA = {
             "SGA XMPX"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
@@ -29447,7 +16815,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Vehicle (Banded) Max 8 170.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 210.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 290.0 MAD [All Group Series]; Per Vehicle (Banded) Max 28 900.0 MAD [All Group Series]; Per Vehicle (Banded) Max 36 1000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 48 1150.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -29515,7 +16883,7 @@ window.ISSUE_DATA = {
             "SGA XMPM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
@@ -29525,8 +16893,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Unit (Max 04, Non-Banded) 800.0 MAD [All Group Series]; Per Unit (Max 12, Non-Banded) 800.0 MAD [All Group Series]; Per Unit (Max 04, Non-Banded) 1000.0 MAD [All Group Series]; Per Unit (Max 12, Non-Banded) 1000.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Unit (Max 04, Non-Banded) 800.0 MAD [All Group Series]; Per Unit (Max 12, Non-Banded) 800.0 MAD [All Group Series]; Per Unit (Max 04, Non-Banded) 1000.0 MAD [All Group Series]; Per Unit (Max 12, Non-Banded) 1000.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -29590,7 +16957,7 @@ window.ISSUE_DATA = {
             "SGA XMRW"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMRW",
             "Prod exists": "Yes",
@@ -29600,8 +16967,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Vehicle (Banded) Max 7 1750.0 MAD [All Group Series]; Per Vehicle (Banded) Max 17 1950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 1950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 7 1950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 2200.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Vehicle (Banded) Max 7 1750.0 MAD [All Group Series]; Per Vehicle (Banded) Max 17 1950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 1950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 7 1950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 2200.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -29650,7 +17016,7 @@ window.ISSUE_DATA = {
             "SGA XMSS"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
@@ -29660,8 +17026,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Vehicle Max 8 165.0 EUR [All Group Series]; Per Vehicle Max 13 245.0 EUR [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Vehicle Max 8 165.0 EUR [All Group Series]; Per Vehicle Max 13 245.0 EUR [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -29709,7 +17074,7 @@ window.ISSUE_DATA = {
             "SGA XMSF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
@@ -29719,8 +17084,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Vehicle (Banded) Max 8 7000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 8000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 9000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 7700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 9500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Vehicle (Banded) Max 8 7000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 8000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 9000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 7700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 9500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -29769,7 +17133,7 @@ window.ISSUE_DATA = {
             "SGA XMFE"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFE",
             "Prod exists": "Yes",
@@ -29779,8 +17143,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 5463.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 6038.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 7475.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 5300.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 6000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 6500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 5463.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 6038.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 7475.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 5300.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 6000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 6500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -29834,7 +17197,7 @@ window.ISSUE_DATA = {
             "SGA XMXC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -29844,8 +17207,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 24200.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 26400.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 28600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 25410.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 27720.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 30030.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 24200.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 26400.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 28600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 25410.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 27720.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 30030.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -29899,7 +17261,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P9",
+          "also": "Also listed in P9",
           "fields": {
             "TM package": "SGA XMXM",
             "Prod exists": "Yes",
@@ -29910,7 +17272,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 13000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 18000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 21000.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P9"
+            "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -29964,7 +17326,7 @@ window.ISSUE_DATA = {
             "SGA XMXC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -29974,8 +17336,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Overnight Transport (PP) 370.0 MAD [All Group Series]; Overnight Transport Per Crew 370.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Overnight Transport (PP) 370.0 MAD [All Group Series]; Overnight Transport Per Crew 370.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -30027,7 +17388,7 @@ window.ISSUE_DATA = {
             "SGA XMSS"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -30037,8 +17398,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Unit (Max 03, Non-Banded) 50.0 MAD [All Group Series]; Per Unit (Max 03, Non-Banded) 60.0 MAD [All Group Series]; Per Unit (Max 03, Non-Banded) 70.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Unit (Max 03, Non-Banded) 50.0 MAD [All Group Series]; Per Unit (Max 03, Non-Banded) 60.0 MAD [All Group Series]; Per Unit (Max 03, Non-Banded) 70.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -30097,7 +17457,7 @@ window.ISSUE_DATA = {
             "SGA XMSB"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
@@ -30107,8 +17467,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Unit (Max 03, Non-Banded) 50.0 MAD [All Group Series]; Per Unit (Max 03, Non-Banded) 60.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Unit (Max 03, Non-Banded) 50.0 MAD [All Group Series]; Per Unit (Max 03, Non-Banded) 60.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -30162,7 +17521,7 @@ window.ISSUE_DATA = {
             "SGA XMKC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
@@ -30172,8 +17531,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 370.0 MAD [All Group Series]; Single - Standard Room 269.0 MAD [All Group Series]; Double - Standard Room 370.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 380.0 MAD [All Group Series]; Twin - Standard Room 380.0 MAD [All Group Series]; Single - Standard Room 380.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 370.0 MAD [All Group Series]; Single - Standard Room 269.0 MAD [All Group Series]; Double - Standard Room 370.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 380.0 MAD [All Group Series]; Twin - Standard Room 380.0 MAD [All Group Series]; Single - Standard Room 380.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -30267,7 +17625,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMZF",
             "Prod exists": "Yes",
@@ -30277,8 +17635,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Unit (Max 04, Non-Banded) 250.0 MAD [All Group Series]; Per Unit (Max 05, Non-Banded) 300.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Unit (Max 04, Non-Banded) 250.0 MAD [All Group Series]; Per Unit (Max 05, Non-Banded) 300.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -30332,7 +17689,7 @@ window.ISSUE_DATA = {
             "SGA XMKC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
@@ -30342,8 +17699,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 600.0 MAD [All Group Series]; Single - Standard Room 300.0 MAD [All Group Series]; Double - Standard Room 600.0 MAD [All Group Series]; Double for Single Use 600.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 600.0 MAD [All Group Series]; Single - Standard Room 300.0 MAD [All Group Series]; Double - Standard Room 600.0 MAD [All Group Series]; Double for Single Use 600.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -30427,7 +17783,7 @@ window.ISSUE_DATA = {
             "SGA XMSF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
@@ -30437,8 +17793,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Vehicle (Banded) Max 4 1890.0 MAD [All Group Series]; Per Vehicle (Banded) Max 9 3780.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 5670.0 MAD [All Group Series]; Per Vehicle (Banded) Max 17 7560.0 MAD [All Group Series]; Per Vehicle (Banded) Max 19 9450.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Vehicle (Banded) Max 4 1890.0 MAD [All Group Series]; Per Vehicle (Banded) Max 9 3780.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 5670.0 MAD [All Group Series]; Per Vehicle (Banded) Max 17 7560.0 MAD [All Group Series]; Per Vehicle (Banded) Max 19 9450.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -30585,7 +17940,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMZF",
             "Prod exists": "Yes",
@@ -30595,8 +17950,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 452.0 MAD [All Group Series]; Single - Standard Room 330.0 MAD [All Group Series]; Double - Standard Room 452.0 MAD [All Group Series]; Triple - Standard Room 656.0 MAD [All Group Series]; Quad - Standard Room 839.0 MAD [All Group Series]; Double for Single Use 330.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 452.0 MAD [All Group Series]; Single - Standard Room 330.0 MAD [All Group Series]; Double - Standard Room 452.0 MAD [All Group Series]; Triple - Standard Room 656.0 MAD [All Group Series]; Quad - Standard Room 839.0 MAD [All Group Series]; Double for Single Use 330.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -30690,7 +18044,7 @@ window.ISSUE_DATA = {
             "SGA XMSB"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
@@ -30700,8 +18054,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Vehicle (Banded) Max 8 1600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 2050.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 2280.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 1700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 2300.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 2900.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Vehicle (Banded) Max 8 1600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 2050.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 2280.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 1700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 2300.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 2900.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -30750,7 +18103,7 @@ window.ISSUE_DATA = {
             "SGA XMSB"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
@@ -30760,8 +18113,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Unit (Max 04, Non-Banded) 500.0 MAD [All Group Series]; Per Unit (Max 04, Non-Banded) 600.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Unit (Max 04, Non-Banded) 500.0 MAD [All Group Series]; Per Unit (Max 04, Non-Banded) 600.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -30815,7 +18167,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMZF",
             "Prod exists": "Yes",
@@ -30825,8 +18177,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Vehicle (Banded) Max 8 10800.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 11664.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Vehicle (Banded) Max 8 10800.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 11664.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -30876,7 +18227,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -30887,7 +18238,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Group Per Day (Non-Banded) 300.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -30936,7 +18287,7 @@ window.ISSUE_DATA = {
             "SGA XMPX"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
@@ -30946,8 +18297,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Group - (Non- Banded) 3000.0 MAD [All Group Series]; Per Group - (Non- Banded) 3200.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Group - (Non- Banded) 3000.0 MAD [All Group Series]; Per Group - (Non- Banded) 3200.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -31211,7 +18561,7 @@ window.ISSUE_DATA = {
             "SGA XMPX"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
@@ -31221,8 +18571,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Double - Standard Room 1100.0 MAD [All Group Series]; Twin - Standard Room 1100.0 MAD [All Group Series]; Single - Standard Room 1100.0 MAD [All Group Series]; Double for Single Use 1100.0 MAD [All Group Series]; Leader Single - Standard Room 0.0 MAD [All Group Series]; Double - Standard Room 1150.0 MAD [All Group Series]; Twin - Standard Room 1150.0 MAD [All Group Series]; Triple - Standard Room 1500.0 MAD [All Group Series]; Quad - Standard Room 1800.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Double - Standard Room 1100.0 MAD [All Group Series]; Twin - Standard Room 1100.0 MAD [All Group Series]; Single - Standard Room 1100.0 MAD [All Group Series]; Double for Single Use 1100.0 MAD [All Group Series]; Leader Single - Standard Room 0.0 MAD [All Group Series]; Double - Standard Room 1150.0 MAD [All Group Series]; Twin - Standard Room 1150.0 MAD [All Group Series]; Triple - Standard Room 1500.0 MAD [All Group Series]; Quad - Standard Room 1800.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -31326,7 +18675,7 @@ window.ISSUE_DATA = {
             "SGA XMFK"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFK",
             "Prod exists": "Yes",
@@ -31336,8 +18685,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 950.0 MAD [All Group Series]; Single - Standard Room 850.0 MAD [All Group Series]; Double - Standard Room 950.0 MAD [All Group Series]; Triple - Standard Room 1200.0 MAD [All Group Series]; Quad - Standard Room 1600.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin - Standard Room 990.0 MAD [All Group Series]; Double - Standard Room 990.0 MAD [All Group Series]; Single - Standard Room 880.0 MAD [All Group Series]; Double for Single Use 990.0 MAD [All Group Series]; Triple - Standard Room 1280.0 MAD [All Group Series]; Quad - Standard Room 1680.0 MAD [All Group Series]; Leader Room Single ( 3 Room Booked ) 459.0 MAD [All Group Series]; Leader Room Single ( 4 Room or more ) 0.0 MAD [All Group Series]; Twin - Standard Room 970.0 MAD [All Group Series]; Double - Standard Room 970.0 MAD [All Group Series]; Single - Standard Room 870.0 MAD [All Group Series]; Double for Single Use 870.0 MAD [All Group Series]; Triple - Standard Room 1240.0 MAD [All Group Series]; Quad - Standard Room 1640.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 950.0 MAD [All Group Series]; Single - Standard Room 850.0 MAD [All Group Series]; Double - Standard Room 950.0 MAD [All Group Series]; Triple - Standard Room 1200.0 MAD [All Group Series]; Quad - Standard Room 1600.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin - Standard Room 990.0 MAD [All Group Series]; Double - Standard Room 990.0 MAD [All Group Series]; Single - Standard Room 880.0 MAD [All Group Series]; Double for Single Use 990.0 MAD [All Group Series]; Triple - Standard Room 1280.0 MAD [All Group Series]; Quad - Standard Room 1680.0 MAD [All Group Series]; Leader Room Single ( 3 Room Booked ) 459.0 MAD [All Group Series]; Leader Room Single ( 4 Room or more ) 0.0 MAD [All Group Series]; Twin - Standard Room 970.0 MAD [All Group Series]; Double - Standard Room 970.0 MAD [All Group Series]; Single - Standard Room 870.0 MAD [All Group Series]; Double for Single Use 870.0 MAD [All Group Series]; Triple - Standard Room 1240.0 MAD [All Group Series]; Quad - Standard Room 1640.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -31572,7 +18920,7 @@ window.ISSUE_DATA = {
             "SGA XMKC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
@@ -31582,8 +18930,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 710.0 MAD [All Group Series]; Single - Standard Room 625.0 MAD [All Group Series]; Double - Standard Room 650.0 MAD [All Group Series]; Triple - Standard Room 975.0 MAD [All Group Series]; Twin - Standard Room 950.0 MAD [All Group Series]; Single - Standard Room 900.0 MAD [All Group Series]; Double - Standard Room 900.0 MAD [All Group Series]; Triple - Standard Room 1100.0 MAD [All Group Series]; Leader Room Single - Standard 900.0 MAD [All Group Series]; Double - Standard Room 750.0 MAD [All Group Series]; Twin - Standard Room 750.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double For Single 650.0 MAD [All Group Series]; Single - Standard Room 650.0 MAD [All Group Series]; Triple - Standard Room 1125.0 MAD [All Group Series]; Double - Standard Room 800.0 MAD [All Group Series]; Twin - Standard Room 800.0 MAD [All Group Series]; Double For Single 690.0 MAD [All Group Series]; Single - Standard Room 690.0 MAD [All Group Series]; Triple - Standard Room 1200.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 710.0 MAD [All Group Series]; Single - Standard Room 625.0 MAD [All Group Series]; Double - Standard Room 650.0 MAD [All Group Series]; Triple - Standard Room 975.0 MAD [All Group Series]; Twin - Standard Room 950.0 MAD [All Group Series]; Single - Standard Room 900.0 MAD [All Group Series]; Double - Standard Room 900.0 MAD [All Group Series]; Triple - Standard Room 1100.0 MAD [All Group Series]; Leader Room Single - Standard 900.0 MAD [All Group Series]; Double - Standard Room 750.0 MAD [All Group Series]; Twin - Standard Room 750.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double For Single 650.0 MAD [All Group Series]; Single - Standard Room 650.0 MAD [All Group Series]; Triple - Standard Room 1125.0 MAD [All Group Series]; Double - Standard Room 800.0 MAD [All Group Series]; Twin - Standard Room 800.0 MAD [All Group Series]; Double For Single 690.0 MAD [All Group Series]; Single - Standard Room 690.0 MAD [All Group Series]; Triple - Standard Room 1200.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -31913,7 +19260,7 @@ window.ISSUE_DATA = {
             "SGA XMFP"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
@@ -31923,8 +19270,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Standard - Double Room 950.0 MAD [All Group Series]; Standard - Twin Room 950.0 MAD [All Group Series]; Double for Single Use 850.0 MAD [All Group Series]; Standard - Single Room 850.0 MAD [All Group Series]; Standard - Triple Room 1200.0 MAD [All Group Series]; Standard - Quadruple Room 1600.0 MAD [All Group Series]; Leader Single Room 0.0 MAD [All Group Series]; Standard - Double Room 970.0 MAD [All Group Series]; Standard - Twin Room 970.0 MAD [All Group Series]; Double for Single Use 870.0 MAD [All Group Series]; Standard - Single Room 870.0 MAD [All Group Series]; Standard - Triple Room 1240.0 MAD [All Group Series]; Standard - Quadruple Room 1640.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Standard - Double Room 950.0 MAD [All Group Series]; Standard - Twin Room 950.0 MAD [All Group Series]; Double for Single Use 850.0 MAD [All Group Series]; Standard - Single Room 850.0 MAD [All Group Series]; Standard - Triple Room 1200.0 MAD [All Group Series]; Standard - Quadruple Room 1600.0 MAD [All Group Series]; Leader Single Room 0.0 MAD [All Group Series]; Standard - Double Room 970.0 MAD [All Group Series]; Standard - Twin Room 970.0 MAD [All Group Series]; Double for Single Use 870.0 MAD [All Group Series]; Standard - Single Room 870.0 MAD [All Group Series]; Standard - Triple Room 1240.0 MAD [All Group Series]; Standard - Quadruple Room 1640.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -32227,7 +19573,7 @@ window.ISSUE_DATA = {
             "SGA XMPM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
@@ -32237,8 +19583,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Double - Superior Standard 2200.0 MAD [All Group Series]; Twin - Superior Standard 2200.0 MAD [All Group Series]; Single - Superior Standard 2200.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Double - Superior Standard 2200.0 MAD [All Group Series]; Twin - Superior Standard 2200.0 MAD [All Group Series]; Single - Superior Standard 2200.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -32841,7 +20186,7 @@ window.ISSUE_DATA = {
             "SGA XMSC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
@@ -32851,8 +20196,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Unit (Max 03, Non-Banded) 50.0 MAD [All Group Series]; Per Unit (Max 03, Non-Banded) 60.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Unit (Max 03, Non-Banded) 50.0 MAD [All Group Series]; Per Unit (Max 03, Non-Banded) 60.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -32906,7 +20250,7 @@ window.ISSUE_DATA = {
             "SGA XMSC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
@@ -32916,8 +20260,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Vehicle (Banded) Max 7 1450.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 1600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 1750.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Vehicle (Banded) Max 7 1450.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 1600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 1750.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -32966,7 +20309,7 @@ window.ISSUE_DATA = {
             "SGA XMSB"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
@@ -32976,8 +20319,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 7 1450.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 1600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 1750.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 7 1450.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 1600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 1750.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -33031,7 +20373,7 @@ window.ISSUE_DATA = {
             "SGA XMFB"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -33041,8 +20383,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Vehicle (Banded) Max 8 8800.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 9700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 10700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 30 21000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 13200.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 14800.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 16200.0 MAD [All Group Series]; Per Vehicle (Banded) Max 30 29500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Vehicle (Banded) Max 8 8800.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 9700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 10700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 30 21000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 13200.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 14800.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 16200.0 MAD [All Group Series]; Per Vehicle (Banded) Max 30 29500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -33091,7 +20432,7 @@ window.ISSUE_DATA = {
             "SGA XMSS"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
@@ -33101,8 +20442,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Unit (Max 03, Non-Banded) 60.0 MAD [All Group Series]; Per Unit (Max 03, Non-Banded) 70.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Unit (Max 03, Non-Banded) 60.0 MAD [All Group Series]; Per Unit (Max 03, Non-Banded) 70.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -33156,7 +20496,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPE",
             "Prod exists": "Yes",
@@ -33166,8 +20506,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Double Room 1200.0 MAD [All Group Series]; Twin Room 1200.0 MAD [All Group Series]; Single Room 1050.0 MAD [All Group Series]; Leader Room Single 500.0 MAD [All Group Series]; (no PC) 30.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Double Room 1200.0 MAD [All Group Series]; Twin Room 1200.0 MAD [All Group Series]; Single Room 1050.0 MAD [All Group Series]; Leader Room Single 500.0 MAD [All Group Series]; (no PC) 30.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -33236,7 +20575,7 @@ window.ISSUE_DATA = {
             "SGA XMPM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
@@ -33246,8 +20585,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Single - Superior 1239.6 MAD [All Group Series]; Double for Single Use Superior 1239.6 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin - Superior 1279.2 MAD [All Group Series]; Double - Superior 1279.2 MAD [All Group Series]; Single - Superior 1439.6 MAD [All Group Series]; Double for Single Use Superior 1439.6 MAD [All Group Series]; Twin - Superior 1479.2 MAD [All Group Series]; Double - Superior 1479.2 MAD [All Group Series]; Twin - Superior 1419.91 MAD [All Group Series]; Double - Superior 1419.91 MAD [All Group Series]; Single - Superior 1375.96 MAD [All Group Series]; Double for Single Use Superior 1375.96 MAD [All Group Series]; Twin - Superior 1641.9 MAD [All Group Series]; Double - Superior 1641.9 MAD [All Group Series]; Single - Superior 1597.96 MAD [All Group Series]; Double for Single Use Superior 1597.96 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Single - Superior 1239.6 MAD [All Group Series]; Double for Single Use Superior 1239.6 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin - Superior 1279.2 MAD [All Group Series]; Double - Superior 1279.2 MAD [All Group Series]; Single - Superior 1439.6 MAD [All Group Series]; Double for Single Use Superior 1439.6 MAD [All Group Series]; Twin - Superior 1479.2 MAD [All Group Series]; Double - Superior 1479.2 MAD [All Group Series]; Twin - Superior 1419.91 MAD [All Group Series]; Double - Superior 1419.91 MAD [All Group Series]; Single - Superior 1375.96 MAD [All Group Series]; Double for Single Use Superior 1375.96 MAD [All Group Series]; Twin - Superior 1641.9 MAD [All Group Series]; Double - Superior 1641.9 MAD [All Group Series]; Single - Superior 1597.96 MAD [All Group Series]; Double for Single Use Superior 1597.96 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -33391,7 +20729,7 @@ window.ISSUE_DATA = {
             "SGA XMPM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
@@ -33401,8 +20739,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Single - Superior 1539.6 MAD [All Group Series]; Twin - Superior 1879.2 MAD [All Group Series]; Double - Superior 1879.2 MAD [All Group Series]; Double for Single Use 1539.6 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Single - Superior 1739.6 MAD [All Group Series]; Twin - Superior 2079.2 MAD [All Group Series]; Double - Superior 2079.2 MAD [All Group Series]; Double for Single Use 1739.6 MAD [All Group Series]; Double - Superior 1979.2 MAD [All Group Series]; Twin - Superior 1979.2 MAD [All Group Series]; Single - Superior 1589.6 MAD [All Group Series]; Double - Superior 2179.2 MAD [All Group Series]; Twin - Superior 2179.2 MAD [All Group Series]; Single - Superior 1789.6 MAD [All Group Series]; Double - Superior 2141.912 MAD [All Group Series]; Twin - Superior 2141.912 MAD [All Group Series]; Single - Superior 2041.96 MAD [All Group Series]; Double - Superior 2363.91 MAD [All Group Series]; Twin - Superior 2363.91 MAD [All Group Series]; Single - Superior 1958.96 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Single - Superior 1539.6 MAD [All Group Series]; Twin - Superior 1879.2 MAD [All Group Series]; Double - Superior 1879.2 MAD [All Group Series]; Double for Single Use 1539.6 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Single - Superior 1739.6 MAD [All Group Series]; Twin - Superior 2079.2 MAD [All Group Series]; Double - Superior 2079.2 MAD [All Group Series]; Double for Single Use 1739.6 MAD [All Group Series]; Double - Superior 1979.2 MAD [All Group Series]; Twin - Superior 1979.2 MAD [All Group Series]; Single - Superior 1589.6 MAD [All Group Series]; Double - Superior 2179.2 MAD [All Group Series]; Twin - Superior 2179.2 MAD [All Group Series]; Single - Superior 1789.6 MAD [All Group Series]; Double - Superior 2141.912 MAD [All Group Series]; Twin - Superior 2141.912 MAD [All Group Series]; Single - Superior 2041.96 MAD [All Group Series]; Double - Superior 2363.91 MAD [All Group Series]; Twin - Superior 2363.91 MAD [All Group Series]; Single - Superior 1958.96 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -33567,7 +20904,7 @@ window.ISSUE_DATA = {
             "SGA XMKN"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
@@ -33577,8 +20914,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 570.0 MAD [All Group Series]; Single - Standard Room 460.0 MAD [All Group Series]; Double - Standard Room 570.0 MAD [All Group Series]; Triple - Standard Room 788.0 MAD [All Group Series]; Double for Single Use 570.0 MAD [All Group Series]; Leader Room Single - Standard 153.0 MAD [All Group Series]; Twin - Standard Room 620.0 MAD [All Group Series]; Single - Standard Room 500.0 MAD [All Group Series]; Double - Standard Room 620.0 MAD [All Group Series]; Triple - Standard Room 850.0 MAD [All Group Series]; Double for Single Use 500.0 MAD [All Group Series]; Leader Room Single - Standard 350.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 570.0 MAD [All Group Series]; Single - Standard Room 460.0 MAD [All Group Series]; Double - Standard Room 570.0 MAD [All Group Series]; Triple - Standard Room 788.0 MAD [All Group Series]; Double for Single Use 570.0 MAD [All Group Series]; Leader Room Single - Standard 153.0 MAD [All Group Series]; Twin - Standard Room 620.0 MAD [All Group Series]; Single - Standard Room 500.0 MAD [All Group Series]; Double - Standard Room 620.0 MAD [All Group Series]; Triple - Standard Room 850.0 MAD [All Group Series]; Double for Single Use 500.0 MAD [All Group Series]; Leader Room Single - Standard 350.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -33697,7 +21033,7 @@ window.ISSUE_DATA = {
             "SGA XMPX"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
@@ -33707,8 +21043,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Vehicle (Non Banded) Max 6 10200.0 MAD [All Group Series]; Per Vehicle (Non Banded) Max 14 10500.0 MAD [All Group Series]; Per Vehicle (Non Banded) Max 17 10900.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Vehicle (Non Banded) Max 6 10200.0 MAD [All Group Series]; Per Vehicle (Non Banded) Max 14 10500.0 MAD [All Group Series]; Per Vehicle (Non Banded) Max 17 10900.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -33767,7 +21102,7 @@ window.ISSUE_DATA = {
             "SGA XMPX"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
@@ -33777,8 +21112,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Double Room - Standard 900.0 MAD [All Group Series]; Twin Room - Standard 900.0 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]; Double For Single Use 800.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Double Room - Standard 900.0 MAD [All Group Series]; Twin Room - Standard 900.0 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]; Double For Single Use 800.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -33857,7 +21191,7 @@ window.ISSUE_DATA = {
             "SGA XMSS"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
@@ -33867,8 +21201,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room (FIT) 425.0 MAD [All Group Series]; Single - Standard Room (FIT) 350.0 MAD [All Group Series]; Double - Standard Room (FIT) 425.0 MAD [All Group Series]; Triple - Standard Room (FIT) 637.5 MAD [All Group Series]; Double for Single Use (FIT) 350.0 MAD [All Group Series]; Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Single - Standard Room (FIT) 365.0 MAD [All Group Series]; Double - Standard Room (FIT) 440.0 MAD [All Group Series]; Triple - Standard Room (FIT) 660.0 MAD [All Group Series]; Twin - Standard Room (FIT) 440.0 MAD [All Group Series]; Double for Single Use (FIT) 365.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room (FIT) 425.0 MAD [All Group Series]; Single - Standard Room (FIT) 350.0 MAD [All Group Series]; Double - Standard Room (FIT) 425.0 MAD [All Group Series]; Triple - Standard Room (FIT) 637.5 MAD [All Group Series]; Double for Single Use (FIT) 350.0 MAD [All Group Series]; Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Single - Standard Room (FIT) 365.0 MAD [All Group Series]; Double - Standard Room (FIT) 440.0 MAD [All Group Series]; Triple - Standard Room (FIT) 660.0 MAD [All Group Series]; Twin - Standard Room (FIT) 440.0 MAD [All Group Series]; Double for Single Use (FIT) 365.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -33967,7 +21300,7 @@ window.ISSUE_DATA = {
             "SGA XMSC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
@@ -33977,8 +21310,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 377.0 MAD [All Group Series]; Single - Standard Room 377.0 MAD [All Group Series]; Double - Standard Room 377.0 MAD [All Group Series]; Double for Single Use 377.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 377.0 MAD [All Group Series]; Single - Standard Room 377.0 MAD [All Group Series]; Double - Standard Room 377.0 MAD [All Group Series]; Double for Single Use 377.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -34062,7 +21394,7 @@ window.ISSUE_DATA = {
             "SGA XMSC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
@@ -34072,8 +21404,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Single - Standard 550.0 MAD [All Group Series]; Double - Standard 550.0 MAD [All Group Series]; Twin - Standard 550.0 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Single - Standard 550.0 MAD [All Group Series]; Double - Standard 550.0 MAD [All Group Series]; Twin - Standard 550.0 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -34152,7 +21483,7 @@ window.ISSUE_DATA = {
             "SGA XMSF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
@@ -34162,8 +21493,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Single - Standard 500.0 MAD [All Group Series]; Double - Standard 500.0 MAD [All Group Series]; Twin - Standard 500.0 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Single - Standard 500.0 MAD [All Group Series]; Double - Standard 500.0 MAD [All Group Series]; Twin - Standard 500.0 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -34243,7 +21573,7 @@ window.ISSUE_DATA = {
             "SGA XMSS"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
@@ -34253,8 +21583,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 350.0 MAD [All Group Series]; Single - Standard Room 270.0 MAD [All Group Series]; Double - Standard Room 350.0 MAD [All Group Series]; Double for Single Use 270.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Single - Standard Room 280.0 MAD [All Group Series]; Double for Single Use 280.0 MAD [All Group Series]; Double - Standard Room 349.5 MAD [All Group Series]; Twin - Standard Room 349.5 MAD [All Group Series]; Single - Standard Room 300.0 MAD [All Group Series]; Double for Single Use 300.0 MAD [All Group Series]; Double - Standard Room 369.0 MAD [All Group Series]; Twin - Standard Room 369.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Twin - Standard Room 350.0 MAD [All Group Series]; Single - Standard Room 270.0 MAD [All Group Series]; Double - Standard Room 350.0 MAD [All Group Series]; Double for Single Use 270.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Single - Standard Room 280.0 MAD [All Group Series]; Double for Single Use 280.0 MAD [All Group Series]; Double - Standard Room 349.5 MAD [All Group Series]; Twin - Standard Room 349.5 MAD [All Group Series]; Single - Standard Room 300.0 MAD [All Group Series]; Double for Single Use 300.0 MAD [All Group Series]; Double - Standard Room 369.0 MAD [All Group Series]; Twin - Standard Room 369.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -34379,7 +21708,7 @@ window.ISSUE_DATA = {
             "SGA XMSS"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
@@ -34389,8 +21718,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Double - Standard 500.0 MAD [All Group Series]; Twin - Standard 500.0 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]; Single - Standard 500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Double - Standard 500.0 MAD [All Group Series]; Twin - Standard 500.0 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]; Single - Standard 500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -41716,7 +29044,7 @@ window.ISSUE_DATA = {
             "SGA XMFP"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
@@ -41726,7 +29054,7 @@ window.ISSUE_DATA = {
             "Prod location": "Casablanca",
             "Template type": "Transport",
             "Prod record type": "Transport",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -41810,7 +29138,7 @@ window.ISSUE_DATA = {
             "SGA XMXC"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -41820,7 +29148,7 @@ window.ISSUE_DATA = {
             "Prod location": "Marrakech",
             "Template type": "Activity",
             "Prod record type": "Tolls & Charges",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -41907,7 +29235,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMZF",
             "Prod exists": "Yes",
@@ -41916,8 +29244,7 @@ window.ISSUE_DATA = {
             "Template location": "Morocco",
             "Prod location": "Boutaghrar",
             "Template type": "Activity",
-            "Prod record type": "Activity",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Activity"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -41954,7 +29281,7 @@ window.ISSUE_DATA = {
             "SGA XMPM"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1; P4; P10",
+          "also": "Also listed in P4; P10",
           "fields": {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
@@ -41964,7 +29291,7 @@ window.ISSUE_DATA = {
             "Prod location": "Casablanca",
             "Template type": "Airport Transfer",
             "Prod record type": "Transport",
-            "Also listed in": "Also listed in P1; P4; P10"
+            "Also listed in": "Also listed in P4; P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42048,7 +29375,7 @@ window.ISSUE_DATA = {
             "SGA XMSC"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
@@ -42058,7 +29385,7 @@ window.ISSUE_DATA = {
             "Prod location": "Chefchaouen",
             "Template type": "Transport",
             "Prod record type": "Transport",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42096,7 +29423,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -42105,8 +29432,7 @@ window.ISSUE_DATA = {
             "Template location": "Morocco",
             "Prod location": "Marrakech",
             "Template type": "Meal",
-            "Prod record type": "Meal",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Meal"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42190,7 +29516,7 @@ window.ISSUE_DATA = {
             "SGA XMSS"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
@@ -42200,7 +29526,7 @@ window.ISSUE_DATA = {
             "Prod location": "Casablanca",
             "Template type": "Transport",
             "Prod record type": "Transport",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42285,7 +29611,7 @@ window.ISSUE_DATA = {
             "SGA XMXC"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -42294,8 +29620,7 @@ window.ISSUE_DATA = {
             "Template location": "Morocco",
             "Prod location": "Midelt",
             "Template type": "Meal",
-            "Prod record type": "Meal",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Meal"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42332,7 +29657,7 @@ window.ISSUE_DATA = {
             "SGA XMHA"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMHA",
             "Prod exists": "Yes",
@@ -42341,8 +29666,7 @@ window.ISSUE_DATA = {
             "Template location": "Morocco",
             "Prod location": "Marrakech",
             "Template type": "Transport",
-            "Prod record type": "Transport",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Transport"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42379,7 +29703,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMXM",
             "Prod exists": "Yes",
@@ -42389,7 +29713,7 @@ window.ISSUE_DATA = {
             "Prod location": "Marrakech",
             "Template type": "Transport",
             "Prod record type": "Transport",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42433,7 +29757,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMFK",
             "Prod exists": "Yes",
@@ -42443,7 +29767,7 @@ window.ISSUE_DATA = {
             "Prod location": "Marrakech",
             "Template type": "Operational",
             "Prod record type": "Transport",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42480,7 +29804,7 @@ window.ISSUE_DATA = {
             "SGA XMXC"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -42489,8 +29813,7 @@ window.ISSUE_DATA = {
             "Template location": "Morocco",
             "Prod location": "Tetouan",
             "Template type": "Activity",
-            "Prod record type": "Activity",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Activity"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42527,7 +29850,7 @@ window.ISSUE_DATA = {
             "SGA XMFB"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -42536,8 +29859,7 @@ window.ISSUE_DATA = {
             "Template location": "Morocco",
             "Prod location": "Fes",
             "Template type": "Activity",
-            "Prod record type": "Activity",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Activity"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42574,7 +29896,7 @@ window.ISSUE_DATA = {
             "SGA XMPM"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
@@ -42583,8 +29905,7 @@ window.ISSUE_DATA = {
             "Template location": "Beni Mellal",
             "Prod location": "Beni Mellal-Khenifra",
             "Template type": "Activity",
-            "Prod record type": "Activity",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Activity"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42621,7 +29942,7 @@ window.ISSUE_DATA = {
             "SGA XMXC"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -42630,8 +29951,7 @@ window.ISSUE_DATA = {
             "Template location": "Morocco",
             "Prod location": "Kelaa M'Gouna",
             "Template type": "Activity",
-            "Prod record type": "Activity",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Activity"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42668,7 +29988,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMPE",
             "Prod exists": "Yes",
@@ -42678,7 +29998,7 @@ window.ISSUE_DATA = {
             "Prod location": "Casablanca",
             "Template type": "Activity",
             "Prod record type": "Tolls & Charges",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42715,7 +30035,7 @@ window.ISSUE_DATA = {
             "SGA XMPM"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
@@ -42725,7 +30045,7 @@ window.ISSUE_DATA = {
             "Prod location": "Casablanca",
             "Template type": "Activity",
             "Prod record type": "Tolls & Charges",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42773,7 +30093,7 @@ window.ISSUE_DATA = {
             "SGA XMRW"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMRW",
             "Prod exists": "Yes",
@@ -42782,8 +30102,7 @@ window.ISSUE_DATA = {
             "Template location": "Boutaghrar",
             "Prod location": "Boutaghrar",
             "Template type": "Activity",
-            "Prod record type": "Multi-Day Service",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Multi-Day Service"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42821,7 +30140,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -42830,8 +30149,7 @@ window.ISSUE_DATA = {
             "Template location": "Marrakech; Morocco",
             "Prod location": "Marrakech",
             "Template type": "Activity",
-            "Prod record type": "Tolls & Charges",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Tolls & Charges"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42868,7 +30186,7 @@ window.ISSUE_DATA = {
             "SGA XMXC"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P9",
+          "also": "Also listed in P9",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -42878,7 +30196,7 @@ window.ISSUE_DATA = {
             "Prod location": "Marrakech",
             "Template type": "Activity",
             "Prod record type": "Tolls & Charges",
-            "Also listed in": "Also listed in P1; P9"
+            "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42915,7 +30233,7 @@ window.ISSUE_DATA = {
             "SGA XMFK"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMFK",
             "Prod exists": "Yes",
@@ -42925,7 +30243,7 @@ window.ISSUE_DATA = {
             "Prod location": "Casablanca",
             "Template type": "Airport Transfer",
             "Prod record type": "Transport",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42962,7 +30280,7 @@ window.ISSUE_DATA = {
             "SGA XMFP"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
@@ -42972,7 +30290,7 @@ window.ISSUE_DATA = {
             "Prod location": "Casablanca",
             "Template type": "Airport Transfer",
             "Prod record type": "Transport",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -43010,7 +30328,7 @@ window.ISSUE_DATA = {
             "SGA XMKN"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
@@ -43019,8 +30337,7 @@ window.ISSUE_DATA = {
             "Template location": "Casablanca",
             "Prod location": "Casablanca",
             "Template type": "Airport Transfer",
-            "Prod record type": "Transfer",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Transfer"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -43057,7 +30374,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPE",
             "Prod exists": "Yes",
@@ -43066,8 +30383,7 @@ window.ISSUE_DATA = {
             "Template location": "Casablanca",
             "Prod location": "Casablanca",
             "Template type": "Airport Transfer",
-            "Prod record type": "Transport",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Transport"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -43104,7 +30420,7 @@ window.ISSUE_DATA = {
             "SGA XMPM"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4; P9",
+          "also": "Also listed in P4; P9",
           "fields": {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
@@ -43114,7 +30430,7 @@ window.ISSUE_DATA = {
             "Prod location": "Casablanca",
             "Template type": "Airport Transfer",
             "Prod record type": "Transport",
-            "Also listed in": "Also listed in P1; P4; P9"
+            "Also listed in": "Also listed in P4; P9"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -43151,7 +30467,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMXM",
             "Prod exists": "Yes",
@@ -43160,8 +30476,7 @@ window.ISSUE_DATA = {
             "Template location": "Morocco",
             "Prod location": "Morocco",
             "Template type": "Activity",
-            "Prod record type": "Tolls & Charges",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Tolls & Charges"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -43200,7 +30515,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -43210,7 +30525,7 @@ window.ISSUE_DATA = {
             "Prod location": "Chefchaouen",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -43249,7 +30564,7 @@ window.ISSUE_DATA = {
             "SGA XMSF"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
@@ -43259,7 +30574,7 @@ window.ISSUE_DATA = {
             "Prod location": "Armed",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -43344,7 +30659,7 @@ window.ISSUE_DATA = {
             "SGA XMFK"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMFK",
             "Prod exists": "Yes",
@@ -43354,7 +30669,7 @@ window.ISSUE_DATA = {
             "Prod location": "Casablanca",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -43391,7 +30706,7 @@ window.ISSUE_DATA = {
             "SGA XMSS"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
@@ -43401,7 +30716,7 @@ window.ISSUE_DATA = {
             "Prod location": "Dades",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -43438,7 +30753,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMXM",
             "Prod exists": "Yes",
@@ -43448,7 +30763,7 @@ window.ISSUE_DATA = {
             "Prod location": "Armed",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -43547,7 +30862,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -43557,7 +30872,7 @@ window.ISSUE_DATA = {
             "Prod location": "Fes",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -43643,7 +30958,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
@@ -43653,7 +30968,7 @@ window.ISSUE_DATA = {
             "Prod location": "Kelaa M'Gouna",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -43803,7 +31118,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
@@ -43813,7 +31128,7 @@ window.ISSUE_DATA = {
             "Prod location": "Rabat",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -43850,7 +31165,7 @@ window.ISSUE_DATA = {
             "SGA XMFB"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -43860,7 +31175,7 @@ window.ISSUE_DATA = {
             "Prod location": "Tangier",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -43897,7 +31212,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPE",
             "Prod exists": "Yes",
@@ -43906,8 +31221,7 @@ window.ISSUE_DATA = {
             "Template location": "Ouirgane",
             "Prod location": "Ouirgane",
             "Template type": "Activity",
-            "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Local Guide"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -43999,7 +31313,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPE",
             "Prod exists": "Yes",
@@ -44008,8 +31322,7 @@ window.ISSUE_DATA = {
             "Template location": "Skoura",
             "Prod location": "Skoura",
             "Template type": "Activity",
-            "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Local Guide"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44046,7 +31359,7 @@ window.ISSUE_DATA = {
             "SGA XMSF"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
@@ -44056,7 +31369,7 @@ window.ISSUE_DATA = {
             "Prod location": "Tafraoute",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44093,7 +31406,7 @@ window.ISSUE_DATA = {
             "SGA XMFB"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -44103,7 +31416,7 @@ window.ISSUE_DATA = {
             "Prod location": "Todra Gorge",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44140,7 +31453,7 @@ window.ISSUE_DATA = {
             "SGA XMFP"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
@@ -44150,7 +31463,7 @@ window.ISSUE_DATA = {
             "Prod location": "Volubilis",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44188,7 +31501,7 @@ window.ISSUE_DATA = {
             "SGA XMSF"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
@@ -44197,8 +31510,7 @@ window.ISSUE_DATA = {
             "Template location": "Imlil",
             "Prod location": "Imlil",
             "Template type": "Activity",
-            "Prod record type": "Tolls & Charges",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Tolls & Charges"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44235,7 +31547,7 @@ window.ISSUE_DATA = {
             "SGA XMSB"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
@@ -44244,8 +31556,7 @@ window.ISSUE_DATA = {
             "Template location": "Meknes",
             "Prod location": "Meknes",
             "Template type": "Activity",
-            "Prod record type": "Tolls & Charges",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Tolls & Charges"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44283,7 +31594,7 @@ window.ISSUE_DATA = {
             "SGA XMSC"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
@@ -44292,8 +31603,7 @@ window.ISSUE_DATA = {
             "Template location": "Tangier",
             "Prod location": "Tangier",
             "Template type": "Activity",
-            "Prod record type": "Tolls & Charges",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Tolls & Charges"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44330,7 +31640,7 @@ window.ISSUE_DATA = {
             "SGA XMRW"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMRW",
             "Prod exists": "Yes",
@@ -44340,7 +31650,7 @@ window.ISSUE_DATA = {
             "Prod location": "Boutaghrar",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44377,7 +31687,7 @@ window.ISSUE_DATA = {
             "SGA XMPX"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
@@ -44387,7 +31697,7 @@ window.ISSUE_DATA = {
             "Prod location": "Marrakech",
             "Template type": "Airport Transfer",
             "Prod record type": "Transport",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44425,7 +31735,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -44434,8 +31744,7 @@ window.ISSUE_DATA = {
             "Template location": "Morocco",
             "Prod location": "Morocco",
             "Template type": "Leader Service",
-            "Prod record type": "Crew Services",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Crew Services"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44473,7 +31782,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -44482,8 +31791,7 @@ window.ISSUE_DATA = {
             "Template location": "Morocco",
             "Prod location": "Morocco",
             "Template type": "Leader Service",
-            "Prod record type": "Crew Services",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Crew Services"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44521,7 +31829,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -44530,8 +31838,7 @@ window.ISSUE_DATA = {
             "Template location": "Morocco",
             "Prod location": "Morocco",
             "Template type": "Leader Service",
-            "Prod record type": "Crew Services",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Crew Services"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44714,7 +32021,7 @@ window.ISSUE_DATA = {
             "SGA XMHA"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMHA",
             "Prod exists": "Yes",
@@ -44723,8 +32030,7 @@ window.ISSUE_DATA = {
             "Template location": "Morocco",
             "Prod location": "Morocco",
             "Template type": "Leader Service",
-            "Prod record type": "Crew Services",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Crew Services"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44777,7 +32083,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -44786,8 +32092,7 @@ window.ISSUE_DATA = {
             "Template location": "Morocco",
             "Prod location": "Morocco",
             "Template type": "Leader Service",
-            "Prod record type": "Crew Services",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Crew Services"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44831,7 +32136,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P9",
+          "also": "Also listed in P9",
           "fields": {
             "TM package": "SGA XMFK",
             "Prod exists": "Yes",
@@ -44841,7 +32146,7 @@ window.ISSUE_DATA = {
             "Prod location": "Marrakech",
             "Template type": "Operational",
             "Prod record type": "Transport",
-            "Also listed in": "Also listed in P1; P9"
+            "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44879,7 +32184,7 @@ window.ISSUE_DATA = {
             "SGA XMXM"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
@@ -44889,7 +32194,7 @@ window.ISSUE_DATA = {
             "Prod location": "Todra Gorge",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44926,7 +32231,7 @@ window.ISSUE_DATA = {
             "SGA XMPX"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
@@ -44935,8 +32240,7 @@ window.ISSUE_DATA = {
             "Template location": "Oukaimden",
             "Prod location": "Oukaimden",
             "Template type": "Activity",
-            "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Local Guide"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -44979,7 +32283,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -44988,8 +32292,7 @@ window.ISSUE_DATA = {
             "Template location": "Morocco",
             "Prod location": "Morocco",
             "Template type": "Activity",
-            "Prod record type": "Gifts & Miscellaneous Items",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Gifts & Miscellaneous Items"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -45026,7 +32329,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P9",
+          "also": "Also listed in P9",
           "fields": {
             "TM package": "SGA XMPE",
             "Prod exists": "Yes",
@@ -45036,7 +32339,7 @@ window.ISSUE_DATA = {
             "Prod location": "Casablanca",
             "Template type": "Activity",
             "Prod record type": "Tolls & Charges",
-            "Also listed in": "Also listed in P1; P9"
+            "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -45073,7 +32376,7 @@ window.ISSUE_DATA = {
             "SGA XMPM"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P9",
+          "also": "Also listed in P9",
           "fields": {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
@@ -45083,7 +32386,7 @@ window.ISSUE_DATA = {
             "Prod location": "Casablanca",
             "Template type": "Activity",
             "Prod record type": "Tolls & Charges",
-            "Also listed in": "Also listed in P1; P9"
+            "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -68046,5 +55349,5 @@ window.ISSUE_DATA = {
       ]
     }
   ],
-  "total": 1185
+  "total": 956
 };

@@ -338,7 +338,7 @@
 
   function tabHelp(sheet) {
     const texts = {
-      P1: "On a TM package or SGA itinerary, not on the Service Template. Yes = add it using the selected Prod name. No = brand new — fill the Service Template fields; a new service will be created.",
+      P1: "On a TM package, not on the Service Template. SGA itinerary services are not listed here — they already exist on Prod and will be carried onto a package. Yes = add it using the selected Prod name. No = brand new — fill the Service Template fields.",
       P2: "On package and ST, no exact Prod Item, but a close name exists. Yes = rename ST to the selected Prod name. No = treat as brand new; create from ST.",
       P4: "On a package and on Prod, but pricing is missing, inactive, or missing 2027. Yes = insert the ST price (or fill prices if ST has none). No = keep the Prod price.",
       P5: "ST supplier does not match Prod. Pick the Prod account, keep ST, or No if a different / new account is needed.",

@@ -24,6 +24,8 @@ The yellow banner at the top is the reminder: **Save online** or other people wi
 
 **P3 Brand new no Prod** was removed. If the name is not on Prod (no exact Item, no usable fuzzy match), ST is the source of truth and the service is created from ST later — no team decision.
 
+**P6 PC name mismatch:** Yes = map package PCs to the existing ST/Prod names. No = do not apply the map; **new price categories will be created** from the package names.
+
 Service create forms (P1 No, P4 no-price Yes) let you add **multiple price categories**. There is no Skip for now on any tab.
 
 Worker source: `C:\VsCode\TailorMade\data\tm-packages-v1\rectify-store`. Cloudflare account claimed 9 Nov 2026. Live: https://tm-sga-prod-rectify-store.graceful-kryptops.workers.dev

@@ -259,7 +259,7 @@
     if (kind === "pc-map") {
       return [
         { value: "yes", label: "Yes — accept the suggested PC map", extra: "" },
-        { value: "no", label: "No — do not apply this map", extra: "" },
+        { value: "no", label: "No — do not apply this map (new price categories will be created)", extra: "" },
       ];
     }
     if (kind === "supplier") {
@@ -392,6 +392,8 @@
               : issue.saTemplateName;
     } else if (value === "yes" && sheet.choice === "pc-map") {
       d.selected = (issue.pcMap || []).map((x) => (x.from ? x.from + " → " : "") + x.value).join("; ");
+    } else if (value === "no" && sheet.choice === "pc-map") {
+      d.selected = "New price categories will be created";
     } else if (sheet.choice === "price-st") {
       d.selected = value === "yes" ? "Insert ST price" : "Keep Prod price";
     } else if (value === "no") {
@@ -715,7 +717,9 @@
             ? "Template name does not match Prod. No opens the agreement fields for a different / new agreement."
             : sheet.id === "SA5"
               ? "ST supplier does not match Prod. No opens Supplier Name and the other supplier fields from the Service Template, plus the TM package."
-              : sheet.help;
+              : sheet.id === "P6"
+                ? "Package PC names do not match ST/Prod. Yes = map to the existing ST/Prod names. No = do not apply the map; new price categories will be created from the package names."
+                : sheet.help;
       pairs = sheet.issues
         .filter((issue) => {
           const decided = isDecided(dec(issue.id));
@@ -1097,6 +1101,14 @@
     </div>`;
   }
 
+  function pcMapNoteHtml(sheet, d) {
+    if (sheet.choice !== "pc-map" || (d && d.choice) !== "no") return "";
+    return `<div class="create-form">
+      <h4>New price categories will be created</h4>
+      <p class="meta">The package PC names will be added as new price categories instead of mapping them to the ST/Prod names above.</p>
+    </div>`;
+  }
+
   function formHtml(sheet, issue, d) {
     const kind = formKind(sheet, issue, d);
     if (!kind) return "";
@@ -1187,6 +1199,7 @@
       ${priceCompareHtml(issue)}
       <dl class="fields">${fieldRows}</dl>
       <div class="choices">${choice}</div>
+      ${pcMapNoteHtml(sheet, d)}
       ${formHtml(sheet, issue, d)}
       <textarea data-notes data-id="${issue.id}" placeholder="Decision notes">${esc(d.notes || "")}</textarea>
       ${reopenBtn}

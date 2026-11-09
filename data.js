@@ -1,6 +1,6 @@
 window.ISSUE_DATA = {
-  "generated": "4 Nov 2026",
-  "source": "SGA vs Prod from Templates_04112026.xlsx",
+  "generated": "9 Nov 2026",
+  "source": "SGA vs Prod from Templates_09112026.xlsx (catalog same as 4 Nov)",
   "org": "IntrepidProd (read-only extract)",
   "sheets": [
     {

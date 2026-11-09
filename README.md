@@ -42,7 +42,7 @@ Worker source: `C:\VsCode\TailorMade\data\tm-packages-v1\rectify-store`. Cloudfl
 
 ## Data
 
-`data.js` is generated from the current SGA vs Prod Excel problem sheets. Re-run `export_rectify_data.py` in `C:\VsCode\TailorMade\data\tm-packages-v1` when the workbooks change, then replace `data.js` here.
+`data.js` is generated from the current SGA vs Prod Excel problem sheets. Extract date **9 Nov 2026** (`Templates_09112026.xlsx`); catalog matches 4 Nov. Re-run `export_rectify_data.py` in `C:\VsCode\TailorMade\data\tm-packages-v1` when the workbooks change, then replace `data.js` here.
 
 ## Who are you / History
 

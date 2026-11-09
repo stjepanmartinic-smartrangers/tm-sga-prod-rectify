@@ -1,6 +1,6 @@
 # TailorMade — SGA vs Prod rectify
 
-Hosted app for deciding problem-sheet issues (P1–P2, P4–P6, P8–P11, SA1, SA3, SA5).
+Hosted app for deciding problem-sheet issues (P1–P2, P4–P6, P8–P11, SA1, SA3, SA5). Cards list **TM packages** and **SGA itineraries** (chips labelled `SGA …`).
 
 ## Live site
 
@@ -17,6 +17,8 @@ GitHub Pages stays up for as long as this repository exists (months is fine). It
 | GitHub `decisions.json` | Last published snapshot. Reload falls back here if the live store is down. |
 
 The yellow banner at the top is the reminder: **Save online** or other people will not see your work. Local browser save is not enough. Clicking Save online does not ask for a token.
+
+The header shows **% decided in total** (all P/SA cards). It updates as Yes/No are chosen.
 
 **Reload saved work** warns and then overwrites this browser with the shared online copy. If the live store does not respond, Reload uses the last published GitHub snapshot instead.
 

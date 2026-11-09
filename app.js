@@ -333,7 +333,7 @@
 
   function tabHelp(sheet) {
     const texts = {
-      P1: "On a TM package, not on the Service Template. Yes = add it using the selected Prod name. No = brand new — fill the Service Template fields; a new service will be created.",
+      P1: "On a TM package or SGA itinerary, not on the Service Template. Yes = add it using the selected Prod name. No = brand new — fill the Service Template fields; a new service will be created.",
       P2: "On package and ST, no exact Prod Item, but a close name exists. Yes = rename ST to the selected Prod name. No = treat as brand new; create from ST.",
       P4: "On a package and on Prod, but pricing is missing, inactive, or missing 2027. Yes = insert the ST price (or fill prices if ST has none). No = keep the Prod price.",
       P5: "ST supplier does not match Prod. Pick the Prod account, keep ST, or No if a different / new account is needed.",
@@ -448,6 +448,10 @@
 
   function renderStats() {
     const c = counts();
+    const pct = c.total ? Math.round((100 * c.decided) / c.total) : 0;
+    $("progress").innerHTML = `
+      <div class="progress-label"><b>${pct}%</b> decided in total <span>(${c.decided} of ${c.total})</span></div>
+      <div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div>`;
     $("stats").innerHTML = `
       <div class="stat"><b>${c.total}</b><span>Unique issues</span></div>
       <div class="stat clickable ${sheetId !== "__decided__" && $("statusFilter").value === "open" ? "on" : ""}" id="statOpen"><b>${c.open}</b><span>Open — click to work these</span></div>
@@ -1355,7 +1359,12 @@
     const d = dec(issue.id);
     const opts = optionsFor(sheet, issue);
     const cls = d.status || "open";
-    const pkgs = (issue.packages || []).map((p) => `<span class="pkg">${esc(p)}</span>`).join("");
+    const pkgs = (issue.packages || [])
+      .map((p) => {
+        const sga = /^SGA\s/i.test(p);
+        return `<span class="pkg${sga ? " sga" : ""}">${esc(p)}</span>`;
+      })
+      .join("");
     const hideFields = new Set([
       "TM package",
       "TM packages",

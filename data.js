@@ -43,6 +43,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "4WD Excursion",
@@ -90,6 +92,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Afternoon Hammam & Massage - Mythic Oriental Spa",
@@ -142,6 +146,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Afternoon Hammam Experience - Mythic Oriental Spa",
@@ -189,6 +195,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Amazigh Brunch in the Valley",
@@ -237,6 +245,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Ancient Library Tamegroute",
             "location": "Tamegroute",
@@ -284,6 +294,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Atlas Film Studio visit",
             "location": "Ouarzazate",
@@ -335,6 +347,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Atlas Studios Visit",
@@ -403,6 +417,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Azawad Luxury Desert Camp - HB",
@@ -461,6 +477,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Azawad Luxury Desert Camp HB",
@@ -535,6 +553,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Azawad Luxury Desert Camp-HB",
@@ -583,6 +603,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Bahia palace entrance",
@@ -640,6 +662,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Bread cooking  Demonstration",
@@ -697,6 +721,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Bread-Making Demonstration",
@@ -745,6 +771,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Camel Ride",
             "location": "Erg Chegaga; Erg Chigaga",
@@ -801,6 +829,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Camel Ride - Sunrise",
@@ -854,6 +884,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Camel Ride - Sunset",
             "location": "Agafay; Merzouga",
@@ -900,6 +932,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Camp Alladin -HB",
@@ -958,6 +992,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Camp Caravane -HB",
@@ -1016,6 +1052,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Camp Caravane HB",
@@ -1075,6 +1113,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Camp Caravane-HB",
@@ -1138,6 +1178,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Camp la Caravane - HB",
@@ -1211,6 +1253,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Camp le sand-HB",
@@ -1261,6 +1305,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Cap spartel",
             "location": "Tangier",
@@ -1308,6 +1354,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Cheese Tasting",
             "location": "Chefcharouen",
@@ -1355,6 +1403,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Cooking Class and Lunch at Tawsna Association",
             "location": "Ait Benhaddou",
@@ -1417,6 +1467,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Daily Crew Bonus Accrual",
@@ -1465,6 +1517,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Day Trip to Khamlia 4x4 Excursion",
             "location": "Merzouga Desert Camp",
@@ -1512,6 +1566,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Domaine de la Roseraie Resort and Spa HB",
@@ -1559,6 +1615,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Ecolodge Dar Itrane -HB",
@@ -1612,6 +1670,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Essaouira Cooking Class- Madada",
@@ -1669,6 +1729,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Farewell Dinner Marrakech - El Fassia Restaurant",
@@ -1717,6 +1779,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Free Time",
@@ -1774,6 +1838,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Guided Hike - Ait Bouguemez (Happy Valley)",
@@ -1824,6 +1890,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hassan II Mosque Visit",
             "location": "Casablanca",
@@ -1876,6 +1944,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Hassan Tower",
@@ -1933,6 +2003,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Home cooked Lunch",
@@ -1991,6 +2063,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Home-Cooked Lunch",
@@ -2039,6 +2113,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Hotel Hilton",
@@ -2096,6 +2172,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Hotel Karam palace-HB",
@@ -2140,6 +2218,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel le Caspien",
             "location": "",
@@ -2212,6 +2292,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Hotel Oscar-HB",
@@ -2290,6 +2372,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Hotel Riad BaHammou Dades-HB",
@@ -2338,6 +2422,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Hotel Toumbouctou-HB",
@@ -2385,6 +2471,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Hotel Transatlantique",
@@ -2453,6 +2541,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Hotel Xaluca Dades-HB",
@@ -2516,6 +2606,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Hotel Xaluxa Dades HB",
@@ -2590,6 +2682,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Hotel Yassmina-HB",
@@ -2638,6 +2732,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Kasbah Africa HB",
@@ -2701,6 +2797,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Kasbah Ait Ben Damiette-HB",
@@ -2752,6 +2850,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Ait Benhaddou Visit",
             "location": "Ait Benhaddou",
@@ -2800,6 +2900,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Amridil Visit",
             "location": "Skoura",
@@ -2848,6 +2950,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Chefchaouen",
             "location": "Chefcharouen",
@@ -2895,6 +2999,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Kasbah des Oudaias",
@@ -2964,6 +3070,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah du Toubkal - HB",
             "location": "Imlil",
@@ -3036,6 +3144,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Kasbah Itrane-HB",
@@ -3099,6 +3209,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Kasbah la famille berbere-HB",
@@ -3178,6 +3290,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Ksar Timnay Riad Mimouna-HB",
@@ -3225,6 +3339,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "L'ma lodge-HB",
@@ -3272,6 +3388,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Le Palais des Cerisiers-HB",
@@ -3341,6 +3459,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Leader Communication Allowance",
@@ -3388,6 +3508,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Local Embroidery Workshop Visit",
@@ -3443,6 +3565,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Ait Benhaddou",
             "location": "Ait Benhaddou",
@@ -3503,6 +3627,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Local Guide Casablanca",
@@ -3567,6 +3693,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Local Guide Chefchaouen",
@@ -3631,6 +3759,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Local guide Essaouira",
@@ -3696,6 +3826,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Local Guide Fes Half Day",
@@ -3760,6 +3892,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Local guide half day Casablanca",
@@ -3815,6 +3949,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Essaouira",
             "location": "Essaouira",
@@ -3868,6 +4004,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Imlil",
             "location": "Imlil",
@@ -3923,6 +4061,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Marrakech",
             "location": "Marrakech",
@@ -3986,6 +4126,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Local guide half day Ouirgane",
@@ -4058,6 +4200,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Local guide Marrakech",
@@ -4122,6 +4266,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Local Guide Rabat",
@@ -4185,6 +4331,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Local Guide Tanger",
@@ -4244,6 +4392,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Local guide Tangier",
@@ -4301,6 +4451,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Lunch at Tawesna",
@@ -4358,6 +4510,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Lunch En Route",
@@ -4407,6 +4561,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Lunch With a Local Family in Todra",
             "location": "Todra Gorge",
@@ -4453,6 +4609,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Maison d'Hôtes Kasbah Azul-HB",
@@ -4500,6 +4658,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Marrakech food tasting budget",
@@ -4551,6 +4711,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Marrakech Simply Tasting Trail",
             "location": "Marrakech",
@@ -4599,6 +4761,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Mausoleum Hassan II",
             "location": "Rabat",
@@ -4647,6 +4811,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Mausoleum Mohammed V",
             "location": "Rabat",
@@ -4694,6 +4860,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Mint Tea with sweets",
@@ -4742,6 +4910,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Palais Bahia Visit Marrakech",
             "location": "Marrakech",
@@ -4819,6 +4989,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Palmeras y Dunas HB",
@@ -4882,6 +5054,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Palmeras Y Dunas Luxury Camp  HB",
@@ -4946,6 +5120,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Palmeras Y Dunas Luxury Camp - HB",
             "location": "Merzouga",
@@ -5025,6 +5201,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Palmeras y Dunas-HB",
@@ -5073,6 +5251,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Pastries tasting",
@@ -5137,6 +5317,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Private Vehicle & Driver",
@@ -5210,6 +5392,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Riad Chakir",
@@ -5258,6 +5442,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Riad Chebbi-HB",
@@ -5331,6 +5517,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Riad Jnane Imlil - HB",
@@ -5410,6 +5598,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Riad Ksar Ighnda-HB",
@@ -5459,6 +5649,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Seafood Market Lunch",
             "location": "Essaouira",
@@ -5531,6 +5723,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Skoura Lodge- HB",
@@ -5578,6 +5772,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Sunset drink at Taman’Art Space Studio",
@@ -5630,6 +5826,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Taourirt Kasbah Visit",
@@ -5682,6 +5880,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Todra Gorge Visit",
@@ -5734,6 +5934,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Train Ticket  1st class",
@@ -5786,6 +5988,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Train ticket- 1st class",
@@ -5850,6 +6054,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transfer - Hotel to Train Station",
@@ -5908,6 +6114,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transfer - Train Station to Hotel",
@@ -5961,6 +6169,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transfer to Tasting Trail",
@@ -6009,6 +6219,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transfer to The Guided Tour Casablanca",
@@ -6056,6 +6268,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transport Between Trip- Marrakech Fes",
@@ -6103,6 +6317,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transport Between Trip- Tangier Marrakech",
@@ -6160,6 +6376,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transport Between Trips  -Marrakech Tangier",
@@ -6217,6 +6435,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transport Between Trips -  Fes Marrakech",
@@ -6274,6 +6494,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transport Between Trips - Casablanca Marrakech",
@@ -6331,6 +6553,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transport between Trips - Fes Marrakech",
@@ -6391,6 +6615,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transport between trips - Marrakech Fes",
@@ -6448,6 +6674,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transport between Trips - Marrakech Tangier",
@@ -6505,6 +6733,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transport Between Trips- Casablanca Marrakech",
@@ -6563,6 +6793,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transport Between Trips- Marrakech Casablanca",
@@ -6620,6 +6852,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transport between trips- Tangier Marrakech",
@@ -6667,6 +6901,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Underground Kasbah Guided Tour",
@@ -6719,6 +6955,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Wine Tasting & Lunch at Château Roslane",
@@ -6771,6 +7009,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Wine Tasting & Lunch at Val d'Argan",
@@ -6819,6 +7059,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Xaluxa aguelmame sidi Ali-HB",
@@ -6866,6 +7108,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Zephyr Hotel- HB",
@@ -6959,6 +7203,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Belere",
             "location": "Rabat",
@@ -7020,6 +7266,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Caspien",
             "location": "Marrakech",
@@ -7082,6 +7330,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Riad BaHammou Dades HB",
             "location": "Dades; Dades Gorge",
@@ -7142,6 +7392,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Hnini HB",
             "location": "Zagora",
@@ -7198,6 +7450,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Medersa Attarine Fes",
             "location": "Fes",
@@ -7259,6 +7513,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Mia Camp HB",
             "location": "Agafay",
@@ -7328,6 +7584,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Morocco FIT - Tour Leader Daily Services - Standard",
             "location": "Morocco",
@@ -7382,6 +7640,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Moulay Driss Couscous Lunch",
             "location": "Moulay Driss; Moulday Idriss",
@@ -7450,6 +7710,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad 48",
             "location": "Marrakech",
@@ -7504,6 +7766,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "4WD Excursion",
@@ -7548,6 +7812,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Afternoon Hammam & Massage - Mythic Oriental Spa",
@@ -7584,6 +7850,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Amadil",
@@ -7625,6 +7893,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Amadil Ocean Club BB",
             "location": "Agadir",
@@ -7668,6 +7938,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Amazigh Brunch in the Valley",
@@ -7704,6 +7976,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Auberge & Camp Yasmina",
@@ -7752,6 +8026,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Azrou Cedar Forest & Barbary Macaques Visit",
             "location": "Azrou; Ifrane",
@@ -7795,6 +8071,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Bahia palace entrance",
@@ -7843,6 +8121,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Bhalil Cave House Visit with Tea Break",
             "location": "Bhalil; Sefrou",
@@ -7878,6 +8158,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Camp Aladdin",
@@ -7922,6 +8204,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Camp Alladin -HB",
@@ -7964,6 +8248,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Domaine de La Roseraie",
             "location": "Ouirgane",
@@ -8007,6 +8293,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Domaine de la Roseraie Resort and Spa HB",
@@ -8051,6 +8339,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Ecolodge Dar Itrane -HB",
@@ -8093,6 +8383,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Emeraude Camp BB",
             "location": "Agafay",
@@ -8134,6 +8426,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Emeraude Camp HB",
             "location": "Agafay",
@@ -8177,6 +8471,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Free Time",
@@ -8221,6 +8517,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Hotel Hilton",
@@ -8257,6 +8555,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Hotel Lac Aguelmam",
@@ -8305,6 +8605,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Tarek",
             "location": "Chefchaouen; Chefcharouen",
@@ -8348,6 +8650,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Hotel Toumbouctou-HB",
@@ -8392,6 +8696,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Hotel Transatlantique",
@@ -8434,6 +8740,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Africa",
             "location": "Ouirgane",
@@ -8477,6 +8785,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Kasbah Africa HB",
@@ -8521,6 +8831,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Kasbah des Oudaias",
@@ -8565,6 +8877,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "L'ma lodge-HB",
@@ -8601,6 +8915,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Le Palais des Cerisiers",
@@ -8643,6 +8959,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Le Palais des Cerisiers - BB",
             "location": "Azrou",
@@ -8684,6 +9002,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Le Palais des Cerisiers - HB",
             "location": "Azrou",
@@ -8727,6 +9047,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Le Palais des Cerisiers-HB",
@@ -8771,6 +9093,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Local Embroidery Workshop Visit",
@@ -8812,6 +9136,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Lodge Hara Oasis BB",
             "location": "Agdez",
@@ -8858,6 +9184,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Lodge Hara Oasis HB",
             "location": "Agdez; Agdz",
@@ -8901,6 +9229,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Maison d'Hôtes Kasbah Azul-HB",
@@ -8948,6 +9278,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Marina Bay City Center",
             "location": "Tangier",
@@ -8991,6 +9323,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Marrakech food tasting budget",
@@ -9027,6 +9361,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Mia Hotels",
@@ -9071,6 +9407,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Mint Tea with sweets",
@@ -9115,6 +9453,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Pastries tasting",
@@ -9159,6 +9499,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Private Vehicle & Driver",
@@ -9201,6 +9543,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Private Vehicle & Driver - Over 5 Days",
             "location": "Morocco",
@@ -9236,6 +9580,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Riad & Camp Chebbi",
@@ -9280,6 +9626,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Riad Chebbi-HB",
@@ -9322,6 +9670,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Joddour",
             "location": "Marrakech",
@@ -9365,6 +9715,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Sunset drink at Taman’Art Space Studio",
@@ -9406,6 +9758,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "The White Camel",
             "location": "Agafay",
@@ -9449,6 +9803,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transfer to The Guided Tour Casablanca",
@@ -9493,6 +9849,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transport Between Trip- Marrakech Fes",
@@ -9537,6 +9895,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Transport Between Trip- Tangier Marrakech",
@@ -9581,6 +9941,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Underground Kasbah Guided Tour",
@@ -9623,6 +9985,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Xaluca Lac Aguelmame HB",
             "location": "Aguelmam",
@@ -9666,6 +10030,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Xaluxa aguelmame sidi Ali-HB",
@@ -9710,6 +10076,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Zephyr Hotel- HB",
@@ -9751,6 +10119,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Zephyr Mazagan",
             "location": "El Jadida",
@@ -9773,8 +10143,8 @@ window.ISSUE_DATA = {
       "title": "Missing Prod pricing",
       "sheet": "P4 Missing Prod pricing",
       "workbook": "pricing",
-      "help": "On a package and on Prod, but pricing is missing, inactive, or missing 2027.",
-      "choice": "done",
+      "help": "On a package and on Prod, but pricing is missing, inactive, or missing 2027. Compare ST vs Prod below. Yes = insert the ST price. No = keep the Prod price.",
+      "choice": "price-st",
       "count": 32,
       "issues": [
         {
@@ -9794,6 +10164,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
+            "Prod PCs priced": "Per Person 100.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]; Sawadee - 2nd Leader 100.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P1; P9"
           },
           "fuzzyService": [],
@@ -9807,6 +10178,24 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Person 100.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Crew 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Sawadee - 2nd Leader 100.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Atlas Film Studio visit",
             "location": "",
@@ -9840,6 +10229,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "ST prices": "Single - Tent 980 MAD [FIT/Group Series] 2026 All Year; Double - Tent 1420 MAD [FIT/Group Series] 2026 All Year; Twin - Tent 1420 MAD [FIT/Group Series] 2026 All Year; Triple- Tent 1860 MAD [FIT/Group Series] 2026 All Year; Quadruple- Tent 2300 MAD [FIT/Group Series] 2026 All Year; Leader Single - Tent 980 MAD [FIT/Group Series] 2026 All Year",
+            "ST price dates": "1/1/2026  -  31/12/2026",
+            "Prod PCs priced": "Single - Tent 980.0 MAD [All Group Series]; Double - Tent 1420.0 MAD [All Group Series]; Twin - Tent 1420.0 MAD [All Group Series]; Triple- Tent 1860.0 MAD [All Group Series]; Quadruple- Tent 2300.0 MAD [All Group Series]; Leader Single - Tent 980.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6; P8"
           },
           "fuzzyService": [],
@@ -9853,6 +10245,39 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Double - Tent",
+              "st": "1420 MAD [FIT/Group Series] 2026 All Year",
+              "prod": "1420.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Leader Single - Tent",
+              "st": "980 MAD [FIT/Group Series] 2026 All Year",
+              "prod": "980.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Quadruple- Tent",
+              "st": "2300 MAD [FIT/Group Series] 2026 All Year",
+              "prod": "2300.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Single - Tent",
+              "st": "980 MAD [FIT/Group Series] 2026 All Year",
+              "prod": "980.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Triple- Tent",
+              "st": "1860 MAD [FIT/Group Series] 2026 All Year",
+              "prod": "1860.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Twin - Tent",
+              "st": "1420 MAD [FIT/Group Series] 2026 All Year",
+              "prod": "1420.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/1/2026  -  31/12/2026",
           "formDefaults": {
             "name": "Azawad Luxury Desert Camp",
             "location": "",
@@ -9887,6 +10312,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
+            "Prod PCs priced": "Per Person 50.0 MAD [All Group Series]; Per Crew 50.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P1"
           },
           "fuzzyService": [],
@@ -9900,6 +10326,19 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Person 50.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Crew 50.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Cap spartel",
             "location": "",
@@ -9931,6 +10370,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
+            "Prod PCs priced": "Per Person 120.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]; Per Person 150.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P1"
           },
           "fuzzyService": [],
@@ -9944,6 +10384,19 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Per Person",
+              "st": "—",
+              "prod": "120.0 MAD [All Group Series]; 150.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Crew 0.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Cooking Class and Lunch at Tawsna Association",
             "location": "",
@@ -9977,6 +10430,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "FIT",
             "Gap": "FIT only",
+            "ST prices": "Standard - Double Room 1280 MAD [FIT] 2026 All Year; Standard - Twin Room 1280 MAD [FIT] 2026 All Year; Double for Single Use 980 MAD [FIT] 2026 All Year; Standard - Single Room 980 MAD [FIT] 2026 All Year; Leader Single Room 0 MAD [FIT] 2026 All Year",
+            "ST price dates": "1/1/2026  -  31/12/2026",
+            "Prod PCs priced": "Standard - Double Room 1280.0 MAD [FIT]; Standard - Twin Room 1280.0 MAD [FIT]; Standard - Single Room 980.0 MAD [FIT]; Double for Single Use 980.0 MAD [FIT]; Leader Single Room 0.0 MAD [FIT]",
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
@@ -9990,6 +10446,34 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Double for Single Use",
+              "st": "980 MAD [FIT] 2026 All Year",
+              "prod": "980.0 MAD [FIT]"
+            },
+            {
+              "pc": "Leader Single Room",
+              "st": "0 MAD [FIT] 2026 All Year",
+              "prod": "0.0 MAD [FIT]"
+            },
+            {
+              "pc": "Standard - Double Room",
+              "st": "1280 MAD [FIT] 2026 All Year",
+              "prod": "1280.0 MAD [FIT]"
+            },
+            {
+              "pc": "Standard - Single Room",
+              "st": "980 MAD [FIT] 2026 All Year",
+              "prod": "980.0 MAD [FIT]"
+            },
+            {
+              "pc": "Standard - Twin Room",
+              "st": "1280 MAD [FIT] 2026 All Year",
+              "prod": "1280.0 MAD [FIT]"
+            }
+          ],
+          "stPriceDates": "1/1/2026  -  31/12/2026",
           "formDefaults": {
             "name": "Dar cherifa",
             "location": "",
@@ -10022,6 +10506,7 @@ window.ISSUE_DATA = {
             "Active price": "No",
             "Price kind": "No pricing",
             "Gap": "On Prod, no pricing",
+            "Prod PCs priced": "—",
             "Also listed in": "Also listed in P1; P9"
           },
           "fuzzyService": [],
@@ -10035,6 +10520,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Day Trip to Khamlia 4x4 Excursion",
             "location": "",
@@ -10072,6 +10559,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "ST prices": "Standard - Double Room 330 MAD [FIT/Group Series] 2025-2026 All Year; Twin - Twin Room 330 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Single Room 300 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Leader Single Room 0 MAD [FIT/Group Series] 2025-2026 All Year; Double for Single Use 300 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Triple Room 495 MAD [FIT/Group Series] 2025-2026 All Year; Crew Twin Room 0 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Double Room 380 MAD [FIT/Group Series] 2027 All Year; Twin - Twin Room 380 MAD [FIT/Group Series] 2027 All Year; Standard - Single Room 300 MAD [FIT/Group Series] 2027 All Year; Standard - Leader Single Room 0 MAD [FIT/Group Series] 2027 All Year; Double for Single Use 300 MAD [FIT/Group Series] 2027 All Year; Standard - Triple Room 530 MAD [FIT/Group Series] 2027 All Year; Crew Twin Room 0 MAD [FIT/Group Series] 2027 All Year",
+            "ST price dates": "1/1/2027  -  31/12/2027; 1/5/2025  -  31/12/2026",
+            "Prod PCs priced": "Standard - Twin Room 330.0 MAD [All Group Series]; Standard - Double Room 330.0 MAD [All Group Series]; Double for Single Use 300.0 MAD [All Group Series]; Standard - Single Room 300.0 MAD [All Group Series]; Standard - Triple Room 495.0 MAD [All Group Series]; Leader Single Room 0.0 MAD [All Group Series]; Crew Twin Room 0.0 MAD [All Group Series]; Standard - Twin Room 380.0 MAD [All Group Series]; Standard - Double Room 380.0 MAD [All Group Series]; Standard - Triple Room 580.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6; P8"
           },
           "fuzzyService": [],
@@ -10096,6 +10586,59 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Crew Twin Room",
+              "st": "0 MAD [FIT/Group Series] 2025-2026 All Year; 0 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Double for Single Use",
+              "st": "300 MAD [FIT/Group Series] 2025-2026 All Year; 300 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "300.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Standard - Double Room",
+              "st": "330 MAD [FIT/Group Series] 2025-2026 All Year; 380 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "330.0 MAD [All Group Series]; 380.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Standard - Leader Single Room",
+              "st": "0 MAD [FIT/Group Series] 2025-2026 All Year; 0 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Standard - Single Room",
+              "st": "300 MAD [FIT/Group Series] 2025-2026 All Year; 300 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "300.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Standard - Triple Room",
+              "st": "495 MAD [FIT/Group Series] 2025-2026 All Year; 530 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "495.0 MAD [All Group Series]; 580.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Twin - Twin Room",
+              "st": "330 MAD [FIT/Group Series] 2025-2026 All Year; 380 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Leader Single Room",
+              "st": "—",
+              "prod": "0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Standard - Twin Room 330.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Standard - Twin Room 380.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/1/2027  -  31/12/2027; 1/5/2025  -  31/12/2026",
           "formDefaults": {
             "name": "Etoile Filante D'or HB",
             "location": "",
@@ -10130,6 +10673,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "ST prices": "Double - Standard Room 950 MAD [FIT/Group series] 2026-2027 All Year; Twin - Standard Room 950 MAD [FIT/Group series] 2026-2027 All Year; Single - Standard Room 850 MAD [FIT/Group series] 2026-2027 All Year; Leader Room Single - Standard 850 MAD [FIT/Group series] 2026-2027 All Year; Suite - Double 1400 MAD [FIT/Group series] 2026-2027 All Year; Suite - Twin 1400 MAD [FIT/Group series] 2026-2027 All Year; Suite - Single 1400 MAD [FIT/Group series] 2026-2027 All Year; City Tax 13.2 MAD [FIT/Group series] 2026-2027 All Year",
+            "ST price dates": "1/1/2026 - 31/12/2027",
+            "Prod PCs priced": "Double - Standard Room 950.0 MAD [All Group Series]; Twin - Standard Room 950.0 MAD [All Group Series]; Single - Standard Room 850.0 MAD [All Group Series]; Suite - Double 1400.0 MAD [All Group Series]; Suite - Twin 1400.0 MAD [All Group Series]; Suite - Single 1400.0 MAD [All Group Series]; Leader Room Single - Standard 850.0 MAD [All Group Series]; (no PC) 13.2 MAD [All Group Series]",
             "Also listed in": "Also listed in P5; P6; P8"
           },
           "fuzzyService": [],
@@ -10143,6 +10689,54 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "City Tax",
+              "st": "13.2 MAD [FIT/Group series] 2026-2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Double - Standard Room",
+              "st": "950 MAD [FIT/Group series] 2026-2027 All Year",
+              "prod": "950.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Leader Room Single - Standard",
+              "st": "850 MAD [FIT/Group series] 2026-2027 All Year",
+              "prod": "850.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Single - Standard Room",
+              "st": "850 MAD [FIT/Group series] 2026-2027 All Year",
+              "prod": "850.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Suite - Double",
+              "st": "1400 MAD [FIT/Group series] 2026-2027 All Year",
+              "prod": "1400.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Suite - Single",
+              "st": "1400 MAD [FIT/Group series] 2026-2027 All Year",
+              "prod": "1400.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Suite - Twin",
+              "st": "1400 MAD [FIT/Group series] 2026-2027 All Year",
+              "prod": "1400.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Twin - Standard Room",
+              "st": "950 MAD [FIT/Group series] 2026-2027 All Year",
+              "prod": "950.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 13.2 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/1/2026 - 31/12/2027",
           "formDefaults": {
             "name": "Executive Boutique Hotel Rabat",
             "location": "",
@@ -10179,6 +10773,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "ST prices": "Double - Standard Room 572 MAD [FIT/Group series] 2026-2027 Low Season; Twin - Standard Room 572 MAD [FIT/Group series] 2026-2027 Low Season; Single - Standard Room 561 MAD [FIT/Group series] 2026-2027 Low Season; Breakfast 55 MAD [FIT/Group series] 2026-2027 Low Season; Double-Junior 902 MAD [FIT/Group series] 2026-2027 Low Season; Twin-Junior 902 MAD [FIT/Group series] 2026-2027 Low Season; Single-Junior 891 MAD [FIT/Group series] 2026-2027 Low Season; Maos Method Multiple Crew Room (Pax Banded) Max 8 500 MAD [FIT/Group series] 2026-2027 Low Season; Maos Method Multiple Crew Room (Pax Banded) Max 16 325 MAD [FIT/Group series] 2026-2027 Low Season; Double - Standard Room 847 MAD [FIT/Group series] 2026-2027 High Season; Twin - Standard Room 847 MAD [FIT/Group series] 2026-2027 High Season; Single - Standard Room 836 MAD [FIT/Group series] 2026-2027 High Season; Breakfast 55 MAD [FIT/Group series] 2026-2027 High Season; Double-Junior 902 MAD [FIT/Group series] 2026-2027 High Season; Twin-Junior 902 MAD [FIT/Group series] 2026-2027 High Season; Single-Junior 891 MAD [FIT/Group series] 2026-2027 High Season; Maos Method Multiple Crew Room (Pax Banded) Max 8 500 MAD [FIT/Group series] 2026-2027 High Season; Maos Method Multiple Crew Room (Pax Banded) Max 16 325 MAD [FIT/Group series] 2026-2027 High Season",
+            "ST price dates": "1/1/2026  -  30/6/2026\n 1/9/2026  -  31/12/2026   \n1/1/2027  -  30/6/2027   \n1/9/2027  -  31/12/2027; 1/7/2026  -  31/8/2026   \n1/7/2027  -  31/8/2027",
+            "Prod PCs priced": "(no PC) 55.0 MAD [All Group Series]; Twin - Standard Room 870.0 MAD [All Group Series]; Single - Standard Room 860.0 MAD [All Group Series]; Double - Standard Room 870.0 MAD [All Group Series]; Twin - Standard Room 670.0 MAD [All Group Series]; Single - Standard Room 660.0 MAD [All Group Series]; Double - Standard Room 670.0 MAD [All Group Series]; Double - Standard Room 572.0 MAD [All Group Series]; Twin - Standard Room 572.0 MAD [All Group Series]; Single - Standard Room 561.0 MAD [All Group Series]; Double - Standard Room 847.0 MAD [All Group Series]; Twin - Standard Room 847.0 MAD [All Group Series]; Single - Standard Room 836.0 MAD [All Group Series]; Double-Junior 902.0 MAD [All Group Series]; Twin-Junior 902.0 MAD [All Group Series]; Single-Junior 891.0 MAD [All Group Series]; Double-Junior 682.0 MAD [All Group Series]; Twin-Junior 682.0 MAD [All Group Series]; Single-Junior 671.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 8 500.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 16 325.0 MAD [All Group Series]; Leader - Standard Room 583.0 MAD [All Group Series]; Leader - Standard Room 858.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6; P8"
           },
           "fuzzyService": [],
@@ -10192,6 +10789,69 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Breakfast",
+              "st": "55 MAD [FIT/Group series] 2026-2027 Low Season; 55 MAD [FIT/Group series] 2026-2027 High Season",
+              "prod": "—"
+            },
+            {
+              "pc": "Double - Standard Room",
+              "st": "572 MAD [FIT/Group series] 2026-2027 Low Season; 847 MAD [FIT/Group series] 2026-2027 High Season",
+              "prod": "870.0 MAD [All Group Series]; 670.0 MAD [All Group Series]; 572.0 MAD [All Group Series]; 847.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Double-Junior",
+              "st": "902 MAD [FIT/Group series] 2026-2027 Low Season; 902 MAD [FIT/Group series] 2026-2027 High Season",
+              "prod": "902.0 MAD [All Group Series]; 682.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Maos Method Multiple Crew Room (Pax Banded) Max 16",
+              "st": "325 MAD [FIT/Group series] 2026-2027 Low Season; 325 MAD [FIT/Group series] 2026-2027 High Season",
+              "prod": "325.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Maos Method Multiple Crew Room (Pax Banded) Max 8",
+              "st": "500 MAD [FIT/Group series] 2026-2027 Low Season; 500 MAD [FIT/Group series] 2026-2027 High Season",
+              "prod": "500.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Single - Standard Room",
+              "st": "561 MAD [FIT/Group series] 2026-2027 Low Season; 836 MAD [FIT/Group series] 2026-2027 High Season",
+              "prod": "860.0 MAD [All Group Series]; 660.0 MAD [All Group Series]; 561.0 MAD [All Group Series]; 836.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Single-Junior",
+              "st": "891 MAD [FIT/Group series] 2026-2027 Low Season; 891 MAD [FIT/Group series] 2026-2027 High Season",
+              "prod": "891.0 MAD [All Group Series]; 671.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Twin - Standard Room",
+              "st": "572 MAD [FIT/Group series] 2026-2027 Low Season; 847 MAD [FIT/Group series] 2026-2027 High Season",
+              "prod": "870.0 MAD [All Group Series]; 670.0 MAD [All Group Series]; 572.0 MAD [All Group Series]; 847.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Twin-Junior",
+              "st": "902 MAD [FIT/Group series] 2026-2027 Low Season; 902 MAD [FIT/Group series] 2026-2027 High Season",
+              "prod": "902.0 MAD [All Group Series]; 682.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 55.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader - Standard Room 583.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader - Standard Room 858.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/1/2026  -  30/6/2026\n 1/9/2026  -  31/12/2026   \n1/1/2027  -  30/6/2027   \n1/9/2027  -  31/12/2027; 1/7/2026  -  31/8/2026   \n1/7/2027  -  31/8/2027",
           "formDefaults": {
             "name": "Hotel Charf",
             "location": "",
@@ -10225,6 +10885,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "ST prices": "Double Room - Standard 960 MAD [FIT] 26-2027 All Year; Twin Room - Standard 960 MAD [FIT] 26-2027 All Year; Single Room - Standard 730 MAD [FIT] 26-2027 All Year; Leader Single Room - Standard 730 MAD [FIT] 26-2027 All Year; City Tax 16.5 MAD [FIT] 26-2027 All Year",
+            "ST price dates": "01/11/2026 - 31/10/2027",
+            "Prod PCs priced": "Double Room 960.0 MAD [All Group Series]; Twin Room 960.0 MAD [All Group Series]; Single Room 730.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; Leader Single Room 730.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6; P8"
           },
           "fuzzyService": [],
@@ -10259,6 +10922,59 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "City Tax",
+              "st": "16.5 MAD [FIT] 26-2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Double Room - Standard",
+              "st": "960 MAD [FIT] 26-2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Leader Single Room - Standard",
+              "st": "730 MAD [FIT] 26-2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Single Room - Standard",
+              "st": "730 MAD [FIT] 26-2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Twin Room - Standard",
+              "st": "960 MAD [FIT] 26-2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Twin Room",
+              "st": "—",
+              "prod": "960.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double Room 960.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single Room 730.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 16.5 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Single Room 730.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "01/11/2026 - 31/10/2027",
           "formDefaults": {
             "name": "Hotel Karam Palace HB",
             "location": "",
@@ -10292,6 +11008,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "ST prices": "Double - Standard Room 380 MAD [FIT] 2026-27 All Year; Twin - Standard Rom 380 MAD [FIT] 2026-27 All Year; Double for Single Use 279 MAD [FIT] 2026-27 All Year; Single - Standard Room 279 MAD [FIT] 2026-27 All Year; Triple - Standard Room 510 MAD [FIT] 2026-27 All Year; Leader Room Single - Standard 0 MAD [FIT] 2026-27 All Year; Sawadee - 2nd Leader Room 279 MAD [FIT] 2026-27 All Year",
+            "ST price dates": "1/1/2026 - 31/12/2027",
+            "Prod PCs priced": "Twin - Standard Room (FIT) 380.0 MAD [All Group Series]; Single - Standard Room (FIT) 279.0 MAD [All Group Series]; Double - Standard Room (FIT) 380.0 MAD [All Group Series]; Triple - Standard Room (FIT) 510.0 MAD [All Group Series]; Double for Single Use (FIT) 279.0 MAD [All Group Series]; Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 279.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6; P8"
           },
           "fuzzyService": [],
@@ -10336,6 +11055,49 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Double - Standard Room",
+              "st": "380 MAD [FIT] 2026-27 All Year",
+              "prod": "(FIT) 380.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Double for Single Use",
+              "st": "279 MAD [FIT] 2026-27 All Year",
+              "prod": "(FIT) 279.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Leader Room Single - Standard",
+              "st": "0 MAD [FIT] 2026-27 All Year",
+              "prod": "(FIT) 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Sawadee - 2nd Leader Room",
+              "st": "279 MAD [FIT] 2026-27 All Year",
+              "prod": "279.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Single - Standard Room",
+              "st": "279 MAD [FIT] 2026-27 All Year",
+              "prod": "(FIT) 279.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Triple - Standard Room",
+              "st": "510 MAD [FIT] 2026-27 All Year",
+              "prod": "(FIT) 510.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Twin - Standard Rom",
+              "st": "380 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (FIT) 380.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/1/2026 - 31/12/2027",
           "formDefaults": {
             "name": "Hotel Swani",
             "location": "",
@@ -10372,6 +11134,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "ST prices": "Standard - Double Room 1560 MAD [FIT] 2026-27 High; Twin - Twin Room 1560 MAD [FIT] 2026-27 High; Standard - Single Room 1130 MAD [FIT] 2026-27 High; Standard - Leader Single Room 0 MAD [FIT] 2026-27 High; City Tax 16.5 MAD [FIT] 2026-27 High; Standard - Double Room 1500 MAD [FIT] 2026-27 Low; Twin - Twin Room 1500 MAD [FIT] 2026-27 Low; Standard - Single Room 1100 MAD [FIT] 2026-27 Low; Standard - Leader Single Room 0 MAD [FIT] 2026-27 Low; City Tax 16.5 MAD [FIT] 2026-27 Low; Standard - Double Room 3160 MAD [FIT] 2026-27 New Year; Twin - Twin Room 3160 MAD [FIT] 2026-27 New Year; Standard - Single Room 1930 MAD [FIT] 2026-27 New Year; Standard - Leader Single Room 0 MAD [FIT] 2026-27 New Year; City Tax 16.5 MAD [FIT] 2026-27 New Year; Standard - Double Room 1360 MAD [FIT] 2026 High; Twin - Twin Room 1360 MAD [FIT] 2026 High; Standard - Single Room 1030 MAD [FIT] 2026 High; Standard - Leader Single Room 0 MAD [FIT] 2026 High; City Tax 16.5 MAD [FIT] 2026 High",
+            "ST price dates": "01/11/2026 - 30/12/2026 \n01/01/2027 - 14/06/2027\n01/09/2027 - 31/10/2027; 1/10/2026 - 31/10/2026; 15/06/2027 - 31/08/2027; 31/12/2026 - 31/12/2026",
+            "Prod PCs priced": "Twin - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 970.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Triple - Standard Room 1790.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1030.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Triple - Standard Room 1910.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 950.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1000.0 MAD [All Group Series]; Triple - Standard Room 1740.0 MAD [All Group Series]; Triple - Standard Room 1885.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1050.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1400.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1400.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1020.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1340.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1340.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1850.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 3000.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 3000.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1930.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 3160.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 3160.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1130.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1560.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1560.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1100.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6; P8"
           },
           "fuzzyService": [],
@@ -10406,6 +11171,209 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "City Tax",
+              "st": "16.5 MAD [FIT] 2026-27 High; 16.5 MAD [FIT] 2026-27 Low; 16.5 MAD [FIT] 2026-27 New Year; 16.5 MAD [FIT] 2026 High",
+              "prod": "—"
+            },
+            {
+              "pc": "Standard - Double Room",
+              "st": "1560 MAD [FIT] 2026-27 High; 1500 MAD [FIT] 2026-27 Low; 3160 MAD [FIT] 2026-27 New Year; 1360 MAD [FIT] 2026 High",
+              "prod": "—"
+            },
+            {
+              "pc": "Standard - Leader Single Room",
+              "st": "0 MAD [FIT] 2026-27 High; 0 MAD [FIT] 2026-27 Low; 0 MAD [FIT] 2026-27 New Year; 0 MAD [FIT] 2026 High",
+              "prod": "—"
+            },
+            {
+              "pc": "Standard - Single Room",
+              "st": "1130 MAD [FIT] 2026-27 High; 1100 MAD [FIT] 2026-27 Low; 1930 MAD [FIT] 2026-27 New Year; 1030 MAD [FIT] 2026 High",
+              "prod": "—"
+            },
+            {
+              "pc": "Twin - Twin Room",
+              "st": "1560 MAD [FIT] 2026-27 High; 1500 MAD [FIT] 2026-27 Low; 3160 MAD [FIT] 2026-27 New Year; 1360 MAD [FIT] 2026 High",
+              "prod": "—"
+            },
+            {
+              "pc": "Single Room",
+              "st": "—",
+              "prod": "- Standard (Max 10 pax) 1930.0 MAD [All Group Series]; - Standard (Max 10 pax) 1130.0 MAD [All Group Series]; - Standard (Max 10 pax) 1100.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Min 11 pax) 970.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Standard Room 1790.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 16.5 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Min 11 pax) 1030.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Standard Room 1910.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Min 11 pax) 950.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Min 11 pax) 1000.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Standard Room 1740.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Standard Room 1885.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Min 11 pax) 1050.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Min 11 pax) 1400.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Min 11 pax) 1400.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Min 11 pax) 1020.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Min 11 pax) 1340.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Min 11 pax) 1340.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Min 11 pax) 1850.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Min 11 pax) 3000.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Min 11 pax) 3000.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Max 10 pax) 3160.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Max 10 pax) 3160.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Max 10 pax) 1560.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Max 10 pax) 1560.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "01/11/2026 - 30/12/2026 \n01/01/2027 - 14/06/2027\n01/09/2027 - 31/10/2027; 1/10/2026 - 31/10/2026; 15/06/2027 - 31/08/2027; 31/12/2026 - 31/12/2026",
           "formDefaults": {
             "name": "Hotel Xaluca Dades HB",
             "location": "",
@@ -10440,6 +11408,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
+            "Prod PCs priced": "Per Person 0.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P1"
           },
           "fuzzyService": [],
@@ -10453,6 +11422,19 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Person 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Crew 0.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Ait Benhaddou Visit",
             "location": "",
@@ -10485,6 +11467,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
+            "Prod PCs priced": "Per Person 40.0 MAD [All Group Series]; Per Crew 40.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P1"
           },
           "fuzzyService": [],
@@ -10498,6 +11481,19 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Per Person",
+              "st": "—",
+              "prod": "40.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Crew 40.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Amridil Visit",
             "location": "",
@@ -10530,6 +11526,7 @@ window.ISSUE_DATA = {
             "Active price": "No",
             "Price kind": "Inactive only",
             "Gap": "Inactive prices only",
+            "Prod PCs priced": "Per Person 70.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P1; P9"
           },
           "fuzzyService": [],
@@ -10543,6 +11540,19 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Per Person",
+              "st": "—",
+              "prod": "70.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Crew 0.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Chefchaouen",
             "location": "",
@@ -10575,6 +11585,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
+            "Prod PCs priced": "Double - Standard Room 2750.0 MAD [All Group Series]; Twin - Standard Room 2750.0 MAD [All Group Series]; Single - Standard Room 2420.0 MAD [All Group Series]; Leader Single - Standard Room 2420.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P1"
           },
           "fuzzyService": [],
@@ -10609,6 +11620,29 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room 2750.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room 2750.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room 2420.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Single - Standard Room 2420.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah du Toubkal - HB",
             "location": "",
@@ -10644,6 +11678,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "ST prices": "Single Room 300 MAD [FIT/Group series] 2026 - 2027 All Year",
+            "ST price dates": "1/1/2026  -  31/12/2027",
+            "Prod PCs priced": "Single Room 350.0 MAD [All Group Series]; Double Room 500.0 MAD [All Group Series]; Twin Room 500.0 MAD [All Group Series]; Leader Room 0.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6; P8"
           },
           "fuzzyService": [],
@@ -10657,6 +11694,29 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Single Room",
+              "st": "300 MAD [FIT/Group series] 2026 - 2027 All Year",
+              "prod": "350.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Double Room",
+              "st": "—",
+              "prod": "500.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Twin Room",
+              "st": "—",
+              "prod": "500.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room 0.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/1/2026  -  31/12/2027",
           "formDefaults": {
             "name": "Kasbah La Famille Berbere HB",
             "location": "",
@@ -10691,6 +11751,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "FIT",
             "Gap": "FIT only",
+            "ST prices": "Double - Standard Room 950 MAD [FIT] 2026-27 All Year; Twin - Standard Room 950 MAD [FIT] 2026-27 All Year; Single - Standard Room 750 MAD [FIT] 2026-27 All Year; Double for Single Use 850 MAD [FIT] 2026-27 All Year; Leader Room Single - Standard 750 MAD [FIT] 2026-27 All Year; City Tax 15 MAD [FIT] 2026-27 All Year",
+            "ST price dates": "1/1/2026 - 31/12/2027",
+            "Prod PCs priced": "Standard - Single Room 750.0 MAD [FIT]; Standard - Double for Single Use 850.0 MAD [FIT]; Standard - Leader Single Room 750.0 MAD [FIT]; Standard - Double Room 950.0 MAD [FIT]; Standard - Twin Room 950.0 MAD [FIT]; (no PC) 15.0 MAD [FIT]",
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
@@ -10730,6 +11793,69 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "City Tax",
+              "st": "15 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Double - Standard Room",
+              "st": "950 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Double for Single Use",
+              "st": "850 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Leader Room Single - Standard",
+              "st": "750 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Single - Standard Room",
+              "st": "750 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Twin - Standard Room",
+              "st": "950 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Standard - Single Room 750.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Standard - Double for Single Use 850.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Standard - Leader Single Room 750.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Standard - Double Room 950.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Standard - Twin Room 950.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 15.0 MAD [FIT]"
+            }
+          ],
+          "stPriceDates": "1/1/2026 - 31/12/2027",
           "formDefaults": {
             "name": "Ksar Shama HB",
             "location": "",
@@ -10763,6 +11889,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
+            "Prod PCs priced": "Per Group Per Day 400.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P1; P10"
           },
           "fuzzyService": [],
@@ -10782,6 +11909,14 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Per Group",
+              "st": "—",
+              "prod": "Per Day 400.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Ait Benhaddou",
             "location": "",
@@ -10815,6 +11950,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
+            "Prod PCs priced": "Per Group Per Day (Non-Banded) 300.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 350.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P1; P10"
           },
           "fuzzyService": [],
@@ -10834,6 +11970,14 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Per Group",
+              "st": "—",
+              "prod": "Per Day (Non-Banded) 300.0 MAD [All Group Series]; Per Day (Non-Banded) 350.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Essaouira",
             "location": "",
@@ -10866,6 +12010,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
+            "Prod PCs priced": "Per Group Per Day Max 5 0.0 MAD [All Group Series]; Per Group Per Day 400.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P1; P10"
           },
           "fuzzyService": [],
@@ -10885,6 +12030,14 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Per Group",
+              "st": "—",
+              "prod": "Per Day Max 5 0.0 MAD [All Group Series]; Per Day 400.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Imlil",
             "location": "",
@@ -10919,6 +12072,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
+            "Prod PCs priced": "Per Group Per Day (Non-Banded) 500.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P1; P10"
           },
           "fuzzyService": [],
@@ -10938,6 +12092,14 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Per Group",
+              "st": "—",
+              "prod": "Per Day (Non-Banded) 500.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Marrakech",
             "location": "",
@@ -10971,6 +12133,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "ST prices": "Per Group 300 MAD [FIT] 2026 All Year; Per Group 350 MAD [FIT] 2027 All Year",
+            "ST price dates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
+            "Prod PCs priced": "Per Group Per Day (Non-Banded) 300.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 350.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6; P8; P10"
           },
           "fuzzyService": [],
@@ -10990,6 +12155,14 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Per Group",
+              "st": "300 MAD [FIT] 2026 All Year; 350 MAD [FIT] 2027 All Year",
+              "prod": "Per Day (Non-Banded) 300.0 MAD [All Group Series]; Per Day (Non-Banded) 350.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
           "formDefaults": {
             "name": "Local guide Half day Meknes",
             "location": "",
@@ -11023,6 +12196,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "ST prices": "Per Group 200 MAD [FIT] 2026 All Year; Per Group 300 MAD [FIT] 2027 All Year",
+            "ST price dates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
+            "Prod PCs priced": "Per Group Per Day (Banded) Max 20 200.0 MAD [All Group Series]; Per Group Per Day (Banded) Max 40 500.0 MAD [All Group Series]; Per Group Per Day (Banded) Max 20 350.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6; P8; P10"
           },
           "fuzzyService": [],
@@ -11042,6 +12218,14 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Per Group",
+              "st": "200 MAD [FIT] 2026 All Year; 300 MAD [FIT] 2027 All Year",
+              "prod": "Per Day (Banded) Max 20 200.0 MAD [All Group Series]; Per Day (Banded) Max 40 500.0 MAD [All Group Series]; Per Day (Banded) Max 20 350.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
           "formDefaults": {
             "name": "Local Guide Site Visit Volubilis",
             "location": "",
@@ -11075,6 +12259,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
+            "Prod PCs priced": "Lunch 120.0 MAD [All Group Series]; Lunch (Crew) 0.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P1"
           },
           "fuzzyService": [],
@@ -11088,6 +12273,19 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Lunch 120.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Lunch (Crew) 0.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Lunch With a Local Family in Todra",
             "location": "",
@@ -11120,6 +12318,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
+            "Prod PCs priced": "Single - Tent (FIT) 250.0 MAD [All Group Series]; Double - Tent (FIT) 500.0 MAD [All Group Series]; Twin - Tent (FIT) 500.0 MAD [All Group Series]; Double for Single Use - Tent (FIT) 250.0 MAD [All Group Series]; Triple - Tent (FIT) 650.0 MAD [All Group Series]; Leader Single Tent (FIT) 0.0 MAD [All Group Series]; Single - Tent 300.0 MAD [All Group Series]; Double - Tent 500.0 MAD [All Group Series]; Twin - Tent 500.0 MAD [All Group Series]; Double for Single Use - Tent 300.0 MAD [All Group Series]; Triple - Tent 650.0 MAD [All Group Series]; Leader Single Tent 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 250.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 300.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P1"
           },
           "fuzzyService": [],
@@ -11149,6 +12348,79 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Tent (FIT) 250.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Tent (FIT) 500.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Tent (FIT) 500.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double for Single Use - Tent (FIT) 250.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Tent (FIT) 650.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Single Tent (FIT) 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Tent 300.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Tent 500.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Tent 500.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double for Single Use - Tent 300.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Tent 650.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Single Tent 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Sawadee - 2nd Leader Room 250.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Sawadee - 2nd Leader Room 300.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Palmeras Y Dunas Luxury Camp - HB",
             "location": "",
@@ -11181,6 +12453,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "ST prices": "Double - Standard Room 490 MAD [FIT/Group Series] 2026 All Year; Twin - Standard Room 490 MAD [FIT/Group Series] 2026 All Year; Single - Standard Room 350 MAD [FIT/Group Series] 2026 All Year; Leader Room Single - Standard 0 MAD [FIT/Group Series] 2026 All Year; Triple - Standard Room 740 MAD [FIT/Group Series] 2026 All Year",
+            "ST price dates": "1/1/2026  -  31/12/2026",
+            "Prod PCs priced": "Twin - Standard Room 1150.0 MAD [All Group Series]; Single - Standard Room 800.0 MAD [All Group Series]; Double - Standard Room 1150.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 490.0 MAD [All Group Series]; Twin - Standard Room 490.0 MAD [All Group Series]; Single - Standard Room 350.0 MAD [All Group Series]; Triple - Standard Room 740.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6; P8"
           },
           "fuzzyService": [],
@@ -11194,6 +12469,34 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Double - Standard Room",
+              "st": "490 MAD [FIT/Group Series] 2026 All Year",
+              "prod": "1150.0 MAD [All Group Series]; 490.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Leader Room Single - Standard",
+              "st": "0 MAD [FIT/Group Series] 2026 All Year",
+              "prod": "0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Single - Standard Room",
+              "st": "350 MAD [FIT/Group Series] 2026 All Year",
+              "prod": "800.0 MAD [All Group Series]; 350.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Triple - Standard Room",
+              "st": "740 MAD [FIT/Group Series] 2026 All Year",
+              "prod": "740.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Twin - Standard Room",
+              "st": "490 MAD [FIT/Group Series] 2026 All Year",
+              "prod": "1150.0 MAD [All Group Series]; 490.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/1/2026  -  31/12/2026",
           "formDefaults": {
             "name": "Riad Atlas 4 Seasons - HB",
             "location": "",
@@ -11230,6 +12533,9 @@ window.ISSUE_DATA = {
             "Active price": "No",
             "Price kind": "Inactive only",
             "Gap": "Inactive prices only",
+            "ST prices": "Double - Suite Confort 1320 MAD [FIT] 2026-27 All Year; Twin - Suite Confoort 1320 MAD [FIT] 2026-27 All Year; Double For Single  - Suite Confort 1320 MAD [FIT] 2026-27 All Year; Leader Room Single - Standard 1320 MAD [FIT] 2026-27 All Year; Double - Suite Romantic 1680 MAD [FIT] 2026-27 All Year; Twin - Suite Romantic 1680 MAD [FIT] 2026-27 All Year; Double For Single  - Suite Romantic 1680 MAD [FIT] 2026-27 All Year; Double - Suite Panoramic 2080 MAD [FIT] 2026-27 All Year; Twin - Suite Panoramic 2080 MAD [FIT] 2026-27 All Year; Double For Single  - Suite Panoramic 2080 MAD [FIT] 2026-27 All Year; City Tax PP 33 MAD [FIT] 2026-27 All Year",
+            "ST price dates": "1/1/2026  -  31/12/2027",
+            "Prod PCs priced": "Double - Romantic Suite 1468.5 MAD [All Group Series]; Single - Romantic Suite 1435.5 MAD [All Group Series]; Twin - Romantic Suite 1468.5 MAD [All Group Series]; Leader Room Single - Standard 1435.5 MAD [All Group Series]",
             "Also listed in": "Also listed in P5; P6"
           },
           "fuzzyService": [],
@@ -11289,6 +12595,79 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "City Tax PP",
+              "st": "33 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Double - Suite Confort",
+              "st": "1320 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Double - Suite Panoramic",
+              "st": "2080 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Double - Suite Romantic",
+              "st": "1680 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Double For Single  - Suite Confort",
+              "st": "1320 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Double For Single  - Suite Panoramic",
+              "st": "2080 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Double For Single  - Suite Romantic",
+              "st": "1680 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Leader Room Single - Standard",
+              "st": "1320 MAD [FIT] 2026-27 All Year",
+              "prod": "1435.5 MAD [All Group Series]"
+            },
+            {
+              "pc": "Twin - Suite Confoort",
+              "st": "1320 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Twin - Suite Panoramic",
+              "st": "2080 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Twin - Suite Romantic",
+              "st": "1680 MAD [FIT] 2026-27 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Romantic Suite 1468.5 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Romantic Suite 1435.5 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Romantic Suite 1468.5 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/1/2026  -  31/12/2027",
           "formDefaults": {
             "name": "Riad Chbanate",
             "location": "",
@@ -11324,6 +12703,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
+            "ST prices": "Double - Suite 3340 MAD [FIT/Group Series] 2026 All Year; Twin - Suite 3340 MAD [FIT/Group Series] 2026 All Year; Single - Suite 2950 MAD [FIT/Group Series] 2026 All Year; Double - Superior 2710 MAD [FIT/Group Series] 2026 All Year; Twin - Superior 2710 MAD [FIT/Group Series] 2026 All Year; Single - Superior 2320 MAD [FIT/Group Series] 2026 All Year; City Tax 31 MAD [FIT/Group Series] 2026 All Year; Double - Suite 3475 MAD [FIT/Group Series] 2027 All Year; Twin - Suite 3475 MAD [FIT/Group Series] 2027 All Year; Single - Suite 3910 MAD [FIT/Group Series] 2027 All Year; Double - Superior 2790 MAD [FIT/Group Series] 2027 All Year; Twin - Superior 2790 MAD [FIT/Group Series] 2027 All Year; Single - Superior 23355 MAD [FIT/Group Series] 2027 All Year; City Tax 31 MAD [FIT/Group Series] 2027 All Year",
+            "ST price dates": "1/1/2026 - 31/12/2026; 1/1/2027 - 31/12/2027",
+            "Prod PCs priced": "Double - Suite 3340.0 MAD [FIT]; Twin - Suite 3340.0 MAD [FIT]; Single - Suite 2950.0 MAD [FIT]; Double - Suite 3475.0 MAD [FIT]; Twin - Suite 3475.0 MAD [FIT]; Single - Suite 3910.0 MAD [FIT]; Double - Suite 3340.0 MAD [All Group Series]; Twin - Suite 3340.0 MAD [All Group Series]; Single - Suite 2950.0 MAD [All Group Series]; Double - Superior 2710.0 MAD [All Group Series]; Twin - Superior 2710.0 MAD [All Group Series]; (no PC) 31.0 MAD [All Group Series]; Single - Superior 2320.0 MAD [All Group Series]; Double - Suite 3475.0 MAD [All Group Series]; Twin - Suite 3475.0 MAD [All Group Series]; Single - Suite 3910.0 MAD [All Group Series]; Double - Superior 2790.0 MAD [All Group Series]; Twin - Superior 2790.0 MAD [All Group Series]; Single - Superior 2355.0 MAD [All Group Series]; Double - Superior 2710.0 MAD [FIT]; Twin - Superior 2710.0 MAD [FIT]; (no PC) 31.0 MAD [FIT]; Single - Superior 2320.0 MAD [FIT]; Single - Superior 1300.0 MAD [All Group Series]; Leader Room Single - Standard 1200.0 MAD [All Group Series]; Twin - Deluxe 2005.0 MAD [All Group Series]; Single - Deluxe 1755.0 MAD [All Group Series]; Twin - Suite 2570.0 MAD [All Group Series]; Twin - Superior 1550.0 MAD [All Group Series]; Single - Suite 2320.0 MAD [All Group Series]; Double - Deluxe 2005.0 MAD [All Group Series]; Double - Suite 2570.0 MAD [All Group Series]; Double - Superior 1550.0 MAD [All Group Series]; (no PC) 22.0 MAD [All Group Series]; (no PC) 250.0 MAD [All Group Series]; (no PC) 200.0 MAD [All Group Series]; Single - Superior 1100.0 MAD [All Group Series]; Leader Room Single - Standard 1000.0 MAD [All Group Series]; Twin - Deluxe 1805.0 MAD [All Group Series]; Single - Deluxe 1555.0 MAD [All Group Series]; Twin - Suite 2370.0 MAD [All Group Series]; Twin - Superior 1350.0 MAD [All Group Series]; Single - Suite 2120.0 MAD [All Group Series]; Double - Deluxe 1805.0 MAD [All Group Series]; Double - Suite 2370.0 MAD [All Group Series]; Double - Superior 1350.0 MAD [All Group Series]; (no PC) 800.0 MAD [All Group Series]; Single - Superior 1000.0 MAD [All Group Series]; Leader Room Single - Standard 900.0 MAD [All Group Series]; Twin - Deluxe 1705.0 MAD [All Group Series]; Single - Deluxe 1455.0 MAD [All Group Series]; Twin - Suite 2270.0 MAD [All Group Series]; Twin - Superior 1250.0 MAD [All Group Series]; Single - Suite 2020.0 MAD [All Group Series]; Double - Deluxe 1705.0 MAD [All Group Series]; Double - Suite 2270.0 MAD [All Group Series]; Double - Superior 1250.0 MAD [All Group Series]; (no PC) 1500.0 MAD [All Group Series]; Double - Superior 2790.0 MAD [FIT]; Twin - Superior 2790.0 MAD [FIT]",
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
@@ -11337,6 +12719,139 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "City Tax",
+              "st": "31 MAD [FIT/Group Series] 2026 All Year; 31 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Double - Suite",
+              "st": "3340 MAD [FIT/Group Series] 2026 All Year; 3475 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "3340.0 MAD [FIT]; 3475.0 MAD [FIT]; 3340.0 MAD [All Group Series]; 3475.0 MAD [All Group Series]; 2570.0 MAD [All Group Series]; 2370.0 MAD [All Group Series]; 2270.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Double - Superior",
+              "st": "2710 MAD [FIT/Group Series] 2026 All Year; 2790 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "2710.0 MAD [All Group Series]; 2790.0 MAD [All Group Series]; 2710.0 MAD [FIT]; 1550.0 MAD [All Group Series]; 1350.0 MAD [All Group Series]; 1250.0 MAD [All Group Series]; 2790.0 MAD [FIT]"
+            },
+            {
+              "pc": "Single - Suite",
+              "st": "2950 MAD [FIT/Group Series] 2026 All Year; 3910 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "2950.0 MAD [FIT]; 3910.0 MAD [FIT]; 2950.0 MAD [All Group Series]; 3910.0 MAD [All Group Series]; 2320.0 MAD [All Group Series]; 2120.0 MAD [All Group Series]; 2020.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Single - Superior",
+              "st": "2320 MAD [FIT/Group Series] 2026 All Year; 23355 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "2320.0 MAD [All Group Series]; 2355.0 MAD [All Group Series]; 2320.0 MAD [FIT]; 1300.0 MAD [All Group Series]; 1100.0 MAD [All Group Series]; 1000.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Twin - Suite",
+              "st": "3340 MAD [FIT/Group Series] 2026 All Year; 3475 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "3340.0 MAD [FIT]; 3475.0 MAD [FIT]; 3340.0 MAD [All Group Series]; 3475.0 MAD [All Group Series]; 2570.0 MAD [All Group Series]; 2370.0 MAD [All Group Series]; 2270.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Twin - Superior",
+              "st": "2710 MAD [FIT/Group Series] 2026 All Year; 2790 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "2710.0 MAD [All Group Series]; 2790.0 MAD [All Group Series]; 2710.0 MAD [FIT]; 1550.0 MAD [All Group Series]; 1350.0 MAD [All Group Series]; 1250.0 MAD [All Group Series]; 2790.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 31.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 31.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard 1200.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Deluxe 2005.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Deluxe 1755.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Deluxe 2005.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 22.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 250.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 200.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard 1000.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Deluxe 1805.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Deluxe 1555.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Deluxe 1805.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 800.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard 900.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Deluxe 1705.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Deluxe 1455.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Deluxe 1705.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 1500.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/1/2026 - 31/12/2026; 1/1/2027 - 31/12/2027",
           "formDefaults": {
             "name": "Riad Ksar Ighnda HB",
             "location": "",
@@ -11378,6 +12893,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "ST prices": "Standard - Double Room 2690 MAD [FIT/Group series] 2026 High; Standard - Twin Room 2690 MAD [FIT/Group series] 2026 High; Standard - Single Room 2645 MAD [FIT/Group series] 2026 High; Leader Single Room 0 MAD [FIT/Group series] 2026 High; Standard - Double Room 2690 MAD [FIT/Group series] 2027 High; Standard - Twin Room 2690 MAD [FIT/Group series] 2027 High; Standard - Single Room 2645 MAD [FIT/Group series] 2027 High; Leader Single Room 0 MAD [FIT/Group series] 2027 High; Standard - Double Room 1990 MAD [FIT/Group series] 2027 Low; Standard - Twin Room 1990 MAD [FIT/Group series] 2027 Low; Standard - Single Room 1945 MAD [FIT/Group series] 2027 Low; Leader Single Room 0 MAD [FIT/Group series] 2027 Low",
+            "ST price dates": "1/11/2026  -  26/12/2026; 1/6/2027 - 10/9/2027; 4/1/2027 - 31/5/207\n11/9/2027 - 31/10/2027",
+            "Prod PCs priced": "Twin - Standard Room 1100.0 MAD [All Group Series]; Single - Standard Room 1100.0 MAD [All Group Series]; Double - Standard Room 1100.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; (no PC) 45.0 MAD [All Group Series]; Double for Single Use 1100.0 MAD [All Group Series]; Twin - Standard Room 2200.0 MAD [FIT]; Single - Standard Room 2200.0 MAD [FIT]; Double - Standard Room 2200.0 MAD [FIT]; Double for Single Use 2200.0 MAD [FIT]; Leader Room Single - Standard 2200.0 MAD [FIT]; (no PC) 45.0 MAD [FIT]; Twin - Standard Room 1190.0 MAD [All Group Series]; Single - Standard Room 1145.0 MAD [All Group Series]; Double - Standard Room 1190.0 MAD [All Group Series]; Double for Single Use 1145.0 MAD [All Group Series]; Double - Standard Room 2400.0 MAD [All Group Series]; Twin - Standard Room 2400.0 MAD [All Group Series]; Single - Standard Room 2400.0 MAD [All Group Series]; Double - Standard Room 1900.0 MAD [All Group Series]; Twin - Standard Room 1900.0 MAD [All Group Series]; Single - Standard Room 1900.0 MAD [All Group Series]; Double - Standard Room 2600.0 MAD [All Group Series]; Twin - Standard Room 2600.0 MAD [All Group Series]; Single - Standard Room 2600.0 MAD [All Group Series]; Double - Standard Room (FIT) 1900.0 MAD [All Group Series]; Twin - Standard Room (FIT) 1900.0 MAD [All Group Series]; Single - Standard Room (FIT) 1900.0 MAD [All Group Series]; Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Double - Standard Room (FIT) 2400.0 MAD [All Group Series]; Twin - Standard Room (FIT) 2400.0 MAD [All Group Series]; Single - Standard Room (FIT) 2400.0 MAD [All Group Series]; Double - Standard Room (FIT) 2600.0 MAD [All Group Series]; Twin - Standard Room (FIT) 2600.0 MAD [All Group Series]; Single - Standard Room (FIT) 2600.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6; P8"
           },
           "fuzzyService": [],
@@ -11412,6 +12930,204 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Leader Single Room",
+              "st": "0 MAD [FIT/Group series] 2026 High; 0 MAD [FIT/Group series] 2027 High; 0 MAD [FIT/Group series] 2027 Low",
+              "prod": "—"
+            },
+            {
+              "pc": "Standard - Double Room",
+              "st": "2690 MAD [FIT/Group series] 2026 High; 2690 MAD [FIT/Group series] 2027 High; 1990 MAD [FIT/Group series] 2027 Low",
+              "prod": "—"
+            },
+            {
+              "pc": "Standard - Single Room",
+              "st": "2645 MAD [FIT/Group series] 2026 High; 2645 MAD [FIT/Group series] 2027 High; 1945 MAD [FIT/Group series] 2027 Low",
+              "prod": "—"
+            },
+            {
+              "pc": "Standard - Twin Room",
+              "st": "2690 MAD [FIT/Group series] 2026 High; 2690 MAD [FIT/Group series] 2027 High; 1990 MAD [FIT/Group series] 2027 Low",
+              "prod": "—"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room 1100.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room 1100.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room 1100.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 45.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double for Single Use 1100.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room 2200.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room 2200.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room 2200.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double for Single Use 2200.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard 2200.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 45.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room 1190.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room 1145.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room 1190.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double for Single Use 1145.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room 2400.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room 2400.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room 2400.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room 1900.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room 1900.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room 1900.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room 2600.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room 2600.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room 2600.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (FIT) 1900.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (FIT) 1900.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (FIT) 1900.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (FIT) 2400.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (FIT) 2400.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (FIT) 2400.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (FIT) 2600.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (FIT) 2600.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (FIT) 2600.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/11/2026  -  26/12/2026; 1/6/2027 - 10/9/2027; 4/1/2027 - 31/5/207\n11/9/2027 - 31/10/2027",
           "formDefaults": {
             "name": "Riad la Cle d’Or",
             "location": "",
@@ -11445,6 +13161,9 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "ST prices": "Single - Tent 250 MAD [FIT/Group Series] 2026 All Year; Leader Tent Single 0 MAD [FIT/Group Series] 2026 All Year; Triple - Tent 750 MAD [FIT/Group Series] 2026 All Year; Double - Tent 500 MAD [FIT/Group Series] 2026 All Year; Twin - Tent 500 MAD [FIT/Group Series] 2026 All Year; Single - Tent 260 MAD [FIT/Group Series] 2027 All Year; Leader Tent Single 0 MAD [FIT/Group Series] 2027 All Year; Triple - Tent 780 MAD [FIT/Group Series] 2027 All Year; Double - Tent 520 MAD [FIT/Group Series] 2027 All Year; Twin - Tent 520 MAD [FIT/Group Series] 2027 All Year",
+            "ST price dates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
+            "Prod PCs priced": "Multishare - Tent (with Shared Facilities) 250.0 MAD [All Group Series]; Leader Tent Single 0.0 MAD [All Group Series]; Single - Tent (FIT) 250.0 MAD [All Group Series]; Triple - Tent (FIT) 750.0 MAD [All Group Series]; Double - Tent (FIT) 500.0 MAD [All Group Series]; Twin - Tent (FIT) 500.0 MAD [All Group Series]; Single - Tent (FIT) 260.0 MAD [All Group Series]; Triple - Tent (FIT) 780.0 MAD [All Group Series]; Double - Tent (FIT) 520.0 MAD [All Group Series]; Twin - Tent (FIT) 520.0 MAD [All Group Series]; Multishare - Tent (with Shared Facilities) 260.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6; P8"
           },
           "fuzzyService": [],
@@ -11479,6 +13198,44 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "Double - Tent",
+              "st": "500 MAD [FIT/Group Series] 2026 All Year; 520 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "(FIT) 500.0 MAD [All Group Series]; (FIT) 520.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Leader Tent Single",
+              "st": "0 MAD [FIT/Group Series] 2026 All Year; 0 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Single - Tent",
+              "st": "250 MAD [FIT/Group Series] 2026 All Year; 260 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "(FIT) 250.0 MAD [All Group Series]; (FIT) 260.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Triple - Tent",
+              "st": "750 MAD [FIT/Group Series] 2026 All Year; 780 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "(FIT) 750.0 MAD [All Group Series]; (FIT) 780.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Twin - Tent",
+              "st": "500 MAD [FIT/Group Series] 2026 All Year; 520 MAD [FIT/Group Series] 2027 All Year",
+              "prod": "(FIT) 500.0 MAD [All Group Series]; (FIT) 520.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Multishare - Tent (with Shared Facilities) 250.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Multishare - Tent (with Shared Facilities) 260.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
           "formDefaults": {
             "name": "Sahara Aventures Camp",
             "location": "",
@@ -11512,6 +13269,7 @@ window.ISSUE_DATA = {
             "Active price": "No",
             "Price kind": "Inactive only",
             "Gap": "Inactive prices only",
+            "Prod PCs priced": "Lunch 150.0 MAD [All Group Series]; Lunch (Crew) 150.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P1"
           },
           "fuzzyService": [],
@@ -11525,6 +13283,19 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Lunch 150.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Lunch (Crew) 150.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Seafood Market Lunch",
             "location": "",
@@ -11583,6 +13354,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Executive Boutique Hotel Rabat",
             "location": "",
@@ -11633,6 +13406,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Idou Anfa Hotel & Spa",
             "location": "",
@@ -11682,6 +13457,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Maison du Sud",
             "location": "",
@@ -11734,6 +13511,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Mia Hotel - Fes",
             "location": "",
@@ -11789,6 +13568,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Morocco - Leader Communication Allowance",
             "location": "",
@@ -11838,6 +13619,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Chbanate",
             "location": "",
@@ -11883,6 +13666,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Single - Tent 980.0 MAD [All Group Series]; Double - Tent 1420.0 MAD [All Group Series]; Twin - Tent 1420.0 MAD [All Group Series]; Triple- Tent 1860.0 MAD [All Group Series]; Quadruple- Tent 2300.0 MAD [All Group Series]; Leader Single - Tent 980.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P8"
           },
           "fuzzyService": [],
@@ -11917,6 +13701,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Azawad Luxury Desert Camp",
             "location": "",
@@ -11962,6 +13748,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Azrou Cedar Forest & Barbary Macaques Visit",
             "location": "",
@@ -12007,6 +13795,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Bhalil Cave House Visit with Tea Break",
             "location": "",
@@ -12041,6 +13831,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "FIT only",
+            "Prod PCs priced": "Standard - Double Room 1280.0 MAD [FIT]; Standard - Twin Room 1280.0 MAD [FIT]; Standard - Single Room 980.0 MAD [FIT]; Double for Single Use 980.0 MAD [FIT]; Leader Single Room 0.0 MAD [FIT]",
             "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
@@ -12070,6 +13861,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Dar cherifa",
             "location": "",
@@ -12108,6 +13901,7 @@ window.ISSUE_DATA = {
             "ST PCs missing on Prod": "Standard - Leader Single Room; Twin - Twin Room",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Standard - Twin Room 330.0 MAD [All Group Series]; Standard - Double Room 330.0 MAD [All Group Series]; Double for Single Use 300.0 MAD [All Group Series]; Standard - Single Room 300.0 MAD [All Group Series]; Standard - Triple Room 495.0 MAD [All Group Series]; Leader Single Room 0.0 MAD [All Group Series]; Crew Twin Room 0.0 MAD [All Group Series]; Standard - Twin Room 380.0 MAD [All Group Series]; Standard - Double Room 380.0 MAD [All Group Series]; Standard - Triple Room 580.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P8"
           },
           "fuzzyService": [],
@@ -12153,6 +13947,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Etoile Filante D'or HB",
             "location": "",
@@ -12188,6 +13984,7 @@ window.ISSUE_DATA = {
             "ST PCs missing on Prod": "City Tax",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Double - Standard Room 950.0 MAD [All Group Series]; Twin - Standard Room 950.0 MAD [All Group Series]; Single - Standard Room 850.0 MAD [All Group Series]; Suite - Double 1400.0 MAD [All Group Series]; Suite - Twin 1400.0 MAD [All Group Series]; Suite - Single 1400.0 MAD [All Group Series]; Leader Room Single - Standard 850.0 MAD [All Group Series]; (no PC) 13.2 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P5; P8"
           },
           "fuzzyService": [],
@@ -12222,6 +14019,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Executive Boutique Hotel Rabat",
             "location": "",
@@ -12257,6 +14056,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Per Person 20.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
@@ -12276,6 +14076,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Fondouk Nejjarine Fes",
             "location": "",
@@ -12313,7 +14115,8 @@ window.ISSUE_DATA = {
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
-            "Gap": "OK — FIT and Group Tour"
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Leader Room Single - Standard 0.0 MAD [FIT]; Single - Standard Room 365.0 MAD [FIT]; Double - Standard Room 440.0 MAD [FIT]; Triple - Standard Room 660.0 MAD [FIT]; Twin - Standard Room 440.0 MAD [FIT]; Double for Single Use 365.0 MAD [FIT]; Twin - Standard Room 425.0 MAD [All Group Series]; Single - Standard Room 350.0 MAD [All Group Series]; Double - Standard Room 425.0 MAD [All Group Series]; Triple - Standard Room 637.5 MAD [All Group Series]; Double for Single Use 350.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Single - Standard Room 365.0 MAD [All Group Series]; Double - Standard Room 440.0 MAD [All Group Series]; Triple - Standard Room 660.0 MAD [All Group Series]; Twin - Standard Room 440.0 MAD [All Group Series]; Double for Single Use 365.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -12347,6 +14150,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Al Walid",
             "location": "",
@@ -12441,6 +14246,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Belere",
             "location": "",
@@ -12515,6 +14322,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Caspien",
             "location": "",
@@ -12552,6 +14361,7 @@ window.ISSUE_DATA = {
             "ST PCs missing on Prod": "Breakfast",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "(no PC) 55.0 MAD [All Group Series]; Twin - Standard Room 870.0 MAD [All Group Series]; Single - Standard Room 860.0 MAD [All Group Series]; Double - Standard Room 870.0 MAD [All Group Series]; Twin - Standard Room 670.0 MAD [All Group Series]; Single - Standard Room 660.0 MAD [All Group Series]; Double - Standard Room 670.0 MAD [All Group Series]; Double - Standard Room 572.0 MAD [All Group Series]; Twin - Standard Room 572.0 MAD [All Group Series]; Single - Standard Room 561.0 MAD [All Group Series]; Double - Standard Room 847.0 MAD [All Group Series]; Twin - Standard Room 847.0 MAD [All Group Series]; Single - Standard Room 836.0 MAD [All Group Series]; Double-Junior 902.0 MAD [All Group Series]; Twin-Junior 902.0 MAD [All Group Series]; Single-Junior 891.0 MAD [All Group Series]; Double-Junior 682.0 MAD [All Group Series]; Twin-Junior 682.0 MAD [All Group Series]; Single-Junior 671.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 8 500.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 16 325.0 MAD [All Group Series]; Leader - Standard Room 583.0 MAD [All Group Series]; Leader - Standard Room 858.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P8"
           },
           "fuzzyService": [],
@@ -12586,6 +14396,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Charf",
             "location": "",
@@ -12620,6 +14432,7 @@ window.ISSUE_DATA = {
             "ST PCs missing on Prod": "City Tax; Double Room - Standard; Leader Single Room - Standard; Single Room - Standard; Twin Room - Standard",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Double Room 960.0 MAD [All Group Series]; Twin Room 960.0 MAD [All Group Series]; Single Room 730.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; Leader Single Room 730.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P8"
           },
           "fuzzyService": [],
@@ -12660,6 +14473,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Karam Palace HB",
             "location": "",
@@ -12694,6 +14509,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room (FIT) 906.4 MAD [All Group Series]; Single - Standard Room (FIT) 793.2 MAD [All Group Series]; Double - Standard Room (FIT) 906.4 MAD [All Group Series]; Leader Room Single - Standard (FIT) 730.0 MAD [All Group Series]; Triple - Standard Room (FIT) 1019.6 MAD [All Group Series]; Double - Standard Room 906.4 MAD [All Group Series]; Twin - Standard Room 906.4 MAD [All Group Series]; Single - Standard Room 793.2 MAD [All Group Series]; Leader Room Single - Standard 730.0 MAD [All Group Series]; Triple - Standard Room 1019.6 MAD [All Group Series]; Sawadee - 2nd Leader Room 793.2 MAD [All Group Series]",
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
@@ -12728,6 +14544,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Le Musee",
             "location": "",
@@ -12763,7 +14581,8 @@ window.ISSUE_DATA = {
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
-            "Gap": "OK — FIT and Group Tour"
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Twin - Standard Room 570.0 MAD [FIT]; Single - Standard Room 460.0 MAD [FIT]; Double - Standard Room 570.0 MAD [FIT]; Triple - Standard Room 788.0 MAD [FIT]; Double for Single Use 570.0 MAD [FIT]; Leader Room Single - Standard 350.0 MAD [FIT]; Twin - Standard Room 570.0 MAD [All Group Series]; Single - Standard Room 460.0 MAD [All Group Series]; Double - Standard Room 570.0 MAD [All Group Series]; Triple - Standard Room 788.0 MAD [All Group Series]; Double for Single Use 570.0 MAD [All Group Series]; Leader Room Single - Standard 350.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 460.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -12797,6 +14616,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Les Saisons",
             "location": "",
@@ -12831,6 +14652,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room 586.0 MAD [All Group Series]; Single - Standard Room 413.0 MAD [All Group Series]; Double - Standard Room 586.0 MAD [All Group Series]; Leader Room Single - Standard 413.0 MAD [All Group Series]; Twin - Standard Room 783.0 MAD [FIT]; Single - Standard Room 556.0 MAD [FIT]; Double - Standard Room 783.0 MAD [FIT]; Triple - Standard Room 965.0 MAD [FIT]; Leader Room Single - Standard 556.0 MAD [FIT]; Twin - Standard Room 640.0 MAD [All Group Series]; Double - Standard Room 640.0 MAD [All Group Series]; Single - Standard Room 490.0 MAD [All Group Series]; Triple - Standard Room 740.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 490.0 MAD [All Group Series]; Leader Room Single - Standard (Up to 20 Pax) 0.0 MAD [All Group Series]; Twin - Standard Room 616.0 MAD [All Group Series]; Double - Standard Room 616.0 MAD [All Group Series]; Single - Standard Room 448.0 MAD [All Group Series]; Leader Room Single - Standard 448.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 448.0 MAD [All Group Series]; Double - Standard Room (FIT) 836.0 MAD [All Group Series]; Twin - Standard Room (FIT) 836.0 MAD [All Group Series]; Single - Standard Room (FIT) 588.0 MAD [All Group Series]; Triple - Standard Room (FIT) 1034.0 MAD [All Group Series]; Leader Room Single - Standard (Up to 20 Pax) 588.0 MAD [All Group Series]; Leader Room Single - Standard (Up to 20 Pax) (FIT) 0.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
@@ -12865,6 +14687,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Parador",
             "location": "",
@@ -12935,6 +14759,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Riad BaHammou Dades HB",
             "location": "",
@@ -12968,6 +14794,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room 422.0 MAD [All Group Series]; Single - Standard Room 331.0 MAD [All Group Series]; Double - Standard Room 422.0 MAD [All Group Series]; Leader Room Single - Standard 331.0 MAD [All Group Series]; (no PC) 100.0 MAD [All Group Series]; Double for Single Use 331.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 331.0 MAD [All Group Series]; Double - Standard Room 522.0 MAD [All Group Series]; Twin - Standard Room 522.0 MAD [All Group Series]; Double for Single Use 411.0 MAD [All Group Series]; Single - Standard Room 411.0 MAD [All Group Series]; Leader Room Single - Standard 411.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 411.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
@@ -13002,6 +14829,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Rose Valley",
             "location": "",
@@ -13036,6 +14865,7 @@ window.ISSUE_DATA = {
             "ST PCs missing on Prod": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Rom",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room (FIT) 380.0 MAD [All Group Series]; Single - Standard Room (FIT) 279.0 MAD [All Group Series]; Double - Standard Room (FIT) 380.0 MAD [All Group Series]; Triple - Standard Room (FIT) 510.0 MAD [All Group Series]; Double for Single Use (FIT) 279.0 MAD [All Group Series]; Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 279.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P8"
           },
           "fuzzyService": [],
@@ -13101,6 +14931,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Swani",
             "location": "",
@@ -13135,6 +14967,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Single - Standard Room 340.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double for Single Use 340.0 MAD [All Group Series]; Twin - Standard Room 520.0 MAD [All Group Series]; Double - Standard Room 520.0 MAD [All Group Series]; Single - Standard Room 355.0 MAD [All Group Series]; Double for Single Use 405.0 MAD [All Group Series]; Twin - Standard Room 600.0 MAD [All Group Series]; Double - Standard Room 600.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 340.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 355.0 MAD [All Group Series]; Triple - Standard Room 960.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
@@ -13169,6 +15002,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Taddart HB",
             "location": "",
@@ -13237,6 +15072,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Tarek",
             "location": "",
@@ -13274,6 +15111,7 @@ window.ISSUE_DATA = {
             "ST PCs missing on Prod": "City Tax; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Twin - Twin Room",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 970.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Triple - Standard Room 1790.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1030.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Triple - Standard Room 1910.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 950.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1000.0 MAD [All Group Series]; Triple - Standard Room 1740.0 MAD [All Group Series]; Triple - Standard Room 1885.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1050.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1400.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1400.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1020.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1340.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1340.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1850.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 3000.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 3000.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1930.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 3160.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 3160.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1130.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1560.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1560.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1100.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P8"
           },
           "fuzzyService": [],
@@ -13329,6 +15167,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Xaluca Dades HB",
             "location": "",
@@ -13365,6 +15205,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Double - Standard Room 898.0 MAD [FIT]; Single - Standard Room 760.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Twin - Standard Room 898.0 MAD [FIT]; Double for Single Use 760.0 MAD [FIT]; Triple - Standard Room 1284.0 MAD [FIT]; Leader Room Single - Standard (Max 4 Pax FIT Only) 760.0 MAD [FIT]; Double - Standard Room 872.0 MAD [FIT]; Single - Standard Room 747.0 MAD [FIT]; Twin - Standard Room 872.0 MAD [FIT]; Double for Single Use 747.0 MAD [FIT]; Leader Room Single - Standard (Max 4 Pax FIT Only) 747.0 MAD [FIT]; Twin - Standard Room 839.6 MAD [All Group Series]; Single - Standard Room 719.8 MAD [All Group Series]; Double - Standard Room 839.6 MAD [All Group Series]; Triple - Standard Room 1219.4 MAD [All Group Series]; Double for Single Use 719.8 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 872.0 MAD [All Group Series]; Single - Standard Room 747.0 MAD [All Group Series]; Twin Room (Family) 872.0 MAD [All Group Series]; Twin - Standard Room 872.0 MAD [All Group Series]; Double for Single Use 747.0 MAD [All Group Series]; Double - Standard Room 898.0 MAD [All Group Series]; Single - Standard Room 760.0 MAD [All Group Series]; Twin - Standard Room 898.0 MAD [All Group Series]; Double for Single Use 760.0 MAD [All Group Series]; Triple - Standard Room 1284.0 MAD [All Group Series]; Twin Room (Family) 885.78 MAD [All Group Series]; Sawadee - 2nd Leader Room 747.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 760.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P5"
           },
           "fuzzyService": [],
@@ -13399,6 +15240,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Idou Anfa Hotel & Spa",
             "location": "",
@@ -13472,6 +15315,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Hnini HB",
             "location": "",
@@ -13508,6 +15353,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Single Room 350.0 MAD [All Group Series]; Double Room 500.0 MAD [All Group Series]; Twin Room 500.0 MAD [All Group Series]; Leader Room 0.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P8"
           },
           "fuzzyService": [],
@@ -13537,6 +15383,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah La Famille Berbere HB",
             "location": "",
@@ -13572,6 +15420,7 @@ window.ISSUE_DATA = {
             "ST PCs missing on Prod": "City Tax; Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
             "Active price": "Yes",
             "Gap": "FIT only",
+            "Prod PCs priced": "Standard - Single Room 750.0 MAD [FIT]; Standard - Double for Single Use 850.0 MAD [FIT]; Standard - Leader Single Room 750.0 MAD [FIT]; Standard - Double Room 950.0 MAD [FIT]; Standard - Twin Room 950.0 MAD [FIT]; (no PC) 15.0 MAD [FIT]",
             "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
@@ -13632,6 +15481,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Ksar Shama HB",
             "location": "",
@@ -13665,6 +15516,7 @@ window.ISSUE_DATA = {
             "ST PCs missing on Prod": "Per Group",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Per Group Per Day (Non-Banded) 300.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 350.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P8; P10"
           },
           "fuzzyService": [],
@@ -13684,6 +15536,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Meknes",
             "location": "",
@@ -13717,6 +15571,7 @@ window.ISSUE_DATA = {
             "ST PCs missing on Prod": "Per Group",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Per Group Per Day (Banded) Max 20 200.0 MAD [All Group Series]; Per Group Per Day (Banded) Max 40 500.0 MAD [All Group Series]; Per Group Per Day (Banded) Max 20 350.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P8; P10"
           },
           "fuzzyService": [],
@@ -13736,6 +15591,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local Guide Site Visit Volubilis",
             "location": "",
@@ -13803,6 +15660,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Lodge Hara Oasis HB",
             "location": "",
@@ -13839,6 +15698,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Double - Standard Room 702.0 MAD [FIT]; Twin - Standard Room 702.0 MAD [FIT]; Single - Standard Room 571.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Triple - Standard Room 800.0 MAD [FIT]; Twin - Standard Room 550.0 MAD [All Group Series]; Single - Standard Room 525.0 MAD [All Group Series]; Double - Standard Room 550.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Triple - Standard Room 800.0 MAD [All Group Series]; Double - Standard Room 702.0 MAD [All Group Series]; Twin - Standard Room 702.0 MAD [All Group Series]; Single - Standard Room 571.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P5"
           },
           "fuzzyService": [],
@@ -13873,6 +15733,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Maison du Sud",
             "location": "",
@@ -13941,6 +15803,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Marina Bay City Center",
             "location": "",
@@ -13995,6 +15859,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Medersa Attarine Fes",
             "location": "",
@@ -14069,6 +15935,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Mia Camp HB",
             "location": "",
@@ -14108,6 +15976,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Double - Standard Room 365.0 MAD [All Group Series]; Twin - Standard Room 365.0 MAD [All Group Series]; Single - Standard Room 280.0 MAD [All Group Series]; Double for Single Use 280.0 MAD [All Group Series]; Leader - Single Standard Room 0.0 MAD [All Group Series]; Double - Standard Room 390.0 MAD [All Group Series]; Twin - Standard Room 390.0 MAD [All Group Series]; Single - Standard Room 310.0 MAD [All Group Series]; Double for Single Use 310.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P5; P8"
           },
           "fuzzyService": [],
@@ -14142,6 +16011,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Mia Hotel - Fes",
             "location": "",
@@ -14183,6 +16054,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Daily Crew Bonus 40.0 MAD [All Group Series]; Daily Crew Bonus 50.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P8; P10"
           },
           "fuzzyService": [],
@@ -14202,6 +16074,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Morocco - Daily Crew Bonus Accrual",
             "location": "",
@@ -14243,6 +16117,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Per Crew Per Day 15.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P5; P8; P10"
           },
           "fuzzyService": [],
@@ -14262,6 +16137,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Morocco - Leader Communication Allowance",
             "location": "",
@@ -14329,6 +16206,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Morocco FIT - Tour Leader Daily Services - Standard",
             "location": "",
@@ -14374,6 +16253,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Moulay Driss Couscous Lunch",
             "location": "",
@@ -14410,6 +16291,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Leader Room Single - Standard 350.0 MAD [All Group Series]; Twin - Junior Suite 1450.0 MAD [All Group Series]; Single - Junior Suite 1140.0 MAD [All Group Series]; Double - Junior Suite 1450.0 MAD [All Group Series]; Twin - Junior Suite 1780.0 MAD [All Group Series]; Single - Junior Suite 1440.0 MAD [All Group Series]; Double - Junior Suite 1780.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin - Junior Suite 1880.0 MAD [All Group Series]; Single - Junior Suite 1490.0 MAD [All Group Series]; Double - Junior Suite 1880.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
@@ -14444,6 +16326,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Palais Ommeyad Suites and Spa",
             "location": "",
@@ -14525,6 +16409,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad 48",
             "location": "",
@@ -14558,6 +16444,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room 1150.0 MAD [All Group Series]; Single - Standard Room 800.0 MAD [All Group Series]; Double - Standard Room 1150.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 490.0 MAD [All Group Series]; Twin - Standard Room 490.0 MAD [All Group Series]; Single - Standard Room 350.0 MAD [All Group Series]; Triple - Standard Room 740.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P8"
           },
           "fuzzyService": [],
@@ -14592,6 +16479,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Atlas 4 Seasons - HB",
             "location": "",
@@ -14627,6 +16516,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room 285.0 MAD [All Group Series]; Single - Standard Room 225.0 MAD [All Group Series]; Double - Standard Room 285.0 MAD [All Group Series]; Triple - Standard Room 420.0 MAD [All Group Series]; Double for Single Use 250.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 295.0 MAD [All Group Series]; Double for Single Use 260.0 MAD [All Group Series]; Single - Standard Room 230.0 MAD [All Group Series]; Twin - Standard Room 295.0 MAD [All Group Series]; Twin Room (Family) 289.25 MAD [All Group Series]; Single - Standard Room 260.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
@@ -14661,6 +16551,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Chakir Mogador",
             "location": "",
@@ -14698,6 +16590,7 @@ window.ISSUE_DATA = {
             "ST PCs missing on Prod": "City Tax PP; Double - Suite Confort; Double - Suite Panoramic; Double - Suite Romantic; Double For Single  - Suite Confort; Double For Single  - Suite Panoramic; Double For Single  - Suite Romantic; Twin - Suite Confoort; Twin - Suite Panoramic; Twin - Suite Romantic",
             "Active price": "No",
             "Gap": "Inactive prices only",
+            "Prod PCs priced": "Double - Romantic Suite 1468.5 MAD [All Group Series]; Single - Romantic Suite 1435.5 MAD [All Group Series]; Twin - Romantic Suite 1468.5 MAD [All Group Series]; Leader Room Single - Standard 1435.5 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P5"
           },
           "fuzzyService": [],
@@ -14778,6 +16671,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Chbanate",
             "location": "",
@@ -14814,6 +16709,7 @@ window.ISSUE_DATA = {
             "ST PCs missing on Prod": "City Tax",
             "Active price": "Yes",
             "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Double - Suite 3340.0 MAD [FIT]; Twin - Suite 3340.0 MAD [FIT]; Single - Suite 2950.0 MAD [FIT]; Double - Suite 3475.0 MAD [FIT]; Twin - Suite 3475.0 MAD [FIT]; Single - Suite 3910.0 MAD [FIT]; Double - Suite 3340.0 MAD [All Group Series]; Twin - Suite 3340.0 MAD [All Group Series]; Single - Suite 2950.0 MAD [All Group Series]; Double - Superior 2710.0 MAD [All Group Series]; Twin - Superior 2710.0 MAD [All Group Series]; (no PC) 31.0 MAD [All Group Series]; Single - Superior 2320.0 MAD [All Group Series]; Double - Suite 3475.0 MAD [All Group Series]; Twin - Suite 3475.0 MAD [All Group Series]; Single - Suite 3910.0 MAD [All Group Series]; Double - Superior 2790.0 MAD [All Group Series]; Twin - Superior 2790.0 MAD [All Group Series]; Single - Superior 2355.0 MAD [All Group Series]; Double - Superior 2710.0 MAD [FIT]; Twin - Superior 2710.0 MAD [FIT]; (no PC) 31.0 MAD [FIT]; Single - Superior 2320.0 MAD [FIT]; Single - Superior 1300.0 MAD [All Group Series]; Leader Room Single - Standard 1200.0 MAD [All Group Series]; Twin - Deluxe 2005.0 MAD [All Group Series]; Single - Deluxe 1755.0 MAD [All Group Series]; Twin - Suite 2570.0 MAD [All Group Series]; Twin - Superior 1550.0 MAD [All Group Series]; Single - Suite 2320.0 MAD [All Group Series]; Double - Deluxe 2005.0 MAD [All Group Series]; Double - Suite 2570.0 MAD [All Group Series]; Double - Superior 1550.0 MAD [All Group Series]; (no PC) 22.0 MAD [All Group Series]; (no PC) 250.0 MAD [All Group Series]; (no PC) 200.0 MAD [All Group Series]; Single - Superior 1100.0 MAD [All Group Series]; Leader Room Single - Standard 1000.0 MAD [All Group Series]; Twin - Deluxe 1805.0 MAD [All Group Series]; Single - Deluxe 1555.0 MAD [All Group Series]; Twin - Suite 2370.0 MAD [All Group Series]; Twin - Superior 1350.0 MAD [All Group Series]; Single - Suite 2120.0 MAD [All Group Series]; Double - Deluxe 1805.0 MAD [All Group Series]; Double - Suite 2370.0 MAD [All Group Series]; Double - Superior 1350.0 MAD [All Group Series]; (no PC) 800.0 MAD [All Group Series]; Single - Superior 1000.0 MAD [All Group Series]; Leader Room Single - Standard 900.0 MAD [All Group Series]; Twin - Deluxe 1705.0 MAD [All Group Series]; Single - Deluxe 1455.0 MAD [All Group Series]; Twin - Suite 2270.0 MAD [All Group Series]; Twin - Superior 1250.0 MAD [All Group Series]; Single - Suite 2020.0 MAD [All Group Series]; Double - Deluxe 1705.0 MAD [All Group Series]; Double - Suite 2270.0 MAD [All Group Series]; Double - Superior 1250.0 MAD [All Group Series]; (no PC) 1500.0 MAD [All Group Series]; Double - Superior 2790.0 MAD [FIT]; Twin - Superior 2790.0 MAD [FIT]",
             "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
@@ -14848,6 +16744,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Ksar Ighnda HB",
             "location": "",
@@ -14890,6 +16788,7 @@ window.ISSUE_DATA = {
             "ST PCs missing on Prod": "Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Twin Room",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room 1100.0 MAD [All Group Series]; Single - Standard Room 1100.0 MAD [All Group Series]; Double - Standard Room 1100.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; (no PC) 45.0 MAD [All Group Series]; Double for Single Use 1100.0 MAD [All Group Series]; Twin - Standard Room 2200.0 MAD [FIT]; Single - Standard Room 2200.0 MAD [FIT]; Double - Standard Room 2200.0 MAD [FIT]; Double for Single Use 2200.0 MAD [FIT]; Leader Room Single - Standard 2200.0 MAD [FIT]; (no PC) 45.0 MAD [FIT]; Twin - Standard Room 1190.0 MAD [All Group Series]; Single - Standard Room 1145.0 MAD [All Group Series]; Double - Standard Room 1190.0 MAD [All Group Series]; Double for Single Use 1145.0 MAD [All Group Series]; Double - Standard Room 2400.0 MAD [All Group Series]; Twin - Standard Room 2400.0 MAD [All Group Series]; Single - Standard Room 2400.0 MAD [All Group Series]; Double - Standard Room 1900.0 MAD [All Group Series]; Twin - Standard Room 1900.0 MAD [All Group Series]; Single - Standard Room 1900.0 MAD [All Group Series]; Double - Standard Room 2600.0 MAD [All Group Series]; Twin - Standard Room 2600.0 MAD [All Group Series]; Single - Standard Room 2600.0 MAD [All Group Series]; Double - Standard Room (FIT) 1900.0 MAD [All Group Series]; Twin - Standard Room (FIT) 1900.0 MAD [All Group Series]; Single - Standard Room (FIT) 1900.0 MAD [All Group Series]; Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Double - Standard Room (FIT) 2400.0 MAD [All Group Series]; Twin - Standard Room (FIT) 2400.0 MAD [All Group Series]; Single - Standard Room (FIT) 2400.0 MAD [All Group Series]; Double - Standard Room (FIT) 2600.0 MAD [All Group Series]; Twin - Standard Room (FIT) 2600.0 MAD [All Group Series]; Single - Standard Room (FIT) 2600.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P8"
           },
           "fuzzyService": [],
@@ -14940,6 +16839,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad la Cle d’Or",
             "location": "",
@@ -14973,6 +16874,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Single Room - Standard 778.0 MAD [All Group Series]; Leader Single Room - Standard 778.0 MAD [All Group Series]; Double Room - Standard 956.0 MAD [All Group Series]; Twin Room - Standard 956.0 MAD [All Group Series]; Triple Room - Standard 1234.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
@@ -15007,6 +16909,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Lamane - HB",
             "location": "",
@@ -15043,7 +16947,8 @@ window.ISSUE_DATA = {
             "Suggested PC map": "Double Room → Standard - Double Room; Single Room → Standard - Single Room; Twin Room → Standard - Twin Room",
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
-            "Gap": "FIT only — no Group Tour"
+            "Gap": "FIT only — no Group Tour",
+            "Prod PCs priced": "Standard - Double Room 600.0 MAD [FIT]; Standard - Twin Room 600.0 MAD [FIT]; Standard - Single Room 450.0 MAD [FIT]; Leader Single Room 0.0 MAD [FIT]; Standard - Triple Room 900.0 MAD [FIT]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -15072,6 +16977,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Maktoub HB",
             "location": "",
@@ -15105,6 +17012,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room 600.0 MAD [All Group Series]; Double - Standard Room 600.0 MAD [All Group Series]; Double for Single Use 600.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Crew Twin Room - Standard 0.0 MAD [All Group Series]; Single - Standard Room 600.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
@@ -15139,6 +17047,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Ritaj",
             "location": "",
@@ -15174,7 +17084,8 @@ window.ISSUE_DATA = {
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
             "PC issue": "Package vs ST names",
             "Active price": "Yes",
-            "Gap": "FIT only — no Group Tour"
+            "Gap": "FIT only — no Group Tour",
+            "Prod PCs priced": "Twin - Standard Room 1000.0 MAD [All Group Series]; Single - Standard Room 900.0 MAD [All Group Series]; Double - Standard Room 1000.0 MAD [All Group Series]; Triple - Standard Room 1300.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; (no PC) 200.0 MAD [All Group Series]; Double - Standard Room 1000.0 MAD [FIT]; Twin - Standard Room 1000.0 MAD [FIT]; Single - Standard Room 900.0 MAD [FIT]; Triple - Standard Room 1300.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -15208,6 +17119,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Sayeda al Hora",
             "location": "",
@@ -15242,6 +17155,7 @@ window.ISSUE_DATA = {
             "ST PCs missing on Prod": "Double - Tent; Single - Tent; Triple - Tent; Twin - Tent",
             "Active price": "Yes",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Multishare - Tent (with Shared Facilities) 250.0 MAD [All Group Series]; Leader Tent Single 0.0 MAD [All Group Series]; Single - Tent (FIT) 250.0 MAD [All Group Series]; Triple - Tent (FIT) 750.0 MAD [All Group Series]; Double - Tent (FIT) 500.0 MAD [All Group Series]; Twin - Tent (FIT) 500.0 MAD [All Group Series]; Single - Tent (FIT) 260.0 MAD [All Group Series]; Triple - Tent (FIT) 780.0 MAD [All Group Series]; Double - Tent (FIT) 520.0 MAD [All Group Series]; Twin - Tent (FIT) 520.0 MAD [All Group Series]; Multishare - Tent (with Shared Facilities) 260.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P8"
           },
           "fuzzyService": [],
@@ -15297,6 +17211,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Sahara Aventures Camp",
             "location": "",
@@ -15338,7 +17254,8 @@ window.ISSUE_DATA = {
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double Room; Double for Single Use; Leader Single Room; Single Room; Triple Room; Twin Room",
             "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT"
+            "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Double Room 640.0 MAD [All Group Series]; Twin Room 640.0 MAD [All Group Series]; Single Room 400.0 MAD [All Group Series]; Double for Single Use 400.0 MAD [All Group Series]; Triple Room 540.0 MAD [All Group Series]; Leader Single Room 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -15351,6 +17268,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Auberge Chez Ali HB",
             "location": "",
@@ -15383,6 +17302,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Double - Tent; Leader Single - Tent; Quadruple- Tent; Single - Tent; Triple- Tent; Twin - Tent",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Single - Tent 980.0 MAD [All Group Series]; Double - Tent 1420.0 MAD [All Group Series]; Twin - Tent 1420.0 MAD [All Group Series]; Triple- Tent 1860.0 MAD [All Group Series]; Quadruple- Tent 2300.0 MAD [All Group Series]; Leader Single - Tent 980.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P6"
           },
           "fuzzyService": [],
@@ -15396,6 +17316,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Azawad Luxury Desert Camp",
             "location": "",
@@ -15426,6 +17348,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Per Crew; Per Person",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Per Person 30.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
@@ -15439,6 +17362,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Bread cooking Demonstration",
             "location": "",
@@ -15474,6 +17399,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Crew Twin Room; Double for Single Use; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Standard - Triple Room; Twin - Twin Room",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Standard - Twin Room 330.0 MAD [All Group Series]; Standard - Double Room 330.0 MAD [All Group Series]; Double for Single Use 300.0 MAD [All Group Series]; Standard - Single Room 300.0 MAD [All Group Series]; Standard - Triple Room 495.0 MAD [All Group Series]; Leader Single Room 0.0 MAD [All Group Series]; Crew Twin Room 0.0 MAD [All Group Series]; Standard - Twin Room 380.0 MAD [All Group Series]; Standard - Double Room 380.0 MAD [All Group Series]; Standard - Triple Room 580.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P6"
           },
           "fuzzyService": [],
@@ -15487,6 +17413,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Etoile Filante D'or HB",
             "location": "",
@@ -15519,6 +17447,7 @@ window.ISSUE_DATA = {
             "ST PCs": "City Tax; Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Suite - Double; Suite - Single; Suite - Twin; Twin - Standard Room",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Double - Standard Room 950.0 MAD [All Group Series]; Twin - Standard Room 950.0 MAD [All Group Series]; Single - Standard Room 850.0 MAD [All Group Series]; Suite - Double 1400.0 MAD [All Group Series]; Suite - Twin 1400.0 MAD [All Group Series]; Suite - Single 1400.0 MAD [All Group Series]; Leader Room Single - Standard 850.0 MAD [All Group Series]; (no PC) 13.2 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P5; P6"
           },
           "fuzzyService": [],
@@ -15532,6 +17461,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Executive Boutique Hotel Rabat",
             "location": "",
@@ -15566,6 +17497,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Per Crew; Per Person",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Per Person 20.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
@@ -15579,6 +17511,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Fondouk Nejjarine Fes",
             "location": "",
@@ -15614,6 +17548,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Breakfast; Double - Standard Room; Double-Junior; Maos Method Multiple Crew Room (Pax Banded) Max 16; Maos Method Multiple Crew Room (Pax Banded) Max 8; Single - Standard Room; Single-Junior; Twin - Standard Room; Twin-Junior",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "(no PC) 55.0 MAD [All Group Series]; Twin - Standard Room 870.0 MAD [All Group Series]; Single - Standard Room 860.0 MAD [All Group Series]; Double - Standard Room 870.0 MAD [All Group Series]; Twin - Standard Room 670.0 MAD [All Group Series]; Single - Standard Room 660.0 MAD [All Group Series]; Double - Standard Room 670.0 MAD [All Group Series]; Double - Standard Room 572.0 MAD [All Group Series]; Twin - Standard Room 572.0 MAD [All Group Series]; Single - Standard Room 561.0 MAD [All Group Series]; Double - Standard Room 847.0 MAD [All Group Series]; Twin - Standard Room 847.0 MAD [All Group Series]; Single - Standard Room 836.0 MAD [All Group Series]; Double-Junior 902.0 MAD [All Group Series]; Twin-Junior 902.0 MAD [All Group Series]; Single-Junior 891.0 MAD [All Group Series]; Double-Junior 682.0 MAD [All Group Series]; Twin-Junior 682.0 MAD [All Group Series]; Single-Junior 671.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 8 500.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 16 325.0 MAD [All Group Series]; Leader - Standard Room 583.0 MAD [All Group Series]; Leader - Standard Room 858.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P6"
           },
           "fuzzyService": [],
@@ -15627,6 +17562,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Charf",
             "location": "",
@@ -15658,6 +17595,7 @@ window.ISSUE_DATA = {
             "ST PCs": "City Tax; Double Room - Standard; Leader Single Room - Standard; Single Room - Standard; Twin Room - Standard",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Double Room 960.0 MAD [All Group Series]; Twin Room 960.0 MAD [All Group Series]; Single Room 730.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; Leader Single Room 730.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P6"
           },
           "fuzzyService": [],
@@ -15671,6 +17609,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Karam Palace HB",
             "location": "",
@@ -15703,6 +17643,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room (FIT) 906.4 MAD [All Group Series]; Single - Standard Room (FIT) 793.2 MAD [All Group Series]; Double - Standard Room (FIT) 906.4 MAD [All Group Series]; Leader Room Single - Standard (FIT) 730.0 MAD [All Group Series]; Triple - Standard Room (FIT) 1019.6 MAD [All Group Series]; Double - Standard Room 906.4 MAD [All Group Series]; Twin - Standard Room 906.4 MAD [All Group Series]; Single - Standard Room 793.2 MAD [All Group Series]; Leader Room Single - Standard 730.0 MAD [All Group Series]; Triple - Standard Room 1019.6 MAD [All Group Series]; Sawadee - 2nd Leader Room 793.2 MAD [All Group Series]",
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
@@ -15716,6 +17657,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Le Musee",
             "location": "",
@@ -15748,6 +17691,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room 586.0 MAD [All Group Series]; Single - Standard Room 413.0 MAD [All Group Series]; Double - Standard Room 586.0 MAD [All Group Series]; Leader Room Single - Standard 413.0 MAD [All Group Series]; Twin - Standard Room 783.0 MAD [FIT]; Single - Standard Room 556.0 MAD [FIT]; Double - Standard Room 783.0 MAD [FIT]; Triple - Standard Room 965.0 MAD [FIT]; Leader Room Single - Standard 556.0 MAD [FIT]; Twin - Standard Room 640.0 MAD [All Group Series]; Double - Standard Room 640.0 MAD [All Group Series]; Single - Standard Room 490.0 MAD [All Group Series]; Triple - Standard Room 740.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 490.0 MAD [All Group Series]; Leader Room Single - Standard (Up to 20 Pax) 0.0 MAD [All Group Series]; Twin - Standard Room 616.0 MAD [All Group Series]; Double - Standard Room 616.0 MAD [All Group Series]; Single - Standard Room 448.0 MAD [All Group Series]; Leader Room Single - Standard 448.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 448.0 MAD [All Group Series]; Double - Standard Room (FIT) 836.0 MAD [All Group Series]; Twin - Standard Room (FIT) 836.0 MAD [All Group Series]; Single - Standard Room (FIT) 588.0 MAD [All Group Series]; Triple - Standard Room (FIT) 1034.0 MAD [All Group Series]; Leader Room Single - Standard (Up to 20 Pax) 588.0 MAD [All Group Series]; Leader Room Single - Standard (Up to 20 Pax) (FIT) 0.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
@@ -15761,6 +17705,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Parador",
             "location": "",
@@ -15792,6 +17738,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Sawadee - 2nd Leader Room; Single - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room 422.0 MAD [All Group Series]; Single - Standard Room 331.0 MAD [All Group Series]; Double - Standard Room 422.0 MAD [All Group Series]; Leader Room Single - Standard 331.0 MAD [All Group Series]; (no PC) 100.0 MAD [All Group Series]; Double for Single Use 331.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 331.0 MAD [All Group Series]; Double - Standard Room 522.0 MAD [All Group Series]; Twin - Standard Room 522.0 MAD [All Group Series]; Double for Single Use 411.0 MAD [All Group Series]; Single - Standard Room 411.0 MAD [All Group Series]; Leader Room Single - Standard 411.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 411.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
@@ -15805,6 +17752,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Rose Valley",
             "location": "",
@@ -15836,6 +17785,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Sawadee - 2nd Leader Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Rom",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room (FIT) 380.0 MAD [All Group Series]; Single - Standard Room (FIT) 279.0 MAD [All Group Series]; Double - Standard Room (FIT) 380.0 MAD [All Group Series]; Triple - Standard Room (FIT) 510.0 MAD [All Group Series]; Double for Single Use (FIT) 279.0 MAD [All Group Series]; Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 279.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P6"
           },
           "fuzzyService": [],
@@ -15849,6 +17799,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Swani",
             "location": "",
@@ -15881,6 +17833,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Sawadee - 2nd Leader Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Single - Standard Room 340.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double for Single Use 340.0 MAD [All Group Series]; Twin - Standard Room 520.0 MAD [All Group Series]; Double - Standard Room 520.0 MAD [All Group Series]; Single - Standard Room 355.0 MAD [All Group Series]; Double for Single Use 405.0 MAD [All Group Series]; Twin - Standard Room 600.0 MAD [All Group Series]; Double - Standard Room 600.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 340.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 355.0 MAD [All Group Series]; Triple - Standard Room 960.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
@@ -15894,6 +17847,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Taddart HB",
             "location": "",
@@ -15929,6 +17884,7 @@ window.ISSUE_DATA = {
             "ST PCs": "City Tax; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Twin - Twin Room",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 970.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Triple - Standard Room 1790.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1030.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Triple - Standard Room 1910.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 950.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1000.0 MAD [All Group Series]; Triple - Standard Room 1740.0 MAD [All Group Series]; Triple - Standard Room 1885.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1050.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1400.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1400.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1020.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1340.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1340.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1850.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 3000.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 3000.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1930.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 3160.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 3160.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1130.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1560.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1560.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1100.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P6"
           },
           "fuzzyService": [],
@@ -15942,6 +17898,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Xaluca Dades HB",
             "location": "",
@@ -15977,6 +17935,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Single Room",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Single Room 350.0 MAD [All Group Series]; Double Room 500.0 MAD [All Group Series]; Twin Room 500.0 MAD [All Group Series]; Leader Room 0.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P6"
           },
           "fuzzyService": [],
@@ -15990,6 +17949,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah La Famille Berbere HB",
             "location": "",
@@ -16021,6 +17982,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Per Group",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Per Group Per Day (Non-Banded) 300.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 350.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P6; P10"
           },
           "fuzzyService": [],
@@ -16034,6 +17996,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Meknes",
             "location": "",
@@ -16066,6 +18030,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Per Group",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Per Group Per Day (Banded) Max 20 200.0 MAD [All Group Series]; Per Group Per Day (Banded) Max 40 500.0 MAD [All Group Series]; Per Group Per Day (Banded) Max 20 350.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P6; P10"
           },
           "fuzzyService": [],
@@ -16079,6 +18044,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local Guide Site Visit Volubilis",
             "location": "",
@@ -16116,6 +18083,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader - Single Standard Room; Single - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Double - Standard Room 365.0 MAD [All Group Series]; Twin - Standard Room 365.0 MAD [All Group Series]; Single - Standard Room 280.0 MAD [All Group Series]; Double for Single Use 280.0 MAD [All Group Series]; Leader - Single Standard Room 0.0 MAD [All Group Series]; Double - Standard Room 390.0 MAD [All Group Series]; Twin - Standard Room 390.0 MAD [All Group Series]; Single - Standard Room 310.0 MAD [All Group Series]; Double for Single Use 310.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P5; P6"
           },
           "fuzzyService": [],
@@ -16129,6 +18097,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Mia Hotel - Fes",
             "location": "",
@@ -16169,6 +18139,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Daily Crew Bonus",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Daily Crew Bonus 40.0 MAD [All Group Series]; Daily Crew Bonus 50.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6; P10"
           },
           "fuzzyService": [],
@@ -16182,6 +18153,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Morocco - Daily Crew Bonus Accrual",
             "location": "",
@@ -16222,6 +18195,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Per Crew Per Day",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Per Crew Per Day 15.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P5; P6; P10"
           },
           "fuzzyService": [],
@@ -16235,6 +18209,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Morocco - Leader Communication Allowance",
             "location": "",
@@ -16269,6 +18245,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Double - Junior Suite; Leader Room Single - Standard; Single - Junior Suite; Twin - Junior Suite",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Leader Room Single - Standard 350.0 MAD [All Group Series]; Twin - Junior Suite 1450.0 MAD [All Group Series]; Single - Junior Suite 1140.0 MAD [All Group Series]; Double - Junior Suite 1450.0 MAD [All Group Series]; Twin - Junior Suite 1780.0 MAD [All Group Series]; Single - Junior Suite 1440.0 MAD [All Group Series]; Double - Junior Suite 1780.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin - Junior Suite 1880.0 MAD [All Group Series]; Single - Junior Suite 1490.0 MAD [All Group Series]; Double - Junior Suite 1880.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
@@ -16282,6 +18259,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Palais Ommeyad Suites and Spa",
             "location": "",
@@ -16313,6 +18292,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room 1150.0 MAD [All Group Series]; Single - Standard Room 800.0 MAD [All Group Series]; Double - Standard Room 1150.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 490.0 MAD [All Group Series]; Twin - Standard Room 490.0 MAD [All Group Series]; Single - Standard Room 350.0 MAD [All Group Series]; Triple - Standard Room 740.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P6"
           },
           "fuzzyService": [],
@@ -16326,6 +18306,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Atlas 4 Seasons - HB",
             "location": "",
@@ -16360,6 +18342,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room; Twin Room (Family)",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room 285.0 MAD [All Group Series]; Single - Standard Room 225.0 MAD [All Group Series]; Double - Standard Room 285.0 MAD [All Group Series]; Triple - Standard Room 420.0 MAD [All Group Series]; Double for Single Use 250.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 295.0 MAD [All Group Series]; Double for Single Use 260.0 MAD [All Group Series]; Single - Standard Room 230.0 MAD [All Group Series]; Twin - Standard Room 295.0 MAD [All Group Series]; Twin Room (Family) 289.25 MAD [All Group Series]; Single - Standard Room 260.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
@@ -16373,6 +18356,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Chakir Mogador",
             "location": "",
@@ -16412,6 +18397,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Twin Room",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room 1100.0 MAD [All Group Series]; Single - Standard Room 1100.0 MAD [All Group Series]; Double - Standard Room 1100.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; (no PC) 45.0 MAD [All Group Series]; Double for Single Use 1100.0 MAD [All Group Series]; Twin - Standard Room 2200.0 MAD [FIT]; Single - Standard Room 2200.0 MAD [FIT]; Double - Standard Room 2200.0 MAD [FIT]; Double for Single Use 2200.0 MAD [FIT]; Leader Room Single - Standard 2200.0 MAD [FIT]; (no PC) 45.0 MAD [FIT]; Twin - Standard Room 1190.0 MAD [All Group Series]; Single - Standard Room 1145.0 MAD [All Group Series]; Double - Standard Room 1190.0 MAD [All Group Series]; Double for Single Use 1145.0 MAD [All Group Series]; Double - Standard Room 2400.0 MAD [All Group Series]; Twin - Standard Room 2400.0 MAD [All Group Series]; Single - Standard Room 2400.0 MAD [All Group Series]; Double - Standard Room 1900.0 MAD [All Group Series]; Twin - Standard Room 1900.0 MAD [All Group Series]; Single - Standard Room 1900.0 MAD [All Group Series]; Double - Standard Room 2600.0 MAD [All Group Series]; Twin - Standard Room 2600.0 MAD [All Group Series]; Single - Standard Room 2600.0 MAD [All Group Series]; Double - Standard Room (FIT) 1900.0 MAD [All Group Series]; Twin - Standard Room (FIT) 1900.0 MAD [All Group Series]; Single - Standard Room (FIT) 1900.0 MAD [All Group Series]; Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Double - Standard Room (FIT) 2400.0 MAD [All Group Series]; Twin - Standard Room (FIT) 2400.0 MAD [All Group Series]; Single - Standard Room (FIT) 2400.0 MAD [All Group Series]; Double - Standard Room (FIT) 2600.0 MAD [All Group Series]; Twin - Standard Room (FIT) 2600.0 MAD [All Group Series]; Single - Standard Room (FIT) 2600.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P6"
           },
           "fuzzyService": [],
@@ -16425,6 +18411,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad la Cle d’Or",
             "location": "",
@@ -16456,6 +18444,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Double Room - Standard; Leader Single Room - Standard; Single Room - Standard; Triple Room - Standard; Twin Room - Standard",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Single Room - Standard 778.0 MAD [All Group Series]; Leader Single Room - Standard 778.0 MAD [All Group Series]; Double Room - Standard 956.0 MAD [All Group Series]; Twin Room - Standard 956.0 MAD [All Group Series]; Triple Room - Standard 1234.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
@@ -16469,6 +18458,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Lamane - HB",
             "location": "",
@@ -16501,6 +18492,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Crew Twin Room - Standard; Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room 600.0 MAD [All Group Series]; Double - Standard Room 600.0 MAD [All Group Series]; Double for Single Use 600.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Crew Twin Room - Standard 0.0 MAD [All Group Series]; Single - Standard Room 600.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
@@ -16514,6 +18506,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Ritaj",
             "location": "",
@@ -16546,6 +18540,7 @@ window.ISSUE_DATA = {
             "ST PCs": "Double - Tent; Leader Tent Single; Single - Tent; Triple - Tent; Twin - Tent",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Multishare - Tent (with Shared Facilities) 250.0 MAD [All Group Series]; Leader Tent Single 0.0 MAD [All Group Series]; Single - Tent (FIT) 250.0 MAD [All Group Series]; Triple - Tent (FIT) 750.0 MAD [All Group Series]; Double - Tent (FIT) 500.0 MAD [All Group Series]; Twin - Tent (FIT) 500.0 MAD [All Group Series]; Single - Tent (FIT) 260.0 MAD [All Group Series]; Triple - Tent (FIT) 780.0 MAD [All Group Series]; Double - Tent (FIT) 520.0 MAD [All Group Series]; Twin - Tent (FIT) 520.0 MAD [All Group Series]; Multishare - Tent (with Shared Facilities) 260.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P6"
           },
           "fuzzyService": [],
@@ -16559,6 +18554,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Sahara Aventures Camp",
             "location": "",
@@ -16590,7 +18587,8 @@ window.ISSUE_DATA = {
             "Package PCs": "Per Person",
             "ST PCs": "Per Crew; Per Person",
             "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT"
+            "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Per Person 100.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]; Sawadee - 2nd Leader 100.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -16603,6 +18601,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Volubilis Visit",
             "location": "",
@@ -16659,6 +18659,8 @@ window.ISSUE_DATA = {
           "prodType": "Activity",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Atlas Film Studio visit",
             "location": "Ouarzazate",
@@ -16704,6 +18706,8 @@ window.ISSUE_DATA = {
           "prodType": "Activity",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Bread cooking Demonstration",
             "location": "Imlil",
@@ -16749,6 +18753,8 @@ window.ISSUE_DATA = {
           "prodType": "Activity",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Cheese Tasting",
             "location": "Chefcharouen",
@@ -16794,6 +18800,8 @@ window.ISSUE_DATA = {
           "prodType": "Activity",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Day Trip to Khamlia 4x4 Excursion",
             "location": "Merzouga Desert Camp",
@@ -16840,6 +18848,8 @@ window.ISSUE_DATA = {
           "prodType": "Activity",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Chefchaouen",
             "location": "Chefcharouen",
@@ -16897,6 +18907,8 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Ait Benhaddou",
             "location": "Ait Benhaddou",
@@ -16943,6 +18955,8 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Essaouira",
             "location": "Essaouira",
@@ -16988,6 +19002,8 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Imlil",
             "location": "Imlil",
@@ -17035,6 +19051,8 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Marrakech",
             "location": "Marrakech",
@@ -17080,6 +19098,8 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Meknes",
             "location": "Meknes",
@@ -17126,6 +19146,8 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local Guide Site Visit Volubilis",
             "location": "Volubilis",
@@ -17180,6 +19202,8 @@ window.ISSUE_DATA = {
           "prodType": "Crew Services",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Morocco - Daily Crew Bonus Accrual",
             "location": "Morocco",
@@ -17234,6 +19258,8 @@ window.ISSUE_DATA = {
           "prodType": "Crew Services",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Morocco - Leader Communication Allowance",
             "location": "Morocco",
@@ -17288,6 +19314,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "fullyMissing": true,
           "formDefaults": {
             "name": "Free Time",
@@ -17332,6 +19360,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Moulay Driss Couscous Lunch",
             "location": "",
@@ -17383,6 +19413,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "4WD Excursion",
             "location": "",
@@ -17423,6 +19455,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Afternoon Hammam & Massage - Mythic Oriental Spa",
             "location": "",
@@ -17469,6 +19503,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Afternoon Hammam Experience - Mythic Oriental Spa",
             "location": "",
@@ -17509,6 +19545,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Amazigh Brunch in the Valley",
             "location": "",
@@ -17551,6 +19589,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Ancient Library Tamegroute",
             "location": "",
@@ -17593,6 +19633,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Atlas Film Studio visit",
             "location": "",
@@ -17639,6 +19681,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Atlas Studios Visit",
             "location": "",
@@ -17682,6 +19726,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Auberge Chez Ali HB",
             "location": "",
@@ -17728,6 +19774,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Azawad Luxury Desert Camp - HB",
             "location": "",
@@ -17774,6 +19822,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Azawad Luxury Desert Camp HB",
             "location": "",
@@ -17821,6 +19871,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Azawad Luxury Desert Camp-HB",
             "location": "",
@@ -17862,6 +19914,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Azrou Cedar Forest & Barbary Macaques Visit",
             "location": "",
@@ -17903,6 +19957,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Bahia palace entrance",
             "location": "",
@@ -17944,6 +20000,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Bhalil Cave House Visit with Tea Break",
             "location": "",
@@ -17995,6 +20053,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Bread cooking  Demonstration",
             "location": "",
@@ -18038,6 +20098,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Bread cooking Demonstration",
             "location": "",
@@ -18089,6 +20151,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Bread-Making Demonstration",
             "location": "",
@@ -18131,6 +20195,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Camel Ride",
             "location": "",
@@ -18182,6 +20248,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Camel Ride - Sunrise",
             "location": "",
@@ -18229,6 +20297,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Camel Ride - Sunset",
             "location": "",
@@ -18269,6 +20339,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Camp Alladin -HB",
             "location": "",
@@ -18315,6 +20387,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Camp Caravane -HB",
             "location": "",
@@ -18361,6 +20435,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Camp Caravane HB",
             "location": "",
@@ -18408,6 +20484,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Camp Caravane-HB",
             "location": "",
@@ -18459,6 +20537,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Camp la Caravane - HB",
             "location": "",
@@ -18505,6 +20585,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Camp le sand-HB",
             "location": "",
@@ -18549,6 +20631,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Cap spartel",
             "location": "",
@@ -18591,6 +20675,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Cheese Tasting",
             "location": "",
@@ -18633,6 +20719,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Cooking Class and Lunch at Tawsna Association",
             "location": "",
@@ -18690,6 +20778,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Daily Crew Bonus Accrual",
             "location": "",
@@ -18736,6 +20826,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Dar cherifa 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Dar cherifa",
             "location": "",
@@ -18778,6 +20870,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Day Trip to Khamlia 4x4 Excursion",
             "location": "",
@@ -18819,6 +20913,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Domaine de la Roseraie Resort and Spa HB",
             "location": "",
@@ -18859,6 +20955,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Ecolodge Dar Itrane -HB",
             "location": "",
@@ -18906,6 +21004,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Essaouira Cooking Class- Madada",
             "location": "",
@@ -18953,6 +21053,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Etoile Filante D'or HB",
             "location": "",
@@ -18998,6 +21100,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Executive Boutique Hotel Rabat",
             "location": "",
@@ -19049,6 +21153,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Farewell Dinner Marrakech - El Fassia Restaurant",
             "location": "",
@@ -19094,6 +21200,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Fondouk Nejjarine Fes",
             "location": "",
@@ -19135,6 +21243,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Free Time",
             "location": "",
@@ -19186,6 +21296,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Guided Hike - Ait Bouguemez (Happy Valley)",
             "location": "",
@@ -19230,6 +21342,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hassan II Mosque Visit",
             "location": "",
@@ -19277,6 +21391,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hassan Tower",
             "location": "",
@@ -19328,6 +21444,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Home cooked Lunch",
             "location": "",
@@ -19380,6 +21498,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Home-Cooked Lunch",
             "location": "",
@@ -19430,6 +21550,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Al Walid 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Al Walid",
             "location": "",
@@ -19480,6 +21602,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Belere 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Belere",
             "location": "",
@@ -19534,6 +21658,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Caspien",
             "location": "",
@@ -19577,6 +21703,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Hilton 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Hilton",
             "location": "",
@@ -19620,6 +21748,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Karam Palace HB",
             "location": "",
@@ -19671,6 +21801,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Karam palace-HB",
             "location": "",
@@ -19715,6 +21847,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel le Caspien 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel le Caspien",
             "location": "",
@@ -19761,6 +21895,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Musee 2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Le Musee",
             "location": "",
@@ -19809,6 +21945,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Les Saisons  2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Les Saisons",
             "location": "",
@@ -19855,6 +21993,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Oscar-HB",
             "location": "",
@@ -19901,6 +22041,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Parador 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Parador",
             "location": "",
@@ -19956,6 +22098,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Riad BaHammou Dades HB",
             "location": "",
@@ -20007,6 +22151,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Riad BaHammou Dades-HB",
             "location": "",
@@ -20052,6 +22198,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Rose Valley 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Rose Valley",
             "location": "",
@@ -20097,6 +22245,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Swani 2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Swani",
             "location": "",
@@ -20141,6 +22291,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Taddart HB",
             "location": "",
@@ -20185,6 +22337,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Tarek 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Tarek",
             "location": "",
@@ -20226,6 +22380,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Toumbouctou-HB",
             "location": "",
@@ -20266,6 +22422,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Transatlantique",
             "location": "",
@@ -20317,6 +22475,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Xaluca Dades-HB",
             "location": "",
@@ -20363,6 +22523,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Xaluxa Dades HB",
             "location": "",
@@ -20410,6 +22572,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Yassmina-HB",
             "location": "",
@@ -20458,6 +22622,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Idou Anfa 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Idou Anfa Hotel & Spa",
             "location": "",
@@ -20499,6 +22665,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Africa HB",
             "location": "",
@@ -20550,6 +22718,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Ait Ben Damiette-HB",
             "location": "",
@@ -20594,6 +22764,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Ait Benhaddou Visit",
             "location": "",
@@ -20637,6 +22809,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Amridil Visit",
             "location": "",
@@ -20680,6 +22854,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Chefchaouen",
             "location": "",
@@ -20721,6 +22897,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah des Oudaias",
             "location": "",
@@ -20768,6 +22946,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Hnini HB",
             "location": "",
@@ -20814,6 +22994,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Itrane-HB",
             "location": "",
@@ -20865,6 +23047,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah la famille berbere-HB",
             "location": "",
@@ -20917,6 +23101,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Ksar Timnay Riad Mimouna-HB",
             "location": "",
@@ -20957,6 +23143,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "L'ma lodge-HB",
             "location": "",
@@ -20997,6 +23185,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Le Palais des Cerisiers-HB",
             "location": "",
@@ -21054,6 +23244,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Leader Communication Allowance",
             "location": "",
@@ -21094,6 +23286,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local Embroidery Workshop Visit",
             "location": "",
@@ -21137,6 +23331,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Ait Benhaddou",
             "location": "",
@@ -21186,6 +23382,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local Guide Casablanca",
             "location": "",
@@ -21238,6 +23436,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local Guide Chefchaouen",
             "location": "",
@@ -21290,6 +23490,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Essaouira",
             "location": "",
@@ -21343,6 +23545,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local Guide Fes Half Day",
             "location": "",
@@ -21395,6 +23599,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide half day Casablanca",
             "location": "",
@@ -21438,6 +23644,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Essaouira",
             "location": "",
@@ -21480,6 +23688,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Imlil",
             "location": "",
@@ -21524,6 +23734,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Marrakech",
             "location": "",
@@ -21567,6 +23779,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Half day Meknes",
             "location": "",
@@ -21619,6 +23833,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide half day Ouirgane",
             "location": "",
@@ -21674,6 +23890,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Marrakech",
             "location": "",
@@ -21726,6 +23944,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local Guide Rabat",
             "location": "",
@@ -21769,6 +23989,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local Guide Site Visit Volubilis",
             "location": "",
@@ -21820,6 +24042,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local Guide Tanger",
             "location": "",
@@ -21867,6 +24091,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Local guide Tangier",
             "location": "",
@@ -21910,6 +24136,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Lodge Hara Oasis 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Lodge Hara Oasis HB",
             "location": "",
@@ -21961,6 +24189,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Lunch at Tawesna",
             "location": "",
@@ -22012,6 +24242,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Lunch En Route",
             "location": "",
@@ -22055,6 +24287,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Lunch With a Local Family in Todra",
             "location": "",
@@ -22095,6 +24329,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Maison d'Hôtes Kasbah Azul-HB",
             "location": "",
@@ -22142,6 +24378,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Maison du Sud",
             "location": "",
@@ -22184,6 +24422,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Marina Bay City Center",
             "location": "",
@@ -22224,6 +24464,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Marrakech food tasting budget",
             "location": "",
@@ -22269,6 +24511,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Marrakech Simply Tasting Trail",
             "location": "",
@@ -22312,6 +24556,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Mausoleum Hassan II",
             "location": "",
@@ -22355,6 +24601,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Mausoleum Mohammed V",
             "location": "",
@@ -22404,6 +24652,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Medersa Attarine Fes",
             "location": "",
@@ -22452,6 +24702,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Mia Camp HB",
             "location": "",
@@ -22502,6 +24754,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Mia Hotel - Fes",
             "location": "",
@@ -22543,6 +24797,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Mint Tea with sweets",
             "location": "",
@@ -22594,6 +24850,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Morocco - Daily Crew Bonus Accrual",
             "location": "",
@@ -22646,6 +24904,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Morocco - Leader Communication Allowance",
             "location": "",
@@ -22708,6 +24968,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Morocco FIT - Tour Leader Daily Services - Standard",
             "location": "",
@@ -22755,6 +25017,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Moulay Driss Couscous Lunch",
             "location": "",
@@ -22797,6 +25061,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Palais Bahia Visit Marrakech",
             "location": "",
@@ -22848,6 +25114,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Palmeras y Dunas HB",
             "location": "",
@@ -22899,6 +25167,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Palmeras Y Dunas Luxury Camp  HB",
             "location": "",
@@ -22941,6 +25211,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Palmeras Y Dunas Luxury Camp - HB",
             "location": "",
@@ -22994,6 +25266,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Palmeras y Dunas-HB",
             "location": "",
@@ -23035,6 +25309,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Pastries tasting",
             "location": "",
@@ -23092,6 +25368,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Private Vehicle & Driver",
             "location": "",
@@ -23147,6 +25425,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad 48",
             "location": "",
@@ -23190,6 +25470,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Atlas 4 Seasons - HB",
             "location": "",
@@ -23236,6 +25518,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Chakir",
             "location": "",
@@ -23283,6 +25567,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Chakir Mogador 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Chakir Mogador",
             "location": "",
@@ -23324,6 +25610,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Chebbi-HB",
             "location": "",
@@ -23370,6 +25658,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Jnane Imlil - HB",
             "location": "",
@@ -23422,6 +25712,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Ksar Ighnda-HB",
             "location": "",
@@ -23465,6 +25757,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Lamane - HB",
             "location": "",
@@ -23512,6 +25806,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Maktoub HB",
             "location": "",
@@ -23557,6 +25853,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Ritaj 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Ritaj",
             "location": "",
@@ -23605,6 +25903,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Sayeda al Hora 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Sayeda al Hora",
             "location": "",
@@ -23650,6 +25950,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Sahara Aventures Camp 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Sahara Aventures Camp",
             "location": "",
@@ -23693,6 +25995,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Seafood Market Lunch",
             "location": "",
@@ -23739,6 +26043,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Skoura Lodge- HB",
             "location": "",
@@ -23779,6 +26085,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Sunset drink at Taman’Art Space Studio",
             "location": "",
@@ -23825,6 +26133,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Taourirt Kasbah Visit",
             "location": "",
@@ -23871,6 +26181,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Todra Gorge Visit",
             "location": "",
@@ -23917,6 +26229,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Train Ticket  1st class",
             "location": "",
@@ -23963,6 +26277,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Train ticket- 1st class",
             "location": "",
@@ -24015,6 +26331,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Transfer - Hotel to Train Station",
             "location": "",
@@ -24067,6 +26385,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Transfer - Train Station to Hotel",
             "location": "",
@@ -24114,6 +26434,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Transfer to Tasting Trail",
             "location": "",
@@ -24155,6 +26477,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Transfer to The Guided Tour Casablanca",
             "location": "",
@@ -24195,6 +26519,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Transport Between Trip- Marrakech Fes",
             "location": "",
@@ -24235,6 +26561,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Transport Between Trip- Tangier Marrakech",
             "location": "",
@@ -24286,6 +26614,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Transport Between Trips  -Marrakech Tangier",
             "location": "",
@@ -24337,6 +26667,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Transport Between Trips -  Fes Marrakech",
             "location": "",
@@ -24388,6 +26720,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Transport Between Trips - Casablanca Marrakech",
             "location": "",
@@ -24439,6 +26773,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Transport between Trips - Fes Marrakech",
             "location": "",
@@ -24494,6 +26830,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Transport between trips - Marrakech Fes",
             "location": "",
@@ -24545,6 +26883,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Transport between Trips - Marrakech Tangier",
             "location": "",
@@ -24596,6 +26936,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Transport Between Trips- Casablanca Marrakech",
             "location": "",
@@ -24648,6 +26990,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Transport Between Trips- Marrakech Casablanca",
             "location": "",
@@ -24699,6 +27043,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Transport between trips- Tangier Marrakech",
             "location": "",
@@ -24739,6 +27085,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Underground Kasbah Guided Tour",
             "location": "",
@@ -24782,6 +27130,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Volubilis Visit",
             "location": "",
@@ -24828,6 +27178,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Wine Tasting & Lunch at Château Roslane",
             "location": "",
@@ -24874,6 +27226,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Wine Tasting & Lunch at Val d'Argan",
             "location": "",
@@ -24915,6 +27269,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Xaluxa aguelmame sidi Ali-HB",
             "location": "",
@@ -24955,6 +27311,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Zephyr Hotel- HB",
             "location": "",
@@ -25008,6 +27366,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "2 Ciels Luxury Boutique 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "2 Ciels Luxury Boutique",
             "location": "",
@@ -25050,6 +27410,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Aladdin Camp 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Aladdin Camp",
             "location": "",
@@ -25090,6 +27452,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Amadil 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Amadil",
             "location": "",
@@ -25130,6 +27494,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Auberge & Camp Yasmina 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Auberge & Camp Yasmina",
             "location": "",
@@ -25170,6 +27536,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Auberge Chez Ali 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Auberge Chez Ali",
             "location": "",
@@ -25210,6 +27578,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Auberge Chez Momo 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Auberge Chez Momo",
             "location": "",
@@ -25252,6 +27622,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Azawad Riad & Desert Camp 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Azawad Luxury Desert Camp",
             "location": "",
@@ -25293,6 +27665,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Camp Aladdin 2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Camp Aladdin",
             "location": "",
@@ -25335,6 +27709,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Camp La Caravane 2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Camp La Caravane",
             "location": "",
@@ -25377,6 +27753,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Château Roslane Boutique Hôtel & SPA 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Château Roslane Boutique Hôtel & Spa",
             "location": "",
@@ -25419,6 +27797,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Cote Ocean Mogador Hotel 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Cote Ocean Mogador Hotel",
             "location": "",
@@ -25461,6 +27841,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Dar Baibou 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Dar Baibou",
             "location": "",
@@ -25504,6 +27886,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Dar cherifa 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Dar cherifa",
             "location": "",
@@ -25546,6 +27930,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Dar Echaouen 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Dar Echaouen",
             "location": "",
@@ -25586,6 +27972,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Diyar Timnay 2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Diyar Timnay",
             "location": "",
@@ -25626,6 +28014,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Emeraude Luxury Camp & Tents 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Emeraude Luxury Camp & Tents",
             "location": "",
@@ -25666,6 +28056,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Etoile Filante D'or 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Etoile Filante D'or",
             "location": "",
@@ -25706,6 +28098,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Executive Boutique Hotel 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Executive Boutique Hotel",
             "location": "",
@@ -25748,6 +28142,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Al Kalaa 2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Al Kalaa",
             "location": "",
@@ -25791,6 +28187,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Al Walid 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Al Walid",
             "location": "",
@@ -25832,6 +28230,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Belere 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Belere",
             "location": "",
@@ -25874,6 +28274,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Charf 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Charf",
             "location": "",
@@ -25916,6 +28318,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Gomassine 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Gomassine",
             "location": "",
@@ -25958,6 +28362,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Grand Plaza 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Grand Plaza",
             "location": "",
@@ -26000,6 +28406,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Gray Boutique Hotel 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Gray Boutique",
             "location": "",
@@ -26041,6 +28449,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Hilton 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Hilton",
             "location": "",
@@ -26081,6 +28491,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Karam Palace 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Karam Palace",
             "location": "",
@@ -26121,6 +28533,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Xaluca Lac Aguelmam 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Lac Aguelmam",
             "location": "",
@@ -26164,6 +28578,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel le Caspien 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel le Caspien",
             "location": "",
@@ -26207,6 +28623,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Musee 2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Le Musee",
             "location": "",
@@ -26250,6 +28668,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Les Saisons  2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Les Saisons",
             "location": "",
@@ -26290,6 +28710,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Longue Vie 2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Longue Vie",
             "location": "",
@@ -26330,6 +28752,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Miramar 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Miramar / Hotel Miramar Sea View",
             "location": "",
@@ -26372,6 +28796,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Mont Gueliz 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Mont Gueliz",
             "location": "",
@@ -26412,6 +28838,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Oasis & Spa 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Oasis & Spa",
             "location": "",
@@ -26454,6 +28882,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Olympic 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Olympic",
             "location": "",
@@ -26497,6 +28927,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Parador 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Parador",
             "location": "",
@@ -26540,6 +28972,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Rose Valley 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Rose Valley",
             "location": "",
@@ -26583,6 +29017,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Swani 2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Swani",
             "location": "",
@@ -26623,6 +29059,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Taddart 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Taddart",
             "location": "",
@@ -26664,6 +29102,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Tarek 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Tarek",
             "location": "",
@@ -26706,6 +29146,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Tomboctou Xaluca 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Tomboctou Xaluca",
             "location": "",
@@ -26748,6 +29190,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Volubilis 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Volubilis",
             "location": "",
@@ -26790,6 +29234,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Xaluca Dades 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Xaluca Dades",
             "location": "",
@@ -26832,6 +29278,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Yasmina 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Hotel Yasmina",
             "location": "",
@@ -26875,6 +29323,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Idou Anfa 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Idou Anfa Hotel & Spa",
             "location": "",
@@ -26915,6 +29365,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Kasbah du Toubkal 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah du Toubkal",
             "location": "",
@@ -26955,6 +29407,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Kasbah Hnini 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Hnini",
             "location": "",
@@ -26995,6 +29449,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Kasbah La Famille Berbere 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah La Famille Berbere",
             "location": "",
@@ -27035,6 +29491,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Ksar Shama 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Ksar Shama",
             "location": "",
@@ -27077,6 +29535,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Ksar Timnay Riad Mimouna 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Ksar Timnay Riad Mimouna",
             "location": "",
@@ -27117,6 +29577,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "La Colombe Blanche 2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "La Colombe Blanche",
             "location": "",
@@ -27157,6 +29619,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Le Palais des Cerisiers 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Le Palais des Cerisiers",
             "location": "",
@@ -27197,6 +29661,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Lodge Hara Oasis 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Lodge Hara Oasis BB",
             "location": "",
@@ -27238,6 +29704,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Lodge Hara Oasis 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Lodge Hara Oasis HB",
             "location": "",
@@ -27278,6 +29746,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Marina Bay 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Marina Bay",
             "location": "",
@@ -27318,6 +29788,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Mia Hotels 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Mia Hotels",
             "location": "",
@@ -27360,6 +29832,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Moroccan House Hotel Marrakech 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Moroccan House Hotel Marrakech",
             "location": "",
@@ -27402,6 +29876,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Palais Houyam 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Palais Houyam",
             "location": "",
@@ -27442,6 +29918,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Palais Ommeyad  2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Palais Ommeyad",
             "location": "",
@@ -27484,6 +29962,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Palmeras Y Dunas Luxury Camp 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Palmeras Y Dunas Luxury Camp",
             "location": "",
@@ -27524,6 +30004,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Puerta Azul 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Puerta Azul",
             "location": "",
@@ -27564,6 +30046,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad & Camp Chebbi 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad & Camp Chebbi",
             "location": "",
@@ -27606,6 +30090,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Kasbah Riad 48 & Spa 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad 48 & Spa",
             "location": "",
@@ -27646,6 +30132,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Atlas 4 Seasons 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Atlas 4 Seasons",
             "location": "",
@@ -27686,6 +30174,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "RIAD BAHAMMOU 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "RIAD BAHAMMOU",
             "location": "",
@@ -27728,6 +30218,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Benatar 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Benatar",
             "location": "",
@@ -27771,6 +30263,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Chakir Mogador 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Chakir Mogador",
             "location": "",
@@ -27814,6 +30308,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Chbanate 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Chbanate",
             "location": "",
@@ -27856,6 +30352,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad El Palacio & Spa 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad El Palacio & Spa",
             "location": "",
@@ -27896,6 +30394,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Fes Ziyat 2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Fes ziyat",
             "location": "",
@@ -27936,6 +30436,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Jnane Imlil 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Jnane Imlil",
             "location": "",
@@ -27976,6 +30478,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Joudour 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Joudour",
             "location": "",
@@ -28016,6 +30520,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Ksar Ighnda 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Ksar Ighnda",
             "location": "",
@@ -28059,6 +30565,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad la Clé d'Or 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad la Cle d’Or",
             "location": "",
@@ -28099,6 +30607,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Lamane 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Lamane",
             "location": "",
@@ -28139,6 +30649,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Maison du Sud 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Maison du Sud",
             "location": "",
@@ -28179,6 +30691,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Maktoub 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Maktoub",
             "location": "",
@@ -28221,6 +30735,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Marrakech By Hivernage 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Marrakech By Hivernage",
             "location": "",
@@ -28261,6 +30777,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Mimouna 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Mimouna",
             "location": "",
@@ -28303,6 +30821,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Nesma 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Nesma",
             "location": "",
@@ -28343,6 +30863,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad ouinz 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad ouinz",
             "location": "",
@@ -28385,6 +30907,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Oussagou 2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Oussagou",
             "location": "",
@@ -28427,6 +30951,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Raoud Rayhane 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Raoud Rayhane",
             "location": "",
@@ -28470,6 +30996,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Ritaj 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Ritaj",
             "location": "",
@@ -28513,6 +31041,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Sayeda al Hora 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Sayeda al Hora",
             "location": "",
@@ -28555,6 +31085,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Tafilalet 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Tafilalet",
             "location": "",
@@ -28595,6 +31127,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Sahara Aventure 2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Sahara Aventure",
             "location": "",
@@ -28638,6 +31172,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Sahara Aventures Camp 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Sahara Aventures Camp",
             "location": "",
@@ -28680,6 +31216,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Stars Hotel 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Stars Hotel",
             "location": "",
@@ -28722,6 +31260,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "The View Agadir 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "The View Agadir",
             "location": "",
@@ -28763,6 +31303,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "The White Camel 2026",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "The White Camel",
             "location": "",
@@ -28803,6 +31345,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Villa Pomme D'Or 2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Villa Pomme D'Or",
             "location": "",
@@ -28843,6 +31387,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Zephyr Mazagan 2026-2027",
           "prodAgreement": "—",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Zephyr Mazagan",
             "location": "",
@@ -28900,6 +31446,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Executive Boutique Hotel Rabat",
             "location": "",
@@ -28949,6 +31497,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Idou Anfa 2026-2027",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Idou Anfa Hotel & Spa",
             "location": "",
@@ -28997,6 +31547,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Maison du Sud",
             "location": "",
@@ -29048,6 +31600,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Mia Hotel - Fes",
             "location": "",
@@ -29101,6 +31655,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Morocco - Leader Communication Allowance",
             "location": "",
@@ -29150,6 +31706,8 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Chbanate 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "priceCompare": [],
+          "stPriceDates": "",
           "formDefaults": {
             "name": "Riad Chbanate",
             "location": "",

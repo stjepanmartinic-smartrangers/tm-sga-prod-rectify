@@ -20,6 +20,8 @@ The yellow banner at the top is the reminder: **Save online** or other people wi
 
 **Reload saved work** warns and then overwrites this browser with the shared online copy. If the live store does not respond, Reload uses the last published GitHub snapshot instead.
 
+**P4 Missing Prod pricing** shows ST vs Prod amounts by price category. **Yes** = insert the ST price. **No** = keep the Prod price. Yes and No are both green so No is not the “wrong” answer.
+
 Worker source: `C:\VsCode\TailorMade\data\tm-packages-v1\rectify-store`. Cloudflare account claimed 9 Nov 2026. Live: https://tm-sga-prod-rectify-store.graceful-kryptops.workers.dev
 
 ## Local copy

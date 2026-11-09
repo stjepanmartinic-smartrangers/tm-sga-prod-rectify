@@ -107,6 +107,26 @@
     }
     .choices label:hover { border-color: #c9bfae; }
     .choices label input { margin-top: 3px; }
+    .choices label.opt.yes,
+    .choices label.opt.no {
+      border-left: 4px solid var(--yes);
+    }
+    .choices label.opt.yes:has(input:checked),
+    .choices label.opt.no:has(input:checked) {
+      background: var(--yes-bg);
+      border-color: var(--yes);
+    }
+    .price-compare {
+      width: 100%; border-collapse: collapse; font-size: 13px; margin: 10px 0 8px;
+    }
+    .price-compare th {
+      text-align: left; background: #eef3f9; color: #1F4E79; padding: 6px 8px; font-weight: 650;
+    }
+    .price-compare td {
+      border-top: 1px solid var(--line); padding: 6px 8px; vertical-align: top;
+    }
+    .price-compare .none { color: var(--muted); }
+    .price-note { font-size: 12px; color: var(--muted); margin: 8px 0 0; }
     .score { color: var(--accent); font-weight: 650; font-size: 12px; }
     textarea { width: 100%; min-height: 52px; }
     .row-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
@@ -195,6 +215,6 @@
     </div>
   </dialog>
   <script src="data.js"></script>
-  <script src="app.js?v=20261109cf"></script>
+  <script src="app.js?v=20261109p4"></script>
 </body>
 </html>

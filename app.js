@@ -302,6 +302,17 @@
         { value: "no", label: "No — Group Tour only is fine", extra: "" },
       ];
     }
+    if (kind === "price-st") {
+      const hasSt = (issue.priceCompare || []).some((r) => r.st && r.st !== "—");
+      return [
+        {
+          value: "yes",
+          label: hasSt ? "Yes — insert the ST price" : "Yes — insert the ST price (none on ST yet)",
+          extra: "",
+        },
+        { value: "no", label: "No — keep the Prod price", extra: "" },
+      ];
+    }
     return [
       { value: "done", label: "Done — this is handled", extra: "" },
       { value: "skip", label: "Skip for now", extra: "" },
@@ -369,6 +380,8 @@
               : issue.saTemplateName;
     } else if (value === "yes" && sheet.choice === "pc-map") {
       d.selected = (issue.pcMap || []).map((x) => (x.from ? x.from + " → " : "") + x.value).join("; ");
+    } else if (sheet.choice === "price-st") {
+      d.selected = value === "yes" ? "Insert ST price" : "Keep Prod price";
     } else if (value === "no") {
       d.selected = "";
     }
@@ -913,20 +926,48 @@
     </div>`;
   }
 
+  function priceCompareHtml(issue) {
+    const rows = issue.priceCompare || [];
+    const dates = issue.stPriceDates || "";
+    if (!rows.length && !dates) return "";
+    const body = rows.length
+      ? rows
+          .map((r) => {
+            const st = r.st && r.st !== "—" ? esc(r.st) : `<span class="none">no ST price</span>`;
+            const prod = r.prod && r.prod !== "—" ? esc(r.prod) : `<span class="none">no Prod price</span>`;
+            return `<tr><td>${esc(r.pc)}</td><td>${st}</td><td>${prod}</td></tr>`;
+          })
+          .join("")
+      : `<tr><td colspan="3"><span class="none">No ST price on file — keep or add Prod only.</span></td></tr>`;
+    const note = dates ? `<p class="price-note">ST dates: ${esc(dates)}</p>` : "";
+    return `${note}<table class="price-compare">
+      <thead><tr><th>Price category</th><th>ST</th><th>Prod</th></tr></thead>
+      <tbody>${body}</tbody>
+    </table>`;
+  }
+
   function cardHtml(sheet, issue) {
     const d = dec(issue.id);
     const opts = optionsFor(sheet, issue);
     const cls = d.status || "open";
     const pkgs = (issue.packages || []).map((p) => `<span class="pkg">${esc(p)}</span>`).join("");
+    const hideFields = new Set([
+      "TM package",
+      "TM packages",
+      "ST prices",
+      "ST price dates",
+      "Prod PCs priced",
+    ]);
     const fieldRows = Object.entries(issue.fields || {})
-      .filter(([k]) => !["TM package", "TM packages"].includes(k))
+      .filter(([k]) => !hideFields.has(k))
       .slice(0, 12)
       .map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`)
       .join("");
     const choice = opts
       .map((o) => {
         const checked = d.choice === o.value ? "checked" : "";
-        return `<label><input type="radio" name="${issue.id}" data-choice data-id="${issue.id}" value="${esc(o.value)}" ${checked} /><span>${esc(o.label)}${o.extra ? ` <span class="score">${esc(o.extra)}</span>` : ""}</span></label>`;
+        const tone = o.value === "no" || o.value === "skip" ? "no" : o.value === "done" ? "done" : "yes";
+        return `<label class="opt ${tone}"><input type="radio" name="${issue.id}" data-choice data-id="${issue.id}" value="${esc(o.value)}" ${checked} /><span>${esc(o.label)}${o.extra ? ` <span class="score">${esc(o.extra)}</span>` : ""}</span></label>`;
       })
       .join("");
     const tag = isDecided(d)
@@ -943,6 +984,7 @@
       <div class="meta">${esc(sheet.id)} · ${esc(issue.action || "")}</div>
       <div class="pkgs">${pkgs}</div>
       ${pc && sheet.choice === "pc-map" ? `<p><b>Suggested PC map</b><br>${pc}</p>` : ""}
+      ${priceCompareHtml(issue)}
       <dl class="fields">${fieldRows}</dl>
       <div class="choices">${choice}</div>
       ${formHtml(sheet, issue, d)}

@@ -331,6 +331,24 @@
     ];
   }
 
+  function tabHelp(sheet) {
+    const texts = {
+      P1: "On a TM package, not on the Service Template. Yes = add it using the selected Prod name. No = brand new — fill the Service Template fields; a new service will be created.",
+      P2: "On package and ST, no exact Prod Item, but a close name exists. Yes = rename ST to the selected Prod name. No = treat as brand new; create from ST.",
+      P4: "On a package and on Prod, but pricing is missing, inactive, or missing 2027. Yes = insert the ST price (or fill prices if ST has none). No = keep the Prod price.",
+      P5: "ST supplier does not match Prod. Pick the Prod account, keep ST, or No if a different / new account is needed.",
+      P6: "Package PC names do not match ST/Prod. Yes = map to the existing ST/Prod names. No = do not apply the map; new price categories will be created from the package names.",
+      P8: "Prod has Group Tour pricing only. Yes = FIT is required (FIT prices will be added). No = Group Tour only is fine; no FIT will be added.",
+      P9: "ST/template location does not overlap Prod. Pick Prod, keep ST, or No if neither is right.",
+      P10: "Package/ST type has no overlap with the Prod record type. Pick Prod, keep ST, or No if both are wrong.",
+      P11: "Package price category is the N/A placeholder. Yes = replace N/A with a real PC. No = not this service.",
+      SA1: "No Prod agreement. Yes = create a new supplier agreement (fill the fields). No = not needed for this service.",
+      SA3: "SA template name does not match Prod. Use the Prod agreement, use the template name, or No to create a different / new agreement.",
+      SA5: "ST supplier does not match Prod. Pick the Prod account, keep ST, or No if a different / new supplier is needed.",
+    };
+    return texts[sheet.id] || sheet.help;
+  }
+
   function reopen(id) {
     requireWho(() => {
       const issue = findIssue(id);
@@ -710,16 +728,7 @@
       }
     } else {
       const sheet = data.sheets.find((s) => s.id === sheetId);
-      $("help").textContent =
-        sheet.id === "SA1"
-          ? "No Prod agreement. Yes opens the Supplier Agreement Template fields to create one. No = not needed."
-          : sheet.id === "SA3"
-            ? "Template name does not match Prod. No opens the agreement fields for a different / new agreement."
-            : sheet.id === "SA5"
-              ? "ST supplier does not match Prod. No opens Supplier Name and the other supplier fields from the Service Template, plus the TM package."
-              : sheet.id === "P6"
-                ? "Package PC names do not match ST/Prod. Yes = map to the existing ST/Prod names. No = do not apply the map; new price categories will be created from the package names."
-                : sheet.help;
+      $("help").textContent = tabHelp(sheet);
       pairs = sheet.issues
         .filter((issue) => {
           const decided = isDecided(dec(issue.id));
@@ -1101,11 +1110,195 @@
     </div>`;
   }
 
-  function pcMapNoteHtml(sheet, d) {
-    if (sheet.choice !== "pc-map" || (d && d.choice) !== "no") return "";
+  function choiceNote(sheet, issue, d) {
+    const c = d && d.choice;
+    if (!c) return null;
+    const id = sheet.id;
+    const fuzzy =
+      String(c).startsWith("match:") && issue.fuzzyService
+        ? issue.fuzzyService[Number(String(c).slice(6))]
+        : null;
+    const prodName = fuzzy ? fuzzy.value : "";
+    if (id === "P1") {
+      if (c === "no")
+        return {
+          title: "Brand new — not a Prod match",
+          body: "A new service will be created. Fill the Service Template fields below.",
+        };
+      if (c === "yes")
+        return {
+          title: "Add this name to ST",
+          body: "The service will be added to the Service Template using this name.",
+        };
+      return {
+        title: "Use this Prod name",
+        body: prodName
+          ? "When adding the service to the Service Template, use Prod name: " + prodName + "."
+          : "When adding the service to the Service Template, use the selected Prod name.",
+      };
+    }
+    if (id === "P2") {
+      if (c === "no")
+        return {
+          title: "Treat as brand new",
+          body: "Keep the ST name. The service will be created on Prod from ST.",
+        };
+      return {
+        title: "Rename to this Prod name",
+        body: prodName
+          ? "The ST service will be renamed to: " + prodName + "."
+          : "The ST service will be renamed to the selected Prod name.",
+      };
+    }
+    if (id === "P4") {
+      if (c === "no")
+        return {
+          title: "Keep the Prod price",
+          body: "Leave the existing Prod prices. Do not insert ST.",
+        };
+      if (!hasStPrice(issue))
+        return {
+          title: "Add ST prices",
+          body: "No ST price on file. Fill the Service Template fields below to add price categories.",
+        };
+      return {
+        title: "Insert the ST price",
+        body: "ST amounts will be inserted on Prod for the price categories in the table.",
+      };
+    }
+    if (id === "P5" || id === "SA5") {
+      if (c === "prod")
+        return {
+          title: "Use the Prod supplier",
+          body: issue.prodSupplier
+            ? "The service will use the Prod account: " + issue.prodSupplier + "."
+            : "The service will use the Prod supplier account.",
+        };
+      if (c === "st")
+        return {
+          title: "Keep the ST supplier",
+          body: issue.stSupplier
+            ? "The service will use the ST account: " + issue.stSupplier + "."
+            : "The service will keep the ST supplier account.",
+        };
+      return {
+        title: "Different / new account",
+        body: "A different supplier will be used. Fill the supplier fields below.",
+      };
+    }
+    if (id === "P6") {
+      if (c === "no")
+        return {
+          title: "New price categories will be created",
+          body: "The package PC names will be added as new price categories instead of mapping them to the ST/Prod names above.",
+        };
+      return {
+        title: "Apply the suggested PC map",
+        body: "Package PC names will be mapped to the existing ST/Prod names. No new price categories.",
+      };
+    }
+    if (id === "P8") {
+      if (c === "yes")
+        return {
+          title: "FIT pricing is required",
+          body: "FIT prices will be added on Prod. Group Tour pricing already exists.",
+        };
+      return {
+        title: "Group Tour only is fine",
+        body: "No FIT prices will be added. Prod stays Group Tour only.",
+      };
+    }
+    if (id === "P9") {
+      if (c === "prod")
+        return {
+          title: "Use the Prod location",
+          body: issue.prodLocation
+            ? "The service will use the Prod location: " + issue.prodLocation + "."
+            : "The service will use the Prod location.",
+        };
+      if (c === "st")
+        return {
+          title: "Keep the ST location",
+          body: issue.stLocation
+            ? "The service will keep the ST/template location: " + issue.stLocation + "."
+            : "The service will keep the ST/template location.",
+        };
+      return {
+        title: "Neither location is right",
+        body: "Set the correct location in the notes (or later on insert).",
+      };
+    }
+    if (id === "P10") {
+      if (c === "prod")
+        return {
+          title: "Use the Prod type",
+          body: issue.prodType
+            ? "The service will use the Prod record type: " + issue.prodType + "."
+            : "The service will use the Prod record type.",
+        };
+      if (c === "st")
+        return {
+          title: "Keep the ST type",
+          body: issue.stType
+            ? "The service will keep the ST/package type: " + issue.stType + "."
+            : "The service will keep the ST/package type.",
+        };
+      return {
+        title: "Neither type is right",
+        body: "Treat as picklist noise. Set the correct type in the notes (or later on insert).",
+      };
+    }
+    if (id === "P11") {
+      if (c === "yes")
+        return {
+          title: "Replace N/A",
+          body: "The placeholder N/A price category will be replaced with a real PC before import.",
+        };
+      return {
+        title: "Not this service",
+        body: "Leave this row. Do not replace N/A here.",
+      };
+    }
+    if (id === "SA1") {
+      if (c === "yes")
+        return {
+          title: "Create a new supplier agreement",
+          body: "Fill the agreement fields below so we can create it.",
+        };
+      return {
+        title: "Not needed",
+        body: "No supplier agreement will be created for this service.",
+      };
+    }
+    if (id === "SA3") {
+      if (c === "prod")
+        return {
+          title: "Use the Prod agreement",
+          body: issue.prodAgreement
+            ? "Keep the Prod agreement: " + issue.prodAgreement + "."
+            : "Keep the Prod agreement name.",
+        };
+      if (c === "st")
+        return {
+          title: "Use the template name",
+          body: issue.saTemplateName
+            ? "The agreement will use the template name: " + issue.saTemplateName + "."
+            : "The agreement will be named from the Supplier Agreement Template.",
+        };
+      return {
+        title: "Different / new agreement",
+        body: "Fill the agreement fields below so we can create a different agreement.",
+      };
+    }
+    return null;
+  }
+
+  function choiceNoteHtml(sheet, issue, d) {
+    const note = choiceNote(sheet, issue, d);
+    if (!note) return "";
     return `<div class="create-form">
-      <h4>New price categories will be created</h4>
-      <p class="meta">The package PC names will be added as new price categories instead of mapping them to the ST/Prod names above.</p>
+      <h4>${esc(note.title)}</h4>
+      <p class="meta">${esc(note.body)}</p>
     </div>`;
   }
 
@@ -1199,7 +1392,7 @@
       ${priceCompareHtml(issue)}
       <dl class="fields">${fieldRows}</dl>
       <div class="choices">${choice}</div>
-      ${pcMapNoteHtml(sheet, d)}
+      ${choiceNoteHtml(sheet, issue, d)}
       ${formHtml(sheet, issue, d)}
       <textarea data-notes data-id="${issue.id}" placeholder="Decision notes">${esc(d.notes || "")}</textarea>
       ${reopenBtn}

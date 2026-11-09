@@ -26,6 +26,8 @@ The yellow banner at the top is the reminder: **Save online** or other people wi
 
 **P6 PC name mismatch:** Yes = map package PCs to the existing ST/Prod names. No = do not apply the map; **new price categories will be created** from the package names.
 
+Every P and SA tab has a short Yes/No description at the top. After you pick an option, the card shows what that choice will do (same pattern as P6 No).
+
 Service create forms (P1 No, P4 no-price Yes) let you add **multiple price categories**. There is no Skip for now on any tab.
 
 Worker source: `C:\VsCode\TailorMade\data\tm-packages-v1\rectify-store`. Cloudflare account claimed 9 Nov 2026. Live: https://tm-sga-prod-rectify-store.graceful-kryptops.workers.dev

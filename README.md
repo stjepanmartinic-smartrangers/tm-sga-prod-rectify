@@ -22,6 +22,8 @@ The yellow banner at the top is the reminder: **Save online** or other people wi
 
 **P4 Missing Prod pricing** shows ST vs Prod amounts by price category. **Yes** = insert the ST price. **No** = keep the Prod price. Yes and No are both green so No is not the “wrong” answer.
 
+**P3 Brand new no Prod** is Yes/No. **Yes** opens the Service Template fields so the service can be created. There is no Skip for now on any tab.
+
 Worker source: `C:\VsCode\TailorMade\data\tm-packages-v1\rectify-store`. Cloudflare account claimed 9 Nov 2026. Live: https://tm-sga-prod-rectify-store.graceful-kryptops.workers.dev
 
 ## Local copy

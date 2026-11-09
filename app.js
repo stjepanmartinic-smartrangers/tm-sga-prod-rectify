@@ -313,9 +313,21 @@
         { value: "no", label: "No — keep the Prod price", extra: "" },
       ];
     }
+    if (sheet.id === "P3" || kind === "st-create") {
+      return [
+        { value: "yes", label: "Yes — create this service", extra: "" },
+        { value: "no", label: "No — do not create", extra: "" },
+      ];
+    }
+    if (sheet.id === "P11") {
+      return [
+        { value: "yes", label: "Yes — replace N/A with a real PC", extra: "" },
+        { value: "no", label: "No — not this service", extra: "" },
+      ];
+    }
     return [
-      { value: "done", label: "Done — this is handled", extra: "" },
-      { value: "skip", label: "Skip for now", extra: "" },
+      { value: "yes", label: "Yes — this is handled", extra: "" },
+      { value: "no", label: "No — not needed", extra: "" },
     ];
   }
 
@@ -632,7 +644,7 @@
     let pairs = [];
     if (sheetId === "__decided__") {
       $("help").textContent =
-        "Every decision so far, across all problem types. Filter by Yes / No, change a choice, or Reopen. The create form appears only on No for services that are not on ST or Prod.";
+        "Every decision so far, across all problem types. Filter by Yes / No, change a choice, or Reopen. The create form appears on No for services not on ST or Prod, and on Yes for P3 brand-new services.";
       for (const s of data.sheets) {
         for (const issue of s.issues) {
           const d = dec(issue.id);
@@ -650,7 +662,9 @@
             ? "Template name does not match Prod. No opens the agreement fields for a different / new agreement."
             : sheet.id === "SA5"
               ? "ST supplier does not match Prod. No opens Supplier Name and the other supplier fields from the Service Template, plus the TM package."
-              : sheet.help;
+              : sheet.id === "P3"
+                ? "Brand new — not on Prod. Yes opens the Service Template fields so we can create it. No = do not create."
+                : sheet.help;
       pairs = sheet.issues
         .filter((issue) => {
           const decided = isDecided(dec(issue.id));
@@ -846,6 +860,7 @@
     if (sheet.id === "SA1" && c === "yes") return "sa";
     if (sheet.id === "SA3" && c === "no") return "sa";
     if (sheet.id === "SA5" && c === "no") return "supplier";
+    if (sheet.id === "P3") return c === "yes" ? "st" : "";
     if (issue.fullyMissing && c === "no") return "st";
     return "";
   }
@@ -875,7 +890,10 @@
         fields: ST_FORM,
         defs: extra,
         title: "New service — Service Template fields",
-        hint: "No — brand new, and not on ST or Prod. Fill these so we can create it.",
+        hint:
+          sheet.id === "P3"
+            ? "Yes — create this service. Fill these so we can insert it."
+            : "No — brand new, and not on ST or Prod. Fill these so we can create it.",
       };
     }
     const groups = [];

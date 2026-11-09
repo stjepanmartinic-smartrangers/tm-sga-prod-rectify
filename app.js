@@ -1,7 +1,7 @@
 (() => {
   const LS_DECISIONS = "tm-sga-prod-rectify-decisions";
   const LS_WHO = "tm-sga-prod-rectify-who";
-  const STORE_ROOT = "https://crudcrud.com/api/978fb230de0541fd90abdcdb85f031b5/decisions";
+  const STORE = "https://tm-sga-prod-rectify-store.graceful-kryptops.workers.dev";
   const SNAPSHOT = "decisions.json";
 
   const data = window.ISSUE_DATA;
@@ -1017,26 +1017,13 @@
     return ensureShape(raw);
   }
 
-  async function liveDocument() {
-    const list = await fetchJson(STORE_ROOT + "?t=" + Date.now());
-    if (!Array.isArray(list) || !list.length) return { raw: null, id: null };
-    const sorted = list.slice().sort((a, b) =>
-      String(b.updatedAt || "").localeCompare(String(a.updatedAt || ""))
-    );
-    const raw = sorted[0];
-    return { raw, id: raw && raw._id ? raw._id : null };
-  }
-
   async function saveOnline(quiet) {
     persistLocal();
     try {
-      const { id } = await liveDocument();
-      const body = JSON.stringify(toRemote());
-      const url = id ? STORE_ROOT + "/" + id : STORE_ROOT;
-      const put = await fetch(url, {
-        method: id ? "PUT" : "POST",
+      const put = await fetch(STORE, {
+        method: "PUT",
         headers: { "Content-Type": "application/json" },
-        body,
+        body: JSON.stringify(toRemote()),
       });
       if (!put.ok) throw new Error("HTTP " + put.status);
       setState("Saved online · " + new Date().toLocaleTimeString());
@@ -1062,9 +1049,7 @@
       let parsed;
       let source = "online";
       try {
-        const { raw } = await liveDocument();
-        if (!raw) throw new Error("empty store");
-        parsed = parseStore(raw);
+        parsed = parseStore(await fetchJson(STORE + "?t=" + Date.now()));
       } catch (liveErr) {
         try {
           parsed = parseStore(await fetchJson(SNAPSHOT + "?t=" + Date.now()));

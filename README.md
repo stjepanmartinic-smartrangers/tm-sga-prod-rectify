@@ -13,12 +13,14 @@ GitHub Pages stays up for as long as this repository exists (months is fine). It
 | Place | Survives if the site is offline? |
 | --- | --- |
 | Browser `localStorage` | Yes, on that computer/browser only |
-| **Save online** | Yes — shared team store. No GitHub token. |
+| **Save online** | Yes — Cloudflare Worker. No GitHub token. Does not expire with inactivity. |
 | GitHub `decisions.json` | Last published snapshot. Reload falls back here if the live store is down. |
 
 The yellow banner at the top is the reminder: **Save online** or other people will not see your work. Local browser save is not enough. Clicking Save online does not ask for a token.
 
-**Reload saved work** warns and then overwrites this browser with the shared online copy. If the live store does not respond (Firefox may show `NetworkError when attempting to fetch resource`), Reload uses the last published GitHub snapshot instead.
+**Reload saved work** warns and then overwrites this browser with the shared online copy. If the live store does not respond, Reload uses the last published GitHub snapshot instead.
+
+Worker source: `C:\VsCode\TailorMade\data\tm-packages-v1\rectify-store`. First deploy must be **claimed** in the Cloudflare dashboard within 60 minutes or the preview account is deleted.
 
 ## Local copy
 

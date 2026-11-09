@@ -20,9 +20,9 @@ The yellow banner at the top is the reminder: **Save online** or other people wi
 
 **Reload saved work** warns and then overwrites this browser with the shared online copy. If the live store does not respond, Reload uses the last published GitHub snapshot instead.
 
-**P4 Missing Prod pricing** shows ST vs Prod amounts by price category. **Yes** = insert the ST price. **No** = keep the Prod price. Yes and No are both green so No is not the “wrong” answer.
+**P4 Missing Prod pricing** shows ST vs Prod amounts by price category. **Yes** = insert the ST price. **No** = keep the Prod price. If there is no ST price, **Yes** opens a pre-filled Service Template form so prices can be added. Yes and No are both green so No is not the “wrong” answer.
 
-**P3 Brand new no Prod** is Yes/No. **Yes** opens the Service Template fields so the service can be created. There is no Skip for now on any tab.
+**P3 Brand new no Prod** is Yes/No. **Yes** opens the Service Template fields so the service can be created. Service create forms (P1 No, P3 Yes, P4 no-price Yes) let you add **multiple price categories**. There is no Skip for now on any tab.
 
 Worker source: `C:\VsCode\TailorMade\data\tm-packages-v1\rectify-store`. Cloudflare account claimed 9 Nov 2026. Live: https://tm-sga-prod-rectify-store.graceful-kryptops.workers.dev
 
@@ -46,13 +46,13 @@ The default list is **All on this tab**, so a Yes or No stays on the same screen
 
 ## Fully missing services
 
-Cards that are not on ST and not on Prod show the Service Template field set **only after you mark No** (brand new). Hidden on Yes / fuzzy Prod match. Saved in `decisions.json` as `form`.
+Cards that are not on ST and not on Prod show the Service Template field set **only after you mark No** (brand new). Hidden on Yes / fuzzy Prod match. Saved in `decisions.json` as `form` (price categories in `form.priceLines`).
 
 SA1 uses Yes/No (not Done). **Yes** opens the Supplier Agreement Template fields. SA3 **No** opens the same agreement fields. SA5 **No** (different / new account) opens Supplier Name plus the supplier fields from the Service Template, and the TM package.
 
 Picklist fields use dropdowns from IntrepidProd (read-only describe): service record type, cost type, pricing type, allocation, time setup, preferred communication, pricelist, price type, currency, inventory type, confirmation method, invoice basis, agreement type, payment type/method, cost bearer, when. Lookups stay typed: location, business unit, tax group, supplier name, price category. If a saved value is not in the list, it is kept as an extra option.
 
-The Service Template create form is grouped: Service, Price Category, Price Season, Pricing, Supplier.
+The Service Template create form is grouped: Service, then one or more **Price category** blocks (each with Price Category / Price Season / Pricing), then Supplier. Use **Add another price category** to add more. P4 **Yes** with no ST price uses the same form, pre-filled from the service / package PCs.
 
 The Supplier Agreement create form is grouped: Agreement (Supplier Name last), Payment Rule, Supplier Agreement Assignment. Agreement Name has help text: include the Account name in the name.
 

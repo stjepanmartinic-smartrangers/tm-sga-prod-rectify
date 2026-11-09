@@ -307,7 +307,7 @@
       return [
         {
           value: "yes",
-          label: hasSt ? "Yes — insert the ST price" : "Yes — insert the ST price (none on ST yet)",
+          label: hasSt ? "Yes — insert the ST price" : "Yes — add ST prices (none on ST yet)",
           extra: "",
         },
         { value: "no", label: "No — keep the Prod price", extra: "" },
@@ -522,7 +522,14 @@
       const saveForm = () => {
         const d = dec(el.dataset.id);
         if (!d.form) d.form = {};
-        d.form[el.dataset.form] = el.value;
+        if (el.dataset.pcline != null && el.dataset.pcline !== "") {
+          const i = Number(el.dataset.pcline);
+          if (!Array.isArray(d.form.priceLines)) d.form.priceLines = [];
+          if (!d.form.priceLines[i]) d.form.priceLines[i] = {};
+          d.form.priceLines[i][el.dataset.form] = el.value;
+        } else {
+          d.form[el.dataset.form] = el.value;
+        }
         scheduleSave();
       };
       el.addEventListener("input", saveForm);
@@ -531,15 +538,61 @@
         requireWho(() => {
           saveForm();
           const field = ALL_FORM_FIELDS.find((f) => f.key === el.dataset.form);
+          const line = el.dataset.pcline != null && el.dataset.pcline !== "" ? Number(el.dataset.pcline) + 1 : 0;
           logHistory({
             kind: "form",
             issueId: el.dataset.id,
             sheetId: pair.sheet.id,
             service: pair.issue.service,
-            field: field ? field.label : el.dataset.form,
+            field: line ? "Price category " + line + " · " + (field ? field.label : el.dataset.form) : field ? field.label : el.dataset.form,
             to: el.value,
           });
           scheduleSave();
+        });
+      });
+    });
+    $("list").querySelectorAll("[data-add-pc]").forEach((el) => {
+      el.addEventListener("click", () => {
+        const pair = pairs.find((p) => p.issue.id === el.dataset.id);
+        requireWho(() => {
+          const d = dec(el.dataset.id);
+          const lines = ensurePriceLines(d, pair.issue);
+          lines.push(emptyPcLine(pair.issue));
+          lastFocusId = el.dataset.id;
+          logHistory({
+            kind: "form",
+            issueId: el.dataset.id,
+            sheetId: pair.sheet.id,
+            service: pair.issue.service,
+            field: "Price categories",
+            to: "Added price category " + lines.length,
+          });
+          scheduleSave();
+          render();
+        });
+      });
+    });
+    $("list").querySelectorAll("[data-remove-pc]").forEach((el) => {
+      el.addEventListener("click", () => {
+        const pair = pairs.find((p) => p.issue.id === el.dataset.id);
+        requireWho(() => {
+          const d = dec(el.dataset.id);
+          const lines = ensurePriceLines(d, pair.issue);
+          const i = Number(el.dataset.pcline);
+          if (lines.length < 2) return;
+          const name = (lines[i] && lines[i].priceCategory) || "Price category " + (i + 1);
+          lines.splice(i, 1);
+          lastFocusId = el.dataset.id;
+          logHistory({
+            kind: "form",
+            issueId: el.dataset.id,
+            sheetId: pair.sheet.id,
+            service: pair.issue.service,
+            field: "Price categories",
+            to: "Removed " + name,
+          });
+          scheduleSave();
+          render();
         });
       });
     });
@@ -750,7 +803,7 @@
   ];
   const OPT_CHANNEL = ["Tailor-made (Morocco)"];
 
-  const ST_FORM = [
+  const ST_SERVICE_FIELDS = [
     { key: "name", label: "Name", section: "Service" },
     { key: "location", label: "Location", section: "Service" },
     { key: "businessUnit", label: "Business Unit", section: "Service" },
@@ -764,6 +817,8 @@
     { key: "checkOutTime", label: "CheckOut Time", section: "Service" },
     { key: "timeSetup", label: "Time Setup", options: OPT_TIME_SETUP, section: "Service" },
     { key: "preferredComm", label: "Preferred communication", options: OPT_COMM, section: "Service" },
+  ];
+  const ST_PC_LINE_FIELDS = [
     { key: "priceCategory", label: "Price Category", section: "Price Category" },
     { key: "maxAdults", label: "Price Category MaxAdults", section: "Price Category" },
     { key: "maxChildren", label: "Price Category MaxChildren", section: "Price Category" },
@@ -777,11 +832,14 @@
     { key: "price", label: "Price", section: "Pricing" },
     { key: "priceCurrency", label: "Price Currency", options: OPT_CURRENCY, section: "Pricing" },
     { key: "inventoryType", label: "Inventory Type", options: OPT_INVENTORY, section: "Pricing" },
+  ];
+  const ST_SUPPLIER_FIELDS = [
     { key: "supplierName", label: "Supplier Name", section: "Supplier" },
     { key: "supplierBu", label: "Supplier Business Unit", section: "Supplier" },
     { key: "supplierConfirm", label: "Supplier Confirmation Method", options: OPT_CONFIRM, section: "Supplier" },
-    { key: "comment", label: "Comment", wide: true, area: true },
   ];
+  const ST_COMMENT_FIELD = { key: "comment", label: "Comment", wide: true, area: true };
+  const ST_FORM = ST_SERVICE_FIELDS.concat(ST_PC_LINE_FIELDS, ST_SUPPLIER_FIELDS, [ST_COMMENT_FIELD]);
 
   const SA_FORM = [
     { key: "agreementName", label: "Agreement Name", section: "Agreement", wide: true, help: "Please include Account name in the name." },
@@ -855,22 +913,202 @@
     };
   }
 
+  function hasStPrice(issue) {
+    const rows = issue.priceCompare || [];
+    if (rows.some((r) => r.st && r.st !== "—")) return true;
+    const raw = ((issue.fields || {})["ST prices"] || "").trim();
+    return !!(raw && raw !== "—" && raw !== "-");
+  }
+
   function formKind(sheet, issue, d) {
     const c = d && d.choice;
     if (sheet.id === "SA1" && c === "yes") return "sa";
     if (sheet.id === "SA3" && c === "no") return "sa";
     if (sheet.id === "SA5" && c === "no") return "supplier";
     if (sheet.id === "P3") return c === "yes" ? "st" : "";
+    if (sheet.id === "P4" && c === "yes" && !hasStPrice(issue)) return "st";
     if (issue.fullyMissing && c === "no") return "st";
     return "";
+  }
+
+  function emptyPcLine(issue) {
+    const extra = issue.formDefaults || {};
+    return {
+      priceCategory: "",
+      maxAdults: extra.maxAdults || "",
+      maxChildren: extra.maxChildren || "",
+      priceSeason: extra.priceSeason || "",
+      priceSeasonDates: extra.priceSeasonDates || issue.stPriceDates || "",
+      priceSeasonDays: extra.priceSeasonDays || "",
+      pricelist: extra.pricelist || "",
+      qtyMin: extra.qtyMin || "",
+      priceType: extra.priceType || "",
+      priceGroup: extra.priceGroup || "",
+      price: "",
+      priceCurrency: extra.priceCurrency || "MAD",
+      inventoryType: extra.inventoryType || "",
+    };
+  }
+
+  function pcNamesFromIssue(issue) {
+    const extra = issue.formDefaults || {};
+    const fields = issue.fields || {};
+    const blob = [extra.priceCategory, fields["Package PCs"], fields["ST PCs"], fields["Prod PCs priced"]]
+      .filter(Boolean)
+      .join(";");
+    const names = blob
+      .split(";")
+      .map((s) => s.trim())
+      .filter(Boolean);
+    (issue.priceCompare || []).forEach((r) => {
+      if (r.pc && r.pc !== "(ST)" && r.pc !== "(Prod)") names.push(r.pc);
+    });
+    const out = [];
+    const seen = new Set();
+    names.forEach((n) => {
+      const k = n.toLowerCase();
+      if (!seen.has(k)) {
+        seen.add(k);
+        out.push(n);
+      }
+    });
+    return out;
+  }
+
+  function defaultPriceLines(issue) {
+    const extra = issue.formDefaults || {};
+    const names = pcNamesFromIssue(issue);
+    if (!names.length) {
+      const line = emptyPcLine(issue);
+      line.price = extra.price || "";
+      line.priceCategory = extra.priceCategory || "";
+      return [line];
+    }
+    return names.map((pc) => {
+      const line = emptyPcLine(issue);
+      line.priceCategory = pc;
+      if (names.length === 1) line.price = extra.price || "";
+      return line;
+    });
+  }
+
+  function lineFromFlatForm(form, issue) {
+    const line = emptyPcLine(issue);
+    ST_PC_LINE_FIELDS.forEach((f) => {
+      if (form[f.key] != null && form[f.key] !== "") line[f.key] = form[f.key];
+    });
+    return line;
+  }
+
+  function ensurePriceLines(d, issue) {
+    if (!d.form) d.form = {};
+    if (Array.isArray(d.form.priceLines) && d.form.priceLines.length) return d.form.priceLines;
+    const form = d.form;
+    if (form.priceCategory || form.price || form.pricelist || form.priceSeason) {
+      d.form.priceLines = [lineFromFlatForm(form, issue)];
+    } else {
+      d.form.priceLines = defaultPriceLines(issue);
+    }
+    return d.form.priceLines;
+  }
+
+  function fieldControl(f, val, issueId, extraAttr) {
+    const cls = f.wide ? "wide" : "";
+    const extra = extraAttr || "";
+    let control;
+    if (f.area) {
+      control = `<textarea data-form="${f.key}" data-id="${issueId}" ${extra}>${esc(val)}</textarea>`;
+    } else if (f.options) {
+      const opts = f.options.slice();
+      if (val && !opts.includes(val)) opts.unshift(val);
+      const body = [`<option value="">Select…</option>`]
+        .concat(
+          opts.map(
+            (o) => `<option value="${esc(o)}" ${o === val ? "selected" : ""}>${esc(o)}</option>`
+          )
+        )
+        .join("");
+      control = `<select data-form="${f.key}" data-id="${issueId}" ${extra}>${body}</select>`;
+    } else {
+      control = `<input type="text" data-form="${f.key}" data-id="${issueId}" ${extra} value="${esc(val)}" />`;
+    }
+    const help = f.help ? `<span class="field-help">${esc(f.help)}</span>` : "";
+    return `<label class="${cls}">${esc(f.label)}${help}${control}</label>`;
+  }
+
+  function groupedSections(fields, values, defs, issueId, extraAttr) {
+    const groups = [];
+    fields.forEach((f) => {
+      const name = f.section || "";
+      const last = groups[groups.length - 1];
+      if (!last || last.section !== name) groups.push({ section: name, fields: [f] });
+      else last.fields.push(f);
+    });
+    return groups
+      .map((g) => {
+        const heading = g.section ? `<h5 class="form-section-title">${esc(g.section)}</h5>` : "";
+        const body = g.fields
+          .map((f) => {
+            const val = values[f.key] != null && values[f.key] !== "" ? values[f.key] : defs[f.key] || "";
+            return fieldControl(f, val, issueId, extraAttr);
+          })
+          .join("");
+        return `<section class="form-section">${heading}<div class="form-grid">${body}</div></section>`;
+      })
+      .join("");
+  }
+
+  function stFormHtml(sheet, issue, d) {
+    const extra = issue.formDefaults || {};
+    const form = d.form || {};
+    const lines = ensurePriceLines(d, issue);
+    const title =
+      sheet.id === "P4"
+        ? "Add ST pricing — Service Template fields"
+        : "New service — Service Template fields";
+    const hint =
+      sheet.id === "P4"
+        ? "No ST price on file. Pre-filled from the service / package. Add a price category for each PC you need."
+        : sheet.id === "P3"
+          ? "Yes — create this service. Fill these so we can insert it. Add a price category for each PC."
+          : "No — brand new, and not on ST or Prod. Fill these so we can create it. Add a price category for each PC.";
+    const service = groupedSections(ST_SERVICE_FIELDS, form, extra, issue.id, "");
+    const pcBlocks = lines
+      .map((line, i) => {
+        const remove =
+          lines.length > 1
+            ? `<button type="button" class="pc-remove" data-remove-pc data-pcline="${i}" data-id="${issue.id}">Remove</button>`
+            : "";
+        return `<div class="pc-line">
+          <div class="pc-line-head">
+            <h5 class="form-section-title">Price category ${i + 1}</h5>
+            ${remove}
+          </div>
+          ${groupedSections(ST_PC_LINE_FIELDS, line, {}, issue.id, `data-pcline="${i}"`)}
+        </div>`;
+      })
+      .join("");
+    const add = `<p class="pc-add"><button type="button" data-add-pc data-id="${issue.id}">Add another price category</button></p>`;
+    const supplier = groupedSections(ST_SUPPLIER_FIELDS, form, extra, issue.id, "");
+    const comment = groupedSections([ST_COMMENT_FIELD], form, extra, issue.id, "");
+    return `<div class="create-form">
+      <h4>${esc(title)}</h4>
+      <p class="meta">${esc(hint)}</p>
+      ${service}
+      ${pcBlocks}
+      ${add}
+      ${supplier}
+      ${comment}
+    </div>`;
   }
 
   function formHtml(sheet, issue, d) {
     const kind = formKind(sheet, issue, d);
     if (!kind) return "";
+    if (kind === "st") return stFormHtml(sheet, issue, d);
     const form = d.form || {};
-    let spec;
     const extra = issue.formDefaults || {};
+    let spec;
     if (kind === "sa") {
       spec = {
         fields: SA_FORM,
@@ -878,69 +1116,18 @@
         title: "New supplier agreement — template fields",
         hint: "Fill these so we can create the agreement.",
       };
-    } else if (kind === "supplier") {
+    } else {
       spec = {
         fields: SUPPLIER_FORM,
         defs: Object.assign({}, supplierDefaults(issue), extra),
         title: "New / different supplier — service fields",
         hint: "Supplier Name plus the supplier fields from the Service Template, and the TM package.",
       };
-    } else {
-      spec = {
-        fields: ST_FORM,
-        defs: extra,
-        title: "New service — Service Template fields",
-        hint:
-          sheet.id === "P3"
-            ? "Yes — create this service. Fill these so we can insert it."
-            : "No — brand new, and not on ST or Prod. Fill these so we can create it.",
-      };
     }
-    const groups = [];
-    spec.fields.forEach((f) => {
-      const name = f.section || "";
-      const last = groups[groups.length - 1];
-      if (!last || last.section !== name) groups.push({ section: name, fields: [f] });
-      else last.fields.push(f);
-    });
-    const sections = groups
-      .map((g) => {
-        const heading = g.section
-          ? `<h5 class="form-section-title">${esc(g.section)}</h5>`
-          : "";
-        const fields = g.fields
-          .map((f) => {
-            const val = form[f.key] != null && form[f.key] !== "" ? form[f.key] : spec.defs[f.key] || "";
-            const cls = f.wide ? "wide" : "";
-            let control;
-            if (f.area) {
-              control = `<textarea data-form="${f.key}" data-id="${issue.id}">${esc(val)}</textarea>`;
-            } else if (f.options) {
-              const opts = f.options.slice();
-              if (val && !opts.includes(val)) opts.unshift(val);
-              const body = [`<option value="">Select…</option>`]
-                .concat(
-                  opts.map(
-                    (o) =>
-                      `<option value="${esc(o)}" ${o === val ? "selected" : ""}>${esc(o)}</option>`
-                  )
-                )
-                .join("");
-              control = `<select data-form="${f.key}" data-id="${issue.id}">${body}</select>`;
-            } else {
-              control = `<input type="text" data-form="${f.key}" data-id="${issue.id}" value="${esc(val)}" />`;
-            }
-            const help = f.help ? `<span class="field-help">${esc(f.help)}</span>` : "";
-            return `<label class="${cls}">${esc(f.label)}${help}${control}</label>`;
-          })
-          .join("");
-        return `<section class="form-section">${heading}<div class="form-grid">${fields}</div></section>`;
-      })
-      .join("");
     return `<div class="create-form">
       <h4>${esc(spec.title)}</h4>
       <p class="meta">${esc(spec.hint)}</p>
-      ${sections}
+      ${groupedSections(spec.fields, form, spec.defs, issue.id, "")}
     </div>`;
   }
 

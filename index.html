@@ -155,6 +155,18 @@
     .form-grid label.wide { grid-column: 1 / -1; }
     .field-help { font-size: 11px; color: var(--muted); font-weight: 400; font-style: italic; }
     .form-grid input, .form-grid textarea, .form-grid select { width: 100%; }
+    .pc-line {
+      margin-top: 12px; padding: 10px 12px 4px; border: 1px solid var(--line);
+      border-radius: 10px; background: #faf7f0;
+    }
+    .pc-line-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+    .pc-line .form-section { margin-top: 8px; padding-top: 8px; }
+    .pc-line .form-section:first-of-type { margin-top: 4px; padding-top: 0; border-top: none; }
+    .pc-remove, .pc-add button {
+      border: 1px solid var(--line); background: #fff; color: var(--accent);
+      padding: 5px 10px; border-radius: 8px; cursor: pointer; font: inherit; font-weight: 650;
+    }
+    .pc-add { margin: 10px 0 0; }
     @media (max-width: 720px) { .form-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
@@ -215,6 +227,6 @@
     </div>
   </dialog>
   <script src="data.js"></script>
-  <script src="app.js?v=20261109p3"></script>
+  <script src="app.js?v=20261109pc"></script>
 </body>
 </html>

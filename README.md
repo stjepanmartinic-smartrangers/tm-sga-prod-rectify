@@ -20,7 +20,7 @@ The yellow banner at the top is the reminder: **Save online** or other people wi
 
 **Reload saved work** warns and then overwrites this browser with the shared online copy. If the live store does not respond, Reload uses the last published GitHub snapshot instead.
 
-Worker source: `C:\VsCode\TailorMade\data\tm-packages-v1\rectify-store`. First deploy must be **claimed** in the Cloudflare dashboard within 60 minutes or the preview account is deleted.
+Worker source: `C:\VsCode\TailorMade\data\tm-packages-v1\rectify-store`. Cloudflare account claimed 9 Nov 2026. Live: https://tm-sga-prod-rectify-store.graceful-kryptops.workers.dev
 
 ## Local copy
 

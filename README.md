@@ -30,6 +30,8 @@ The header shows **% decided in total** (all P/SA cards). It updates as Yes/No a
 
 Every P and SA tab has a short Yes/No description at the top. After you pick an option, the card shows what that choice will do (same pattern as P6 No).
 
+Filter **TM packages** or **SGA itineraries**, then pick a specific package / trip from the second dropdown.
+
 Service create forms (P1 No, P4 no-price Yes) let you add **multiple price categories**. There is no Skip for now on any tab.
 
 Worker source: `C:\VsCode\TailorMade\data\tm-packages-v1\rectify-store`. Cloudflare account claimed 9 Nov 2026. Live: https://tm-sga-prod-rectify-store.graceful-kryptops.workers.dev

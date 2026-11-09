@@ -21,6 +21,11 @@
   const $ = (id) => document.getElementById(id);
   $("q").addEventListener("input", render);
   $("statusFilter").addEventListener("change", render);
+  $("sourceFilter").addEventListener("change", () => {
+    $("pkgFilter").value = "all";
+    render();
+  });
+  $("pkgFilter").addEventListener("change", render);
   $("decisionFilter").addEventListener("change", render);
   $("historyWho").addEventListener("change", render);
   $("btnSave").addEventListener("click", () => saveOnline(false));
@@ -501,6 +506,65 @@
     });
   }
 
+  function isSgaPkg(p) {
+    return /^SGA\s/i.test(p || "");
+  }
+
+  function tabIssues() {
+    if (sheetId === "__decided__") {
+      const out = [];
+      for (const s of data.sheets) {
+        for (const issue of s.issues) {
+          if (isDecided(dec(issue.id))) out.push(issue);
+        }
+      }
+      return out;
+    }
+    const sheet = data.sheets.find((s) => s.id === sheetId);
+    return sheet ? sheet.issues : [];
+  }
+
+  function fillPkgFilter() {
+    const src = $("sourceFilter").value;
+    const sel = $("pkgFilter");
+    const hist = sheetId === "__history__";
+    $("sourceFilter").style.display = hist ? "none" : "";
+    if (hist || src === "all") {
+      sel.style.display = "none";
+      return;
+    }
+    sel.style.display = "";
+    const prev = sel.value;
+    const names = new Set();
+    tabIssues().forEach((issue) => {
+      (issue.packages || []).forEach((p) => {
+        if (src === "sga" && isSgaPkg(p)) names.add(p);
+        if (src === "tm" && !isSgaPkg(p)) names.add(p);
+      });
+    });
+    const sorted = [...names].sort((a, b) => a.localeCompare(b));
+    const allLabel = src === "sga" ? "All SGA itineraries" : "All TM packages";
+    sel.innerHTML =
+      `<option value="all">${allLabel}</option>` +
+      sorted.map((p) => `<option value="${esc(p)}">${esc(p)}</option>`).join("");
+    sel.value = sorted.includes(prev) ? prev : "all";
+  }
+
+  function matchesSource(issue) {
+    const src = $("sourceFilter").value;
+    const pkg = $("pkgFilter").value;
+    const pkgs = issue.packages || [];
+    if (src === "tm") {
+      if (!pkgs.some((p) => !isSgaPkg(p))) return false;
+      if (pkg !== "all" && !pkgs.includes(pkg)) return false;
+    }
+    if (src === "sga") {
+      if (!pkgs.some(isSgaPkg)) return false;
+      if (pkg !== "all" && !pkgs.includes(pkg)) return false;
+    }
+    return true;
+  }
+
   function matchesQuery(issue, q) {
     if (!q) return true;
     const d = dec(issue.id);
@@ -713,6 +777,7 @@
     $("statusFilter").style.display = sheetId === "__history__" ? "none" : "";
     $("decisionFilter").style.display = sheetId === "__decided__" ? "" : "none";
     $("historyWho").style.display = sheetId === "__history__" ? "" : "none";
+    fillPkgFilter();
     if (sheetId === "__history__") {
       renderHistory();
       maybeAskWho();
@@ -725,7 +790,7 @@
       for (const s of data.sheets) {
         for (const issue of s.issues) {
           const d = dec(issue.id);
-          if (!isDecided(d) || !matchesQuery(issue, q)) continue;
+          if (!isDecided(d) || !matchesQuery(issue, q) || !matchesSource(issue)) continue;
           if (df !== "all" && d.status !== df) continue;
           pairs.push({ sheet: s, issue });
         }
@@ -738,7 +803,7 @@
           const decided = isDecided(dec(issue.id));
           if (sf === "open" && decided) return false;
           if (sf === "decided" && !decided) return false;
-          return matchesQuery(issue, q);
+          return matchesQuery(issue, q) && matchesSource(issue);
         })
         .map((issue) => ({ sheet, issue }));
     }

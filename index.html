@@ -94,6 +94,7 @@
       padding: 8px 10px; border-radius: 8px; font: inherit;
     }
     input[type="search"] { min-width: 240px; flex: 1; }
+    #pkgFilter { min-width: 220px; max-width: 360px; }
     .help { background: #eef3f9; border: 1px solid #d3e0ee; color: #1F4E79;
       padding: 10px 12px; border-radius: 8px; margin-bottom: 12px; }
     .card {
@@ -210,6 +211,14 @@
         <option value="open">Open only</option>
         <option value="decided">Decided on this tab</option>
       </select>
+      <select id="sourceFilter">
+        <option value="all" selected>All sources</option>
+        <option value="tm">TM packages</option>
+        <option value="sga">SGA itineraries</option>
+      </select>
+      <select id="pkgFilter">
+        <option value="all">All packages</option>
+      </select>
       <select id="decisionFilter">
         <option value="all">Yes and No</option>
         <option value="yes">Yes only</option>
@@ -240,6 +249,6 @@
     </div>
   </dialog>
   <script src="data.js"></script>
-  <script src="app.js?v=20261109sga"></script>
+  <script src="app.js?v=20261109src"></script>
 </body>
 </html>

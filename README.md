@@ -1,6 +1,6 @@
 # TailorMade — SGA vs Prod rectify
 
-Hosted app for deciding problem-sheet issues (P1–P6, P8–P11, SA1, SA3, SA5).
+Hosted app for deciding problem-sheet issues (P1–P2, P4–P6, P8–P11, SA1, SA3, SA5).
 
 ## Live site
 
@@ -22,7 +22,9 @@ The yellow banner at the top is the reminder: **Save online** or other people wi
 
 **P4 Missing Prod pricing** shows ST vs Prod amounts by price category. **Yes** = insert the ST price. **No** = keep the Prod price. If there is no ST price, **Yes** opens a pre-filled Service Template form so prices can be added. Yes and No are both green so No is not the “wrong” answer.
 
-**P3 Brand new no Prod** is Yes/No. **Yes** opens the Service Template fields so the service can be created. Service create forms (P1 No, P3 Yes, P4 no-price Yes) let you add **multiple price categories**. There is no Skip for now on any tab.
+**P3 Brand new no Prod** was removed. If the name is not on Prod (no exact Item, no usable fuzzy match), ST is the source of truth and the service is created from ST later — no team decision.
+
+Service create forms (P1 No, P4 no-price Yes) let you add **multiple price categories**. There is no Skip for now on any tab.
 
 Worker source: `C:\VsCode\TailorMade\data\tm-packages-v1\rectify-store`. Cloudflare account claimed 9 Nov 2026. Live: https://tm-sga-prod-rectify-store.graceful-kryptops.workers.dev
 

@@ -313,7 +313,7 @@
         { value: "no", label: "No — keep the Prod price", extra: "" },
       ];
     }
-    if (sheet.id === "P3" || kind === "st-create") {
+    if (kind === "st-create") {
       return [
         { value: "yes", label: "Yes — create this service", extra: "" },
         { value: "no", label: "No — do not create", extra: "" },
@@ -697,7 +697,7 @@
     let pairs = [];
     if (sheetId === "__decided__") {
       $("help").textContent =
-        "Every decision so far, across all problem types. Filter by Yes / No, change a choice, or Reopen. The create form appears on No for services not on ST or Prod, and on Yes for P3 brand-new services.";
+        "Every decision so far, across all problem types. Filter by Yes / No, change a choice, or Reopen. The create form appears on No for services not on ST or Prod, and on P4 Yes when there is no ST price.";
       for (const s of data.sheets) {
         for (const issue of s.issues) {
           const d = dec(issue.id);
@@ -715,9 +715,7 @@
             ? "Template name does not match Prod. No opens the agreement fields for a different / new agreement."
             : sheet.id === "SA5"
               ? "ST supplier does not match Prod. No opens Supplier Name and the other supplier fields from the Service Template, plus the TM package."
-              : sheet.id === "P3"
-                ? "Brand new — not on Prod. Yes opens the Service Template fields so we can create it. No = do not create."
-                : sheet.help;
+              : sheet.help;
       pairs = sheet.issues
         .filter((issue) => {
           const decided = isDecided(dec(issue.id));
@@ -925,7 +923,6 @@
     if (sheet.id === "SA1" && c === "yes") return "sa";
     if (sheet.id === "SA3" && c === "no") return "sa";
     if (sheet.id === "SA5" && c === "no") return "supplier";
-    if (sheet.id === "P3") return c === "yes" ? "st" : "";
     if (sheet.id === "P4" && c === "yes" && !hasStPrice(issue)) return "st";
     if (issue.fullyMissing && c === "no") return "st";
     return "";
@@ -1069,9 +1066,7 @@
     const hint =
       sheet.id === "P4"
         ? "No ST price on file. Pre-filled from the service / package. Add a price category for each PC you need."
-        : sheet.id === "P3"
-          ? "Yes — create this service. Fill these so we can insert it. Add a price category for each PC."
-          : "No — brand new, and not on ST or Prod. Fill these so we can create it. Add a price category for each PC.";
+        : "No — brand new, and not on ST or Prod. Fill these so we can create it. Add a price category for each PC.";
     const service = groupedSections(ST_SERVICE_FIELDS, form, extra, issue.id, "");
     const pcBlocks = lines
       .map((line, i) => {

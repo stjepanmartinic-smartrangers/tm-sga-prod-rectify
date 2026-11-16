@@ -185,6 +185,16 @@
     #overview.on { display: block; }
     #overview { --no: #9b1c1c; --no-bg: #fde8e8; }
     #overview .tag.no { background: var(--no-bg); color: var(--no); }
+    #overview .tag { white-space: nowrap; }
+    #overview #svcTable th:last-child,
+    #overview #svcTable td:last-child,
+    #overview #pkgTable th:last-child,
+    #overview #pkgTable td:last-child,
+    #overview #sgaPkgTable th:last-child,
+    #overview #sgaPkgTable td:last-child {
+      white-space: nowrap;
+      width: 1%;
+    }
     #overview .answers { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin-bottom: 16px; }
     #overview .answer { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
     #overview .answer b { display: block; font-size: 28px; line-height: 1.1; }
@@ -475,7 +485,7 @@
   </dialog>
   <script src="data.js?v=20261116y"></script>
   <script src="dashboard-data.js?v=20261116aa"></script>
-  <script src="dashboard.js?v=20261116ab"></script>
+  <script src="dashboard.js?v=20261116ac"></script>
   <script src="app.js?v=20261116aa"></script>
 </body>
 </html>

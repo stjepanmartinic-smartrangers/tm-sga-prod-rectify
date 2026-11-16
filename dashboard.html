@@ -66,10 +66,19 @@
       border: 1px solid var(--line); border-radius: 12px; overflow: hidden; font-size: 13px; }
     th { text-align: left; background: #eef3f9; color: #1F4E79; padding: 7px 8px; font-weight: 650; }
     td { border-top: 1px solid var(--line); padding: 7px 8px; vertical-align: top; }
-    .tag { display: inline-block; font-size: 11px; font-weight: 650; padding: 2px 8px; border-radius: 999px; }
+    .tag { display: inline-block; font-size: 11px; font-weight: 650; padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
     .tag.yes { background: var(--yes-bg); color: var(--yes); }
     .tag.open { background: var(--open-bg); color: var(--open); }
     .tag.no { background: var(--no-bg); color: var(--no); }
+    #svcTable th:last-child,
+    #svcTable td:last-child,
+    #pkgTable th:last-child,
+    #pkgTable td:last-child,
+    #sgaPkgTable th:last-child,
+    #sgaPkgTable td:last-child {
+      white-space: nowrap;
+      width: 1%;
+    }
     .pills { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
     .pkg-row {
       display: grid;
@@ -283,6 +292,6 @@
     <footer id="foot"></footer>
   </div>
   <script src="dashboard-data.js?v=20261116aa"></script>
-  <script src="dashboard.js?v=20261116ab"></script>
+  <script src="dashboard.js?v=20261116ac"></script>
 </body>
 </html>

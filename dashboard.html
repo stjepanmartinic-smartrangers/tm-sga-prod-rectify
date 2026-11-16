@@ -70,6 +70,9 @@
     .tag.yes { background: var(--yes-bg); color: var(--yes); }
     .tag.open { background: var(--open-bg); color: var(--open); }
     .tag.no { background: var(--no-bg); color: var(--no); }
+    #svcTable,
+    #pkgTable,
+    #sgaPkgTable { overflow-x: auto; }
     #svcTable th:last-child,
     #svcTable td:last-child,
     #pkgTable th:last-child,
@@ -78,7 +81,14 @@
     #sgaPkgTable td:last-child {
       white-space: nowrap;
       width: 1%;
+      position: sticky;
+      right: 0;
+      background: var(--paper);
+      box-shadow: -6px 0 8px -6px rgba(0,0,0,.18);
     }
+    #svcTable th:last-child,
+    #pkgTable th:last-child,
+    #sgaPkgTable th:last-child { background: #eef3f9; }
     .pills { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
     .pkg-row {
       display: grid;
@@ -292,6 +302,6 @@
     <footer id="foot"></footer>
   </div>
   <script src="dashboard-data.js?v=20261116aa"></script>
-  <script src="dashboard.js?v=20261116ac"></script>
+  <script src="dashboard.js?v=20261116ad"></script>
 </body>
 </html>

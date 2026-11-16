@@ -186,6 +186,9 @@
     #overview { --no: #9b1c1c; --no-bg: #fde8e8; }
     #overview .tag.no { background: var(--no-bg); color: var(--no); }
     #overview .tag { white-space: nowrap; }
+    #overview #svcTable,
+    #overview #pkgTable,
+    #overview #sgaPkgTable { overflow-x: auto; }
     #overview #svcTable th:last-child,
     #overview #svcTable td:last-child,
     #overview #pkgTable th:last-child,
@@ -194,7 +197,14 @@
     #overview #sgaPkgTable td:last-child {
       white-space: nowrap;
       width: 1%;
+      position: sticky;
+      right: 0;
+      background: var(--paper);
+      box-shadow: -6px 0 8px -6px rgba(0,0,0,.18);
     }
+    #overview #svcTable th:last-child,
+    #overview #pkgTable th:last-child,
+    #overview #sgaPkgTable th:last-child { background: #eef3f9; }
     #overview .answers { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin-bottom: 16px; }
     #overview .answer { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
     #overview .answer b { display: block; font-size: 28px; line-height: 1.1; }
@@ -485,7 +495,7 @@
   </dialog>
   <script src="data.js?v=20261116y"></script>
   <script src="dashboard-data.js?v=20261116aa"></script>
-  <script src="dashboard.js?v=20261116ac"></script>
+  <script src="dashboard.js?v=20261116ad"></script>
   <script src="app.js?v=20261116aa"></script>
 </body>
 </html>

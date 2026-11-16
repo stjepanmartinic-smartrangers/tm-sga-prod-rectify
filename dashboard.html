@@ -20,15 +20,24 @@
     header h1 { font-size: 18px; margin: 0 0 4px; font-weight: 650; }
     header p { margin: 0; color: #d6e4f0; font-size: 12px; }
     header a { color: #fff; }
-    .wrap { max-width: 1180px; margin: 0 auto; padding: 18px 16px 80px; }
-    .answers { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-bottom: 16px; }
+    .wrap { max-width: 1240px; margin: 0 auto; padding: 18px 16px 80px; }
+    .answers { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin-bottom: 16px; }
     .answer { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
     .answer b { display: block; font-size: 28px; line-height: 1.1; }
     .answer span { color: var(--muted); font-size: 12px; }
-    .answer.ok b { color: var(--yes); }
     .answer.wait b { color: var(--open); }
     .help { background: #eef3f9; border: 1px solid #d3e0ee; color: #1F4E79;
       padding: 10px 12px; border-radius: 8px; margin-bottom: 16px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+    .grid.wide { grid-template-columns: 1fr; }
+    .chart-card {
+      background: var(--paper); border: 1px solid var(--line); border-radius: 12px;
+      padding: 14px 16px 10px;
+    }
+    .chart-card h3 { margin: 0 0 4px; font-size: 14px; }
+    .chart-card p { margin: 0 0 8px; color: var(--muted); font-size: 12px; }
+    .chart-box { position: relative; height: 280px; }
+    .chart-box.tall { height: 520px; }
     h2 { font-size: 16px; margin: 22px 0 8px; }
     table { width: 100%; border-collapse: collapse; background: var(--paper);
       border: 1px solid var(--line); border-radius: 12px; overflow: hidden; font-size: 13px; }
@@ -46,9 +55,11 @@
     input[type="search"] { min-width: 240px; flex: 1; }
     footer { margin-top: 24px; color: var(--muted); font-size: 12px; }
     .muted { color: var(--muted); }
-    tr.clickable { cursor: pointer; }
-    tr.clickable:hover td { background: #faf7f0; }
     .detail { font-size: 12px; color: var(--muted); }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; }
+      .chart-box, .chart-box.tall { height: 320px; }
+    }
   </style>
 </head>
 <body>
@@ -64,6 +75,45 @@
     <div class="answers" id="answers"></div>
     <div class="help" id="defs"></div>
 
+    <div class="grid">
+      <div class="chart-card">
+        <h3>Decision tool — cards decided vs open</h3>
+        <p>Yes / No / still Open across all P and SA tabs</p>
+        <div class="chart-box"><canvas id="chartTool"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Supplier agreements — tool vs live Prod</h3>
+        <p>SA1 open cards after overlaying today’s Intrepid Morocco account agreements</p>
+        <div class="chart-box"><canvas id="chartSa"></canvas></div>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="chart-card">
+        <h3>SGA unique services — 2027 prices</h3>
+        <p>TM = FIT pricelist · Group Tour = All Group Series / GIT</p>
+        <div class="chart-box"><canvas id="chartSgaMix"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Open cards by problem tab</h3>
+        <p>What is still waiting for a Yes or No</p>
+        <div class="chart-box"><canvas id="chartSheets"></canvas></div>
+      </div>
+    </div>
+    <div class="grid wide">
+      <div class="chart-card">
+        <h3>TM packages — decided vs still open</h3>
+        <p>None of the 20 packages are import-ready yet. Green = Yes in the tool, amber = still Open</p>
+        <div class="chart-box tall"><canvas id="chartPkgs"></canvas></div>
+      </div>
+    </div>
+    <div class="grid wide">
+      <div class="chart-card">
+        <h3>SGA trips — Group Tour vs TM (FIT) 2027 coverage</h3>
+        <p>Share of unique services on each trip with a 2027 price on that pricelist</p>
+        <div class="chart-box tall"><canvas id="chartSgaTrips"></canvas></div>
+      </div>
+    </div>
+
     <h2>1. TM packages — ready for import?</h2>
     <p class="muted">20 TailorMade package sheets. First-insert ready means names, supplier, location and type are decided. Prices, FIT and agreements are still deferred.</p>
     <div id="pkgTable"></div>
@@ -76,7 +126,7 @@
     <div id="svcTable"></div>
 
     <h2>3. Supplier agreements — tool vs live Prod</h2>
-    <p class="muted">SA1 in the tool is still the 4/9 Nov extract. Live Prod was queried today (account-level Intrepid Morocco agreements).</p>
+    <p class="muted">SA1 in the tool is still the 4/9 Nov extract. Live Prod was queried 16 Nov (account-level Intrepid Morocco agreements).</p>
     <div id="saSummary"></div>
     <div class="filters">
       <select id="saFilter">
@@ -98,7 +148,8 @@
 
     <footer id="foot"></footer>
   </div>
-  <script src="dashboard-data.js?v=20261116a"></script>
-  <script src="dashboard.js?v=20261116a"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+  <script src="dashboard-data.js?v=20261116c"></script>
+  <script src="dashboard.js?v=20261116c"></script>
 </body>
 </html>

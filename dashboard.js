@@ -205,6 +205,178 @@
     document.getElementById("foot").textContent =
       "People in the tool: " + (data.people || []).join(", ") +
       ". Hosted with the decision app. Prod queries are read-only.";
+
+    drawCharts({
+      toolYes,
+      toolNo: useLive ? no : h.toolNo,
+      toolOpen,
+      sheets,
+      pkgRows,
+      h,
+    });
+  }
+
+  const charts = {};
+  function upsertChart(id, config) {
+    if (charts[id]) charts[id].destroy();
+    const el = document.getElementById(id);
+    if (!el || typeof Chart === "undefined") return;
+    charts[id] = new Chart(el, config);
+  }
+
+  function drawCharts(s) {
+    const legend = { labels: { boxWidth: 12, color: "#1c1915" } };
+    const ticks = { color: "#5c564c", font: { size: 11 } };
+    const grid = { color: "#e4ddd0" };
+
+    upsertChart("chartTool", {
+      type: "doughnut",
+      data: {
+        labels: ["Yes", "No", "Open"],
+        datasets: [{
+          data: [s.toolYes, s.toolNo, s.toolOpen],
+          backgroundColor: ["#1f6b4a", "#9b1c1c", "#d97706"],
+          borderWidth: 0,
+        }],
+      },
+      options: {
+        maintainAspectRatio: false,
+        plugins: {
+          legend,
+          title: { display: false },
+        },
+      },
+    });
+
+    upsertChart("chartSa", {
+      type: "doughnut",
+      data: {
+        labels: [
+          "Live Prod account SA — do not recreate",
+          "Still no usable Prod agreement",
+        ],
+        datasets: [{
+          data: [s.h.sa1CoveredByLiveProd, s.h.sa1StillNoAgreement],
+          backgroundColor: ["#1f6b4a", "#d97706"],
+          borderWidth: 0,
+        }],
+      },
+      options: {
+        maintainAspectRatio: false,
+        plugins: { legend },
+      },
+    });
+
+    const mix = s.h.sgaPriceSummary || {};
+    upsertChart("chartSgaMix", {
+      type: "doughnut",
+      data: {
+        labels: [
+          "Group Tour only",
+          "TM (FIT) + Group Tour",
+          "TM (FIT) only",
+          "On Prod, no 2027",
+          "Not on Prod",
+        ],
+        datasets: [{
+          data: [
+            mix["Group Tour only"] || 0,
+            mix["Both FIT + Group Tour"] || 0,
+            mix["FIT only"] || 0,
+            mix["On Prod, no 2027"] || 0,
+            mix["Not on Prod"] || 0,
+          ],
+          backgroundColor: ["#1F4E79", "#1f6b4a", "#7c3aed", "#d97706", "#9b1c1c"],
+          borderWidth: 0,
+        }],
+      },
+      options: {
+        maintainAspectRatio: false,
+        plugins: { legend },
+      },
+    });
+
+    const sheetRows = (s.sheets || []).slice().sort((a, b) => b.open - a.open);
+    upsertChart("chartSheets", {
+      type: "bar",
+      data: {
+        labels: sheetRows.map((x) => x.id),
+        datasets: [
+          { label: "Yes", data: sheetRows.map((x) => x.yes), backgroundColor: "#1f6b4a" },
+          { label: "Open", data: sheetRows.map((x) => x.open), backgroundColor: "#d97706" },
+        ],
+      },
+      options: {
+        maintainAspectRatio: false,
+        plugins: { legend },
+        scales: {
+          x: { stacked: true, ticks, grid: { display: false } },
+          y: { stacked: true, ticks, grid, title: { display: true, text: "Cards", color: "#5c564c" } },
+        },
+      },
+    });
+
+    const pkgs = (s.pkgRows || []).slice().sort((a, b) => b.open - a.open);
+    upsertChart("chartPkgs", {
+      type: "bar",
+      data: {
+        labels: pkgs.map((p) => p.name),
+        datasets: [
+          { label: "Yes", data: pkgs.map((p) => p.yes), backgroundColor: "#1f6b4a" },
+          { label: "Open", data: pkgs.map((p) => p.open), backgroundColor: "#d97706" },
+        ],
+      },
+      options: {
+        indexAxis: "y",
+        maintainAspectRatio: false,
+        plugins: { legend },
+        scales: {
+          x: { stacked: true, ticks, grid, title: { display: true, text: "Problem-sheet cards", color: "#5c564c" } },
+          y: { stacked: true, ticks: { ...ticks, font: { size: 10 } }, grid: { display: false } },
+        },
+      },
+    });
+
+    const trips = data.sgaPricing || [];
+    upsertChart("chartSgaTrips", {
+      type: "bar",
+      data: {
+        labels: trips.map((t) => t.code),
+        datasets: [
+          {
+            label: "Group Tour 2027 %",
+            data: trips.map((t) => {
+              const gt = (t.counts["Group Tour only"] || 0) + (t.counts["TM + Group Tour"] || 0);
+              return t.unique ? Math.round((100 * gt) / t.unique) : 0;
+            }),
+            backgroundColor: "#1F4E79",
+          },
+          {
+            label: "TM (FIT) 2027 %",
+            data: trips.map((t) => {
+              const tm = (t.counts["TM (FIT) only"] || 0) + (t.counts["TM + Group Tour"] || 0);
+              return t.unique ? Math.round((100 * tm) / t.unique) : 0;
+            }),
+            backgroundColor: "#7c3aed",
+          },
+        ],
+      },
+      options: {
+        indexAxis: "y",
+        maintainAspectRatio: false,
+        plugins: { legend },
+        scales: {
+          x: {
+            min: 0,
+            max: 100,
+            ticks,
+            grid,
+            title: { display: true, text: "% of unique services on the trip", color: "#5c564c" },
+          },
+          y: { ticks: { ...ticks, font: { size: 11 } }, grid: { display: false } },
+        },
+      },
+    });
   }
 
   function drawSvc() {

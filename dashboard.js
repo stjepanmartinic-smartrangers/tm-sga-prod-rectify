@@ -916,6 +916,36 @@
     if (noSaUsedOn) noSaUsedOn.addEventListener("change", drawNoSa);
     if (noSaQ) noSaQ.addEventListener("input", drawNoSa);
     bindNav();
+    bindJumpNav();
+  }
+
+  function bindJumpNav() {
+    const nav = document.querySelector(".dash-jump");
+    if (!nav || nav.dataset.bound) return;
+    nav.dataset.bound = "1";
+    const links = Array.prototype.slice.call(nav.querySelectorAll("a[href^='#']"));
+    nav.addEventListener("click", (ev) => {
+      const a = ev.target.closest("a[href^='#']");
+      if (!a) return;
+      const id = (a.getAttribute("href") || "").slice(1);
+      const t = id && document.getElementById(id);
+      if (!t) return;
+      ev.preventDefault();
+      t.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (history.replaceState) history.replaceState(null, "", "#" + id);
+    });
+    if (!window.IntersectionObserver) return;
+    const io = new IntersectionObserver((entries) => {
+      const vis = entries
+        .filter((e) => e.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (!vis) return;
+      links.forEach((a) => a.classList.toggle("on", a.getAttribute("href") === "#" + vis.target.id));
+    }, { rootMargin: "-15% 0px -65% 0px", threshold: [0, 0.15, 0.4] });
+    links.forEach((a) => {
+      const t = document.getElementById((a.getAttribute("href") || "").slice(1));
+      if (t) io.observe(t);
+    });
   }
 
   function drawAll(live) {

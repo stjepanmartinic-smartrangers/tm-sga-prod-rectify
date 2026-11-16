@@ -262,6 +262,20 @@
     #overview .muted { color: var(--muted); }
     #overview .detail { font-size: 12px; color: var(--muted); }
     #overview .meta-line { color: var(--muted); font-size: 12px; margin: 0 0 10px; }
+    #overview .dash-jump {
+      position: fixed; z-index: 40; left: 50%; bottom: 16px; transform: translateX(-50%);
+      display: flex; gap: 4px; flex-wrap: wrap; justify-content: center;
+      background: #1F4E79; color: #fff; padding: 6px; border-radius: 999px;
+      box-shadow: 0 8px 24px rgba(28,25,21,.22); max-width: calc(100% - 24px);
+    }
+    #overview .dash-jump a {
+      color: #d6e4f0; text-decoration: none; font-size: 12px; font-weight: 650;
+      padding: 7px 12px; border-radius: 999px; white-space: nowrap;
+    }
+    #overview .dash-jump a:hover, #overview .dash-jump a.on { background: rgba(255,255,255,.16); color: #fff; }
+    #overview #dash-overview, #overview #dash-packages, #overview #dash-services, #overview #dash-agreements {
+      scroll-margin-top: 110px;
+    }
     @media (max-width: 900px) {
       #overview .fresh-grid, #overview .grid, #overview .grid.three { grid-template-columns: 1fr; }
       #overview .pkg-row { grid-template-columns: 1fr; }
@@ -291,6 +305,13 @@
     <div class="stats" id="stats"></div>
     <div class="tabs" id="tabs"></div>
     <div id="overview">
+      <nav class="dash-jump" aria-label="Dashboard sections">
+        <a href="#dash-overview">Overview</a>
+        <a href="#dash-packages">Packages</a>
+        <a href="#dash-services">Services</a>
+        <a href="#dash-agreements">Supplier agreements</a>
+      </nav>
+      <div id="dash-overview">
       <p class="meta-line" id="meta"></p>
       <div class="fresh-grid" id="freshness"></div>
       <div id="err"></div>
@@ -371,19 +392,20 @@
           <div class="chart-box" id="chartSgaTrips"></div>
         </div>
       </div>
-      <h2>1. FIT packages — ready? <span class="src-tag live">Live answers</span></h2>
+      </div>
+      <h2 id="dash-packages">1. FIT packages — ready? <span class="src-tag live">Live answers</span></h2>
       <p class="muted">Same list as the FIT pie above. Green pill = ready; red = still open. Click a pill to open that issue for the package.</p>
       <div id="pkgTable"></div>
       <h2>1b. SGA packages — ready? <span class="src-tag live">Live answers</span></h2>
       <p class="muted">Same list as the SGA pie above. 18 SGA trips. Missing in template does not apply.</p>
       <div id="sgaPkgTable"></div>
-      <h2>2. Services — ready? <span class="src-tag live">Live answers</span></h2>
+      <h2 id="dash-services">2. Services — ready? <span class="src-tag live">Live answers</span></h2>
       <p class="muted">Same as the Services ready pie. Click a pill to open that issue, filtered to the service name.</p>
       <div class="dash-filters">
         <input type="search" id="svcQ" placeholder="Search service…" />
       </div>
       <div id="svcTable"></div>
-      <h2>3. Supplier agreements — new in template vs existing on Prod <span class="src-tag stale">Salesforce extract</span></h2>
+      <h2 id="dash-agreements">3. Supplier agreements — new in template vs existing on Prod <span class="src-tag stale">Salesforce extract</span></h2>
       <p class="muted">Same as the two agreement pies. Date is on the amber banner. Account-level Intrepid Morocco SA is enough.</p>
       <div id="saSplitSummary"></div>
       <h3 style="font-size:14px;margin:14px 0 6px">Accounts with no SA <span class="src-tag stale">Salesforce extract + Excel</span></h3>
@@ -510,8 +532,8 @@
     </div>
   </dialog>
   <script src="data.js?v=20261116y"></script>
-  <script src="dashboard-data.js?v=20261116ag"></script>
-  <script src="dashboard.js?v=20261116ag"></script>
+  <script src="dashboard-data.js?v=20261116ah"></script>
+  <script src="dashboard.js?v=20261116ah"></script>
   <script src="app.js?v=20261116aa"></script>
 </body>
 </html>

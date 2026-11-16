@@ -122,6 +122,18 @@
       .chart-box, .chart-box.tall { height: auto; min-height: 0; }
       .pkg-row { grid-template-columns: 1fr; }
     }
+    .dash-jump {
+      position: fixed; z-index: 40; left: 50%; bottom: 16px; transform: translateX(-50%);
+      display: flex; gap: 4px; flex-wrap: wrap; justify-content: center;
+      background: #1F4E79; color: #fff; padding: 6px; border-radius: 999px;
+      box-shadow: 0 8px 24px rgba(28,25,21,.22); max-width: calc(100% - 24px);
+    }
+    .dash-jump a {
+      color: #d6e4f0; text-decoration: none; font-size: 12px; font-weight: 650;
+      padding: 7px 12px; border-radius: 999px; white-space: nowrap;
+    }
+    .dash-jump a:hover, .dash-jump a.on { background: rgba(255,255,255,.16); color: #fff; }
+    #dash-overview, #dash-packages, #dash-services, #dash-agreements { scroll-margin-top: 80px; }
   </style>
 </head>
 <body>
@@ -133,7 +145,14 @@
     </p>
     <p id="meta"></p>
   </header>
+  <nav class="dash-jump" aria-label="Dashboard sections">
+    <a href="#dash-overview">Overview</a>
+    <a href="#dash-packages">Packages</a>
+    <a href="#dash-services">Services</a>
+    <a href="#dash-agreements">Supplier agreements</a>
+  </nav>
   <div class="wrap">
+    <div id="dash-overview">
     <div class="fresh-grid" id="freshness"></div>
     <div id="err"></div>
     <div class="answers" id="answers"></div>
@@ -215,7 +234,8 @@
       </div>
     </div>
 
-    <h2>1. FIT packages — ready? <span class="src-tag live">Live answers</span></h2>
+    </div>
+    <h2 id="dash-packages">1. FIT packages — ready? <span class="src-tag live">Live answers</span></h2>
     <p class="muted">Same list as the FIT pie. Green pill = that problem is ready; red = not ready. Ready only when every pill is green. Price missing, occupancy names, FIT prices and agreements stay deferred. Notes in the tool win over a conflicting Yes.</p>
     <div id="pkgTable"></div>
 
@@ -223,14 +243,14 @@
     <p class="muted">Same list as the SGA pie. 18 SGA trips, same problem pills as FIT. Missing in template does not apply. Account-level supplier agreements are OK. Ready only when every pill is green.</p>
     <div id="sgaPkgTable"></div>
 
-    <h2>2. Services — ready? <span class="src-tag live">Live answers</span></h2>
+    <h2 id="dash-services">2. Services — ready? <span class="src-tag live">Live answers</span></h2>
     <p class="muted">Same as the Services ready pie. Unique service names. Green = ready, red = not ready. Ready only when every pill is green. Price missing, occupancy names, FIT prices and agreements are not on these pills.</p>
     <div class="filters">
       <input type="search" id="svcQ" placeholder="Search service…" />
     </div>
     <div id="svcTable"></div>
 
-    <h2>3. Supplier agreements — new in template vs existing on Prod <span class="src-tag stale">Salesforce extract</span></h2>
+    <h2 id="dash-agreements">3. Supplier agreements — new in template vs existing on Prod <span class="src-tag stale">Salesforce extract</span></h2>
     <p class="muted">Live Intrepid Prod query. An account-level Intrepid Morocco SA is enough; service assignments are not required. New = on the Service Template, not on Prod. Existing = already a Prod Item. DMC Morocco Cash Paid / Crew / Placeholder accounts are internal.</p>
     <div id="saSplitSummary"></div>
     <h3 style="font-size:14px;margin:14px 0 6px">Accounts with no SA <span class="src-tag stale">Salesforce extract + Excel</span></h3>
@@ -316,7 +336,7 @@
 
     <footer id="foot"></footer>
   </div>
-  <script src="dashboard-data.js?v=20261116ag"></script>
-  <script src="dashboard.js?v=20261116ag"></script>
+  <script src="dashboard-data.js?v=20261116ah"></script>
+  <script src="dashboard.js?v=20261116ah"></script>
 </body>
 </html>

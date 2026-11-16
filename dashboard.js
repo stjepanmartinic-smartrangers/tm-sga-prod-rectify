@@ -405,8 +405,8 @@
       const el = document.getElementById(elId);
       if (!el) return;
       const slices = [
-        { label: "First-insert ready", value: mix.ready, color: "#1f6b4a" },
-        { label: "Not yet", value: Math.max(0, mix.n - mix.ready), color: "#d97706" },
+        { label: "Yes", value: mix.yes, color: "#1f6b4a" },
+        { label: "Open", value: mix.open, color: "#d97706" },
       ].filter((x) => x.value > 0);
       el.innerHTML = doughnut(slices.length ? slices : [{ label: "None", value: 1, color: "#efeae0" }]);
       const cap = document.getElementById(capId);

@@ -195,8 +195,21 @@
     #overview .grid.wide { grid-template-columns: 1fr; }
     #overview .grid.three { grid-template-columns: 1fr 1fr 1fr; }
     #overview .chart-card { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px 10px; }
-    #overview .chart-card h3 { margin: 0 0 4px; font-size: 14px; }
+    #overview .chart-card.from-live { border-left: 4px solid #166534; }
+    #overview .chart-card.from-sf { border-left: 4px solid #c2410c; }
+    #overview .chart-card.from-mix { border-left: 4px solid #1F4E79; }
+    #overview .chart-card h3 { margin: 0 0 4px; font-size: 14px; display: flex; gap: 8px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
     #overview .chart-card p { margin: 0 0 8px; color: var(--muted); font-size: 12px; }
+    #overview .src-tag, #overview .answer .src-tag {
+      display: inline-block; font-size: 11px; font-weight: 650; padding: 2px 8px;
+      border-radius: 999px; white-space: nowrap;
+    }
+    #overview .src-tag.live { background: #e5f4ec; color: #14532d; border: 1px solid #b7e0c8; }
+    #overview .src-tag.stale { background: #fff7ed; color: #9a3412; border: 1px solid #fed7aa; }
+    #overview .src-tag.mix { background: #eef3f9; color: #1F4E79; border: 1px solid #d3e0ee; }
+    #overview h2 { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+    #overview .answer { position: relative; }
+    #overview .answer .src-tag { margin-top: 6px; }
     #overview .chart-box { min-height: 180px; }
     #overview .donut-wrap { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
     #overview .legend { list-style: none; margin: 0; padding: 0; font-size: 12px; }
@@ -262,95 +275,95 @@
       <div id="err"></div>
       <div class="answers" id="answers"></div>
       <div class="grid three">
-        <div class="chart-card">
-          <h3>FIT packages</h3>
+        <div class="chart-card from-live">
+          <h3>FIT packages <span class="src-tag live">Live answers</span></h3>
           <p id="fitPieCaption">Each slice is one TailorMade / FIT package</p>
           <div class="chart-box" id="chartFitPie"></div>
         </div>
-        <div class="chart-card">
-          <h3>SGA packages</h3>
+        <div class="chart-card from-live">
+          <h3>SGA packages <span class="src-tag live">Live answers</span></h3>
           <p id="sgaPieCaption">Each slice is one SGA trip</p>
           <div class="chart-box" id="chartSgaPie"></div>
         </div>
-        <div class="chart-card">
-          <h3>Services ready</h3>
+        <div class="chart-card from-live">
+          <h3>Services ready <span class="src-tag live">Live answers</span></h3>
           <p id="svcPieCaption">Each slice is a unique service. Ready = every required problem pill is green.</p>
           <div class="chart-box" id="chartSvcPie"></div>
         </div>
       </div>
       <div class="grid">
-        <div class="chart-card">
-          <h3>Agreements — new services in the template</h3>
+        <div class="chart-card from-sf">
+          <h3>Agreements — new services in the template <span class="src-tag stale">Salesforce extract</span></h3>
           <p id="saNewCaption">Service Template names that are not on Prod yet.</p>
           <div class="chart-box" id="chartSaNew"></div>
         </div>
-        <div class="chart-card">
-          <h3>Agreements — existing services on Prod</h3>
+        <div class="chart-card from-sf">
+          <h3>Agreements — existing services on Prod <span class="src-tag stale">Salesforce extract</span></h3>
           <p id="saExistingCaption">Catalog names that already exist as a Prod Item.</p>
           <div class="chart-box" id="chartSaExisting"></div>
         </div>
       </div>
       <div class="grid">
-        <div class="chart-card">
-          <h3>Unique services — fully decided vs Ready</h3>
+        <div class="chart-card from-live">
+          <h3>Unique services — fully decided vs Ready <span class="src-tag live">Live answers</span></h3>
           <p>Fully decided = every problem closed. Ready = required pills green.</p>
           <div class="chart-box" id="chartSvcMix"></div>
         </div>
-        <div class="chart-card">
-          <h3>Answers in the decision tool</h3>
+        <div class="chart-card from-live">
+          <h3>Answers in the decision tool <span class="src-tag live">Live answers</span></h3>
           <p>Counts every Yes / No / Open card.</p>
           <div class="chart-box" id="chartTool"></div>
         </div>
       </div>
       <div class="grid">
-        <div class="chart-card">
-          <h3>SGA services — who has a 2027 price</h3>
-          <p>2027 price coverage from the SGA trip file, not the decision tool. Salesforce extract.</p>
+        <div class="chart-card from-sf">
+          <h3>SGA services — who has a 2027 price <span class="src-tag stale">Salesforce extract</span></h3>
+          <p>2027 price coverage from the SGA trip file, not the decision tool.</p>
           <div class="chart-box" id="chartSgaMix"></div>
         </div>
       </div>
       <div class="grid wide">
-        <div class="chart-card">
-          <h3>Open cards by problem tab</h3>
+        <div class="chart-card from-live">
+          <h3>Open cards by problem tab <span class="src-tag live">Live answers</span></h3>
           <p>Green = Decided · Amber = Not decided.</p>
           <div class="chart-box" id="chartSheets"></div>
         </div>
       </div>
       <div class="grid wide">
-        <div class="chart-card">
-          <h3>FIT packages — ready?</h3>
-          <p>Click a pill to open that issue, filtered to the package.</p>
+        <div class="chart-card from-live">
+          <h3>FIT packages — ready? <span class="src-tag live">Live answers</span></h3>
+          <p>Same as the FIT pie. Click a pill to open that issue, filtered to the package.</p>
           <div class="chart-box" id="chartPkgs"></div>
         </div>
       </div>
       <div class="grid wide">
-        <div class="chart-card">
-          <h3>SGA packages — ready?</h3>
-          <p>Click a pill to open that issue, filtered to the trip. Missing in template does not apply to SGA.</p>
+        <div class="chart-card from-live">
+          <h3>SGA packages — ready? <span class="src-tag live">Live answers</span></h3>
+          <p>Same as the SGA pie. Click a pill to open that issue, filtered to the trip. Missing in template does not apply to SGA.</p>
           <div class="chart-box" id="chartSgaPkgs"></div>
         </div>
       </div>
       <div class="grid wide">
-        <div class="chart-card">
-          <h3>SGA trips — Group Tour vs TM (FIT) 2027 coverage</h3>
-          <p>Share of unique services on each trip with a 2027 price. Salesforce extract.</p>
+        <div class="chart-card from-sf">
+          <h3>SGA trips — Group Tour vs TM (FIT) 2027 coverage <span class="src-tag stale">Salesforce extract</span></h3>
+          <p>Share of unique services on each trip with a 2027 price.</p>
           <div class="chart-box" id="chartSgaTrips"></div>
         </div>
       </div>
-      <h2>1. FIT packages — ready?</h2>
-      <p class="muted">Green pill = ready; red = still open. Click a pill to open that issue for the package.</p>
+      <h2>1. FIT packages — ready? <span class="src-tag live">Live answers</span></h2>
+      <p class="muted">Same list as the FIT pie above. Green pill = ready; red = still open. Click a pill to open that issue for the package.</p>
       <div id="pkgTable"></div>
-      <h2>1b. SGA packages — ready?</h2>
-      <p class="muted">18 SGA trips. Missing in template does not apply.</p>
+      <h2>1b. SGA packages — ready? <span class="src-tag live">Live answers</span></h2>
+      <p class="muted">Same list as the SGA pie above. 18 SGA trips. Missing in template does not apply.</p>
       <div id="sgaPkgTable"></div>
-      <h2>2. Services — ready?</h2>
-      <p class="muted">Click a pill to open that issue, filtered to the service name.</p>
+      <h2>2. Services — ready? <span class="src-tag live">Live answers</span></h2>
+      <p class="muted">Same as the Services ready pie. Click a pill to open that issue, filtered to the service name.</p>
       <div class="dash-filters">
         <input type="search" id="svcQ" placeholder="Search service…" />
       </div>
       <div id="svcTable"></div>
-      <h2>3. Supplier agreements — new in template vs existing on Prod</h2>
-      <p class="muted">Live Intrepid Prod query date is on the amber banner. Account-level Intrepid Morocco SA is enough.</p>
+      <h2>3. Supplier agreements — new in template vs existing on Prod <span class="src-tag stale">Salesforce extract</span></h2>
+      <p class="muted">Same as the two agreement pies. Date is on the amber banner. Account-level Intrepid Morocco SA is enough.</p>
       <div id="saSplitSummary"></div>
       <h3 style="font-size:14px;margin:14px 0 6px">Agreements by account</h3>
       <div class="dash-filters">
@@ -377,7 +390,7 @@
         <input type="search" id="saExQ" placeholder="Search existing service or supplier…" />
       </div>
       <div id="saExistingTable"></div>
-      <h2>3b. SA1 in the decision tool vs live Prod</h2>
+      <h2>3b. SA1 in the decision tool vs live Prod <span class="src-tag mix">Live answers + Salesforce extract</span></h2>
       <div id="saSummary"></div>
       <h3 style="font-size:14px;margin:14px 0 6px">Unique SA1 suppliers</h3>
       <div class="dash-filters">
@@ -407,10 +420,10 @@
         <input type="search" id="saQ" placeholder="Search service or supplier…" />
       </div>
       <div id="saTable"></div>
-      <h2>4. Decision tool tabs</h2>
+      <h2>4. Decision tool tabs <span class="src-tag live">Live answers</span></h2>
       <div id="sheetTable"></div>
-      <h2>5. SGA trips — 2027 TM (FIT) and Group Tour prices</h2>
-      <p class="muted">Salesforce extract. TM = FIT pricelist. Group Tour = All Group Series or GIT.</p>
+      <h2>5. SGA trips — 2027 TM (FIT) and Group Tour prices <span class="src-tag stale">Salesforce extract</span></h2>
+      <p class="muted">Same as the SGA 2027 price pie. TM = FIT pricelist. Group Tour = All Group Series or GIT.</p>
       <div id="sgaTable"></div>
       <h3 style="font-size:14px;margin:14px 0 6px">Services that are not Group Tour 2027 (or not on Prod)</h3>
       <div id="sgaGaps"></div>
@@ -462,7 +475,7 @@
   </dialog>
   <script src="data.js?v=20261116y"></script>
   <script src="dashboard-data.js?v=20261116aa"></script>
-  <script src="dashboard.js?v=20261116aa"></script>
+  <script src="dashboard.js?v=20261116ab"></script>
   <script src="app.js?v=20261116aa"></script>
 </body>
 </html>

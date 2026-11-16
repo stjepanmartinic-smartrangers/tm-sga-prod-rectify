@@ -293,14 +293,14 @@
       <div class="fresh live">
         <b>Live now — no Salesforce query</b>
         <div>Saved answers in the shared store: <time>${esc(fmtWhen(liveAt))}</time></div>
-        <div class="detail">Yes / No / Open and Ready pills use this. Overview reloads it when you open the tab.</div>
+        <div class="detail">Charts and tables with a green <b>Live answers</b> tag: Ready pies, Yes/No cards, package and service pills. Overview reloads this when you open the tab.</div>
       </div>
       <div class="fresh stale">
         <b>Salesforce extract — query Prod again to refresh</b>
         <div>Catalog / problem sheets: <time>${esc(data.extract || sf.catalog || "—")}</time>${data.source ? " · " + esc(data.source) : ""}</div>
         <div>Prod items &amp; supplier agreements: <time>${esc(fmtWhen(data.prodSaQueriedAt || sf.prodItemsAndAgreements))}</time></div>
         <div>SGA 2027 prices: <time>${esc(fmtWhen(data.sgaPricesQueriedAt || sf.sga2027Prices) || "13 Nov 2026")}</time></div>
-        <div class="detail">These numbers do not change until someone runs a Salesforce query and rebuilds the extract.</div>
+        <div class="detail">Charts and tables with an amber <b>Salesforce extract</b> tag: supplier agreements on Prod, SGA 2027 prices. These do not change until someone queries Prod and rebuilds.</div>
       </div>`);
     const firstReady = useLive
       ? Object.values(pkg).filter((p) => p.firstInsertReady).length
@@ -338,18 +338,18 @@
     }
 
     setHtml("answers", `
-      <div class="answer wait"><b>${fully}</b><span>FIT packages fully ready (of ${h.tmPackages})</span></div>
-      <div class="answer wait"><b>${firstReady}</b><span>FIT packages ready</span></div>
-      <div class="answer wait"><b>${sgaFully}</b><span>SGA packages fully ready (of ${sgaCount})</span></div>
-      <div class="answer wait"><b>${sgaFirstReady}</b><span>SGA packages ready</span></div>
-      <div class="answer wait"><b>${servicesFinalised} / ${uniqueSvc}</b><span>Unique services fully decided (no open cards left)</span></div>
-      <div class="answer ok"><b>${servicesFirstInsert} / ${uniqueSvc}</b><span>Unique services ready</span></div>
-      <div class="answer wait"><b>${prob}</b><span>Unique services still with at least one open card</span></div>
-      <div class="answer ok"><b>${h.saNewWithAgreement || 0} / ${h.saNewServices || 0}</b><span>New template services whose supplier already has a Prod SA</span></div>
-      <div class="answer wait"><b>${h.saExistingWithAgreement || 0} / ${h.saExistingServices || 0}</b><span>Existing Prod services whose supplier has a Morocco SA</span></div>
-      <div class="answer ok"><b>${saSupWith} / ${saSupAll}</b><span>Unique SA1 suppliers now with a live Prod agreement</span></div>
-      <div class="answer ok"><b>${h.prodMoroccoAccounts}</b><span>Intrepid Morocco accounts with an account-level SA — this is the OK / expected model (${h.prodMoroccoAgreements} agreements)</span></div>
-      <div class="answer"><b>${h.sgaTrips}</b><span>SGA trips · ${h.sgaUniqueServices} unique services · Group Tour 2027 on most; TM/FIT is rare</span></div>
+      <div class="answer wait"><b>${fully}</b><span>FIT packages fully ready (of ${h.tmPackages})</span><span class="src-tag live">Live answers</span></div>
+      <div class="answer wait"><b>${firstReady}</b><span>FIT packages ready</span><span class="src-tag live">Live answers</span></div>
+      <div class="answer wait"><b>${sgaFully}</b><span>SGA packages fully ready (of ${sgaCount})</span><span class="src-tag live">Live answers</span></div>
+      <div class="answer wait"><b>${sgaFirstReady}</b><span>SGA packages ready</span><span class="src-tag live">Live answers</span></div>
+      <div class="answer wait"><b>${servicesFinalised} / ${uniqueSvc}</b><span>Unique services fully decided (no open cards left)</span><span class="src-tag live">Live answers</span></div>
+      <div class="answer ok"><b>${servicesFirstInsert} / ${uniqueSvc}</b><span>Unique services ready</span><span class="src-tag live">Live answers</span></div>
+      <div class="answer wait"><b>${prob}</b><span>Unique services still with at least one open card</span><span class="src-tag live">Live answers</span></div>
+      <div class="answer ok"><b>${h.saNewWithAgreement || 0} / ${h.saNewServices || 0}</b><span>New template services whose supplier already has a Prod SA</span><span class="src-tag stale">Salesforce extract</span></div>
+      <div class="answer wait"><b>${h.saExistingWithAgreement || 0} / ${h.saExistingServices || 0}</b><span>Existing Prod services whose supplier has a Morocco SA</span><span class="src-tag stale">Salesforce extract</span></div>
+      <div class="answer ok"><b>${saSupWith} / ${saSupAll}</b><span>Unique SA1 suppliers now with a live Prod agreement</span><span class="src-tag mix">Live + Salesforce</span></div>
+      <div class="answer ok"><b>${h.prodMoroccoAccounts}</b><span>Intrepid Morocco accounts with an account-level SA — this is the OK / expected model (${h.prodMoroccoAgreements} agreements)</span><span class="src-tag stale">Salesforce extract</span></div>
+      <div class="answer"><b>${h.sgaTrips}</b><span>SGA trips · ${h.sgaUniqueServices} unique services · Group Tour 2027 on most; TM/FIT is rare</span><span class="src-tag stale">Salesforce extract</span></div>
     `);
 
     const pkgRows = (useLive ? Object.values(pkg) : data.tmPackages).sort((a, b) => a.name.localeCompare(b.name));

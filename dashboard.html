@@ -36,8 +36,20 @@
       background: var(--paper); border: 1px solid var(--line); border-radius: 12px;
       padding: 14px 16px 10px;
     }
-    .chart-card h3 { margin: 0 0 4px; font-size: 14px; }
+    .chart-card.from-live { border-left: 4px solid #166534; }
+    .chart-card.from-sf { border-left: 4px solid #c2410c; }
+    .chart-card.from-mix { border-left: 4px solid #1F4E79; }
+    .chart-card h3 { margin: 0 0 4px; font-size: 14px; display: flex; gap: 8px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
     .chart-card p { margin: 0 0 8px; color: var(--muted); font-size: 12px; }
+    .src-tag {
+      display: inline-block; font-size: 11px; font-weight: 650; padding: 2px 8px;
+      border-radius: 999px; white-space: nowrap;
+    }
+    .src-tag.live { background: #e5f4ec; color: #14532d; border: 1px solid #b7e0c8; }
+    .src-tag.stale { background: #fff7ed; color: #9a3412; border: 1px solid #fed7aa; }
+    .src-tag.mix { background: #eef3f9; color: #1F4E79; border: 1px solid #d3e0ee; }
+    h2 { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+    .answer .src-tag { margin-top: 6px; }
     .chart-box { min-height: 180px; }
     .donut-wrap { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
     .legend { list-style: none; margin: 0; padding: 0; font-size: 12px; }
@@ -107,98 +119,98 @@
     <div class="answers" id="answers"></div>
 
     <div class="grid three">
-      <div class="chart-card">
-        <h3>FIT packages</h3>
+      <div class="chart-card from-live">
+        <h3>FIT packages <span class="src-tag live">Live answers</span></h3>
         <p id="fitPieCaption">Each slice is one TailorMade / FIT package</p>
         <div class="chart-box" id="chartFitPie"></div>
       </div>
-      <div class="chart-card">
-        <h3>SGA packages</h3>
+      <div class="chart-card from-live">
+        <h3>SGA packages <span class="src-tag live">Live answers</span></h3>
         <p id="sgaPieCaption">Each slice is one SGA trip</p>
         <div class="chart-box" id="chartSgaPie"></div>
       </div>
-      <div class="chart-card">
-        <h3>Services ready</h3>
+      <div class="chart-card from-live">
+        <h3>Services ready <span class="src-tag live">Live answers</span></h3>
         <p id="svcPieCaption">Each slice is a unique service. Ready = every required problem pill is green.</p>
         <div class="chart-box" id="chartSvcPie"></div>
       </div>
     </div>
     <div class="grid">
-      <div class="chart-card">
-        <h3>Agreements — new services in the template</h3>
+      <div class="chart-card from-sf">
+        <h3>Agreements — new services in the template <span class="src-tag stale">Salesforce extract</span></h3>
         <p id="saNewCaption">Service Template names that are not on Prod yet. Green = the ST supplier already has an Intrepid Morocco account agreement. Red = no account SA yet. Account-level is enough.</p>
         <div class="chart-box" id="chartSaNew"></div>
       </div>
-      <div class="chart-card">
-        <h3>Agreements — existing services on Prod</h3>
+      <div class="chart-card from-sf">
+        <h3>Agreements — existing services on Prod <span class="src-tag stale">Salesforce extract</span></h3>
         <p id="saExistingCaption">Catalog names that already exist as a Prod Item (queried live). Green = that Item's supplier account has an Intrepid Morocco SA. Red = commercial supplier with none. Grey = DMC Morocco internal accounts (Cash Paid / Crew / Placeholder) — not missing hotel agreements.</p>
         <div class="chart-box" id="chartSaExisting"></div>
       </div>
     </div>
     <div class="grid">
-      <div class="chart-card">
-        <h3>Unique services — fully decided vs Ready</h3>
+      <div class="chart-card from-live">
+        <h3>Unique services — fully decided vs Ready <span class="src-tag live">Live answers</span></h3>
         <p>Each slice is one service name. Fully decided = every problem closed, including prices and agreements. Ready = required pills green, prices/agreements may still be open. Not ready = a required pill is still red.</p>
         <div class="chart-box" id="chartSvcMix"></div>
       </div>
-      <div class="chart-card">
-        <h3>Answers in the decision tool</h3>
+      <div class="chart-card from-live">
+        <h3>Answers in the decision tool <span class="src-tag live">Live answers</span></h3>
         <p>Counts every Yes / No / Open card. One service can sit on several problem tabs, so this is cards, not unique services.</p>
         <div class="chart-box" id="chartTool"></div>
       </div>
     </div>
     <div class="grid">
-      <div class="chart-card">
-        <h3>SGA services — who has a 2027 price</h3>
+      <div class="chart-card from-sf">
+        <h3>SGA services — who has a 2027 price <span class="src-tag stale">Salesforce extract</span></h3>
         <p>Each slice is one unique service from the SGA trip file, not the decision tool. Group Tour = All Group Series or GIT. TM = FIT. This is 2027 price coverage, not Ready.</p>
         <div class="chart-box" id="chartSgaMix"></div>
       </div>
     </div>
     <div class="grid wide">
-      <div class="chart-card">
-        <h3>Open cards by problem tab</h3>
+      <div class="chart-card from-live">
+        <h3>Open cards by problem tab <span class="src-tag live">Live answers</span></h3>
         <p>Green = Decided · Amber = Not decided. Names are the actual problem, not the tab code.</p>
         <div class="chart-box" id="chartSheets"></div>
       </div>
     </div>
     <div class="grid wide">
-      <div class="chart-card">
-        <h3>FIT packages — ready?</h3>
-        <p>One row per package. Green pill = that problem is ready. Red = still open. Ready only when every pill is green.</p>
+      <div class="chart-card from-live">
+        <h3>FIT packages — ready? <span class="src-tag live">Live answers</span></h3>
+        <p>Same as the FIT pie. One row per package. Green pill = that problem is ready. Red = still open. Ready only when every pill is green.</p>
         <div class="chart-box" id="chartPkgs"></div>
       </div>
     </div>
     <div class="grid wide">
-      <div class="chart-card">
-        <h3>SGA packages — ready?</h3>
-        <p>One row per SGA trip. Green pill = that problem is ready. Red = still open. Ready only when every pill is green. Missing in template does not apply to SGA.</p>
+      <div class="chart-card from-live">
+        <h3>SGA packages — ready? <span class="src-tag live">Live answers</span></h3>
+        <p>Same as the SGA pie. One row per SGA trip. Green pill = that problem is ready. Red = still open. Ready only when every pill is green. Missing in template does not apply to SGA.</p>
         <div class="chart-box" id="chartSgaPkgs"></div>
       </div>
     </div>
     <div class="grid wide">
-      <div class="chart-card">
-        <h3>SGA trips — Group Tour vs TM (FIT) 2027 coverage</h3>
+      <div class="chart-card from-sf">
+        <h3>SGA trips — Group Tour vs TM (FIT) 2027 coverage <span class="src-tag stale">Salesforce extract</span></h3>
         <p>Share of unique services on each trip with a 2027 price on that pricelist</p>
         <div class="chart-box" id="chartSgaTrips"></div>
       </div>
     </div>
 
-    <h2>1. FIT packages — ready?</h2>
-    <p class="muted">FIT packages. Green pill = that problem is ready; red = not ready. Ready only when every pill is green. Price missing, occupancy names, FIT prices and agreements stay deferred. Notes in the tool win over a conflicting Yes.</p>
+    <h2>1. FIT packages — ready? <span class="src-tag live">Live answers</span></h2>
+    <p class="muted">Same list as the FIT pie. Green pill = that problem is ready; red = not ready. Ready only when every pill is green. Price missing, occupancy names, FIT prices and agreements stay deferred. Notes in the tool win over a conflicting Yes.</p>
     <div id="pkgTable"></div>
 
-    <h2>1b. SGA packages — ready?</h2>
-    <p class="muted">18 SGA trips, same problem pills as FIT. Missing in template does not apply. Account-level supplier agreements are OK. Ready only when every pill is green.</p>
+    <h2>1b. SGA packages — ready? <span class="src-tag live">Live answers</span></h2>
+    <p class="muted">Same list as the SGA pie. 18 SGA trips, same problem pills as FIT. Missing in template does not apply. Account-level supplier agreements are OK. Ready only when every pill is green.</p>
     <div id="sgaPkgTable"></div>
 
-    <h2>2. Services — ready?</h2>
-    <p class="muted">Unique service names. Same problem pills as packages. Green = ready, red = not ready. Ready only when every pill is green. Price missing, occupancy names, FIT prices and agreements are not on these pills.</p>
+    <h2>2. Services — ready? <span class="src-tag live">Live answers</span></h2>
+    <p class="muted">Same as the Services ready pie. Unique service names. Green = ready, red = not ready. Ready only when every pill is green. Price missing, occupancy names, FIT prices and agreements are not on these pills.</p>
     <div class="filters">
       <input type="search" id="svcQ" placeholder="Search service…" />
     </div>
     <div id="svcTable"></div>
 
-    <h2>3. Supplier agreements — new in template vs existing on Prod</h2>
+    <h2>3. Supplier agreements — new in template vs existing on Prod <span class="src-tag stale">Salesforce extract</span></h2>
     <p class="muted">Live Intrepid Prod query. An account-level Intrepid Morocco SA is enough; service assignments are not required. New = on the Service Template, not on Prod. Existing = already a Prod Item. DMC Morocco Cash Paid / Crew / Placeholder accounts are internal.</p>
     <div id="saSplitSummary"></div>
     <h3 style="font-size:14px;margin:14px 0 6px">Agreements by account</h3>
@@ -227,7 +239,7 @@
       <input type="search" id="saExQ" placeholder="Search existing service or supplier…" />
     </div>
     <div id="saExistingTable"></div>
-    <h2>3b. SA1 in the decision tool vs live Prod</h2>
+    <h2>3b. SA1 in the decision tool vs live Prod <span class="src-tag mix">Live answers + Salesforce extract</span></h2>
     <p class="muted">SA1 in the tool is the 16 Nov extract. Live Prod overlay below is unique suppliers, then services. Do not recreate an SA if the account already has one.</p>
     <div id="saSummary"></div>
     <h3 style="font-size:14px;margin:14px 0 6px">Unique SA1 suppliers</h3>
@@ -259,11 +271,11 @@
     </div>
     <div id="saTable"></div>
 
-    <h2>4. Decision tool tabs</h2>
+    <h2>4. Decision tool tabs <span class="src-tag live">Live answers</span></h2>
     <div id="sheetTable"></div>
 
-    <h2>5. SGA trips — 2027 TM (FIT) and Group Tour prices</h2>
-    <p class="muted">TM pricing = Prod FIT pricelist. Group Tour = All Group Series or GIT. Unique services from the NoFormulas SGA file (analysed only — not loaded into the decision tool). Occupancy names that look generic or misspelled match live Prod PCs.</p>
+    <h2>5. SGA trips — 2027 TM (FIT) and Group Tour prices <span class="src-tag stale">Salesforce extract</span></h2>
+    <p class="muted">Same as the SGA 2027 price pie. TM pricing = Prod FIT pricelist. Group Tour = All Group Series or GIT. Unique services from the NoFormulas SGA file (analysed only — not loaded into the decision tool). Occupancy names that look generic or misspelled match live Prod PCs.</p>
     <div id="sgaTable"></div>
     <h3 style="font-size:14px;margin:14px 0 6px">Services that are not Group Tour 2027 (or not on Prod)</h3>
     <div id="sgaGaps"></div>
@@ -271,6 +283,6 @@
     <footer id="foot"></footer>
   </div>
   <script src="dashboard-data.js?v=20261116aa"></script>
-  <script src="dashboard.js?v=20261116aa"></script>
+  <script src="dashboard.js?v=20261116ab"></script>
 </body>
 </html>

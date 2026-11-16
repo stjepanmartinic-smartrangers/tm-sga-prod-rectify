@@ -37,6 +37,19 @@
     if (!ok) return;
     loadOnline(false, true);
   });
+  if ($("btnTop")) {
+    $("btnTop").addEventListener("click", (ev) => {
+      ev.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+  if ($("btnJumpOverview")) {
+    $("btnJumpOverview").addEventListener("click", () => {
+      sheetId = "__overview__";
+      render();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
   $("who").addEventListener("change", () => {
     if ($("who").value === "__add__") {
       $("whoName").value = "";
@@ -338,6 +351,7 @@
   }
 
   function tabHelp(sheet) {
+    if (!sheet) return "";
     const texts = {
       P1: "On a TM package, not on the Service Template. SGA itinerary services are not listed here — they already exist on Prod and will be carried onto a package. Yes = add it using the selected Prod name. No = brand new — fill the Service Template fields.",
       P2: "On package and ST, no exact Prod Item, but a close name exists. Yes = rename ST to the selected Prod name. No = treat as brand new; create from ST.",
@@ -352,7 +366,18 @@
       SA3: "SA template name does not match Prod. Use the Prod agreement, use the template name, or No to create a different / new agreement.",
       SA5: "ST supplier does not match Prod. Pick the Prod account, keep ST, or No if a different / new supplier is needed.",
     };
-    return texts[sheet.id] || sheet.help;
+    let text = texts[sheet.id] || sheet.help || "";
+    const withC = ((sheet && sheet.issues) || []).filter((i) => (i.stComments || []).length).length;
+    if (withC) {
+      text +=
+        " " +
+        withC +
+        " cards have an orange Service Template comment box under the service name.";
+    } else if (sheet && sheet.id === "P1") {
+      text +=
+        " These names are not on the Service Template, so there is usually no Comment column. Open Fuzzy name (P2) to see ST comments.";
+    }
+    return text;
   }
 
   function reopen(id) {
@@ -789,6 +814,7 @@
     if ($("list")) $("list").style.display = isOverview() ? "none" : "";
     if ($("stats")) $("stats").style.display = isOverview() ? "none" : "";
     if ($("pageFoot")) $("pageFoot").style.display = isOverview() ? "none" : "";
+    if ($("sheetJump")) $("sheetJump").hidden = isOverview();
   }
 
   function refreshOverview() {
@@ -1549,12 +1575,15 @@
     const pc = (issue.pcMap || [])
       .map((x) => esc((x.from ? x.from + " → " : "") + x.value))
       .join("<br>");
+    const commentTag = (issue.stComments || []).length
+      ? `<span class="tag comment">ST comment</span>`
+      : "";
     return `<article class="card ${cls}">
-      <h3>${esc(issue.service)} ${tag}</h3>
+      <h3>${esc(issue.service)} ${tag} ${commentTag}</h3>
+      ${stCommentHtml(issue)}
       <div class="meta">${esc(sheet.id)} · ${esc(issue.action || "")}</div>
       <div class="pkgs">${pkgs}</div>
       ${pc && sheet.choice === "pc-map" ? `<p><b>Suggested PC map</b><br>${pc}</p>` : ""}
-      ${stCommentHtml(issue)}
       ${priceCompareHtml(issue)}
       <dl class="fields">${fieldRows}</dl>
       <div class="choices">${choice}</div>

@@ -111,15 +111,16 @@
     .pkg { background: #f3eee4; border-radius: 999px; padding: 2px 8px; font-size: 11px; }
     .pkg.sga { background: #e8eef7; color: #1F4E79; }
     .st-comment {
-      background: #eef6fb; border: 1px solid #c5d9ea; border-radius: 8px;
-      padding: 8px 10px; margin: 8px 0; font-size: 13px;
+      background: #fff7ed; border: 1px solid #fdba74; border-radius: 8px;
+      padding: 10px 12px; margin: 8px 0 10px; font-size: 14px;
     }
     .st-comment .lbl {
-      font-size: 11px; font-weight: 700; color: #1F4E79;
+      font-size: 11px; font-weight: 700; color: #9a3412;
       text-transform: uppercase; letter-spacing: .04em;
     }
-    .st-comment p { margin: 4px 0 0; }
+    .st-comment p { margin: 6px 0 0; }
     .st-comment .hint { color: var(--muted); font-size: 11px; }
+    .tag.comment { background: #ffedd5; color: #9a3412; }
     .fields { display: grid; grid-template-columns: 160px 1fr; gap: 2px 10px; font-size: 13px; margin: 8px 0; }
     .fields dt { color: var(--muted); }
     .fields dd { margin: 0; }
@@ -272,16 +273,19 @@
     #overview .muted { color: var(--muted); }
     #overview .detail { font-size: 12px; color: var(--muted); }
     #overview .meta-line { color: var(--muted); font-size: 12px; margin: 0 0 10px; }
-    #overview .dash-jump {
+    .float-nav, #overview .dash-jump {
       position: fixed; z-index: 40; left: 50%; bottom: 16px; transform: translateX(-50%);
       display: flex; gap: 4px; flex-wrap: wrap; justify-content: center;
       background: #1F4E79; color: #fff; padding: 6px; border-radius: 999px;
       box-shadow: 0 8px 24px rgba(28,25,21,.22); max-width: calc(100% - 24px);
     }
-    #overview .dash-jump a {
+    .float-nav[hidden] { display: none; }
+    .float-nav a, .float-nav button, #overview .dash-jump a {
       color: #d6e4f0; text-decoration: none; font-size: 12px; font-weight: 650;
       padding: 7px 12px; border-radius: 999px; white-space: nowrap;
+      border: 0; background: transparent; cursor: pointer; font: inherit;
     }
+    .float-nav a:hover, .float-nav button:hover,
     #overview .dash-jump a:hover, #overview .dash-jump a.on { background: rgba(255,255,255,.16); color: #fff; }
     #overview #dash-overview, #overview #dash-packages, #overview #dash-services, #overview #dash-agreements {
       scroll-margin-top: 110px;
@@ -292,7 +296,7 @@
     }
   </style>
 </head>
-<body>
+<body id="top">
   <header>
     <h1>TailorMade — SGA vs Prod rectify</h1>
     <p>Decide each issue here. This browser saves locally right away — that is not enough for the team.
@@ -524,6 +528,10 @@
     </div>
     <div class="help" id="help"></div>
     <div id="list"></div>
+    <nav class="float-nav" id="sheetJump" hidden aria-label="Page">
+      <a href="#top" id="btnTop">Back to top</a>
+      <button type="button" id="btnJumpOverview">Overview</button>
+    </nav>
     <footer id="pageFoot">
       Decisions live in this browser until you click <b>Save online</b>. No GitHub token is needed. Hosted on GitHub Pages for as long as the repo exists.
       Use <b>All decided</b> to reopen anything. <b>History</b> lists who changed what.
@@ -541,9 +549,9 @@
       <button type="button" id="btnWhoCancel">Cancel</button>
     </div>
   </dialog>
-  <script src="data.js?v=20261116ai"></script>
+  <script src="data.js?v=20261116aj"></script>
   <script src="dashboard-data.js?v=20261116ah"></script>
   <script src="dashboard.js?v=20261116ah"></script>
-  <script src="app.js?v=20261116ai"></script>
+  <script src="app.js?v=20261116aj"></script>
 </body>
 </html>

@@ -2,6 +2,20 @@
   const STORE = "https://tm-sga-prod-rectify-store.graceful-kryptops.workers.dev";
   const INSTALL_SHEETS = ["P1", "P2", "P5", "P9", "P10", "P11", "SA5"];
   const BLOCKING = new Set(INSTALL_SHEETS);
+  const SHEET_NAMES = {
+    P1: "Missing in template",
+    P2: "Fuzzy name",
+    P4: "Price missing",
+    P5: "Supplier mismatch",
+    P6: "Occupancy name",
+    P8: "FIT price missing",
+    P9: "Location mismatch",
+    P10: "Type mismatch",
+    P11: "Occupancy N/A",
+    SA1: "No agreement",
+    SA3: "Agreement name",
+    SA5: "Which supplier",
+  };
   const data = window.DASHBOARD_DATA;
   if (!data) {
     const err = document.getElementById("err") || document.body;
@@ -53,6 +67,12 @@
     return p.name;
   }
 
+  function sheetName(id) {
+    if (SHEET_NAMES[id]) return SHEET_NAMES[id];
+    const row = (data.sheets || []).find((s) => s.id === id);
+    return (row && row.title) || String(id || "");
+  }
+
   function installSheetsOf(kind) {
     return kind === "sga" ? INSTALL_SHEETS.filter((id) => id !== "P1") : INSTALL_SHEETS.slice();
   }
@@ -73,8 +93,9 @@
     return `<span class="pills">${ids.map((id) => {
       const n = Number(openCountFn(id)) || 0;
       const ok = n === 0;
-      const label = !ok && n > 1 ? id + " · " + n : id;
-      return `<span class="tag ${ok ? "yes" : "no"}" title="${ok ? id + " ready" : id + " not ready (" + n + " open)"}">${esc(label)}</span>`;
+      const name = sheetName(id);
+      const label = !ok && n > 1 ? name + " · " + n : name;
+      return `<span class="tag ${ok ? "yes" : "no"}" title="${ok ? name + " — ready" : name + " — not ready (" + n + " open)"}">${esc(label)}</span>`;
     }).join("")}</span>`;
   }
 
@@ -95,7 +116,7 @@
   function pkgTableHtml(rows, kind) {
     const ids = installSheetsOf(kind);
     return `<table>
-      <thead><tr><th>Package</th><th>Required tabs</th><th>Install?</th></tr></thead>
+      <thead><tr><th>Package</th><th>Problems</th><th>Install?</th></tr></thead>
       <tbody>${rows.map((p) => {
         const ready = isInstallReady(p, kind);
         return `<tr>
@@ -342,7 +363,7 @@
     document.getElementById("sheetTable").innerHTML = `<table>
       <thead><tr><th>Tab</th><th>Decided</th><th>Not decided</th><th>Total</th></tr></thead>
       <tbody>${sheets.map((s) => `<tr>
-        <td>${esc(s.id)} ${esc(s.title || "")}</td>
+        <td>${esc(sheetName(s.id))}</td>
         <td>${decidedOf(s)}</td><td>${s.open}</td><td>${s.total}</td>
       </tr>`).join("")}</tbody>
     </table>`;
@@ -506,7 +527,7 @@
     document.getElementById("chartSheets").innerHTML =
       `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = Decided · Amber = Not decided</div>` +
       stackedBars(sheetRows.map((x) => ({
-        label: x.id + " " + (x.title || ""),
+        label: sheetName(x.id),
         yes: decidedOf(x),
         open: x.open || 0,
       })));

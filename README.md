@@ -6,6 +6,10 @@ Hosted app for deciding problem-sheet issues (P1–P2, P4–P6, P8–P11, SA1, S
 
 https://stjepanmartinic-smartrangers.github.io/tm-sga-prod-rectify/
 
+Import readiness dashboard (packages, open services, live Prod agreements, SGA 2027 TM/FIT vs Group Tour prices):
+
+https://stjepanmartinic-smartrangers.github.io/tm-sga-prod-rectify/dashboard.html
+
 GitHub Pages stays up for as long as this repository exists (months is fine). It does not expire after a few hours.
 
 ## Where decisions are stored

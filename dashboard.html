@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TailorMade — import readiness dashboard</title>
+  <style>
+    :root {
+      --bg: #f4f1ea; --paper: #fffdf8; --ink: #1c1915; --muted: #5c564c;
+      --line: #e4ddd0; --accent: #1F4E79; --yes: #1f6b4a; --yes-bg: #e5f4ec;
+      --open: #92400e; --open-bg: #fef3c7; --no: #9b1c1c; --no-bg: #fde8e8;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: var(--bg); color: var(--ink);
+      font: 14px/1.45 "Segoe UI", system-ui, sans-serif; }
+    header {
+      position: sticky; top: 0; z-index: 5;
+      background: #1F4E79; color: #fff; padding: 14px 20px 12px;
+    }
+    header h1 { font-size: 18px; margin: 0 0 4px; font-weight: 650; }
+    header p { margin: 0; color: #d6e4f0; font-size: 12px; }
+    header a { color: #fff; }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 18px 16px 80px; }
+    .answers { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-bottom: 16px; }
+    .answer { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+    .answer b { display: block; font-size: 28px; line-height: 1.1; }
+    .answer span { color: var(--muted); font-size: 12px; }
+    .answer.ok b { color: var(--yes); }
+    .answer.wait b { color: var(--open); }
+    .help { background: #eef3f9; border: 1px solid #d3e0ee; color: #1F4E79;
+      padding: 10px 12px; border-radius: 8px; margin-bottom: 16px; }
+    h2 { font-size: 16px; margin: 22px 0 8px; }
+    table { width: 100%; border-collapse: collapse; background: var(--paper);
+      border: 1px solid var(--line); border-radius: 12px; overflow: hidden; font-size: 13px; }
+    th { text-align: left; background: #eef3f9; color: #1F4E79; padding: 7px 8px; font-weight: 650; }
+    td { border-top: 1px solid var(--line); padding: 7px 8px; vertical-align: top; }
+    .tag { display: inline-block; font-size: 11px; font-weight: 650; padding: 2px 8px; border-radius: 999px; }
+    .tag.yes { background: var(--yes-bg); color: var(--yes); }
+    .tag.open { background: var(--open-bg); color: var(--open); }
+    .tag.no { background: var(--no-bg); color: var(--no); }
+    .filters { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 10px; }
+    input[type="search"], select {
+      border: 1px solid var(--line); background: var(--paper); padding: 8px 10px;
+      border-radius: 8px; font: inherit;
+    }
+    input[type="search"] { min-width: 240px; flex: 1; }
+    footer { margin-top: 24px; color: var(--muted); font-size: 12px; }
+    .muted { color: var(--muted); }
+    tr.clickable { cursor: pointer; }
+    tr.clickable:hover td { background: #faf7f0; }
+    .detail { font-size: 12px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TailorMade Morocco — import readiness</h1>
+    <p>
+      Snapshot from the <a href="./">decision tool</a>, live saved answers, and a read-only Intrepid Prod check.
+      Nothing has been written to Salesforce.
+    </p>
+    <p id="meta"></p>
+  </header>
+  <div class="wrap">
+    <div class="answers" id="answers"></div>
+    <div class="help" id="defs"></div>
+
+    <h2>1. TM packages — ready for import?</h2>
+    <p class="muted">20 TailorMade package sheets. First-insert ready means names, supplier, location and type are decided. Prices, FIT and agreements are still deferred.</p>
+    <div id="pkgTable"></div>
+
+    <h2>2. Problematic services still open</h2>
+    <p class="muted">Unique service names with at least one open card in the decision tool.</p>
+    <div class="filters">
+      <input type="search" id="svcQ" placeholder="Search service…" />
+    </div>
+    <div id="svcTable"></div>
+
+    <h2>3. Supplier agreements — tool vs live Prod</h2>
+    <p class="muted">SA1 in the tool is still the 4/9 Nov extract. Live Prod was queried today (account-level Intrepid Morocco agreements).</p>
+    <div id="saSummary"></div>
+    <div class="filters">
+      <select id="saFilter">
+        <option value="still">Still no live Prod agreement</option>
+        <option value="covered">Covered by a new Prod account agreement</option>
+      </select>
+      <input type="search" id="saQ" placeholder="Search service or supplier…" />
+    </div>
+    <div id="saTable"></div>
+
+    <h2>4. Decision tool tabs</h2>
+    <div id="sheetTable"></div>
+
+    <h2>5. SGA trips — 2027 TM (FIT) and Group Tour prices</h2>
+    <p class="muted">TM pricing = Prod FIT pricelist. Group Tour = All Group Series or GIT. Unique services from the NoFormulas SGA file.</p>
+    <div id="sgaTable"></div>
+    <h3 style="font-size:14px;margin:14px 0 6px">Services that are not Group Tour 2027 (or not on Prod)</h3>
+    <div id="sgaGaps"></div>
+
+    <footer id="foot"></footer>
+  </div>
+  <script src="dashboard-data.js?v=20261116a"></script>
+  <script src="dashboard.js?v=20261116a"></script>
+</body>
+</html>

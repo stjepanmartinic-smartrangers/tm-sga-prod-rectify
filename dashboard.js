@@ -40,6 +40,11 @@
     return `<span class="tag ${kind}">${esc(label)}</span>`;
   }
 
+  function fmtWhen(v) {
+    if (!v) return "—";
+    return String(v).replace("T", " ").replace("Z", " UTC");
+  }
+
   function render(live) {
     const byId = (live && live.byId) || {};
     const useLive = Object.keys(byId).length > 0;
@@ -107,7 +112,7 @@
     const toolOpen = useLive ? open : h.toolOpen;
 
     document.getElementById("meta").textContent =
-      `Tool extract ${data.extract}. Saved answers ${live && live.updatedAt ? live.updatedAt.replace("T", " ").replace("Z", " UTC") : h.storeUpdatedAt}. Prod agreements ${h.prodSaQueriedAt.replace("T", " ").replace("Z", " UTC")}.`;
+      `Tool extract ${data.extract || "—"}. Saved answers ${fmtWhen((live && live.updatedAt) || data.storeUpdatedAt)}. Prod agreements ${fmtWhen(data.prodSaQueriedAt)}.`;
 
     document.getElementById("answers").innerHTML = `
       <div class="answer wait"><b>${fully}</b><span>TM packages fully ready to import (of ${h.tmPackages})</span></div>

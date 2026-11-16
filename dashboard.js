@@ -45,6 +45,16 @@
     return String(v).replace("T", " ").replace("Z", " UTC");
   }
 
+  function fold(s) {
+    return String(s || "")
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim()
+      .replace(/\s+/g, " ");
+  }
+
   function render(live) {
     const byId = (live && live.byId) || {};
     const useLive = Object.keys(byId).length > 0;
@@ -91,11 +101,11 @@
         else if (ch === "no") no += 1;
         else open += 1;
         if (sheetStats[c.sheet]) sheetStats[c.sheet][ch === "yes" || ch === "no" ? ch : "open"] += 1;
-        const k = c.service;
+        const k = fold(c.service);
         if (!svcState[k]) svcState[k] = { anyOpen: false, blockingOpen: false, decided: false };
         if (ch === "open") {
-          if (!svcOpen[k]) svcOpen[k] = new Set();
-          svcOpen[k].add(c.sheet);
+          if (!svcOpen[k]) svcOpen[k] = { service: c.service, sheets: new Set() };
+          svcOpen[k].sheets.add(c.sheet);
           svcState[k].anyOpen = true;
           if (BLOCKING.has(c.sheet)) svcState[k].blockingOpen = true;
         } else if (ch === "yes" || ch === "no" || ch === "done") {
@@ -173,7 +183,11 @@
       }).join("")}</tbody></table>`;
 
     const svcList = useLive
-      ? Object.entries(svcOpen).map(([service, sheets]) => ({ service, openSheets: [...sheets].sort(), openCount: sheets.size }))
+      ? Object.values(svcOpen).map((row) => ({
+          service: row.service,
+          openSheets: [...row.sheets].sort(),
+          openCount: row.sheets.size,
+        }))
       : data.problematicServices;
     svcList.sort((a, b) => b.openCount - a.openCount || a.service.localeCompare(b.service));
     window._svcList = svcList;

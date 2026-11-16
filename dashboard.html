@@ -29,6 +29,13 @@
     .answer.ok b { color: var(--yes); }
     .help { background: #eef3f9; border: 1px solid #d3e0ee; color: #1F4E79;
       padding: 10px 12px; border-radius: 8px; margin-bottom: 16px; }
+    .notes { display: grid; gap: 8px; margin: 0 0 16px; }
+    .note { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+    .note.ok { border-left: 4px solid var(--yes); }
+    .note.rule { border-left: 4px solid var(--accent); }
+    .note.gap { border-left: 4px solid var(--open); }
+    .note h3 { margin: 0 0 4px; font-size: 13px; }
+    .note p { margin: 0; color: var(--muted); font-size: 12px; }
     .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
     .grid.wide { grid-template-columns: 1fr; }
     .chart-card {
@@ -85,6 +92,9 @@
     <div id="err"></div>
     <div class="answers" id="answers"></div>
     <div class="help" id="defs"></div>
+    <h2>How we read this</h2>
+    <p class="muted">Locked comments from the recent Morocco / TailorMade chats. The dashboard counts follow these rules.</p>
+    <div class="notes" id="notes"></div>
 
     <div class="grid">
       <div class="chart-card">
@@ -101,7 +111,7 @@
     <div class="grid">
       <div class="chart-card">
         <h3>Supplier agreements — unique suppliers</h3>
-        <p>SA1 unique suppliers after overlaying today’s Intrepid Morocco account agreements</p>
+        <p>Account-level SA is enough. Unique SA1 suppliers after overlaying today’s Intrepid Morocco account agreements</p>
         <div class="chart-box" id="chartSa"></div>
       </div>
       <div class="chart-card">
@@ -133,7 +143,7 @@
     </div>
 
     <h2>1. TM packages — ready for import?</h2>
-    <p class="muted">20 TailorMade package sheets. First-insert ready means names, supplier, location and type are decided. Prices, FIT and agreements are still deferred.</p>
+    <p class="muted">20 TailorMade package sheets. First-insert ready means names, supplier, location and type are decided. Prices, FIT and agreements are still deferred. Notes in the tool win over a conflicting Yes. Unclear P6 maps are skipped.</p>
     <div id="pkgTable"></div>
 
     <h2>2. Problematic services still open</h2>
@@ -144,7 +154,7 @@
     <div id="svcTable"></div>
 
     <h2>3. Supplier agreements — tool vs live Prod</h2>
-    <p class="muted">SA1 in the tool is still the 4/9 Nov extract. Live Prod was queried 16 Nov (account-level Intrepid Morocco agreements). Counts below are unique suppliers, not services.</p>
+    <p class="muted">An account-level Intrepid Morocco SA is enough. Service assignments are not required and are ignored. SA1 in the tool is still the 4/9 Nov extract; live Prod was queried 16 Nov. Counts below are unique suppliers, then services.</p>
     <div id="saSummary"></div>
     <h3 style="font-size:14px;margin:14px 0 6px">Unique SA1 suppliers</h3>
     <div class="filters">
@@ -169,14 +179,14 @@
     <div id="sheetTable"></div>
 
     <h2>5. SGA trips — 2027 TM (FIT) and Group Tour prices</h2>
-    <p class="muted">TM pricing = Prod FIT pricelist. Group Tour = All Group Series or GIT. Unique services from the NoFormulas SGA file.</p>
+    <p class="muted">TM pricing = Prod FIT pricelist. Group Tour = All Group Series or GIT. Unique services from the NoFormulas SGA file (analysed only — not loaded into the decision tool). Occupancy names that look generic or misspelled match live Prod PCs.</p>
     <div id="sgaTable"></div>
     <h3 style="font-size:14px;margin:14px 0 6px">Services that are not Group Tour 2027 (or not on Prod)</h3>
     <div id="sgaGaps"></div>
 
     <footer id="foot"></footer>
   </div>
-  <script src="dashboard-data.js?v=20261116g"></script>
-  <script src="dashboard.js?v=20261116g"></script>
+  <script src="dashboard-data.js?v=20261116h"></script>
+  <script src="dashboard.js?v=20261116h"></script>
 </body>
 </html>

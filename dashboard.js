@@ -150,7 +150,7 @@
       <div class="answer ok"><b>${servicesFirstInsert} / ${uniqueSvc}</b><span>Unique services first-insert decided (name / supplier / location / type closed)</span></div>
       <div class="answer wait"><b>${prob}</b><span>Unique services still with at least one open card</span></div>
       <div class="answer ok"><b>${saSupWith} / ${saSupAll}</b><span>Unique SA1 suppliers now with a live Prod agreement</span></div>
-      <div class="answer"><b>${h.prodMoroccoAccounts}</b><span>Intrepid Morocco accounts on Prod that already have an SA (${h.prodMoroccoAgreements} agreements)</span></div>
+      <div class="answer ok"><b>${h.prodMoroccoAccounts}</b><span>Intrepid Morocco accounts with an account-level SA — this is the OK / expected model (${h.prodMoroccoAgreements} agreements)</span></div>
       <div class="answer"><b>${h.sgaTrips}</b><span>SGA trips · ${h.sgaUniqueServices} unique services · Group Tour 2027 on most; TM/FIT is rare</span></div>
     `;
 
@@ -160,6 +160,14 @@
       ${esc(data.definitions.suppliersFinalised || "")}
       ${esc(data.definitions.tmPricing)} ${esc(data.definitions.groupTourPricing)} ${esc(data.definitions.saLive)}
       Decision tool: <a href="${esc(data.rectifyUrl)}">${esc(data.rectifyUrl)}</a>. Yes in the tool: ${toolYes} across ${servicesWithDecision} unique services. Still open: ${toolOpen}.`;
+
+    const notesBox = document.getElementById("notes");
+    if (notesBox) {
+      const notes = data.analysisNotes || [];
+      notesBox.innerHTML = notes.map((n) =>
+        `<div class="note ${esc(n.kind || "rule")}"><h3>${esc(n.title)}</h3><p>${esc(n.text)}</p></div>`
+      ).join("");
+    }
 
     const pkgRows = (useLive ? Object.values(pkg) : data.tmPackages).sort((a, b) => a.name.localeCompare(b.name));
     document.getElementById("pkgTable").innerHTML = `<table>
@@ -196,14 +204,14 @@
     document.getElementById("saSummary").innerHTML = `<table>
       <tbody>
         <tr><td>Intrepid Morocco agreements on Prod today</td><td><b>${h.prodMoroccoAgreements}</b> on ${h.prodMoroccoAccounts} accounts</td></tr>
-        <tr><td>Service-level assignments (Morocco)</td><td><b>${h.prodMoroccoAssignments}</b> — still none; these are account-level</td></tr>
-        <tr><td>SA1 open in the tool</td><td><b>${h.sa1OpenInTool}</b></td></tr>
+        <tr><td>How they are stored</td><td>${tag("yes", "Account-level is OK")} — service assignments are not required. ${h.prodMoroccoAssignments || 0} service-level rows (expected to be none).</td></tr>
+        <tr><td>SA1 open in the tool (old extract)</td><td><b>${h.sa1OpenInTool}</b></td></tr>
         <tr><td>Unique SA1 suppliers</td><td><b>${saSupAll}</b></td></tr>
-        <tr><td>Of those, now have a live Prod agreement</td><td><b>${saSupWith}</b> — do not create another</td></tr>
-        <tr><td>Unique SA1 suppliers still with no agreement</td><td><b>${saSupNone}</b></td></tr>
-        <tr><td>SA1 services now matching a Prod account agreement</td><td><b>${h.sa1CoveredByLiveProd}</b> services</td></tr>
-        <tr><td>SA1 services still with no usable Prod agreement</td><td><b>${h.sa1StillNoAgreement}</b> services</td></tr>
-        <tr><td>SA3 template name still does not match Prod</td><td><b>${h.sa3Open}</b> (names are still like Jan 2026 - Dec 2027)</td></tr>
+        <tr><td>Of those, already have a live account SA</td><td><b>${saSupWith}</b> — do not create another</td></tr>
+        <tr><td>Unique SA1 suppliers still with no account SA</td><td><b>${saSupNone}</b></td></tr>
+        <tr><td>SA1 services now matching a Prod account SA</td><td><b>${h.sa1CoveredByLiveProd}</b> services</td></tr>
+        <tr><td>SA1 services still with no account SA</td><td><b>${h.sa1StillNoAgreement}</b> services</td></tr>
+        <tr><td>SA3 template title vs Prod name</td><td><b>${h.sa3Open}</b> — naming only (Prod is still like Jan 2026 - Dec 2027), not a missing agreement</td></tr>
         <tr><td>SA5 which supplier account still open</td><td><b>${h.sa5Open}</b></td></tr>
       </tbody>
     </table>`;
@@ -338,8 +346,8 @@
       ]);
     }
     document.getElementById("chartSa").innerHTML = doughnut([
-      { label: "Unique suppliers with a live Prod SA", value: s.saSupWith || 0, color: "#1f6b4a" },
-      { label: "Unique suppliers still with no agreement", value: s.saSupNone || 0, color: "#d97706" },
+      { label: "Unique suppliers with an account-level Prod SA (OK)", value: s.saSupWith || 0, color: "#1f6b4a" },
+      { label: "Unique suppliers still with no account SA", value: s.saSupNone || 0, color: "#d97706" },
     ]);
     document.getElementById("chartSgaMix").innerHTML = doughnut([
       { label: "Group Tour only", value: mix["Group Tour only"] || 0, color: "#1F4E79" },

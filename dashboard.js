@@ -303,6 +303,8 @@
       <div class="answer wait"><b>${servicesFinalised} / ${uniqueSvc}</b><span>Unique services fully decided (no open cards left)</span></div>
       <div class="answer ok"><b>${servicesFirstInsert} / ${uniqueSvc}</b><span>Unique services ready</span></div>
       <div class="answer wait"><b>${prob}</b><span>Unique services still with at least one open card</span></div>
+      <div class="answer ok"><b>${h.saNewWithAgreement || 0} / ${h.saNewServices || 0}</b><span>New template services whose supplier already has a Prod SA</span></div>
+      <div class="answer wait"><b>${h.saExistingWithAgreement || 0} / ${h.saExistingServices || 0}</b><span>Existing Prod services whose supplier has a Morocco SA</span></div>
       <div class="answer ok"><b>${saSupWith} / ${saSupAll}</b><span>Unique SA1 suppliers now with a live Prod agreement</span></div>
       <div class="answer ok"><b>${h.prodMoroccoAccounts}</b><span>Intrepid Morocco accounts with an account-level SA — this is the OK / expected model (${h.prodMoroccoAgreements} agreements)</span></div>
       <div class="answer"><b>${h.sgaTrips}</b><span>SGA trips · ${h.sgaUniqueServices} unique services · Group Tour 2027 on most; TM/FIT is rare</span></div>
@@ -330,6 +332,29 @@
     svcList.sort((a, b) => Number(!!a.firstInsertReady) - Number(!!b.firstInsertReady) || b.openCount - a.openCount || a.service.localeCompare(b.service));
     window._svcList = svcList;
     drawSvc();
+
+    const saNew = data.saNewInTemplate || { summary: {}, noAgreement: [], suppliersNoAgreement: [] };
+    const saEx = data.saExistingOnProd || { summary: {}, noAgreement: [], suppliersNoAgreement: [] };
+    window._saNewNone = saNew.noAgreement || [];
+    window._saExNone = saEx.noAgreement || [];
+    const splitBox = document.getElementById("saSplitSummary");
+    if (splitBox) {
+      const ns = saNew.summary || {};
+      const es = saEx.summary || {};
+      splitBox.innerHTML = `<table>
+        <tbody>
+          <tr><td>New in Service Template (not on Prod)</td><td><b>${ns.services || 0}</b> unique services · ${ns.uniqueSuppliers || 0} suppliers</td></tr>
+          <tr><td>Those already covered by a Prod account SA</td><td><b>${ns.servicesWithAgreement || 0}</b> services / ${ns.suppliersWithAgreement || 0} suppliers — do not create another SA</td></tr>
+          <tr><td>New in template, no account SA yet</td><td><b>${ns.servicesNoAgreement || 0}</b> services / ${ns.suppliersNoAgreement || 0} suppliers</td></tr>
+          <tr><td>Existing on Prod (live Item query)</td><td><b>${es.services || 0}</b> unique services · ${es.uniqueSuppliers || 0} suppliers</td></tr>
+          <tr><td>Existing, supplier has a Morocco SA</td><td><b>${es.servicesWithAgreement || 0}</b> services / ${es.suppliersWithAgreement || 0} suppliers</td></tr>
+          <tr><td>Existing, commercial supplier, no SA</td><td><b>${es.servicesCommercialNoAgreement || 0}</b> services / ${es.suppliersCommercialNoAgreement || 0} suppliers</td></tr>
+          <tr><td>Existing, DMC Morocco internal, no SA</td><td><b>${es.servicesInternalNoAgreement || 0}</b> services — Cash Paid / Crew / Placeholder, not a missing hotel agreement</td></tr>
+        </tbody>
+      </table>`;
+    }
+    drawSaNew();
+    drawSaExisting();
 
     document.getElementById("saSummary").innerHTML = `<table>
       <tbody>
@@ -488,10 +513,25 @@
         { label: "Not ready", value: stillBlocking, color: "#9b1c1c" },
       ]);
     }
-    document.getElementById("chartSa").innerHTML = doughnut([
-      { label: "Have an account agreement", value: s.saSupWith || 0, color: "#1f6b4a" },
-      { label: "No account agreement", value: s.saSupNone || 0, color: "#d97706" },
-    ]);
+    const saNewEl = document.getElementById("chartSaNew");
+    if (saNewEl) {
+      saNewEl.innerHTML = doughnut([
+        { label: "Supplier already has an SA", value: s.h.saNewWithAgreement || 0, color: "#1f6b4a" },
+        { label: "No account SA yet", value: s.h.saNewNoAgreement || 0, color: "#9b1c1c" },
+      ]);
+      const cap = document.getElementById("saNewCaption");
+      if (cap) cap.textContent = `${s.h.saNewWithAgreement || 0} of ${s.h.saNewServices || 0} new template services already sit on a supplier with a Prod SA. ${s.h.saNewNoAgreement || 0} still need one.`;
+    }
+    const saExEl = document.getElementById("chartSaExisting");
+    if (saExEl) {
+      saExEl.innerHTML = doughnut([
+        { label: "Have an account agreement", value: s.h.saExistingWithAgreement || 0, color: "#1f6b4a" },
+        { label: "Commercial, no SA", value: s.h.saExistingCommercialNoAgreement || 0, color: "#9b1c1c" },
+        { label: "DMC internal, no SA", value: s.h.saExistingInternalNoAgreement || 0, color: "#8a8478" },
+      ]);
+      const cap = document.getElementById("saExistingCaption");
+      if (cap) cap.textContent = `${s.h.saExistingWithAgreement || 0} of ${s.h.saExistingServices || 0} existing Prod services have a Morocco account SA. ${s.h.saExistingCommercialNoAgreement || 0} commercial still have none. ${s.h.saExistingInternalNoAgreement || 0} are DMC Morocco internal.`;
+    }
     document.getElementById("chartSgaMix").innerHTML = doughnut([
       { label: "Group Tour only", value: mix["Group Tour only"] || 0, color: "#1F4E79" },
       { label: "TM (FIT) + Group Tour", value: mix["Both FIT + Group Tour"] || 0, color: "#1f6b4a" },
@@ -586,6 +626,33 @@
     </table>`;
   }
 
+  function drawSaList(qId, tableId, rows, emptyLabel) {
+    const qEl = document.getElementById(qId);
+    const box = document.getElementById(tableId);
+    if (!box) return;
+    const q = ((qEl && qEl.value) || "").trim().toLowerCase();
+    const filtered = (rows || []).filter((r) => {
+      const blob = ((r.service || "") + " " + (r.supplier || "") + " " + (r.account || "")).toLowerCase();
+      return !q || blob.includes(q);
+    });
+    box.innerHTML = `<table>
+      <thead><tr><th>Service</th><th>Supplier</th><th>Prod agreement</th></tr></thead>
+      <tbody>${filtered.slice(0, 150).map((r) => `<tr>
+        <td>${esc(r.service)}</td>
+        <td>${esc(r.supplier || "—")}</td>
+        <td>${esc(r.agreement || emptyLabel)}</td>
+      </tr>`).join("") || `<tr><td colspan="3" class="muted">None.</td></tr>`}${filtered.length > 150 ? `<tr><td colspan="3" class="muted">Showing 150 of ${filtered.length}.</td></tr>` : ""}</tbody>
+    </table>`;
+  }
+
+  function drawSaNew() {
+    drawSaList("saNewQ", "saNewTable", window._saNewNone, "None yet");
+  }
+
+  function drawSaExisting() {
+    drawSaList("saExQ", "saExistingTable", window._saExNone, "None");
+  }
+
   function drawSa() {
     const mode = document.getElementById("saFilter").value;
     const q = (document.getElementById("saQ").value || "").trim().toLowerCase();
@@ -607,6 +674,10 @@
   document.getElementById("svcQ").addEventListener("input", drawSvc);
   document.getElementById("saQ").addEventListener("input", drawSa);
   document.getElementById("saFilter").addEventListener("change", drawSa);
+  const saNewQ = document.getElementById("saNewQ");
+  const saExQ = document.getElementById("saExQ");
+  if (saNewQ) saNewQ.addEventListener("input", drawSaNew);
+  if (saExQ) saExQ.addEventListener("input", drawSaExisting);
   const supFilter = document.getElementById("supFilter");
   const supQ = document.getElementById("supQ");
   if (supFilter) supFilter.addEventListener("change", drawSup);

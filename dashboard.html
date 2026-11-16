@@ -115,22 +115,29 @@
     </div>
     <div class="grid">
       <div class="chart-card">
-        <h3>Supplier agreements</h3>
-        <p>Each slice is one unique supplier. Green already has an Intrepid Morocco account agreement on Prod. Amber still has none. Account-level is enough.</p>
-        <div class="chart-box" id="chartSa"></div>
+        <h3>Agreements — new services in the template</h3>
+        <p id="saNewCaption">Service Template names that are not on Prod yet. Green = the ST supplier already has an Intrepid Morocco account agreement. Red = no account SA yet. Account-level is enough.</p>
+        <div class="chart-box" id="chartSaNew"></div>
       </div>
+      <div class="chart-card">
+        <h3>Agreements — existing services on Prod</h3>
+        <p id="saExistingCaption">Catalog names that already exist as a Prod Item (queried live). Green = that Item's supplier account has an Intrepid Morocco SA. Red = commercial supplier with none. Grey = DMC Morocco internal accounts (Cash Paid / Crew / Placeholder) — not missing hotel agreements.</p>
+        <div class="chart-box" id="chartSaExisting"></div>
+      </div>
+    </div>
+    <div class="grid">
       <div class="chart-card">
         <h3>Unique services — fully decided vs Ready</h3>
         <p>Each slice is one service name. Fully decided = every problem closed, including prices and agreements. Ready = required pills green, prices/agreements may still be open. Not ready = a required pill is still red.</p>
         <div class="chart-box" id="chartSvcMix"></div>
       </div>
-    </div>
-    <div class="grid">
       <div class="chart-card">
         <h3>Answers in the decision tool</h3>
         <p>Counts every Yes / No / Open card. One service can sit on several problem tabs, so this is cards, not unique services.</p>
         <div class="chart-box" id="chartTool"></div>
       </div>
+    </div>
+    <div class="grid">
       <div class="chart-card">
         <h3>SGA services — who has a 2027 price</h3>
         <p>Each slice is one unique service from the SGA trip file, not the decision tool. Group Tour = All Group Series or GIT. TM = FIT. This is 2027 price coverage, not Ready.</p>
@@ -181,8 +188,21 @@
     </div>
     <div id="svcTable"></div>
 
-    <h2>3. Supplier agreements — tool vs live Prod</h2>
-    <p class="muted">An account-level Intrepid Morocco SA is enough. Service assignments are not required and are ignored. SA1 in the tool is still the 4/9 Nov extract; live Prod was queried 16 Nov. Counts below are unique suppliers, then services.</p>
+    <h2>3. Supplier agreements — new in template vs existing on Prod</h2>
+    <p class="muted">Live Intrepid Prod query. An account-level Intrepid Morocco SA is enough; service assignments are not required. New = on the Service Template, not on Prod. Existing = already a Prod Item. DMC Morocco Cash Paid / Crew / Placeholder accounts are internal.</p>
+    <div id="saSplitSummary"></div>
+    <h3 style="font-size:14px;margin:14px 0 6px">New in template — no account agreement yet</h3>
+    <div class="filters">
+      <input type="search" id="saNewQ" placeholder="Search new service or supplier…" />
+    </div>
+    <div id="saNewTable"></div>
+    <h3 style="font-size:14px;margin:14px 0 6px">Existing on Prod — commercial supplier, no account agreement</h3>
+    <div class="filters">
+      <input type="search" id="saExQ" placeholder="Search existing service or supplier…" />
+    </div>
+    <div id="saExistingTable"></div>
+    <h2>3b. SA1 in the decision tool vs live Prod</h2>
+    <p class="muted">The tool SA1 tab is still the 4/9 Nov extract. Live Prod overlay below is unique suppliers, then services. Do not recreate an SA if the account already has one.</p>
     <div id="saSummary"></div>
     <h3 style="font-size:14px;margin:14px 0 6px">Unique SA1 suppliers</h3>
     <div class="filters">
@@ -214,7 +234,7 @@
 
     <footer id="foot"></footer>
   </div>
-  <script src="dashboard-data.js?v=20261116s"></script>
-  <script src="dashboard.js?v=20261116s"></script>
+  <script src="dashboard-data.js?v=20261116u"></script>
+  <script src="dashboard.js?v=20261116u"></script>
 </body>
 </html>

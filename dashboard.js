@@ -304,6 +304,8 @@
       sheets,
       pkgRows,
       sgaPkgRows,
+      firstReady,
+      sgaFirstReady,
       h,
       uniqueSvc,
       servicesFinalised,
@@ -390,6 +392,30 @@
       { label: "On Prod, no 2027", value: mix["On Prod, no 2027"] || 0, color: "#d97706" },
       { label: "Not on Prod", value: mix["Not on Prod"] || 0, color: "#9b1c1c" },
     ]);
+    function pkgMix(rows) {
+      return {
+        yes: rows.reduce((a, p) => a + (Number(p.yes) || 0), 0),
+        no: rows.reduce((a, p) => a + (Number(p.no) || 0), 0),
+        open: rows.reduce((a, p) => a + (Number(p.open) || 0), 0),
+        n: rows.length,
+        ready: rows.filter((p) => p.firstInsertReady).length,
+      };
+    }
+    function fillPkgPie(elId, capId, mix, readyCount, label) {
+      const el = document.getElementById(elId);
+      if (!el) return;
+      const slices = [
+        { label: "First-insert ready", value: mix.ready, color: "#1f6b4a" },
+        { label: "Not yet", value: Math.max(0, mix.n - mix.ready), color: "#d97706" },
+      ].filter((x) => x.value > 0);
+      el.innerHTML = doughnut(slices.length ? slices : [{ label: "None", value: 1, color: "#efeae0" }]);
+      const cap = document.getElementById(capId);
+      if (cap) {
+        cap.textContent = `${readyCount} of ${mix.n} ${label} first-insert ready · Yes ${mix.yes} · Open ${mix.open}`;
+      }
+    }
+    fillPkgPie("chartFitPie", "fitPieCaption", pkgMix(s.pkgRows || []), s.firstReady || 0, "FIT packages");
+    fillPkgPie("chartSgaPie", "sgaPieCaption", pkgMix(s.sgaPkgRows || []), s.sgaFirstReady || 0, "SGA packages");
     const sheetRows = (s.sheets || []).slice().sort((a, b) => b.open - a.open);
     document.getElementById("chartSheets").innerHTML =
       `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = Yes · Amber = Open</div>` +

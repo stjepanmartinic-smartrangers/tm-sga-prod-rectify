@@ -339,6 +339,16 @@
   function stackedBars(rows, kind) {
     const max = Math.max(1, ...rows.map((r) => (r.yes || 0) + (r.open || 0) + (r.a || 0) + (r.b || 0)));
     const cls = kind === "pkg" ? "hbar pkg" : "hbar";
+    if (kind === "ready") {
+      return rows.map((r) => {
+        const ready = !!r.ready;
+        return `<div class="hbar">
+          <div>${esc(r.label)}</div>
+          <div class="track"><div class="seg" style="width:100%;background:${ready ? "#1f6b4a" : "#d97706"}"></div></div>
+          <div>${ready ? "Ready" : "Not yet"}</div>
+        </div>`;
+      }).join("");
+    }
     if (kind === "pct") {
       return rows.map((r) => `<div class="pct">
         <div>${esc(r.label)}</div>
@@ -392,44 +402,37 @@
       { label: "On Prod, no 2027", value: mix["On Prod, no 2027"] || 0, color: "#d97706" },
       { label: "Not on Prod", value: mix["Not on Prod"] || 0, color: "#9b1c1c" },
     ]);
-    function pkgMix(rows) {
-      return {
-        yes: rows.reduce((a, p) => a + (Number(p.yes) || 0), 0),
-        no: rows.reduce((a, p) => a + (Number(p.no) || 0), 0),
-        open: rows.reduce((a, p) => a + (Number(p.open) || 0), 0),
-        n: rows.length,
-        ready: rows.filter((p) => p.firstInsertReady).length,
-      };
-    }
-    function fillPkgPie(elId, capId, mix, readyCount, label) {
+    function fillPkgPie(elId, capId, rows, label) {
       const el = document.getElementById(elId);
       if (!el) return;
+      const n = rows.length;
+      const ready = rows.filter((p) => p.firstInsertReady).length;
       const slices = [
-        { label: "Yes", value: mix.yes, color: "#1f6b4a" },
-        { label: "Open", value: mix.open, color: "#d97706" },
-      ].filter((x) => x.value > 0);
-      el.innerHTML = doughnut(slices.length ? slices : [{ label: "None", value: 1, color: "#efeae0" }]);
+        { label: "First-insert ready", value: ready, color: "#1f6b4a" },
+        { label: "Not yet", value: Math.max(0, n - ready), color: "#d97706" },
+      ];
+      el.innerHTML = doughnut(slices);
       const cap = document.getElementById(capId);
       if (cap) {
-        cap.textContent = `${readyCount} of ${mix.n} ${label} first-insert ready · Yes ${mix.yes} · Open ${mix.open}`;
+        cap.textContent = `${ready} of ${n} ${label} first-insert ready. Each slice is a package, not a service.`;
       }
     }
-    fillPkgPie("chartFitPie", "fitPieCaption", pkgMix(s.pkgRows || []), s.firstReady || 0, "FIT packages");
-    fillPkgPie("chartSgaPie", "sgaPieCaption", pkgMix(s.sgaPkgRows || []), s.sgaFirstReady || 0, "SGA packages");
+    fillPkgPie("chartFitPie", "fitPieCaption", s.pkgRows || [], "FIT packages");
+    fillPkgPie("chartSgaPie", "sgaPieCaption", s.sgaPkgRows || [], "SGA packages");
     const sheetRows = (s.sheets || []).slice().sort((a, b) => b.open - a.open);
     document.getElementById("chartSheets").innerHTML =
       `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = Yes · Amber = Open</div>` +
       stackedBars(sheetRows.map((x) => ({ label: x.id + " " + (x.title || ""), yes: x.yes, open: x.open })));
-    const pkgs = (s.pkgRows || []).slice().sort((a, b) => b.open - a.open);
+    const pkgs = (s.pkgRows || []).slice().sort((a, b) => a.name.localeCompare(b.name));
     document.getElementById("chartPkgs").innerHTML =
-      `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = Yes · Amber = Open</div>` +
-      stackedBars(pkgs.map((p) => ({ label: p.name, yes: p.yes, open: p.open })), "pkg");
-    const sgaPkgs = (s.sgaPkgRows || []).slice().sort((a, b) => b.open - a.open);
+      `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = first-insert ready · Amber = not yet</div>` +
+      stackedBars(pkgs.map((p) => ({ label: p.name, ready: !!p.firstInsertReady })), "ready");
+    const sgaPkgs = (s.sgaPkgRows || []).slice().sort((a, b) => a.name.localeCompare(b.name));
     const sgaChart = document.getElementById("chartSgaPkgs");
     if (sgaChart) {
       sgaChart.innerHTML =
-        `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = Yes · Amber = Open</div>` +
-        stackedBars(sgaPkgs.map((p) => ({ label: p.name, yes: p.yes, open: p.open })), "pkg");
+        `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = first-insert ready · Amber = not yet</div>` +
+        stackedBars(sgaPkgs.map((p) => ({ label: p.name, ready: !!p.firstInsertReady })), "ready");
     }
     const trips = data.sgaPricing || [];
     document.getElementById("chartSgaTrips").innerHTML =

@@ -296,24 +296,17 @@
       `Tool extract ${data.extract || "—"}. Saved answers ${fmtWhen((live && live.updatedAt) || data.storeUpdatedAt)}. Prod agreements ${fmtWhen(data.prodSaQueriedAt)}.`;
 
     document.getElementById("answers").innerHTML = `
-      <div class="answer wait"><b>${fully}</b><span>FIT packages fully ready to import (of ${h.tmPackages})</span></div>
-      <div class="answer wait"><b>${firstReady}</b><span>FIT packages ready for first insert</span></div>
-      <div class="answer wait"><b>${sgaFully}</b><span>SGA packages fully ready to import (of ${sgaCount})</span></div>
-      <div class="answer wait"><b>${sgaFirstReady}</b><span>SGA packages ready for first insert</span></div>
+      <div class="answer wait"><b>${fully}</b><span>FIT packages fully ready (of ${h.tmPackages})</span></div>
+      <div class="answer wait"><b>${firstReady}</b><span>FIT packages ready</span></div>
+      <div class="answer wait"><b>${sgaFully}</b><span>SGA packages fully ready (of ${sgaCount})</span></div>
+      <div class="answer wait"><b>${sgaFirstReady}</b><span>SGA packages ready</span></div>
       <div class="answer wait"><b>${servicesFinalised} / ${uniqueSvc}</b><span>Unique services fully decided (no open cards left)</span></div>
-      <div class="answer ok"><b>${servicesFirstInsert} / ${uniqueSvc}</b><span>Unique services first-insert decided (name / supplier / location / type closed)</span></div>
+      <div class="answer ok"><b>${servicesFirstInsert} / ${uniqueSvc}</b><span>Unique services ready</span></div>
       <div class="answer wait"><b>${prob}</b><span>Unique services still with at least one open card</span></div>
       <div class="answer ok"><b>${saSupWith} / ${saSupAll}</b><span>Unique SA1 suppliers now with a live Prod agreement</span></div>
       <div class="answer ok"><b>${h.prodMoroccoAccounts}</b><span>Intrepid Morocco accounts with an account-level SA — this is the OK / expected model (${h.prodMoroccoAgreements} agreements)</span></div>
       <div class="answer"><b>${h.sgaTrips}</b><span>SGA trips · ${h.sgaUniqueServices} unique services · Group Tour 2027 on most; TM/FIT is rare</span></div>
     `;
-
-    document.getElementById("defs").innerHTML =
-      `<b>How to read this.</b> ${esc(data.definitions.firstInsertReady)} ${esc(data.definitions.fullyReady)}
-      ${esc(data.definitions.servicesFinalised || "")} ${esc(data.definitions.servicesFirstInsert || "")}
-      ${esc(data.definitions.suppliersFinalised || "")}
-      ${esc(data.definitions.tmPricing)} ${esc(data.definitions.groupTourPricing)} ${esc(data.definitions.saLive)}
-      Decision tool: <a href="${esc(data.rectifyUrl)}">${esc(data.rectifyUrl)}</a>. Yes in the tool: ${toolYes} across ${servicesWithDecision} unique services. Still open: ${toolOpen}.`;
 
     const pkgRows = (useLive ? Object.values(pkg) : data.tmPackages).sort((a, b) => a.name.localeCompare(b.name));
     document.getElementById("pkgTable").innerHTML = pkgTableHtml(pkgRows, "tm");
@@ -491,8 +484,8 @@
     if (svcMixEl) {
       svcMixEl.innerHTML = doughnut([
         { label: "Fully decided (no open cards)", value: s.servicesFinalised || 0, color: "#1f6b4a" },
-        { label: "First-insert decided, other cards still open", value: firstOnly, color: "#1F4E79" },
-        { label: "Still blocking first insert", value: stillBlocking, color: "#d97706" },
+        { label: "Ready, other cards still open", value: firstOnly, color: "#1F4E79" },
+        { label: "Not ready", value: stillBlocking, color: "#9b1c1c" },
       ]);
     }
     document.getElementById("chartSa").innerHTML = doughnut([

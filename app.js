@@ -37,17 +37,30 @@
     if (!ok) return;
     loadOnline(false, true);
   });
-  if ($("btnTop")) {
-    $("btnTop").addEventListener("click", (ev) => {
-      ev.preventDefault();
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    });
+  function goTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
-  if ($("btnJumpOverview")) {
-    $("btnJumpOverview").addEventListener("click", () => {
-      sheetId = "__overview__";
-      render();
-      window.scrollTo({ top: 0, behavior: "smooth" });
+  if ($("btnHeaderTop")) $("btnHeaderTop").addEventListener("click", goTop);
+  if ($("floatNav")) {
+    $("floatNav").addEventListener("click", (ev) => {
+      if (ev.target.closest("[data-top]")) {
+        ev.preventDefault();
+        goTop();
+        return;
+      }
+      if (ev.target.closest("[data-overview]")) {
+        sheetId = "__overview__";
+        render();
+        goTop();
+        return;
+      }
+      const a = ev.target.closest("a[href^='#']");
+      if (!a) return;
+      const id = (a.getAttribute("href") || "").slice(1);
+      const t = id && document.getElementById(id);
+      if (!t) return;
+      ev.preventDefault();
+      t.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   }
   $("who").addEventListener("change", () => {
@@ -814,7 +827,24 @@
     if ($("list")) $("list").style.display = isOverview() ? "none" : "";
     if ($("stats")) $("stats").style.display = isOverview() ? "none" : "";
     if ($("pageFoot")) $("pageFoot").style.display = isOverview() ? "none" : "";
-    if ($("sheetJump")) $("sheetJump").hidden = isOverview();
+    fillFloatNav();
+  }
+
+  function fillFloatNav() {
+    const nav = $("floatNav");
+    if (!nav) return;
+    if (isOverview()) {
+      nav.innerHTML =
+        `<a href="#dash-overview">Overview</a>` +
+        `<a href="#dash-packages">Packages</a>` +
+        `<a href="#dash-services">Services</a>` +
+        `<a href="#dash-agreements">Supplier agreements</a>` +
+        `<a href="#top" data-top>Top</a>`;
+    } else {
+      nav.innerHTML =
+        `<a href="#top" data-top>Back to top</a>` +
+        `<button type="button" data-overview>Overview</button>`;
+    }
   }
 
   function refreshOverview() {

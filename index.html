@@ -273,20 +273,19 @@
     #overview .muted { color: var(--muted); }
     #overview .detail { font-size: 12px; color: var(--muted); }
     #overview .meta-line { color: var(--muted); font-size: 12px; margin: 0 0 10px; }
-    .float-nav, #overview .dash-jump {
-      position: fixed; z-index: 40; left: 50%; bottom: 16px; transform: translateX(-50%);
+    .float-nav {
+      position: fixed; z-index: 1000; left: 50%; bottom: 20px; transform: translateX(-50%);
       display: flex; gap: 4px; flex-wrap: wrap; justify-content: center;
-      background: #1F4E79; color: #fff; padding: 6px; border-radius: 999px;
-      box-shadow: 0 8px 24px rgba(28,25,21,.22); max-width: calc(100% - 24px);
+      background: #1F4E79; color: #fff; padding: 8px; border-radius: 999px;
+      box-shadow: 0 8px 24px rgba(28,25,21,.35); max-width: calc(100% - 24px);
     }
-    .float-nav[hidden] { display: none; }
-    .float-nav a, .float-nav button, #overview .dash-jump a {
-      color: #d6e4f0; text-decoration: none; font-size: 12px; font-weight: 650;
-      padding: 7px 12px; border-radius: 999px; white-space: nowrap;
-      border: 0; background: transparent; cursor: pointer; font: inherit;
+    .float-nav a, .float-nav button {
+      color: #fff; text-decoration: none; font-size: 13px; font-weight: 700;
+      padding: 8px 14px; border-radius: 999px; white-space: nowrap;
+      border: 0; background: transparent; cursor: pointer;
+      font-family: inherit;
     }
-    .float-nav a:hover, .float-nav button:hover,
-    #overview .dash-jump a:hover, #overview .dash-jump a.on { background: rgba(255,255,255,.16); color: #fff; }
+    .float-nav a:hover, .float-nav button:hover, .float-nav a.on { background: rgba(255,255,255,.18); color: #fff; }
     #overview #dash-overview, #overview #dash-packages, #overview #dash-services, #overview #dash-agreements {
       scroll-margin-top: 110px;
     }
@@ -309,6 +308,7 @@
     <div class="bar">
       <button type="button" id="btnSave">Save online</button>
       <button type="button" id="btnLoad" class="ghost">Reload saved work</button>
+      <button type="button" id="btnHeaderTop" class="ghost">Back to top</button>
       <label class="who-wrap">Who are you
         <select id="who"></select>
       </label>
@@ -319,12 +319,6 @@
     <div class="stats" id="stats"></div>
     <div class="tabs" id="tabs"></div>
     <div id="overview">
-      <nav class="dash-jump" aria-label="Dashboard sections">
-        <a href="#dash-overview">Overview</a>
-        <a href="#dash-packages">Packages</a>
-        <a href="#dash-services">Services</a>
-        <a href="#dash-agreements">Supplier agreements</a>
-      </nav>
       <div id="dash-overview">
       <p class="meta-line" id="meta"></p>
       <div class="fresh-grid" id="freshness"></div>
@@ -528,10 +522,6 @@
     </div>
     <div class="help" id="help"></div>
     <div id="list"></div>
-    <nav class="float-nav" id="sheetJump" hidden aria-label="Page">
-      <a href="#top" id="btnTop">Back to top</a>
-      <button type="button" id="btnJumpOverview">Overview</button>
-    </nav>
     <footer id="pageFoot">
       Decisions live in this browser until you click <b>Save online</b>. No GitHub token is needed. Hosted on GitHub Pages for as long as the repo exists.
       Use <b>All decided</b> to reopen anything. <b>History</b> lists who changed what.
@@ -549,9 +539,12 @@
       <button type="button" id="btnWhoCancel">Cancel</button>
     </div>
   </dialog>
-  <script src="data.js?v=20261116aj"></script>
+  <nav class="float-nav" id="floatNav" aria-label="Page">
+    <a href="#top" data-top>Back to top</a>
+  </nav>
+  <script src="data.js?v=20261116ak"></script>
   <script src="dashboard-data.js?v=20261116ah"></script>
   <script src="dashboard.js?v=20261116ah"></script>
-  <script src="app.js?v=20261116aj"></script>
+  <script src="app.js?v=20261116ak"></script>
 </body>
 </html>

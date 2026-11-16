@@ -345,8 +345,8 @@
       <div class="answer wait"><b>${servicesFinalised} / ${uniqueSvc}</b><span>Unique services fully decided (no open cards left)</span><span class="src-tag live">Live answers</span></div>
       <div class="answer ok"><b>${servicesFirstInsert} / ${uniqueSvc}</b><span>Unique services ready</span><span class="src-tag live">Live answers</span></div>
       <div class="answer wait"><b>${prob}</b><span>Unique services still with at least one open card</span><span class="src-tag live">Live answers</span></div>
-      <div class="answer wait"><b>${(data.saChannel && data.saChannel.complete) || 0} / ${(data.saChannel && data.saChannel.prodAgreements) || h.prodMoroccoAgreements || 0}</b><span>Morocco SAs complete — Tailor-made Direct (UK) or Agent (UK) assigned</span><span class="src-tag stale">Salesforce extract</span></div>
-      <div class="answer wait"><b>${(data.saChannel && data.saChannel.incomplete) || h.saIncompleteAccounts || 0}</b><span>Morocco SAs not complete — missing Tailor-made (UK) channel</span><span class="src-tag stale">Salesforce extract</span></div>
+      <div class="answer wait"><b>${(data.saChannel && data.saChannel.complete) || 0} / ${(data.saChannel && data.saChannel.prodAgreements) || h.prodMoroccoAgreements || 0}</b><span>Morocco SAs complete — Tailor-made Direct (UK) assigned</span><span class="src-tag stale">Salesforce extract</span></div>
+      <div class="answer wait"><b>${(data.saChannel && data.saChannel.incomplete) || h.saIncompleteAccounts || 0}</b><span>Morocco SAs not complete — missing Tailor-made Direct (UK)</span><span class="src-tag stale">Salesforce extract</span></div>
       <div class="answer ok"><b>${h.saNewWithAgreement || 0} / ${h.saNewServices || 0}</b><span>New template services whose supplier already has a Prod SA</span><span class="src-tag stale">Salesforce extract</span></div>
       <div class="answer wait"><b>${h.saExistingWithAgreement || 0} / ${h.saExistingServices || 0}</b><span>Existing Prod services whose supplier has a Morocco SA</span><span class="src-tag stale">Salesforce extract</span></div>
       <div class="answer ok"><b>${saSupWith} / ${saSupAll}</b><span>Unique SA1 suppliers now with a live Prod agreement</span><span class="src-tag mix">Live + Salesforce</span></div>
@@ -394,8 +394,8 @@
           <tr><td>New in template, no account SA yet</td><td><b>${ns.servicesNoAgreement || 0}</b> services / ${ns.suppliersNoAgreement || 0} suppliers</td></tr>
           <tr><td>Existing on Prod (live Item query)</td><td><b>${es.services || 0}</b> unique services · ${es.uniqueSuppliers || 0} suppliers</td></tr>
           <tr><td>Existing, supplier has a Morocco SA</td><td><b>${es.servicesWithAgreement || 0}</b> services / ${es.suppliersWithAgreement || 0} suppliers</td></tr>
-          <tr><td>SA complete (Tailor-made UK channel)</td><td><b>${(data.saChannel && data.saChannel.complete) || 0}</b> of ${(data.saChannel && data.saChannel.prodAgreements) || 0} Morocco SAs. Empty Channels field = not complete.</td></tr>
-          <tr><td>SA not complete — missing Tailor-made (UK)</td><td><b>${(data.saChannel && data.saChannel.incomplete) || 0}</b> agreements need Tailor-made Direct (UK) or Agent (UK)</td></tr>
+          <tr><td>SA complete (Tailor-made Direct (UK))</td><td><b>${(data.saChannel && data.saChannel.complete) || 0}</b> of ${(data.saChannel && data.saChannel.prodAgreements) || 0} Morocco SAs. Empty Channels field = not complete.</td></tr>
+          <tr><td>SA not complete — missing Tailor-made Direct (UK)</td><td><b>${(data.saChannel && data.saChannel.incomplete) || 0}</b> agreements need that channel assigned</td></tr>
           <tr><td>Existing, commercial supplier, no SA</td><td><b>${es.servicesCommercialNoAgreement || 0}</b> services / ${es.suppliersCommercialNoAgreement || 0} suppliers</td></tr>
           <tr><td>Existing, DMC Morocco internal, no SA</td><td><b>${es.servicesInternalNoAgreement || 0}</b> services — Cash Paid / Crew / Placeholder, not a missing hotel agreement</td></tr>
         </tbody>
@@ -409,8 +409,8 @@
     setHtml("saSummary", `<table>
       <tbody>
         <tr><td>Intrepid Morocco agreements on Prod today</td><td><b>${h.prodMoroccoAgreements}</b> on ${h.prodMoroccoAccounts} accounts</td></tr>
-        <tr><td>Complete (Tailor-made UK channel)</td><td>${tag("open", String((data.saChannel && data.saChannel.complete) || 0))} — needs Tailor-made Direct (UK) or Agent (UK)</td></tr>
-        <tr><td>Not complete — missing Tailor-made (UK)</td><td>${tag("open", String((data.saChannel && data.saChannel.incomplete) || h.prodMoroccoAgreements || 0))}</td></tr>
+        <tr><td>Complete (Tailor-made Direct (UK))</td><td>${tag("open", String((data.saChannel && data.saChannel.complete) || 0))}</td></tr>
+        <tr><td>Not complete — missing Tailor-made Direct (UK)</td><td>${tag("open", String((data.saChannel && data.saChannel.incomplete) || h.prodMoroccoAgreements || 0))}</td></tr>
         <tr><td>How they are stored</td><td>${tag("yes", "Account-level is OK")} — service assignments are not required. ${h.prodMoroccoAssignments || 0} service-level rows (expected to be none).</td></tr>
         <tr><td>SA1 open in the tool</td><td><b>${h.sa1OpenInTool}</b></td></tr>
         <tr><td>Unique SA1 suppliers</td><td><b>${saSupAll}</b></td></tr>
@@ -607,24 +607,24 @@
     const newBits = saStatusCounts("new");
     if (saNewEl) {
       saNewEl.innerHTML = doughnut([
-        { label: "Complete (UK channel)", value: newBits.complete, color: "#1f6b4a" },
-        { label: "Not complete — missing Tailor-made (UK)", value: newBits.incomplete, color: "#d97706" },
+        { label: "Complete (Tailor-made Direct (UK))", value: newBits.complete, color: "#1f6b4a" },
+        { label: "Not complete — missing Tailor-made Direct (UK)", value: newBits.incomplete, color: "#d97706" },
         { label: "No account SA yet", value: newBits.none, color: "#9b1c1c" },
       ]);
       const cap = document.getElementById("saNewCaption");
-      if (cap) cap.textContent = `${newBits.incomplete} new-template services sit on a supplier with a Prod SA that is not complete (no Tailor-made UK channel). ${newBits.none} still have no SA. ${newBits.complete} are complete.`;
+      if (cap) cap.textContent = `${newBits.incomplete} new-template services sit on a supplier with a Prod SA that is not complete (no Tailor-made Direct (UK)). ${newBits.none} still have no SA. ${newBits.complete} are complete.`;
     }
     const saExEl = document.getElementById("chartSaExisting");
     const exBits = saStatusCounts("existing");
     if (saExEl) {
       saExEl.innerHTML = doughnut([
-        { label: "Complete (UK channel)", value: exBits.complete, color: "#1f6b4a" },
-        { label: "Not complete — missing Tailor-made (UK)", value: exBits.incomplete, color: "#d97706" },
+        { label: "Complete (Tailor-made Direct (UK))", value: exBits.complete, color: "#1f6b4a" },
+        { label: "Not complete — missing Tailor-made Direct (UK)", value: exBits.incomplete, color: "#d97706" },
         { label: "Commercial, no SA", value: exBits.none, color: "#9b1c1c" },
         { label: "DMC internal", value: exBits.dmc, color: "#8a8478" },
       ]);
       const cap = document.getElementById("saExistingCaption");
-      if (cap) cap.textContent = `${exBits.incomplete} existing Prod services have a Morocco SA that is not complete (missing Tailor-made UK channel). ${exBits.none} commercial have no SA. ${exBits.complete} are complete. DMC Morocco is out of scope.`;
+      if (cap) cap.textContent = `${exBits.incomplete} existing Prod services have a Morocco SA that is not complete (missing Tailor-made Direct (UK)). ${exBits.none} commercial have no SA. ${exBits.complete} are complete. DMC Morocco is out of scope.`;
     }
     setHtml("chartSgaMix", doughnut([
       { label: "Group Tour only", value: mix["Group Tour only"] || 0, color: "#1F4E79" },
@@ -711,9 +711,9 @@
   }
 
   function saStatusTag(r) {
-    if (r.saStatus === "complete") return tag("yes", "Complete") + `<div class="detail">Tailor-made (UK) assigned</div>`;
+    if (r.saStatus === "complete") return tag("yes", "Complete") + `<div class="detail">Tailor-made Direct (UK) assigned</div>`;
     if (r.saStatus === "incomplete") {
-      return tag("open", "Not complete") + `<div class="detail">Missing Tailor-made (UK) channel${r.agreement ? " · " + esc(r.agreement) : ""}</div>`;
+      return tag("open", "Not complete") + `<div class="detail">Missing Tailor-made Direct (UK)${r.agreement ? " · " + esc(r.agreement) : ""}</div>`;
     }
     if (r.saStatus === "not-needed") return tag("done", "DMC — not needed");
     return tag("no", "None");

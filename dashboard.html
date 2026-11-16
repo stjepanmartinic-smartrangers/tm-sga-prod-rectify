@@ -115,25 +115,25 @@
     </div>
     <div class="grid">
       <div class="chart-card">
-        <h3>Decision tool — cards decided vs open</h3>
-        <p>Yes / No / still Open across all P and SA tabs</p>
-        <div class="chart-box" id="chartTool"></div>
+        <h3>Supplier agreements</h3>
+        <p>Each slice is one unique supplier. Green already has an Intrepid Morocco account agreement on Prod. Amber still has none. Account-level is enough.</p>
+        <div class="chart-box" id="chartSa"></div>
       </div>
       <div class="chart-card">
-        <h3>Unique services — how far they are decided</h3>
-        <p>Fully decided = no open cards. Ready = required problem pills are all green</p>
+        <h3>Unique services — fully decided vs Ready</h3>
+        <p>Each slice is one service name. Fully decided = every problem closed, including prices and agreements. Ready = required pills green, prices/agreements may still be open. Not ready = a required pill is still red.</p>
         <div class="chart-box" id="chartSvcMix"></div>
       </div>
     </div>
     <div class="grid">
       <div class="chart-card">
-        <h3>Supplier agreements — unique suppliers</h3>
-        <p>Account-level SA is enough. Unique SA1 suppliers after overlaying today’s Intrepid Morocco account agreements</p>
-        <div class="chart-box" id="chartSa"></div>
+        <h3>Answers in the decision tool</h3>
+        <p>Counts every Yes / No / Open card. One service can sit on several problem tabs, so this is cards, not unique services.</p>
+        <div class="chart-box" id="chartTool"></div>
       </div>
       <div class="chart-card">
-        <h3>SGA unique services — 2027 prices</h3>
-        <p>TM = FIT pricelist · Group Tour = All Group Series / GIT</p>
+        <h3>SGA services — who has a 2027 price</h3>
+        <p>Each slice is one unique service from the SGA trip file, not the decision tool. Group Tour = All Group Series or GIT. TM = FIT. This is 2027 price coverage, not Ready.</p>
         <div class="chart-box" id="chartSgaMix"></div>
       </div>
     </div>
@@ -214,7 +214,7 @@
 
     <footer id="foot"></footer>
   </div>
-  <script src="dashboard-data.js?v=20261116r"></script>
-  <script src="dashboard.js?v=20261116r"></script>
+  <script src="dashboard-data.js?v=20261116s"></script>
+  <script src="dashboard.js?v=20261116s"></script>
 </body>
 </html>

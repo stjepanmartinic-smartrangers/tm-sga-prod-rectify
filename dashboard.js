@@ -483,14 +483,14 @@
     const svcMixEl = document.getElementById("chartSvcMix");
     if (svcMixEl) {
       svcMixEl.innerHTML = doughnut([
-        { label: "Fully decided (no open cards)", value: s.servicesFinalised || 0, color: "#1f6b4a" },
-        { label: "Ready, other cards still open", value: firstOnly, color: "#1F4E79" },
+        { label: "Fully decided", value: s.servicesFinalised || 0, color: "#1f6b4a" },
+        { label: "Ready (prices/agreements still open)", value: firstOnly, color: "#1F4E79" },
         { label: "Not ready", value: stillBlocking, color: "#9b1c1c" },
       ]);
     }
     document.getElementById("chartSa").innerHTML = doughnut([
-      { label: "Unique suppliers with an account-level Prod SA (OK)", value: s.saSupWith || 0, color: "#1f6b4a" },
-      { label: "Unique suppliers still with no account SA", value: s.saSupNone || 0, color: "#d97706" },
+      { label: "Have an account agreement", value: s.saSupWith || 0, color: "#1f6b4a" },
+      { label: "No account agreement", value: s.saSupNone || 0, color: "#d97706" },
     ]);
     document.getElementById("chartSgaMix").innerHTML = doughnut([
       { label: "Group Tour only", value: mix["Group Tour only"] || 0, color: "#1F4E79" },

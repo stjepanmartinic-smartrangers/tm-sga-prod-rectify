@@ -105,7 +105,7 @@
     return `<div class="pkg-row">
       <div>${esc(pkgLabel(p))}</div>
       <div>${pillsHtml(ids, (id) => sheetOpenCount(p, id))}</div>
-      <div>${ready ? tag("yes", "Ready to install") : tag("no", "Not ready")}</div>
+      <div>${ready ? tag("yes", "Ready") : tag("no", "Not ready")}</div>
     </div>`;
   }
 
@@ -116,13 +116,13 @@
   function pkgTableHtml(rows, kind) {
     const ids = installSheetsOf(kind);
     return `<table>
-      <thead><tr><th>Package</th><th>Problems</th><th>Install?</th></tr></thead>
+      <thead><tr><th>Package</th><th>Problems</th><th>Ready?</th></tr></thead>
       <tbody>${rows.map((p) => {
         const ready = isInstallReady(p, kind);
         return `<tr>
           <td>${esc(pkgLabel(p))}</td>
           <td>${pillsHtml(ids, (id) => sheetOpenCount(p, id))}</td>
-          <td>${ready ? tag("yes", "Ready to install") : tag("no", "Not ready")}</td>
+          <td>${ready ? tag("yes", "Ready") : tag("no", "Not ready")}</td>
         </tr>`;
       }).join("")}</tbody>
     </table>`;
@@ -533,13 +533,13 @@
       })));
     const pkgs = (s.pkgRows || []).slice().sort((a, b) => a.name.localeCompare(b.name));
     document.getElementById("chartPkgs").innerHTML =
-      `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = ready · Red = not ready · Ready to install only when every pill is green</div>` +
+      `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = ready · Red = not ready · Ready only when every pill is green</div>` +
       pkgListHtml(pkgs, "tm");
     const sgaPkgs = (s.sgaPkgRows || []).slice().sort((a, b) => a.name.localeCompare(b.name));
     const sgaChart = document.getElementById("chartSgaPkgs");
     if (sgaChart) {
       sgaChart.innerHTML =
-        `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = ready · Red = not ready · Ready to install only when every pill is green</div>` +
+        `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = ready · Red = not ready · Ready only when every pill is green</div>` +
         pkgListHtml(sgaPkgs, "sga");
     }
     const trips = data.sgaPricing || [];
@@ -560,13 +560,13 @@
     const q = (document.getElementById("svcQ").value || "").trim().toLowerCase();
     const rows = (window._svcList || []).filter((r) => !q || r.service.toLowerCase().includes(q));
     document.getElementById("svcTable").innerHTML = `<table>
-      <thead><tr><th>Service</th><th>Tabs</th><th>Install?</th></tr></thead>
+      <thead><tr><th>Service</th><th>Problems</th><th>Ready?</th></tr></thead>
       <tbody>${rows.slice(0, 200).map((r) => {
         const ready = svcInstallReady(r);
         return `<tr>
           <td>${esc(r.service)}</td>
           <td>${pillsHtml(INSTALL_SHEETS, (id) => svcOpenOn(r, id))}</td>
-          <td>${ready ? tag("yes", "Ready to install") : tag("no", "Not ready")}</td>
+          <td>${ready ? tag("yes", "Ready") : tag("no", "Not ready")}</td>
         </tr>`;
       }).join("")}${rows.length > 200 ? `<tr><td colspan="3" class="muted">Showing 200 of ${rows.length}. Search to narrow.</td></tr>` : ""}</tbody>
     </table>`;

@@ -26,6 +26,7 @@
     .answer b { display: block; font-size: 28px; line-height: 1.1; }
     .answer span { color: var(--muted); font-size: 12px; }
     .answer.wait b { color: var(--open); }
+    .answer.ok b { color: var(--yes); }
     .help { background: #eef3f9; border: 1px solid #d3e0ee; color: #1F4E79;
       padding: 10px 12px; border-radius: 8px; margin-bottom: 16px; }
     .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
@@ -92,17 +93,24 @@
         <div class="chart-box" id="chartTool"></div>
       </div>
       <div class="chart-card">
-        <h3>Supplier agreements — tool vs live Prod</h3>
-        <p>SA1 open cards after overlaying today’s Intrepid Morocco account agreements</p>
-        <div class="chart-box" id="chartSa"></div>
+        <h3>Unique services — how far they are decided</h3>
+        <p>Fully decided = no open cards. First-insert decided = name / supplier / location / type closed</p>
+        <div class="chart-box" id="chartSvcMix"></div>
       </div>
     </div>
     <div class="grid">
+      <div class="chart-card">
+        <h3>Supplier agreements — unique suppliers</h3>
+        <p>SA1 unique suppliers after overlaying today’s Intrepid Morocco account agreements</p>
+        <div class="chart-box" id="chartSa"></div>
+      </div>
       <div class="chart-card">
         <h3>SGA unique services — 2027 prices</h3>
         <p>TM = FIT pricelist · Group Tour = All Group Series / GIT</p>
         <div class="chart-box" id="chartSgaMix"></div>
       </div>
+    </div>
+    <div class="grid wide">
       <div class="chart-card">
         <h3>Open cards by problem tab</h3>
         <p>What is still waiting for a Yes or No</p>
@@ -136,8 +144,18 @@
     <div id="svcTable"></div>
 
     <h2>3. Supplier agreements — tool vs live Prod</h2>
-    <p class="muted">SA1 in the tool is still the 4/9 Nov extract. Live Prod was queried 16 Nov (account-level Intrepid Morocco agreements).</p>
+    <p class="muted">SA1 in the tool is still the 4/9 Nov extract. Live Prod was queried 16 Nov (account-level Intrepid Morocco agreements). Counts below are unique suppliers, not services.</p>
     <div id="saSummary"></div>
+    <h3 style="font-size:14px;margin:14px 0 6px">Unique SA1 suppliers</h3>
+    <div class="filters">
+      <select id="supFilter">
+        <option value="with">Have a live Prod agreement</option>
+        <option value="none">Still no live Prod agreement</option>
+      </select>
+      <input type="search" id="supQ" placeholder="Search supplier…" />
+    </div>
+    <div id="supplierTable"></div>
+    <h3 style="font-size:14px;margin:14px 0 6px">SA1 services</h3>
     <div class="filters">
       <select id="saFilter">
         <option value="still">Still no live Prod agreement</option>
@@ -158,7 +176,7 @@
 
     <footer id="foot"></footer>
   </div>
-  <script src="dashboard-data.js?v=20261116e"></script>
-  <script src="dashboard.js?v=20261116e"></script>
+  <script src="dashboard-data.js?v=20261116f"></script>
+  <script src="dashboard.js?v=20261116f"></script>
 </body>
 </html>

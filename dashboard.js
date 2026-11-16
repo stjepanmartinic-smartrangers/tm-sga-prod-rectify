@@ -59,6 +59,7 @@
       sheetStats[s.id] = { ...s, yes: 0, no: 0, open: 0 };
     });
     const svcOpen = {};
+    const svcState = {};
     const pkg = {};
     TM.forEach((n) => {
       pkg[n] = { name: n, yes: 0, open: 0, cards: 0, blocking: {}, firstInsertReady: true, fullyReady: true };
@@ -90,10 +91,15 @@
         else if (ch === "no") no += 1;
         else open += 1;
         if (sheetStats[c.sheet]) sheetStats[c.sheet][ch === "yes" || ch === "no" ? ch : "open"] += 1;
+        const k = c.service;
+        if (!svcState[k]) svcState[k] = { anyOpen: false, blockingOpen: false, decided: false };
         if (ch === "open") {
-          const k = c.service;
           if (!svcOpen[k]) svcOpen[k] = new Set();
           svcOpen[k].add(c.sheet);
+          svcState[k].anyOpen = true;
+          if (BLOCKING.has(c.sheet)) svcState[k].blockingOpen = true;
+        } else if (ch === "yes" || ch === "no" || ch === "done") {
+          svcState[k].decided = true;
         }
         const on = (c.tmOn && c.tmOn.length ? c.tmOn : c.packages) || [];
         on.forEach((p) => {
@@ -108,8 +114,21 @@
       : h.firstInsertReady;
     const fully = useLive ? Object.values(pkg).filter((p) => p.fullyReady).length : h.fullyReady;
     const prob = useLive ? Object.keys(svcOpen).length : h.problematicServices;
+    const uniqueSvc = useLive ? Object.keys(svcState).length : (h.uniqueServices || prob);
+    const servicesFinalised = useLive
+      ? Object.values(svcState).filter((s) => !s.anyOpen).length
+      : (h.servicesFinalised || 0);
+    const servicesFirstInsert = useLive
+      ? Object.values(svcState).filter((s) => !s.blockingOpen).length
+      : (h.servicesFirstInsertDecided || 0);
+    const servicesWithDecision = useLive
+      ? Object.values(svcState).filter((s) => s.decided).length
+      : (h.servicesWithADecision || 0);
     const toolYes = useLive ? yes : h.toolYes;
     const toolOpen = useLive ? open : h.toolOpen;
+    const saSupWith = h.sa1SuppliersWithAgreement || 0;
+    const saSupNone = h.sa1SuppliersStillNone || 0;
+    const saSupAll = h.sa1UniqueSuppliers || (saSupWith + saSupNone);
 
     document.getElementById("meta").textContent =
       `Tool extract ${data.extract || "—"}. Saved answers ${fmtWhen((live && live.updatedAt) || data.storeUpdatedAt)}. Prod agreements ${fmtWhen(data.prodSaQueriedAt)}.`;
@@ -117,15 +136,20 @@
     document.getElementById("answers").innerHTML = `
       <div class="answer wait"><b>${fully}</b><span>TM packages fully ready to import (of ${h.tmPackages})</span></div>
       <div class="answer wait"><b>${firstReady}</b><span>Ready for first insert (names / supplier / location / type decided)</span></div>
-      <div class="answer wait"><b>${prob}</b><span>Unique services still with an open problem card</span></div>
-      <div class="answer"><b>${h.sa1StillNoAgreement}</b><span>SA1 services still with no live Prod agreement (${h.sa1CoveredByLiveProd} now have an account SA in Prod)</span></div>
+      <div class="answer wait"><b>${servicesFinalised} / ${uniqueSvc}</b><span>Unique services fully decided (no open cards left)</span></div>
+      <div class="answer ok"><b>${servicesFirstInsert} / ${uniqueSvc}</b><span>Unique services first-insert decided (name / supplier / location / type closed)</span></div>
+      <div class="answer wait"><b>${prob}</b><span>Unique services still with at least one open card</span></div>
+      <div class="answer ok"><b>${saSupWith} / ${saSupAll}</b><span>Unique SA1 suppliers now with a live Prod agreement</span></div>
+      <div class="answer"><b>${h.prodMoroccoAccounts}</b><span>Intrepid Morocco accounts on Prod that already have an SA (${h.prodMoroccoAgreements} agreements)</span></div>
       <div class="answer"><b>${h.sgaTrips}</b><span>SGA trips · ${h.sgaUniqueServices} unique services · Group Tour 2027 on most; TM/FIT is rare</span></div>
     `;
 
     document.getElementById("defs").innerHTML =
       `<b>How to read this.</b> ${esc(data.definitions.firstInsertReady)} ${esc(data.definitions.fullyReady)}
+      ${esc(data.definitions.servicesFinalised || "")} ${esc(data.definitions.servicesFirstInsert || "")}
+      ${esc(data.definitions.suppliersFinalised || "")}
       ${esc(data.definitions.tmPricing)} ${esc(data.definitions.groupTourPricing)} ${esc(data.definitions.saLive)}
-      Decision tool: <a href="${esc(data.rectifyUrl)}">${esc(data.rectifyUrl)}</a>. Yes in the tool: ${toolYes}. Still open: ${toolOpen}.`;
+      Decision tool: <a href="${esc(data.rectifyUrl)}">${esc(data.rectifyUrl)}</a>. Yes in the tool: ${toolYes} across ${servicesWithDecision} unique services. Still open: ${toolOpen}.`;
 
     const pkgRows = (useLive ? Object.values(pkg) : data.tmPackages).sort((a, b) => a.name.localeCompare(b.name));
     document.getElementById("pkgTable").innerHTML = `<table>
@@ -160,15 +184,21 @@
         <tr><td>Intrepid Morocco agreements on Prod today</td><td><b>${h.prodMoroccoAgreements}</b> on ${h.prodMoroccoAccounts} accounts</td></tr>
         <tr><td>Service-level assignments (Morocco)</td><td><b>${h.prodMoroccoAssignments}</b> — still none; these are account-level</td></tr>
         <tr><td>SA1 open in the tool</td><td><b>${h.sa1OpenInTool}</b></td></tr>
-        <tr><td>Of those, now have a matching Prod account agreement</td><td><b>${h.sa1CoveredByLiveProd}</b> — do not create another</td></tr>
-        <tr><td>Still no usable Prod agreement</td><td><b>${h.sa1StillNoAgreement}</b></td></tr>
+        <tr><td>Unique SA1 suppliers</td><td><b>${saSupAll}</b></td></tr>
+        <tr><td>Of those, now have a live Prod agreement</td><td><b>${saSupWith}</b> — do not create another</td></tr>
+        <tr><td>Unique SA1 suppliers still with no agreement</td><td><b>${saSupNone}</b></td></tr>
+        <tr><td>SA1 services now matching a Prod account agreement</td><td><b>${h.sa1CoveredByLiveProd}</b> services</td></tr>
+        <tr><td>SA1 services still with no usable Prod agreement</td><td><b>${h.sa1StillNoAgreement}</b> services</td></tr>
         <tr><td>SA3 template name still does not match Prod</td><td><b>${h.sa3Open}</b> (names are still like Jan 2026 - Dec 2027)</td></tr>
         <tr><td>SA5 which supplier account still open</td><td><b>${h.sa5Open}</b></td></tr>
       </tbody>
     </table>`;
     window._saStill = data.sa1StillNoAgreement;
     window._saCovered = data.sa1CoveredByLiveProd;
+    window._supWith = data.sa1SuppliersWithAgreement || [];
+    window._supNone = data.sa1SuppliersStillNone || [];
     drawSa();
+    drawSup();
 
     const sheets = useLive ? Object.values(sheetStats) : data.sheets;
     document.getElementById("sheetTable").innerHTML = `<table>
@@ -219,6 +249,11 @@
       sheets,
       pkgRows,
       h,
+      uniqueSvc,
+      servicesFinalised,
+      servicesFirstInsert,
+      saSupWith,
+      saSupNone,
     });
   }
 
@@ -278,9 +313,19 @@
       { label: "No", value: s.toolNo, color: "#9b1c1c" },
       { label: "Open", value: s.toolOpen, color: "#d97706" },
     ]);
+    const stillBlocking = Math.max(0, (s.uniqueSvc || 0) - (s.servicesFirstInsert || 0));
+    const firstOnly = Math.max(0, (s.servicesFirstInsert || 0) - (s.servicesFinalised || 0));
+    const svcMixEl = document.getElementById("chartSvcMix");
+    if (svcMixEl) {
+      svcMixEl.innerHTML = doughnut([
+        { label: "Fully decided (no open cards)", value: s.servicesFinalised || 0, color: "#1f6b4a" },
+        { label: "First-insert decided, other cards still open", value: firstOnly, color: "#1F4E79" },
+        { label: "Still blocking first insert", value: stillBlocking, color: "#d97706" },
+      ]);
+    }
     document.getElementById("chartSa").innerHTML = doughnut([
-      { label: "Live Prod account SA — do not recreate", value: s.h.sa1CoveredByLiveProd, color: "#1f6b4a" },
-      { label: "Still no usable Prod agreement", value: s.h.sa1StillNoAgreement, color: "#d97706" },
+      { label: "Unique suppliers with a live Prod SA", value: s.saSupWith || 0, color: "#1f6b4a" },
+      { label: "Unique suppliers still with no agreement", value: s.saSupNone || 0, color: "#d97706" },
     ]);
     document.getElementById("chartSgaMix").innerHTML = doughnut([
       { label: "Group Tour only", value: mix["Group Tour only"] || 0, color: "#1F4E79" },
@@ -323,6 +368,29 @@
     </table>`;
   }
 
+  function drawSup() {
+    const modeEl = document.getElementById("supFilter");
+    const qEl = document.getElementById("supQ");
+    const box = document.getElementById("supplierTable");
+    if (!modeEl || !qEl || !box) return;
+    const mode = modeEl.value;
+    const q = (qEl.value || "").trim().toLowerCase();
+    const rows = (mode === "with" ? window._supWith : window._supNone) || [];
+    const filtered = rows.filter((r) => {
+      const blob = ((r.supplier || "") + " " + (r.account || "") + " " + (r.agreement || "")).toLowerCase();
+      return !q || blob.includes(q);
+    });
+    box.innerHTML = `<table>
+      <thead><tr><th>Supplier</th><th>Prod account</th><th>Agreement</th><th>Services</th></tr></thead>
+      <tbody>${filtered.map((r) => `<tr>
+        <td>${esc(r.supplier)}</td>
+        <td>${esc(r.account || "")}</td>
+        <td>${esc(r.agreement || "None")}</td>
+        <td>${r.serviceCount || 0}${r.services && r.services.length ? `<div class="detail">${esc(r.services.join(", "))}</div>` : ""}</td>
+      </tr>`).join("") || `<tr><td colspan="4" class="muted">None.</td></tr>`}</tbody>
+    </table>`;
+  }
+
   function drawSa() {
     const mode = document.getElementById("saFilter").value;
     const q = (document.getElementById("saQ").value || "").trim().toLowerCase();
@@ -344,6 +412,10 @@
   document.getElementById("svcQ").addEventListener("input", drawSvc);
   document.getElementById("saQ").addEventListener("input", drawSa);
   document.getElementById("saFilter").addEventListener("change", drawSa);
+  const supFilter = document.getElementById("supFilter");
+  const supQ = document.getElementById("supQ");
+  if (supFilter) supFilter.addEventListener("change", drawSup);
+  if (supQ) supQ.addEventListener("input", drawSup);
 
   try {
     render(null);

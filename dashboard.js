@@ -1,12 +1,13 @@
 (() => {
   const STORE = "https://tm-sga-prod-rectify-store.graceful-kryptops.workers.dev";
   const BLOCKING = new Set(["P1", "P2", "P5", "P9", "P10", "P11", "SA5"]);
-  const TM = new Set((window.DASHBOARD_DATA.tmPackages || []).map((p) => p.name));
   const data = window.DASHBOARD_DATA;
   if (!data) {
-    document.body.innerHTML = "<p style='padding:24px'>dashboard-data.js failed to load.</p>";
+    const err = document.getElementById("err") || document.body;
+    err.innerHTML = "<div class='err'>dashboard-data.js failed to load. Hard-refresh this page.</div>";
     return;
   }
+  const TM = new Set((data.tmPackages || []).map((p) => p.name));
 
   function statusOf(row) {
     if (!row) return "open";
@@ -216,167 +217,93 @@
     });
   }
 
-  const charts = {};
-  function upsertChart(id, config) {
-    if (charts[id]) charts[id].destroy();
-    const el = document.getElementById(id);
-    if (!el || typeof Chart === "undefined") return;
-    charts[id] = new Chart(el, config);
+  function doughnut(slices) {
+    const total = slices.reduce((a, s) => a + (Number(s.value) || 0), 0) || 1;
+    const r = 52;
+    const c = 2 * Math.PI * r;
+    let off = 0;
+    const rings = slices.map((s) => {
+      const v = Number(s.value) || 0;
+      const len = (v / total) * c;
+      const dash = `<circle cx="70" cy="70" r="${r}" fill="none" stroke="${s.color}" stroke-width="18" stroke-dasharray="${len} ${c - len}" stroke-dashoffset="${-off}" transform="rotate(-90 70 70)"></circle>`;
+      off += len;
+      return dash;
+    }).join("");
+    const legend = `<ul class="legend">${slices.map((s) =>
+      `<li><span class="swatch" style="background:${s.color}"></span>${esc(s.label)} — <b>${s.value}</b></li>`
+    ).join("")}</ul>`;
+    return `<div class="donut-wrap">
+      <svg width="140" height="140" viewBox="0 0 140 140" aria-hidden="true">${rings}</svg>
+      ${legend}
+    </div>`;
+  }
+
+  function stackedBars(rows, kind) {
+    const max = Math.max(1, ...rows.map((r) => (r.yes || 0) + (r.open || 0) + (r.a || 0) + (r.b || 0)));
+    const cls = kind === "pkg" ? "hbar pkg" : "hbar";
+    if (kind === "pct") {
+      return rows.map((r) => `<div class="pct">
+        <div>${esc(r.label)}</div>
+        <div class="pair">
+          <div class="track"><div class="seg" style="width:${r.a}%;background:#1F4E79"></div></div>
+          <div class="track"><div class="seg" style="width:${r.b}%;background:#7c3aed"></div></div>
+        </div>
+        <div>${r.a}% GT<br>${r.b}% TM</div>
+      </div>`).join("");
+    }
+    return rows.map((r) => {
+      const yes = r.yes || 0;
+      const open = r.open || 0;
+      const sum = yes + open;
+      return `<div class="${cls}">
+        <div>${esc(r.label)}</div>
+        <div class="track">
+          <div class="seg" style="width:${(100 * yes) / max}%;background:#1f6b4a"></div>
+          <div class="seg" style="width:${(100 * open) / max}%;background:#d97706"></div>
+        </div>
+        <div>${yes} / ${sum}</div>
+      </div>`;
+    }).join("");
   }
 
   function drawCharts(s) {
-    const legend = { labels: { boxWidth: 12, color: "#1c1915" } };
-    const ticks = { color: "#5c564c", font: { size: 11 } };
-    const grid = { color: "#e4ddd0" };
-
-    upsertChart("chartTool", {
-      type: "doughnut",
-      data: {
-        labels: ["Yes", "No", "Open"],
-        datasets: [{
-          data: [s.toolYes, s.toolNo, s.toolOpen],
-          backgroundColor: ["#1f6b4a", "#9b1c1c", "#d97706"],
-          borderWidth: 0,
-        }],
-      },
-      options: {
-        maintainAspectRatio: false,
-        plugins: {
-          legend,
-          title: { display: false },
-        },
-      },
-    });
-
-    upsertChart("chartSa", {
-      type: "doughnut",
-      data: {
-        labels: [
-          "Live Prod account SA — do not recreate",
-          "Still no usable Prod agreement",
-        ],
-        datasets: [{
-          data: [s.h.sa1CoveredByLiveProd, s.h.sa1StillNoAgreement],
-          backgroundColor: ["#1f6b4a", "#d97706"],
-          borderWidth: 0,
-        }],
-      },
-      options: {
-        maintainAspectRatio: false,
-        plugins: { legend },
-      },
-    });
-
     const mix = s.h.sgaPriceSummary || {};
-    upsertChart("chartSgaMix", {
-      type: "doughnut",
-      data: {
-        labels: [
-          "Group Tour only",
-          "TM (FIT) + Group Tour",
-          "TM (FIT) only",
-          "On Prod, no 2027",
-          "Not on Prod",
-        ],
-        datasets: [{
-          data: [
-            mix["Group Tour only"] || 0,
-            mix["Both FIT + Group Tour"] || 0,
-            mix["FIT only"] || 0,
-            mix["On Prod, no 2027"] || 0,
-            mix["Not on Prod"] || 0,
-          ],
-          backgroundColor: ["#1F4E79", "#1f6b4a", "#7c3aed", "#d97706", "#9b1c1c"],
-          borderWidth: 0,
-        }],
-      },
-      options: {
-        maintainAspectRatio: false,
-        plugins: { legend },
-      },
-    });
-
+    document.getElementById("chartTool").innerHTML = doughnut([
+      { label: "Yes", value: s.toolYes, color: "#1f6b4a" },
+      { label: "No", value: s.toolNo, color: "#9b1c1c" },
+      { label: "Open", value: s.toolOpen, color: "#d97706" },
+    ]);
+    document.getElementById("chartSa").innerHTML = doughnut([
+      { label: "Live Prod account SA — do not recreate", value: s.h.sa1CoveredByLiveProd, color: "#1f6b4a" },
+      { label: "Still no usable Prod agreement", value: s.h.sa1StillNoAgreement, color: "#d97706" },
+    ]);
+    document.getElementById("chartSgaMix").innerHTML = doughnut([
+      { label: "Group Tour only", value: mix["Group Tour only"] || 0, color: "#1F4E79" },
+      { label: "TM (FIT) + Group Tour", value: mix["Both FIT + Group Tour"] || 0, color: "#1f6b4a" },
+      { label: "TM (FIT) only", value: mix["FIT only"] || 0, color: "#7c3aed" },
+      { label: "On Prod, no 2027", value: mix["On Prod, no 2027"] || 0, color: "#d97706" },
+      { label: "Not on Prod", value: mix["Not on Prod"] || 0, color: "#9b1c1c" },
+    ]);
     const sheetRows = (s.sheets || []).slice().sort((a, b) => b.open - a.open);
-    upsertChart("chartSheets", {
-      type: "bar",
-      data: {
-        labels: sheetRows.map((x) => x.id),
-        datasets: [
-          { label: "Yes", data: sheetRows.map((x) => x.yes), backgroundColor: "#1f6b4a" },
-          { label: "Open", data: sheetRows.map((x) => x.open), backgroundColor: "#d97706" },
-        ],
-      },
-      options: {
-        maintainAspectRatio: false,
-        plugins: { legend },
-        scales: {
-          x: { stacked: true, ticks, grid: { display: false } },
-          y: { stacked: true, ticks, grid, title: { display: true, text: "Cards", color: "#5c564c" } },
-        },
-      },
-    });
-
+    document.getElementById("chartSheets").innerHTML =
+      `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = Yes · Amber = Open</div>` +
+      stackedBars(sheetRows.map((x) => ({ label: x.id + " " + (x.title || ""), yes: x.yes, open: x.open })));
     const pkgs = (s.pkgRows || []).slice().sort((a, b) => b.open - a.open);
-    upsertChart("chartPkgs", {
-      type: "bar",
-      data: {
-        labels: pkgs.map((p) => p.name),
-        datasets: [
-          { label: "Yes", data: pkgs.map((p) => p.yes), backgroundColor: "#1f6b4a" },
-          { label: "Open", data: pkgs.map((p) => p.open), backgroundColor: "#d97706" },
-        ],
-      },
-      options: {
-        indexAxis: "y",
-        maintainAspectRatio: false,
-        plugins: { legend },
-        scales: {
-          x: { stacked: true, ticks, grid, title: { display: true, text: "Problem-sheet cards", color: "#5c564c" } },
-          y: { stacked: true, ticks: { ...ticks, font: { size: 10 } }, grid: { display: false } },
-        },
-      },
-    });
-
+    document.getElementById("chartPkgs").innerHTML =
+      `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = Yes · Amber = Open</div>` +
+      stackedBars(pkgs.map((p) => ({ label: p.name, yes: p.yes, open: p.open })), "pkg");
     const trips = data.sgaPricing || [];
-    upsertChart("chartSgaTrips", {
-      type: "bar",
-      data: {
-        labels: trips.map((t) => t.code),
-        datasets: [
-          {
-            label: "Group Tour 2027 %",
-            data: trips.map((t) => {
-              const gt = (t.counts["Group Tour only"] || 0) + (t.counts["TM + Group Tour"] || 0);
-              return t.unique ? Math.round((100 * gt) / t.unique) : 0;
-            }),
-            backgroundColor: "#1F4E79",
-          },
-          {
-            label: "TM (FIT) 2027 %",
-            data: trips.map((t) => {
-              const tm = (t.counts["TM (FIT) only"] || 0) + (t.counts["TM + Group Tour"] || 0);
-              return t.unique ? Math.round((100 * tm) / t.unique) : 0;
-            }),
-            backgroundColor: "#7c3aed",
-          },
-        ],
-      },
-      options: {
-        indexAxis: "y",
-        maintainAspectRatio: false,
-        plugins: { legend },
-        scales: {
-          x: {
-            min: 0,
-            max: 100,
-            ticks,
-            grid,
-            title: { display: true, text: "% of unique services on the trip", color: "#5c564c" },
-          },
-          y: { ticks: { ...ticks, font: { size: 11 } }, grid: { display: false } },
-        },
-      },
-    });
+    document.getElementById("chartSgaTrips").innerHTML =
+      `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Navy = Group Tour · Purple = TM (FIT)</div>` +
+      stackedBars(trips.map((t) => {
+        const gt = (t.counts["Group Tour only"] || 0) + (t.counts["TM + Group Tour"] || 0);
+        const tm = (t.counts["TM (FIT) only"] || 0) + (t.counts["TM + Group Tour"] || 0);
+        return {
+          label: t.code,
+          a: t.unique ? Math.round((100 * gt) / t.unique) : 0,
+          b: t.unique ? Math.round((100 * tm) / t.unique) : 0,
+        };
+      }), "pct");
   }
 
   function drawSvc() {
@@ -413,9 +340,16 @@
   document.getElementById("saQ").addEventListener("input", drawSa);
   document.getElementById("saFilter").addEventListener("change", drawSa);
 
-  render(null);
+  try {
+    render(null);
+  } catch (e) {
+    const box = document.getElementById("err");
+    if (box) box.innerHTML = "<div class='err'>Dashboard failed to draw: " + esc(e.message || e) + "</div>";
+  }
   fetch(STORE + "?t=" + Date.now(), { cache: "no-store" })
     .then((r) => r.json())
-    .then((raw) => render(fromRemote(raw)))
+    .then((raw) => {
+      try { render(fromRemote(raw)); } catch (e) { console.error(e); }
+    })
     .catch(() => {});
 })();

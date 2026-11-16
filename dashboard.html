@@ -36,8 +36,17 @@
     }
     .chart-card h3 { margin: 0 0 4px; font-size: 14px; }
     .chart-card p { margin: 0 0 8px; color: var(--muted); font-size: 12px; }
-    .chart-box { position: relative; height: 280px; }
-    .chart-box.tall { height: 520px; }
+    .chart-box { min-height: 180px; }
+    .donut-wrap { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+    .legend { list-style: none; margin: 0; padding: 0; font-size: 12px; }
+    .legend li { display: flex; gap: 8px; align-items: center; margin: 4px 0; }
+    .swatch { width: 10px; height: 10px; border-radius: 2px; flex: 0 0 10px; }
+    .hbar { display: grid; grid-template-columns: minmax(90px, 190px) 1fr 70px; gap: 6px 8px; align-items: center; font-size: 12px; margin: 5px 0; }
+    .pct { display: grid; grid-template-columns: 64px 1fr 88px; gap: 6px 8px; align-items: center; font-size: 12px; margin: 8px 0; }
+    .pct .pair { display: flex; flex-direction: column; gap: 3px; }
+    .track { height: 12px; background: #efeae0; border-radius: 6px; overflow: hidden; display: flex; }
+    .seg { height: 100%; }
+    .err { background: #fde8e8; color: #9b1c1c; padding: 10px 12px; border-radius: 8px; margin-bottom: 12px; }
     h2 { font-size: 16px; margin: 22px 0 8px; }
     table { width: 100%; border-collapse: collapse; background: var(--paper);
       border: 1px solid var(--line); border-radius: 12px; overflow: hidden; font-size: 13px; }
@@ -72,6 +81,7 @@
     <p id="meta"></p>
   </header>
   <div class="wrap">
+    <div id="err"></div>
     <div class="answers" id="answers"></div>
     <div class="help" id="defs"></div>
 
@@ -79,38 +89,38 @@
       <div class="chart-card">
         <h3>Decision tool — cards decided vs open</h3>
         <p>Yes / No / still Open across all P and SA tabs</p>
-        <div class="chart-box"><canvas id="chartTool"></canvas></div>
+        <div class="chart-box" id="chartTool"></div>
       </div>
       <div class="chart-card">
         <h3>Supplier agreements — tool vs live Prod</h3>
         <p>SA1 open cards after overlaying today’s Intrepid Morocco account agreements</p>
-        <div class="chart-box"><canvas id="chartSa"></canvas></div>
+        <div class="chart-box" id="chartSa"></div>
       </div>
     </div>
     <div class="grid">
       <div class="chart-card">
         <h3>SGA unique services — 2027 prices</h3>
         <p>TM = FIT pricelist · Group Tour = All Group Series / GIT</p>
-        <div class="chart-box"><canvas id="chartSgaMix"></canvas></div>
+        <div class="chart-box" id="chartSgaMix"></div>
       </div>
       <div class="chart-card">
         <h3>Open cards by problem tab</h3>
         <p>What is still waiting for a Yes or No</p>
-        <div class="chart-box"><canvas id="chartSheets"></canvas></div>
+        <div class="chart-box" id="chartSheets"></div>
       </div>
     </div>
     <div class="grid wide">
       <div class="chart-card">
         <h3>TM packages — decided vs still open</h3>
         <p>None of the 20 packages are import-ready yet. Green = Yes in the tool, amber = still Open</p>
-        <div class="chart-box tall"><canvas id="chartPkgs"></canvas></div>
+        <div class="chart-box" id="chartPkgs"></div>
       </div>
     </div>
     <div class="grid wide">
       <div class="chart-card">
         <h3>SGA trips — Group Tour vs TM (FIT) 2027 coverage</h3>
         <p>Share of unique services on each trip with a 2027 price on that pricelist</p>
-        <div class="chart-box tall"><canvas id="chartSgaTrips"></canvas></div>
+        <div class="chart-box" id="chartSgaTrips"></div>
       </div>
     </div>
 
@@ -148,8 +158,7 @@
 
     <footer id="foot"></footer>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
-  <script src="dashboard-data.js?v=20261116c"></script>
-  <script src="dashboard.js?v=20261116c"></script>
+  <script src="dashboard-data.js?v=20261116d"></script>
+  <script src="dashboard.js?v=20261116d"></script>
 </body>
 </html>

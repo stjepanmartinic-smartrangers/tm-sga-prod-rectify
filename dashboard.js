@@ -337,6 +337,7 @@
     const saEx = data.saExistingOnProd || { summary: {}, noAgreement: [], suppliersNoAgreement: [] };
     window._saNewNone = saNew.noAgreement || [];
     window._saExNone = saEx.noAgreement || [];
+    window._saAccounts = data.agreementsByAccount || [];
     const splitBox = document.getElementById("saSplitSummary");
     if (splitBox) {
       const ns = saNew.summary || {};
@@ -355,6 +356,7 @@
     }
     drawSaNew();
     drawSaExisting();
+    drawAcc();
 
     document.getElementById("saSummary").innerHTML = `<table>
       <tbody>
@@ -603,26 +605,78 @@
     </table>`;
   }
 
-  function drawSup() {
-    const modeEl = document.getElementById("supFilter");
-    const qEl = document.getElementById("supQ");
-    const box = document.getElementById("supplierTable");
-    if (!modeEl || !qEl || !box) return;
-    const mode = modeEl.value;
-    const q = (qEl.value || "").trim().toLowerCase();
-    const rows = (mode === "with" ? window._supWith : window._supNone) || [];
-    const filtered = rows.filter((r) => {
+  function matchKind(row, kind) {
+    if (!kind || kind === "all") return true;
+    if (kind === "existing") return (Number(row.existingCount) || 0) > 0 || row.kind === "existing";
+    if (kind === "new") return (Number(row.newCount) || 0) > 0 || row.kind === "new";
+    return true;
+  }
+
+  function kindBits(r) {
+    const bits = [];
+    if (r.existingCount) bits.push(tag("yes", "Exists " + r.existingCount));
+    if (r.newCount) bits.push(tag("open", "New " + r.newCount));
+    if (r.otherCount) bits.push(tag("open", "Other " + r.otherCount));
+    if (r.kind === "existing") bits.push(tag("yes", "Exists"));
+    if (r.kind === "new") bits.push(tag("open", "New"));
+    if (r.kind === "other") bits.push(tag("open", "Other"));
+    return bits.join(" ");
+  }
+
+  function drawAcc() {
+    const saEl = document.getElementById("accSaFilter");
+    const kindEl = document.getElementById("accKindFilter");
+    const qEl = document.getElementById("accQ");
+    const box = document.getElementById("accountTable");
+    if (!box) return;
+    const saMode = (saEl && saEl.value) || "all";
+    const kind = (kindEl && kindEl.value) || "all";
+    const q = ((qEl && qEl.value) || "").trim().toLowerCase();
+    const filtered = (window._saAccounts || []).filter((r) => {
+      if (saMode === "with" && !r.hasAgreement) return false;
+      if (saMode === "none" && r.hasAgreement) return false;
+      if (!matchKind(r, kind)) return false;
       const blob = ((r.supplier || "") + " " + (r.account || "") + " " + (r.agreement || "")).toLowerCase();
       return !q || blob.includes(q);
     });
     box.innerHTML = `<table>
-      <thead><tr><th>Supplier</th><th>Prod account</th><th>Agreement</th><th>Services</th></tr></thead>
+      <thead><tr><th>Account / supplier</th><th>Agreement</th><th>Services</th><th>Kind</th></tr></thead>
+      <tbody>${filtered.map((r) => {
+        const names = kind === "new" ? (r.newServices || r.services) : kind === "existing" ? (r.existingServices || r.services) : r.services;
+        return `<tr>
+        <td>${esc(r.account || r.supplier)}${r.internal ? `<div class="detail">DMC internal</div>` : ""}</td>
+        <td>${r.hasAgreement ? tag("yes", r.agreement || "Yes") : tag("no", "None")}</td>
+        <td>${r.serviceCount || 0}${names && names.length ? `<div class="detail">${esc(names.join(", "))}</div>` : ""}</td>
+        <td>${kindBits(r)}</td>
+      </tr>`;
+      }).join("") || `<tr><td colspan="4" class="muted">None.</td></tr>`}</tbody>
+    </table>`;
+  }
+
+  function drawSup() {
+    const modeEl = document.getElementById("supFilter");
+    const kindEl = document.getElementById("supKind");
+    const qEl = document.getElementById("supQ");
+    const box = document.getElementById("supplierTable");
+    if (!modeEl || !qEl || !box) return;
+    const mode = modeEl.value;
+    const kind = (kindEl && kindEl.value) || "all";
+    const q = (qEl.value || "").trim().toLowerCase();
+    const rows = (mode === "with" ? window._supWith : window._supNone) || [];
+    const filtered = rows.filter((r) => {
+      if (!matchKind(r, kind)) return false;
+      const blob = ((r.supplier || "") + " " + (r.account || "") + " " + (r.agreement || "")).toLowerCase();
+      return !q || blob.includes(q);
+    });
+    box.innerHTML = `<table>
+      <thead><tr><th>Supplier</th><th>Prod account</th><th>Agreement</th><th>Services</th><th>Kind</th></tr></thead>
       <tbody>${filtered.map((r) => `<tr>
         <td>${esc(r.supplier)}</td>
         <td>${esc(r.account || "")}</td>
         <td>${esc(r.agreement || "None")}</td>
         <td>${r.serviceCount || 0}${r.services && r.services.length ? `<div class="detail">${esc(r.services.join(", "))}</div>` : ""}</td>
-      </tr>`).join("") || `<tr><td colspan="4" class="muted">None.</td></tr>`}</tbody>
+        <td>${kindBits(r)}</td>
+      </tr>`).join("") || `<tr><td colspan="5" class="muted">None.</td></tr>`}</tbody>
     </table>`;
   }
 
@@ -655,9 +709,12 @@
 
   function drawSa() {
     const mode = document.getElementById("saFilter").value;
+    const kindEl = document.getElementById("saKind");
+    const kind = (kindEl && kindEl.value) || "all";
     const q = (document.getElementById("saQ").value || "").trim().toLowerCase();
     const rows = (mode === "covered" ? window._saCovered : window._saStill) || [];
     const filtered = rows.filter((r) => {
+      if (!matchKind(r, kind)) return false;
       const blob = (r.service + " " + (r.prodSupplier || "") + " " + (r.account || "")).toLowerCase();
       return !q || blob.includes(q);
     });
@@ -674,14 +731,24 @@
   document.getElementById("svcQ").addEventListener("input", drawSvc);
   document.getElementById("saQ").addEventListener("input", drawSa);
   document.getElementById("saFilter").addEventListener("change", drawSa);
+  const saKind = document.getElementById("saKind");
+  if (saKind) saKind.addEventListener("change", drawSa);
   const saNewQ = document.getElementById("saNewQ");
   const saExQ = document.getElementById("saExQ");
   if (saNewQ) saNewQ.addEventListener("input", drawSaNew);
   if (saExQ) saExQ.addEventListener("input", drawSaExisting);
   const supFilter = document.getElementById("supFilter");
+  const supKind = document.getElementById("supKind");
   const supQ = document.getElementById("supQ");
   if (supFilter) supFilter.addEventListener("change", drawSup);
+  if (supKind) supKind.addEventListener("change", drawSup);
   if (supQ) supQ.addEventListener("input", drawSup);
+  const accSaFilter = document.getElementById("accSaFilter");
+  const accKindFilter = document.getElementById("accKindFilter");
+  const accQ = document.getElementById("accQ");
+  if (accSaFilter) accSaFilter.addEventListener("change", drawAcc);
+  if (accKindFilter) accKindFilter.addEventListener("change", drawAcc);
+  if (accQ) accQ.addEventListener("input", drawAcc);
 
   try {
     render(null);

@@ -191,6 +191,22 @@
     <h2>3. Supplier agreements — new in template vs existing on Prod</h2>
     <p class="muted">Live Intrepid Prod query. An account-level Intrepid Morocco SA is enough; service assignments are not required. New = on the Service Template, not on Prod. Existing = already a Prod Item. DMC Morocco Cash Paid / Crew / Placeholder accounts are internal.</p>
     <div id="saSplitSummary"></div>
+    <h3 style="font-size:14px;margin:14px 0 6px">Agreements by account</h3>
+    <p class="muted">One row per supplier account from the live Prod query. Filter by whether the agreement exists, and by whether it is used by services that already exist on Prod or by new Service Template names.</p>
+    <div class="filters">
+      <select id="accSaFilter">
+        <option value="all">All accounts</option>
+        <option value="with">Have a Prod agreement</option>
+        <option value="none">No Prod agreement</option>
+      </select>
+      <select id="accKindFilter">
+        <option value="all">All services</option>
+        <option value="existing">Service exists</option>
+        <option value="new">New service</option>
+      </select>
+      <input type="search" id="accQ" placeholder="Search account or supplier…" />
+    </div>
+    <div id="accountTable"></div>
     <h3 style="font-size:14px;margin:14px 0 6px">New in template — no account agreement yet</h3>
     <div class="filters">
       <input type="search" id="saNewQ" placeholder="Search new service or supplier…" />
@@ -210,6 +226,11 @@
         <option value="with">Have a live Prod agreement</option>
         <option value="none">Still no live Prod agreement</option>
       </select>
+      <select id="supKind">
+        <option value="all">All services</option>
+        <option value="existing">Service exists</option>
+        <option value="new">New service</option>
+      </select>
       <input type="search" id="supQ" placeholder="Search supplier…" />
     </div>
     <div id="supplierTable"></div>
@@ -218,6 +239,11 @@
       <select id="saFilter">
         <option value="still">Still no live Prod agreement</option>
         <option value="covered">Covered by a new Prod account agreement</option>
+      </select>
+      <select id="saKind">
+        <option value="all">All services</option>
+        <option value="existing">Service exists</option>
+        <option value="new">New service</option>
       </select>
       <input type="search" id="saQ" placeholder="Search service or supplier…" />
     </div>
@@ -234,7 +260,7 @@
 
     <footer id="foot"></footer>
   </div>
-  <script src="dashboard-data.js?v=20261116u"></script>
-  <script src="dashboard.js?v=20261116u"></script>
+  <script src="dashboard-data.js?v=20261116v"></script>
+  <script src="dashboard.js?v=20261116v"></script>
 </body>
 </html>

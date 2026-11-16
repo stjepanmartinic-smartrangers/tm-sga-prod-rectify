@@ -115,6 +115,25 @@
       .replace(/\s+/g, " ");
   }
 
+  function sheetSortKey(id) {
+    const s = String(id || "").toUpperCase();
+    const m = s.match(/^(P|SA|S)(\d+)$/);
+    if (!m) return [2, 999, s];
+    return [m[1] === "P" ? 0 : 1, Number(m[2]), s];
+  }
+
+  function cmpSheets(a, b) {
+    const aa = sheetSortKey(a && a.id);
+    const bb = sheetSortKey(b && b.id);
+    return aa[0] - bb[0] || aa[1] - bb[1] || String((a && a.id) || "").localeCompare(String((b && b.id) || ""));
+  }
+
+  function decidedOf(s) {
+    if (!s) return 0;
+    if (s.decided != null) return Number(s.decided) || 0;
+    return (Number(s.yes) || 0) + (Number(s.no) || 0) + (Number(s.done) || 0);
+  }
+
   function render(live) {
     const byId = (live && live.byId) || {};
     const useLive = Object.keys(byId).length > 0;
@@ -126,7 +145,7 @@
     let yes = 0, no = 0, open = 0;
     const sheetStats = {};
     (data.sheets || []).forEach((s) => {
-      sheetStats[s.id] = { ...s, yes: 0, no: 0, open: 0 };
+      sheetStats[s.id] = { ...s, yes: 0, no: 0, open: 0, decided: 0 };
     });
     const svcOpen = {};
     const svcState = {};
@@ -142,7 +161,13 @@
         if (ch === "yes") yes += 1;
         else if (ch === "no") no += 1;
         else open += 1;
-        if (sheetStats[c.sheet]) sheetStats[c.sheet][ch === "yes" || ch === "no" ? ch : "open"] += 1;
+        if (sheetStats[c.sheet]) {
+          const st = sheetStats[c.sheet];
+          if (ch === "yes") { st.yes += 1; st.decided += 1; }
+          else if (ch === "no") { st.no += 1; st.decided += 1; }
+          else if (ch === "done") { st.decided += 1; }
+          else st.open += 1;
+        }
         const k = fold(c.service);
         if (!svcState[k]) svcState[k] = { anyOpen: false, blockingOpen: false, decided: false };
         if (ch === "open") {
@@ -255,12 +280,12 @@
     drawSa();
     drawSup();
 
-    const sheets = useLive ? Object.values(sheetStats) : data.sheets;
+    const sheets = (useLive ? Object.values(sheetStats) : data.sheets).slice().sort(cmpSheets);
     document.getElementById("sheetTable").innerHTML = `<table>
-      <thead><tr><th>Tab</th><th>Yes</th><th>No</th><th>Open</th><th>Total</th></tr></thead>
+      <thead><tr><th>Tab</th><th>Decided</th><th>Not decided</th><th>Total</th></tr></thead>
       <tbody>${sheets.map((s) => `<tr>
         <td>${esc(s.id)} ${esc(s.title || "")}</td>
-        <td>${s.yes}</td><td>${s.no}</td><td>${s.open}</td><td>${s.total}</td>
+        <td>${decidedOf(s)}</td><td>${s.open}</td><td>${s.total}</td>
       </tr>`).join("")}</tbody>
     </table>`;
 
@@ -419,10 +444,14 @@
     }
     fillPkgPie("chartFitPie", "fitPieCaption", s.pkgRows || [], "FIT packages");
     fillPkgPie("chartSgaPie", "sgaPieCaption", s.sgaPkgRows || [], "SGA packages");
-    const sheetRows = (s.sheets || []).slice().sort((a, b) => b.open - a.open);
+    const sheetRows = (s.sheets || []).slice().sort(cmpSheets);
     document.getElementById("chartSheets").innerHTML =
-      `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = Yes · Amber = Open</div>` +
-      stackedBars(sheetRows.map((x) => ({ label: x.id + " " + (x.title || ""), yes: x.yes, open: x.open })));
+      `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = Decided · Amber = Not decided</div>` +
+      stackedBars(sheetRows.map((x) => ({
+        label: x.id + " " + (x.title || ""),
+        yes: decidedOf(x),
+        open: x.open || 0,
+      })));
     const pkgs = (s.pkgRows || []).slice().sort((a, b) => a.name.localeCompare(b.name));
     document.getElementById("chartPkgs").innerHTML =
       `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = first-insert ready · Amber = not yet</div>` +

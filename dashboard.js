@@ -89,13 +89,37 @@
     return installSheetsOf(kind).every((id) => sheetOpenCount(p, id) === 0);
   }
 
-  function pillsHtml(ids, openCountFn) {
+  function el(id) {
+    return document.getElementById(id);
+  }
+
+  function setHtml(id, html) {
+    const n = el(id);
+    if (n) n.innerHTML = html;
+    return n;
+  }
+
+  function navigate(nav) {
+    if (typeof window.onDashboardNavigate === "function") {
+      window.onDashboardNavigate(nav);
+      return;
+    }
+    const q = new URLSearchParams();
+    if (nav.sheet) q.set("sheet", nav.sheet);
+    if (nav.pkg) q.set("pkg", nav.pkg);
+    if (nav.service) q.set("service", nav.service);
+    window.location.href = "./index.html?" + q.toString();
+  }
+
+  function pillsHtml(ids, openCountFn, extra) {
+    extra = extra || {};
     return `<span class="pills">${ids.map((id) => {
       const n = Number(openCountFn(id)) || 0;
       const ok = n === 0;
       const name = sheetName(id);
       const label = !ok && n > 1 ? name + " · " + n : name;
-      return `<span class="tag ${ok ? "yes" : "no"}" title="${ok ? name + " — ready" : name + " — not ready (" + n + " open)"}">${esc(label)}</span>`;
+      const title = ok ? name + " — ready" : name + " — not ready (" + n + " open)";
+      return `<span class="tag ${ok ? "yes" : "no"} dash-pill" data-sheet="${esc(id)}" data-pkg="${esc(extra.pkg || "")}" data-svc="${esc(extra.svc || "")}" title="${esc(title)}">${esc(label)}</span>`;
     }).join("")}</span>`;
   }
 
@@ -103,8 +127,8 @@
     const ids = installSheetsOf(kind);
     const ready = isInstallReady(p, kind);
     return `<div class="pkg-row">
-      <div>${esc(pkgLabel(p))}</div>
-      <div>${pillsHtml(ids, (id) => sheetOpenCount(p, id))}</div>
+      <div class="dash-pkg" data-pkg="${esc(p.name)}" style="cursor:pointer">${esc(pkgLabel(p))}</div>
+      <div>${pillsHtml(ids, (id) => sheetOpenCount(p, id), { pkg: p.name })}</div>
       <div>${ready ? tag("yes", "Ready") : tag("no", "Not ready")}</div>
     </div>`;
   }
@@ -120,8 +144,8 @@
       <tbody>${rows.map((p) => {
         const ready = isInstallReady(p, kind);
         return `<tr>
-          <td>${esc(pkgLabel(p))}</td>
-          <td>${pillsHtml(ids, (id) => sheetOpenCount(p, id))}</td>
+          <td class="dash-pkg" data-pkg="${esc(p.name)}" style="cursor:pointer">${esc(pkgLabel(p))}</td>
+          <td>${pillsHtml(ids, (id) => sheetOpenCount(p, id), { pkg: p.name })}</td>
           <td>${ready ? tag("yes", "Ready") : tag("no", "Not ready")}</td>
         </tr>`;
       }).join("")}</tbody>
@@ -263,6 +287,21 @@
     }
 
     const h = data.headline;
+    const liveAt = (live && live.updatedAt) || data.storeUpdatedAt;
+    const sf = (data.freshness && data.freshness.salesforce) || {};
+    setHtml("freshness", `
+      <div class="fresh live">
+        <b>Live now — no Salesforce query</b>
+        <div>Saved answers in the shared store: <time>${esc(fmtWhen(liveAt))}</time></div>
+        <div class="detail">Yes / No / Open and Ready pills use this. Overview reloads it when you open the tab.</div>
+      </div>
+      <div class="fresh stale">
+        <b>Salesforce extract — query Prod again to refresh</b>
+        <div>Catalog / problem sheets: <time>${esc(data.extract || sf.catalog || "—")}</time>${data.source ? " · " + esc(data.source) : ""}</div>
+        <div>Prod items &amp; supplier agreements: <time>${esc(fmtWhen(data.prodSaQueriedAt || sf.prodItemsAndAgreements))}</time></div>
+        <div>SGA 2027 prices: <time>${esc(fmtWhen(data.sgaPricesQueriedAt || sf.sga2027Prices) || "13 Nov 2026")}</time></div>
+        <div class="detail">These numbers do not change until someone runs a Salesforce query and rebuilds the extract.</div>
+      </div>`);
     const firstReady = useLive
       ? Object.values(pkg).filter((p) => p.firstInsertReady).length
       : h.firstInsertReady;
@@ -292,10 +331,13 @@
     const saSupNone = h.sa1SuppliersStillNone || 0;
     const saSupAll = h.sa1UniqueSuppliers || (saSupWith + saSupNone);
 
-    document.getElementById("meta").textContent =
-      `Tool extract ${data.extract || "—"}. Saved answers ${fmtWhen((live && live.updatedAt) || data.storeUpdatedAt)}. Prod agreements ${fmtWhen(data.prodSaQueriedAt)}.`;
+    const metaEl = el("meta");
+    if (metaEl) {
+      metaEl.textContent =
+        `Live answers ${fmtWhen(liveAt)}. Catalog extract ${data.extract || "—"}. Prod query ${fmtWhen(data.prodSaQueriedAt)}.`;
+    }
 
-    document.getElementById("answers").innerHTML = `
+    setHtml("answers", `
       <div class="answer wait"><b>${fully}</b><span>FIT packages fully ready (of ${h.tmPackages})</span></div>
       <div class="answer wait"><b>${firstReady}</b><span>FIT packages ready</span></div>
       <div class="answer wait"><b>${sgaFully}</b><span>SGA packages fully ready (of ${sgaCount})</span></div>
@@ -308,10 +350,10 @@
       <div class="answer ok"><b>${saSupWith} / ${saSupAll}</b><span>Unique SA1 suppliers now with a live Prod agreement</span></div>
       <div class="answer ok"><b>${h.prodMoroccoAccounts}</b><span>Intrepid Morocco accounts with an account-level SA — this is the OK / expected model (${h.prodMoroccoAgreements} agreements)</span></div>
       <div class="answer"><b>${h.sgaTrips}</b><span>SGA trips · ${h.sgaUniqueServices} unique services · Group Tour 2027 on most; TM/FIT is rare</span></div>
-    `;
+    `);
 
     const pkgRows = (useLive ? Object.values(pkg) : data.tmPackages).sort((a, b) => a.name.localeCompare(b.name));
-    document.getElementById("pkgTable").innerHTML = pkgTableHtml(pkgRows, "tm");
+    setHtml("pkgTable", pkgTableHtml(pkgRows, "tm"));
     const sgaPkgRows = (useLive ? Object.values(sgaPkg) : sgaRowsBaked).sort((a, b) => a.name.localeCompare(b.name));
     const sgaPkgBox = document.getElementById("sgaPkgTable");
     if (sgaPkgBox) sgaPkgBox.innerHTML = pkgTableHtml(sgaPkgRows, "sga");
@@ -358,7 +400,7 @@
     drawSaExisting();
     drawAcc();
 
-    document.getElementById("saSummary").innerHTML = `<table>
+    setHtml("saSummary", `<table>
       <tbody>
         <tr><td>Intrepid Morocco agreements on Prod today</td><td><b>${h.prodMoroccoAgreements}</b> on ${h.prodMoroccoAccounts} accounts</td></tr>
         <tr><td>How they are stored</td><td>${tag("yes", "Account-level is OK")} — service assignments are not required. ${h.prodMoroccoAssignments || 0} service-level rows (expected to be none).</td></tr>
@@ -371,7 +413,7 @@
         <tr><td>SA3 template title vs Prod name</td><td><b>${h.sa3Open}</b> — naming only (Prod is still like Jan 2026 - Dec 2027), not a missing agreement</td></tr>
         <tr><td>SA5 which supplier account still open</td><td><b>${h.sa5Open}</b></td></tr>
       </tbody>
-    </table>`;
+    </table>`);
     window._saStill = data.sa1StillNoAgreement;
     window._saCovered = data.sa1CoveredByLiveProd;
     window._supWith = data.sa1SuppliersWithAgreement || [];
@@ -380,15 +422,15 @@
     drawSup();
 
     const sheets = (useLive ? Object.values(sheetStats) : data.sheets).slice().sort(cmpSheets);
-    document.getElementById("sheetTable").innerHTML = `<table>
+    setHtml("sheetTable", `<table>
       <thead><tr><th>Tab</th><th>Decided</th><th>Not decided</th><th>Total</th></tr></thead>
       <tbody>${sheets.map((s) => `<tr>
         <td>${esc(sheetName(s.id))}</td>
         <td>${decidedOf(s)}</td><td>${s.open}</td><td>${s.total}</td>
       </tr>`).join("")}</tbody>
-    </table>`;
+    </table>`);
 
-    document.getElementById("sgaTable").innerHTML = `<table>
+    setHtml("sgaTable", `<table>
       <thead><tr><th>Trip</th><th>Name</th><th>Unique services</th><th>Group Tour 2027</th><th>TM (FIT) 2027</th><th>Both</th><th>Gaps</th></tr></thead>
       <tbody>${data.sgaPricing.map((t) => {
         const gt = (t.counts["Group Tour only"] || 0) + (t.counts["TM + Group Tour"] || 0);
@@ -404,22 +446,25 @@
           <td>${t.gaps.length ? tag("open", String(t.gaps.length)) : tag("yes", "0")}</td>
         </tr>`;
       }).join("")}</tbody>
-    </table>`;
+    </table>`);
 
     const gaps = [];
     data.sgaPricing.forEach((t) => t.gaps.forEach((g) => gaps.push({ trip: t.code, ...g })));
-    document.getElementById("sgaGaps").innerHTML = gaps.length
+    setHtml("sgaGaps", gaps.length
       ? `<table><thead><tr><th>Trip</th><th>Service</th><th>TM (FIT)</th><th>Group Tour</th><th>Note</th></tr></thead>
         <tbody>${gaps.map((g) => `<tr>
           <td>${esc(g.trip)}</td><td>${esc(g.service)}</td>
           <td>${g.tmFit ? "Yes" : "No"}</td><td>${g.groupTour ? "Yes" : "No"}</td>
           <td>${esc(g.bucket)}</td>
         </tr>`).join("")}</tbody></table>`
-      : "<p>Every SGA service has a 2027 Group Tour price.</p>";
+      : "<p>Every SGA service has a 2027 Group Tour price.</p>");
 
-    document.getElementById("foot").textContent =
-      "People in the tool: " + (data.people || []).join(", ") +
-      ". Hosted with the decision app. Prod queries are read-only.";
+    const foot = el("foot");
+    if (foot) {
+      foot.textContent =
+        "People in the tool: " + (data.people || []).join(", ") +
+        ". Hosted with the decision app. Prod queries are read-only.";
+    }
 
     drawCharts({
       toolYes,
@@ -436,6 +481,41 @@
       servicesFirstInsert,
       saSupWith,
       saSupNone,
+    });
+    bindNav();
+  }
+
+  function bindNav() {
+    if (window._dashNavBound) return;
+    window._dashNavBound = true;
+    document.addEventListener("click", (ev) => {
+      const pill = ev.target.closest(".dash-pill");
+      if (pill) {
+        ev.preventDefault();
+        ev.stopPropagation();
+        navigate({
+          sheet: pill.getAttribute("data-sheet") || "",
+          pkg: pill.getAttribute("data-pkg") || "",
+          service: pill.getAttribute("data-svc") || "",
+        });
+        return;
+      }
+      const pkgNode = ev.target.closest(".dash-pkg");
+      if (pkgNode) {
+        const pkg = pkgNode.getAttribute("data-pkg") || "";
+        navigate({
+          pkg,
+          sheet: /^SGA\s/i.test(pkg) || SGA.has(pkg) ? "P2" : "P1",
+        });
+        return;
+      }
+      const svcNode = ev.target.closest(".dash-svc");
+      if (svcNode) {
+        navigate({
+          service: svcNode.getAttribute("data-svc") || "",
+          sheet: "P1",
+        });
+      }
     });
   }
 
@@ -500,11 +580,11 @@
 
   function drawCharts(s) {
     const mix = s.h.sgaPriceSummary || {};
-    document.getElementById("chartTool").innerHTML = doughnut([
+    setHtml("chartTool", doughnut([
       { label: "Yes", value: s.toolYes, color: "#1f6b4a" },
       { label: "No", value: s.toolNo, color: "#9b1c1c" },
       { label: "Open", value: s.toolOpen, color: "#d97706" },
-    ]);
+    ]));
     const stillBlocking = Math.max(0, (s.uniqueSvc || 0) - (s.servicesFirstInsert || 0));
     const firstOnly = Math.max(0, (s.servicesFirstInsert || 0) - (s.servicesFinalised || 0));
     const svcMixEl = document.getElementById("chartSvcMix");
@@ -534,13 +614,13 @@
       const cap = document.getElementById("saExistingCaption");
       if (cap) cap.textContent = `${s.h.saExistingWithAgreement || 0} of ${s.h.saExistingServices || 0} existing Prod services have a Morocco account SA. ${s.h.saExistingCommercialNoAgreement || 0} commercial still have none. ${s.h.saExistingInternalNoAgreement || 0} are DMC Morocco internal.`;
     }
-    document.getElementById("chartSgaMix").innerHTML = doughnut([
+    setHtml("chartSgaMix", doughnut([
       { label: "Group Tour only", value: mix["Group Tour only"] || 0, color: "#1F4E79" },
       { label: "TM (FIT) + Group Tour", value: mix["Both FIT + Group Tour"] || 0, color: "#1f6b4a" },
       { label: "TM (FIT) only", value: mix["FIT only"] || 0, color: "#7c3aed" },
       { label: "On Prod, no 2027", value: mix["On Prod, no 2027"] || 0, color: "#d97706" },
       { label: "Not on Prod", value: mix["Not on Prod"] || 0, color: "#9b1c1c" },
-    ]);
+    ]));
     function fillReadyPie(elId, capId, ready, total, noun) {
       const el = document.getElementById(elId);
       if (!el) return;
@@ -557,26 +637,23 @@
     fillReadyPie("chartSgaPie", "sgaPieCaption", (s.sgaPkgRows || []).filter((p) => p.firstInsertReady).length, (s.sgaPkgRows || []).length, "SGA packages");
     fillReadyPie("chartSvcPie", "svcPieCaption", s.servicesFirstInsert || 0, s.uniqueSvc || 0, "unique services");
     const sheetRows = (s.sheets || []).slice().sort(cmpSheets);
-    document.getElementById("chartSheets").innerHTML =
+    setHtml("chartSheets",
       `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = Decided · Amber = Not decided</div>` +
       stackedBars(sheetRows.map((x) => ({
         label: sheetName(x.id),
         yes: decidedOf(x),
         open: x.open || 0,
-      })));
+      }))));
     const pkgs = (s.pkgRows || []).slice().sort((a, b) => a.name.localeCompare(b.name));
-    document.getElementById("chartPkgs").innerHTML =
-      `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = ready · Red = not ready · Ready only when every pill is green</div>` +
-      pkgListHtml(pkgs, "tm");
+    setHtml("chartPkgs",
+      `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = ready · Red = not ready · Ready only when every pill is green. Click a pill to open that issue.</div>` +
+      pkgListHtml(pkgs, "tm"));
     const sgaPkgs = (s.sgaPkgRows || []).slice().sort((a, b) => a.name.localeCompare(b.name));
-    const sgaChart = document.getElementById("chartSgaPkgs");
-    if (sgaChart) {
-      sgaChart.innerHTML =
+    setHtml("chartSgaPkgs",
         `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = ready · Red = not ready · Ready only when every pill is green</div>` +
-        pkgListHtml(sgaPkgs, "sga");
-    }
+        pkgListHtml(sgaPkgs, "sga"));
     const trips = data.sgaPricing || [];
-    document.getElementById("chartSgaTrips").innerHTML =
+    setHtml("chartSgaTrips",
       `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Navy = Group Tour · Purple = TM (FIT)</div>` +
       stackedBars(trips.map((t) => {
         const gt = (t.counts["Group Tour only"] || 0) + (t.counts["TM + Group Tour"] || 0);
@@ -586,19 +663,22 @@
           a: t.unique ? Math.round((100 * gt) / t.unique) : 0,
           b: t.unique ? Math.round((100 * tm) / t.unique) : 0,
         };
-      }), "pct");
+      }), "pct"));
   }
 
   function drawSvc() {
-    const q = (document.getElementById("svcQ").value || "").trim().toLowerCase();
+    const qEl = el("svcQ");
+    const box = el("svcTable");
+    if (!box) return;
+    const q = ((qEl && qEl.value) || "").trim().toLowerCase();
     const rows = (window._svcList || []).filter((r) => !q || r.service.toLowerCase().includes(q));
-    document.getElementById("svcTable").innerHTML = `<table>
+    box.innerHTML = `<table>
       <thead><tr><th>Service</th><th>Problems</th><th>Ready?</th></tr></thead>
       <tbody>${rows.slice(0, 200).map((r) => {
         const ready = svcInstallReady(r);
         return `<tr>
-          <td>${esc(r.service)}</td>
-          <td>${pillsHtml(INSTALL_SHEETS, (id) => svcOpenOn(r, id))}</td>
+          <td class="dash-svc" data-svc="${esc(r.service)}" style="cursor:pointer">${esc(r.service)}</td>
+          <td>${pillsHtml(INSTALL_SHEETS, (id) => svcOpenOn(r, id), { svc: r.service })}</td>
           <td>${ready ? tag("yes", "Ready") : tag("no", "Not ready")}</td>
         </tr>`;
       }).join("")}${rows.length > 200 ? `<tr><td colspan="3" class="muted">Showing 200 of ${rows.length}. Search to narrow.</td></tr>` : ""}</tbody>
@@ -708,6 +788,7 @@
   }
 
   function drawSa() {
+    if (!el("saFilter") || !el("saTable")) return;
     const mode = document.getElementById("saFilter").value;
     const kindEl = document.getElementById("saKind");
     const kind = (kindEl && kindEl.value) || "all";
@@ -728,38 +809,66 @@
     </table>`;
   }
 
-  document.getElementById("svcQ").addEventListener("input", drawSvc);
-  document.getElementById("saQ").addEventListener("input", drawSa);
-  document.getElementById("saFilter").addEventListener("change", drawSa);
-  const saKind = document.getElementById("saKind");
-  if (saKind) saKind.addEventListener("change", drawSa);
-  const saNewQ = document.getElementById("saNewQ");
-  const saExQ = document.getElementById("saExQ");
-  if (saNewQ) saNewQ.addEventListener("input", drawSaNew);
-  if (saExQ) saExQ.addEventListener("input", drawSaExisting);
-  const supFilter = document.getElementById("supFilter");
-  const supKind = document.getElementById("supKind");
-  const supQ = document.getElementById("supQ");
-  if (supFilter) supFilter.addEventListener("change", drawSup);
-  if (supKind) supKind.addEventListener("change", drawSup);
-  if (supQ) supQ.addEventListener("input", drawSup);
-  const accSaFilter = document.getElementById("accSaFilter");
-  const accKindFilter = document.getElementById("accKindFilter");
-  const accQ = document.getElementById("accQ");
-  if (accSaFilter) accSaFilter.addEventListener("change", drawAcc);
-  if (accKindFilter) accKindFilter.addEventListener("change", drawAcc);
-  if (accQ) accQ.addEventListener("input", drawAcc);
-
-  try {
-    render(null);
-  } catch (e) {
-    const box = document.getElementById("err");
-    if (box) box.innerHTML = "<div class='err'>Dashboard failed to draw: " + esc(e.message || e) + "</div>";
+  let bound = false;
+  function bindUi() {
+    if (bound) return;
+    bound = true;
+    const svcQ = el("svcQ");
+    if (svcQ) svcQ.addEventListener("input", drawSvc);
+    const saQ = el("saQ");
+    if (saQ) saQ.addEventListener("input", drawSa);
+    const saFilter = el("saFilter");
+    if (saFilter) saFilter.addEventListener("change", drawSa);
+    const saKind = el("saKind");
+    if (saKind) saKind.addEventListener("change", drawSa);
+    const saNewQ = el("saNewQ");
+    const saExQ = el("saExQ");
+    if (saNewQ) saNewQ.addEventListener("input", drawSaNew);
+    if (saExQ) saExQ.addEventListener("input", drawSaExisting);
+    const supFilter = el("supFilter");
+    const supKind = el("supKind");
+    const supQ = el("supQ");
+    if (supFilter) supFilter.addEventListener("change", drawSup);
+    if (supKind) supKind.addEventListener("change", drawSup);
+    if (supQ) supQ.addEventListener("input", drawSup);
+    const accSaFilter = el("accSaFilter");
+    const accKindFilter = el("accKindFilter");
+    const accQ = el("accQ");
+    if (accSaFilter) accSaFilter.addEventListener("change", drawAcc);
+    if (accKindFilter) accKindFilter.addEventListener("change", drawAcc);
+    if (accQ) accQ.addEventListener("input", drawAcc);
+    bindNav();
   }
-  fetch(STORE + "?t=" + Date.now(), { cache: "no-store" })
-    .then((r) => r.json())
-    .then((raw) => {
-      try { render(fromRemote(raw)); } catch (e) { console.error(e); }
-    })
-    .catch(() => {});
+
+  function drawAll(live) {
+    bindUi();
+    try {
+      render(live || null);
+    } catch (e) {
+      const box = el("err");
+      if (box) box.innerHTML = "<div class='err'>Dashboard failed to draw: " + esc(e.message || e) + "</div>";
+      else console.error(e);
+    }
+  }
+
+  function refresh() {
+    return fetch(STORE + "?t=" + Date.now(), { cache: "no-store" })
+      .then((r) => r.json())
+      .then((raw) => {
+        drawAll(fromRemote(raw));
+        return raw;
+      });
+  }
+
+  window.TM_DASHBOARD = {
+    render: drawAll,
+    refresh,
+    fromRemote,
+  };
+
+  const embed = !!el("overview");
+  if (!embed) {
+    drawAll(null);
+    refresh().catch(() => {});
+  }
 })();

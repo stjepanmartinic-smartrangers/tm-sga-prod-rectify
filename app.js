@@ -11,12 +11,13 @@
     return;
   }
 
-  let sheetId = data.sheets[0].id;
+  let sheetId = "__overview__";
   let decisions = loadLocal();
   let saveTimer = null;
   let lastFocusId = null;
   let pendingAction = null;
   let askedWho = false;
+  let pendingPkg = "all";
 
   const $ = (id) => document.getElementById(id);
   $("q").addEventListener("input", render);
@@ -466,6 +467,7 @@
     $("statOpen").onclick = () => {
       sheetId = data.sheets[0].id;
       $("statusFilter").value = "open";
+      pendingPkg = "all";
       render();
     };
     $("statDecided").onclick = () => {
@@ -484,7 +486,9 @@
     const decidedBtn = `<button type="button" data-id="__decided__" class="${sheetId === "__decided__" ? "on" : ""}">All decided <span class="n">${decidedN}</span></button>`;
     const histN = (decisions.history || []).length;
     const histBtn = `<button type="button" data-id="__history__" class="${sheetId === "__history__" ? "on" : ""}">History <span class="n">${histN}</span></button>`;
+    const overviewBtn = `<button type="button" data-id="__overview__" class="${sheetId === "__overview__" ? "on" : ""}">Overview</button>`;
     $("tabs").innerHTML =
+      overviewBtn +
       decidedBtn +
       histBtn +
       data.sheets
@@ -497,7 +501,7 @@
       b.onclick = () => {
         const next = b.dataset.id;
         if (next === "__decided__") $("statusFilter").value = "decided";
-        else if (next !== "__history__" && (sheetId === "__decided__" || sheetId === "__history__")) {
+        else if (next !== "__history__" && next !== "__overview__" && (sheetId === "__decided__" || sheetId === "__history__" || sheetId === "__overview__")) {
           $("statusFilter").value = "all";
         }
         sheetId = next;
@@ -547,7 +551,12 @@
     sel.innerHTML =
       `<option value="all">${allLabel}</option>` +
       sorted.map((p) => `<option value="${esc(p)}">${esc(p)}</option>`).join("");
-    sel.value = sorted.includes(prev) ? prev : "all";
+    if (pendingPkg && pendingPkg !== "all" && sorted.includes(pendingPkg)) {
+      sel.value = pendingPkg;
+      pendingPkg = "all";
+    } else {
+      sel.value = sorted.includes(prev) ? prev : "all";
+    }
   }
 
   function matchesSource(issue) {
@@ -766,9 +775,79 @@
     });
   }
 
+  function isOverview() {
+    return sheetId === "__overview__";
+  }
+
+  function applyOverviewLayout() {
+    const ov = $("overview");
+    const filters = $("tabFilters");
+    if (ov) ov.classList.toggle("on", isOverview());
+    if (filters) filters.style.display = isOverview() ? "none" : "flex";
+    if ($("help")) $("help").style.display = isOverview() ? "none" : "";
+    if ($("list")) $("list").style.display = isOverview() ? "none" : "";
+    if ($("stats")) $("stats").style.display = isOverview() ? "none" : "";
+    if ($("pageFoot")) $("pageFoot").style.display = isOverview() ? "none" : "";
+  }
+
+  function refreshOverview() {
+    const dash = window.TM_DASHBOARD;
+    if (!dash) return;
+    dash.refresh().catch(() => dash.render(null));
+  }
+
+  window.onDashboardNavigate = function (nav) {
+    const pkg = (nav && nav.pkg) || "";
+    const service = (nav && nav.service) || "";
+    let next = (nav && nav.sheet) || "";
+    if (!next || !(next === "__decided__" || next === "__history__" || data.sheets.some((s) => s.id === next))) {
+      next = pkg && isSgaPkg(pkg) ? "P2" : "P1";
+    }
+    sheetId = next;
+    $("statusFilter").value = "open";
+    $("q").value = service || "";
+    if (pkg) {
+      $("sourceFilter").value = isSgaPkg(pkg) ? "sga" : "tm";
+      pendingPkg = pkg;
+    } else {
+      $("sourceFilter").value = "all";
+      pendingPkg = "all";
+    }
+    render();
+  };
+
+  function parseDeepLink() {
+    const q = new URLSearchParams(location.search);
+    const sheet = q.get("sheet") || "";
+    const pkg = q.get("pkg") || "";
+    const service = q.get("service") || "";
+    if (!sheet && !pkg && !service) return;
+    if (sheet === "__overview__") {
+      sheetId = "__overview__";
+      return;
+    }
+    if (sheet && (sheet === "__decided__" || sheet === "__history__" || data.sheets.some((s) => s.id === sheet))) {
+      sheetId = sheet;
+    } else if (pkg || service) {
+      sheetId = pkg && isSgaPkg(pkg) ? "P2" : "P1";
+    }
+    if (service) $("q").value = service;
+    if (pkg) {
+      $("sourceFilter").value = isSgaPkg(pkg) ? "sga" : "tm";
+      pendingPkg = pkg;
+      $("statusFilter").value = "open";
+    }
+  }
+
   function render() {
     ensureShape();
     fillWhoSelect();
+    applyOverviewLayout();
+    if (isOverview()) {
+      renderTabs();
+      refreshOverview();
+      return;
+    }
     renderStats();
     renderTabs();
     const q = $("q").value.trim().toLowerCase();
@@ -1596,6 +1675,7 @@
     }
   }
 
+  parseDeepLink();
   loadOnline(true).catch(() => {});
   render();
 })();

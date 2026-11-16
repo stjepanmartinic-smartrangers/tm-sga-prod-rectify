@@ -188,7 +188,8 @@
     #overview .tag { white-space: nowrap; }
     #overview #svcTable,
     #overview #pkgTable,
-    #overview #sgaPkgTable { overflow-x: auto; }
+    #overview #sgaPkgTable,
+    #overview #noSaTable { overflow-x: auto; }
     #overview #svcTable th:last-child,
     #overview #svcTable td:last-child,
     #overview #pkgTable th:last-child,
@@ -385,6 +386,18 @@
       <h2>3. Supplier agreements — new in template vs existing on Prod <span class="src-tag stale">Salesforce extract</span></h2>
       <p class="muted">Same as the two agreement pies. Date is on the amber banner. Account-level Intrepid Morocco SA is enough.</p>
       <div id="saSplitSummary"></div>
+      <h3 style="font-size:14px;margin:14px 0 6px">Accounts with no SA <span class="src-tag stale">Salesforce extract + Excel</span></h3>
+      <p class="muted">No Intrepid Morocco SA on Prod and no row on the 16 Nov Supplier Agreement Template. DMC Morocco is excluded. TM / SGA = services used on a TailorMade package or SGA trip.</p>
+      <div class="dash-filters">
+        <select id="noSaUsedOn">
+          <option value="all">All</option>
+          <option value="TM">TM</option>
+          <option value="SGA">SGA</option>
+          <option value="Neither">Neither</option>
+        </select>
+        <input type="search" id="noSaQ" placeholder="Search account or service…" />
+      </div>
+      <div id="noSaTable"></div>
       <h3 style="font-size:14px;margin:14px 0 6px">Agreements by account</h3>
       <div class="dash-filters">
         <select id="accSaFilter">
@@ -494,8 +507,8 @@
     </div>
   </dialog>
   <script src="data.js?v=20261116y"></script>
-  <script src="dashboard-data.js?v=20261116aa"></script>
-  <script src="dashboard.js?v=20261116ad"></script>
+  <script src="dashboard-data.js?v=20261116ae"></script>
+  <script src="dashboard.js?v=20261116ae"></script>
   <script src="app.js?v=20261116aa"></script>
 </body>
 </html>

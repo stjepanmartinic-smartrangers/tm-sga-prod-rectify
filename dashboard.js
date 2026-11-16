@@ -380,6 +380,7 @@
     window._saNewNone = saNew.noAgreement || [];
     window._saExNone = saEx.noAgreement || [];
     window._saAccounts = data.agreementsByAccount || [];
+    window._accountsNoSa = data.accountsNoSa || [];
     const splitBox = document.getElementById("saSplitSummary");
     if (splitBox) {
       const ns = saNew.summary || {};
@@ -399,6 +400,7 @@
     drawSaNew();
     drawSaExisting();
     drawAcc();
+    drawNoSa();
 
     setHtml("saSummary", `<table>
       <tbody>
@@ -703,6 +705,44 @@
     return bits.join(" ");
   }
 
+  function usedOnTag(u) {
+    if (u === "TM") return tag("yes", "TM");
+    if (u === "SGA") return tag("open", "SGA");
+    return tag("done", u || "Neither");
+  }
+
+  function drawNoSa() {
+    const usedEl = el("noSaUsedOn");
+    const qEl = el("noSaQ");
+    const box = el("noSaTable");
+    if (!box) return;
+    const used = (usedEl && usedEl.value) || "all";
+    const q = ((qEl && qEl.value) || "").trim().toLowerCase();
+    const rows = (window._accountsNoSa || []).filter((r) => {
+      if (used !== "all" && !(r.usedOn || []).includes(used)) return false;
+      const blob = [
+        r.account,
+        r.serviceNames,
+        r.tmPackages,
+        r.sgaTrips,
+        (r.usedOn || []).join(" "),
+      ].join(" ").toLowerCase();
+      return !q || blob.includes(q);
+    });
+    box.innerHTML = `<table>
+      <thead><tr><th>Account</th><th>Used on</th><th>Services</th><th>Service names</th><th>TM packages</th><th>SGA trips</th></tr></thead>
+      <tbody>${rows.map((r) => `<tr>
+        <td>${esc(r.account || "")}</td>
+        <td>${(r.usedOn || []).map(usedOnTag).join(" ")}</td>
+        <td>${r.services || 0}</td>
+        <td>${esc(r.serviceNames || "")}</td>
+        <td>${esc(r.tmPackages || "")}</td>
+        <td>${esc(r.sgaTrips || "")}</td>
+      </tr>`).join("") || `<tr><td colspan="6" class="muted">None.</td></tr>`}</tbody>
+    </table>
+    <p class="muted">${rows.length} of ${(window._accountsNoSa || []).length} accounts</p>`;
+  }
+
   function drawAcc() {
     const saEl = document.getElementById("accSaFilter");
     const kindEl = document.getElementById("accKindFilter");
@@ -837,6 +877,10 @@
     if (accSaFilter) accSaFilter.addEventListener("change", drawAcc);
     if (accKindFilter) accKindFilter.addEventListener("change", drawAcc);
     if (accQ) accQ.addEventListener("input", drawAcc);
+    const noSaUsedOn = el("noSaUsedOn");
+    const noSaQ = el("noSaQ");
+    if (noSaUsedOn) noSaUsedOn.addEventListener("change", drawNoSa);
+    if (noSaQ) noSaQ.addEventListener("input", drawNoSa);
     bindNav();
   }
 

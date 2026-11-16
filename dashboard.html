@@ -70,6 +70,7 @@
     .tag.yes { background: var(--yes-bg); color: var(--yes); }
     .tag.open { background: var(--open-bg); color: var(--open); }
     .tag.no { background: var(--no-bg); color: var(--no); }
+    .tag.done { background: #e8eef7; color: var(--accent); }
     #svcTable,
     #pkgTable,
     #sgaPkgTable { overflow-x: auto; }
@@ -232,6 +233,18 @@
     <h2>3. Supplier agreements — new in template vs existing on Prod <span class="src-tag stale">Salesforce extract</span></h2>
     <p class="muted">Live Intrepid Prod query. An account-level Intrepid Morocco SA is enough; service assignments are not required. New = on the Service Template, not on Prod. Existing = already a Prod Item. DMC Morocco Cash Paid / Crew / Placeholder accounts are internal.</p>
     <div id="saSplitSummary"></div>
+    <h3 style="font-size:14px;margin:14px 0 6px">Accounts with no SA <span class="src-tag stale">Salesforce extract + Excel</span></h3>
+    <p class="muted">No Intrepid Morocco SA on Prod and no row on the 16 Nov Supplier Agreement Template. DMC Morocco is excluded. TM / SGA = services used on a TailorMade package or SGA trip.</p>
+    <div class="filters">
+      <select id="noSaUsedOn">
+        <option value="all">All</option>
+        <option value="TM">TM</option>
+        <option value="SGA">SGA</option>
+        <option value="Neither">Neither</option>
+      </select>
+      <input type="search" id="noSaQ" placeholder="Search account or service…" />
+    </div>
+    <div id="noSaTable"></div>
     <h3 style="font-size:14px;margin:14px 0 6px">Agreements by account</h3>
     <p class="muted">One row per supplier account from the live Prod query. Filter by whether the agreement exists, and by whether it is used by services that already exist on Prod or by new Service Template names.</p>
     <div class="filters">
@@ -301,7 +314,7 @@
 
     <footer id="foot"></footer>
   </div>
-  <script src="dashboard-data.js?v=20261116aa"></script>
-  <script src="dashboard.js?v=20261116ad"></script>
+  <script src="dashboard-data.js?v=20261116ae"></script>
+  <script src="dashboard.js?v=20261116ae"></script>
 </body>
 </html>

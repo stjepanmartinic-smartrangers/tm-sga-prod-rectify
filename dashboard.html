@@ -29,13 +29,6 @@
     .answer.ok b { color: var(--yes); }
     .help { background: #eef3f9; border: 1px solid #d3e0ee; color: #1F4E79;
       padding: 10px 12px; border-radius: 8px; margin-bottom: 16px; }
-    .notes { display: grid; gap: 8px; margin: 0 0 16px; }
-    .note { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
-    .note.ok { border-left: 4px solid var(--yes); }
-    .note.rule { border-left: 4px solid var(--accent); }
-    .note.gap { border-left: 4px solid var(--open); }
-    .note h3 { margin: 0 0 4px; font-size: 13px; }
-    .note p { margin: 0; color: var(--muted); font-size: 12px; }
     .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
     .grid.wide { grid-template-columns: 1fr; }
     .chart-card {
@@ -92,9 +85,6 @@
     <div id="err"></div>
     <div class="answers" id="answers"></div>
     <div class="help" id="defs"></div>
-    <h2>How we read this</h2>
-    <p class="muted">Locked comments from the recent Morocco / TailorMade chats. The dashboard counts follow these rules.</p>
-    <div class="notes" id="notes"></div>
 
     <div class="grid">
       <div class="chart-card">
@@ -129,9 +119,16 @@
     </div>
     <div class="grid wide">
       <div class="chart-card">
-        <h3>TM packages — decided vs still open</h3>
-        <p>None of the 20 packages are import-ready yet. Green = Yes in the tool, amber = still Open</p>
+        <h3>FIT packages — decided vs still open</h3>
+        <p>20 TailorMade / FIT itineraries. Green = Yes in the tool, amber = still Open</p>
         <div class="chart-box" id="chartPkgs"></div>
+      </div>
+    </div>
+    <div class="grid wide">
+      <div class="chart-card">
+        <h3>SGA packages — decided vs still open</h3>
+        <p>18 SGA trips. Same import questions as FIT. Green = Yes, amber = Open</p>
+        <div class="chart-box" id="chartSgaPkgs"></div>
       </div>
     </div>
     <div class="grid wide">
@@ -142,9 +139,13 @@
       </div>
     </div>
 
-    <h2>1. TM packages — ready for import?</h2>
-    <p class="muted">20 TailorMade package sheets. First-insert ready means names, supplier, location and type are decided. Prices, FIT and agreements are still deferred. Notes in the tool win over a conflicting Yes. Unclear P6 maps are skipped.</p>
+    <h2>1. FIT packages — ready for import?</h2>
+    <p class="muted">20 TailorMade / FIT package sheets. First-insert ready means names, supplier, location and type are decided. Prices, FIT and agreements are still deferred. Notes in the tool win over a conflicting Yes. Unclear P6 maps are skipped.</p>
     <div id="pkgTable"></div>
+
+    <h2>1b. SGA packages — ready for import?</h2>
+    <p class="muted">18 SGA trips, scored the same way as FIT. P1 (not on Service Template) does not apply to SGA. Account-level supplier agreements are OK.</p>
+    <div id="sgaPkgTable"></div>
 
     <h2>2. Problematic services still open</h2>
     <p class="muted">Unique service names with at least one open card in the decision tool.</p>
@@ -186,7 +187,7 @@
 
     <footer id="foot"></footer>
   </div>
-  <script src="dashboard-data.js?v=20261116h"></script>
-  <script src="dashboard.js?v=20261116h"></script>
+  <script src="dashboard-data.js?v=20261116i"></script>
+  <script src="dashboard.js?v=20261116i"></script>
 </body>
 </html>

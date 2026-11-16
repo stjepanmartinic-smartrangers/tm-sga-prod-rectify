@@ -8,6 +8,66 @@
     return;
   }
   const TM = new Set((data.tmPackages || []).map((p) => p.name));
+  const SGA = new Set((data.sgaIssuePackages || []).map((p) => p.name));
+  const sgaTripName = {};
+  (data.sgaPricing || []).forEach((t) => {
+    if (t && t.code) sgaTripName[t.code] = t.name || t.code;
+  });
+
+  function tripCode(name) {
+    const s = String(name || "").trim();
+    return s.toUpperCase().startsWith("SGA ") ? s.slice(4).trim() : s;
+  }
+
+  function emptyPkg(name) {
+    return { name, yes: 0, open: 0, cards: 0, blocking: {}, firstInsertReady: true, fullyReady: true };
+  }
+
+  function addToPkg(map, name, card, ch) {
+    if (!map[name]) return;
+    const p = map[name];
+    p.cards += 1;
+    if (ch === "yes") p.yes += 1;
+    else if (ch === "open") {
+      p.open += 1;
+      p.fullyReady = false;
+      if (BLOCKING.has(card.sheet)) {
+        p.firstInsertReady = false;
+        p.blocking[card.sheet] = (p.blocking[card.sheet] || 0) + 1;
+      }
+    } else if (ch !== "no" && ch !== "done") {
+      p.fullyReady = false;
+    }
+    if (card.sheet === "P6" && ch === "yes") p.fullyReady = false;
+  }
+
+  function pkgLabel(p) {
+    if (SGA.has(p.name) && sgaTripName[p.name]) return p.name + " · " + sgaTripName[p.name];
+    return p.name;
+  }
+
+  function blockTxtOf(p) {
+    const block = p.blocking
+      ? Object.entries(p.blocking).map(([k, v]) => `${k} ${v}`).join(", ")
+      : (p.openBlocking || []).reduce((acc, x) => {
+          acc[x.sheet] = (acc[x.sheet] || 0) + 1;
+          return acc;
+        }, {});
+    return typeof block === "string" ? block : Object.entries(block).map(([k, v]) => `${k} ${v}`).join(", ");
+  }
+
+  function pkgTableHtml(rows) {
+    return `<table>
+      <thead><tr><th>Package</th><th>Ready?</th><th>Yes</th><th>Open</th><th>Still blocking first insert</th></tr></thead>
+      <tbody>${rows.map((p) => `<tr>
+        <td>${esc(pkgLabel(p))}</td>
+        <td>${p.firstInsertReady ? tag("yes", "First-insert ready") : tag("open", "Not yet")}</td>
+        <td>${p.yes}</td>
+        <td>${p.open}</td>
+        <td class="detail">${esc(blockTxtOf(p) || "—")}</td>
+      </tr>`).join("")}</tbody>
+    </table>`;
+  }
 
   function statusOf(row) {
     if (!row) return "open";
@@ -71,27 +131,9 @@
     const svcOpen = {};
     const svcState = {};
     const pkg = {};
-    TM.forEach((n) => {
-      pkg[n] = { name: n, yes: 0, open: 0, cards: 0, blocking: {}, firstInsertReady: true, fullyReady: true };
-    });
-
-    function addPkg(name, card, ch) {
-      if (!pkg[name]) return;
-      const p = pkg[name];
-      p.cards += 1;
-      if (ch === "yes") p.yes += 1;
-      else if (ch === "open") {
-        p.open += 1;
-        p.fullyReady = false;
-        if (BLOCKING.has(card.sheet)) {
-          p.firstInsertReady = false;
-          p.blocking[card.sheet] = (p.blocking[card.sheet] || 0) + 1;
-        }
-      } else if (ch !== "no" && ch !== "done") {
-        p.fullyReady = false;
-      }
-      if (card.sheet === "P6" && ch === "yes") p.fullyReady = false;
-    }
+    const sgaPkg = {};
+    TM.forEach((n) => { pkg[n] = emptyPkg(n); });
+    SGA.forEach((n) => { sgaPkg[n] = emptyPkg(n); });
 
     const srcCards = useLive ? cards : null;
     if (srcCards) {
@@ -113,7 +155,11 @@
         }
         const on = (c.tmOn && c.tmOn.length ? c.tmOn : c.packages) || [];
         on.forEach((p) => {
-          if (TM.has(p)) addPkg(p, c, ch);
+          if (TM.has(p)) addToPkg(pkg, p, c, ch);
+        });
+        (c.packages || []).forEach((p) => {
+          const code = tripCode(p);
+          if (SGA.has(code) || SGA.has(p)) addToPkg(sgaPkg, SGA.has(code) ? code : p, c, ch);
         });
       });
     }
@@ -123,6 +169,14 @@
       ? Object.values(pkg).filter((p) => p.firstInsertReady).length
       : h.firstInsertReady;
     const fully = useLive ? Object.values(pkg).filter((p) => p.fullyReady).length : h.fullyReady;
+    const sgaRowsBaked = data.sgaIssuePackages || [];
+    const sgaFirstReady = useLive
+      ? Object.values(sgaPkg).filter((p) => p.firstInsertReady).length
+      : sgaRowsBaked.filter((p) => p.firstInsertReady).length;
+    const sgaFully = useLive
+      ? Object.values(sgaPkg).filter((p) => p.fullyReady).length
+      : sgaRowsBaked.filter((p) => p.fullyReady).length;
+    const sgaCount = useLive ? Object.keys(sgaPkg).length : (h.sgaTrips || sgaRowsBaked.length);
     const prob = useLive ? Object.keys(svcOpen).length : h.problematicServices;
     const uniqueSvc = useLive ? Object.keys(svcState).length : (h.uniqueServices || prob);
     const servicesFinalised = useLive
@@ -144,8 +198,10 @@
       `Tool extract ${data.extract || "—"}. Saved answers ${fmtWhen((live && live.updatedAt) || data.storeUpdatedAt)}. Prod agreements ${fmtWhen(data.prodSaQueriedAt)}.`;
 
     document.getElementById("answers").innerHTML = `
-      <div class="answer wait"><b>${fully}</b><span>TM packages fully ready to import (of ${h.tmPackages})</span></div>
-      <div class="answer wait"><b>${firstReady}</b><span>Ready for first insert (names / supplier / location / type decided)</span></div>
+      <div class="answer wait"><b>${fully}</b><span>FIT packages fully ready to import (of ${h.tmPackages})</span></div>
+      <div class="answer wait"><b>${firstReady}</b><span>FIT packages ready for first insert</span></div>
+      <div class="answer wait"><b>${sgaFully}</b><span>SGA packages fully ready to import (of ${sgaCount})</span></div>
+      <div class="answer wait"><b>${sgaFirstReady}</b><span>SGA packages ready for first insert</span></div>
       <div class="answer wait"><b>${servicesFinalised} / ${uniqueSvc}</b><span>Unique services fully decided (no open cards left)</span></div>
       <div class="answer ok"><b>${servicesFirstInsert} / ${uniqueSvc}</b><span>Unique services first-insert decided (name / supplier / location / type closed)</span></div>
       <div class="answer wait"><b>${prob}</b><span>Unique services still with at least one open card</span></div>
@@ -161,34 +217,11 @@
       ${esc(data.definitions.tmPricing)} ${esc(data.definitions.groupTourPricing)} ${esc(data.definitions.saLive)}
       Decision tool: <a href="${esc(data.rectifyUrl)}">${esc(data.rectifyUrl)}</a>. Yes in the tool: ${toolYes} across ${servicesWithDecision} unique services. Still open: ${toolOpen}.`;
 
-    const notesBox = document.getElementById("notes");
-    if (notesBox) {
-      const notes = data.analysisNotes || [];
-      notesBox.innerHTML = notes.map((n) =>
-        `<div class="note ${esc(n.kind || "rule")}"><h3>${esc(n.title)}</h3><p>${esc(n.text)}</p></div>`
-      ).join("");
-    }
-
     const pkgRows = (useLive ? Object.values(pkg) : data.tmPackages).sort((a, b) => a.name.localeCompare(b.name));
-    document.getElementById("pkgTable").innerHTML = `<table>
-      <thead><tr><th>Package</th><th>Ready?</th><th>Yes</th><th>Open</th><th>Still blocking first insert</th></tr></thead>
-      <tbody>${pkgRows.map((p) => {
-        const ready = p.firstInsertReady;
-        const block = p.blocking
-          ? Object.entries(p.blocking).map(([k, v]) => `${k} ${v}`).join(", ")
-          : (p.openBlocking || []).reduce((acc, x) => {
-              acc[x.sheet] = (acc[x.sheet] || 0) + 1;
-              return acc;
-            }, {});
-        const blockTxt = typeof block === "string" ? block : Object.entries(block).map(([k, v]) => `${k} ${v}`).join(", ");
-        return `<tr>
-          <td>${esc(p.name)}</td>
-          <td>${ready ? tag("yes", "First-insert ready") : tag("open", "Not yet")}</td>
-          <td>${p.yes}</td>
-          <td>${p.open}</td>
-          <td class="detail">${esc(blockTxt || "—")}</td>
-        </tr>`;
-      }).join("")}</tbody></table>`;
+    document.getElementById("pkgTable").innerHTML = pkgTableHtml(pkgRows);
+    const sgaPkgRows = (useLive ? Object.values(sgaPkg) : sgaRowsBaked).sort((a, b) => a.name.localeCompare(b.name));
+    const sgaPkgBox = document.getElementById("sgaPkgTable");
+    if (sgaPkgBox) sgaPkgBox.innerHTML = pkgTableHtml(sgaPkgRows);
 
     const svcList = useLive
       ? Object.values(svcOpen).map((row) => ({
@@ -270,6 +303,7 @@
       toolOpen,
       sheets,
       pkgRows,
+      sgaPkgRows,
       h,
       uniqueSvc,
       servicesFinalised,
@@ -364,6 +398,13 @@
     document.getElementById("chartPkgs").innerHTML =
       `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = Yes · Amber = Open</div>` +
       stackedBars(pkgs.map((p) => ({ label: p.name, yes: p.yes, open: p.open })), "pkg");
+    const sgaPkgs = (s.sgaPkgRows || []).slice().sort((a, b) => b.open - a.open);
+    const sgaChart = document.getElementById("chartSgaPkgs");
+    if (sgaChart) {
+      sgaChart.innerHTML =
+        `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = Yes · Amber = Open</div>` +
+        stackedBars(sgaPkgs.map((p) => ({ label: p.name, yes: p.yes, open: p.open })), "pkg");
+    }
     const trips = data.sgaPricing || [];
     document.getElementById("chartSgaTrips").innerHTML =
       `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Navy = Group Tour · Purple = TM (FIT)</div>` +

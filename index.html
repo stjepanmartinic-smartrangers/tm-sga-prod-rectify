@@ -399,11 +399,14 @@
       </div>
       <div id="noSaTable"></div>
       <h3 style="font-size:14px;margin:14px 0 6px">Agreements by account</h3>
+      <p class="muted">Complete only if Tailor-made Direct (UK) or Tailor-made Agent (UK) is assigned on the Prod agreement. Prod has no channel named exactly Tailor-made (UK). All 86 Morocco SAs currently have an empty Channels field.</p>
       <div class="dash-filters">
         <select id="accSaFilter">
-          <option value="all">All accounts</option>
+          <option value="incomplete">Not complete — missing Tailor-made (UK)</option>
+          <option value="complete">Complete (UK channel)</option>
           <option value="with">Have a Prod agreement</option>
           <option value="none">No Prod agreement</option>
+          <option value="all">All accounts</option>
         </select>
         <select id="accKindFilter">
           <option value="all">All services</option>
@@ -507,8 +510,8 @@
     </div>
   </dialog>
   <script src="data.js?v=20261116y"></script>
-  <script src="dashboard-data.js?v=20261116ae"></script>
-  <script src="dashboard.js?v=20261116ae"></script>
+  <script src="dashboard-data.js?v=20261116af"></script>
+  <script src="dashboard.js?v=20261116af"></script>
   <script src="app.js?v=20261116aa"></script>
 </body>
 </html>

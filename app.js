@@ -581,6 +581,7 @@
       issue.service,
       (issue.packages || []).join(" "),
       JSON.stringify(issue.fields),
+      (issue.stComments || []).join(" "),
       d.notes || "",
       d.selected || "",
       JSON.stringify(d.form || {}),
@@ -1055,7 +1056,7 @@
       addOns: "",
       fees: "",
       supplierName: issue.stSupplier || issue.prodSupplier || "",
-      comment: "",
+      comment: issue.stCommentImport || (issue.formDefaults || {}).comment || "",
     };
   }
 
@@ -1068,7 +1069,7 @@
       preferredComm: "",
       packages: (issue.packages || []).join("; "),
       location: issue.stLocation || fields["Template location"] || "",
-      comment: "",
+      comment: issue.stCommentImport || (issue.formDefaults || {}).comment || "",
     };
   }
 
@@ -1479,6 +1480,17 @@
     </div>`;
   }
 
+  function stCommentHtml(issue) {
+    const notes = (issue.stComments || []).map((t) => String(t || "").trim()).filter(Boolean);
+    if (!notes.length) return "";
+    const body = notes.map((t) => `<p>${esc(t)}</p>`).join("");
+    return `<div class="st-comment">
+      <div class="lbl">Service Template comment</div>
+      ${body}
+      <p class="hint">From the template Comment column. Note only — not a Yes / No.</p>
+    </div>`;
+  }
+
   function priceCompareHtml(issue) {
     const rows = issue.priceCompare || [];
     const dates = issue.stPriceDates || "";
@@ -1542,6 +1554,7 @@
       <div class="meta">${esc(sheet.id)} · ${esc(issue.action || "")}</div>
       <div class="pkgs">${pkgs}</div>
       ${pc && sheet.choice === "pc-map" ? `<p><b>Suggested PC map</b><br>${pc}</p>` : ""}
+      ${stCommentHtml(issue)}
       ${priceCompareHtml(issue)}
       <dl class="fields">${fieldRows}</dl>
       <div class="choices">${choice}</div>

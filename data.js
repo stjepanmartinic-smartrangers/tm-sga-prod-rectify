@@ -576,8 +576,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P1::bread-making demonstration",
@@ -5649,8 +5653,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P2::hotel belere",
@@ -5733,8 +5741,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Belere",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
         },
         {
           "id": "P2::hotel caspien",
@@ -5796,8 +5808,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Le Caspien",
-            "comment": ""
-          }
+            "comment": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
+          },
+          "stComments": [
+            "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
+          ],
+          "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
         },
         {
           "id": "P2::hotel riad bahammou dades hb",
@@ -5860,8 +5876,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad BaHammou Dades",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
         },
         {
           "id": "P2::kasbah ait ben damiette-hb",
@@ -5942,8 +5962,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Kasbah Ait Ben Damiette",
-            "comment": ""
-          }
+            "comment": "Service already exists"
+          },
+          "stComments": [
+            "Service already exists"
+          ],
+          "stCommentImport": "Service already exists"
         },
         {
           "id": "P2::kasbah hnini hb",
@@ -6004,8 +6028,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Dar Hnini",
-            "comment": ""
-          }
+            "comment": "Service already available in Kaptio. Same rates for IG and FIT for 2027"
+          },
+          "stComments": [
+            "Service already available in Kaptio. Same rates for IG and FIT for 2027"
+          ],
+          "stCommentImport": "Service already available in Kaptio. Same rates for IG and FIT for 2027"
         },
         {
           "id": "P2::local guide chefchaouen",
@@ -6072,8 +6100,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P2::local guide fes half day",
@@ -6142,8 +6174,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P2::local guide half day casablanca",
@@ -6209,8 +6245,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P2::local guide half day ouirgane",
@@ -6276,8 +6316,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P2::local guide marrakech",
@@ -6347,8 +6391,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P2::local guide rabat",
@@ -6416,8 +6464,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P2::local guide tangier",
@@ -6480,8 +6532,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P2::medersa attarine fes",
@@ -6539,8 +6595,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P2::mia camp",
@@ -6595,8 +6655,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Mia Hotels",
-            "comment": ""
-          }
+            "comment": "Service Has been already loaded with FIT Rates"
+          },
+          "stComments": [
+            "Service Has been already loaded with FIT Rates",
+            "Service Has been already loaded with FIT Rates - Estimated Rates"
+          ],
+          "stCommentImport": "Service Has been already loaded with FIT Rates"
         },
         {
           "id": "P2::morocco fit - tour leader daily services - standard",
@@ -6667,8 +6732,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Crew Services",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "P2::moulay driss couscous lunch",
@@ -6723,8 +6792,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "P2::puerta azul",
@@ -6780,8 +6853,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Puerta Azul",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
         },
         {
           "id": "P2::riad 48",
@@ -6850,8 +6927,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad 48",
-            "comment": ""
-          }
+            "comment": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
+          },
+          "stComments": [
+            "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
+          ],
+          "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
         },
         {
           "id": "P2::skoura lodge- hb",
@@ -6917,8 +6998,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "SKOURA LODGE",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for IG and FIT"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for IG and FIT"
         },
         {
           "id": "P2::transport between trips - fes marrakech",
@@ -7096,8 +7181,15 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Château Roslane Boutique Hotel & Spa",
-            "comment": ""
-          }
+            "comment": "Menu classique + Package Dégustation Premium"
+          },
+          "stComments": [
+            "Menu classique + Package Dégustation Premium",
+            "Menu classique only",
+            "Service does not exist in Kaptio - Menu classique + Package Dégustation Premium",
+            "Service does not exist in Kaptio - Menu classique only"
+          ],
+          "stCommentImport": "Menu classique + Package Dégustation Premium"
         },
         {
           "id": "P2::wine tasting & lunch at val d'argan",
@@ -7152,8 +7244,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "LES DOMAINES DU VAL D'ARGAN",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         }
       ]
     },
@@ -7415,8 +7511,12 @@ window.ISSUE_DATA = {
             "price": "Double - Standard Room 1200 MAD [FIT] 2026 All Year; Twin - Standard Room 1200 MAD [FIT] 2026 All Year; Single - Standard Room 1200 MAD [FIT] 2026 All Year; Leader Room Single - Standard 1200 MAD [FIT] 2026 All Year; Double for Single Use 1200 MAD [FIT] 2026 All Year; City Tax 16.5 MAD [FIT] 2026 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
+          },
+          "stComments": [
+            "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
+          ],
+          "stCommentImport": "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
         },
         {
           "id": "P4::aday hotel",
@@ -7898,8 +7998,12 @@ window.ISSUE_DATA = {
             "price": "Single - Tent 980 MAD [FIT/Group Series] 2026 All Year; Double - Tent 1420 MAD [FIT/Group Series] 2026 All Year; Twin - Tent 1420 MAD [FIT/Group Series] 2026 All Year; Triple- Tent 1860 MAD [FIT/Group Series] 2026 All Year; Quadruple- Tent 2300 MAD [FIT/Group Series] 2026 All Year; Leader Single - Tent 980 MAD [FIT/Group Series] 2026 All Year; Single - Tent 1180 MAD [FIT/Group Series] 2027 All Year; Double - Tent 1620 MAD [FIT/Group Series] 2027 All Year; Twin - Tent 1620 MAD [FIT/Group Series] 2027 All Year; Triple- Tent 2060 MAD [FIT/Group Series] 2027 All Year; Quadruple- Tent 2500 MAD [FIT/Group Series] 2027 All Year; Leader Single - Tent 1180 MAD [FIT/Group Series] 2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P4::boutaghrar to marrakech private transfer xmrw",
@@ -9006,8 +9110,12 @@ window.ISSUE_DATA = {
             "price": "Standard - Double Room 1280 MAD [FIT] 2026-2027 All Year; Standard - Twin Room 1280 MAD [FIT] 2026-2027 All Year; Double for Single Use 980 MAD [FIT] 2026-2027 All Year; Standard - Single Room 980 MAD [FIT] 2026-2027 All Year; Leader Single Room 0 MAD [FIT] 2026-2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P4::dar echchaouen",
@@ -9604,8 +9712,12 @@ window.ISSUE_DATA = {
             "price": "Standard - Double Room 330 MAD [FIT/Group Series] 2025-2026 All Year; Twin - Twin Room 330 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Single Room 300 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Leader Single Room 0 MAD [FIT/Group Series] 2025-2026 All Year; Double for Single Use 300 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Triple Room 495 MAD [FIT/Group Series] 2025-2026 All Year; Crew Twin Room 0 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Double Room 380 MAD [FIT/Group Series] 2027 All Year; Twin - Twin Room 380 MAD [FIT/Group Series] 2027 All Year; Standard - Single Room 300 MAD [FIT/Group Series] 2027 All Year; Standard - Leader Single Room 0 MAD [FIT/Group Series] 2027 All Year; Double for Single Use 300 MAD [FIT/Group Series] 2027 All Year; Standard - Triple Room 530 MAD [FIT/Group Series] 2027 All Year; Crew Twin Room 0 MAD [FIT/Group Series] 2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. IG same as FIT rates"
+          },
+          "stComments": [
+            "Service exists in Kaptio. IG same as FIT rates"
+          ],
+          "stCommentImport": "Service exists in Kaptio. IG same as FIT rates"
         },
         {
           "id": "P4::executive boutique hotel rabat",
@@ -9703,8 +9815,12 @@ window.ISSUE_DATA = {
             "price": "Double - Standard Room 950 MAD [FIT/Group series] 2026-2027 All Year; Twin - Standard Room 950 MAD [FIT/Group series] 2026-2027 All Year; Single - Standard Room 850 MAD [FIT/Group series] 2026-2027 All Year; Leader Room Single - Standard 850 MAD [FIT/Group series] 2026-2027 All Year; Suite - Double 1400 MAD [FIT/Group series] 2026-2027 All Year; Suite - Twin 1400 MAD [FIT/Group series] 2026-2027 All Year; Suite - Single 1400 MAD [FIT/Group series] 2026-2027 All Year; City Tax 13.2 MAD [FIT/Group series] 2026-2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio.Same rates for IG and FIT"
+          },
+          "stComments": [
+            "Service exists in Kaptio.Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT"
         },
         {
           "id": "P4::fes to marrakech private transfer xmfk",
@@ -10623,8 +10739,12 @@ window.ISSUE_DATA = {
             "price": "Double - Standard Room 572 MAD [FIT/Group series] 2026-2027 Low Season; Twin - Standard Room 572 MAD [FIT/Group series] 2026-2027 Low Season; Single - Standard Room 561 MAD [FIT/Group series] 2026-2027 Low Season; Breakfast 55 MAD [FIT/Group series] 2026-2027 Low Season; Double-Junior 902 MAD [FIT/Group series] 2026-2027 Low Season; Twin-Junior 902 MAD [FIT/Group series] 2026-2027 Low Season; Single-Junior 891 MAD [FIT/Group series] 2026-2027 Low Season; Maos Method Multiple Crew Room (Pax Banded) Max 8 500 MAD [FIT/Group series] 2026-2027 Low Season; Maos Method Multiple Crew Room (Pax Banded) Max 16 325 MAD [FIT/Group series] 2026-2027 Low Season; Double - Standard Room 847 MAD [FIT/Group series] 2026-2027 High Season; Twin - Standard Room 847 MAD [FIT/Group series] 2026-2027 High Season; Single - Standard Room 836 MAD [FIT/Group series] 2026-2027 High Season; Breakfast 55 MAD [FIT/Group series] 2026-2027 High Season; Double-Junior 902 MAD [FIT/Group series] 2026-2027 High Season; Twin-Junior 902 MAD [FIT/Group series] 2026-2027 High Season; Single-Junior 891 MAD [FIT/Group series] 2026-2027 High Season; Maos Method Multiple Crew Room (Pax Banded) Max 8 500 MAD [FIT/Group series] 2026-2027 High Season; Maos Method Multiple Crew Room (Pax Banded) Max 16 325 MAD [FIT/Group series] 2026-2027 High Season",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P4::hotel dar mounir",
@@ -11089,8 +11209,14 @@ window.ISSUE_DATA = {
             "price": "Twin - Superior 957 MAD [FIT] 2026 All Year; Double - Superior 957 MAD [FIT] 2026 All Year; Single - Superior 814.5 MAD [FIT] 2026 All Year; Double - Deluxe 1007 MAD [FIT] 2026 All Year; Twin - Deluxe 1007 MAD [FIT] 2026 All Year; Single - Deluxe 864.5 MAD [FIT] 2026 All Year; Twin Pool View 1057 MAD [FIT] 2026 All Year; Double Pool View 1057 MAD [FIT] 2026 All Year; Single Pool View 914.5 MAD [FIT] 2026 All Year; City Tax 16.5 MAD [FIT] 2026 All Year; Twin - Superior 924 MAD [Group Series] 2026 All Year; Double - Superior 924 MAD [Group Series] 2026 All Year; Single - Superior 798 MAD [Group Series] 2026 All Year; Double - Deluxe 976 MAD [Group Series] 2026 All Year; Twin - Deluxe 976 MAD [Group Series] 2026 All Year; Single - Deluxe 850.5 MAD [Group Series] 2026 All Year; Twin Pool View 1029 MAD [Group Series] 2026 All Year; Double Pool View 1029 MAD [Group Series] 2026 All Year; Single Pool View 903 MAD [Group Series] 2026 All Year; City Tax 16.5 MAD [Group Series] 2026 All Year; Triple Pool View 1491 MAD [Group Series] 2026 All Year; Triple - Deluxe 1438.5 MAD [Group Series] 2026 All Year; Triple - Superior 1386 MAD [Group Series] 2026 All Year; Leader Single Room 400 MAD [Group Series] 2026 All Year; Twin Room (Family) 920.3 MAD [Group Series] 2026 All Year; Twin - Superior 970 MAD [FIT/Group Series] 2027 All Year; Double - Superior 970 MAD [FIT/Group Series] 2027 All Year; Single - Superior 838 MAD [FIT/Group Series] 2027 All Year; Double - Deluxe 1022 MAD [FIT/Group Series] 2027 All Year; Twin - Deluxe 1022 MAD [FIT/Group Series] 2027 All Year; Single - Deluxe 890 MAD [FIT/Group Series] 2027 All Year; Twin Pool View 1076 MAD [FIT/Group Series] 2027 All Year; Double Pool View 1076 MAD [FIT/Group Series] 2027 All Year; Single Pool View 943 MAD [FIT/Group Series] 2027 All Year; City Tax 16.5 MAD [FIT/Group Series] 2027 All Year; Triple Pool View 1371 MAD [FIT/Group Series] 2027 All Year; Triple - Deluxe 1303.05 MAD [FIT/Group Series] 2027 All Year; Triple - Superior 1236.75 MAD [FIT/Group Series] 2027 All Year; Leader Single Room 400 MAD [FIT/Group Series] 2027 All Year; Twin Room (Family) 1045.9 MAD [Group Series] 2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio."
+          },
+          "stComments": [
+            "Service exists in Kaptio.",
+            "Service exists in Kaptio. FIT rates same as IG for 2027",
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio."
         },
         {
           "id": "P4::hotel karam palace hb",
@@ -11212,8 +11338,13 @@ window.ISSUE_DATA = {
             "price": "Double Room - Standard 960 MAD [FIT] 26-2027 All Year; Twin Room - Standard 960 MAD [FIT] 26-2027 All Year; Single Room - Standard 730 MAD [FIT] 26-2027 All Year; Leader Single Room - Standard 730 MAD [FIT] 26-2027 All Year; City Tax 16.5 MAD [FIT] 26-2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Newly created service with the same rates for FIT and IG for 2026/2027"
+          },
+          "stComments": [
+            "Newly created service with the same rates for FIT and IG for 2026/2027",
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Newly created service with the same rates for FIT and IG for 2026/2027"
         },
         {
           "id": "P4::hotel les amandiers  bb",
@@ -11755,8 +11886,13 @@ window.ISSUE_DATA = {
             "price": "Double - Standard Room 496 MAD [FIT] 2025-2026 All Year; Twin - Standard Room 496 MAD [FIT] 2025-2026 All Year; Single - Standard Room 398 MAD [FIT] 2025-2026 All Year; Double for Single Use 496 MAD [FIT] 2025-2026 All Year; Leader Room Single - Standard (Less than 6 rooms) 0 MAD [FIT] 2025-2026 All Year; Sawadee - 2nd Leader Room 398 MAD [FIT] 2025-2026 All Year; Double - Standard Room 550 MAD [FIT/Group Series] 2027 All Year; Twin - Standard Room 550 MAD [FIT/Group Series] 2027 All Year; Single - Standard Room 468 MAD [FIT/Group Series] 2027 All Year; Double for Single Use 468 MAD [FIT/Group Series] 2027 All Year; Leader Room Single - Standard (More than 6 rooms) 0 MAD [FIT/Group Series] 2027 All Year; Leader Room Single - Standard (Less than 6 rooms) 468 MAD [FIT/Group Series] 2027 All Year; Sawadee - 2nd Leader Room 468 MAD [FIT/Group Series] 2027 All Year; Triple - Standard Room 750 MAD [FIT/Group Series] 2027 All Year; Twin Family 539.17 MAD [FIT/Group Series] 2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio FIT rates same as IG"
+          },
+          "stComments": [
+            "Service exists in Kaptio FIT rates same as IG",
+            "Service exists in Kaptio for 2027 same rates for FIT and IG"
+          ],
+          "stCommentImport": "Service exists in Kaptio FIT rates same as IG"
         },
         {
           "id": "P4::hotel mounia",
@@ -12028,8 +12164,12 @@ window.ISSUE_DATA = {
             "price": "Double - Standard Room 365 MAD [FIT/Group Series] 2026-2027 All Year; Twin - Standard Room 365 MAD [FIT/Group Series] 2026-2027 All Year; Single - Standard Room 280 MAD [FIT/Group Series] 2026-2027 All Year; Double for Single Use 280 MAD [FIT/Group Series] 2026-2027 All Year; Leader - Single Standard Room 0 MAD [FIT/Group Series] 2026-2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P4::hotel riad ouinz  hb",
@@ -12133,8 +12273,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P4::hotel souiri",
@@ -12405,8 +12549,12 @@ window.ISSUE_DATA = {
             "price": "Double - Standard Room 380 MAD [FIT] 2026-27 All Year; Twin - Standard Rom 380 MAD [FIT] 2026-27 All Year; Double for Single Use 279 MAD [FIT] 2026-27 All Year; Single - Standard Room 279 MAD [FIT] 2026-27 All Year; Triple - Standard Room 510 MAD [FIT] 2026-27 All Year; Leader Room Single - Standard 0 MAD [FIT] 2026-27 All Year; Sawadee - 2nd Leader Room 279 MAD [FIT] 2026-27 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "P4::hotel to amal association targa return private transfer",
@@ -12822,8 +12970,12 @@ window.ISSUE_DATA = {
             "price": "Standard - Double Room 1560 MAD [FIT] 2026-27 High; Twin - Twin Room 1560 MAD [FIT] 2026-27 High; Standard - Single Room 1130 MAD [FIT] 2026-27 High; Standard - Leader Single Room 0 MAD [FIT] 2026-27 High; City Tax 16.5 MAD [FIT] 2026-27 High; Standard - Double Room 1500 MAD [FIT] 2026-27 Low; Twin - Twin Room 1500 MAD [FIT] 2026-27 Low; Standard - Single Room 1100 MAD [FIT] 2026-27 Low; Standard - Leader Single Room 0 MAD [FIT] 2026-27 Low; City Tax 16.5 MAD [FIT] 2026-27 Low; Standard - Double Room 3160 MAD [FIT] 2026-27 New Year; Twin - Twin Room 3160 MAD [FIT] 2026-27 New Year; Standard - Single Room 1930 MAD [FIT] 2026-27 New Year; Standard - Leader Single Room 0 MAD [FIT] 2026-27 New Year; City Tax 16.5 MAD [FIT] 2026-27 New Year; Standard - Double Room 1360 MAD [FIT] 2026 High; Twin - Twin Room 1360 MAD [FIT] 2026 High; Standard - Single Room 1030 MAD [FIT] 2026 High; Standard - Leader Single Room 0 MAD [FIT] 2026 High; City Tax 16.5 MAD [FIT] 2026 High",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "The Service has been Already Loaded in Kaptio"
+          },
+          "stComments": [
+            "The Service has been Already Loaded in Kaptio"
+          ],
+          "stCommentImport": "The Service has been Already Loaded in Kaptio"
         },
         {
           "id": "P4::hotel xaluca erfoud hb",
@@ -13367,8 +13519,12 @@ window.ISSUE_DATA = {
             "price": "Per Person 60 MAD [FIT] 2026-2027 All Year; Per Crew 0 MAD [FIT] 2026-2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P4::kasbah du toubkal - hb",
@@ -13560,8 +13716,12 @@ window.ISSUE_DATA = {
             "price": "Twin - Standard Room 550 MAD [FIT/Group Series] 2026 All Year; Double - Standard Room 550 MAD [FIT/Group Series] 2026 All Year; Single - Standard Room 385 MAD [FIT/Group Series] 2026 All Year; Triple - Standard Room 760 MAD [FIT/Group Series] 2026 All Year; Leader Single Room 0 MAD [FIT/Group Series] 2026 All Year; Twin - Standard Room 570 MAD [FIT/Group Series] 2027 All Year; Double - Standard Room 570 MAD [FIT/Group Series] 2027 All Year; Single - Standard Room 405 MAD [FIT/Group Series] 2027 All Year; Triple - Standard Room 780 MAD [FIT/Group Series] 2027 All Year; Leader Single Room 0 MAD [FIT/Group Series] 2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for IG and FIT"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for IG and FIT"
         },
         {
           "id": "P4::kasbah la famille berbere hb",
@@ -13635,8 +13795,12 @@ window.ISSUE_DATA = {
             "price": "Single Room 300 MAD [FIT/Group series] 2026 - 2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P4::kasbah taborihte",
@@ -14175,8 +14339,12 @@ window.ISSUE_DATA = {
             "price": "Double - Standard Room 950 MAD [FIT] 2026-27 All Year; Twin - Standard Room 950 MAD [FIT] 2026-27 All Year; Single - Standard Room 750 MAD [FIT] 2026-27 All Year; Double for Single Use 850 MAD [FIT] 2026-27 All Year; Leader Room Single - Standard 750 MAD [FIT] 2026-27 All Year; City Tax 15 MAD [FIT] 2026-27 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service Has been already loaded with FIT Rates"
+          },
+          "stComments": [
+            "Service Has been already loaded with FIT Rates"
+          ],
+          "stCommentImport": "Service Has been already loaded with FIT Rates"
         },
         {
           "id": "P4::ksar timnay bb",
@@ -15155,8 +15323,12 @@ window.ISSUE_DATA = {
             "price": "Per Group 350 MAD [FIT] 2026-2027 All Year; Per crew 0 MAD [FIT] 2026-2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P4::local guide half day fes",
@@ -15293,8 +15465,12 @@ window.ISSUE_DATA = {
             "price": "Per Group 400 MAD [FIT] 2026-2027 All Year; Per crew 0 MAD [FIT] 2026-2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P4::local guide half day m'goun",
@@ -15437,8 +15613,12 @@ window.ISSUE_DATA = {
             "price": "Per Group 500 MAD [FIT] 2026-2027 All Year; Per crew 0 MAD [FIT] 2026-2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P4::local guide half day meknes",
@@ -15504,8 +15684,12 @@ window.ISSUE_DATA = {
             "price": "Per Group 300 MAD [FIT] 2026 All Year; Per Group 350 MAD [FIT] 2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P4::local guide half day rabat",
@@ -15695,8 +15879,12 @@ window.ISSUE_DATA = {
             "price": "Per Group 200 MAD [FIT] 2026 All Year; Per Group 300 MAD [FIT] 2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P4::local guide tafraoute",
@@ -17738,8 +17926,12 @@ window.ISSUE_DATA = {
             "price": "Per Person 140 MAD [FIT] 2026 All Year; Per Crew 0 MAD [FIT] 2026 All Year; Per Person 150 MAD [FIT] 2027 All Year; Per Crew 0 MAD [FIT] 2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P4::riad 48 & spa",
@@ -18097,8 +18289,12 @@ window.ISSUE_DATA = {
             "price": "Double - Standard Room 490 MAD [FIT/Group Series] 2026 All Year; Twin - Standard Room 490 MAD [FIT/Group Series] 2026 All Year; Single - Standard Room 350 MAD [FIT/Group Series] 2026 All Year; Leader Room Single - Standard 0 MAD [FIT/Group Series] 2026 All Year; Triple - Standard Room 740 MAD [FIT/Group Series] 2026 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. 2027 FIT/IG rates not available."
+          },
+          "stComments": [
+            "Service exists in Kaptio. 2027 FIT/IG rates not available."
+          ],
+          "stCommentImport": "Service exists in Kaptio. 2027 FIT/IG rates not available."
         },
         {
           "id": "P4::riad blue eyes",
@@ -18437,8 +18633,12 @@ window.ISSUE_DATA = {
             "price": "Double - Suite Confort 1320 MAD [FIT] 2026-27 All Year; Twin - Suite Confoort 1320 MAD [FIT] 2026-27 All Year; Double For Single  - Suite Confort 1320 MAD [FIT] 2026-27 All Year; Leader Room Single - Standard 1320 MAD [FIT] 2026-27 All Year; Double - Suite Romantic 1680 MAD [FIT] 2026-27 All Year; Twin - Suite Romantic 1680 MAD [FIT] 2026-27 All Year; Double For Single  - Suite Romantic 1680 MAD [FIT] 2026-27 All Year; Double - Suite Panoramic 2080 MAD [FIT] 2026-27 All Year; Twin - Suite Panoramic 2080 MAD [FIT] 2026-27 All Year; Double For Single  - Suite Panoramic 2080 MAD [FIT] 2026-27 All Year; City Tax PP 33 MAD [FIT] 2026-27 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service Already Exist"
+          },
+          "stComments": [
+            "Service Already Exist"
+          ],
+          "stCommentImport": "Service Already Exist"
         },
         {
           "id": "P4::riad dilar - bb",
@@ -18750,8 +18950,12 @@ window.ISSUE_DATA = {
             "price": "Double - Suite 3340 MAD [FIT/Group Series] 2026 All Year; Twin - Suite 3340 MAD [FIT/Group Series] 2026 All Year; Single - Suite 2950 MAD [FIT/Group Series] 2026 All Year; Double - Superior 2710 MAD [FIT/Group Series] 2026 All Year; Twin - Superior 2710 MAD [FIT/Group Series] 2026 All Year; Single - Superior 2320 MAD [FIT/Group Series] 2026 All Year; City Tax 31 MAD [FIT/Group Series] 2026 All Year; Double - Suite 3475 MAD [FIT/Group Series] 2027 All Year; Twin - Suite 3475 MAD [FIT/Group Series] 2027 All Year; Single - Suite 3910 MAD [FIT/Group Series] 2027 All Year; Double - Superior 2790 MAD [FIT/Group Series] 2027 All Year; Twin - Superior 2790 MAD [FIT/Group Series] 2027 All Year; Single - Superior 23355 MAD [FIT/Group Series] 2027 All Year; City Tax 31 MAD [FIT/Group Series] 2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P4::riad la cle d'or xmpm",
@@ -19100,8 +19304,12 @@ window.ISSUE_DATA = {
             "price": "Standard - Double Room 2690 MAD [FIT/Group series] 2026 High; Standard - Twin Room 2690 MAD [FIT/Group series] 2026 High; Standard - Single Room 2645 MAD [FIT/Group series] 2026 High; Leader Single Room 0 MAD [FIT/Group series] 2026 High; Standard - Double Room 2690 MAD [FIT/Group series] 2027 High; Standard - Twin Room 2690 MAD [FIT/Group series] 2027 High; Standard - Single Room 2645 MAD [FIT/Group series] 2027 High; Leader Single Room 0 MAD [FIT/Group series] 2027 High; Standard - Double Room 1990 MAD [FIT/Group series] 2027 Low; Standard - Twin Room 1990 MAD [FIT/Group series] 2027 Low; Standard - Single Room 1945 MAD [FIT/Group series] 2027 Low; Leader Single Room 0 MAD [FIT/Group series] 2027 Low",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P4::riad tafilalet",
@@ -19193,8 +19401,12 @@ window.ISSUE_DATA = {
             "price": "Double - Standard Room 600 MAD [FIT/Group Series] 2026-2027 All Year; Twin - Standard Room 600 MAD [FIT/Group Series] 2026-2027 All Year; Single - Standard Room 475 MAD [FIT/Group Series] 2026-2027 All Year; Double for Single Use 475 MAD [FIT/Group Series] 2026-2027 All Year; Leader - Single Standard Room 0 MAD [FIT/Group Series] 2026-2027 All Year; Crew Twin Room 0 MAD [FIT/Group Series] 2026-2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P4::sahara aventures camp",
@@ -19302,8 +19514,13 @@ window.ISSUE_DATA = {
             "price": "Single - Tent 250 MAD [FIT/Group Series] 2026 All Year; Leader Tent Single 0 MAD [FIT/Group Series] 2026 All Year; Triple - Tent 750 MAD [FIT/Group Series] 2026 All Year; Double - Tent 500 MAD [FIT/Group Series] 2026 All Year; Twin - Tent 500 MAD [FIT/Group Series] 2026 All Year; Single - Tent 260 MAD [FIT/Group Series] 2027 All Year; Leader Tent Single 0 MAD [FIT/Group Series] 2027 All Year; Triple - Tent 780 MAD [FIT/Group Series] 2027 All Year; Double - Tent 520 MAD [FIT/Group Series] 2027 All Year; Twin - Tent 520 MAD [FIT/Group Series] 2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026",
+            "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026"
         },
         {
           "id": "P4::seafood market lunch",
@@ -19381,8 +19598,12 @@ window.ISSUE_DATA = {
             "price": "Per Person 100 MAD [FIT] 2026 All Year; Per Crew 100 MAD [FIT] 2026 All Year; Per Person 120 MAD [FIT] 2027 All Year; Per Crew 120 MAD [FIT] 2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P4::tangier bus station to medina taxi",
@@ -21052,8 +21273,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "2 Ciels Luxury Boutique",
-            "comment": ""
-          }
+            "comment": "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
+          },
+          "stComments": [
+            "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
+          ],
+          "stCommentImport": "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
         },
         {
           "id": "P5::cheese tasting",
@@ -21101,8 +21326,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P5::executive boutique hotel rabat",
@@ -21151,8 +21380,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Executive Boutique Hotel",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio.Same rates for IG and FIT"
+          },
+          "stComments": [
+            "Service exists in Kaptio.Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT"
         },
         {
           "id": "P5::idou anfa hotel & spa",
@@ -21204,8 +21437,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "9; Idou Anfa Hotel & Spa",
-            "comment": ""
-          }
+            "comment": "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          },
+          "stComments": [
+            "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          ],
+          "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates"
         },
         {
           "id": "P5::maison du sud",
@@ -21255,8 +21492,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "2 Ciels Luxury Boutique; Maison du Sud",
-            "comment": ""
-          }
+            "comment": "Already loaded in Kaptio for 2026 / 2027"
+          },
+          "stComments": [
+            "Already loaded in Kaptio for 2026 / 2027",
+            "Service Already Exist"
+          ],
+          "stCommentImport": "Already loaded in Kaptio for 2026 / 2027"
         },
         {
           "id": "P5::mia hotel - fes",
@@ -21310,8 +21552,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Mia Hotel",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P5::morocco - leader communication allowance",
@@ -21385,8 +21631,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Crew Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P5::riad chbanate",
@@ -21436,8 +21686,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "2 Ciels Luxury Boutique",
-            "comment": ""
-          }
+            "comment": "Service Already Exist"
+          },
+          "stComments": [
+            "Service Already Exist"
+          ],
+          "stCommentImport": "Service Already Exist"
         }
       ]
     },
@@ -21518,8 +21772,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
+          },
+          "stComments": [
+            "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
+          ],
+          "stCommentImport": "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
         },
         {
           "id": "P6::azawad luxury desert camp",
@@ -21589,8 +21847,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P6::azrou cedar forest & barbary macaques visit",
@@ -21635,8 +21897,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "P6::bahia palace entrance",
@@ -21681,8 +21947,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::bhalil cave house visit with tea break",
@@ -21727,8 +21997,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "P6::camp la caravane",
@@ -21798,8 +22072,14 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026",
+            "Estimated rates 20% added to 2026 Rates",
+            "Service exists in Kaptio.Estimated rates 20% added to 2026 Rates"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026"
         },
         {
           "id": "P6::cote ocean mogador hotel",
@@ -21868,8 +22148,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
+          },
+          "stComments": [
+            "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
+          ],
+          "stCommentImport": "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
         },
         {
           "id": "P6::dar cherifa",
@@ -21935,8 +22219,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P6::etoile filante d'or hb",
@@ -22021,8 +22309,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. IG same as FIT rates"
+          },
+          "stComments": [
+            "Service exists in Kaptio. IG same as FIT rates"
+          ],
+          "stCommentImport": "Service exists in Kaptio. IG same as FIT rates"
         },
         {
           "id": "P6::executive boutique hotel rabat",
@@ -22094,8 +22386,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio.Same rates for IG and FIT"
+          },
+          "stComments": [
+            "Service exists in Kaptio.Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT"
         },
         {
           "id": "P6::farewell dinner marrakech - el fassia restaurant",
@@ -22147,8 +22443,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::fondouk nejjarine fes",
@@ -22213,8 +22513,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::hotel al walid",
@@ -22289,8 +22593,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          },
+          "stComments": [
+            "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          ],
+          "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates"
         },
         {
           "id": "P6::hotel belere",
@@ -22386,8 +22694,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
         },
         {
           "id": "P6::hotel caspien",
@@ -22462,8 +22774,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
+          },
+          "stComments": [
+            "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
+          ],
+          "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
         },
         {
           "id": "P6::hotel charf",
@@ -22539,8 +22855,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P6::hotel gomassine",
@@ -22611,8 +22931,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
+          },
+          "stComments": [
+            "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
+          ],
+          "stCommentImport": "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
         },
         {
           "id": "P6::hotel grand plaza",
@@ -22683,8 +23007,14 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio."
+          },
+          "stComments": [
+            "Service exists in Kaptio.",
+            "Service exists in Kaptio. FIT rates same as IG for 2027",
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio."
         },
         {
           "id": "P6::hotel karam palace hb",
@@ -22760,8 +23090,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Newly created service with the same rates for FIT and IG for 2026/2027"
+          },
+          "stComments": [
+            "Newly created service with the same rates for FIT and IG for 2026/2027",
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Newly created service with the same rates for FIT and IG for 2026/2027"
         },
         {
           "id": "P6::hotel le musee",
@@ -22832,8 +23167,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027"
+          },
+          "stComments": [
+            "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027"
+          ],
+          "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027"
         },
         {
           "id": "P6::hotel les saisons",
@@ -22904,8 +23243,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          },
+          "stComments": [
+            "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          ],
+          "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates"
         },
         {
           "id": "P6::hotel miramar",
@@ -22991,8 +23334,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio FIT rates same as IG"
+          },
+          "stComments": [
+            "Service exists in Kaptio FIT rates same as IG",
+            "Service exists in Kaptio for 2027 same rates for FIT and IG"
+          ],
+          "stCommentImport": "Service exists in Kaptio FIT rates same as IG"
         },
         {
           "id": "P6::hotel olympic",
@@ -23068,8 +23416,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P6::hotel parador",
@@ -23140,8 +23492,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027"
         },
         {
           "id": "P6::hotel riad bahammou dades hb",
@@ -23212,8 +23568,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
         },
         {
           "id": "P6::hotel rose valley",
@@ -23282,8 +23642,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "P6::hotel swani",
@@ -23384,8 +23748,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "P6::hotel taddart hb",
@@ -23455,8 +23823,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exisitng in Kaptio. Same rates for IG and FIT 2026/2027"
+          },
+          "stComments": [
+            "Service exisitng in Kaptio. Same rates for IG and FIT 2026/2027"
+          ],
+          "stCommentImport": "Service exisitng in Kaptio. Same rates for IG and FIT 2026/2027"
         },
         {
           "id": "P6::hotel tarek",
@@ -23525,8 +23897,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027"
         },
         {
           "id": "P6::hotel transatlantique",
@@ -23588,8 +23964,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Supplier and Service aren't available in Kaptio"
+          },
+          "stComments": [
+            "Supplier and Service aren't available in Kaptio"
+          ],
+          "stCommentImport": "Supplier and Service aren't available in Kaptio"
         },
         {
           "id": "P6::hotel xaluca dades hb",
@@ -23685,8 +24065,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "The Service has been Already Loaded in Kaptio"
+          },
+          "stComments": [
+            "The Service has been Already Loaded in Kaptio"
+          ],
+          "stCommentImport": "The Service has been Already Loaded in Kaptio"
         },
         {
           "id": "P6::idou anfa hotel & spa",
@@ -23759,8 +24143,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          },
+          "stComments": [
+            "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          ],
+          "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates"
         },
         {
           "id": "P6::kasbah ait ben damiette-hb",
@@ -23849,8 +24237,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exists"
+          },
+          "stComments": [
+            "Service already exists"
+          ],
+          "stCommentImport": "Service already exists"
         },
         {
           "id": "P6::kasbah ait benhaddou visit",
@@ -23908,8 +24300,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::kasbah hnini hb",
@@ -23983,8 +24379,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already available in Kaptio. Same rates for IG and FIT for 2027"
+          },
+          "stComments": [
+            "Service already available in Kaptio. Same rates for IG and FIT for 2027"
+          ],
+          "stCommentImport": "Service already available in Kaptio. Same rates for IG and FIT for 2027"
         },
         {
           "id": "P6::kasbah itrane",
@@ -24055,8 +24455,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for IG and FIT"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for IG and FIT"
         },
         {
           "id": "P6::kasbah la famille berbere hb",
@@ -24124,8 +24528,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P6::ksar shama hb",
@@ -24222,8 +24630,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service Has been already loaded with FIT Rates"
+          },
+          "stComments": [
+            "Service Has been already loaded with FIT Rates"
+          ],
+          "stCommentImport": "Service Has been already loaded with FIT Rates"
         },
         {
           "id": "P6::ksar timnay riad mimouna",
@@ -24291,8 +24703,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exisitng in Kaptio"
+          },
+          "stComments": [
+            "Service exisitng in Kaptio"
+          ],
+          "stCommentImport": "Service exisitng in Kaptio"
         },
         {
           "id": "P6::la colombe blanche bb",
@@ -24361,8 +24777,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "P6::la colombe blanche hb",
@@ -24431,8 +24851,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "P6::local guide chefchaouen",
@@ -24485,8 +24909,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::local guide fes half day",
@@ -24541,8 +24969,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::local guide half day casablanca",
@@ -24594,8 +25026,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::local guide half day essaouira",
@@ -24660,8 +25096,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::local guide half day imlil",
@@ -24714,8 +25154,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::local guide half day marrakech",
@@ -24783,8 +25227,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::local guide half day meknes",
@@ -24842,8 +25290,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::local guide half day ouirgane",
@@ -24895,8 +25347,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::local guide marrakech",
@@ -24959,8 +25415,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::local guide rabat",
@@ -25014,8 +25474,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::local guide site visit volubilis",
@@ -25076,8 +25540,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::local guide tangier",
@@ -25131,8 +25599,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::lodge hara oasis hb",
@@ -25199,8 +25671,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "P6::maison du sud",
@@ -25272,8 +25748,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Already loaded in Kaptio for 2026 / 2027"
+          },
+          "stComments": [
+            "Already loaded in Kaptio for 2026 / 2027",
+            "Service Already Exist"
+          ],
+          "stCommentImport": "Already loaded in Kaptio for 2026 / 2027"
         },
         {
           "id": "P6::marina bay city center",
@@ -25342,8 +25823,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "P6::medersa attarine fes",
@@ -25399,8 +25884,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::mia camp",
@@ -25468,8 +25957,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service Has been already loaded with FIT Rates"
+          },
+          "stComments": [
+            "Service Has been already loaded with FIT Rates",
+            "Service Has been already loaded with FIT Rates - Estimated Rates"
+          ],
+          "stCommentImport": "Service Has been already loaded with FIT Rates"
         },
         {
           "id": "P6::mia camp hb",
@@ -25537,8 +26031,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service Has been already loaded with FIT Rates"
+          },
+          "stComments": [
+            "Service Has been already loaded with FIT Rates",
+            "Service Has been already loaded with FIT Rates - Estimated Rates"
+          ],
+          "stCommentImport": "Service Has been already loaded with FIT Rates"
         },
         {
           "id": "P6::mia hotel - fes",
@@ -25614,8 +26113,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P6::morocco - daily crew bonus accrual",
@@ -25695,8 +26198,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::morocco - leader communication allowance",
@@ -25776,8 +26283,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::morocco fit - tour leader daily services - standard",
@@ -25846,8 +26357,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "P6::moulay driss couscous lunch",
@@ -25893,8 +26408,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "P6::palais houyam",
@@ -25958,8 +26477,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "P6::palais ommeyad suites and spa",
@@ -26032,8 +26555,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. 2027 Fit rates on request"
+          },
+          "stComments": [
+            "Service exists in Kaptio. 2027 Fit rates on request"
+          ],
+          "stCommentImport": "Service exists in Kaptio. 2027 Fit rates on request"
         },
         {
           "id": "P6::pastilla dinner fes",
@@ -26096,8 +26623,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::puerta azul",
@@ -26166,8 +26697,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
         },
         {
           "id": "P6::riad 48",
@@ -26249,8 +26784,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
+          },
+          "stComments": [
+            "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
+          ],
+          "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
         },
         {
           "id": "P6::riad atlas 4 seasons - hb",
@@ -26319,8 +26858,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. 2027 FIT/IG rates not available."
+          },
+          "stComments": [
+            "Service exists in Kaptio. 2027 FIT/IG rates not available."
+          ],
+          "stCommentImport": "Service exists in Kaptio. 2027 FIT/IG rates not available."
         },
         {
           "id": "P6::riad chakir mogador",
@@ -26393,8 +26936,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Existing service in Kaptio. Sames rates for IG and FIT for 2026"
+          },
+          "stComments": [
+            "Existing service in Kaptio. Sames rates for IG and FIT for 2026"
+          ],
+          "stCommentImport": "Existing service in Kaptio. Sames rates for IG and FIT for 2026"
         },
         {
           "id": "P6::riad chbanate",
@@ -26513,8 +27060,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service Already Exist"
+          },
+          "stComments": [
+            "Service Already Exist"
+          ],
+          "stCommentImport": "Service Already Exist"
         },
         {
           "id": "P6::riad ksar ighnda hb",
@@ -26586,8 +27137,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P6::riad la cle d’or",
@@ -26681,8 +27236,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P6::riad lamane - hb",
@@ -26751,8 +27310,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for FIT/Goup Series for 2026-2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for FIT/Goup Series for 2026-2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for FIT/Goup Series for 2026-2027"
         },
         {
           "id": "P6::riad maktoub hb",
@@ -26819,8 +27382,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series"
+          },
+          "stComments": [
+            "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series"
+          ],
+          "stCommentImport": "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series"
         },
         {
           "id": "P6::riad nesma",
@@ -26889,8 +27456,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Existing service in Kaptio. Sames rates for FIT and IG/Group series for both 2026 and 2027"
+          },
+          "stComments": [
+            "Existing service in Kaptio. Sames rates for FIT and IG/Group series for both 2026 and 2027"
+          ],
+          "stCommentImport": "Existing service in Kaptio. Sames rates for FIT and IG/Group series for both 2026 and 2027"
         },
         {
           "id": "P6::riad ritaj",
@@ -26960,8 +27531,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for IG and FIT"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for IG and FIT"
         },
         {
           "id": "P6::riad sayeda al hora",
@@ -27033,8 +27608,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series"
+          },
+          "stComments": [
+            "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series"
+          ],
+          "stCommentImport": "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series"
         },
         {
           "id": "P6::riad tafilalet",
@@ -27110,8 +27689,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P6::sahara aventures camp",
@@ -27203,8 +27786,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026",
+            "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026"
         },
         {
           "id": "P6::seafood market lunch",
@@ -27259,8 +27847,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P6::skoura lodge- hb",
@@ -27339,8 +27931,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for IG and FIT"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for IG and FIT"
         },
         {
           "id": "P6::transport between trips - fes marrakech",
@@ -27495,8 +28091,15 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Menu classique + Package Dégustation Premium"
+          },
+          "stComments": [
+            "Menu classique + Package Dégustation Premium",
+            "Menu classique only",
+            "Service does not exist in Kaptio - Menu classique + Package Dégustation Premium",
+            "Service does not exist in Kaptio - Menu classique only"
+          ],
+          "stCommentImport": "Menu classique + Package Dégustation Premium"
         },
         {
           "id": "P6::wine tasting & lunch at val d'argan",
@@ -27549,8 +28152,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         }
       ]
     },
@@ -27605,8 +28212,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::auberge chez ali hb",
@@ -27651,8 +28262,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kpatio"
+          },
+          "stComments": [
+            "Service exists in Kpatio",
+            "Service exists in Kaptio. Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kpatio"
         },
         {
           "id": "P8::azawad luxury desert camp",
@@ -27699,8 +28315,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P8::bread cooking demonstration",
@@ -27748,8 +28368,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::camp la caravane",
@@ -27796,8 +28420,14 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026",
+            "Estimated rates 20% added to 2026 Rates",
+            "Service exists in Kaptio.Estimated rates 20% added to 2026 Rates"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026"
         },
         {
           "id": "P8::cheese tasting",
@@ -27844,8 +28474,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::cote ocean mogador hotel",
@@ -27891,8 +28525,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
+          },
+          "stComments": [
+            "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
+          ],
+          "stCommentImport": "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
         },
         {
           "id": "P8::etoile filante d'or hb",
@@ -27942,8 +28580,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. IG same as FIT rates"
+          },
+          "stComments": [
+            "Service exists in Kaptio. IG same as FIT rates"
+          ],
+          "stCommentImport": "Service exists in Kaptio. IG same as FIT rates"
         },
         {
           "id": "P8::executive boutique hotel rabat",
@@ -27991,8 +28633,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio.Same rates for IG and FIT"
+          },
+          "stComments": [
+            "Service exists in Kaptio.Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT"
         },
         {
           "id": "P8::fondouk nejjarine fes",
@@ -28050,8 +28696,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::hassan ii mosque visit",
@@ -28105,8 +28755,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::hotel charf",
@@ -28159,8 +28813,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P8::hotel gomassine",
@@ -28208,8 +28866,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
+          },
+          "stComments": [
+            "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
+          ],
+          "stCommentImport": "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
         },
         {
           "id": "P8::hotel karam palace hb",
@@ -28255,8 +28917,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Newly created service with the same rates for FIT and IG for 2026/2027"
+          },
+          "stComments": [
+            "Newly created service with the same rates for FIT and IG for 2026/2027",
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Newly created service with the same rates for FIT and IG for 2026/2027"
         },
         {
           "id": "P8::hotel le musee",
@@ -28304,8 +28971,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027"
+          },
+          "stComments": [
+            "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027"
+          ],
+          "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027"
         },
         {
           "id": "P8::hotel miramar",
@@ -28351,8 +29022,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio FIT rates same as IG"
+          },
+          "stComments": [
+            "Service exists in Kaptio FIT rates same as IG",
+            "Service exists in Kaptio for 2027 same rates for FIT and IG"
+          ],
+          "stCommentImport": "Service exists in Kaptio FIT rates same as IG"
         },
         {
           "id": "P8::hotel olympic",
@@ -28398,8 +29074,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P8::hotel parador",
@@ -28447,8 +29127,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027"
         },
         {
           "id": "P8::hotel rose valley",
@@ -28494,8 +29178,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "P8::hotel swani",
@@ -28541,8 +29229,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "P8::hotel taddart hb",
@@ -28589,8 +29281,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exisitng in Kaptio. Same rates for IG and FIT 2026/2027"
+          },
+          "stComments": [
+            "Service exisitng in Kaptio. Same rates for IG and FIT 2026/2027"
+          ],
+          "stCommentImport": "Service exisitng in Kaptio. Same rates for IG and FIT 2026/2027"
         },
         {
           "id": "P8::hotel xaluca dades hb",
@@ -28642,8 +29338,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "The Service has been Already Loaded in Kaptio"
+          },
+          "stComments": [
+            "The Service has been Already Loaded in Kaptio"
+          ],
+          "stCommentImport": "The Service has been Already Loaded in Kaptio"
         },
         {
           "id": "P8::kasbah ait benhaddou visit",
@@ -28694,8 +29394,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::kasbah itrane",
@@ -28741,8 +29445,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for IG and FIT"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for IG and FIT"
         },
         {
           "id": "P8::kasbah la famille berbere hb",
@@ -28793,8 +29501,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P8::la colombe blanche bb",
@@ -28840,8 +29552,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "P8::la colombe blanche hb",
@@ -28887,8 +29603,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "P8::local guide half day essaouira",
@@ -28939,8 +29659,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::local guide half day imlil",
@@ -28985,8 +29709,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::local guide half day marrakech",
@@ -29047,8 +29775,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::local guide half day meknes",
@@ -29098,8 +29830,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::local guide site visit volubilis",
@@ -29153,8 +29889,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::marrakech simply tasting trail",
@@ -29206,8 +29946,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::mausoleum hassan ii",
@@ -29257,8 +30001,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::mausoleum mohammed v",
@@ -29308,8 +30056,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::mia hotel - fes",
@@ -29362,8 +30114,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P8::morocco - daily crew bonus accrual",
@@ -29436,8 +30192,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::morocco - leader communication allowance",
@@ -29510,8 +30270,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::palais houyam",
@@ -29557,8 +30321,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "P8::palais ommeyad suites and spa",
@@ -29608,8 +30376,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. 2027 Fit rates on request"
+          },
+          "stComments": [
+            "Service exists in Kaptio. 2027 Fit rates on request"
+          ],
+          "stCommentImport": "Service exists in Kaptio. 2027 Fit rates on request"
         },
         {
           "id": "P8::pastilla dinner fes",
@@ -29657,8 +30429,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P8::riad atlas 4 seasons - hb",
@@ -29704,8 +30480,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. 2027 FIT/IG rates not available."
+          },
+          "stComments": [
+            "Service exists in Kaptio. 2027 FIT/IG rates not available."
+          ],
+          "stCommentImport": "Service exists in Kaptio. 2027 FIT/IG rates not available."
         },
         {
           "id": "P8::riad chakir mogador",
@@ -29756,8 +30536,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Existing service in Kaptio. Sames rates for IG and FIT for 2026"
+          },
+          "stComments": [
+            "Existing service in Kaptio. Sames rates for IG and FIT for 2026"
+          ],
+          "stCommentImport": "Existing service in Kaptio. Sames rates for IG and FIT for 2026"
         },
         {
           "id": "P8::riad la cle d’or",
@@ -29811,8 +30595,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P8::riad lamane - hb",
@@ -29858,8 +30646,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for FIT/Goup Series for 2026-2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for FIT/Goup Series for 2026-2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for FIT/Goup Series for 2026-2027"
         },
         {
           "id": "P8::riad nesma",
@@ -29905,8 +30697,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Existing service in Kaptio. Sames rates for FIT and IG/Group series for both 2026 and 2027"
+          },
+          "stComments": [
+            "Existing service in Kaptio. Sames rates for FIT and IG/Group series for both 2026 and 2027"
+          ],
+          "stCommentImport": "Existing service in Kaptio. Sames rates for FIT and IG/Group series for both 2026 and 2027"
         },
         {
           "id": "P8::riad ritaj",
@@ -29954,8 +30750,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for IG and FIT"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for IG and FIT"
         },
         {
           "id": "P8::riad tafilalet",
@@ -30001,8 +30801,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "P8::sahara aventures camp",
@@ -30050,8 +30854,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026",
+            "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026"
         },
         {
           "id": "P8::volubilis visit",
@@ -30105,8 +30914,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         }
       ]
     },
@@ -30260,8 +31073,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P9::bread preparation",
@@ -30401,8 +31218,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P9::chefchaouen to essaouira xmsc private transfer",
@@ -31936,8 +32757,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P10::local guide half day rabat",
@@ -32132,8 +32957,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P10::local guide skoura",
@@ -32768,8 +33597,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P10::morocco - leader communication allowance",
@@ -32842,8 +33675,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P10::morocco - level 3 tour leader daily services",
@@ -33346,8 +34183,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         }
       ]
     },
@@ -34063,8 +34904,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::atlas studios visit",
@@ -34299,8 +35144,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "SA1::bahia palace entrance",
@@ -34343,8 +35192,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::berber lunch at a local family guesthouse",
@@ -34474,8 +35327,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "SA1::bicycle cleaning",
@@ -34792,8 +35649,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::bread cooking demonstration",
@@ -34840,8 +35701,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::bread preparation",
@@ -36308,8 +37173,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::chefchaouen local restaurant - dinner",
@@ -37359,8 +38228,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::farewell dinner riad el maha",
@@ -37681,8 +38554,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::free time",
@@ -38009,8 +38886,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::hassan tower",
@@ -38529,8 +39410,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Belere",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
         },
         {
           "id": "SA1::hotel caspien",
@@ -38585,8 +39470,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Le Caspien",
-            "comment": ""
-          }
+            "comment": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
+          },
+          "stComments": [
+            "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
+          ],
+          "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
         },
         {
           "id": "SA1::hotel dar mounir",
@@ -39013,8 +39902,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad BaHammou Dades",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
         },
         {
           "id": "SA1::hotel riad bahammou dades-hb",
@@ -39157,8 +40050,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Tarek",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027"
         },
         {
           "id": "SA1::hotel to amal association targa return private transfer",
@@ -39332,8 +40229,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Transatlantique",
-            "comment": ""
-          }
+            "comment": "Supplier and Service aren't available in Kaptio"
+          },
+          "stComments": [
+            "Supplier and Service aren't available in Kaptio"
+          ],
+          "stCommentImport": "Supplier and Service aren't available in Kaptio"
         },
         {
           "id": "SA1::hotel xaluca dades-hb",
@@ -39711,8 +40612,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Kasbah Ait Ben Damiette",
-            "comment": ""
-          }
+            "comment": "Service already exists"
+          },
+          "stComments": [
+            "Service already exists"
+          ],
+          "stCommentImport": "Service already exists"
         },
         {
           "id": "SA1::kasbah ait benhaddou visit",
@@ -39760,8 +40665,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::kasbah amazir bb",
@@ -39941,8 +40850,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::kasbah des oudaias",
@@ -40034,8 +40947,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Dar Hnini",
-            "comment": ""
-          }
+            "comment": "Service already available in Kaptio. Same rates for IG and FIT for 2027"
+          },
+          "stComments": [
+            "Service already available in Kaptio. Same rates for IG and FIT for 2027"
+          ],
+          "stCommentImport": "Service already available in Kaptio. Same rates for IG and FIT for 2027"
         },
         {
           "id": "SA1::kasbah itrane",
@@ -40079,8 +40996,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Kasbah Itrane",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for IG and FIT"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for IG and FIT"
         },
         {
           "id": "SA1::kasbah itrane-hb",
@@ -40503,8 +41424,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "L'ma Lodge",
-            "comment": ""
-          }
+            "comment": "IN KAPTIO: Supplier exists but service isn't available"
+          },
+          "stComments": [
+            "IN KAPTIO: Supplier exists but service isn't available"
+          ],
+          "stCommentImport": "IN KAPTIO: Supplier exists but service isn't available"
         },
         {
           "id": "SA1::la fibule d or",
@@ -41113,8 +42038,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::local guide dades-half day",
@@ -41268,8 +42197,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::local guide half day - armed",
@@ -41367,8 +42300,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::local guide half day essaouira",
@@ -41416,8 +42353,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::local guide half day fes",
@@ -41516,8 +42457,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::local guide half day m'goun",
@@ -41621,8 +42566,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::local guide half day meknes",
@@ -41670,8 +42619,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::local guide half day ouirgane",
@@ -41725,8 +42678,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::local guide half day rabat",
@@ -41872,8 +42829,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::local guide ouirgane-half day",
@@ -41972,8 +42933,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::local guide site visit volubilis",
@@ -42024,8 +42989,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::local guide skoura",
@@ -42216,8 +43185,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::local guide todra",
@@ -42393,8 +43366,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Lodge Hara Oasis",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "SA1::luggage storage - imlil",
@@ -43207,8 +44184,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Marina Bay City Center",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "SA1::marly boutique hotel",
@@ -43389,8 +44370,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::marrakech to agafay astronaut transportation with return",
@@ -43881,8 +44866,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::mausoleum mohammed v",
@@ -43930,8 +44919,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::mausoleum moulay ismail",
@@ -44026,8 +45019,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::medersa attarine fes",
@@ -44078,8 +45075,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::medina hotel to train station taxi",
@@ -44436,8 +45437,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Mia Hotels",
-            "comment": ""
-          }
+            "comment": "Service Has been already loaded with FIT Rates"
+          },
+          "stComments": [
+            "Service Has been already loaded with FIT Rates",
+            "Service Has been already loaded with FIT Rates - Estimated Rates"
+          ],
+          "stCommentImport": "Service Has been already loaded with FIT Rates"
         },
         {
           "id": "SA1::mia camp hb",
@@ -44480,8 +45486,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Mia Hotels",
-            "comment": ""
-          }
+            "comment": "Service Has been already loaded with FIT Rates"
+          },
+          "stComments": [
+            "Service Has been already loaded with FIT Rates",
+            "Service Has been already loaded with FIT Rates - Estimated Rates"
+          ],
+          "stCommentImport": "Service Has been already loaded with FIT Rates"
         },
         {
           "id": "SA1::midelt - walking tour berrem village",
@@ -44863,8 +45874,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Crew Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::morocco - leader communication allowance",
@@ -44935,8 +45950,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Crew Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::morocco - level 3 tour leader daily services",
@@ -45155,8 +46174,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Crew Services",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "SA1::moulay driss couscous lunch",
@@ -45204,8 +46227,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "SA1::moulay driss to chefchaouen private transfer xmsb",
@@ -45875,8 +46902,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad Houyam",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "SA1::palmeras y dunas hb",
@@ -46083,8 +47114,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::pastries tasting",
@@ -46413,8 +47448,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Puerta Azul",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
         },
         {
           "id": "SA1::riad 48",
@@ -46470,8 +47509,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad 48",
-            "comment": ""
-          }
+            "comment": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
+          },
+          "stComments": [
+            "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
+          ],
+          "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
         },
         {
           "id": "SA1::riad al makan",
@@ -46900,8 +47943,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::secret garden visit",
@@ -46993,8 +48040,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "SKOURA LODGE",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for IG and FIT"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for IG and FIT"
         },
         {
           "id": "SA1::spiced sand coffee",
@@ -49030,8 +50081,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::welcome dinner marrakech xmpx",
@@ -49167,8 +50222,15 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Château Roslane Boutique Hotel & Spa",
-            "comment": ""
-          }
+            "comment": "Menu classique + Package Dégustation Premium"
+          },
+          "stComments": [
+            "Menu classique + Package Dégustation Premium",
+            "Menu classique only",
+            "Service does not exist in Kaptio - Menu classique + Package Dégustation Premium",
+            "Service does not exist in Kaptio - Menu classique only"
+          ],
+          "stCommentImport": "Menu classique + Package Dégustation Premium"
         },
         {
           "id": "SA1::wine tasting & lunch at val d'argan",
@@ -49216,8 +50278,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "LES DOMAINES DU VAL D'ARGAN",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "SA1::xaluxa aguelmame sidi ali-hb",
@@ -49800,8 +50866,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "2Ciels Luxury Boutique",
-            "comment": ""
-          }
+            "comment": "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
+          },
+          "stComments": [
+            "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
+          ],
+          "stCommentImport": "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
         },
         {
           "id": "SA3::aladdin camp",
@@ -49844,8 +50914,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Chez Le Pacha",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "SA3::amadil",
@@ -49970,8 +51044,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          },
+          "stComments": [
+            "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          ],
+          "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates"
         },
         {
           "id": "SA3::azawad luxury desert camp",
@@ -50014,8 +51092,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Azawad Riad & Desert Camp",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "SA3::camp aladdin",
@@ -50100,8 +51182,14 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Auberge la Caravane",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026",
+            "Estimated rates 20% added to 2026 Rates",
+            "Service exists in Kaptio.Estimated rates 20% added to 2026 Rates"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026"
         },
         {
           "id": "SA3::château roslane boutique hôtel & spa",
@@ -50144,8 +51232,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Chateau Roslane Boutique Hotel & Spa",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "SA3::cote ocean mogador hotel",
@@ -50188,8 +51280,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Cote Ocean Mogador Hotel",
-            "comment": ""
-          }
+            "comment": "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
+          },
+          "stComments": [
+            "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
+          ],
+          "stCommentImport": "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
         },
         {
           "id": "SA3::dar baibou",
@@ -50232,8 +51328,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Dar Baibou",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "SA3::dar cherifa",
@@ -50276,8 +51376,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Dar cherifa",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "SA3::dar echaouen",
@@ -50320,8 +51424,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Dar echaouen",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio."
+          },
+          "stComments": [
+            "Service exists in Kaptio."
+          ],
+          "stCommentImport": "Service exists in Kaptio."
         },
         {
           "id": "SA3::diyar timnay",
@@ -50532,8 +51640,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Al Kalaa",
-            "comment": ""
-          }
+            "comment": "The Service is already In Kaptio"
+          },
+          "stComments": [
+            "The Service is already In Kaptio"
+          ],
+          "stCommentImport": "The Service is already In Kaptio"
         },
         {
           "id": "SA3::hotel al walid",
@@ -50576,8 +51688,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Al Walid",
-            "comment": ""
-          }
+            "comment": "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          },
+          "stComments": [
+            "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          ],
+          "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates"
         },
         {
           "id": "SA3::hotel belere",
@@ -50619,8 +51735,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
         },
         {
           "id": "SA3::hotel charf",
@@ -50663,8 +51783,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Charf",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "SA3::hotel gomassine",
@@ -50707,8 +51831,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Gomassine",
-            "comment": ""
-          }
+            "comment": "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
+          },
+          "stComments": [
+            "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
+          ],
+          "stCommentImport": "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
         },
         {
           "id": "SA3::hotel grand plaza",
@@ -50751,8 +51879,14 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Grand Plaza",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio."
+          },
+          "stComments": [
+            "Service exists in Kaptio.",
+            "Service exists in Kaptio. FIT rates same as IG for 2027",
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio."
         },
         {
           "id": "SA3::hotel gray boutique",
@@ -50795,8 +51929,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Gray Boutique Hotel Casablanca 42 suites",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for IG and FIT 2026-2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for IG and FIT 2026-2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for IG and FIT 2026-2027"
         },
         {
           "id": "SA3::hotel hilton",
@@ -51010,8 +52148,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Le Musee",
-            "comment": ""
-          }
+            "comment": "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027"
+          },
+          "stComments": [
+            "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027"
+          ],
+          "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027"
         },
         {
           "id": "SA3::hotel les saisons",
@@ -51054,8 +52196,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Les Saisons",
-            "comment": ""
-          }
+            "comment": "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          },
+          "stComments": [
+            "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          ],
+          "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates"
         },
         {
           "id": "SA3::hotel longue vie",
@@ -51182,8 +52328,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Mont Gueliz",
-            "comment": ""
-          }
+            "comment": "Existing service in Kaptio. FIT assignment added in Price Manager/ 2027 FIT rates same as 2026"
+          },
+          "stComments": [
+            "Existing service in Kaptio. FIT assignment added in Price Manager/ 2027 FIT rates same as 2026"
+          ],
+          "stCommentImport": "Existing service in Kaptio. FIT assignment added in Price Manager/ 2027 FIT rates same as 2026"
         },
         {
           "id": "SA3::hotel oasis & spa",
@@ -51268,8 +52418,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Olympic",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "SA3::hotel oscar",
@@ -51356,8 +52510,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Parador",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027"
         },
         {
           "id": "SA3::hotel rose valley",
@@ -51400,8 +52558,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Rose Valley",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "SA3::hotel swani",
@@ -51444,8 +52606,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Swani",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "SA3::hotel taddart",
@@ -51529,8 +52695,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027"
         },
         {
           "id": "SA3::hotel tomboctou xaluca",
@@ -51617,8 +52787,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Volubilis",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "SA3::hotel xaluca dades",
@@ -51705,8 +52879,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Yasmina Hotel and Camps",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. 2027 FIT rates not available"
+          },
+          "stComments": [
+            "Service exists in Kaptio. 2027 FIT rates not available"
+          ],
+          "stCommentImport": "Service exists in Kaptio. 2027 FIT rates not available"
         },
         {
           "id": "SA3::idou anfa hotel & spa",
@@ -51750,8 +52928,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Idou Anfa Hotel & Spa",
-            "comment": ""
-          }
+            "comment": "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          },
+          "stComments": [
+            "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          ],
+          "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates"
         },
         {
           "id": "SA3::kasbah ait ben damiette",
@@ -52004,8 +53186,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Ksar Timnay",
-            "comment": ""
-          }
+            "comment": "Service exisitng in Kaptio"
+          },
+          "stComments": [
+            "Service exisitng in Kaptio"
+          ],
+          "stCommentImport": "Service exisitng in Kaptio"
         },
         {
           "id": "SA3::la colombe blanche",
@@ -52130,8 +53316,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "SA3::lodge hara oasis hb",
@@ -52173,8 +53363,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         },
         {
           "id": "SA3::marina bay",
@@ -52304,8 +53498,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Mia Hotels",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "SA3::moroccan house hotel marrakech",
@@ -52348,8 +53546,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Moroccan House Hotel Marrakech",
-            "comment": ""
-          }
+            "comment": "Service exisitng in Kaptio. Same rates for IG and FIT 2026/2027"
+          },
+          "stComments": [
+            "Service exisitng in Kaptio. Same rates for IG and FIT 2026/2027"
+          ],
+          "stCommentImport": "Service exisitng in Kaptio. Same rates for IG and FIT 2026/2027"
         },
         {
           "id": "SA3::palais houyam",
@@ -52393,8 +53595,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad Houyam",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "SA3::palais ommeyad",
@@ -52522,8 +53728,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
         },
         {
           "id": "SA3::riad & camp chebbi",
@@ -52780,8 +53990,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad Chakir Mogador",
-            "comment": ""
-          }
+            "comment": "Existing service in Kaptio. Sames rates for IG and FIT for 2026"
+          },
+          "stComments": [
+            "Existing service in Kaptio. Sames rates for IG and FIT for 2026"
+          ],
+          "stCommentImport": "Existing service in Kaptio. Sames rates for IG and FIT for 2026"
         },
         {
           "id": "SA3::riad chbanate",
@@ -52825,8 +54039,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad Chbanate",
-            "comment": ""
-          }
+            "comment": "Service Already Exist"
+          },
+          "stComments": [
+            "Service Already Exist"
+          ],
+          "stCommentImport": "Service Already Exist"
         },
         {
           "id": "SA3::riad el palacio & spa",
@@ -52869,8 +54087,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad El Palacio & Spa",
-            "comment": ""
-          }
+            "comment": "Newly created service with the same rates for FIT and IG for 2026"
+          },
+          "stComments": [
+            "Newly created service with the same rates for FIT and IG for 2026",
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Newly created service with the same rates for FIT and IG for 2026"
         },
         {
           "id": "SA3::riad fes ziyat",
@@ -53081,8 +54304,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad la Cle d’Or",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "SA3::riad lamane",
@@ -53251,8 +54478,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad Marrakech by Hivernage",
-            "comment": ""
-          }
+            "comment": "Exisiting service in Kaptio. 2026 group rates same as FIT."
+          },
+          "stComments": [
+            "Exisiting service in Kaptio. 2026 group rates same as FIT."
+          ],
+          "stCommentImport": "Exisiting service in Kaptio. 2026 group rates same as FIT."
         },
         {
           "id": "SA3::riad mimouna",
@@ -53295,8 +54526,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad Mimouna",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "SA3::riad nesma",
@@ -53339,8 +54574,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad Nesma",
-            "comment": ""
-          }
+            "comment": "Existing service in Kaptio. Sames rates for FIT and IG/Group series for both 2026 and 2027"
+          },
+          "stComments": [
+            "Existing service in Kaptio. Sames rates for FIT and IG/Group series for both 2026 and 2027"
+          ],
+          "stCommentImport": "Existing service in Kaptio. Sames rates for FIT and IG/Group series for both 2026 and 2027"
         },
         {
           "id": "SA3::riad ouinz",
@@ -53425,8 +54664,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad Oussagou",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "SA3::riad raoud rayhane",
@@ -53469,8 +54712,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad Raoud Rayhan",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "SA3::riad ritaj",
@@ -53513,8 +54760,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad Ritaj",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. Same rates for IG and FIT"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for IG and FIT"
         },
         {
           "id": "SA3::riad sayeda al hora",
@@ -53557,8 +54808,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad Sayeda al Hora",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series"
+          },
+          "stComments": [
+            "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series"
+          ],
+          "stCommentImport": "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series"
         },
         {
           "id": "SA3::riad tafilalet",
@@ -53601,8 +54856,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad Tafilalet",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "SA3::sahara aventure",
@@ -53687,8 +54946,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Sahara Aventures",
-            "comment": ""
-          }
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026",
+            "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026"
         },
         {
           "id": "SA3::skoura lodge",
@@ -53773,8 +55037,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Stars Hotel",
-            "comment": ""
-          }
+            "comment": "Service exisitng in Kaptio. Same rates for IG and FIT 2026/2027"
+          },
+          "stComments": [
+            "Service exisitng in Kaptio. Same rates for IG and FIT 2026/2027"
+          ],
+          "stCommentImport": "Service exisitng in Kaptio. Same rates for IG and FIT 2026/2027"
         },
         {
           "id": "SA3::the view agadir",
@@ -53817,8 +55085,14 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "The View Hotels",
-            "comment": ""
-          }
+            "comment": "already in kaptio"
+          },
+          "stComments": [
+            "already in kaptio",
+            "New Service | Allocation Minimum 4 Nights",
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "already in kaptio"
         },
         {
           "id": "SA3::the white camel",
@@ -53859,8 +55133,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Only Supplier account exists"
+          },
+          "stComments": [
+            "Only Supplier account exists"
+          ],
+          "stCommentImport": "Only Supplier account exists"
         },
         {
           "id": "SA3::villa pomme d'or",
@@ -53943,8 +55221,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
+            "comment": "Service does not exist in Kaptio"
+          },
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio"
         }
       ]
     },
@@ -54002,8 +55284,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "2 Ciels Luxury Boutique",
-            "comment": ""
-          }
+            "comment": "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
+          },
+          "stComments": [
+            "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
+          ],
+          "stCommentImport": "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
         },
         {
           "id": "SA5::cheese tasting",
@@ -54050,8 +55336,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA5::executive boutique hotel rabat",
@@ -54098,8 +55388,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Executive Boutique Hotel",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio.Same rates for IG and FIT"
+          },
+          "stComments": [
+            "Service exists in Kaptio.Same rates for IG and FIT"
+          ],
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT"
         },
         {
           "id": "SA5::idou anfa hotel & spa",
@@ -54150,8 +55444,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "9; Idou Anfa Hotel & Spa",
-            "comment": ""
-          }
+            "comment": "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          },
+          "stComments": [
+            "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          ],
+          "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates"
         },
         {
           "id": "SA5::maison du sud",
@@ -54199,8 +55497,13 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "2 Ciels Luxury Boutique; Maison du Sud",
-            "comment": ""
-          }
+            "comment": "Already loaded in Kaptio for 2026 / 2027"
+          },
+          "stComments": [
+            "Already loaded in Kaptio for 2026 / 2027",
+            "Service Already Exist"
+          ],
+          "stCommentImport": "Already loaded in Kaptio for 2026 / 2027"
         },
         {
           "id": "SA5::mia hotel - fes",
@@ -54254,8 +55557,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Mia Hotel",
-            "comment": ""
-          }
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "SA5::morocco - leader communication allowance",
@@ -54327,8 +55634,12 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Crew Services",
-            "comment": ""
-          }
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA5::riad chbanate",
@@ -54378,11 +55689,17 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "2 Ciels Luxury Boutique",
-            "comment": ""
-          }
+            "comment": "Service Already Exist"
+          },
+          "stComments": [
+            "Service Already Exist"
+          ],
+          "stCommentImport": "Service Already Exist"
         }
       ]
     }
   ],
-  "total": 929
+  "total": 929,
+  "stCommentsSource": "Service Template Comment column (16 Nov workbook + Siham CSV extras). Notes only, not Yes/No.",
+  "stCommentsCards": 318
 };

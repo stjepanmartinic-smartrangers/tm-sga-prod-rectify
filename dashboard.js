@@ -506,23 +506,21 @@
       { label: "On Prod, no 2027", value: mix["On Prod, no 2027"] || 0, color: "#d97706" },
       { label: "Not on Prod", value: mix["Not on Prod"] || 0, color: "#9b1c1c" },
     ]);
-    function fillPkgPie(elId, capId, rows, label) {
+    function fillReadyPie(elId, capId, ready, total, noun) {
       const el = document.getElementById(elId);
       if (!el) return;
-      const n = rows.length;
-      const ready = rows.filter((p) => p.firstInsertReady).length;
-      const slices = [
-        { label: "First-insert ready", value: ready, color: "#1f6b4a" },
-        { label: "Not yet", value: Math.max(0, n - ready), color: "#d97706" },
-      ];
-      el.innerHTML = doughnut(slices);
+      const n = Number(total) || 0;
+      const ok = Number(ready) || 0;
+      el.innerHTML = doughnut([
+        { label: "Ready", value: ok, color: "#1f6b4a" },
+        { label: "Not ready", value: Math.max(0, n - ok), color: "#9b1c1c" },
+      ]);
       const cap = document.getElementById(capId);
-      if (cap) {
-        cap.textContent = `${ready} of ${n} ${label} first-insert ready. Each slice is a package, not a service.`;
-      }
+      if (cap) cap.textContent = `${ok} of ${n} ${noun} ready.`;
     }
-    fillPkgPie("chartFitPie", "fitPieCaption", s.pkgRows || [], "FIT packages");
-    fillPkgPie("chartSgaPie", "sgaPieCaption", s.sgaPkgRows || [], "SGA packages");
+    fillReadyPie("chartFitPie", "fitPieCaption", (s.pkgRows || []).filter((p) => p.firstInsertReady).length, (s.pkgRows || []).length, "FIT packages");
+    fillReadyPie("chartSgaPie", "sgaPieCaption", (s.sgaPkgRows || []).filter((p) => p.firstInsertReady).length, (s.sgaPkgRows || []).length, "SGA packages");
+    fillReadyPie("chartSvcPie", "svcPieCaption", s.servicesFirstInsert || 0, s.uniqueSvc || 0, "unique services");
     const sheetRows = (s.sheets || []).slice().sort(cmpSheets);
     document.getElementById("chartSheets").innerHTML =
       `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = Decided · Amber = Not decided</div>` +

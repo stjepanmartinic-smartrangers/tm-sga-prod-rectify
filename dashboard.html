@@ -31,6 +31,7 @@
       padding: 10px 12px; border-radius: 8px; margin-bottom: 16px; }
     .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
     .grid.wide { grid-template-columns: 1fr; }
+    .grid.three { grid-template-columns: 1fr 1fr 1fr; }
     .chart-card {
       background: var(--paper); border: 1px solid var(--line); border-radius: 12px;
       padding: 14px 16px 10px;
@@ -76,7 +77,7 @@
     .muted { color: var(--muted); }
     .detail { font-size: 12px; color: var(--muted); }
     @media (max-width: 900px) {
-      .grid { grid-template-columns: 1fr; }
+      .grid, .grid.three { grid-template-columns: 1fr; }
       .chart-box, .chart-box.tall { height: auto; min-height: 0; }
       .pkg-row { grid-template-columns: 1fr; }
     }
@@ -96,6 +97,23 @@
     <div class="answers" id="answers"></div>
     <div class="help" id="defs"></div>
 
+    <div class="grid three">
+      <div class="chart-card">
+        <h3>FIT packages</h3>
+        <p id="fitPieCaption">Each slice is one TailorMade / FIT package</p>
+        <div class="chart-box" id="chartFitPie"></div>
+      </div>
+      <div class="chart-card">
+        <h3>SGA packages</h3>
+        <p id="sgaPieCaption">Each slice is one SGA trip</p>
+        <div class="chart-box" id="chartSgaPie"></div>
+      </div>
+      <div class="chart-card">
+        <h3>Services ready</h3>
+        <p id="svcPieCaption">Each slice is a unique service. Ready = every required problem pill is green.</p>
+        <div class="chart-box" id="chartSvcPie"></div>
+      </div>
+    </div>
     <div class="grid">
       <div class="chart-card">
         <h3>Decision tool — cards decided vs open</h3>
@@ -125,18 +143,6 @@
         <h3>Open cards by problem tab</h3>
         <p>Green = Decided · Amber = Not decided. Names are the actual problem, not the tab code.</p>
         <div class="chart-box" id="chartSheets"></div>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="chart-card">
-        <h3>FIT packages</h3>
-        <p id="fitPieCaption">Each slice is one TailorMade / FIT package, not a service</p>
-        <div class="chart-box" id="chartFitPie"></div>
-      </div>
-      <div class="chart-card">
-        <h3>SGA packages</h3>
-        <p id="sgaPieCaption">Each slice is one SGA trip, not a service</p>
-        <div class="chart-box" id="chartSgaPie"></div>
       </div>
     </div>
     <div class="grid wide">
@@ -209,7 +215,7 @@
 
     <footer id="foot"></footer>
   </div>
-  <script src="dashboard-data.js?v=20261116p"></script>
-  <script src="dashboard.js?v=20261116p"></script>
+  <script src="dashboard-data.js?v=20261116q"></script>
+  <script src="dashboard.js?v=20261116q"></script>
 </body>
 </html>

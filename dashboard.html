@@ -57,6 +57,15 @@
     .tag.yes { background: var(--yes-bg); color: var(--yes); }
     .tag.open { background: var(--open-bg); color: var(--open); }
     .tag.no { background: var(--no-bg); color: var(--no); }
+    .pills { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+    .pkg-row {
+      display: grid;
+      grid-template-columns: minmax(140px, 230px) 1fr minmax(120px, auto);
+      gap: 8px 10px; align-items: center;
+      padding: 8px 2px; border-bottom: 1px solid var(--line); font-size: 13px;
+    }
+    .pkg-row:last-child { border-bottom: 0; }
+    .pkg-list { margin: 0; }
     .filters { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 10px; }
     input[type="search"], select {
       border: 1px solid var(--line); background: var(--paper); padding: 8px 10px;
@@ -68,7 +77,8 @@
     .detail { font-size: 12px; color: var(--muted); }
     @media (max-width: 900px) {
       .grid { grid-template-columns: 1fr; }
-      .chart-box, .chart-box.tall { height: 320px; }
+      .chart-box, .chart-box.tall { height: auto; min-height: 0; }
+      .pkg-row { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -131,15 +141,15 @@
     </div>
     <div class="grid wide">
       <div class="chart-card">
-        <h3>FIT packages — first-insert ready?</h3>
-        <p>One bar per package. Green = first-insert ready, amber = not yet. This is packages, not services.</p>
+        <h3>FIT packages — ready to install?</h3>
+        <p>One row per package. Green pill = that tab is ready. Red = still open. Ready to install only when every pill is green.</p>
         <div class="chart-box" id="chartPkgs"></div>
       </div>
     </div>
     <div class="grid wide">
       <div class="chart-card">
-        <h3>SGA packages — first-insert ready?</h3>
-        <p>One bar per SGA trip. Green = first-insert ready, amber = not yet. This is packages, not services.</p>
+        <h3>SGA packages — ready to install?</h3>
+        <p>One row per SGA trip. Green pill = that tab is ready. Red = still open. Ready to install only when every pill is green. P1 does not apply to SGA.</p>
         <div class="chart-box" id="chartSgaPkgs"></div>
       </div>
     </div>
@@ -152,15 +162,15 @@
     </div>
 
     <h2>1. FIT packages — ready for import?</h2>
-    <p class="muted">20 TailorMade / FIT package sheets. First-insert ready means names, supplier, location and type are decided. Prices, FIT and agreements are still deferred. Notes in the tool win over a conflicting Yes. Unclear P6 maps are skipped.</p>
+    <p class="muted">20 TailorMade / FIT packages. Green pill = that tab is ready; red = not ready. A package can be installed only when every pill is green (P1, P2, P5, P9, P10, P11, SA5). Prices, FIT and agreements stay deferred. Notes in the tool win over a conflicting Yes.</p>
     <div id="pkgTable"></div>
 
     <h2>1b. SGA packages — ready for import?</h2>
-    <p class="muted">18 SGA trips, scored the same way as FIT. P1 (not on Service Template) does not apply to SGA. Account-level supplier agreements are OK.</p>
+    <p class="muted">18 SGA trips, same pills as FIT. P1 does not apply. Account-level supplier agreements are OK. Ready to install only when every pill is green.</p>
     <div id="sgaPkgTable"></div>
 
-    <h2>2. Problematic services still open</h2>
-    <p class="muted">Unique service names with at least one open card in the decision tool.</p>
+    <h2>2. Services — ready to install?</h2>
+    <p class="muted">Unique service names. Same required tabs as packages (P1, P2, P5, P9, P10, P11, SA5). Green = ready, red = not ready. Ready to install only when every pill is green. Prices / FIT / agreements are not on these pills.</p>
     <div class="filters">
       <input type="search" id="svcQ" placeholder="Search service…" />
     </div>
@@ -199,7 +209,7 @@
 
     <footer id="foot"></footer>
   </div>
-  <script src="dashboard-data.js?v=20261116m"></script>
-  <script src="dashboard.js?v=20261116m"></script>
+  <script src="dashboard-data.js?v=20261116n"></script>
+  <script src="dashboard.js?v=20261116n"></script>
 </body>
 </html>

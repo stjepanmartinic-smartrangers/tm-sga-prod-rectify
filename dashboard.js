@@ -1,6 +1,7 @@
 (() => {
   const STORE = "https://tm-sga-prod-rectify-store.graceful-kryptops.workers.dev";
-  const BLOCKING = new Set(["P1", "P2", "P5", "P9", "P10", "P11", "SA5"]);
+  const INSTALL_SHEETS = ["P1", "P2", "P5", "P9", "P10", "P11", "SA5"];
+  const BLOCKING = new Set(INSTALL_SHEETS);
   const data = window.DASHBOARD_DATA;
   if (!data) {
     const err = document.getElementById("err") || document.body;
@@ -20,22 +21,28 @@
   }
 
   function emptyPkg(name) {
-    return { name, yes: 0, open: 0, cards: 0, blocking: {}, firstInsertReady: true, fullyReady: true };
+    return { name, yes: 0, open: 0, cards: 0, blocking: {}, sheets: {}, firstInsertReady: true, fullyReady: true };
   }
 
   function addToPkg(map, name, card, ch) {
     if (!map[name]) return;
     const p = map[name];
     p.cards += 1;
-    if (ch === "yes") p.yes += 1;
-    else if (ch === "open") {
+    if (!p.sheets[card.sheet]) p.sheets[card.sheet] = { open: 0, decided: 0 };
+    if (ch === "yes") {
+      p.yes += 1;
+      p.sheets[card.sheet].decided += 1;
+    } else if (ch === "open") {
       p.open += 1;
+      p.sheets[card.sheet].open += 1;
       p.fullyReady = false;
       if (BLOCKING.has(card.sheet)) {
         p.firstInsertReady = false;
         p.blocking[card.sheet] = (p.blocking[card.sheet] || 0) + 1;
       }
-    } else if (ch !== "no" && ch !== "done") {
+    } else if (ch === "no" || ch === "done") {
+      p.sheets[card.sheet].decided += 1;
+    } else {
       p.fullyReady = false;
     }
     if (card.sheet === "P6" && ch === "yes") p.fullyReady = false;
@@ -46,27 +53,69 @@
     return p.name;
   }
 
-  function blockTxtOf(p) {
-    const block = p.blocking
-      ? Object.entries(p.blocking).map(([k, v]) => `${k} ${v}`).join(", ")
-      : (p.openBlocking || []).reduce((acc, x) => {
-          acc[x.sheet] = (acc[x.sheet] || 0) + 1;
-          return acc;
-        }, {});
-    return typeof block === "string" ? block : Object.entries(block).map(([k, v]) => `${k} ${v}`).join(", ");
+  function installSheetsOf(kind) {
+    return kind === "sga" ? INSTALL_SHEETS.filter((id) => id !== "P1") : INSTALL_SHEETS.slice();
   }
 
-  function pkgTableHtml(rows) {
+  function sheetOpenCount(p, id) {
+    if (p.sheets && p.sheets[id]) return Number(p.sheets[id].open) || 0;
+    if (p.blocking && p.blocking[id]) return Number(p.blocking[id]) || 0;
+    if (p.bySheet && p.bySheet[id]) return Number(p.bySheet[id].open) || 0;
+    if (p.openBlocking) return p.openBlocking.filter((x) => x.sheet === id).length;
+    return 0;
+  }
+
+  function isInstallReady(p, kind) {
+    return installSheetsOf(kind).every((id) => sheetOpenCount(p, id) === 0);
+  }
+
+  function pillsHtml(ids, openCountFn) {
+    return `<span class="pills">${ids.map((id) => {
+      const n = Number(openCountFn(id)) || 0;
+      const ok = n === 0;
+      const label = !ok && n > 1 ? id + " · " + n : id;
+      return `<span class="tag ${ok ? "yes" : "no"}" title="${ok ? id + " ready" : id + " not ready (" + n + " open)"}">${esc(label)}</span>`;
+    }).join("")}</span>`;
+  }
+
+  function pkgRowHtml(p, kind) {
+    const ids = installSheetsOf(kind);
+    const ready = isInstallReady(p, kind);
+    return `<div class="pkg-row">
+      <div>${esc(pkgLabel(p))}</div>
+      <div>${pillsHtml(ids, (id) => sheetOpenCount(p, id))}</div>
+      <div>${ready ? tag("yes", "Ready to install") : tag("no", "Not ready")}</div>
+    </div>`;
+  }
+
+  function pkgListHtml(rows, kind) {
+    return `<div class="pkg-list">${rows.map((p) => pkgRowHtml(p, kind)).join("")}</div>`;
+  }
+
+  function pkgTableHtml(rows, kind) {
+    const ids = installSheetsOf(kind);
     return `<table>
-      <thead><tr><th>Package</th><th>Ready?</th><th>Yes</th><th>Open</th><th>Still blocking first insert</th></tr></thead>
-      <tbody>${rows.map((p) => `<tr>
-        <td>${esc(pkgLabel(p))}</td>
-        <td>${p.firstInsertReady ? tag("yes", "First-insert ready") : tag("open", "Not yet")}</td>
-        <td>${p.yes}</td>
-        <td>${p.open}</td>
-        <td class="detail">${esc(blockTxtOf(p) || "—")}</td>
-      </tr>`).join("")}</tbody>
+      <thead><tr><th>Package</th><th>Required tabs</th><th>Install?</th></tr></thead>
+      <tbody>${rows.map((p) => {
+        const ready = isInstallReady(p, kind);
+        return `<tr>
+          <td>${esc(pkgLabel(p))}</td>
+          <td>${pillsHtml(ids, (id) => sheetOpenCount(p, id))}</td>
+          <td>${ready ? tag("yes", "Ready to install") : tag("no", "Not ready")}</td>
+        </tr>`;
+      }).join("")}</tbody>
     </table>`;
+  }
+
+  function svcOpenOn(row, id) {
+    if (row.sheets && row.sheets[id]) return Number(row.sheets[id].open) || 0;
+    if ((row.openSheets || []).includes(id)) return 1;
+    return 0;
+  }
+
+  function svcInstallReady(row) {
+    if (typeof row.firstInsertReady === "boolean") return row.firstInsertReady;
+    return !INSTALL_SHEETS.some((id) => svcOpenOn(row, id) > 0);
   }
 
   function statusOf(row) {
@@ -169,13 +218,16 @@
           else st.open += 1;
         }
         const k = fold(c.service);
-        if (!svcState[k]) svcState[k] = { anyOpen: false, blockingOpen: false, decided: false };
+        if (!svcState[k]) svcState[k] = { service: c.service, anyOpen: false, blockingOpen: false, decided: false, sheets: {} };
+        if (!svcState[k].sheets[c.sheet]) svcState[k].sheets[c.sheet] = { open: 0, decided: 0 };
         if (ch === "open") {
+          svcState[k].sheets[c.sheet].open += 1;
           if (!svcOpen[k]) svcOpen[k] = { service: c.service, sheets: new Set() };
           svcOpen[k].sheets.add(c.sheet);
           svcState[k].anyOpen = true;
           if (BLOCKING.has(c.sheet)) svcState[k].blockingOpen = true;
         } else if (ch === "yes" || ch === "no" || ch === "done") {
+          svcState[k].sheets[c.sheet].decided += 1;
           svcState[k].decided = true;
         }
         const on = (c.tmOn && c.tmOn.length ? c.tmOn : c.packages) || [];
@@ -243,19 +295,25 @@
       Decision tool: <a href="${esc(data.rectifyUrl)}">${esc(data.rectifyUrl)}</a>. Yes in the tool: ${toolYes} across ${servicesWithDecision} unique services. Still open: ${toolOpen}.`;
 
     const pkgRows = (useLive ? Object.values(pkg) : data.tmPackages).sort((a, b) => a.name.localeCompare(b.name));
-    document.getElementById("pkgTable").innerHTML = pkgTableHtml(pkgRows);
+    document.getElementById("pkgTable").innerHTML = pkgTableHtml(pkgRows, "tm");
     const sgaPkgRows = (useLive ? Object.values(sgaPkg) : sgaRowsBaked).sort((a, b) => a.name.localeCompare(b.name));
     const sgaPkgBox = document.getElementById("sgaPkgTable");
-    if (sgaPkgBox) sgaPkgBox.innerHTML = pkgTableHtml(sgaPkgRows);
+    if (sgaPkgBox) sgaPkgBox.innerHTML = pkgTableHtml(sgaPkgRows, "sga");
 
     const svcList = useLive
-      ? Object.values(svcOpen).map((row) => ({
+      ? Object.values(svcState).map((row) => ({
           service: row.service,
-          openSheets: [...row.sheets].sort(),
-          openCount: row.sheets.size,
+          sheets: row.sheets,
+          openCount: Object.values(row.sheets).reduce((n, s) => n + (s.open ? 1 : 0), 0),
+          firstInsertReady: !row.blockingOpen,
         }))
-      : data.problematicServices;
-    svcList.sort((a, b) => b.openCount - a.openCount || a.service.localeCompare(b.service));
+      : (data.problematicServices || []).map((r) => ({
+          service: r.service,
+          openSheets: r.openSheets || [],
+          openCount: r.openCount || (r.openSheets || []).length,
+          firstInsertReady: !(r.openSheets || []).some((id) => BLOCKING.has(id)),
+        }));
+    svcList.sort((a, b) => Number(!!a.firstInsertReady) - Number(!!b.firstInsertReady) || b.openCount - a.openCount || a.service.localeCompare(b.service));
     window._svcList = svcList;
     drawSvc();
 
@@ -454,14 +512,14 @@
       })));
     const pkgs = (s.pkgRows || []).slice().sort((a, b) => a.name.localeCompare(b.name));
     document.getElementById("chartPkgs").innerHTML =
-      `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = first-insert ready · Amber = not yet</div>` +
-      stackedBars(pkgs.map((p) => ({ label: p.name, ready: !!p.firstInsertReady })), "ready");
+      `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = ready · Red = not ready · Ready to install only when every pill is green</div>` +
+      pkgListHtml(pkgs, "tm");
     const sgaPkgs = (s.sgaPkgRows || []).slice().sort((a, b) => a.name.localeCompare(b.name));
     const sgaChart = document.getElementById("chartSgaPkgs");
     if (sgaChart) {
       sgaChart.innerHTML =
-        `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = first-insert ready · Amber = not yet</div>` +
-        stackedBars(sgaPkgs.map((p) => ({ label: p.name, ready: !!p.firstInsertReady })), "ready");
+        `<div style="margin-bottom:6px;font-size:12px;color:#5c564c">Green = ready · Red = not ready · Ready to install only when every pill is green</div>` +
+        pkgListHtml(sgaPkgs, "sga");
     }
     const trips = data.sgaPricing || [];
     document.getElementById("chartSgaTrips").innerHTML =
@@ -481,11 +539,15 @@
     const q = (document.getElementById("svcQ").value || "").trim().toLowerCase();
     const rows = (window._svcList || []).filter((r) => !q || r.service.toLowerCase().includes(q));
     document.getElementById("svcTable").innerHTML = `<table>
-      <thead><tr><th>Service</th><th>Open tabs</th></tr></thead>
-      <tbody>${rows.slice(0, 200).map((r) => `<tr>
-        <td>${esc(r.service)}</td>
-        <td>${esc((r.openSheets || []).join(", "))}</td>
-      </tr>`).join("")}${rows.length > 200 ? `<tr><td colspan="2" class="muted">Showing 200 of ${rows.length}. Search to narrow.</td></tr>` : ""}</tbody>
+      <thead><tr><th>Service</th><th>Tabs</th><th>Install?</th></tr></thead>
+      <tbody>${rows.slice(0, 200).map((r) => {
+        const ready = svcInstallReady(r);
+        return `<tr>
+          <td>${esc(r.service)}</td>
+          <td>${pillsHtml(INSTALL_SHEETS, (id) => svcOpenOn(r, id))}</td>
+          <td>${ready ? tag("yes", "Ready to install") : tag("no", "Not ready")}</td>
+        </tr>`;
+      }).join("")}${rows.length > 200 ? `<tr><td colspan="3" class="muted">Showing 200 of ${rows.length}. Search to narrow.</td></tr>` : ""}</tbody>
     </table>`;
   }
 

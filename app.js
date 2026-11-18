@@ -370,7 +370,7 @@
       P2: "On package and ST, no exact Prod Item, but a close name exists. Yes = rename ST to the selected Prod name. No = treat as brand new; create from ST.",
       P4: "On a package and on Prod, but pricing is missing, inactive, or missing 2027. Yes = insert the ST price (or fill prices if ST has none). No = keep the Prod price.",
       P5: "ST supplier does not match Prod. Pick the Prod account, keep ST, or No if a different / new account is needed.",
-      P6: "Package PC names do not match ST/Prod. Yes = map to the existing ST/Prod names. No = do not apply the map; new price categories will be created from the package names.",
+      P6: "Package PC names do not match ST/Prod. This tab blocks Ready until every card is Yes or No. Yes = map to the existing ST/Prod names. No = do not apply the map; new price categories will be created from the package names.",
       P8: "Prod has Group Tour pricing only. Yes = FIT is required (FIT prices will be added). No = Group Tour only is fine; no FIT will be added.",
       P9: "ST/template location does not overlap Prod. Pick Prod, keep ST, or No if neither is right.",
       P10: "Package/ST type has no overlap with the Prod record type. Pick Prod, keep ST, or No if both are wrong.",

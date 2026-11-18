@@ -1,6 +1,6 @@
 (() => {
   const STORE = "https://tm-sga-prod-rectify-store.graceful-kryptops.workers.dev";
-  const INSTALL_SHEETS = ["P1", "P2", "P5", "P9", "P10", "P11", "SA5"];
+  const INSTALL_SHEETS = ["P1", "P2", "P5", "P6", "P9", "P10", "P11", "SA5"];
   const BLOCKING = new Set(INSTALL_SHEETS);
   const SHEET_NAMES = {
     P1: "Missing in template",
@@ -59,7 +59,6 @@
     } else {
       p.fullyReady = false;
     }
-    if (card.sheet === "P6" && ch === "yes") p.fullyReady = false;
   }
 
   function pkgLabel(p) {

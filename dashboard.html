@@ -189,7 +189,7 @@
     <div class="grid">
       <div class="chart-card from-live">
         <h3>Unique services — fully decided vs Ready <span class="src-tag live">Live answers</span></h3>
-        <p>Each slice is one service name. Fully decided = every problem closed, including prices and agreements. Ready = required pills green, prices/agreements may still be open. Not ready = a required pill is still red.</p>
+        <p>Each slice is one service name. Fully decided = every problem closed, including prices and agreements. Ready = required pills green (including occupancy names); prices, FIT and agreements may still be open. Not ready = a required pill is still red.</p>
         <div class="chart-box" id="chartSvcMix"></div>
       </div>
       <div class="chart-card from-live">
@@ -236,7 +236,7 @@
 
     </div>
     <h2 id="dash-packages">1. FIT packages — ready? <span class="src-tag live">Live answers</span></h2>
-    <p class="muted">Same list as the FIT pie. Green pill = that problem is ready; red = not ready. Ready only when every pill is green. Price missing, occupancy names, FIT prices and agreements stay deferred. Notes in the tool win over a conflicting Yes.</p>
+    <p class="muted">Same list as the FIT pie. Green pill = that problem is ready; red = not ready. Ready only when every pill is green, including occupancy names. Price missing, FIT prices and agreements stay deferred. Notes in the tool win over a conflicting Yes.</p>
     <div id="pkgTable"></div>
 
     <h2>1b. SGA packages — ready? <span class="src-tag live">Live answers</span></h2>
@@ -244,7 +244,7 @@
     <div id="sgaPkgTable"></div>
 
     <h2 id="dash-services">2. Services — ready? <span class="src-tag live">Live answers</span></h2>
-    <p class="muted">Same as the Services ready pie. Unique service names. Green = ready, red = not ready. Ready only when every pill is green. Price missing, occupancy names, FIT prices and agreements are not on these pills.</p>
+    <p class="muted">Same as the Services ready pie. Unique service names. Green = ready, red = not ready. Ready only when every pill is green, including occupancy names. Price missing, FIT prices and agreements are not on these pills.</p>
     <div class="filters">
       <input type="search" id="svcQ" placeholder="Search service…" />
     </div>
@@ -336,7 +336,7 @@
 
     <footer id="foot"></footer>
   </div>
-  <script src="dashboard-data.js?v=20261118f"></script>
-  <script src="dashboard.js?v=20261118f"></script>
+  <script src="dashboard-data.js?v=20261118g"></script>
+  <script src="dashboard.js?v=20261118g"></script>
 </body>
 </html>

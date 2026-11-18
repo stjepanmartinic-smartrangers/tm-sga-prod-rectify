@@ -30,7 +30,7 @@ The header shows **% decided in total** (all P/SA cards). It updates as Yes/No a
 
 **P3 Brand new no Prod** was removed. If the name is not on Prod (no exact Item, no usable fuzzy match), ST is the source of truth and the service is created from ST later — no team decision.
 
-**P6 PC name mismatch:** Yes = map package PCs to the existing ST/Prod names. No = do not apply the map; **new price categories will be created** from the package names.
+**P6 PC name mismatch:** blocks Ready until every card is Yes or No. Yes = map package PCs to the existing ST/Prod names. No = do not apply the map; **new price categories will be created** from the package names.
 
 Every P and SA tab has a short Yes/No description at the top. After you pick an option, the card shows what that choice will do (same pattern as P6 No).
 

@@ -22980,7 +22980,7 @@ window.ISSUE_DATA = {
       "title": "PC name mismatch",
       "sheet": "P6 PC name mismatch",
       "workbook": "pricing",
-      "help": "Package PC names do not match ST/Prod. Yes = map to the existing ST/Prod names. No = do not apply the map; new price categories will be created from the package names.",
+      "help": "Package PC names do not match ST/Prod. This tab blocks Ready until every card is Yes or No. Yes = map to the existing ST/Prod names. No = do not apply the map; new price categories will be created from the package names.",
       "choice": "pc-map",
       "count": 84,
       "issues": [

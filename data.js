@@ -22959,7 +22959,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "Only package occupancies that are not on Prod and not on the Service Template. This tab blocks Ready until every card is Yes or No. Yes = create those package PCs. Occupancies that already exist on Prod or ST are not listed — ST names used on the package are created from ST.",
       "choice": "pc-map",
-      "count": 20,
+      "count": 19,
       "issues": [
         {
           "id": "P6::aday hotel",
@@ -23297,90 +23297,6 @@ window.ISSUE_DATA = {
               "package": "Atlantic Imperials (Rev)",
               "note": "NOT LISTED",
               "prodName": "",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
-          "id": "P6::fondouk nejjarine fes",
-          "service": "Fondouk Nejjarine Fes",
-          "packages": [
-            "C1 Blue North Gateway",
-            "Sahara crossing (Rev)",
-            "The Blue North",
-            "The Blue North (Rev)",
-            "SGA XMFP",
-            "SGA XMKC",
-            "SGA XMKN",
-            "SGA XMPM",
-            "SGA XMSB",
-            "SGA XMSC",
-            "SGA XMSS"
-          ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
-          "also": "",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Fondouk Nejjarine Fes",
-            "Prod Id": "a1HVk000000aBrHMAU",
-            "Package PCs": "Per Group",
-            "ST PCs": "Per Crew; Per Person",
-            "Suggested PC map": "Per Group → create new",
-            "PC issue": "Package PC not on Prod or ST: Per Group",
-            "Active price": "Yes",
-            "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Person 20.0 MAD [FIT]; Per Crew 0.0 MAD [FIT]; Per Person 20.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [
-            {
-              "from": "Per Group",
-              "value": "create new",
-              "score": null
-            }
-          ],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBrHMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Fondouk Nejjarine Fes",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist",
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Fondouk Nejjarine Fes",
-              "prodPc": ""
-            },
-            {
-              "package": "The Blue North",
-              "note": "Use Prod",
-              "prodName": "Fondouk Nejjarine Fes",
               "prodPc": ""
             }
           ]
@@ -44335,9 +44251,9 @@ window.ISSUE_DATA = {
       ]
     }
   ],
-  "total": 692,
+  "total": 691,
   "stCommentsSource": "Service Template Comment column (18 Nov workbook + Siham CSV extras). Notes only, not Yes/No.",
-  "stCommentsCards": 202,
+  "stCommentsCards": 201,
   "nariCommentsSource": "Nari Notes on Atlantic Imperials (Rev), The Blue North, and C1 Blue North Gateway. Notes only, not Yes/No.",
-  "nariCommentsCards": 90
+  "nariCommentsCards": 89
 };

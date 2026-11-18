@@ -440,11 +440,11 @@
       </div>
       <div id="noSaTable"></div>
       <h3 style="font-size:14px;margin:14px 0 6px">Agreements by account</h3>
-      <p class="muted">Complete only if Tailor-made Direct (UK) is assigned on the Prod agreement. Agent (UK) does not count. All 86 Morocco SAs currently have an empty Channels field.</p>
+      <p class="muted">Complete if Tailor-made Direct (UK) is assigned, or Brand Assignment is All Business Units (channel not required). Agent (UK) does not count.</p>
       <div class="dash-filters">
         <select id="accSaFilter">
-          <option value="incomplete">Not complete — missing Tailor-made Direct (UK)</option>
-          <option value="complete">Complete (Tailor-made Direct (UK))</option>
+          <option value="complete">Complete (UK Direct or All Business Units)</option>
+          <option value="incomplete">Not complete — selected BU, missing Tailor-made Direct (UK)</option>
           <option value="with">Have a Prod agreement</option>
           <option value="none">No Prod agreement</option>
           <option value="all">All accounts</option>
@@ -547,8 +547,8 @@
     <a href="#top" data-top>Back to top</a>
   </nav>
   <script src="data.js?v=20261118c"></script>
-  <script src="dashboard-data.js?v=20261118e"></script>
-  <script src="dashboard.js?v=20261116ah"></script>
+  <script src="dashboard-data.js?v=20261118f"></script>
+  <script src="dashboard.js?v=20261118f"></script>
   <script src="app.js?v=20261118d"></script>
 </body>
 </html>

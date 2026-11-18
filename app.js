@@ -290,8 +290,8 @@
     }
     if (kind === "pc-map") {
       return [
-        { value: "yes", label: "Yes — accept the suggested PC map", extra: "" },
-        { value: "no", label: "No — do not apply this map (new price categories will be created)", extra: "" },
+        { value: "yes", label: "Yes — create these package PCs (not on Prod or ST)", extra: "" },
+        { value: "no", label: "No — do not add these occupancies", extra: "" },
       ];
     }
     if (kind === "supplier") {
@@ -370,7 +370,7 @@
       P2: "On package and ST, no exact Prod Item, but a close name exists. Yes = rename ST to the selected Prod name. No = treat as brand new; create from ST.",
       P4: "On a package and on Prod, but pricing is missing, inactive, or missing 2027. Yes = insert the ST price (or fill prices if ST has none). No = keep the Prod price.",
       P5: "ST supplier does not match Prod. Pick the Prod account, keep ST, or No if a different / new account is needed.",
-      P6: "Package PC names do not match ST/Prod. This tab blocks Ready until every card is Yes or No. Yes = map to the existing ST/Prod names. No = do not apply the map; new price categories will be created from the package names.",
+      P6: "Only package occupancies that are not on Prod and not on the Service Template. This tab blocks Ready. Yes = create those package PCs. Occupancies that already exist on Prod or ST are fine (ST names used on the package are created from ST).",
       P8: "Prod has Group Tour pricing only. Yes = FIT is required (FIT prices will be added). No = Group Tour only is fine; no FIT will be added.",
       P9: "ST/template location does not overlap Prod. Pick Prod, keep ST, or No if neither is right.",
       P10: "Package/ST type has no overlap with the Prod record type. Pick Prod, keep ST, or No if both are wrong.",
@@ -465,7 +465,7 @@
     } else if (value === "yes" && sheet.choice === "pc-map") {
       d.selected = (issue.pcMap || []).map((x) => (x.from ? x.from + " → " : "") + x.value).join("; ");
     } else if (value === "no" && sheet.choice === "pc-map") {
-      d.selected = "New price categories will be created";
+      d.selected = "Do not add these occupancies";
     } else if (sheet.choice === "price-st") {
       d.selected = value === "yes" ? "Insert ST price" : "Keep Prod price";
     } else if (value === "no") {
@@ -1416,12 +1416,12 @@
     if (id === "P6") {
       if (c === "no")
         return {
-          title: "New price categories will be created",
-          body: "The package PC names will be added as new price categories instead of mapping them to the ST/Prod names above.",
+          title: "Do not add these occupancies",
+          body: "The package PCs that are not on Prod or ST will not be created.",
         };
       return {
-        title: "Apply the suggested PC map",
-        body: "Package PC names will be mapped to the existing ST/Prod names. No new price categories.",
+        title: "Create these package PCs",
+        body: "Each listed occupancy will be created as a new price category from the package name. Names that already exist on Prod or ST are not in this list.",
       };
     }
     if (id === "P8") {
@@ -1663,7 +1663,7 @@
       <div class="meta">${esc(sheet.id)} · ${esc(issue.action || "")}</div>
       ${prodIdHtml}
       <div class="pkgs">${pkgs}</div>
-      ${pc && sheet.choice === "pc-map" ? `<p><b>Suggested PC map</b><br>${pc}</p>` : ""}
+      ${pc && sheet.choice === "pc-map" ? `<p><b>Package PCs to create</b><br>${pc}</p>` : ""}
       ${priceCompareHtml(issue)}
       <dl class="fields">${fieldRows}</dl>
       <div class="choices">${choice}</div>

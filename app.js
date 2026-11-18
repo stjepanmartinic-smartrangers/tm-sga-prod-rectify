@@ -836,7 +836,6 @@
     if ($("help")) $("help").style.display = isOverview() ? "none" : "";
     if ($("list")) $("list").style.display = isOverview() ? "none" : "";
     if ($("stats")) $("stats").style.display = isOverview() ? "none" : "";
-    if ($("pageFoot")) $("pageFoot").style.display = isOverview() ? "none" : "";
     fillFloatNav();
   }
 

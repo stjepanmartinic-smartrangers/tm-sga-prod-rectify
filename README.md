@@ -1,6 +1,6 @@
 # TailorMade — SGA vs Prod rectify
 
-Hosted app for deciding problem-sheet issues (P1–P2, P4–P6, P8–P11, SA1, SA3, SA5). Cards list **TM packages** and **SGA itineraries** (chips labelled `SGA …`). **P1 Package not in ST** is TM packages only — SGA itinerary services are not expected on ST.
+Hosted app for deciding problem-sheet issues (P1–P2, P4–P6, P8–P11, SA1, SA3, SA5). Cards list **TM packages** and **SGA itineraries** (chips labelled `SGA …`). **18 SGA trips**, including **XMFK** (Morocco Family Holiday Comfort) and **XMPE** (Premium Morocco in Depth). Those two are SGA itineraries, not FIT packages — the Kaptio template tabs with the same codes stay off the FIT list. **P1 Package not in ST** is TM packages only — SGA itinerary services are not expected on ST.
 
 ## Live site
 

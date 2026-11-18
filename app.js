@@ -390,6 +390,13 @@
       text +=
         " These names are not on the Service Template, so there is usually no Comment column. Open Fuzzy name (P2) to see ST comments.";
     }
+    const withN = ((sheet && sheet.issues) || []).filter((i) => (i.nariComments || []).length).length;
+    if (withN) {
+      text +=
+        " " +
+        withN +
+        " cards have a teal Nari note box (Use Prod / Use ST / CHECK / NOT LISTED). Note only — not a Yes / No.";
+    }
     return text;
   }
 
@@ -1550,6 +1557,24 @@
     </div>`;
   }
 
+  function nariCommentHtml(issue) {
+    const recs = issue.nariComments || [];
+    if (!recs.length) return "";
+    const body = recs
+      .map((r) => {
+        const pkg = r.package ? esc(r.package) + ": " : "";
+        const note = esc(r.note || "");
+        const extra = [r.prodName, r.prodPc].filter(Boolean).map(esc).join(" · ");
+        return `<p>${pkg}<b>${note}</b>${extra ? " — " + extra : ""}</p>`;
+      })
+      .join("");
+    return `<div class="nari-comment">
+      <div class="lbl">Nari note</div>
+      ${body}
+      <p class="hint">From Nari Notes on the package sheet. Note only — not a Yes / No.</p>
+    </div>`;
+  }
+
   function priceCompareHtml(issue) {
     const rows = issue.priceCompare || [];
     const dates = issue.stPriceDates || "";
@@ -1616,9 +1641,13 @@
     const commentTag = (issue.stComments || []).length
       ? `<span class="tag comment">ST comment</span>`
       : "";
+    const nariTag = (issue.nariComments || []).length
+      ? `<span class="tag nari">Nari note</span>`
+      : "";
     return `<article class="card ${cls}">
-      <h3>${esc(issue.service)} ${tag} ${commentTag}</h3>
+      <h3>${esc(issue.service)} ${tag} ${commentTag} ${nariTag}</h3>
       ${stCommentHtml(issue)}
+      ${nariCommentHtml(issue)}
       <div class="meta">${esc(sheet.id)} · ${esc(issue.action || "")}</div>
       ${prodIdHtml}
       <div class="pkgs">${pkgs}</div>

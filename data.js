@@ -601,7 +601,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "NOT LISTED",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "NOT LISTED",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::bread cooking  demonstration",
@@ -1322,7 +1336,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "CAP Spartel",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "CAP Spartel",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::casablanca to rabat private transfer",
@@ -1380,7 +1408,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "NOT LISTED",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "NOT LISTED",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::chefchaouen to fes private transfer package",
@@ -1435,7 +1477,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "CHECK",
+              "prodName": "Chefchaouen to Fes Private Transfer",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::cooking class and lunch at tawsna association",
@@ -1858,7 +1908,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Goat Cheese Tasting",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::guided hike - ait bouguemez (happy valley)",
@@ -2026,7 +2084,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Hassan Tower Visit",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "CHECK",
+              "prodName": "Hassan Tower Visit",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::home cooked lunch",
@@ -2197,7 +2269,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Hotel Belere Rabat BB",
+              "prodPc": "Twin - Standard Room (FIT)"
+            }
+          ]
         },
         {
           "id": "P1::hotel hilton",
@@ -3192,7 +3272,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Kasbah Oudaya Visit",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "NOT LISTED",
+              "prodName": "Kasbah Oudaya Visit",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::ksar timnay riad mimouna-hb",
@@ -3448,7 +3542,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Local Drink at Kasbah Oudaya",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "NOT LISTED",
+              "prodName": "Local Drink at Kasbah Oudaya",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::local embroidery workshop visit",
@@ -3551,7 +3659,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Local Guide - Half Day Chefchaouen",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::local guide ait benhaddou",
@@ -3730,7 +3846,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Local Guide Casablanca - Half Day",
+              "prodPc": "Per Group Per Day (Non-Banded)"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "CHECK",
+              "prodName": "Local Guide Casablanca - Half Day",
+              "prodPc": "Per Group Per Day (Non-Banded)"
+            }
+          ]
         },
         {
           "id": "P1::local guide essaouira",
@@ -3865,7 +3995,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Local Guide Half Day Fes",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::local guide half day rabat",
@@ -3925,7 +4063,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Local Guide Half Day Rabat",
+              "prodPc": "Per Group Per Day (Non-Banded)"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "CHECK",
+              "prodName": "Local Guide Half Day Rabat",
+              "prodPc": "Per Group Per Day (Non-Banded)"
+            }
+          ]
         },
         {
           "id": "P1::local guide half day tangier",
@@ -3985,7 +4137,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "CHECK",
+              "prodName": "Local Guide Half Day Tangier",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "CHECK",
+              "prodName": "Local Guide Half Day Tangier",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::local guide tanger",
@@ -4437,7 +4603,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::morocco - transport between trips marrakech to casablanca",
@@ -4496,7 +4670,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Morocco - Transport Between Trips Marrakech to Casablanca",
+              "prodPc": "Travel Between Trips"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Morocco - Transport Between Trips Marrakech to Casablanca",
+              "prodPc": "Travel Between Trips"
+            }
+          ]
         },
         {
           "id": "P1::palais bahia visit marrakech",
@@ -4961,7 +5149,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "CHECK",
+              "prodName": "Tangier to Chefchaouen Private transfer",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::rabat to tangier private transfer",
@@ -5211,7 +5407,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Riad Cherifa",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::riad jnane imlil - hb",
@@ -5478,7 +5682,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "CHECK",
+              "prodName": "Tangier to Chefchaouen Private transfer",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::taourirt kasbah visit",
@@ -6172,7 +6384,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P1::transport between trips - casablanca marrakech",
@@ -6708,7 +6934,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
           ],
-          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Hotel Belere Rabat BB",
+              "prodPc": "Twin - Standard Room (FIT)"
+            }
+          ]
         },
         {
           "id": "P2::hotel caspien",
@@ -7071,7 +7305,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "CHECK",
+              "prodName": "Local Guide - Chefchaouen",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P2::local guide fes half day",
@@ -7145,7 +7387,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Local Guide Half Day Fes",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P2::local guide half day casablanca",
@@ -7568,7 +7818,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Medersa Attarine Fes",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Medersa Attarine Fes",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P2::mia camp",
@@ -7706,7 +7970,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service does not exist in Kaptio"
           ],
-          "stCommentImport": "Service does not exist in Kaptio"
+          "stCommentImport": "Service does not exist in Kaptio",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P2::moulay driss couscous lunch",
@@ -8791,7 +9069,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "NOT LISTED",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "NOT LISTED",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P4::boutaghrar to marrakech private transfer xmrw",
@@ -9499,7 +9791,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "NOT LISTED",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "NOT LISTED",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P4::chefchaouen to essaouira xmsc private transfer",
@@ -9709,7 +10015,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio"
           ],
-          "stCommentImport": "Service exists in Kaptio"
+          "stCommentImport": "Service exists in Kaptio",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Dar cherifa",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P4::dar tajine",
@@ -10312,7 +10626,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio.Same rates for IG and FIT"
           ],
-          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT"
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Executive Boutique Hotel Rabat",
+              "prodPc": "Twin - Standard Room"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Executive Boutique Hotel Rabat",
+              "prodPc": "Twin - Standard Room"
+            }
+          ]
         },
         {
           "id": "P4::fes to marrakech xmss private transfer",
@@ -11016,7 +11344,27 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio"
           ],
-          "stCommentImport": "Service exists in Kaptio"
+          "stCommentImport": "Service exists in Kaptio",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Hotel Charf",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Hotel Charf",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Hotel Charf",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P4::hotel dar mounir",
@@ -12720,7 +13068,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already in Kaptio with sames rates for IG and FIT for 2027"
           ],
-          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P4::hotel to amal association targa return private transfer",
@@ -15079,7 +15441,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Local Drink at Kasbah Oudaya",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "NOT LISTED",
+              "prodName": "Local Drink at Kasbah Oudaya",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P4::local guide - half day chefchaouen",
@@ -15147,7 +15523,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Local Guide - Half Day Chefchaouen",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P4::local guide - sidi chamharouch walk",
@@ -15337,7 +15721,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Local Guide Casablanca - Half Day",
+              "prodPc": "Per Group Per Day (Non-Banded)"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "CHECK",
+              "prodName": "Local Guide Casablanca - Half Day",
+              "prodPc": "Per Group Per Day (Non-Banded)"
+            }
+          ]
         },
         {
           "id": "P4::local guide dades-half day",
@@ -15616,7 +16014,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Local Guide Half Day Fes",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P4::local guide half day imlil",
@@ -15974,7 +16380,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Local Guide Half Day Rabat",
+              "prodPc": "Per Group Per Day (Non-Banded)"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "CHECK",
+              "prodName": "Local Guide Half Day Rabat",
+              "prodPc": "Per Group Per Day (Non-Banded)"
+            }
+          ]
         },
         {
           "id": "P4::local guide half day tangier",
@@ -16038,7 +16458,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "CHECK",
+              "prodName": "Local Guide Half Day Tangier",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "CHECK",
+              "prodName": "Local Guide Half Day Tangier",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P4::local guide site visit volubilis",
@@ -16598,7 +17032,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service does not exist in Kaptio"
           ],
-          "stCommentImport": "Service does not exist in Kaptio"
+          "stCommentImport": "Service does not exist in Kaptio",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P4::marly boutique hotel",
@@ -17944,7 +18392,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P4::morocco - transport between trips marrakech to casablanca",
@@ -18007,7 +18463,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Morocco - Transport Between Trips Marrakech to Casablanca",
+              "prodPc": "Travel Between Trips"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Morocco - Transport Between Trips Marrakech to Casablanca",
+              "prodPc": "Travel Between Trips"
+            }
+          ]
         },
         {
           "id": "P4::moulay driss to chefchaouen private transfer xmsb",
@@ -19252,7 +19722,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Riad Cherifa",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P4::riad dilar - bb",
@@ -21861,7 +22339,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Goat Cheese Tasting",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P5::executive boutique hotel rabat",
@@ -21917,7 +22403,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio.Same rates for IG and FIT"
           ],
-          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT"
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Executive Boutique Hotel Rabat",
+              "prodPc": "Twin - Standard Room"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Executive Boutique Hotel Rabat",
+              "prodPc": "Twin - Standard Room"
+            }
+          ]
         },
         {
           "id": "P5::idou anfa hotel & spa",
@@ -22088,7 +22588,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service does not exist in Kaptio"
           ],
-          "stCommentImport": "Service does not exist in Kaptio"
+          "stCommentImport": "Service does not exist in Kaptio",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P5::mia hotel - fes",
@@ -22149,7 +22663,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio"
           ],
-          "stCommentImport": "Service exists in Kaptio"
+          "stCommentImport": "Service exists in Kaptio",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P5::morocco - leader communication allowance",
@@ -22229,7 +22757,27 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Morocco - Leader Communication Allowance",
+              "prodPc": "Per Crew Per Day"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Morocco - Leader Communication Allowance",
+              "prodPc": "Per Crew Per Day"
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Morocco - Leader Communication Allowance",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P5::riad chbanate",
@@ -22337,7 +22885,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P5::transport between trips - marrakech tangier",
@@ -22389,7 +22951,27 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "CHECK",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         }
       ]
     },
@@ -22856,7 +23438,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio"
           ],
-          "stCommentImport": "Service exists in Kaptio"
+          "stCommentImport": "Service exists in Kaptio",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Dar cherifa",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::etoile filante d'or hb",
@@ -23027,7 +23617,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio.Same rates for IG and FIT"
           ],
-          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT"
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Executive Boutique Hotel Rabat",
+              "prodPc": "Twin - Standard Room"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Executive Boutique Hotel Rabat",
+              "prodPc": "Twin - Standard Room"
+            }
+          ]
         },
         {
           "id": "P6::farewell dinner marrakech - el fassia restaurant",
@@ -23155,7 +23759,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Fondouk Nejjarine Fes",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Fondouk Nejjarine Fes",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::hotel al walid",
@@ -23237,7 +23855,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "The service has been already loaded in Kaptio with Group Series and FIT rates"
           ],
-          "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Hotel Al Walid",
+              "prodPc": "Leader Room Single - Standard"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Hotel Al Walid",
+              "prodPc": "Leader Room Single - Standard"
+            }
+          ]
         },
         {
           "id": "P6::hotel belere",
@@ -23312,7 +23944,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
           ],
-          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Hotel Belere Rabat BB",
+              "prodPc": "Twin - Standard Room (FIT)"
+            }
+          ]
         },
         {
           "id": "P6::hotel caspien",
@@ -23481,7 +24121,27 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio"
           ],
-          "stCommentImport": "Service exists in Kaptio"
+          "stCommentImport": "Service exists in Kaptio",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Hotel Charf",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Hotel Charf",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Hotel Charf",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::hotel gomassine",
@@ -23719,7 +24379,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027"
           ],
-          "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027"
+          "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Hotel Le Musee",
+              "prodPc": "Twin - Standard Room"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Hotel Le Musee",
+              "prodPc": "Twin - Standard Room"
+            }
+          ]
         },
         {
           "id": "P6::hotel les saisons",
@@ -24051,7 +24725,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already in Kaptio with sames rates for IG and FIT for 2027"
           ],
-          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Hotel Parador",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Hotel Parador",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::hotel riad bahammou dades hb",
@@ -24474,7 +25162,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already in Kaptio with sames rates for IG and FIT for 2027"
           ],
-          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::hotel transatlantique",
@@ -25504,7 +26206,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "CHECK",
+              "prodName": "Local Guide - Chefchaouen",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::local guide fes half day",
@@ -25564,7 +26274,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Local Guide Half Day Fes",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::local guide half day casablanca",
@@ -26489,7 +27207,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service does not exist in Kaptio"
           ],
-          "stCommentImport": "Service does not exist in Kaptio"
+          "stCommentImport": "Service does not exist in Kaptio",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::medersa attarine fes",
@@ -26551,7 +27283,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Medersa Attarine Fes",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Medersa Attarine Fes",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::mia camp",
@@ -26784,7 +27530,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio"
           ],
-          "stCommentImport": "Service exists in Kaptio"
+          "stCommentImport": "Service exists in Kaptio",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::morocco - daily crew bonus accrual",
@@ -26869,7 +27629,27 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Morocco - Daily Crew Bonus Accrual",
+              "prodPc": "Daily Crew Bonus"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Morocco - Daily Crew Bonus Accrual",
+              "prodPc": "Daily Crew Bonus"
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Morocco - Daily Crew Bonus Accrual",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::morocco - leader communication allowance",
@@ -26955,7 +27735,27 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Morocco - Leader Communication Allowance",
+              "prodPc": "Per Crew Per Day"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Morocco - Leader Communication Allowance",
+              "prodPc": "Per Crew Per Day"
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Morocco - Leader Communication Allowance",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::morocco fit - tour leader daily services - standard",
@@ -27029,7 +27829,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service does not exist in Kaptio"
           ],
-          "stCommentImport": "Service does not exist in Kaptio"
+          "stCommentImport": "Service does not exist in Kaptio",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::moulay driss couscous lunch",
@@ -27160,7 +27974,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio. 2027 Fit rates on request"
           ],
-          "stCommentImport": "Service exists in Kaptio. 2027 Fit rates on request"
+          "stCommentImport": "Service exists in Kaptio. 2027 Fit rates on request",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Palais Ommeyad Suites and Spa",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Palais Ommeyad Suites and Spa",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::pastilla dinner fes",
@@ -28235,7 +29063,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series"
           ],
-          "stCommentImport": "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series"
+          "stCommentImport": "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Riad Sayeda al Hora",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Riad Sayeda al Hora",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::riad tafilalet",
@@ -28623,7 +29465,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::transport between trips - marrakech tangier",
@@ -28682,7 +29538,27 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "CHECK",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::wine tasting & lunch at château roslane",
@@ -29125,7 +30001,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Goat Cheese Tasting",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P8::cote ocean mogador hotel",
@@ -31105,7 +31989,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Goat Cheese Tasting",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P9::chefchaouen to essaouira xmsc private transfer",
@@ -32091,7 +32983,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Local Guide - Half Day Chefchaouen",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P10::local guide - sidi chamharouch walk",
@@ -32242,7 +33142,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Local Guide Casablanca - Half Day",
+              "prodPc": "Per Group Per Day (Non-Banded)"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "CHECK",
+              "prodName": "Local Guide Casablanca - Half Day",
+              "prodPc": "Per Group Per Day (Non-Banded)"
+            }
+          ]
         },
         {
           "id": "P10::local guide dades-half day",
@@ -32400,7 +33314,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Local Guide Half Day Fes",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P10::local guide half day m'goun",
@@ -32558,7 +33480,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "CHECK",
+              "prodName": "Local Guide Half Day Tangier",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "CHECK",
+              "prodName": "Local Guide Half Day Tangier",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P10::local guide site visit volubilis",
@@ -35517,7 +36453,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "Apexia Transport",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "NOT LISTED",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "NOT LISTED",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::cheese tasting",
@@ -35569,7 +36519,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Goat Cheese Tasting",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::chefchaouen to essaouira xmsc private transfer",
@@ -35664,7 +36622,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "CHECK",
+              "prodName": "Chefchaouen to Fes Private Transfer",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::daily crew bonus accrual",
@@ -36560,7 +37526,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
           ],
-          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Hotel Belere Rabat BB",
+              "prodPc": "Twin - Standard Room (FIT)"
+            }
+          ]
         },
         {
           "id": "SA1::hotel caspien",
@@ -38542,7 +39516,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "CHECK",
+              "prodName": "Local Guide - Chefchaouen",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::local guide essaouira",
@@ -38658,7 +39640,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Local Guide Half Day Fes",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::local guide half day casablanca",
@@ -39723,7 +40713,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Medersa Attarine Fes",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Medersa Attarine Fes",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::meknes 3 star hotel placeholder",
@@ -40179,7 +41183,27 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Morocco - Daily Crew Bonus Accrual",
+              "prodPc": "Daily Crew Bonus"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Morocco - Daily Crew Bonus Accrual",
+              "prodPc": "Daily Crew Bonus"
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Morocco - Daily Crew Bonus Accrual",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::morocco - level 3 tour leader daily services",
@@ -40286,7 +41310,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Crew Services",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::morocco fit - tour leader daily services - standard",
@@ -40355,7 +41387,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service does not exist in Kaptio"
           ],
-          "stCommentImport": "Service does not exist in Kaptio"
+          "stCommentImport": "Service does not exist in Kaptio",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::moulay driss couscous lunch",
@@ -40768,7 +41814,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "CHECK",
+              "prodName": "Tangier to Chefchaouen Private transfer",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::puerta azul",
@@ -41523,7 +42577,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "CHECK",
+              "prodName": "Tangier to Chefchaouen Private transfer",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::tangier to marrakech xmfb 11 days private transfer",
@@ -42185,7 +43247,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::transport between trips - casablanca marrakech",
@@ -42288,7 +43364,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::transport between trips - marrakech fes",
@@ -42396,7 +43486,27 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "CHECK",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::transport between trips- casablanca marrakech",
@@ -43748,7 +44858,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio"
           ],
-          "stCommentImport": "Service exists in Kaptio"
+          "stCommentImport": "Service exists in Kaptio",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Dar cherifa",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA3::dar echaouen",
@@ -44070,7 +45188,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "The service has been already loaded in Kaptio with Group Series and FIT rates"
           ],
-          "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates"
+          "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Hotel Al Walid",
+              "prodPc": "Leader Room Single - Standard"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Hotel Al Walid",
+              "prodPc": "Leader Room Single - Standard"
+            }
+          ]
         },
         {
           "id": "SA3::hotel belere",
@@ -44118,7 +45250,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
           ],
-          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Hotel Belere Rabat BB",
+              "prodPc": "Twin - Standard Room (FIT)"
+            }
+          ]
         },
         {
           "id": "SA3::hotel charf",
@@ -44168,7 +45308,27 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio"
           ],
-          "stCommentImport": "Service exists in Kaptio"
+          "stCommentImport": "Service exists in Kaptio",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Hotel Charf",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Hotel Charf",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Hotel Charf",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA3::hotel gomassine",
@@ -44545,7 +45705,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027"
           ],
-          "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027"
+          "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Hotel Le Musee",
+              "prodPc": "Twin - Standard Room"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Hotel Le Musee",
+              "prodPc": "Twin - Standard Room"
+            }
+          ]
         },
         {
           "id": "SA3::hotel les saisons",
@@ -44920,7 +46094,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already in Kaptio with sames rates for IG and FIT for 2027"
           ],
-          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Hotel Parador",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Hotel Parador",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA3::hotel rose valley",
@@ -45113,7 +46301,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already in Kaptio with sames rates for IG and FIT for 2027"
           ],
-          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027"
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA3::hotel tomboctou xaluca",
@@ -45942,7 +47144,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio"
           ],
-          "stCommentImport": "Service exists in Kaptio"
+          "stCommentImport": "Service exists in Kaptio",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA3::moroccan house hotel marrakech",
@@ -47295,7 +48511,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series"
           ],
-          "stCommentImport": "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series"
+          "stCommentImport": "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Riad Sayeda al Hora",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Riad Sayeda al Hora",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA3::riad tafilalet",
@@ -47783,7 +49013,15 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Goat Cheese Tasting",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA5::executive boutique hotel rabat",
@@ -47837,7 +49075,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio.Same rates for IG and FIT"
           ],
-          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT"
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Executive Boutique Hotel Rabat",
+              "prodPc": "Twin - Standard Room"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Executive Boutique Hotel Rabat",
+              "prodPc": "Twin - Standard Room"
+            }
+          ]
         },
         {
           "id": "SA5::idou anfa hotel & spa",
@@ -48004,7 +49256,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service does not exist in Kaptio"
           ],
-          "stCommentImport": "Service does not exist in Kaptio"
+          "stCommentImport": "Service does not exist in Kaptio",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA5::mia hotel - fes",
@@ -48065,7 +49331,21 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio"
           ],
-          "stCommentImport": "Service exists in Kaptio"
+          "stCommentImport": "Service exists in Kaptio",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA5::morocco - leader communication allowance",
@@ -48142,7 +49422,27 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Prod",
+              "prodName": "Morocco - Leader Communication Allowance",
+              "prodPc": "Per Crew Per Day"
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Morocco - Leader Communication Allowance",
+              "prodPc": "Per Crew Per Day"
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Morocco - Leader Communication Allowance",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA5::riad chbanate",
@@ -48249,7 +49549,21 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA5::transport between trips - marrakech tangier",
@@ -48300,12 +49614,34 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Cash Paid Services",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "C1 Blue North Gateway",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "CHECK",
+              "prodName": "",
+              "prodPc": ""
+            },
+            {
+              "package": "The Blue North",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         }
       ]
     }
   ],
   "total": 756,
   "stCommentsSource": "Service Template Comment column (18 Nov workbook + Siham CSV extras). Notes only, not Yes/No.",
-  "stCommentsCards": 276
+  "stCommentsCards": 276,
+  "nariCommentsSource": "Nari Notes on Atlantic Imperials (Rev), The Blue North, and C1 Blue North Gateway. Notes only, not Yes/No.",
+  "nariCommentsCards": 106
 };

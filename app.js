@@ -559,7 +559,18 @@
   }
 
   function isSgaPkg(p) {
-    return /^SGA\s/i.test(p || "");
+    const raw = String(p || "").trim();
+    if (/^SGA\s/i.test(raw)) return true;
+    const code = raw.replace(/^SGA\s+/i, "");
+    const sga = ((window.DASHBOARD_DATA || {}).sgaIssuePackages || []).map((x) => x.name);
+    return sga.includes(raw) || sga.includes(code);
+  }
+
+  function issuePkgName(p) {
+    const raw = String(p || "").trim();
+    if (!raw) return "";
+    if (/^SGA\s/i.test(raw)) return raw;
+    return isSgaPkg(raw) ? "SGA " + raw.replace(/^SGA\s+/i, "") : raw;
   }
 
   function tabIssues() {
@@ -599,8 +610,9 @@
     sel.innerHTML =
       `<option value="all">${allLabel}</option>` +
       sorted.map((p) => `<option value="${esc(p)}">${esc(p)}</option>`).join("");
-    if (pendingPkg && pendingPkg !== "all" && sorted.includes(pendingPkg)) {
-      sel.value = pendingPkg;
+    const want = issuePkgName(pendingPkg);
+    if (want && want !== "all" && sorted.includes(want)) {
+      sel.value = want;
       pendingPkg = "all";
     } else {
       sel.value = sorted.includes(prev) ? prev : "all";
@@ -863,7 +875,7 @@
   }
 
   window.onDashboardNavigate = function (nav) {
-    const pkg = (nav && nav.pkg) || "";
+    const pkg = issuePkgName((nav && nav.pkg) || "");
     const service = (nav && nav.service) || "";
     let next = (nav && nav.sheet) || "";
     if (!next || !(next === "__decided__" || next === "__history__" || data.sheets.some((s) => s.id === next))) {
@@ -892,15 +904,16 @@
       sheetId = "__overview__";
       return;
     }
+    const pkgChip = issuePkgName(pkg);
     if (sheet && (sheet === "__decided__" || sheet === "__history__" || data.sheets.some((s) => s.id === sheet))) {
       sheetId = sheet;
-    } else if (pkg || service) {
-      sheetId = pkg && isSgaPkg(pkg) ? "P2" : "P1";
+    } else if (pkgChip || service) {
+      sheetId = pkgChip && isSgaPkg(pkgChip) ? "P2" : "P1";
     }
     if (service) $("q").value = service;
-    if (pkg) {
-      $("sourceFilter").value = isSgaPkg(pkg) ? "sga" : "tm";
-      pendingPkg = pkg;
+    if (pkgChip) {
+      $("sourceFilter").value = isSgaPkg(pkgChip) ? "sga" : "tm";
+      pendingPkg = pkgChip;
       $("statusFilter").value = "open";
     }
   }

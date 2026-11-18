@@ -34,6 +34,15 @@
     return s.toUpperCase().startsWith("SGA ") ? s.slice(4).trim() : s;
   }
 
+  function issuePkgName(name, kind) {
+    const n = String(name || "").trim();
+    if (!n) return "";
+    if (kind === "sga" || SGA.has(n) || SGA.has(tripCode(n))) {
+      return /^SGA\s/i.test(n) ? n : "SGA " + n;
+    }
+    return n;
+  }
+
   function emptyPkg(name) {
     return { name, yes: 0, open: 0, cards: 0, blocking: {}, sheets: {}, firstInsertReady: true, fullyReady: true };
   }
@@ -125,9 +134,10 @@
   function pkgRowHtml(p, kind) {
     const ids = installSheetsOf(kind);
     const ready = isInstallReady(p, kind);
+    const navPkg = issuePkgName(p.name, kind);
     return `<div class="pkg-row">
-      <div class="dash-pkg" data-pkg="${esc(p.name)}" style="cursor:pointer">${esc(pkgLabel(p))}</div>
-      <div>${pillsHtml(ids, (id) => sheetOpenCount(p, id), { pkg: p.name })}</div>
+      <div class="dash-pkg" data-pkg="${esc(navPkg)}" style="cursor:pointer">${esc(pkgLabel(p))}</div>
+      <div>${pillsHtml(ids, (id) => sheetOpenCount(p, id), { pkg: navPkg })}</div>
       <div>${ready ? tag("yes", "Ready") : tag("no", "Not ready")}</div>
     </div>`;
   }
@@ -142,9 +152,10 @@
       <thead><tr><th>Package</th><th>Problems</th><th>Ready?</th></tr></thead>
       <tbody>${rows.map((p) => {
         const ready = isInstallReady(p, kind);
+        const navPkg = issuePkgName(p.name, kind);
         return `<tr>
-          <td class="dash-pkg" data-pkg="${esc(p.name)}" style="cursor:pointer">${esc(pkgLabel(p))}</td>
-          <td>${pillsHtml(ids, (id) => sheetOpenCount(p, id), { pkg: p.name })}</td>
+          <td class="dash-pkg" data-pkg="${esc(navPkg)}" style="cursor:pointer">${esc(pkgLabel(p))}</td>
+          <td>${pillsHtml(ids, (id) => sheetOpenCount(p, id), { pkg: navPkg })}</td>
           <td>${ready ? tag("yes", "Ready") : tag("no", "Not ready")}</td>
         </tr>`;
       }).join("")}</tbody>

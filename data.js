@@ -42,6 +42,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -90,6 +91,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -144,6 +146,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -192,6 +195,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -224,6 +228,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMSF",
             "Prod exists": "Yes",
             "Prod Name": "Ancient Library Tamegroute",
+            "Prod Id": "a1HVk000000aBwhMAE",
             "Package PCs": "Per Person",
             "Active price": "Yes",
             "Price kind": "Group Tour",
@@ -243,6 +248,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwhMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -296,6 +302,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -366,6 +373,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -426,6 +434,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -502,6 +511,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -533,6 +543,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Barceló Tanger",
+            "Prod Id": "a1HSo00000BhpaQMAR",
             "Package PCs": "Deluxe - Double Room; Deluxe - Leader Single Room; Deluxe - Twin Room; Deluxe Single Use; Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
             "Price kind": "FIT",
@@ -574,6 +585,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000BhpaQMAR",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -632,6 +644,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -695,6 +708,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -727,6 +741,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMSF",
             "Prod exists": "Yes",
             "Prod Name": "Camel Ride",
+            "Prod Id": "a1HVk000000aBp2MAE",
             "Package PCs": "Per Person",
             "Active price": "Yes",
             "Price kind": "Group Tour",
@@ -746,6 +761,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBp2MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -804,6 +820,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -841,6 +858,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Camel Ride - Sunset",
+            "Prod Id": "a1HVk000001yGcPMAU",
             "Package PCs": "Per Person",
             "Active price": "Yes",
             "Price kind": "Group Tour",
@@ -860,6 +878,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000001yGcPMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -907,6 +926,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -967,6 +987,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1027,6 +1048,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1088,6 +1110,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1153,6 +1176,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1228,6 +1252,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1261,6 +1286,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials",
             "Prod exists": "Yes",
             "Prod Name": "CAP Spartel",
+            "Prod Id": "a1HVk000002G4EbMAK",
             "Package PCs": "Per crew; Per person",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -1280,6 +1306,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002G4EbMAK",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -1310,6 +1337,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca to Rabat Private Transfer",
+            "Prod Id": "a1HSo00000BiMxlMAF",
             "Package PCs": "Per Day; Per Unit",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -1336,6 +1364,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000BiMxlMAF",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -1389,6 +1418,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1419,6 +1449,7 @@ window.ISSUE_DATA = {
             "TM package": "Marrakech & the high atlas",
             "Prod exists": "Yes",
             "Prod Name": "Cooking Class and Lunch at Tawsna Association",
+            "Prod Id": "a1HVk000000aBrQMAU",
             "Package PCs": "Per Person",
             "Active price": "Yes",
             "Price kind": "Group Tour",
@@ -1439,6 +1470,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrQMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -1502,6 +1534,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1532,6 +1565,7 @@ window.ISSUE_DATA = {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Day Trip to Khamlia 4x4 Excursion",
+            "Prod Id": "a1HVk000002L1KvMAK",
             "Package PCs": "Per Person",
             "Active price": "No",
             "Price kind": "No pricing",
@@ -1552,6 +1586,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002L1KvMAK",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -1600,6 +1635,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1648,6 +1684,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1703,6 +1740,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1753,6 +1791,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1783,6 +1822,7 @@ window.ISSUE_DATA = {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Goat Cheese Tasting",
+            "Prod Id": "a1HVk000000aBrtMAE",
             "Package PCs": "Per Person",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -1802,6 +1842,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrtMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -1860,6 +1901,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1914,6 +1956,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1947,6 +1990,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Hassan Tower Visit",
+            "Prod Id": "a1HVk000000aBmzMAE",
             "Package PCs": "Per crew; Per person",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -1966,6 +2010,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmzMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -2024,6 +2069,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2084,6 +2130,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2114,6 +2161,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Belere Rabat BB",
+            "Prod Id": "a1HVk000000aBwXMAU",
             "Package PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -2133,6 +2181,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwXMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -2180,6 +2229,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2239,6 +2289,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2269,6 +2320,7 @@ window.ISSUE_DATA = {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Le Caspien",
+            "Prod Id": "a1HVk000000aBo5MAE",
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
@@ -2285,6 +2337,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBo5MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -2359,6 +2412,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2439,6 +2493,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2488,6 +2543,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2558,6 +2614,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2623,6 +2680,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2699,6 +2757,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2748,6 +2807,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2779,6 +2839,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Amridil Visit",
+            "Prod Id": "a1HVk000000aBq8MAE",
             "Package PCs": "Per Person",
             "Active price": "Yes",
             "Price kind": "Group Tour",
@@ -2799,6 +2860,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBq8MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -2846,6 +2908,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2876,6 +2939,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlas Discovery",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah du Toubkal - HB",
+            "Prod Id": "a1HVk000002L7YPMA0",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
             "Price kind": "Group Tour",
@@ -2917,6 +2981,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002L7YPMA0",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -2991,6 +3056,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -3056,6 +3122,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -3089,6 +3156,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Oudaya Visit",
+            "Prod Id": "a1HVk000000aBwsMAE",
             "Package PCs": "Per Crew; Per person",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -3108,6 +3176,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwsMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3188,6 +3257,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -3236,6 +3306,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -3306,6 +3377,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -3339,6 +3411,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Local Drink at Kasbah Oudaya",
+            "Prod Id": "a1HVk000000aBn0MAE",
             "Package PCs": "Per person; Snacks & Drinks; Snacks & Drinks (Crew)",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -3359,6 +3432,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBn0MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3406,6 +3480,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -3439,6 +3514,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMFB, XMFP",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide - Half Day Chefchaouen",
+            "Prod Id": "a1HVk000000aBpqMAE",
             "Package PCs": "Per Person",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -3459,6 +3535,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpqMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3489,6 +3566,7 @@ window.ISSUE_DATA = {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Ait Benhaddou",
+            "Prod Id": "a1HVk000001yIJFMA2",
             "Package PCs": "Per Group",
             "Active price": "Yes",
             "Price kind": "Group Tour",
@@ -3515,6 +3593,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000001yIJFMA2",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3576,6 +3655,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -3607,6 +3687,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Casablanca - Half Day",
+            "Prod Id": "a1HVk000000aBqAMAU",
             "Package PCs": "Per Group Per Day (Non-Banded); Per day",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -3633,6 +3714,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBqAMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3698,6 +3780,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -3739,6 +3822,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMFB, XMFP, XMKC, XMKN, XMPM, XMSB, XMSC, XMSS, XMXC, XMZF",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Fes",
+            "Prod Id": "a1HVk000000aBpfMAE",
             "Package PCs": "Per Group",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -3765,6 +3849,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpfMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3797,6 +3882,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Rabat",
+            "Prod Id": "a1HVk000000aBpsMAE",
             "Package PCs": "Per Group; Per Group Per Day (Non-Banded)",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -3823,6 +3909,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpsMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3855,6 +3942,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Tangier",
+            "Prod Id": "a1HVk000001xjzpMAA",
             "Package PCs": "Per Group; Per Group Per Day (Non-Banded)",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -3881,6 +3969,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000001xjzpMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3945,6 +4034,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -4004,6 +4094,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -4063,6 +4154,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -4094,6 +4186,7 @@ window.ISSUE_DATA = {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Lunch With a Local Family in Todra",
+            "Prod Id": "a1HVk000000aBo3MAE",
             "Package PCs": "Per Person",
             "Active price": "Yes",
             "Price kind": "Group Tour",
@@ -4114,6 +4207,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBo3MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -4161,6 +4255,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -4209,6 +4304,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -4257,6 +4353,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -4303,6 +4400,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMFB, XMFE, XMFP, XMKC, XMKN, XMPM, XMPX, XMRW, XMSB, XMSC, XMSF, XMSS, XMXC, XMXM, XMZF",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Tour Leader Daily Services",
+            "Prod Id": "a1HVk000000aBwnMAE",
             "Package PCs": "Per Day",
             "Active price": "Yes",
             "Price kind": "Group Tour",
@@ -4323,6 +4421,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwnMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -4360,6 +4459,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMKC, XMKN, XMPM, XMSB, XMSC, XMZF",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Transport Between Trips Marrakech to Casablanca",
+            "Prod Id": "a1HVk000000aBwvMAE",
             "Package PCs": "Per Trip; Travel between trips",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -4380,6 +4480,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwvMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -4412,6 +4513,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMKC, XMPM",
             "Prod exists": "Yes",
             "Prod Name": "Palais Bahia Visit Marrakech",
+            "Prod Id": "a1HVk000000aBpjMAE",
             "Package PCs": "Per Person",
             "Active price": "Yes",
             "Price kind": "Group Tour",
@@ -4431,6 +4533,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpjMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -4510,6 +4613,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -4575,6 +4679,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -4605,6 +4710,7 @@ window.ISSUE_DATA = {
             "TM package": "The Sahara Loop",
             "Prod exists": "Yes",
             "Prod Name": "Palmeras Y Dunas Luxury Camp - HB",
+            "Prod Id": "a1HVk0000023o5ZMAQ",
             "Package PCs": "Double Room; Leader Single Room; Single Room",
             "Active price": "Yes",
             "Price kind": "Group Tour",
@@ -4641,6 +4747,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000023o5ZMAQ",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -4722,6 +4829,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -4771,6 +4879,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -4835,6 +4944,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -4865,6 +4975,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Rabat to Tangier Private Transfer",
+            "Prod Id": "a1HSo00000BiNDtMAN",
             "Package PCs": "Per Unit",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -4891,6 +5002,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000BiNDtMAN",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -4965,6 +5077,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5014,6 +5127,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5044,6 +5158,7 @@ window.ISSUE_DATA = {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Riad Cherifa",
+            "Prod Id": "a1HVk000002P8dxMAC",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -5080,6 +5195,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002P8dxMAC",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -5154,6 +5270,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5235,6 +5352,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5283,6 +5401,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5342,6 +5461,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5396,6 +5516,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5450,6 +5571,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5504,6 +5626,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5558,6 +5681,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5624,6 +5748,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5684,6 +5809,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5739,6 +5865,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5788,6 +5915,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5847,6 +5975,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5906,6 +6035,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -5965,6 +6095,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -6024,6 +6155,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -6083,6 +6215,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -6145,6 +6278,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -6204,6 +6338,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -6263,6 +6398,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -6311,6 +6447,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -6360,6 +6497,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -6408,6 +6546,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -6487,6 +6626,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -6548,6 +6688,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -6615,6 +6756,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -6683,6 +6825,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -6769,6 +6912,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -6835,6 +6979,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -6906,6 +7051,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -6979,6 +7125,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -7050,6 +7197,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -7121,6 +7269,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -7196,6 +7345,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -7267,6 +7417,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -7333,6 +7484,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -7396,6 +7548,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -7456,6 +7609,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -7532,6 +7686,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -7592,6 +7747,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -7653,6 +7809,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -7727,6 +7884,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -7798,6 +7956,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -7858,6 +8017,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -7919,6 +8079,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -7963,6 +8124,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
             "Prod Name": "10 Days XMFP Private Transfer",
+            "Prod Id": "a1HVk0000028zI5MAI",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -7988,6 +8150,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000028zI5MAI",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -8038,6 +8201,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
             "Prod Name": "Aday Hotel",
+            "Prod Id": "a1HVk0000028YszMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Leader Single Room; Single Room",
             "Active price": "Yes",
@@ -8067,6 +8231,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000028YszMAE",
           "priceCompare": [
             {
               "pc": "Double Room",
@@ -8122,6 +8287,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Ain Echchaouen XMKC",
+            "Prod Id": "a1HVk000000aBuWMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -8161,6 +8327,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBuWMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -8241,6 +8408,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
             "Prod Name": "Astrologist transportation to Oukaimden with return",
+            "Prod Id": "a1HVk000000jXPdMAM",
             "Package PCs": "Per Groupe Non-Banded",
             "ST PCs missing on Prod": "Per Groupe Non-Banded",
             "Active price": "Yes",
@@ -8265,6 +8433,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000jXPdMAM",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -8301,6 +8470,7 @@ window.ISSUE_DATA = {
             "TM package": "Classic Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Azawad Luxury Desert Camp",
+            "Prod Id": "a1HVk0000028Zc9MAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Tent; Leader Single - Tent; Quadruple- Tent; Single - Tent; Triple- Tent; Twin - Tent",
             "Active price": "Yes",
@@ -8322,6 +8492,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000028Zc9MAE",
           "priceCompare": [
             {
               "pc": "Double - Tent",
@@ -8387,6 +8558,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Barceló Tanger",
+            "Prod Id": "a1HSo00000BhpaQMAR",
             "Package PCs": "Deluxe - Double Room; Deluxe - Leader Single Room; Deluxe - Twin Room; Deluxe Single Use; Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -8427,6 +8599,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000BhpaQMAR",
           "priceCompare": [
             {
               "pc": "Deluxe - Double Room",
@@ -8632,6 +8805,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMRW",
             "Prod exists": "Yes",
             "Prod Name": "Boutaghrar to Marrakech Private Transfer XMRW",
+            "Prod Id": "a1HVk000000aBuYMAU",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -8656,6 +8830,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBuYMAU",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -8696,6 +8871,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Camp Yasmina Original",
+            "Prod Id": "a1HVk000000aBnRMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -8735,6 +8911,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnRMAU",
           "priceCompare": [
             {
               "pc": "Twin Room",
@@ -8830,6 +9007,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca Airport to Hotel Private Transfer",
+            "Prod Id": "a1HVk000000aBs5MAE",
             "Package PCs": "Transport (Per Person)",
             "ST PCs missing on Prod": "Transport (Per Person)",
             "Active price": "Yes",
@@ -8849,6 +9027,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBs5MAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -8894,6 +9073,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca Airport to Marrakech Private Transfer",
+            "Prod Id": "a1HVk000000aBoCMAU",
             "Package PCs": "Transport (Per Person)",
             "ST PCs missing on Prod": "Transport (Per Person)",
             "Active price": "Yes",
@@ -8913,6 +9093,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoCMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -8983,6 +9164,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca Hotel Placeholder  XMSB",
+            "Prod Id": "a1HVk000002rQrFMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -9022,6 +9204,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002rQrFMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -9074,6 +9257,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca Hotel to Train Station Grand Taxi",
+            "Prod Id": "a1HVk000000aBrTMAU",
             "Package PCs": "Per Unit (Max 0...); Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Unit (Max 0...); Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -9098,6 +9282,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrTMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -9138,6 +9323,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKN",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca to Marrakech XMKN Private Transfer",
+            "Prod Id": "a1HVk000000aBvRMAU",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -9162,6 +9348,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBvRMAU",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -9202,6 +9389,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca to Marrakech XMPM Private Transfer",
+            "Prod Id": "a1HVk000000aBqHMAU",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -9226,6 +9414,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBqHMAU",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -9262,6 +9451,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca to Rabat Private Transfer",
+            "Prod Id": "a1HSo00000BiMxlMAF",
             "Package PCs": "Per Day; Per Unit",
             "ST PCs missing on Prod": "Per Day; Per Unit",
             "Active price": "Yes",
@@ -9287,6 +9477,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000BiMxlMAF",
           "priceCompare": [
             {
               "pc": "Per Unit",
@@ -9322,6 +9513,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
             "Prod Name": "Chefchaouen to Essaouira XMSC Private Transfer",
+            "Prod Id": "a1HVk000000aBqZMAU",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -9347,6 +9539,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBqZMAU",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -9387,6 +9580,7 @@ window.ISSUE_DATA = {
             "TM package": "Marrakech & the high atlas",
             "Prod exists": "Yes",
             "Prod Name": "Cooking Class and Lunch at Tawsna Association",
+            "Prod Id": "a1HVk000000aBrQMAU",
             "Package PCs": "Per Person",
             "Active price": "Yes",
             "Price kind": "Group Tour",
@@ -9405,6 +9599,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrQMAU",
           "priceCompare": [
             {
               "pc": "Per Person",
@@ -9446,6 +9641,7 @@ window.ISSUE_DATA = {
             "TM package": "The Blue North",
             "Prod exists": "Yes",
             "Prod Name": "Dar cherifa",
+            "Prod Id": "a1HVk0000024Mf7MAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double for Single Use; Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Twin Room",
             "Active price": "Yes",
@@ -9467,6 +9663,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000024Mf7MAE",
           "priceCompare": [
             {
               "pc": "Double for Single Use",
@@ -9528,6 +9725,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Dar Tajine",
+            "Prod Id": "a1HVk0000029pGfMAI",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -9567,6 +9765,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000029pGfMAI",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -9637,6 +9836,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "Day Tour Fes Private Transfer",
+            "Prod Id": "a1HVk000000aBnMMAU",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -9661,6 +9861,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnMMAU",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -9696,6 +9897,7 @@ window.ISSUE_DATA = {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Day Trip to Khamlia 4x4 Excursion",
+            "Prod Id": "a1HVk000002L1KvMAK",
             "Package PCs": "Per Person",
             "ST PCs missing on Prod": "Per Person",
             "Active price": "No",
@@ -9715,6 +9917,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002L1KvMAK",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -9744,6 +9947,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFE",
             "Prod exists": "Yes",
             "Prod Name": "Emeraude Luxury Camp & Tents HB",
+            "Prod Id": "a1HVk000002IUZZMA4",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -9783,6 +9987,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002IUZZMA4",
           "priceCompare": [
             {
               "pc": "Leader Single Room",
@@ -9892,6 +10097,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Etoile Filante D'or HB",
+            "Prod Id": "a1HVk000002LIdVMAW",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Crew Twin Room; Double for Single Use; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Standard - Triple Room; Twin - Twin Room",
             "ST PCs missing on Prod": "Standard - Leader Single Room; Twin - Twin Room",
@@ -9925,6 +10131,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002LIdVMAW",
           "priceCompare": [
             {
               "pc": "Crew Twin Room",
@@ -10011,6 +10218,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials",
             "Prod exists": "Yes",
             "Prod Name": "Executive Boutique Hotel Rabat",
+            "Prod Id": "a1HVk000001yygfMAA",
             "Package PCs": "Double - Standard Room; Double Room; Leader Room Single - Standard; Leader Single Room; Single - Standard Room; Single Room; Twin - Standard Room; Twin Room",
             "ST PCs": "City Tax; Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Suite - Double; Suite - Single; Suite - Twin; Twin - Standard Room",
             "ST PCs missing on Prod": "City Tax",
@@ -10033,6 +10241,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000001yygfMAA",
           "priceCompare": [
             {
               "pc": "City Tax",
@@ -10117,6 +10326,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
             "Prod Name": "Fes to Marrakech XMSS Private Transfer",
+            "Prod Id": "a1HVk000000aBvrMAE",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -10142,6 +10352,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBvrMAE",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -10183,6 +10394,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
             "Prod Name": "Gite Omar Id Mansour",
+            "Prod Id": "a1HVk000000aBnQMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Leader Single Room",
             "Active price": "Yes",
@@ -10207,6 +10419,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnQMAU",
           "priceCompare": [
             {
               "pc": "Double Room",
@@ -10274,6 +10487,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Gite Tamaloute",
+            "Prod Id": "a1HVk000000aBnSMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -10313,6 +10527,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnSMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -10404,6 +10619,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Across",
+            "Prod Id": "a1HVk000000aBpIMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -10443,6 +10659,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpIMAU",
           "priceCompare": [
             {
               "pc": "Twin Room",
@@ -10553,6 +10770,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Aurocher Ourika",
+            "Prod Id": "a1HVk000000aBvdMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -10592,6 +10810,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBvdMAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -10693,6 +10912,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Charf",
+            "Prod Id": "a1HVk000000aBwTMAU",
             "Package PCs": "Double - Standard Room; Double Room; Leader - Standard Room; Leader Single Room; Single - Standard Room; Single Room; Twin - Standard Room; Twin Room",
             "ST PCs": "Breakfast; Double - Standard Room; Double-Junior; Maos Method Multiple Crew Room (Pax Banded) Max 16; Maos Method Multiple Crew Room (Pax Banded) Max 8; Single - Standard Room; Single-Junior; Twin - Standard Room; Twin-Junior",
             "ST PCs missing on Prod": "Breakfast",
@@ -10715,6 +10935,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwTMAU",
           "priceCompare": [
             {
               "pc": "Breakfast",
@@ -10809,6 +11030,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Dar Mounir",
+            "Prod Id": "a1HVk000000aBwwMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -10848,6 +11070,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwwMAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -10953,6 +11176,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Esmeralda",
+            "Prod Id": "a1HVk0000028Yg5MAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room",
             "Active price": "Yes",
@@ -10982,6 +11206,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000028Yg5MAE",
           "priceCompare": [
             {
               "pc": "Single Room",
@@ -11032,6 +11257,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Karam Palace HB",
+            "Prod Id": "a1HSo00000BB2RZMA1",
             "Package PCs": "Twin Room",
             "ST PCs": "City Tax; Double Room - Standard; Leader Single Room - Standard; Single Room - Standard; Twin Room - Standard",
             "ST PCs missing on Prod": "City Tax; Double Room - Standard; Leader Single Room - Standard; Single Room - Standard; Twin Room - Standard",
@@ -11075,6 +11301,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000BB2RZMA1",
           "priceCompare": [
             {
               "pc": "City Tax",
@@ -11159,6 +11386,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Les Amandiers  BB",
+            "Prod Id": "a1HVk000002LwsfMAC",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -11198,6 +11426,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002LwsfMAC",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -11274,6 +11503,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Madrid",
+            "Prod Id": "a1HVk000000aBwxMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -11313,6 +11543,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwxMAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -11380,6 +11611,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Meriem",
+            "Prod Id": "a1HVk000000aBmfMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -11419,6 +11651,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmfMAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -11564,6 +11797,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFE",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Miramar",
+            "Prod Id": "a1HVk000000aBpJMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard (Less than 6 rooms); Leader Room Single - Standard (More than 6 rooms); Sawadee - 2nd Leader Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room; Twin Family",
             "ST PCs missing on Prod": "Leader Room Single - Standard (Less than 6 rooms); Leader Room Single - Standard (More than 6 rooms); Triple - Standard Room",
@@ -11602,6 +11836,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpJMAU",
           "priceCompare": [
             {
               "pc": "Double - Standard Room",
@@ -11708,6 +11943,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Mounia",
+            "Prod Id": "a1HVk000000aBoFMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -11742,6 +11978,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoFMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -11892,6 +12129,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Olympic",
+            "Prod Id": "a1HVk0000029odxMAA",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader - Single Standard Room; Single - Standard Room; Twin - Standard Room",
             "ST PCs missing on Prod": "Leader - Single Standard Room",
@@ -11920,6 +12158,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000029odxMAA",
           "priceCompare": [
             {
               "pc": "Double - Standard Room",
@@ -11984,6 +12223,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKN",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Riad Ouinz  HB",
+            "Prod Id": "a1HVk000000aBuwMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -12023,6 +12263,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBuwMAE",
           "priceCompare": [
             {
               "pc": "Twin Room",
@@ -12092,6 +12333,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Souiri",
+            "Prod Id": "a1HVk000000aBoJMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -12131,6 +12373,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoJMAU",
           "priceCompare": [
             {
               "pc": "Twin Room",
@@ -12241,6 +12484,7 @@ window.ISSUE_DATA = {
             "TM package": "The Imperial Table",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Swani",
+            "Prod Id": "a1HVk000000aBmkMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Sawadee - 2nd Leader Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Rom",
             "ST PCs missing on Prod": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Rom",
@@ -12294,6 +12538,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmkMAE",
           "priceCompare": [
             {
               "pc": "Double - Standard Room",
@@ -12370,6 +12615,7 @@ window.ISSUE_DATA = {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Tarek",
+            "Prod Id": "a1HSo00000Bi3DZMAZ",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double For Single Use; Leader Room Single - Standard; Quad - Standard Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "ST PCs missing on Prod": "Leader Room Single - Standard",
@@ -12398,6 +12644,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000Bi3DZMAZ",
           "priceCompare": [
             {
               "pc": "Double - Standard Room",
@@ -12488,6 +12735,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
             "Prod Name": "Hotel to Amal Association Targa Return Private Transfer",
+            "Prod Id": "a1HVk000000aBqfMAE",
             "Package PCs": "Per Unit (Max 1...)",
             "ST PCs missing on Prod": "Per Unit (Max 1...)",
             "Active price": "Yes",
@@ -12512,6 +12760,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBqfMAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -12567,6 +12816,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Hotel to Djemaa El Fna Return Taxi",
+            "Prod Id": "a1HVk000000aBn7MAE",
             "Package PCs": "Per Unit (Max 0...)",
             "ST PCs missing on Prod": "Per Unit (Max 0...)",
             "Active price": "Yes",
@@ -12591,6 +12841,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBn7MAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -12630,6 +12881,7 @@ window.ISSUE_DATA = {
             "TM package": "Classic Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Xaluca Dades HB",
+            "Prod Id": "a1HVk000000aBmdMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "City Tax; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Twin - Twin Room",
             "ST PCs missing on Prod": "City Tax; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Twin - Twin Room",
@@ -12673,6 +12925,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmdMAE",
           "priceCompare": [
             {
               "pc": "City Tax",
@@ -12907,6 +13160,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Xaluca Erfoud HB",
+            "Prod Id": "a1HVk000000aBoRMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -12941,6 +13195,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoRMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -13131,6 +13386,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXM",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Amazir BB",
+            "Prod Id": "a1HVk000000aBvZMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -13170,6 +13426,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBvZMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -13235,6 +13492,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKN",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Amazir HB",
+            "Prod Id": "a1HVk000000aBvaMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -13274,6 +13532,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBvaMAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -13330,6 +13589,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Amridil Visit",
+            "Prod Id": "a1HVk000000aBq8MAE",
             "Package PCs": "Per Person",
             "Active price": "Yes",
             "Price kind": "Group Tour",
@@ -13348,6 +13608,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBq8MAE",
           "priceCompare": [
             {
               "pc": "Per Person",
@@ -13388,6 +13649,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlas Discovery",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah du Toubkal - HB",
+            "Prod Id": "a1HVk000002L7YPMA0",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -13428,6 +13690,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002L7YPMA0",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -13478,6 +13741,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXM",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Itrane",
+            "Prod Id": "a1HVk000000aBpVMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Leader Single Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "ST PCs missing on Prod": "Leader Single Room",
@@ -13506,6 +13770,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpVMAU",
           "priceCompare": [
             {
               "pc": "Double - Standard Room",
@@ -13589,6 +13854,7 @@ window.ISSUE_DATA = {
             "TM package": "Classic Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah La Famille Berbere HB",
+            "Prod Id": "a1HVk000002IqVFMA0",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Single Room",
             "Active price": "Yes",
@@ -13610,6 +13876,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002IqVFMA0",
           "priceCompare": [
             {
               "pc": "Single Room",
@@ -13666,6 +13933,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMHA",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Taborihte",
+            "Prod Id": "a1HVk000000aBpLMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -13705,6 +13973,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpLMAU",
           "priceCompare": [
             {
               "pc": "Twin Room",
@@ -13800,6 +14069,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Ksar Ljanoub BB - Standard",
+            "Prod Id": "a1HVk000000aBpYMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -13839,6 +14109,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpYMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -13916,6 +14187,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Ksar Ljanoub HB -Standard",
+            "Prod Id": "a1HVk000000aBmgMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -13955,6 +14227,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmgMAE",
           "priceCompare": [
             {
               "pc": "Twin Room",
@@ -14066,6 +14339,7 @@ window.ISSUE_DATA = {
             "TM package": "South Morocco with Agafay",
             "Prod exists": "Yes",
             "Prod Name": "Ksar Shama HB",
+            "Prod Id": "a1HVk0000023jnRMAQ",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "City Tax; Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
             "ST PCs missing on Prod": "City Tax; Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
@@ -14114,6 +14388,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000023jnRMAQ",
           "priceCompare": [
             {
               "pc": "City Tax",
@@ -14210,6 +14485,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Ksar Timnay BB",
+            "Prod Id": "a1HVk000000aBmmMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -14249,6 +14525,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmmMAE",
           "priceCompare": [
             {
               "pc": "Twin Room",
@@ -14314,6 +14591,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
             "Prod Name": "La Fibule D Or",
+            "Prod Id": "a1HVk000000aBoBMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -14353,6 +14631,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoBMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -14408,6 +14687,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
             "Prod Name": "La Rose du Sable",
+            "Prod Id": "a1HVk000000aBpWMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -14447,6 +14727,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpWMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -14522,6 +14803,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
             "Prod Name": "Le Relais Des Sables",
+            "Prod Id": "a1HVk000000aBvnMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -14561,6 +14843,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBvnMAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -14651,6 +14934,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
             "Prod Name": "Lemnaouar Erg Camp",
+            "Prod Id": "a1HVk0000028al7MAA",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -14690,6 +14974,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000028al7MAA",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -14747,6 +15032,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Local Drink at Kasbah Oudaya",
+            "Prod Id": "a1HVk000000aBn0MAE",
             "Package PCs": "Per person; Snacks & Drinks; Snacks & Drinks (Crew)",
             "ST PCs missing on Prod": "Per person",
             "Active price": "Yes",
@@ -14766,6 +15052,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBn0MAE",
           "priceCompare": [
             {
               "pc": "Snacks & Drinks",
@@ -14808,6 +15095,7 @@ window.ISSUE_DATA = {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide - Half Day Chefchaouen",
+            "Prod Id": "a1HVk000000aBpqMAE",
             "Package PCs": "Per Person",
             "ST PCs missing on Prod": "Per Person",
             "Active price": "Yes",
@@ -14827,6 +15115,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpqMAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -14874,6 +15163,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide - Sidi Chamharouch Walk",
+            "Prod Id": "a1HVk000000aBorMAE",
             "Package PCs": "Per Group Per Day",
             "ST PCs missing on Prod": "Per Group Per Day",
             "Active price": "Yes",
@@ -14899,6 +15189,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBorMAE",
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -14935,6 +15226,7 @@ window.ISSUE_DATA = {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Ait Benhaddou",
+            "Prod Id": "a1HVk000001yIJFMA2",
             "Package PCs": "Per Group",
             "ST PCs missing on Prod": "Per Group",
             "Active price": "Yes",
@@ -14960,6 +15252,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000001yIJFMA2",
           "priceCompare": [
             {
               "pc": "Per Group",
@@ -14996,6 +15289,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Casablanca - Half Day",
+            "Prod Id": "a1HVk000000aBqAMAU",
             "Package PCs": "Per Group Per Day (Non-Banded); Per day",
             "ST PCs missing on Prod": "Per day",
             "Active price": "Yes",
@@ -15021,6 +15315,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBqAMAU",
           "priceCompare": [
             {
               "pc": "Per Group Per Day (Non-Banded)",
@@ -15056,6 +15351,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Dades-Half Day",
+            "Prod Id": "a1HVk000000aBroMAE",
             "Package PCs": "Per Group Per Day",
             "ST PCs missing on Prod": "Per Group Per Day",
             "Active price": "Yes",
@@ -15081,6 +15377,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBroMAE",
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -15116,6 +15413,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXM",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day - Armed",
+            "Prod Id": "a1HVk000000aBqrMAE",
             "Package PCs": "Per Group Per Day",
             "ST PCs missing on Prod": "Per Group Per Day",
             "Active price": "Yes",
@@ -15141,6 +15439,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBqrMAE",
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -15180,6 +15479,7 @@ window.ISSUE_DATA = {
             "TM package": "Essaouira Extention",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Essaouira",
+            "Prod Id": "a1HVk000000aBpuMAE",
             "Package PCs": "Per Group Per Day",
             "ST PCs": "Per Group; Per crew",
             "ST PCs missing on Prod": "Per Group; Per crew",
@@ -15208,6 +15508,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpuMAE",
           "priceCompare": [
             {
               "pc": "Per Group",
@@ -15267,6 +15568,7 @@ window.ISSUE_DATA = {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Fes",
+            "Prod Id": "a1HVk000000aBpfMAE",
             "Package PCs": "Per Group",
             "ST PCs missing on Prod": "Per Group",
             "Active price": "Yes",
@@ -15292,6 +15594,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpfMAE",
           "priceCompare": [
             {
               "pc": "Per Group",
@@ -15327,6 +15630,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlas Discovery",
             "Prod exists": "Yes",
             "Prod Name": "Local guide Half day Imlil",
+            "Prod Id": "a1HVk000000aBqCMAU",
             "ST PCs": "Per Group; Per crew",
             "ST PCs missing on Prod": "Per Group; Per crew",
             "Active price": "Yes",
@@ -15354,6 +15658,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBqCMAU",
           "priceCompare": [
             {
               "pc": "Per Group",
@@ -15399,6 +15704,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day M'goun",
+            "Prod Id": "a1HVk000000aBrKMAU",
             "Package PCs": "Per Group Per Day",
             "ST PCs missing on Prod": "Per Group Per Day",
             "Active price": "Yes",
@@ -15424,6 +15730,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrKMAU",
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -15471,6 +15778,7 @@ window.ISSUE_DATA = {
             "TM package": "CAS to MAR - Train",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Marrakech",
+            "Prod Id": "a1HVk000000aBpiMAE",
             "Package PCs": "Per Group",
             "ST PCs": "Per Group; Per crew",
             "ST PCs missing on Prod": "Per Group; Per crew",
@@ -15499,6 +15807,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpiMAE",
           "priceCompare": [
             {
               "pc": "Per Group",
@@ -15546,6 +15855,7 @@ window.ISSUE_DATA = {
             "TM package": "The Imperial Table",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Meknes",
+            "Prod Id": "a1HVk000000aBphMAE",
             "Package PCs": "Per Group",
             "ST PCs": "Per Group",
             "ST PCs missing on Prod": "Per Group",
@@ -15574,6 +15884,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBphMAE",
           "priceCompare": [
             {
               "pc": "Per Group",
@@ -15615,6 +15926,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Rabat",
+            "Prod Id": "a1HVk000000aBpsMAE",
             "Package PCs": "Per Group; Per Group Per Day (Non-Banded)",
             "ST PCs missing on Prod": "Per Group",
             "Active price": "Yes",
@@ -15640,6 +15952,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpsMAE",
           "priceCompare": [
             {
               "pc": "Per Group Per Day (Non-Banded)",
@@ -15677,6 +15990,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Tangier",
+            "Prod Id": "a1HVk000001xjzpMAA",
             "Package PCs": "Per Group; Per Group Per Day (Non-Banded)",
             "ST PCs missing on Prod": "Per Group",
             "Active price": "Yes",
@@ -15702,6 +16016,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000001xjzpMAA",
           "priceCompare": [
             {
               "pc": "Per Group Per Day (Non-Banded)",
@@ -15743,6 +16058,7 @@ window.ISSUE_DATA = {
             "TM package": "The Imperial Table",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Site Visit Volubilis",
+            "Prod Id": "a1HVk000000aBn5MAE",
             "Package PCs": "Per Group",
             "ST PCs": "Per Group",
             "ST PCs missing on Prod": "Per Group",
@@ -15771,6 +16087,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBn5MAE",
           "priceCompare": [
             {
               "pc": "Per Group",
@@ -15810,6 +16127,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Tafraoute",
+            "Prod Id": "a1HVk000000aBriMAE",
             "Package PCs": "Per Group Per Day",
             "ST PCs missing on Prod": "Per Group Per Day",
             "Active price": "Yes",
@@ -15835,6 +16153,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBriMAE",
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -15870,6 +16189,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Todra",
+            "Prod Id": "a1HVk000000aBo2MAE",
             "Package PCs": "Per Group Per Day",
             "ST PCs missing on Prod": "Per Group Per Day",
             "Active price": "Yes",
@@ -15889,6 +16209,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBo2MAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -15924,6 +16245,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Volubilis Half Day",
+            "Prod Id": "a1HVk000002E8uDMAS",
             "Package PCs": "Per Group Per Day",
             "ST PCs missing on Prod": "Per Group Per Day",
             "Active price": "Yes",
@@ -15949,6 +16271,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002E8uDMAS",
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -15985,6 +16308,7 @@ window.ISSUE_DATA = {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Lunch With a Local Family in Todra",
+            "Prod Id": "a1HVk000000aBo3MAE",
             "Package PCs": "Per Person",
             "ST PCs missing on Prod": "Per Person",
             "Active price": "Yes",
@@ -16004,6 +16328,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBo3MAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -16044,6 +16369,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMRW",
             "Prod exists": "Yes",
             "Prod Name": "Mama Bia Boutaghrar Tour",
+            "Prod Id": "a1HVk000000aBsHMAU",
             "Package PCs": "Per Group Per Day",
             "ST PCs missing on Prod": "Per Group Per Day",
             "Active price": "Yes",
@@ -16069,6 +16395,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBsHMAU",
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -16106,6 +16433,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Marina Bay City Center",
+            "Prod Id": "a1HSo00000Bi46PMAR",
             "Package PCs": "Double Room; Double Room - Standard (Pool View); Leader Single Room; Leader Single Room - Standard (Pool View); Single Room; Single Room - Standard (Pool View); Twin Room; Twin Room - Standard (Pool View)",
             "ST PCs": "City Tax; Double - Standard Room Marina View; Double - Standard Room Pool View; Leader Room Single - Standard; Single - Standard Room Marina View; Single - Standard Room Pool View; Twin - Standard Room Marina View; Twin - Standard Room Pool View",
             "ST PCs missing on Prod": "City Tax; Double - Standard Room Marina View; Double - Standard Room Pool View; Leader Room Single - Standard; Single - Standard Room Marina View; Single - Standard Room Pool View; Twin - Standard Room Marina View; Twin - Standard Room Pool View",
@@ -16164,6 +16492,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000Bi46PMAR",
           "priceCompare": [
             {
               "pc": "City Tax",
@@ -16283,6 +16612,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
             "Prod Name": "MARLY BOUTIQUE HOTEL",
+            "Prod Id": "a1HVk000002jIhBMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -16322,6 +16652,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002jIhBMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -16372,6 +16703,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech Airport to Hotel Transfer",
+            "Prod Id": "a1HVk000000aBnFMAU",
             "Package PCs": "Transport (Per Person)",
             "ST PCs missing on Prod": "Transport (Per Person)",
             "Active price": "Yes",
@@ -16391,6 +16723,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnFMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -16451,6 +16784,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Agafay Astronaut Transportation with return",
+            "Prod Id": "a1HVk000000aBwQMAU",
             "Package PCs": "Per Unit (Max 1...)",
             "ST PCs missing on Prod": "Per Unit (Max 1...)",
             "Active price": "Yes",
@@ -16475,6 +16809,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwQMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -16525,6 +16860,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMRW",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Boutaghrar Private Transfer XMRW",
+            "Prod Id": "a1HVk000000aBuXMAU",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -16549,6 +16885,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBuXMAU",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -16584,6 +16921,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Casablanca",
+            "Prod Id": "a1HVk000000gzIPMAY",
             "Package PCs": "Transport (Per Person)",
             "ST PCs missing on Prod": "Transport (Per Person)",
             "Active price": "Yes",
@@ -16602,6 +16940,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000gzIPMAY",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -16642,6 +16981,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Essaouira 7 Days XMSF Private Transfer",
+            "Prod Id": "a1HVk000000aBn6MAE",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -16666,6 +17006,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBn6MAE",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -16701,6 +17042,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFE",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Marrakech XMFE 6 Days Private Transfer",
+            "Prod Id": "a1HVk000000aBx2MAE",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -16725,6 +17067,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBx2MAE",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -16765,6 +17108,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Marrakech XMXC Private Transfer",
+            "Prod Id": "a1HVk000000aBnuMAE",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -16789,6 +17133,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnuMAE",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -16829,6 +17174,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXM",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Marrakech XMXM Private Transfer",
+            "Prod Id": "a1HVk000000aBttMAE",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -16854,6 +17200,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBttMAE",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -16894,6 +17241,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Tangier Overnight Train",
+            "Prod Id": "a1HVk000000aBrwMAE",
             "Package PCs": "Overnight Transport",
             "ST PCs missing on Prod": "Overnight Transport",
             "Active price": "Yes",
@@ -16918,6 +17266,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrwMAE",
           "priceCompare": [
             {
               "pc": "Overnight Transport",
@@ -16956,6 +17305,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech Train Station to Hotel Taxi",
+            "Prod Id": "a1HVk000000aBtmMAE",
             "Package PCs": "Per Unit (Max 0...)",
             "ST PCs missing on Prod": "Per Unit (Max 0...)",
             "Active price": "Yes",
@@ -16980,6 +17330,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBtmMAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -17025,6 +17376,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "Medina Hotel to Train Station Taxi",
+            "Prod Id": "a1HVk000000aBwKMAU",
             "Package PCs": "Per Unit (Max 0...)",
             "ST PCs missing on Prod": "Per Unit (Max 0...)",
             "Active price": "Yes",
@@ -17049,6 +17401,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwKMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -17089,6 +17442,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Meknes 3 Star Hotel Placeholder",
+            "Prod Id": "a1HVk000000aBvqMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -17128,6 +17482,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBvqMAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -17193,6 +17548,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMZF",
             "Prod exists": "Yes",
             "Prod Name": "Meknes to Moulay Driss via Volubilis Grand Taxi",
+            "Prod Id": "a1HVk000000aBrUMAU",
             "Package PCs": "Per Unit (Max 0...)",
             "ST PCs missing on Prod": "Per Unit (Max 0...)",
             "Active price": "Yes",
@@ -17217,6 +17573,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrUMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -17257,6 +17614,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Merzouga placeholder XMKC",
+            "Prod Id": "a1HVk000002posrMAA",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -17296,6 +17654,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002posrMAA",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -17351,6 +17710,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
             "Prod Name": "Mhamid to Foum Zguid via Erg Chigaga 4X4",
+            "Prod Id": "a1HVk000000aBpSMAU",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -17375,6 +17735,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpSMAU",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -17410,6 +17771,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMZF",
             "Prod exists": "Yes",
             "Prod Name": "Moroccan House Hotel Casablanca",
+            "Prod Id": "a1HVk000000aBo6MAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -17449,6 +17811,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBo6MAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -17529,6 +17892,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Tour Leader Daily Services",
+            "Prod Id": "a1HVk000000aBwnMAE",
             "Package PCs": "Per Day",
             "ST PCs missing on Prod": "Per Day",
             "Active price": "Yes",
@@ -17548,6 +17912,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwnMAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -17600,6 +17965,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Transport Between Trips Marrakech to Casablanca",
+            "Prod Id": "a1HVk000000aBwvMAE",
             "Package PCs": "Per Trip; Travel between trips",
             "ST PCs missing on Prod": "Per Trip",
             "Active price": "Yes",
@@ -17619,6 +17985,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwvMAE",
           "priceCompare": [
             {
               "pc": "Travel between trips",
@@ -17654,6 +18021,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "Moulay Driss to Chefchaouen Private Transfer XMSB",
+            "Prod Id": "a1HVk000002sMyTMAU",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -17678,6 +18046,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002sMyTMAU",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -17713,6 +18082,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "Moulay Driss to Fes via Volubilis and Meknes Grand Taxi",
+            "Prod Id": "a1HVk000000aBubMAE",
             "Package PCs": "Per Unit (Max 0...)",
             "ST PCs missing on Prod": "Per Unit (Max 0...)",
             "Active price": "Yes",
@@ -17737,6 +18107,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBubMAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -17777,6 +18148,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMZF",
             "Prod exists": "Yes",
             "Prod Name": "Moulay Driss to Marrakech XMZF 8 Days Private Transfer",
+            "Prod Id": "a1HVk000000aBmyMAE",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -17801,6 +18173,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmyMAE",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -17837,6 +18210,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Mountain Guide Half Day - Todra Gorge",
+            "Prod Id": "a1HVk000000aBq6MAE",
             "Package PCs": "Per Group Per Day",
             "ST PCs missing on Prod": "Per Group Per Day",
             "Active price": "Yes",
@@ -17862,6 +18236,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBq6MAE",
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -17897,6 +18272,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
             "Prod Name": "Oukaimden Astrologist",
+            "Prod Id": "a1HVk000000ilpdMAA",
             "Package PCs": "Per Group (Non-Banded)",
             "ST PCs missing on Prod": "Per Group (Non-Banded)",
             "Active price": "Yes",
@@ -17921,6 +18297,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000ilpdMAA",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -17961,6 +18338,7 @@ window.ISSUE_DATA = {
             "TM package": "The Sahara Loop",
             "Prod exists": "Yes",
             "Prod Name": "Palmeras Y Dunas Luxury Camp - HB",
+            "Prod Id": "a1HVk0000023o5ZMAQ",
             "Package PCs": "Double Room; Leader Single Room; Single Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room",
             "Active price": "Yes",
@@ -17996,6 +18374,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000023o5ZMAQ",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -18098,6 +18477,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Pastilla Dinner Fes",
+            "Prod Id": "a1HVk000000aBpeMAE",
             "Package PCs": "Dinner",
             "ST PCs": "Per Crew; Per Person",
             "ST PCs missing on Prod": "Per Crew; Per Person",
@@ -18126,6 +18506,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpeMAE",
           "priceCompare": [
             {
               "pc": "Per Crew",
@@ -18175,6 +18556,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Rabat to Tangier Private Transfer",
+            "Prod Id": "a1HSo00000BiNDtMAN",
             "Package PCs": "Per Unit",
             "ST PCs missing on Prod": "Per Unit",
             "Active price": "Yes",
@@ -18200,6 +18582,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000BiNDtMAN",
           "priceCompare": [
             {
               "pc": "Per Unit",
@@ -18235,6 +18618,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
             "Prod Name": "Riad 48 & Spa",
+            "Prod Id": "a1HVk000002pF3tMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -18274,6 +18658,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002pF3tMAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -18349,6 +18734,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlas Discovery",
             "Prod exists": "Yes",
             "Prod Name": "Riad Atlas 4 Seasons - HB",
+            "Prod Id": "a1HVk000002I9mrMAC",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Active price": "Yes",
@@ -18370,6 +18756,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002I9mrMAC",
           "priceCompare": [
             {
               "pc": "Double - Standard Room",
@@ -18429,6 +18816,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Riad Blue Eyes",
+            "Prod Id": "a1HVk000000aBuCMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -18468,6 +18856,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBuCMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -18601,6 +18990,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic shore",
             "Prod exists": "Yes",
             "Prod Name": "Riad Chbanate",
+            "Prod Id": "a1HVk000000aBscMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "City Tax PP; Double - Suite Confort; Double - Suite Panoramic; Double - Suite Romantic; Double For Single  - Suite Confort; Double For Single  - Suite Panoramic; Double For Single  - Suite Romantic; Leader Room Single - Standard; Twin - Suite Confoort; Twin - Suite Panoramic; Twin - Suite Romantic",
             "ST PCs missing on Prod": "City Tax PP; Double - Suite Confort; Double - Suite Panoramic; Double - Suite Romantic; Double For Single  - Suite Confort; Double For Single  - Suite Panoramic; Double For Single  - Suite Romantic; Twin - Suite Confoort; Twin - Suite Panoramic; Twin - Suite Romantic",
@@ -18669,6 +19059,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBscMAE",
           "priceCompare": [
             {
               "pc": "City Tax PP",
@@ -18773,6 +19164,7 @@ window.ISSUE_DATA = {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Riad Cherifa",
+            "Prod Id": "a1HVk000002P8dxMAC",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -18808,6 +19200,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002P8dxMAC",
           "priceCompare": [
             {
               "pc": "Leader Single Room",
@@ -18873,6 +19266,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
             "Prod Name": "Riad Dilar - BB",
+            "Prod Id": "a1HVk000002400HMAQ",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -18907,6 +19301,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002400HMAQ",
           "priceCompare": [
             {
               "pc": "Leader Single Room",
@@ -19004,6 +19399,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Riad Ksar Ighnda HB",
+            "Prod Id": "a1HVk000000aBwVMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "City Tax; Double - Suite; Double - Superior; Single - Suite; Single - Superior; Twin - Suite; Twin - Superior",
             "ST PCs missing on Prod": "City Tax",
@@ -19026,6 +19422,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwVMAU",
           "priceCompare": [
             {
               "pc": "City Tax",
@@ -19190,6 +19587,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
             "Prod Name": "Riad La Cle D'or XMPM",
+            "Prod Id": "a1HVk000000aBtOMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -19214,6 +19612,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBtOMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -19272,6 +19671,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic shore",
             "Prod exists": "Yes",
             "Prod Name": "Riad la Cle d’Or",
+            "Prod Id": "a1HVk000000aBsrMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Twin Room",
             "ST PCs missing on Prod": "Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Twin Room",
@@ -19315,6 +19715,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBsrMAE",
           "priceCompare": [
             {
               "pc": "Leader Single Room",
@@ -19544,6 +19945,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKN",
             "Prod exists": "Yes",
             "Prod Name": "Riad Tafilalet",
+            "Prod Id": "a1HVk000000aBoKMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Crew Twin Room; Double - Standard Room; Double for Single Use; Leader - Single Standard Room; Single - Standard Room; Twin - Standard Room",
             "ST PCs missing on Prod": "Leader - Single Standard Room",
@@ -19572,6 +19974,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoKMAU",
           "priceCompare": [
             {
               "pc": "Crew Twin Room",
@@ -19642,6 +20045,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Sahara Aventures Camp",
+            "Prod Id": "a1HVk000000aBnPMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Tent; Leader Tent Single; Single - Tent; Triple - Tent; Twin - Tent",
             "ST PCs missing on Prod": "Double - Tent; Single - Tent; Triple - Tent; Twin - Tent",
@@ -19685,6 +20089,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnPMAU",
           "priceCompare": [
             {
               "pc": "Double - Tent",
@@ -19756,6 +20161,7 @@ window.ISSUE_DATA = {
             "TM package": "Essaouira Extention",
             "Prod exists": "Yes",
             "Prod Name": "Seafood Market Lunch",
+            "Prod Id": "a1HVk000000aBp9MAE",
             "Package PCs": "Per Person",
             "ST PCs": "Per Crew; Per Person",
             "ST PCs missing on Prod": "Per Crew; Per Person",
@@ -19784,6 +20190,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBp9MAE",
           "priceCompare": [
             {
               "pc": "Per Crew",
@@ -19839,6 +20246,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "Tangier Bus Station to Medina Taxi",
+            "Prod Id": "a1HVk000000aBrDMAU",
             "Package PCs": "Per Unit (Max 0...)",
             "ST PCs missing on Prod": "Per Unit (Max 0...)",
             "Active price": "Yes",
@@ -19863,6 +20271,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrDMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -19903,6 +20312,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
             "Prod Name": "Tangier Port to Chefchaouen Private Transfer",
+            "Prod Id": "a1HVk000000aBucMAE",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -19927,6 +20337,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBucMAE",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -19962,6 +20373,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "Tangier to Chefchaouen Private transfer",
+            "Prod Id": "a1HVk000000aBsjMAE",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -19986,6 +20398,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBsjMAE",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -20026,6 +20439,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Tangier to Marrakech XMFB 11 days Private Transfer",
+            "Prod Id": "a1HVk000000aBnIMAU",
             "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
@@ -20050,6 +20464,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnIMAU",
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -20085,6 +20500,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
             "Prod Name": "Train Station to Hotel return Taxi",
+            "Prod Id": "a1HVk000000aBrNMAU",
             "Package PCs": "Per Unit (Max 0...)",
             "ST PCs missing on Prod": "Per Unit (Max 0...)",
             "Active price": "Yes",
@@ -20109,6 +20525,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrNMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -20149,6 +20566,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
             "Prod Name": "Widiane Resort BB",
+            "Prod Id": "a1HVk000000aBsTMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -20188,6 +20606,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBsTMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -20303,6 +20722,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
             "Prod Name": "Widiane Resort HB",
+            "Prod Id": "a1HVk000000aBqIMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -20342,6 +20762,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBqIMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -20478,6 +20899,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
             "Prod Name": "XMKC & XMKN Casablanca Placeholder",
+            "Prod Id": "a1HVk000000aBmbMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -20517,6 +20939,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmbMAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -20607,6 +21030,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
             "Prod Name": "XMPX 9 Days Private transfer",
+            "Prod Id": "a1HVk000000jXCjMAM",
             "Package PCs": "Per Vehicle (Non-Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Non-Banded)",
             "Active price": "Yes",
@@ -20631,6 +21055,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000jXCjMAM",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -20676,6 +21101,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
             "Prod Name": "XMPX Imlil Placeholder",
+            "Prod Id": "a1HVk000000jYdRMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -20715,6 +21141,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000jYdRMAU",
           "priceCompare": [
             {
               "pc": "Double Room",
@@ -20765,6 +21192,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
             "Prod Name": "XMSC Casablanca Pleaceholder Hotel",
+            "Prod Id": "a1HVk000000aBwpMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -20789,6 +21217,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwpMAE",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -20874,6 +21303,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
             "Prod Name": "XMSC Chefchaouen Placeholder",
+            "Prod Id": "a1HVk000002rkzdMAA",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -20913,6 +21343,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002rkzdMAA",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -20968,6 +21399,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
             "Prod Name": "XMSC Placeholder Marrakech",
+            "Prod Id": "a1HVk000002rVPVMA2",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -21007,6 +21439,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002rVPVMA2",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -21057,6 +21490,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
             "Prod Name": "XMSF Placeholder Marrakech",
+            "Prod Id": "a1HVk000002sTFBMA2",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -21096,6 +21530,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002sTFBMA2",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -21147,6 +21582,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
             "Prod Name": "XMSS Fes Placeholder Hotel",
+            "Prod Id": "a1HVk000000aBoIMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -21186,6 +21622,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoIMAU",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -21282,6 +21719,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "XMSS Placeholder Marrakech",
+            "Prod Id": "a1HVk000002rUGYMA2",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -21321,6 +21759,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002rUGYMA2",
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -21385,6 +21824,7 @@ window.ISSUE_DATA = {
             "Match type": "Different account",
             "Prod exists": "Yes",
             "Prod Name": "Cheese tasting",
+            "Prod Id": "a1HVk000000wKcfMAE",
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
@@ -21401,6 +21841,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000wKcfMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21439,6 +21880,7 @@ window.ISSUE_DATA = {
             "Match type": "Same (accent/punctuation)",
             "Prod exists": "Yes",
             "Prod Name": "Executive Boutique Hotel Rabat",
+            "Prod Id": "a1HVk000001yygfMAA",
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
@@ -21455,6 +21897,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000001yygfMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21494,6 +21937,7 @@ window.ISSUE_DATA = {
             "Match type": "ST lists extra supplier",
             "Prod exists": "Yes",
             "Prod Name": "Idou Anfa Hotel & Spa",
+            "Prod Id": "a1HVk000000aBwWMAU",
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
@@ -21510,6 +21954,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwWMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21549,6 +21994,7 @@ window.ISSUE_DATA = {
             "Match type": "Close name",
             "Prod exists": "Yes",
             "Prod Name": "Maison du Sud",
+            "Prod Id": "a1HVk000000aBwJMAU",
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
@@ -21565,6 +22011,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwJMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21604,6 +22051,7 @@ window.ISSUE_DATA = {
             "Match type": "Different account",
             "Prod exists": "Yes",
             "Prod Name": "Marina Bay City Center",
+            "Prod Id": "a1HSo00000Bi46PMAR",
             "Active price": "Yes",
             "Price kind": "FIT",
             "Gap": "FIT only",
@@ -21620,6 +22068,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000Bi46PMAR",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21663,6 +22112,7 @@ window.ISSUE_DATA = {
             "Match type": "Close name",
             "Prod exists": "Yes",
             "Prod Name": "Mia Hotel - Fes",
+            "Prod Id": "a1HSo00000A74acMAB",
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
@@ -21679,6 +22129,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000A74acMAB",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21741,6 +22192,7 @@ window.ISSUE_DATA = {
             "Match type": "Different account",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Leader Communication Allowance",
+            "Prod Id": "a1HVk000000aBmaMAE",
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
@@ -21757,6 +22209,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmaMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21796,6 +22249,7 @@ window.ISSUE_DATA = {
             "Match type": "Different account",
             "Prod exists": "Yes",
             "Prod Name": "Riad Chbanate",
+            "Prod Id": "a1HVk000000aBscMAE",
             "Active price": "No",
             "Price kind": "Inactive only",
             "Gap": "Inactive prices only",
@@ -21812,6 +22266,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBscMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21849,6 +22304,7 @@ window.ISSUE_DATA = {
             "Match type": "Different account",
             "Prod exists": "Yes",
             "Prod Name": "Transport Between Trips - Fes Marrakech",
+            "Prod Id": "a1HSo00000BiEDpMAN",
             "Active price": "Yes",
             "Price kind": "FIT",
             "Gap": "FIT only",
@@ -21865,6 +22321,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000BiEDpMAN",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21899,6 +22356,7 @@ window.ISSUE_DATA = {
             "Match type": "Different account",
             "Prod exists": "Yes",
             "Prod Name": "Transport Between Trips - Marrakech Tangier",
+            "Prod Id": "a1HSo00000BiGVlMAN",
             "Active price": "Yes",
             "Price kind": "FIT",
             "Gap": "FIT only",
@@ -21915,6 +22373,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000BiGVlMAN",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21956,6 +22415,7 @@ window.ISSUE_DATA = {
             "TM package": "Classic Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Azawad Luxury Desert Camp",
+            "Prod Id": "a1HVk0000028Zc9MAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Tent; Leader Single - Tent; Quadruple- Tent; Single - Tent; Triple- Tent; Twin - Tent",
             "Suggested PC map": "Double Room → Double - Tent; Leader Single Room → Leader Single - Tent; Single Room → Single - Tent; Twin Room → Twin - Tent",
@@ -21997,6 +22457,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000028Zc9MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22047,6 +22508,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22097,6 +22559,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22147,6 +22610,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22181,6 +22645,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMHA",
             "Prod exists": "Yes",
             "Prod Name": "Camp la Caravane",
+            "Prod Id": "a1HVk000000aBnDMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Deluxe Signature Tent; Leader Tent Single (with Shared Facilities); Leader Tent Twin (with Shared Facilities); Multishare - Tent (with Shared Facilities); Single - Deluxe Signature Tent; Twin - Deluxe Signature Tent",
             "Suggested PC map": "Double Room → Double - Deluxe Signature Tent; Leader Single Room → Leader Tent Single (with Shared Facilities); Single Room → Single - Deluxe Signature Tent; Twin Room → Twin - Deluxe Signature Tent",
@@ -22222,6 +22687,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnDMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22256,6 +22722,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
             "Prod Name": "Cote Ocean Mogador Hotel",
+            "Prod Id": "a1HVk000000aBoeMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Sea View; Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Sea View; Single - Standard Room; Triple - Sea View Standard Room; Triple - Standard Room; Twin - Sea View; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Sea View; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Sea View; Twin Room → Twin - Sea View",
@@ -22297,6 +22764,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoeMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22331,6 +22799,7 @@ window.ISSUE_DATA = {
             "TM package": "The Blue North",
             "Prod exists": "Yes",
             "Prod Name": "Dar cherifa",
+            "Prod Id": "a1HVk0000024Mf7MAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double for Single Use; Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Twin Room",
             "Suggested PC map": "Double Room → Double for Single Use; Single Room → Standard - Single Room; Twin Room → Standard - Twin Room",
@@ -22367,6 +22836,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000024Mf7MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22404,6 +22874,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Etoile Filante D'or HB",
+            "Prod Id": "a1HVk000002LIdVMAW",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Crew Twin Room; Double for Single Use; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Standard - Triple Room; Twin - Twin Room",
             "Suggested PC map": "Double Room → Double for Single Use; Leader Single Room → Standard - Leader Single Room; Single Room → Standard - Single Room; Twin Room → Crew Twin Room",
@@ -22457,6 +22928,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002LIdVMAW",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22492,6 +22964,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials",
             "Prod exists": "Yes",
             "Prod Name": "Executive Boutique Hotel Rabat",
+            "Prod Id": "a1HVk000001yygfMAA",
             "Package PCs": "Double - Standard Room; Double Room; Leader Room Single - Standard; Leader Single Room; Single - Standard Room; Single Room; Twin - Standard Room; Twin Room",
             "ST PCs": "City Tax; Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Suite - Double; Suite - Single; Suite - Twin; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -22534,6 +23007,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000001yygfMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22591,6 +23065,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22634,6 +23109,7 @@ window.ISSUE_DATA = {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Fondouk Nejjarine Fes",
+            "Prod Id": "a1HVk000000aBrHMAU",
             "Package PCs": "Per Group",
             "ST PCs": "Per Crew; Per Person",
             "Suggested PC map": "Per Group → (no ST/Prod equivalent)",
@@ -22659,6 +23135,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrHMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22699,6 +23176,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Al Walid",
+            "Prod Id": "a1HVk0000029ovhMAA",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -22739,6 +23217,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000029ovhMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22813,6 +23292,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22893,6 +23373,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22932,6 +23413,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Charf",
+            "Prod Id": "a1HVk000000aBwTMAU",
             "Package PCs": "Double - Standard Room; Double Room; Leader - Standard Room; Leader Single Room; Single - Standard Room; Single Room; Twin - Standard Room; Twin Room",
             "ST PCs": "Breakfast; Double - Standard Room; Double-Junior; Maos Method Multiple Crew Room (Pax Banded) Max 16; Maos Method Multiple Crew Room (Pax Banded) Max 8; Single - Standard Room; Single-Junior; Twin - Standard Room; Twin-Junior",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader - Standard Room → Leader - Standard Room; Leader Single Room → Leader - Standard Room; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -22979,6 +23461,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwTMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23014,6 +23497,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFE",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Gomassine",
+            "Prod Id": "a1HVk000000aBoOMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Quad - Standard Room; Sawadee - 2nd Leader Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room; Twin Room (Family)",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -23055,6 +23539,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoOMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23088,6 +23573,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Karam Palace HB",
+            "Prod Id": "a1HSo00000BB2RZMA1",
             "Package PCs": "Twin Room",
             "ST PCs": "City Tax; Double Room - Standard; Leader Single Room - Standard; Single Room - Standard; Twin Room - Standard",
             "Suggested PC map": "Twin Room → Twin Room - Standard",
@@ -23136,6 +23622,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000BB2RZMA1",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23171,6 +23658,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Le Musee",
+            "Prod Id": "a1HVk000000aBmlMAE",
             "Package PCs": "Double - Standard Room; Double Room; Leader Room Single - Standard; Leader Single Room; Single - Standard Room; Single Room; Twin - Standard Room; Twin Room",
             "ST PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -23211,6 +23699,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmlMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23247,6 +23736,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Les Saisons",
+            "Prod Id": "a1HVk0000029ocLMAQ",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -23287,6 +23777,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000029ocLMAQ",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23320,6 +23811,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFE",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Miramar",
+            "Prod Id": "a1HVk000000aBpJMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard (Less than 6 rooms); Leader Room Single - Standard (More than 6 rooms); Sawadee - 2nd Leader Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room; Twin Family",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard (Less than 6 rooms); Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -23378,6 +23870,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpJMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23412,6 +23905,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Olympic",
+            "Prod Id": "a1HVk0000029odxMAA",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader - Single Standard Room; Single - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader - Single Standard Room; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -23460,6 +23954,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000029odxMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23495,6 +23990,7 @@ window.ISSUE_DATA = {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Parador",
+            "Prod Id": "a1HVk000000aBnwMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -23535,6 +24031,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnwMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23611,6 +24108,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23644,6 +24142,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Rose Valley",
+            "Prod Id": "a1HVk000000aBqPMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Sawadee - 2nd Leader Room; Single - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -23685,6 +24184,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBqPMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23718,6 +24218,7 @@ window.ISSUE_DATA = {
             "TM package": "The Imperial Table",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Swani",
+            "Prod Id": "a1HVk000000aBmkMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Sawadee - 2nd Leader Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Rom",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Rom",
@@ -23791,6 +24292,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmkMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23825,6 +24327,7 @@ window.ISSUE_DATA = {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Taddart HB",
+            "Prod Id": "a1HVk000000kRzhMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Sawadee - 2nd Leader Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -23866,6 +24369,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000kRzhMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23901,6 +24405,7 @@ window.ISSUE_DATA = {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Tarek",
+            "Prod Id": "a1HSo00000Bi3DZMAZ",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double For Single Use; Leader Room Single - Standard; Quad - Standard Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -23949,6 +24454,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000Bi3DZMAZ",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24016,6 +24522,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24053,6 +24560,7 @@ window.ISSUE_DATA = {
             "TM package": "Classic Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Xaluca Dades HB",
+            "Prod Id": "a1HVk000000aBmdMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "City Tax; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Twin - Twin Room",
             "Suggested PC map": "Double Room → Standard - Double Room; Leader Single Room → Standard - Leader Single Room; Single Room → Standard - Single Room; Twin Room → Twin - Twin Room",
@@ -24116,6 +24624,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmdMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24152,6 +24661,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials",
             "Prod exists": "Yes",
             "Prod Name": "Idou Anfa Hotel & Spa",
+            "Prod Id": "a1HVk000000aBwWMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -24193,6 +24703,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwWMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24287,6 +24798,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24323,6 +24835,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Ait Benhaddou Visit",
+            "Prod Id": "a1HVk000000aBx6MAE",
             "Package PCs": "Per Group",
             "ST PCs": "Per Crew; Per Person",
             "Suggested PC map": "Per Group → (no ST/Prod equivalent)",
@@ -24349,6 +24862,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBx6MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24428,6 +24942,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24461,6 +24976,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXM",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Itrane",
+            "Prod Id": "a1HVk000000aBpVMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Leader Single Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -24504,6 +25020,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpVMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24541,6 +25058,7 @@ window.ISSUE_DATA = {
             "TM package": "Classic Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah La Famille Berbere HB",
+            "Prod Id": "a1HVk000002IqVFMA0",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Single Room",
             "Suggested PC map": "Double Room → Double Room; Leader Single Room → Leader Room; Twin Room → Twin Room",
@@ -24577,6 +25095,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002IqVFMA0",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24611,6 +25130,7 @@ window.ISSUE_DATA = {
             "TM package": "South Morocco with Agafay",
             "Prod exists": "Yes",
             "Prod Name": "Ksar Shama HB",
+            "Prod Id": "a1HVk0000023jnRMAQ",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "City Tax; Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -24679,6 +25199,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000023jnRMAQ",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24712,6 +25233,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Ksar Timnay Riad Mimouna",
+            "Prod Id": "a1HVk000000aBrvMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Leader Room Single - Basic; Single - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Basic; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -24752,6 +25274,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrvMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24785,6 +25308,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMZF",
             "Prod exists": "Yes",
             "Prod Name": "La Colombe Blanche BB",
+            "Prod Id": "a1HVk000000aBnWMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -24826,6 +25350,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnWMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24859,6 +25384,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "La Colombe Blanche HB",
+            "Prod Id": "a1HVk000000aBnXMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -24900,6 +25426,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnXMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24957,6 +25484,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25016,6 +25544,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25073,6 +25602,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25110,6 +25640,7 @@ window.ISSUE_DATA = {
             "TM package": "Essaouira Extention",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Essaouira",
+            "Prod Id": "a1HVk000000aBpuMAE",
             "Package PCs": "Per Group Per Day",
             "ST PCs": "Per Group; Per crew",
             "Suggested PC map": "Per Group Per Day → (no ST/Prod equivalent)",
@@ -25143,6 +25674,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpuMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25176,6 +25708,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlas Discovery",
             "Prod exists": "Yes",
             "Prod Name": "Local guide Half day Imlil",
+            "Prod Id": "a1HVk000000aBqCMAU",
             "ST PCs": "Per Group; Per crew",
             "PC issue": "ST PC not on Prod",
             "ST PCs missing on Prod": "Per Group; Per crew",
@@ -25201,6 +25734,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBqCMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25246,6 +25780,7 @@ window.ISSUE_DATA = {
             "TM package": "CAS to MAR - Train",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Marrakech",
+            "Prod Id": "a1HVk000000aBpiMAE",
             "Package PCs": "Per Group",
             "ST PCs": "Per Group; Per crew",
             "PC issue": "ST PC not on Prod",
@@ -25272,6 +25807,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpiMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25308,6 +25844,7 @@ window.ISSUE_DATA = {
             "TM package": "The Imperial Table",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Meknes",
+            "Prod Id": "a1HVk000000aBphMAE",
             "Package PCs": "Per Group",
             "ST PCs": "Per Group",
             "PC issue": "ST PC not on Prod",
@@ -25334,6 +25871,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBphMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25391,6 +25929,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25459,6 +25998,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25516,6 +26056,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25555,6 +26096,7 @@ window.ISSUE_DATA = {
             "TM package": "The Imperial Table",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Site Visit Volubilis",
+            "Prod Id": "a1HVk000000aBn5MAE",
             "Package PCs": "Per Group",
             "ST PCs": "Per Group",
             "PC issue": "ST PC not on Prod",
@@ -25581,6 +26123,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBn5MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25638,6 +26181,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25710,6 +26254,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25746,6 +26291,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic shore",
             "Prod exists": "Yes",
             "Prod Name": "Maison du Sud",
+            "Prod Id": "a1HVk000000aBwJMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -25787,6 +26333,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwJMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25823,6 +26370,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Marina Bay City Center",
+            "Prod Id": "a1HSo00000Bi46PMAR",
             "Package PCs": "Double Room; Double Room - Standard (Pool View); Leader Single Room; Leader Single Room - Standard (Pool View); Single Room; Single Room - Standard (Pool View); Twin Room; Twin Room - Standard (Pool View)",
             "ST PCs": "City Tax; Double - Standard Room Marina View; Double - Standard Room Pool View; Leader Room Single - Standard; Single - Standard Room Marina View; Single - Standard Room Pool View; Twin - Standard Room Marina View; Twin - Standard Room Pool View",
             "Suggested PC map": "Double Room → Double - Standard Room Marina View; Double Room - Standard (Pool View) → Double - Standard Room Marina View; Leader Single Room → Leader Room Single - Standard; Leader Single Room - Standard (Pool View) → Leader Room Single - Standard; Single Room → Single - Standard Room Marina View; Single Room - Standard (Pool View) → Single - Standard Room Marina View; Twin Room → Twin - Standard Room Marina View; Twin Room - Standard (Pool View) → Twin - Standard Room Marina View",
@@ -25921,6 +26469,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000Bi46PMAR",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25982,6 +26531,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26055,6 +26605,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26129,6 +26680,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26170,6 +26722,7 @@ window.ISSUE_DATA = {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Mia Hotel - Fes",
+            "Prod Id": "a1HSo00000A74acMAB",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader - Single Standard Room; Single - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader - Single Standard Room; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -26211,6 +26764,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000A74acMAB",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26269,6 +26823,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Daily Crew Bonus Accrual",
+            "Prod Id": "a1HVk000000aBn3MAE",
             "Package PCs": "Daily Crew Bonus; Per Day",
             "ST PCs": "Daily Crew Bonus",
             "Suggested PC map": "Per Day → (no ST/Prod equivalent)",
@@ -26294,6 +26849,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBn3MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26352,6 +26908,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Leader Communication Allowance",
+            "Prod Id": "a1HVk000000aBmaMAE",
             "Package PCs": "Per Crew Per Day; Per Day",
             "ST PCs": "Per Crew Per Day",
             "Suggested PC map": "Per Day → (no ST/Prod equivalent)",
@@ -26378,6 +26935,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmaMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26451,6 +27009,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26502,6 +27061,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26539,6 +27099,7 @@ window.ISSUE_DATA = {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Palais Ommeyad Suites and Spa",
+            "Prod Id": "a1HVk000000aBpyMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Junior Suite; Leader Room Single - Standard; Single - Junior Suite; Twin - Junior Suite",
             "Suggested PC map": "Double Room → (no ST/Prod equivalent); Leader Single Room → Leader Room Single - Standard; Single Room → (no ST/Prod equivalent); Twin Room → (no ST/Prod equivalent)",
@@ -26579,6 +27140,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpyMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26614,6 +27176,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Pastilla Dinner Fes",
+            "Prod Id": "a1HVk000000aBpeMAE",
             "Package PCs": "Dinner",
             "ST PCs": "Per Crew; Per Person",
             "Suggested PC map": "Dinner → Dinner",
@@ -26647,6 +27210,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpeMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26721,6 +27285,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26808,6 +27373,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26841,6 +27407,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlas Discovery",
             "Prod exists": "Yes",
             "Prod Name": "Riad Atlas 4 Seasons - HB",
+            "Prod Id": "a1HVk000002I9mrMAC",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -26882,6 +27449,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002I9mrMAC",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26919,6 +27487,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic shore",
             "Prod exists": "Yes",
             "Prod Name": "Riad Chakir Mogador",
+            "Prod Id": "a1HVk000000aBpDMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room; Twin Room (Family)",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -26959,6 +27528,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpDMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26995,6 +27565,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic shore",
             "Prod exists": "Yes",
             "Prod Name": "Riad Chbanate",
+            "Prod Id": "a1HVk000000aBscMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "City Tax PP; Double - Suite Confort; Double - Suite Panoramic; Double - Suite Romantic; Double For Single  - Suite Confort; Double For Single  - Suite Panoramic; Double For Single  - Suite Romantic; Leader Room Single - Standard; Twin - Suite Confoort; Twin - Suite Panoramic; Twin - Suite Romantic",
             "Suggested PC map": "Double Room → (no ST/Prod equivalent); Leader Single Room → Leader Room Single - Standard; Single Room → (no ST/Prod equivalent); Twin Room → (no ST/Prod equivalent)",
@@ -27083,6 +27654,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBscMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27118,6 +27690,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Riad Ksar Ighnda HB",
+            "Prod Id": "a1HVk000000aBwVMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "City Tax; Double - Suite; Double - Superior; Single - Suite; Single - Superior; Twin - Suite; Twin - Superior",
             "Suggested PC map": "Double Room → Double - Superior; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Superior; Twin Room → Twin - Superior",
@@ -27160,6 +27733,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwVMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27201,6 +27775,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic shore",
             "Prod exists": "Yes",
             "Prod Name": "Riad la Cle d’Or",
+            "Prod Id": "a1HVk000000aBsrMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Twin Room",
             "Suggested PC map": "Double Room → Standard - Double Room; Single Room → Standard - Single Room; Twin Room → Standard - Twin Room",
@@ -27259,6 +27834,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBsrMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27292,6 +27868,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Riad Lamane - HB",
+            "Prod Id": "a1HVk000002RATZMA4",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double Room - Standard; Leader Single Room - Standard; Single Room - Standard; Triple Room - Standard; Twin Room - Standard",
             "Suggested PC map": "Double Room → Double Room - Standard; Leader Single Room → Leader Single Room - Standard; Single Room → Single Room - Standard; Twin Room → Twin Room - Standard",
@@ -27333,6 +27910,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002RATZMA4",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27370,6 +27948,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Riad Maktoub HB",
+            "Prod Id": "a1HVk0000024RBlMAM",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Triple Room; Standard - Twin Room",
             "Suggested PC map": "Double Room → Standard - Double Room; Single Room → Standard - Single Room; Twin Room → Standard - Twin Room",
@@ -27405,6 +27984,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000024RBlMAM",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27438,6 +28018,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKN",
             "Prod exists": "Yes",
             "Prod Name": "Riad Nesma",
+            "Prod Id": "a1HVk000000aBoqMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Quadruple - Standard Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -27479,6 +28060,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoqMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27512,6 +28094,7 @@ window.ISSUE_DATA = {
             "TM package": "The Imperial Table",
             "Prod exists": "Yes",
             "Prod Name": "Riad Ritaj",
+            "Prod Id": "a1HVk000000aBmjMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Crew Twin Room - Standard; Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Crew Twin Room - Standard",
@@ -27553,6 +28136,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmjMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27590,6 +28174,7 @@ window.ISSUE_DATA = {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Riad Sayeda al Hora",
+            "Prod Id": "a1HVk000000aBu2MAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader Room Single - Standard; Single Room → Single - Standard Room; Twin Room → Twin - Standard Room",
@@ -27630,6 +28215,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBu2MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27663,6 +28249,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKN",
             "Prod exists": "Yes",
             "Prod Name": "Riad Tafilalet",
+            "Prod Id": "a1HVk000000aBoKMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Crew Twin Room; Double - Standard Room; Double for Single Use; Leader - Single Standard Room; Single - Standard Room; Twin - Standard Room",
             "Suggested PC map": "Double Room → Double - Standard Room; Leader Single Room → Leader - Single Standard Room; Single Room → Single - Standard Room; Twin Room → Crew Twin Room",
@@ -27711,6 +28298,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoKMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27745,6 +28333,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Sahara Aventures Camp",
+            "Prod Id": "a1HVk000000aBnPMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Tent; Leader Tent Single; Single - Tent; Triple - Tent; Twin - Tent",
             "Suggested PC map": "Double Room → Double - Tent; Leader Single Room → Leader Tent Single; Single Room → Single - Tent; Twin Room → Twin - Tent",
@@ -27808,6 +28397,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnPMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27843,6 +28433,7 @@ window.ISSUE_DATA = {
             "TM package": "Essaouira Extention",
             "Prod exists": "Yes",
             "Prod Name": "Seafood Market Lunch",
+            "Prod Id": "a1HVk000000aBp9MAE",
             "Package PCs": "Per Person",
             "ST PCs": "Per Crew; Per Person",
             "PC issue": "ST PC not on Prod",
@@ -27869,6 +28460,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBp9MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27953,6 +28545,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27987,6 +28580,7 @@ window.ISSUE_DATA = {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Transport Between Trips - Fes Marrakech",
+            "Prod Id": "a1HSo00000BiEDpMAN",
             "Package PCs": "Per Trip",
             "ST PCs": "Travel Between Trips",
             "Suggested PC map": "Per Trip → (no ST/Prod equivalent)",
@@ -28013,6 +28607,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000BiEDpMAN",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28044,6 +28639,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Transport Between Trips - Marrakech Tangier",
+            "Prod Id": "a1HSo00000BiGVlMAN",
             "Package PCs": "Per Trip; Travel Between Trips",
             "ST PCs": "Travel Between Trips",
             "Suggested PC map": "Per Trip → (no ST/Prod equivalent)",
@@ -28070,6 +28666,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000BiGVlMAN",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28117,6 +28714,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28176,6 +28774,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28220,6 +28819,7 @@ window.ISSUE_DATA = {
             "TM package": "The Sahara Loop",
             "Prod exists": "Yes",
             "Prod Name": "Atlas Film Studio visit",
+            "Prod Id": "a1HVk0000028bu5MAA",
             "ST PCs": "Per Crew; Per Person",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
@@ -28236,6 +28836,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000028bu5MAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28269,6 +28870,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Auberge Chez Ali HB",
+            "Prod Id": "a1HSo00000BEASbMAP",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double Room; Double for Single Use; Leader Single Room; Single Room; Triple Room; Twin Room",
             "Price kind": "Group Tour",
@@ -28286,6 +28888,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000BEASbMAP",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28320,6 +28923,7 @@ window.ISSUE_DATA = {
             "TM package": "Classic Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Azawad Luxury Desert Camp",
+            "Prod Id": "a1HVk0000028Zc9MAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Tent; Leader Single - Tent; Quadruple- Tent; Single - Tent; Triple- Tent; Twin - Tent",
             "Price kind": "Group Tour",
@@ -28338,6 +28942,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000028Zc9MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28374,6 +28979,7 @@ window.ISSUE_DATA = {
             "TM package": "South Morocco with Agafay",
             "Prod exists": "Yes",
             "Prod Name": "Bread Cooking Demonstration",
+            "Prod Id": "a1HVk000000aBs7MAE",
             "ST PCs": "Per Crew; Per Person",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
@@ -28391,6 +28997,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBs7MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28425,6 +29032,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMHA",
             "Prod exists": "Yes",
             "Prod Name": "Camp la Caravane",
+            "Prod Id": "a1HVk000000aBnDMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Deluxe Signature Tent; Leader Tent Single (with Shared Facilities); Leader Tent Twin (with Shared Facilities); Multishare - Tent (with Shared Facilities); Single - Deluxe Signature Tent; Twin - Deluxe Signature Tent",
             "Price kind": "Group Tour",
@@ -28443,6 +29051,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnDMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28477,6 +29086,7 @@ window.ISSUE_DATA = {
             "TM package": "The Blue North",
             "Prod exists": "Yes",
             "Prod Name": "Cheese tasting",
+            "Prod Id": "a1HVk000000wKcfMAE",
             "Package PCs": "Per Person",
             "ST PCs": "Per Crew; Per Person",
             "Price kind": "Group Tour",
@@ -28495,6 +29105,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000wKcfMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28528,6 +29139,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
             "Prod Name": "Cote Ocean Mogador Hotel",
+            "Prod Id": "a1HVk000000aBoeMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Sea View; Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Sea View; Single - Standard Room; Triple - Sea View Standard Room; Triple - Standard Room; Twin - Sea View; Twin - Standard Room",
             "Price kind": "Group Tour",
@@ -28546,6 +29158,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoeMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28583,6 +29196,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Etoile Filante D'or HB",
+            "Prod Id": "a1HVk000002LIdVMAW",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Crew Twin Room; Double for Single Use; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Standard - Triple Room; Twin - Twin Room",
             "Price kind": "Group Tour",
@@ -28601,6 +29215,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002LIdVMAW",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28636,6 +29251,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFE",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Gomassine",
+            "Prod Id": "a1HVk000000aBoOMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Quad - Standard Room; Sawadee - 2nd Leader Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room; Twin Room (Family)",
             "Price kind": "Group Tour",
@@ -28654,6 +29270,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoOMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28687,6 +29304,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Karam Palace HB",
+            "Prod Id": "a1HSo00000BB2RZMA1",
             "Package PCs": "Twin Room",
             "ST PCs": "City Tax; Double Room - Standard; Leader Single Room - Standard; Single Room - Standard; Twin Room - Standard",
             "Price kind": "Group Tour",
@@ -28705,6 +29323,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HSo00000BB2RZMA1",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28738,6 +29357,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFE",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Miramar",
+            "Prod Id": "a1HVk000000aBpJMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard (Less than 6 rooms); Leader Room Single - Standard (More than 6 rooms); Sawadee - 2nd Leader Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room; Twin Family",
             "Price kind": "Group Tour",
@@ -28756,6 +29376,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpJMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28790,6 +29411,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Olympic",
+            "Prod Id": "a1HVk0000029odxMAA",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader - Single Standard Room; Single - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
@@ -28808,6 +29430,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000029odxMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28841,6 +29464,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Rose Valley",
+            "Prod Id": "a1HVk000000aBqPMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Sawadee - 2nd Leader Room; Single - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
@@ -28859,6 +29483,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBqPMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28892,6 +29517,7 @@ window.ISSUE_DATA = {
             "TM package": "The Imperial Table",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Swani",
+            "Prod Id": "a1HVk000000aBmkMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Sawadee - 2nd Leader Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Rom",
             "Price kind": "Group Tour",
@@ -28910,6 +29536,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmkMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28944,6 +29571,7 @@ window.ISSUE_DATA = {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Taddart HB",
+            "Prod Id": "a1HVk000000kRzhMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Sawadee - 2nd Leader Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
@@ -28962,6 +29590,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000kRzhMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29000,6 +29629,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMFP",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Xaluca Dades HB",
+            "Prod Id": "a1HVk000000aBmdMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "City Tax; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Twin - Twin Room",
             "Price kind": "Group Tour",
@@ -29018,6 +29648,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmdMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29055,6 +29686,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMKN",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Ait Benhaddou Visit",
+            "Prod Id": "a1HVk000000aBx6MAE",
             "Package PCs": "Per Group",
             "ST PCs": "Per Crew; Per Person",
             "Price kind": "Group Tour",
@@ -29073,6 +29705,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBx6MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29106,6 +29739,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXM",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Itrane",
+            "Prod Id": "a1HVk000000aBpVMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Leader Single Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
@@ -29124,6 +29758,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpVMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29162,6 +29797,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMSS",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah La Famille Berbere HB",
+            "Prod Id": "a1HVk000002IqVFMA0",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Single Room",
             "Price kind": "Group Tour",
@@ -29180,6 +29816,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002IqVFMA0",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29213,6 +29850,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMZF",
             "Prod exists": "Yes",
             "Prod Name": "La Colombe Blanche BB",
+            "Prod Id": "a1HVk000000aBnWMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
@@ -29231,6 +29869,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnWMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29264,6 +29903,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "La Colombe Blanche HB",
+            "Prod Id": "a1HVk000000aBnXMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
@@ -29282,6 +29922,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnXMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29320,6 +29961,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMPX, XMSC, XMSF",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Essaouira",
+            "Prod Id": "a1HVk000000aBpuMAE",
             "Package PCs": "Per Group Per Day",
             "ST PCs": "Per Group; Per crew",
             "Price kind": "Group Tour",
@@ -29338,6 +29980,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpuMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29371,6 +30014,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlas Discovery",
             "Prod exists": "Yes",
             "Prod Name": "Local guide Half day Imlil",
+            "Prod Id": "a1HVk000000aBqCMAU",
             "ST PCs": "Per Group; Per crew",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
@@ -29388,6 +30032,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBqCMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29434,6 +30079,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMFB, XMFE, XMKC, XMKN, XMPM, XMPX, XMSB, XMSC, XMSS, XMZF",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Marrakech",
+            "Prod Id": "a1HVk000000aBpiMAE",
             "Package PCs": "Per Group",
             "ST PCs": "Per Group; Per crew",
             "Price kind": "Group Tour",
@@ -29452,6 +30098,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpiMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29488,6 +30135,7 @@ window.ISSUE_DATA = {
             "TM package": "The Imperial Table",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Meknes",
+            "Prod Id": "a1HVk000000aBphMAE",
             "Package PCs": "Per Group",
             "ST PCs": "Per Group",
             "Price kind": "Group Tour",
@@ -29506,6 +30154,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBphMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29546,6 +30195,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMKC, XMKN, XMPM, XMSB, XMSC, XMSS",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Site Visit Volubilis",
+            "Prod Id": "a1HVk000000aBn5MAE",
             "Package PCs": "Per Group",
             "ST PCs": "Per Group",
             "Price kind": "Group Tour",
@@ -29564,6 +30214,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBn5MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29604,6 +30255,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMPM, XMSC, XMZF",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech Simply Tasting Trail",
+            "Prod Id": "a1HVk000000aBplMAE",
             "Package PCs": "Per Person",
             "ST PCs": "Per Crew; Per Person",
             "Price kind": "Group Tour",
@@ -29621,6 +30273,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBplMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29656,6 +30309,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Pastilla Dinner Fes",
+            "Prod Id": "a1HVk000000aBpeMAE",
             "Package PCs": "Dinner",
             "ST PCs": "Per Crew; Per Person",
             "Price kind": "Group Tour",
@@ -29674,6 +30328,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpeMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29707,6 +30362,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlas Discovery",
             "Prod exists": "Yes",
             "Prod Name": "Riad Atlas 4 Seasons - HB",
+            "Prod Id": "a1HVk000002I9mrMAC",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
@@ -29725,6 +30381,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002I9mrMAC",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29766,6 +30423,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic shore",
             "Prod exists": "Yes",
             "Prod Name": "Riad la Cle d’Or",
+            "Prod Id": "a1HVk000000aBsrMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Twin Room",
             "Price kind": "Group Tour",
@@ -29784,6 +30442,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBsrMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29817,6 +30476,7 @@ window.ISSUE_DATA = {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
             "Prod Name": "Riad Lamane - HB",
+            "Prod Id": "a1HVk000002RATZMA4",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double Room - Standard; Leader Single Room - Standard; Single Room - Standard; Triple Room - Standard; Twin Room - Standard",
             "Price kind": "Group Tour",
@@ -29835,6 +30495,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002RATZMA4",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29868,6 +30529,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKN",
             "Prod exists": "Yes",
             "Prod Name": "Riad Nesma",
+            "Prod Id": "a1HVk000000aBoqMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Quadruple - Standard Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
@@ -29886,6 +30548,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoqMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29919,6 +30582,7 @@ window.ISSUE_DATA = {
             "TM package": "The Imperial Table",
             "Prod exists": "Yes",
             "Prod Name": "Riad Ritaj",
+            "Prod Id": "a1HVk000000aBmjMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Crew Twin Room - Standard; Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
@@ -29937,6 +30601,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmjMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29970,6 +30635,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKN",
             "Prod exists": "Yes",
             "Prod Name": "Riad Tafilalet",
+            "Prod Id": "a1HVk000000aBoKMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Crew Twin Room; Double - Standard Room; Double for Single Use; Leader - Single Standard Room; Single - Standard Room; Twin - Standard Room",
             "Price kind": "Group Tour",
@@ -29988,6 +30654,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoKMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30023,6 +30690,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMSF",
             "Prod exists": "Yes",
             "Prod Name": "Sahara Aventures Camp",
+            "Prod Id": "a1HVk000000aBnPMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Tent; Leader Tent Single; Single - Tent; Triple - Tent; Twin - Tent",
             "Price kind": "Group Tour",
@@ -30041,6 +30709,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnPMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30083,6 +30752,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMFP, XMKC, XMKN, XMPM, XMSB, XMSC, XMSS",
             "Prod exists": "Yes",
             "Prod Name": "Volubilis Visit",
+            "Prod Id": "a1HVk000000aBpgMAE",
             "Package PCs": "Per Person",
             "ST PCs": "Per Crew; Per Person",
             "Price kind": "Group Tour",
@@ -30100,6 +30770,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpgMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30144,6 +30815,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
             "Prod Name": "10 Days XMFP Private Transfer",
+            "Prod Id": "a1HVk0000028zI5MAI",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Casablanca",
@@ -30162,6 +30834,7 @@ window.ISSUE_DATA = {
           "prodType": "Transport",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk0000028zI5MAI",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30191,6 +30864,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Bike Storage",
+            "Prod Id": "a1HVk000000aBnlMAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Marrakech",
@@ -30209,6 +30883,7 @@ window.ISSUE_DATA = {
           "prodType": "Tolls & Charges",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnlMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30241,6 +30916,7 @@ window.ISSUE_DATA = {
             "TM package": "South Morocco with Agafay",
             "Prod exists": "Yes",
             "Prod Name": "Bread Cooking Demonstration",
+            "Prod Id": "a1HVk000000aBs7MAE",
             "Gap": "Group Tour only — no FIT",
             "Template location": "Imlil",
             "Prod location": "Armed",
@@ -30259,6 +30935,7 @@ window.ISSUE_DATA = {
           "prodType": "Activity",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBs7MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30292,6 +30969,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMZF",
             "Prod exists": "Yes",
             "Prod Name": "Bread Preparation",
+            "Prod Id": "a1HVk000000aBmqMAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Boutaghrar",
@@ -30309,6 +30987,7 @@ window.ISSUE_DATA = {
           "prodType": "Activity",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmqMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30338,6 +31017,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca Airport to Marrakech Private Transfer",
+            "Prod Id": "a1HVk000000aBoCMAU",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Casablanca",
@@ -30356,6 +31036,7 @@ window.ISSUE_DATA = {
           "prodType": "Transport",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoCMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30385,6 +31066,7 @@ window.ISSUE_DATA = {
             "TM package": "The Blue North",
             "Prod exists": "Yes",
             "Prod Name": "Cheese tasting",
+            "Prod Id": "a1HVk000000wKcfMAE",
             "Gap": "Group Tour only — no FIT",
             "Template location": "Chefchaouen; Chefcharouen",
             "Prod location": "France",
@@ -30403,6 +31085,7 @@ window.ISSUE_DATA = {
           "prodType": "Activity",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000wKcfMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30436,6 +31119,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
             "Prod Name": "Chefchaouen to Essaouira XMSC Private Transfer",
+            "Prod Id": "a1HVk000000aBqZMAU",
             "Gap": "Group Tour only",
             "Template location": "Fes",
             "Prod location": "Chefchaouen",
@@ -30454,6 +31138,7 @@ window.ISSUE_DATA = {
           "prodType": "Transport",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBqZMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30484,6 +31169,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Cycling Days Snack Pack",
+            "Prod Id": "a1HVk000000aBrxMAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Marrakech",
@@ -30501,6 +31187,7 @@ window.ISSUE_DATA = {
           "prodType": "Meal",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrxMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30530,6 +31217,7 @@ window.ISSUE_DATA = {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Day Trip to Khamlia 4x4 Excursion",
+            "Prod Id": "a1HVk000002L1KvMAK",
             "Gap": "On Prod, no pricing",
             "Template location": "Merzouga Desert Camp",
             "Prod location": "Merzouga",
@@ -30548,6 +31236,7 @@ window.ISSUE_DATA = {
           "prodType": "Activity",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002L1KvMAK",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30577,6 +31266,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
             "Prod Name": "Fes to Marrakech XMSS Private Transfer",
+            "Prod Id": "a1HVk000000aBvrMAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Casablanca",
@@ -30595,6 +31285,7 @@ window.ISSUE_DATA = {
           "prodType": "Transport",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBvrMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30624,6 +31315,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Lunch at Lake Aguelmame Sidi Ali",
+            "Prod Id": "a1HVk000000aBs2MAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Midelt",
@@ -30641,6 +31333,7 @@ window.ISSUE_DATA = {
           "prodType": "Meal",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBs2MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30670,6 +31363,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMHA",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Marrakech XMHA 3 Days Private Transfer",
+            "Prod Id": "a1HVk000000aBw0MAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Marrakech",
@@ -30687,6 +31381,7 @@ window.ISSUE_DATA = {
           "prodType": "Transport",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBw0MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30716,6 +31411,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXM",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Marrakech XMXM Private Transfer",
+            "Prod Id": "a1HVk000000aBttMAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Marrakech",
@@ -30734,6 +31430,7 @@ window.ISSUE_DATA = {
           "prodType": "Transport",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBttMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30763,6 +31460,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Picnic Lunch in Oued Laou",
+            "Prod Id": "a1HVk000000aBs1MAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Tetouan",
@@ -30780,6 +31478,7 @@ window.ISSUE_DATA = {
           "prodType": "Activity",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBs1MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30809,6 +31508,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Pottery Making Class with a Local Artisan",
+            "Prod Id": "a1HVk000000aBuhMAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Fes",
@@ -30826,6 +31526,7 @@ window.ISSUE_DATA = {
           "prodType": "Activity",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBuhMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30855,6 +31556,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
             "Prod Name": "Tea Making Demonstration",
+            "Prod Id": "a1HVk000000aBmuMAE",
             "Gap": "Group Tour only",
             "Template location": "Beni Mellal",
             "Prod location": "Beni Mellal-Khenifra",
@@ -30872,6 +31574,7 @@ window.ISSUE_DATA = {
           "prodType": "Activity",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBmuMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30901,6 +31604,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Tea With Nomad Family at M'goun Valley",
+            "Prod Id": "a1HVk000000aBs4MAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Kelaa M'Gouna",
@@ -30918,6 +31622,7 @@ window.ISSUE_DATA = {
           "prodType": "Activity",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBs4MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30947,6 +31652,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
             "Prod Name": "Tipping Kitty - XMPM",
+            "Prod Id": "a1HVk000000aBrsMAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Casablanca",
@@ -30965,6 +31671,7 @@ window.ISSUE_DATA = {
           "prodType": "Tolls & Charges",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrsMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31005,6 +31712,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMRW",
             "Prod exists": "Yes",
             "Prod Name": "5 Days Package Morocco Expedition: Women in Focus Hike",
+            "Prod Id": "a1HVk000000aBnBMAU",
             "Gap": "Group Tour only",
             "Template location": "Boutaghrar",
             "Prod location": "Boutaghrar",
@@ -31022,6 +31730,7 @@ window.ISSUE_DATA = {
           "prodType": "Multi-Day Service",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnBMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31052,6 +31761,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Bicycle Cleaning",
+            "Prod Id": "a1HVk000000aBnmMAE",
             "Gap": "Group Tour only",
             "Template location": "Marrakech; Morocco",
             "Prod location": "Marrakech",
@@ -31069,6 +31779,7 @@ window.ISSUE_DATA = {
           "prodType": "Tolls & Charges",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnmMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31098,6 +31809,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Bike Storage",
+            "Prod Id": "a1HVk000000aBnlMAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Marrakech",
@@ -31116,6 +31828,7 @@ window.ISSUE_DATA = {
           "prodType": "Tolls & Charges",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnlMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31145,6 +31858,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca Airport to Hotel Private Transfer",
+            "Prod Id": "a1HVk000000aBs5MAE",
             "Gap": "Group Tour only",
             "Template location": "Casablanca",
             "Prod location": "Casablanca",
@@ -31163,6 +31877,7 @@ window.ISSUE_DATA = {
           "prodType": "Transport",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBs5MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31193,6 +31908,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca Airport to Hotel Private Transfer Individual XMKC / XMKN",
+            "Prod Id": "a1HVk000000aBsoMAE",
             "Gap": "Group Tour only",
             "Template location": "Casablanca",
             "Prod location": "Casablanca",
@@ -31210,6 +31926,7 @@ window.ISSUE_DATA = {
           "prodType": "Transfer",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBsoMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31239,6 +31956,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca Airport to Marrakech Private Transfer",
+            "Prod Id": "a1HVk000000aBoCMAU",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Casablanca",
@@ -31257,6 +31975,7 @@ window.ISSUE_DATA = {
           "prodType": "Transport",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBoCMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31286,6 +32005,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXM",
             "Prod exists": "Yes",
             "Prod Name": "Helmets Hire XMXM",
+            "Prod Id": "a1HVk000000aBufMAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Morocco",
@@ -31303,6 +32023,7 @@ window.ISSUE_DATA = {
           "prodType": "Tolls & Charges",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBufMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31335,6 +32056,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMFB, XMFP",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide - Half Day Chefchaouen",
+            "Prod Id": "a1HVk000000aBpqMAE",
             "Gap": "OK — FIT and Group Tour",
             "Template location": "Chefchaouen",
             "Prod location": "Chefchaouen",
@@ -31353,6 +32075,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpqMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31384,6 +32107,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide - Sidi Chamharouch Walk",
+            "Prod Id": "a1HVk000000aBorMAE",
             "Gap": "Group Tour only",
             "Template location": "Armed",
             "Prod location": "Armed",
@@ -31402,6 +32126,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBorMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31432,6 +32157,7 @@ window.ISSUE_DATA = {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Ait Benhaddou",
+            "Prod Id": "a1HVk000001yIJFMA2",
             "Gap": "Group Tour only",
             "Template location": "Ait Benhaddou",
             "Prod location": "Ait Benhaddou",
@@ -31450,6 +32176,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000001yIJFMA2",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31480,6 +32207,7 @@ window.ISSUE_DATA = {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Casablanca - Half Day",
+            "Prod Id": "a1HVk000000aBqAMAU",
             "Gap": "OK — FIT and Group Tour",
             "Template location": "Casablanca",
             "Prod location": "Casablanca",
@@ -31498,6 +32226,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBqAMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31527,6 +32256,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSS",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Dades-Half Day",
+            "Prod Id": "a1HVk000000aBroMAE",
             "Gap": "Group Tour only",
             "Template location": "Dades",
             "Prod location": "Dades",
@@ -31545,6 +32275,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBroMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31574,6 +32305,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXM",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day - Armed",
+            "Prod Id": "a1HVk000000aBqrMAE",
             "Gap": "Group Tour only",
             "Template location": "Armed",
             "Prod location": "Armed",
@@ -31592,6 +32324,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBqrMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31632,6 +32365,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMFB, XMFP, XMKC, XMKN, XMPM, XMSB, XMSC, XMSS, XMXC, XMZF",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Fes",
+            "Prod Id": "a1HVk000000aBpfMAE",
             "Gap": "OK — FIT and Group Tour",
             "Template location": "Fes",
             "Prod location": "Fes",
@@ -31650,6 +32384,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBpfMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31680,6 +32415,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day M'goun",
+            "Prod Id": "a1HVk000000aBrKMAU",
             "Gap": "Group Tour only",
             "Template location": "Kelaa M'Gouna; Morocco",
             "Prod location": "Kelaa M'Gouna",
@@ -31698,6 +32434,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrKMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31730,6 +32467,7 @@ window.ISSUE_DATA = {
             "TM package": "The Imperial Table",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Meknes",
+            "Prod Id": "a1HVk000000aBphMAE",
             "Gap": "Group Tour only — no FIT",
             "Template location": "Meknes",
             "Prod location": "Meknes",
@@ -31748,6 +32486,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBphMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31784,6 +32523,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Tangier",
+            "Prod Id": "a1HVk000001xjzpMAA",
             "Gap": "OK — FIT and Group Tour",
             "Template location": "Tangier",
             "Prod location": "Tangier",
@@ -31802,6 +32542,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000001xjzpMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31838,6 +32579,7 @@ window.ISSUE_DATA = {
             "SGA trips": "XMKC, XMKN, XMPM, XMSB, XMSC, XMSS",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Site Visit Volubilis",
+            "Prod Id": "a1HVk000000aBn5MAE",
             "Gap": "Group Tour only — no FIT",
             "Template location": "Volubilis",
             "Prod location": "Volubilis",
@@ -31856,6 +32598,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBn5MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31889,6 +32632,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSF",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Tafraoute",
+            "Prod Id": "a1HVk000000aBriMAE",
             "Gap": "Group Tour only",
             "Template location": "Tafraoute",
             "Prod location": "Tafraoute",
@@ -31907,6 +32651,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBriMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31936,6 +32681,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Todra",
+            "Prod Id": "a1HVk000000aBo2MAE",
             "Gap": "Group Tour only",
             "Template location": "Todra Gorge",
             "Prod location": "Todra Gorge",
@@ -31954,6 +32700,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBo2MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31983,6 +32730,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFP",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Volubilis Half Day",
+            "Prod Id": "a1HVk000002E8uDMAS",
             "Gap": "Group Tour only",
             "Template location": "Volubilis",
             "Prod location": "Volubilis",
@@ -32001,6 +32749,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000002E8uDMAS",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32031,6 +32780,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSC",
             "Prod exists": "Yes",
             "Prod Name": "Luggage Storage - Imlil",
+            "Prod Id": "a1HVk000000aBrcMAE",
             "Gap": "Group Tour only",
             "Template location": "Imlil",
             "Prod location": "Imlil",
@@ -32048,6 +32798,7 @@ window.ISSUE_DATA = {
           "prodType": "Tolls & Charges",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrcMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32077,6 +32828,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "Luggage Storage - Meknes",
+            "Prod Id": "a1HVk000000aBr6MAE",
             "Gap": "Group Tour only",
             "Template location": "Meknes",
             "Prod location": "Meknes",
@@ -32094,6 +32846,7 @@ window.ISSUE_DATA = {
           "prodType": "Tolls & Charges",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBr6MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32124,6 +32877,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMSB",
             "Prod exists": "Yes",
             "Prod Name": "Luggage Storage - Tangier",
+            "Prod Id": "a1HVk000000aBrCMAU",
             "Gap": "Group Tour only",
             "Template location": "Tangier",
             "Prod location": "Tangier",
@@ -32141,6 +32895,7 @@ window.ISSUE_DATA = {
           "prodType": "Tolls & Charges",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrCMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32170,6 +32925,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMRW",
             "Prod exists": "Yes",
             "Prod Name": "Mama Bia Boutaghrar Tour",
+            "Prod Id": "a1HVk000000aBsHMAU",
             "Gap": "Group Tour only",
             "Template location": "Boutaghrar",
             "Prod location": "Boutaghrar",
@@ -32188,6 +32944,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBsHMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32217,6 +32974,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech Airport to Hotel Transfer",
+            "Prod Id": "a1HVk000000aBnFMAU",
             "Gap": "Group Tour only",
             "Template location": "Marrakech",
             "Prod location": "Marrakech",
@@ -32235,6 +32993,7 @@ window.ISSUE_DATA = {
           "prodType": "Transport",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnFMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32265,6 +33024,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Cycling Crew Meal Allowance",
+            "Prod Id": "a1HVk000000aBngMAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Morocco",
@@ -32282,6 +33042,7 @@ window.ISSUE_DATA = {
           "prodType": "Crew Services",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBngMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32312,6 +33073,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Cycling Leader Daily Services",
+            "Prod Id": "a1HVk000000aBnhMAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Morocco",
@@ -32329,6 +33091,7 @@ window.ISSUE_DATA = {
           "prodType": "Crew Services",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnhMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32359,6 +33122,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Cycling Mechanic Salary",
+            "Prod Id": "a1HVk000000aBnfMAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Morocco",
@@ -32376,6 +33140,7 @@ window.ISSUE_DATA = {
           "prodType": "Crew Services",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBnfMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32405,6 +33170,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMHA",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Level 3 Tour Leader Daily Services",
+            "Prod Id": "a1HVk000000aBwDMAU",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Morocco",
@@ -32422,6 +33188,7 @@ window.ISSUE_DATA = {
           "prodType": "Crew Services",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwDMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32452,6 +33219,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMXC",
             "Prod exists": "Yes",
             "Prod Name": "Mountain Guide Half Day - Todra Gorge",
+            "Prod Id": "a1HVk000000aBq6MAE",
             "Gap": "Group Tour only",
             "Template location": "Todra Gorge",
             "Prod location": "Todra Gorge",
@@ -32470,6 +33238,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBq6MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32499,6 +33268,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
             "Prod Name": "Oukaimden Local Guide",
+            "Prod Id": "a1HVk000000ibblMAA",
             "Gap": "Group Tour only",
             "Template location": "Oukaimden",
             "Prod location": "Oukaimden",
@@ -32516,6 +33286,7 @@ window.ISSUE_DATA = {
           "prodType": "Local Guide",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000ibblMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32549,6 +33320,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
             "Prod Name": "RT Bag - Morocco",
+            "Prod Id": "a1HVk000000aBwoMAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Morocco",
@@ -32566,6 +33338,7 @@ window.ISSUE_DATA = {
           "prodType": "Gifts & Miscellaneous Items",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBwoMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32595,6 +33368,7 @@ window.ISSUE_DATA = {
             "TM package": "SGA XMPM",
             "Prod exists": "Yes",
             "Prod Name": "Tipping Kitty - XMPM",
+            "Prod Id": "a1HVk000000aBrsMAE",
             "Gap": "Group Tour only",
             "Template location": "Morocco",
             "Prod location": "Casablanca",
@@ -32613,6 +33387,7 @@ window.ISSUE_DATA = {
           "prodType": "Tolls & Charges",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "a1HVk000000aBrsMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32669,6 +33444,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -32715,6 +33491,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32760,6 +33537,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Hotel Ocean Vagabond",
             "Prod exists": "Yes",
             "Prod Name": "1 Hour Surf Lesson",
+            "Prod Id": "a1HVk000002EXJ7MAO",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -32774,6 +33552,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000002EXJ7MAO",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32804,6 +33583,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Ouhra Transport",
             "Prod exists": "Yes",
             "Prod Name": "10 Days XMFP Private Transfer",
+            "Prod Id": "a1HVk0000028zI5MAI",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -32818,6 +33598,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk0000028zI5MAI",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32860,6 +33641,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32890,6 +33672,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Gite Tamaloute",
             "Prod exists": "Yes",
             "Prod Name": "5 Days Package Morocco Expedition: Women in Focus Hike",
+            "Prod Id": "a1HVk000000aBnBMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -32904,6 +33687,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBnBMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32934,6 +33718,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Aday Hotel",
             "Prod exists": "Yes",
             "Prod Name": "Aday Hotel",
+            "Prod Id": "a1HVk0000028YszMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -32948,6 +33733,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk0000028YszMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32990,6 +33776,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33038,6 +33825,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33068,6 +33856,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Dar Echchaouen",
             "Prod exists": "Yes",
             "Prod Name": "Ain Echchaouen XMKC",
+            "Prod Id": "a1HVk000000aBuWMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -33082,6 +33871,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBuWMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33112,6 +33902,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "The Amal Association",
             "Prod exists": "Yes",
             "Prod Name": "Amal Association Side Dishes Cooking Class",
+            "Prod Id": "a1HVk000000aBsQMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -33126,6 +33917,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBsQMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33168,6 +33960,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33198,6 +33991,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Ouhra Transport",
             "Prod exists": "Yes",
             "Prod Name": "Astrologist transportation to Oukaimden with return",
+            "Prod Id": "a1HVk000000jXPdMAM",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -33212,6 +34006,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000jXPdMAM",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33260,6 +34055,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33308,6 +34104,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33356,6 +34153,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33405,6 +34203,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33448,6 +34247,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33496,6 +34296,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33543,6 +34344,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33578,6 +34380,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Erg Tours",
             "Prod exists": "Yes",
             "Prod Name": "Bicycle Cleaning",
+            "Prod Id": "a1HVk000000aBnmMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -33592,6 +34395,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBnmMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33622,6 +34426,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Overheads and Indirect Costs",
             "Prod exists": "Yes",
             "Prod Name": "Bike Hire - Intrepid",
+            "Prod Id": "a1HVk000000aBntMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -33636,6 +34441,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBntMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33666,6 +34472,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Overheads and Indirect Costs",
             "Prod exists": "Yes",
             "Prod Name": "Bike Hire - XMXM",
+            "Prod Id": "a1HVk000000aBvmMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -33680,6 +34487,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBvmMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33710,6 +34518,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Erg Tours",
             "Prod exists": "Yes",
             "Prod Name": "Bike Storage",
+            "Prod Id": "a1HVk000000aBnlMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -33724,6 +34533,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBnlMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33754,6 +34564,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Dar l’Eau Vive",
             "Prod exists": "Yes",
             "Prod Name": "Boat Ride and Picnic Lunch",
+            "Prod Id": "a1HVk000000aBvgMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -33768,6 +34579,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBvgMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33798,6 +34610,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Roaming Camels",
             "Prod exists": "Yes",
             "Prod Name": "Boutaghrar to Marrakech Private Transfer XMRW",
+            "Prod Id": "a1HVk000000aBuYMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -33812,6 +34625,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBuYMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33865,6 +34679,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33922,6 +34737,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33975,6 +34791,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34005,6 +34822,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Scarabeo Camp",
             "Prod exists": "Yes",
             "Prod Name": "Camel Ride at Sunset - Trova Prem DWOB",
+            "Prod Id": "a1HVk000002KMhZMAW",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -34019,6 +34837,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000002KMhZMAW",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34061,6 +34880,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34109,6 +34929,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34157,6 +34978,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34206,6 +35028,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34259,6 +35082,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34307,6 +35131,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34337,6 +35162,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Apexia Transport",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca Airport to Hotel Private Transfer",
+            "Prod Id": "a1HVk000000aBs5MAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -34351,6 +35177,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBs5MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34382,6 +35209,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Apexia Transport",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca Airport to Hotel Private Transfer Individual XMKC / XMKN",
+            "Prod Id": "a1HVk000000aBsoMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -34396,6 +35224,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBsoMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34426,6 +35255,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Ouhra Transport",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca Airport to Marrakech Private Transfer",
+            "Prod Id": "a1HVk000000aBoCMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -34440,6 +35270,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBoCMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34470,6 +35301,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Placeholder Services",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca Hotel Placeholder  XMSB",
+            "Prod Id": "a1HVk000002rQrFMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -34484,6 +35316,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000002rQrFMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34514,6 +35347,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Ouhra Transport",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca to Marrakech 11 Days XMKC Private Transfer",
+            "Prod Id": "a1HVk000000aBqaMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -34528,6 +35362,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBqaMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34558,6 +35393,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Momo Tours",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca to Marrakech XMKN Private Transfer",
+            "Prod Id": "a1HVk000000aBvRMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -34572,6 +35408,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBvRMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34602,6 +35439,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Ouhra Transport",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca to Marrakech XMPM Private Transfer",
+            "Prod Id": "a1HVk000000aBqHMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -34616,6 +35454,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBqHMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34647,6 +35486,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Apexia Transport",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca to Rabat Private Transfer",
+            "Prod Id": "a1HSo00000BiMxlMAF",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -34661,6 +35501,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HSo00000BiMxlMAF",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34692,6 +35533,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Europe West - Cash Paid Services",
             "Prod exists": "Yes",
             "Prod Name": "Cheese Tasting Bulle",
+            "Prod Id": "a1HVk000000a7lcMAA",
             "Agreement": "None assigned",
             "Agreement source": "None",
             "Also listed in": "Also listed in SA5"
@@ -34707,6 +35549,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000a7lcMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34741,6 +35584,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Ouhra Transport",
             "Prod exists": "Yes",
             "Prod Name": "Chefchaouen to Essaouira XMSC Private Transfer",
+            "Prod Id": "a1HVk000000aBqZMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -34755,6 +35599,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBqZMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34803,6 +35648,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34861,6 +35707,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34893,6 +35740,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Dar Tajine",
             "Prod exists": "Yes",
             "Prod Name": "Dar Tajine",
+            "Prod Id": "a1HVk0000029pGfMAI",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -34907,6 +35755,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk0000029pGfMAI",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34937,6 +35786,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Atlas Amazigh Tour",
             "Prod exists": "Yes",
             "Prod Name": "Day Tour Fes Private Transfer",
+            "Prod Id": "a1HVk000000aBnMMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -34951,6 +35801,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBnMMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34994,6 +35845,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35036,6 +35888,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35085,6 +35938,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35139,6 +35993,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35173,6 +36028,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Riad Al Maha",
             "Prod exists": "Yes",
             "Prod Name": "Farewell dinner Riad El Maha",
+            "Prod Id": "a1HVk000002jJa1MAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -35187,6 +36043,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000002jJa1MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35217,6 +36074,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Roaming Camels",
             "Prod exists": "Yes",
             "Prod Name": "Fes to Marrakech XMSS Private Transfer",
+            "Prod Id": "a1HVk000000aBvrMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -35231,6 +36089,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBvrMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35274,6 +36133,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35305,6 +36165,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Gite Omar Id Mansour",
             "Prod exists": "Yes",
             "Prod Name": "Gite Omar Id Mansour",
+            "Prod Id": "a1HVk000000aBnQMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -35319,6 +36180,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBnQMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35351,6 +36213,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Gite Tamaloute",
             "Prod exists": "Yes",
             "Prod Name": "Gite Tamaloute",
+            "Prod Id": "a1HVk000000aBnSMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -35365,6 +36228,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBnSMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35418,6 +36282,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35466,6 +36331,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35519,6 +36385,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35573,6 +36440,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35604,6 +36472,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Hotel Across",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Across",
+            "Prod Id": "a1HVk000000aBpIMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -35618,6 +36487,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBpIMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35670,6 +36540,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Belere 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35730,6 +36601,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35764,6 +36636,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Hotel Dar Mounir",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Dar Mounir",
+            "Prod Id": "a1HVk000000aBwwMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -35778,6 +36651,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBwwMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35808,6 +36682,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Hotel Esmeralda",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Esmeralda",
+            "Prod Id": "a1HVk0000028Yg5MAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -35822,6 +36697,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk0000028Yg5MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35866,6 +36742,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Hilton 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35919,6 +36796,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35950,6 +36828,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Hotel Madrid",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Madrid",
+            "Prod Id": "a1HVk000000aBwxMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -35964,6 +36843,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBwxMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35996,6 +36876,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Hotel Meriem",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Meriem",
+            "Prod Id": "a1HVk000000aBmfMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -36010,6 +36891,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBmfMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36041,6 +36923,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Hotel Mounia",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Mounia",
+            "Prod Id": "a1HVk000000aBoFMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -36055,6 +36938,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBoFMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36103,6 +36987,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36160,6 +37045,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36217,6 +37103,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36247,6 +37134,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Hotel Souiri",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Souiri",
+            "Prod Id": "a1HVk000000aBoJMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -36261,6 +37149,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBoJMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36292,6 +37181,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Ouhra Transport",
             "Prod exists": "Yes",
             "Prod Name": "Hotel to Amal Association Targa Return Private Transfer",
+            "Prod Id": "a1HVk000000aBqfMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -36306,6 +37196,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBqfMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36349,6 +37240,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36392,6 +37284,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36449,6 +37342,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36497,6 +37391,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36546,6 +37441,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36589,6 +37485,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36643,6 +37540,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36677,6 +37575,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Kasbah Amazir",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Amazir BB",
+            "Prod Id": "a1HVk000000aBvZMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -36691,6 +37590,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBvZMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36721,6 +37621,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Kasbah Amazir",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Amazir HB",
+            "Prod Id": "a1HVk000000aBvaMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -36735,6 +37636,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBvaMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36777,6 +37679,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36826,6 +37729,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36861,6 +37765,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Kasbah Itrane",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Itrane",
+            "Prod Id": "a1HVk000000aBpVMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -36875,6 +37780,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBpVMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36927,6 +37833,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36980,6 +37887,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37012,6 +37920,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Kasbah Taborihte",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Taborihte",
+            "Prod Id": "a1HVk000000aBpLMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -37026,6 +37935,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBpLMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37056,6 +37966,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Ksar Ljanoub",
             "Prod exists": "Yes",
             "Prod Name": "Ksar Ljanoub BB - Standard",
+            "Prod Id": "a1HVk000000aBpYMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -37070,6 +37981,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBpYMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37102,6 +38014,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Ksar Ljanoub",
             "Prod exists": "Yes",
             "Prod Name": "Ksar Ljanoub HB -Standard",
+            "Prod Id": "a1HVk000000aBmgMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -37116,6 +38029,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBmgMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37170,6 +38084,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37213,6 +38128,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37247,6 +38163,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "La Fibule D'Or",
             "Prod exists": "Yes",
             "Prod Name": "La Fibule D Or",
+            "Prod Id": "a1HVk000000aBoBMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -37261,6 +38178,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBoBMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37291,6 +38209,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "La Rose Du Sable",
             "Prod exists": "Yes",
             "Prod Name": "La Rose du Sable",
+            "Prod Id": "a1HVk000000aBpWMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -37305,6 +38224,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBpWMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37347,6 +38267,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37405,6 +38326,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37435,6 +38357,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Lemnaouar Erg Camp",
             "Prod exists": "Yes",
             "Prod Name": "Lemnaouar Erg Camp",
+            "Prod Id": "a1HVk0000028al7MAA",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -37449,6 +38372,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk0000028al7MAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37491,6 +38415,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37541,6 +38466,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37596,6 +38522,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37654,6 +38581,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37710,6 +38638,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37769,6 +38698,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37828,6 +38758,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37890,6 +38821,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37948,6 +38880,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38005,6 +38938,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38054,6 +38988,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38103,6 +39038,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Lodge Hara Oasis 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38160,6 +39096,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38213,6 +39150,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38255,6 +39193,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38285,6 +39224,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "MARLY BOUTIQUE HOTEL",
             "Prod exists": "Yes",
             "Prod Name": "MARLY BOUTIQUE HOTEL",
+            "Prod Id": "a1HVk000002jIhBMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -38299,6 +39239,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000002jIhBMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38329,6 +39270,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Desert Evasion",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech Airport to Hotel Transfer",
+            "Prod Id": "a1HVk000000aBnFMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -38343,6 +39285,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBnFMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38385,6 +39328,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38415,6 +39359,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Ouhra Transport",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Agafay Astronaut Transportation with return",
+            "Prod Id": "a1HVk000000aBwQMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -38429,6 +39374,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBwQMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38459,6 +39405,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Roaming Camels",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Boutaghrar Private Transfer XMRW",
+            "Prod Id": "a1HVk000000aBuXMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -38473,6 +39420,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBuXMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38503,6 +39451,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Ouhra Transport",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Essaouira 7 Days XMSF Private Transfer",
+            "Prod Id": "a1HVk000000aBn6MAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -38517,6 +39466,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBn6MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38547,6 +39497,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Desert Evasion",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Marrakech XMFE 6 Days Private Transfer",
+            "Prod Id": "a1HVk000000aBx2MAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -38561,6 +39512,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBx2MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38591,6 +39543,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Ouhra Transport",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Marrakech XMHA 3 Days Private Transfer",
+            "Prod Id": "a1HVk000000aBw0MAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -38605,6 +39558,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBw0MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38635,6 +39589,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Erg Tours",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Marrakech XMXC Private Transfer",
+            "Prod Id": "a1HVk000000aBnuMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -38649,6 +39604,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBnuMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38679,6 +39635,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Erg Tours",
             "Prod exists": "Yes",
             "Prod Name": "Marrakech to Marrakech XMXM Private Transfer",
+            "Prod Id": "a1HVk000000aBttMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -38693,6 +39650,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBttMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38745,6 +39703,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38779,6 +39738,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Placeholder Services",
             "Prod exists": "Yes",
             "Prod Name": "Meknes 3 Star Hotel Placeholder",
+            "Prod Id": "a1HVk000000aBvqMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -38793,6 +39753,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBvqMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38823,6 +39784,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Placeholder Services",
             "Prod exists": "Yes",
             "Prod Name": "Merzouga placeholder XMKC",
+            "Prod Id": "a1HVk000002posrMAA",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -38837,6 +39799,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000002posrMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38886,6 +39849,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38935,6 +39899,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38982,6 +39947,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39012,6 +39978,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Moroccan House Hotel Casablanca",
             "Prod exists": "Yes",
             "Prod Name": "Moroccan House Hotel Casablanca",
+            "Prod Id": "a1HVk000000aBo6MAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -39026,6 +39993,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBo6MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39057,6 +40025,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Crew Services",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Cycling Leader Daily Services",
+            "Prod Id": "a1HVk000000aBnhMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -39071,6 +40040,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBnhMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39102,6 +40072,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Crew Services",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Cycling Mechanic Salary",
+            "Prod Id": "a1HVk000000aBnfMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -39116,6 +40087,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBnfMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39172,6 +40144,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Crew Services",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Daily Crew Bonus Accrual",
+            "Prod Id": "a1HVk000000aBn3MAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -39186,6 +40159,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBn3MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39220,6 +40194,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Crew Services",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Level 3 Tour Leader Daily Services",
+            "Prod Id": "a1HVk000000aBwDMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -39234,6 +40209,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBwDMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39279,6 +40255,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Crew Services",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Tour Leader Daily Services",
+            "Prod Id": "a1HVk000000aBwnMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -39293,6 +40270,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBwnMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39357,6 +40335,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39410,6 +40389,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39444,6 +40424,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Atlas Amazigh Tour",
             "Prod exists": "Yes",
             "Prod Name": "Moulay Driss to Chefchaouen Private Transfer XMSB",
+            "Prod Id": "a1HVk000002sMyTMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -39458,6 +40439,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000002sMyTMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39488,6 +40470,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Ouhra Transport",
             "Prod exists": "Yes",
             "Prod Name": "Moulay Driss to Marrakech XMZF 8 Days Private Transfer",
+            "Prod Id": "a1HVk000000aBmyMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -39502,6 +40485,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBmyMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39555,6 +40539,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39608,6 +40593,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39663,6 +40649,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39706,6 +40693,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39764,6 +40752,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39816,6 +40805,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Puerta Azul 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39850,6 +40840,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Apexia Transport",
             "Prod exists": "Yes",
             "Prod Name": "Rabat to Tangier Private Transfer",
+            "Prod Id": "a1HSo00000BiNDtMAN",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -39864,6 +40855,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HSo00000BiNDtMAN",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39921,6 +40913,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39973,6 +40966,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40016,6 +41010,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40046,6 +41041,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Riad Dilar",
             "Prod exists": "Yes",
             "Prod Name": "Riad Dilar - BB",
+            "Prod Id": "a1HVk000002400HMAQ",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -40060,6 +41056,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000002400HMAQ",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40113,6 +41110,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40161,6 +41159,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40215,6 +41214,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40249,6 +41249,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Overheads and Indirect Costs",
             "Prod exists": "Yes",
             "Prod Name": "RT Bag - Morocco",
+            "Prod Id": "a1HVk000000aBwoMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -40263,6 +41264,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBwoMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40312,6 +41314,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40358,6 +41361,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40388,6 +41392,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Inter-Bus",
             "Prod exists": "Yes",
             "Prod Name": "Tangier Port to Chefchaouen Private Transfer",
+            "Prod Id": "a1HVk000000aBucMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -40402,6 +41407,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBucMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40432,6 +41438,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Bafa Transport",
             "Prod exists": "Yes",
             "Prod Name": "Tangier to Chefchaouen Private transfer",
+            "Prod Id": "a1HVk000000aBsjMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -40446,6 +41453,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBsjMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40499,6 +41507,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40529,6 +41538,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Ouhra Transport",
             "Prod exists": "Yes",
             "Prod Name": "Tangier to Marrakech XMFB 11 days Private Transfer",
+            "Prod Id": "a1HVk000000aBnIMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -40543,6 +41553,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBnIMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40591,6 +41602,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40639,6 +41651,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40687,6 +41700,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40735,6 +41749,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40789,6 +41804,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40843,6 +41859,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40892,6 +41909,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40935,6 +41953,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -40988,6 +42007,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41041,6 +42061,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41094,6 +42115,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41147,6 +42169,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41200,6 +42223,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41232,6 +42256,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Overheads and Indirect Costs",
             "Prod exists": "Yes",
             "Prod Name": "Transport Between Trips - Fes Marrakech",
+            "Prod Id": "a1HSo00000BiEDpMAN",
             "Agreement": "None assigned",
             "Agreement source": "None",
             "Also listed in": "Also listed in SA5"
@@ -41247,6 +42272,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HSo00000BiEDpMAN",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41304,6 +42330,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41337,6 +42364,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Overheads and Indirect Costs",
             "Prod exists": "Yes",
             "Prod Name": "Transport Between Trips - Marrakech Tangier",
+            "Prod Id": "a1HSo00000BiGVlMAN",
             "Agreement": "None assigned",
             "Agreement source": "None",
             "Also listed in": "Also listed in SA5"
@@ -41352,6 +42380,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HSo00000BiGVlMAN",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41405,6 +42434,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41458,6 +42488,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41500,6 +42531,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41549,6 +42581,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41603,6 +42636,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41650,6 +42684,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41681,6 +42716,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Placeholder Services",
             "Prod exists": "Yes",
             "Prod Name": "XMKC & XMKN Casablanca Placeholder",
+            "Prod Id": "a1HVk000000aBmbMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -41695,6 +42731,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBmbMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41725,6 +42762,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "Ouhra Transport",
             "Prod exists": "Yes",
             "Prod Name": "XMPX 9 Days Private transfer",
+            "Prod Id": "a1HVk000000jXCjMAM",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -41739,6 +42777,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000jXCjMAM",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41769,6 +42808,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Placeholder Services",
             "Prod exists": "Yes",
             "Prod Name": "XMPX Imlil Placeholder",
+            "Prod Id": "a1HVk000000jYdRMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -41783,6 +42823,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000jYdRMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41813,6 +42854,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Placeholder Services",
             "Prod exists": "Yes",
             "Prod Name": "XMSC Casablanca Pleaceholder Hotel",
+            "Prod Id": "a1HVk000000aBwpMAE",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -41827,6 +42869,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBwpMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41857,6 +42900,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Placeholder Services",
             "Prod exists": "Yes",
             "Prod Name": "XMSC Chefchaouen Placeholder",
+            "Prod Id": "a1HVk000002rkzdMAA",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -41871,6 +42915,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000002rkzdMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41901,6 +42946,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Placeholder Services",
             "Prod exists": "Yes",
             "Prod Name": "XMSC Placeholder Marrakech",
+            "Prod Id": "a1HVk000002rVPVMA2",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -41915,6 +42961,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000002rVPVMA2",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41945,6 +42992,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Placeholder Services",
             "Prod exists": "Yes",
             "Prod Name": "XMSF Placeholder Marrakech",
+            "Prod Id": "a1HVk000002sTFBMA2",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -41959,6 +43007,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000002sTFBMA2",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -41990,6 +43039,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Placeholder Services",
             "Prod exists": "Yes",
             "Prod Name": "XMSS Fes Placeholder Hotel",
+            "Prod Id": "a1HVk000000aBoIMAU",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -42004,6 +43054,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000aBoIMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42035,6 +43086,7 @@ window.ISSUE_DATA = {
             "Prod supplier": "DMC Morocco - Placeholder Services",
             "Prod exists": "Yes",
             "Prod Name": "XMSS Placeholder Marrakech",
+            "Prod Id": "a1HVk000002rUGYMA2",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
@@ -42049,6 +43101,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000002rUGYMA2",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42091,6 +43144,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42130,6 +43184,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "2Ciels Luxury Boutique",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBwYMAU",
             "SA template name": "2 Ciels Luxury Boutique 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -42146,6 +43201,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "2 Ciels Luxury Boutique 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBwYMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42178,6 +43234,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Chez Le Pacha",
             "Prod exists": "Yes",
+            "Prod Id": "a1HSo000009zd8vMAA",
             "SA template name": "Chez Le Pacha 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -42194,6 +43251,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Chez Le Pacha 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HSo000009zd8vMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42240,6 +43298,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Amadil 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42282,6 +43341,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Auberge Chez Ali 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42324,6 +43384,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Auberge Chez Momo 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42356,6 +43417,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Azawad Riad & Desert Camp",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk0000028Zc9MAE",
             "SA template name": "Azawad Riad & Desert Camp 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -42372,6 +43434,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Azawad Riad & Desert Camp 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk0000028Zc9MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42418,6 +43481,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Camp Le Sand 2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42446,6 +43510,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Auberge la Caravane",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBnDMAU",
             "SA template name": "Camp La Caravane 2027",
             "Prod agreement": "Jan 2027 - Dec 2027",
             "Name match": "No",
@@ -42462,6 +43527,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Camp La Caravane 2027",
           "prodAgreement": "Jan 2027 - Dec 2027",
+          "prodId": "a1HVk000000aBnDMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42495,6 +43561,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Chateau Roslane Boutique Hotel & Spa",
             "Prod exists": "Yes",
+            "Prod Id": "a1HSo00000B9yOPMAZ",
             "SA template name": "Château Roslane Boutique Hôtel & SPA 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -42511,6 +43578,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Château Roslane Boutique Hôtel & SPA 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HSo00000B9yOPMAZ",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42543,6 +43611,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Cote Ocean Mogador Hotel",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBoeMAE",
             "SA template name": "Cote Ocean Mogador Hotel 2026-2027",
             "Prod agreement": "Jan 2026-",
             "Name match": "No",
@@ -42559,6 +43628,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Cote Ocean Mogador Hotel 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "prodId": "a1HVk000000aBoeMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42591,6 +43661,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Dar Baibou",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBsPMAU",
             "SA template name": "Dar Baibou 2026-2027",
             "Prod agreement": "Jan 2026-",
             "Name match": "No",
@@ -42607,6 +43678,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Dar Baibou 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "prodId": "a1HVk000000aBsPMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42639,6 +43711,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Dar cherifa",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk0000024Mf7MAE",
             "SA template name": "Dar cherifa 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -42655,6 +43728,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Dar cherifa 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk0000024Mf7MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42687,6 +43761,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Dar echaouen",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk0000024MnBMAU",
             "SA template name": "Dar Echaouen 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -42703,6 +43778,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Dar Echaouen 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk0000024MnBMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42749,6 +43825,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Diyar Timnay 2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42791,6 +43868,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Emeraude Luxury Camp & Tents 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42833,6 +43911,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Etoile Filante D'or 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42875,6 +43954,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Executive Boutique Hotel 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42903,6 +43983,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Hotel Al Kalaa",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBvvMAE",
             "SA template name": "Hotel Al Kalaa 2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -42919,6 +44000,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Al Kalaa 2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBvvMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -42951,6 +44033,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Hotel Al Walid",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk0000029ovhMAA",
             "SA template name": "Hotel Al Walid 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -42967,6 +44050,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Al Walid 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk0000029ovhMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43014,6 +44098,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Belere 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43046,6 +44131,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Hotel Charf",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBwTMAU",
             "SA template name": "Hotel Charf 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -43062,6 +44148,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Charf 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBwTMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43094,6 +44181,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Hotel Gomassine",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBoOMAU",
             "SA template name": "Hotel Gomassine 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -43110,6 +44198,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Gomassine 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBoOMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43142,6 +44231,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Hotel Grand Plaza",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBpEMAU",
             "SA template name": "Hotel Grand Plaza 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -43158,6 +44248,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Grand Plaza 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBpEMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43191,6 +44282,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Gray Boutique Hotel Casablanca 42 suites",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000001xorRMAQ",
             "SA template name": "Gray Boutique Hotel 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -43207,6 +44299,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Gray Boutique Hotel 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000001xorRMAQ",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43254,6 +44347,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Hilton 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43296,6 +44390,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Karam Palace 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43338,6 +44433,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Xaluca Lac Aguelmam 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43366,6 +44462,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Hotel Le Caspien",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBo5MAE",
             "SA template name": "Hotel le Caspien 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -43382,6 +44479,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel le Caspien 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBo5MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43410,6 +44508,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Hotel Le Musee",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBmlMAE",
             "SA template name": "Hotel Musee 2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -43426,6 +44525,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Musee 2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBmlMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43458,6 +44558,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Hotel Les Saisons",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk0000029ocLMAQ",
             "SA template name": "Hotel Les Saisons  2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -43474,6 +44575,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Les Saisons  2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk0000029ocLMAQ",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43520,6 +44622,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Longue Vie 2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43562,6 +44665,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Miramar 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43590,6 +44694,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Hotel Mont Gueliz",
             "Prod exists": "Yes",
+            "Prod Id": "a1HSo000009xHIzMAM",
             "SA template name": "Hotel Mont Gueliz 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -43606,6 +44711,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Mont Gueliz 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HSo000009xHIzMAM",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43652,6 +44758,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Oasis & Spa 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43680,6 +44787,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Hotel Olympic",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk0000029odxMAA",
             "SA template name": "Hotel Olympic 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -43696,6 +44804,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Olympic 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk0000029odxMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43728,6 +44837,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Oscar Hotel by Atlas Studios",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000002HTdxMAG",
             "SA template name": "Hotel Oscar 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -43744,6 +44854,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Oscar 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000002HTdxMAG",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43772,6 +44883,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Hotel Parador",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBnwMAE",
             "SA template name": "Hotel Parador 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -43788,6 +44900,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Parador 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBnwMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43820,6 +44933,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Hotel Rose Valley",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBqPMAU",
             "SA template name": "Hotel Rose Valley 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -43836,6 +44950,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Rose Valley 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBqPMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43868,6 +44983,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Hotel Swani",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBmkMAE",
             "SA template name": "Hotel Swani 2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -43884,6 +45000,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Swani 2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBmkMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43930,6 +45047,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Taddart 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -43958,6 +45076,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Hotel Tarek",
             "Prod exists": "Yes",
+            "Prod Id": "a1HSo00000Bi3DZMAZ",
             "SA template name": "Hotel Tarek 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -43974,6 +45093,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Tarek 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HSo00000Bi3DZMAZ",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44006,6 +45126,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Xaluca Hotels",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000002KzFtMAK",
             "SA template name": "Hotel Tomboctou Xaluca 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -44022,6 +45143,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Tomboctou Xaluca 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000002KzFtMAK",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44050,6 +45172,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Hotel Volubilis",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBsMMAU",
             "SA template name": "Hotel Volubilis 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -44066,6 +45189,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Volubilis 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBsMMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44098,6 +45222,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Xaluca Hotels",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBoQMAU",
             "SA template name": "Xaluca Dades 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -44114,6 +45239,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Xaluca Dades 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBoQMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44142,6 +45268,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Yasmina Hotel and Camps",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBpGMAU",
             "SA template name": "Yasmina Hotel and Camps 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -44158,6 +45285,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Yasmina Hotel and Camps 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBpGMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44190,6 +45318,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Idou Anfa Hotel & Spa",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBwWMAU",
             "SA template name": "Hotel Idou Anfa 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -44207,6 +45336,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Idou Anfa 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBwWMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44253,6 +45383,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Kasbah Ait Ben Damiette 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44295,6 +45426,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Kasbah du Toubkal 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44337,6 +45469,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Kasbah Hnini 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44379,6 +45512,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Kasbah La Famille Berbere 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44421,6 +45555,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Ksar Shama 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44449,6 +45584,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Ksar Timnay",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBrvMAE",
             "SA template name": "Ksar Timnay Riad Mimouna 2026-2027",
             "Prod agreement": "Jan 2027 - Dec 2027",
             "Name match": "No",
@@ -44465,6 +45601,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Ksar Timnay Riad Mimouna 2026-2027",
           "prodAgreement": "Jan 2027 - Dec 2027",
+          "prodId": "a1HVk000000aBrvMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44511,6 +45648,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "La Colombe Blanche 2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44553,6 +45691,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Le Palais des Cerisiers 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44595,6 +45734,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Lodge Hara Oasis 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44642,6 +45782,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Lodge Hara Oasis 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44688,6 +45829,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Marina Bay 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44716,6 +45858,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Mia Hotels",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk00000258DVMAY",
             "SA template name": "Mia Hotels 2026",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -44732,6 +45875,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Mia Hotels 2026",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk00000258DVMAY",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44760,6 +45904,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Mia Hotels",
             "Prod exists": "Yes",
+            "Prod Id": "a1HSo00000A74acMAB",
             "SA template name": "Mia Hotels 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -44777,6 +45922,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Mia Hotels 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HSo00000A74acMAB",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44809,6 +45955,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Moroccan House Hotel Marrakech",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBpaMAE",
             "SA template name": "Moroccan House Hotel Marrakech 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -44825,6 +45972,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Moroccan House Hotel Marrakech 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBpaMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44857,6 +46005,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Riad Houyam",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk00000240BZMAY",
             "SA template name": "Palais Houyam 2026-2027",
             "Prod agreement": "None assigned",
             "Name match": "No Prod agreement",
@@ -44873,6 +46022,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Palais Houyam 2026-2027",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk00000240BZMAY",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44919,6 +46069,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Palais Ommeyad  2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -44947,6 +46098,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Palmeras Y Dunas Luxury Camp",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000002p6dKMAQ",
             "SA template name": "Palmeras Y Dunas Luxury Camp 2026-2027",
             "Prod agreement": "Jan 2027 - Dec 2027",
             "Name match": "No",
@@ -44963,6 +46115,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Palmeras Y Dunas Luxury Camp 2026-2027",
           "prodAgreement": "Jan 2027 - Dec 2027",
+          "prodId": "a1HVk000002p6dKMAQ",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45006,6 +46159,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Puerta Azul 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45052,6 +46206,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad & Camp Chebbi 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45080,6 +46235,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Kasbah Riad 48 & Spa",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000002pF3tMAE",
             "SA template name": "Kasbah Riad 48 & Spa 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -45096,6 +46252,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Kasbah Riad 48 & Spa 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000002pF3tMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45138,6 +46295,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Atlas 4 Seasons 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45180,6 +46338,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "RIAD BAHAMMOU 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45208,6 +46367,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Riad Benatar",
             "Prod exists": "Yes",
+            "Prod Id": "a1HSo00000B7AsMMAV",
             "SA template name": "Riad Benatar 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -45224,6 +46384,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Benatar 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HSo00000B7AsMMAV",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45252,6 +46413,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Riad Chakir Mogador",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBpDMAU",
             "SA template name": "Riad Chakir Mogador 2026-2027",
             "Prod agreement": "Jan 2026-",
             "Name match": "No",
@@ -45268,6 +46430,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Chakir Mogador 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "prodId": "a1HVk000000aBpDMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45300,6 +46463,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Riad Chbanate",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBscMAE",
             "SA template name": "Riad Chbanate 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -45317,6 +46481,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Chbanate 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBscMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45349,6 +46514,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Riad El Palacio & Spa",
             "Prod exists": "Yes",
+            "Prod Id": "a1HSo00000B9t3lMAB",
             "SA template name": "Riad El Palacio & Spa 2026-2027",
             "Prod agreement": "Jan 2026-",
             "Name match": "No",
@@ -45365,6 +46531,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad El Palacio & Spa 2026-2027",
           "prodAgreement": "Jan 2026-",
+          "prodId": "a1HSo00000B9t3lMAB",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45411,6 +46578,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Fes Ziyat 2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45453,6 +46621,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Jnane Imlil 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45495,6 +46664,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Joudour 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45537,6 +46707,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Ksar Ighnda 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45565,6 +46736,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Riad la Cle d’Or",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBsrMAE",
             "SA template name": "Riad la Clé d'Or 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -45581,6 +46753,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad la Clé d'Or 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBsrMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45627,6 +46800,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Lamane 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45669,6 +46843,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Maison du Sud 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45711,6 +46886,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Maktoub 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45739,6 +46915,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Riad Marrakech by Hivernage",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBwqMAE",
             "SA template name": "Riad Marrakech By Hivernage 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -45755,6 +46932,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Marrakech By Hivernage 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBwqMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45787,6 +46965,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Riad Mimouna",
             "Prod exists": "Yes",
+            "Prod Id": "a1HSo00000BcNOfMAN",
             "SA template name": "Riad Mimouna 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -45803,6 +46982,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Mimouna 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HSo00000BcNOfMAN",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45835,6 +47015,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Riad Nesma",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBoqMAE",
             "SA template name": "Riad Nesma 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -45851,6 +47032,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Nesma 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBoqMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45897,6 +47079,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad ouinz 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45925,6 +47108,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Riad Oussagou",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk0000024NzNMAU",
             "SA template name": "Riad Oussagou 2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -45941,6 +47125,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Oussagou 2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk0000024NzNMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -45973,6 +47158,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Riad Raoud Rayhan",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBwbMAE",
             "SA template name": "Raoud Rayhane 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -45989,6 +47175,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Raoud Rayhane 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBwbMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46021,6 +47208,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Riad Ritaj",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBmjMAE",
             "SA template name": "Riad Ritaj 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -46037,6 +47225,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Ritaj 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBmjMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46069,6 +47258,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Riad Sayeda al Hora",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBu2MAE",
             "SA template name": "Riad Sayeda al Hora 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -46085,6 +47275,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Sayeda al Hora 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBu2MAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46117,6 +47308,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Riad Tafilalet",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBoKMAU",
             "SA template name": "Riad Tafilalet 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -46133,6 +47325,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Tafilalet 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBoKMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46179,6 +47372,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Sahara Aventure 2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46207,6 +47401,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Sahara Aventures",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBnPMAU",
             "SA template name": "Sahara Aventures Camp 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -46223,6 +47418,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Sahara Aventures Camp 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBnPMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46270,6 +47466,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Skoura Lodge  2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46298,6 +47495,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Stars Hotel",
             "Prod exists": "Yes",
+            "Prod Id": "a1HVk000000aBuGMAU",
             "SA template name": "Stars Hotel 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -46314,6 +47512,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Stars Hotel 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBuGMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46346,6 +47545,7 @@ window.ISSUE_DATA = {
           "fields": {
             "Prod supplier": "Experiencah",
             "Prod exists": "Yes",
+            "Prod Id": "a1HSo00000BB3p3MAD",
             "SA template name": "Experiencah 2026-2027",
             "Prod agreement": "Jan 2026 - Dec 2027",
             "Name match": "No",
@@ -46362,6 +47562,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Experiencah 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HSo00000BB3p3MAD",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46408,6 +47609,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "The White Camel 2026",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46454,6 +47656,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Villa Pomme D'Or 2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46496,6 +47699,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Zephyr Mazagan 2026-2027",
           "prodAgreement": "—",
+          "prodId": "",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46543,6 +47747,7 @@ window.ISSUE_DATA = {
             "Match type": "Different account",
             "Prod exists": "Yes",
             "Prod Name": "Cheese Tasting Bulle",
+            "Prod Id": "a1HVk000000a7lcMAA",
             "Agreement": "None assigned",
             "Agreement source": "None",
             "Also listed in": "Also listed in SA1"
@@ -46558,6 +47763,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HVk000000a7lcMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46596,6 +47802,7 @@ window.ISSUE_DATA = {
             "Match type": "Same (accent/punctuation)",
             "Prod exists": "Yes",
             "Prod Name": "Executive Boutique Hotel Rabat",
+            "Prod Id": "a1HVk000001yygfMAA",
             "Agreement": "Jan 2026 - Dec 2027",
             "Agreement source": "Account-level"
           },
@@ -46610,6 +47817,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000001yygfMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46649,6 +47857,7 @@ window.ISSUE_DATA = {
             "Match type": "ST lists extra supplier",
             "Prod exists": "Yes",
             "Prod Name": "Idou Anfa Hotel & Spa",
+            "Prod Id": "a1HVk000000aBwWMAU",
             "SA template name": "Hotel Idou Anfa 2026-2027",
             "Agreement": "Jan 2026 - Dec 2027",
             "Agreement source": "Account-level",
@@ -46665,6 +47874,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Hotel Idou Anfa 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBwWMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46704,6 +47914,7 @@ window.ISSUE_DATA = {
             "Match type": "Close name",
             "Prod exists": "Yes",
             "Prod Name": "Maison du Sud",
+            "Prod Id": "a1HVk000000aBwJMAU",
             "Agreement": "Jan 2026 - Dec 2027",
             "Agreement source": "Account-level"
           },
@@ -46718,6 +47929,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBwJMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46757,6 +47969,7 @@ window.ISSUE_DATA = {
             "Match type": "Different account",
             "Prod exists": "Yes",
             "Prod Name": "Marina Bay City Center",
+            "Prod Id": "a1HSo00000Bi46PMAR",
             "Agreement": "Jan 2026 - Dec 2027",
             "Agreement source": "Account-level"
           },
@@ -46771,6 +47984,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HSo00000Bi46PMAR",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46814,6 +48028,7 @@ window.ISSUE_DATA = {
             "Match type": "Close name",
             "Prod exists": "Yes",
             "Prod Name": "Mia Hotel - Fes",
+            "Prod Id": "a1HSo00000A74acMAB",
             "SA template name": "Mia Hotels 2026-2027",
             "Agreement": "Jan 2026 - Dec 2027",
             "Agreement source": "Account-level",
@@ -46830,6 +48045,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Mia Hotels 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HSo00000A74acMAB",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46891,6 +48107,7 @@ window.ISSUE_DATA = {
             "Match type": "Different account",
             "Prod exists": "Yes",
             "Prod Name": "Morocco - Leader Communication Allowance",
+            "Prod Id": "a1HVk000000aBmaMAE",
             "Agreement": "Nov 2026-",
             "Agreement source": "Account-level"
           },
@@ -46905,6 +48122,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "Nov 2026-",
+          "prodId": "a1HVk000000aBmaMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46944,6 +48162,7 @@ window.ISSUE_DATA = {
             "Match type": "Different account",
             "Prod exists": "Yes",
             "Prod Name": "Riad Chbanate",
+            "Prod Id": "a1HVk000000aBscMAE",
             "SA template name": "Riad Chbanate 2026-2027",
             "Agreement": "Jan 2026 - Dec 2027",
             "Agreement source": "Account-level",
@@ -46960,6 +48179,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "Riad Chbanate 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBscMAE",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -46997,6 +48217,7 @@ window.ISSUE_DATA = {
             "Match type": "Different account",
             "Prod exists": "Yes",
             "Prod Name": "Transport Between Trips - Fes Marrakech",
+            "Prod Id": "a1HSo00000BiEDpMAN",
             "Agreement": "None assigned",
             "Agreement source": "None",
             "Also listed in": "Also listed in SA1"
@@ -47012,6 +48233,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HSo00000BiEDpMAN",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -47046,6 +48268,7 @@ window.ISSUE_DATA = {
             "Match type": "Different account",
             "Prod exists": "Yes",
             "Prod Name": "Transport Between Trips - Marrakech Tangier",
+            "Prod Id": "a1HSo00000BiGVlMAN",
             "Agreement": "None assigned",
             "Agreement source": "None",
             "Also listed in": "Also listed in SA1"
@@ -47061,6 +48284,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
+          "prodId": "a1HSo00000BiGVlMAN",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {

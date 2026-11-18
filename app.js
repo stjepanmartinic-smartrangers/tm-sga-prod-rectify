@@ -452,6 +452,9 @@
             : sheet.choice === "type"
               ? issue.stType
               : issue.saTemplateName;
+    } else if (value === "yes" && sheet.id === "P1") {
+      d.selected = (issue.fields && issue.fields["Prod Name"]) || issue.service || "";
+      d.prodId = issue.prodId || (issue.fields && issue.fields["Prod Id"]) || "";
     } else if (value === "yes" && sheet.choice === "pc-map") {
       d.selected = (issue.pcMap || []).map((x) => (x.from ? x.from + " → " : "") + x.value).join("; ");
     } else if (value === "no" && sheet.choice === "pc-map") {
@@ -1583,7 +1586,12 @@
       "ST prices",
       "ST price dates",
       "Prod PCs priced",
+      "Prod Id",
     ]);
+    const prodId = issue.prodId || (issue.fields || {})["Prod Id"] || d.prodId || "";
+    const prodIdHtml = prodId
+      ? `<div class="meta"><b>Prod Id</b> <code>${esc(prodId)}</code></div>`
+      : "";
     const fieldRows = Object.entries(issue.fields || {})
       .filter(([k]) => !hideFields.has(k))
       .slice(0, 12)
@@ -1612,6 +1620,7 @@
       <h3>${esc(issue.service)} ${tag} ${commentTag}</h3>
       ${stCommentHtml(issue)}
       <div class="meta">${esc(sheet.id)} · ${esc(issue.action || "")}</div>
+      ${prodIdHtml}
       <div class="pkgs">${pkgs}</div>
       ${pc && sheet.choice === "pc-map" ? `<p><b>Suggested PC map</b><br>${pc}</p>` : ""}
       ${priceCompareHtml(issue)}

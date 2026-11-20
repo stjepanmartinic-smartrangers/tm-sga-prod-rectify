@@ -10,7 +10,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "On a TM package, not on ST, and no exact Prod Item. If Prod already has the same name, that is fine — clone from Prod (no P1 card). SGA itineraries are not listed. Yes = add it using a fuzzy Prod name if valid. No = brand new — fill the Service Template fields.",
       "choice": "fuzzy-service",
-      "count": 69,
+      "count": 52,
       "issues": [
         {
           "id": "P1::4wd excursion",
@@ -270,143 +270,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::azawad luxury desert camp - hb",
-          "service": "Azawad Luxury Desert Camp - HB",
-          "packages": [
-            "The Sahara Loop"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "The Sahara Loop",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Merzouga",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Azawad Luxury Desert Camp",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single - Tent",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Tent",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Azawad Luxury Desert Camp - HB",
-            "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::azawad luxury desert camp hb",
-          "service": "Azawad Luxury Desert Camp HB",
-          "packages": [
-            "The Sahara Loop"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "The Sahara Loop",
-            "Prod exists": "No",
-            "Package PCs": "Twin Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Merzouga",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Azawad Luxury Desert Camp",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Twin Room",
-              "value": "Twin - Tent",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Azawad Luxury Desert Camp HB",
-            "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::azawad luxury desert camp-hb",
           "service": "Azawad Luxury Desert Camp-HB",
           "packages": [
             "Sahara Crossing",
-            "Sahara crossing (Rev)"
+            "Sahara crossing (Rev)",
+            "The Sahara Loop"
           ],
           "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
@@ -477,70 +346,6 @@ window.ISSUE_DATA = {
             "supplierName": "",
             "comment": ""
           }
-        },
-        {
-          "id": "P1::bread cooking  demonstration",
-          "service": "Bread cooking  Demonstration",
-          "packages": [
-            "Atlas Discovery"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlas Discovery",
-            "Prod exists": "No",
-            "Package PCs": "Per Person",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Imlil",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Bread Cooking Demonstration",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Madfouna Cooking Demonstration",
-              "score": 66.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Imlil",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Bread cooking  Demonstration",
-            "location": "Imlil",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
         },
         {
           "id": "P1::bread-making demonstration",
@@ -712,138 +517,18 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::camp caravane -hb",
-          "service": "Camp Caravane -HB",
-          "packages": [
-            "Classic Sahara Crossing (Rev)"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "Classic Sahara Crossing (Rev)",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Merzouga Desert Camp",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Camp la Caravane",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Tent Single (with Shared Facilities)",
-              "score": 48.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga Desert Camp",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Camp Caravane -HB",
-            "location": "Merzouga Desert Camp",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::camp caravane hb",
-          "service": "Camp Caravane HB",
-          "packages": [
-            "Classic Sahara Crossing"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "Classic Sahara Crossing",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Merzouga Desert Camp",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Camp la Caravane",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Tent Single (with Shared Facilities)",
-              "score": 48.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga Desert Camp",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Camp Caravane HB",
-            "location": "Merzouga Desert Camp",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::camp caravane-hb",
           "service": "Camp Caravane-HB",
           "packages": [
+            "Classic Sahara Crossing",
+            "Classic Sahara Crossing (Rev)",
             "Sahara Crossing",
             "Sahara crossing (Rev)"
           ],
           "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
-            "TM package": "Sahara Crossing",
+            "TM package": "Classic Sahara Crossing",
             "Prod exists": "No",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "No",
@@ -1362,7 +1047,9 @@ window.ISSUE_DATA = {
           "id": "P1::home cooked lunch",
           "service": "Home cooked Lunch",
           "packages": [
-            "Atlas Discovery"
+            "Atlas Discovery",
+            "South Morocco with Agafay",
+            "The Sahara Loop"
           ],
           "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
@@ -1419,67 +1106,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::home-cooked lunch",
-          "service": "Home-Cooked Lunch",
-          "packages": [
-            "South Morocco with Agafay",
-            "The Sahara Loop"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "South Morocco with Agafay",
-            "Prod exists": "No",
-            "Package PCs": "Per Person",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Ouirgane",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Home Cooked Lunch",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Luxor Home Cooked Lunch",
-              "score": 83.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ouirgane",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Home-Cooked Lunch",
-            "location": "Ouirgane",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::hotel hilton",
           "service": "Hotel Hilton",
           "packages": [
@@ -1519,66 +1145,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "Accommodation",
             "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::hotel karam palace-hb",
-          "service": "Hotel Karam palace-HB",
-          "packages": [
-            "Draa & the deep desert"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "Draa & the deep desert",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Ouarzazate",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Karam Palace BB",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Hotel Karam Palace HB",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ouarzazate",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Hotel Karam palace-HB",
-            "location": "Ouarzazate",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -1665,87 +1231,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::hotel riad bahammou dades-hb",
-          "service": "Hotel Riad BaHammou Dades-HB",
-          "packages": [
-            "Classic Sahara Crossing (Rev)"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "Classic Sahara Crossing (Rev)",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Dades Gorge",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Riad BaHammou Dades  HB",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Riad BaHammou Dades  BB",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Dades Gorge",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Hotel Riad BaHammou Dades-HB",
-            "location": "Dades Gorge",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::hotel toumbouctou-hb",
           "service": "Hotel Toumbouctou-HB",
           "packages": [
@@ -1783,77 +1268,6 @@ window.ISSUE_DATA = {
           "formDefaults": {
             "name": "Hotel Toumbouctou-HB",
             "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::hotel xaluca dades-hb",
-          "service": "Hotel Xaluca Dades-HB",
-          "packages": [
-            "Classic Sahara Crossing (Rev)"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "Classic Sahara Crossing (Rev)",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Dades Gorge",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Xaluca Dades HB",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Hotel Xaluca Dades",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single Room - Standard (Max 10 pax)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Dades Gorge",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Hotel Xaluca Dades-HB",
-            "location": "Dades Gorge",
             "businessUnit": "",
             "serviceType": "Accommodation",
             "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
@@ -2172,203 +1586,6 @@ window.ISSUE_DATA = {
           "formDefaults": {
             "name": "Kasbah Itrane-HB",
             "location": "Agdz",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::kasbah la famille berbere-hb",
-          "service": "Kasbah la famille berbere-HB",
-          "packages": [
-            "Classic Sahara Crossing (Rev)"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "Classic Sahara Crossing (Rev)",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Dades Gorge",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Kasbah La Famille Berbere BB",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Kasbah La Famille Berbere HB",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Single Room",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Dades Gorge",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Kasbah la famille berbere-HB",
-            "location": "Dades Gorge",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::ksar timnay riad mimouna-hb",
-          "service": "Ksar Timnay Riad Mimouna-HB",
-          "packages": [
-            "Sahara Crossing",
-            "Sahara crossing (Rev)"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "Sahara Crossing",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Midelt",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Ksar Timnay",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Ksar Timnay Riad Mimouna",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Midelt",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Ksar Timnay Riad Mimouna-HB",
-            "location": "Midelt",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::le palais des cerisiers-hb",
-          "service": "Le Palais des Cerisiers-HB",
-          "packages": [
-            "The Imperial Table"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "The Imperial Table",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Azrou",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Azrou",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Le Palais des Cerisiers-HB",
-            "location": "Azrou",
             "businessUnit": "",
             "serviceType": "Accommodation",
             "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
@@ -2899,156 +2116,10 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::palmeras y dunas hb",
-          "service": "Palmeras y Dunas HB",
-          "packages": [
-            "Classic Sahara Crossing"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "Classic Sahara Crossing",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Merzouga Desert Camp",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Palmeras Y Dunas Luxury Camp - HB",
-              "score": 83.0
-            },
-            {
-              "from": "",
-              "value": "Palmeras Y Dunas Luxury Camp",
-              "score": 83.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single Tent",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Tent",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga Desert Camp",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Palmeras y Dunas HB",
-            "location": "Merzouga Desert Camp",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::palmeras y dunas luxury camp  hb",
-          "service": "Palmeras Y Dunas Luxury Camp  HB",
-          "packages": [
-            "The Sahara Loop"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "The Sahara Loop",
-            "Prod exists": "No",
-            "Package PCs": "Twin Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Merzouga",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Palmeras Y Dunas Luxury Camp - HB",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Palmeras Y Dunas Luxury Camp",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Twin Room",
-              "value": "Twin - Tent",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Palmeras Y Dunas Luxury Camp  HB",
-            "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::palmeras y dunas-hb",
           "service": "Palmeras y Dunas-HB",
           "packages": [
+            "Classic Sahara Crossing",
             "Classic Sahara Crossing (Rev)",
             "Sahara Crossing",
             "Sahara crossing (Rev)"
@@ -3056,7 +2127,7 @@ window.ISSUE_DATA = {
           "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
-            "TM package": "Classic Sahara Crossing (Rev)",
+            "TM package": "Classic Sahara Crossing",
             "Prod exists": "No",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "No",
@@ -3369,164 +2440,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::riad jnane imlil - hb",
-          "service": "Riad Jnane Imlil - HB",
-          "packages": [
-            "Atlas Discovery"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlas Discovery",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Imlil",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Riad Jnane Imlil-Standard",
-              "score": 75.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Imlil",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Riad Jnane Imlil - HB",
-            "location": "Imlil",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::riad ksar ighnda-hb",
-          "service": "Riad Ksar Ighnda-HB",
-          "packages": [
-            "Sahara Crossing",
-            "Sahara crossing (Rev)"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "Sahara Crossing",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Ait Benhaddou",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Riad Ksar Ighnda HB",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Riad Ksar Ighnda BB",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Deluxe",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Deluxe",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Deluxe",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ait Benhaddou",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Riad Ksar Ighnda-HB",
-            "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::sunset drink at taman’art space studio",
           "service": "Sunset drink at Taman’Art Space Studio",
           "packages": [
@@ -3689,7 +2602,8 @@ window.ISSUE_DATA = {
           "id": "P1::train ticket  1st class",
           "service": "Train Ticket  1st class",
           "packages": [
-            "CAS to MAR - Train"
+            "CAS to MAR - Train",
+            "MAR to CAS - Train"
           ],
           "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
@@ -3728,61 +2642,6 @@ window.ISSUE_DATA = {
           "formDefaults": {
             "name": "Train Ticket  1st class",
             "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::train ticket- 1st class",
-          "service": "Train ticket- 1st class",
-          "packages": [
-            "MAR to CAS - Train"
-          ],
-          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
-          "also": "",
-          "fields": {
-            "TM package": "MAR to CAS - Train",
-            "Prod exists": "No",
-            "Package PCs": "Per Person",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Marrakech",
-            "Template type": "Transport",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Train ticket Fes to Casa - 1st class",
-              "score": 75.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "fullyMissing": true,
-          "formDefaults": {
-            "name": "Train ticket- 1st class",
-            "location": "Marrakech",
             "businessUnit": "",
             "serviceType": "Transport",
             "priceCategory": "Per Person",
@@ -4186,7 +3045,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "On package and ST, no exact Prod Item, but a close name exists. Yes = rename ST to the selected Prod name. No = treat as brand new; create from ST.",
       "choice": "fuzzy-service",
-      "count": 21,
+      "count": 18,
       "issues": [
         {
           "id": "P2::farewell dinner marrakech - el fassia restaurant",
@@ -4387,272 +3246,52 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
         },
         {
-          "id": "P2::hotel riad bahammou dades hb",
-          "service": "Hotel Riad BaHammou Dades HB",
+          "id": "P2::ksar timnay riad mimouna hb",
+          "service": "Ksar Timnay Riad Mimouna HB",
           "packages": [
-            "Classic Sahara Crossing",
             "Sahara Crossing",
-            "Sahara crossing (Rev)",
-            "The Sahara Loop"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "Also listed in P6",
-          "fields": {
-            "TM package": "Classic Sahara Crossing",
-            "ST supplier": "Riad BaHammou Dades",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "ST PCs": "Double - Standard Room",
-            "ST PCs missing on Prod": "Double - Standard Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Dades Gorge",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P6"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Riad BaHammou Dades  HB",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Riad BaHammou Dades  BB",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "Riad BaHammou Dades",
-          "prodSupplier": "",
-          "stLocation": "Dades Gorge",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Riad BaHammou Dades HB",
-            "location": "Dades Gorge",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Riad BaHammou Dades",
-            "comment": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
-          },
-          "stComments": [
-            "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
-          ],
-          "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
-        },
-        {
-          "id": "P2::kasbah ait ben damiette-hb",
-          "service": "Kasbah Ait Ben Damiette-HB",
-          "packages": [
-            "Draa & the deep desert"
+            "Sahara crossing (Rev)"
           ],
           "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
           "also": "",
           "fields": {
-            "TM package": "Draa & the deep desert",
-            "ST supplier": "Kasbah Ait Ben Damiette",
+            "TM package": "Sahara Crossing",
+            "ST supplier": "Ksar Timnay",
             "Prod exists": "No",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "ST PCs": "Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Standard - Twin Room",
-            "ST PCs missing on Prod": "Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Standard - Twin Room",
+            "ST PCs": "Double - Standard Room; Leader Room Single - Basic; Single - Standard Room; Twin - Standard Room",
+            "ST PCs missing on Prod": "Double - Standard Room; Leader Room Single - Basic; Single - Standard Room; Twin - Standard Room",
             "Active price": "No",
             "Price kind": "Not on Prod",
             "Gap": "Not on Prod",
-            "Template location": "Skoura",
+            "Template location": "Midelt",
             "Template type": "Accommodation"
           },
           "fuzzyService": [
             {
               "from": "",
-              "value": "Kasbah Ait Ben Damiette  BB",
-              "score": 99.0
+              "value": "Ksar Timnay",
+              "score": 92.0
             },
             {
               "from": "",
-              "value": "Kasbah Ait Ben Damiette HB",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Standard - Double Room",
-              "value": "Double - Standard Room (FIT)",
-              "score": 75.0
-            },
-            {
-              "from": "Standard - Leader Single Room",
-              "value": "Leader Room Single - Standard (FIT)",
-              "score": 83.0
-            },
-            {
-              "from": "Standard - Single Room",
-              "value": "Single - Standard Room (FIT)",
-              "score": 75.0
-            },
-            {
-              "from": "Standard - Twin Room",
-              "value": "Twin - Standard Room (FIT)",
-              "score": 75.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "Kasbah Ait Ben Damiette",
-          "prodSupplier": "",
-          "stLocation": "Skoura",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah Ait Ben Damiette-HB",
-            "location": "Skoura",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Kasbah Ait Ben Damiette",
-            "comment": "Service already exists"
-          },
-          "stComments": [
-            "Service already exists"
-          ],
-          "stCommentImport": "Service already exists"
-        },
-        {
-          "id": "P2::kasbah hnini hb",
-          "service": "Kasbah Hnini HB",
-          "packages": [
-            "Draa & the deep desert"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "Draa & the deep desert",
-            "ST supplier": "Dar Hnini",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "ST PCs": "Double - Standard Room; Leader Single Leader - Standard; Single - Standard Room; Twin - Standard Room",
-            "ST PCs missing on Prod": "Double - Standard Room; Leader Single Leader - Standard; Single - Standard Room; Twin - Standard Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Zagora",
-            "Template type": "Accommodation"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Kasbah Hnini - HB",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Leader - Standard",
-              "value": "Leader Single - Standard Room",
-              "score": 99.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "Dar Hnini",
-          "prodSupplier": "",
-          "stLocation": "Zagora",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah Hnini HB",
-            "location": "Zagora",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Dar Hnini",
-            "comment": "Service already available in Kaptio. Same rates for IG and FIT for 2027"
-          },
-          "stComments": [
-            "Service already available in Kaptio. Same rates for IG and FIT for 2027"
-          ],
-          "stCommentImport": "Service already available in Kaptio. Same rates for IG and FIT for 2027"
-        },
-        {
-          "id": "P2::local guide chefchaouen",
-          "service": "Local guide Chefchaouen",
-          "packages": [
-            "The Blue North (Rev)"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "The Blue North (Rev)",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod exists": "No",
-            "Package PCs": "Per Group",
-            "ST PCs": "Per Crew; Per Group",
-            "ST PCs missing on Prod": "Per Crew; Per Group",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Chefcharouen",
-            "Template type": "Activity"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide - Half Day Chefchaouen",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Local Guide - Chefchaouen",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
+              "value": "Ksar Timnay Riad Mimouna",
               "score": 92.0
             }
           ],
+          "fuzzyPc": [
+            {
+              "from": "Leader Room Single - Basic",
+              "value": "Leader Room Single - Standard",
+              "score": 65.0
+            }
+          ],
           "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
+          "stSupplier": "Ksar Timnay",
           "prodSupplier": "",
-          "stLocation": "Chefcharouen",
+          "stLocation": "Midelt",
           "prodLocation": "",
-          "stType": "Activity",
+          "stType": "Accommodation",
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
@@ -4660,23 +3299,23 @@ window.ISSUE_DATA = {
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
-            "name": "Local guide Chefchaouen",
-            "location": "Chefcharouen",
+            "name": "Ksar Timnay Riad Mimouna HB",
+            "location": "Midelt",
             "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
             "price": "",
             "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
+            "supplierName": "Ksar Timnay",
+            "comment": "Service exisitng in Kaptio"
           },
           "stComments": [
-            "Service already exist"
+            "Service exisitng in Kaptio"
           ],
-          "stCommentImport": "Service already exist"
+          "stCommentImport": "Service exisitng in Kaptio"
         },
         {
           "id": "P2::local guide fes half day",
@@ -5118,78 +3757,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service already exist"
         },
         {
-          "id": "P2::medersa attarine fes",
-          "service": "Medersa Attarine Fes",
-          "packages": [
-            "C1 Blue North Gateway",
-            "Sahara crossing (Rev)",
-            "The Blue North",
-            "The Blue North (Rev)"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "Also listed in P6",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod exists": "No",
-            "Package PCs": "Per Crew; Per Group",
-            "ST PCs": "Per Crew; Per Person",
-            "ST PCs missing on Prod": "Per Crew; Per Person",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Fes",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P6"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Medersa Attarine  Fes",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Medersa Attarine Fes",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Crew; Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist",
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "Use Prod",
-              "prodName": "Medersa Attarine Fes",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P2::mia camp",
           "service": "Mia Camp",
           "packages": [
@@ -5448,6 +4015,66 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
         },
         {
+          "id": "P2::riad jnane imlil hb",
+          "service": "Riad Jnane Imlil HB",
+          "packages": [
+            "Atlas Discovery"
+          ],
+          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
+          "also": "",
+          "fields": {
+            "TM package": "Atlas Discovery",
+            "ST supplier": "Riad Jnane Imlil",
+            "Prod exists": "No",
+            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "ST PCs": "Double - Deluxe Suite; Double - Standard Room; Double - Superior (Balcony); Double for Single Use; Leader Room Single - Standard; Single - Deluxe Suite; Single - Standard Room; Single - Superior (Balcony); Twin - Deluxe Suite; Twin - Standard Room; Twin - Superior (Balcony)",
+            "ST PCs missing on Prod": "Double - Deluxe Suite; Double - Standard Room; Double - Superior (Balcony); Double for Single Use; Leader Room Single - Standard; Single - Deluxe Suite; Single - Standard Room; Single - Superior (Balcony); Twin - Deluxe Suite; Twin - Standard Room; Twin - Superior (Balcony)",
+            "Active price": "No",
+            "Price kind": "Not on Prod",
+            "Gap": "Not on Prod",
+            "Template location": "Imlil",
+            "Template type": "Accommodation"
+          },
+          "fuzzyService": [
+            {
+              "from": "",
+              "value": "Riad Jnane Imlil-Standard",
+              "score": 75.0
+            }
+          ],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "Riad Jnane Imlil",
+          "prodSupplier": "",
+          "stLocation": "Imlil",
+          "prodLocation": "",
+          "stType": "Accommodation",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "",
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Riad Jnane Imlil HB",
+            "location": "Imlil",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Jnane Imlil",
+            "comment": "Service exists in Kaptio"
+          },
+          "stComments": [
+            "Service exists in Kaptio"
+          ],
+          "stCommentImport": "Service exists in Kaptio"
+        },
+        {
           "id": "P2::skoura lodge- hb",
           "service": "Skoura Lodge- HB",
           "packages": [
@@ -5649,7 +4276,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "On a package and on Prod, but pricing is missing, inactive, or missing 2027. Yes = insert the ST price (or fill prices if ST has none). No = keep the Prod price.",
       "choice": "price-st",
-      "count": 145,
+      "count": 148,
       "issues": [
         {
           "id": "P4::10 days xmfp private transfer",
@@ -6163,7 +4790,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Auberge Chez Momo - Standard",
             "Prod Id": "a1HVk000000gdTCMAY",
-            "Package PCs": "Double Standard Room; Leader Room Single Standard; Single Standard Room; Twin Standard Room",
+            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -6205,24 +4832,19 @@ window.ISSUE_DATA = {
           "prodId": "a1HVk000000gdTCMAY",
           "priceCompare": [
             {
-              "pc": "Double Standard Room",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "1150.0 MAD [FIT]; 1200.0 MAD [FIT]; 1150.0 MAD [All Group Series]; 1200.0 MAD [All Group Series]"
+              "prod": "Single Standard Room 1100.0 MAD [FIT]"
             },
             {
-              "pc": "Leader Room Single Standard",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "0.0 MAD [FIT]; 0.0 MAD [All Group Series]"
+              "prod": "Double Standard Room 1150.0 MAD [FIT]"
             },
             {
-              "pc": "Single Standard Room",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "1100.0 MAD [FIT]; 1100.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "Twin Standard Room",
-              "st": "—",
-              "prod": "1150.0 MAD [FIT]; 1200.0 MAD [FIT]; 1150.0 MAD [All Group Series]; 1200.0 MAD [All Group Series]"
+              "prod": "Twin Standard Room 1150.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
@@ -6232,7 +4854,52 @@ window.ISSUE_DATA = {
             {
               "pc": "(Prod)",
               "st": "—",
+              "prod": "Leader Room Single Standard 0.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double Standard Room 1200.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin Standard Room 1200.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single Standard Room 1100.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double Standard Room 1150.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin Standard Room 1150.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
               "prod": "Double For Single Use 1100.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single Standard 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double Standard Room 1200.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin Standard Room 1200.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "",
@@ -6241,7 +4908,7 @@ window.ISSUE_DATA = {
             "location": "",
             "businessUnit": "",
             "serviceType": "",
-            "priceCategory": "Double Standard Room; Leader Room Single Standard; Single Standard Room; Twin Standard Room",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -7292,7 +5959,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Casablanca to Marrakech XMPE  Private Transfer",
             "Prod Id": "a1HVk000000aBqNMAU",
-            "Package PCs": "Per Vehicle (Banded) Max 14; Per Vehicle (Banded) Max 18; Per Vehicle (Banded) Max 8",
+            "Package PCs": "Per Vehicle (Banded)",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
             "Price kind": "Group Tour",
@@ -7319,19 +5986,9 @@ window.ISSUE_DATA = {
           "prodId": "a1HVk000000aBqNMAU",
           "priceCompare": [
             {
-              "pc": "Per Vehicle (Banded) Max 14",
+              "pc": "Per Vehicle (Banded)",
               "st": "—",
-              "prod": "14980.0 MAD [All Group Series]; 15500.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "Per Vehicle (Banded) Max 18",
-              "st": "—",
-              "prod": "17120.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "Per Vehicle (Banded) Max 8",
-              "st": "—",
-              "prod": "13600.0 MAD [All Group Series]; 14000.0 MAD [All Group Series]"
+              "prod": "Max 8 13600.0 MAD [All Group Series]; Max 14 14980.0 MAD [All Group Series]; Max 18 17120.0 MAD [All Group Series]; Max 8 14000.0 MAD [All Group Series]; Max 14 15500.0 MAD [All Group Series]"
             },
             {
               "pc": "(Prod)",
@@ -7345,7 +6002,7 @@ window.ISSUE_DATA = {
             "location": "",
             "businessUnit": "",
             "serviceType": "",
-            "priceCategory": "Per Vehicle (Banded) Max 14; Per Vehicle (Banded) Max 18; Per Vehicle (Banded) Max 8",
+            "priceCategory": "Per Vehicle (Banded)",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -7790,9 +6447,9 @@ window.ISSUE_DATA = {
             "Package PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Twin - Standard Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 750.0 MAD [All Group Series]; Single - Standard Room 750.0 MAD [All Group Series]; Double - Standard Room 750.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double for Single Use 750.0 MAD [All Group Series]; Double for Single Use (FIT) 750.0 MAD [All Group Series]; Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Double - Standard Room (FIT) 750.0 MAD [All Group Series]; Twin - Standard Room (FIT) 750.0 MAD [All Group Series]; Single - Standard Room (FIT) 750.0 MAD [All Group Series]"
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Twin - Standard Room 937.5 MAD [FIT]; Single - Standard Room 937.5 MAD [FIT]; Double - Standard Room 937.5 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Double for Single Use 937.5 MAD [FIT]; Twin - Standard Room 750.0 MAD [All Group Series]; Single - Standard Room 750.0 MAD [All Group Series]; Double - Standard Room 750.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double for Single Use 750.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -7831,32 +6488,32 @@ window.ISSUE_DATA = {
             {
               "pc": "Double - Standard Room",
               "st": "—",
-              "prod": "750.0 MAD [All Group Series]; (FIT) 750.0 MAD [All Group Series]"
+              "prod": "937.5 MAD [FIT]; 750.0 MAD [All Group Series]"
             },
             {
               "pc": "Double for Single Use",
               "st": "—",
-              "prod": "750.0 MAD [All Group Series]; (FIT) 750.0 MAD [All Group Series]"
+              "prod": "937.5 MAD [FIT]; 750.0 MAD [All Group Series]"
             },
             {
               "pc": "Leader Room Single - Standard",
               "st": "—",
-              "prod": "0.0 MAD [All Group Series]; (FIT) 0.0 MAD [All Group Series]"
+              "prod": "0.0 MAD [FIT]; 0.0 MAD [All Group Series]"
             },
             {
               "pc": "Twin - Standard Room",
               "st": "—",
-              "prod": "750.0 MAD [All Group Series]; (FIT) 750.0 MAD [All Group Series]"
+              "prod": "937.5 MAD [FIT]; 750.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room 937.5 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
               "prod": "Single - Standard Room 750.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Single - Standard Room (FIT) 750.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "",
@@ -8136,12 +6793,7 @@ window.ISSUE_DATA = {
             {
               "pc": "Dinner",
               "st": "—",
-              "prod": "70.0 MAD [All Group Series]; 80.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "Dinner (Crew)",
-              "st": "—",
-              "prod": "0.0 MAD [All Group Series]"
+              "prod": "70.0 MAD [All Group Series]; (Crew) 0.0 MAD [All Group Series]; 80.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "",
@@ -9932,7 +8584,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Hotel Karam Palace HB",
             "Prod Id": "a1HSo00000BB2RZMA1",
-            "Package PCs": "Twin Room",
+            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "City Tax; Double Room - Standard; Leader Single Room - Standard; Single Room - Standard; Twin Room - Standard",
             "ST PCs missing on Prod": "City Tax; Double Room - Standard; Leader Single Room - Standard; Single Room - Standard; Twin Room - Standard",
             "Active price": "Yes",
@@ -10003,6 +8655,21 @@ window.ISSUE_DATA = {
               "prod": "—"
             },
             {
+              "pc": "Double Room",
+              "st": "—",
+              "prod": "960.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Leader Single Room",
+              "st": "—",
+              "prod": "730.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Single Room",
+              "st": "—",
+              "prod": "730.0 MAD [All Group Series]"
+            },
+            {
               "pc": "Twin Room",
               "st": "—",
               "prod": "960.0 MAD [All Group Series]"
@@ -10010,22 +8677,7 @@ window.ISSUE_DATA = {
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Double Room 960.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Single Room 730.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
               "prod": "(no PC) 16.5 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Leader Single Room 730.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "01/11/2026 - 31/10/2027",
@@ -10034,7 +8686,7 @@ window.ISSUE_DATA = {
             "location": "",
             "businessUnit": "",
             "serviceType": "",
-            "priceCategory": "Twin Room",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
             "priceSeason": "",
             "priceSeasonDates": "01/11/2026 - 31/10/2027",
             "pricelist": "",
@@ -11062,8 +9714,8 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service exists in Kaptio"
         },
         {
-          "id": "P4::hotel riad ouinz  hb",
-          "service": "Hotel Riad Ouinz  HB",
+          "id": "P4::hotel riad ouinz hb",
+          "service": "Hotel Riad Ouinz HB",
           "packages": [
             "SGA XMFK",
             "SGA XMKN"
@@ -11075,34 +9727,42 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Hotel Riad Ouinz  HB",
             "Prod Id": "a1HVk000000aBuwMAE",
-            "Package PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Twin Room (Family)",
-            "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "ST PCs": "Leader Single Room; Sawadee - 2nd Leader Room; Standard - Double Room; Standard - Single Room; Standard - Triple Room; Standard - Twin Room; Twin Room (Family)",
+            "ST PCs missing on Prod": "Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Triple Room; Standard - Twin Room",
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
+            "ST prices": "Standard - Double Room 500 MAD [FIT] 2026-2027 All Year; Standard - Twin Room 500 MAD [FIT] 2026-2027 All Year; Standard - Single Room 400 MAD [FIT] 2026-2027 All Year; Leader Single Room 0 MAD [FIT] 2026-2027 All Year; Sawadee - 2nd Leader Room 400 MAD [FIT] 2026-2027 All Year; Standard - Triple Room 750 MAD [FIT] 2026-2027 All Year; Twin Room (Family) 500 MAD [FIT] 2026-2027 All Year",
+            "ST price dates": "1/1/2026  -  31/12/2027",
             "Prod PCs priced": "Twin - Standard Room 500.0 MAD [All Group Series]; Single - Standard Room 400.0 MAD [All Group Series]; Double - Standard Room 500.0 MAD [All Group Series]; Triple - Standard Room 750.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin Room (Family) 500.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 400.0 MAD [All Group Series]; Twin - Standard Room 500.0 MAD [FIT]; Single - Standard Room 400.0 MAD [FIT]; Double - Standard Room 500.0 MAD [FIT]; Triple - Standard Room 750.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Twin Room (Family) 500.0 MAD [FIT]; Sawadee - 2nd Leader Room 400.0 MAD [FIT]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
             {
               "from": "Leader Single Room",
               "value": "Leader Room Single - Standard",
               "score": 75.0
             },
             {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
+              "from": "Standard - Double Room",
+              "value": "Double - Standard Room",
+              "score": 60.0
             },
             {
-              "from": "Twin Room",
-              "value": "Twin Room (Family)",
-              "score": 92.0
+              "from": "Standard - Single Room",
+              "value": "Leader Room Single - Standard",
+              "score": 75.0
+            },
+            {
+              "from": "Standard - Triple Room",
+              "value": "Triple - Standard Room",
+              "score": 60.0
+            },
+            {
+              "from": "Standard - Twin Room",
+              "value": "Twin - Standard Room",
+              "score": 65.0
             }
           ],
           "pcMap": [],
@@ -11117,9 +9777,39 @@ window.ISSUE_DATA = {
           "prodId": "a1HVk000000aBuwMAE",
           "priceCompare": [
             {
-              "pc": "Twin Room",
-              "st": "—",
-              "prod": "(Family) 500.0 MAD [All Group Series]; (Family) 500.0 MAD [FIT]"
+              "pc": "Leader Single Room",
+              "st": "0 MAD [FIT] 2026-2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Sawadee - 2nd Leader Room",
+              "st": "400 MAD [FIT] 2026-2027 All Year",
+              "prod": "400.0 MAD [All Group Series]; 400.0 MAD [FIT]"
+            },
+            {
+              "pc": "Standard - Double Room",
+              "st": "500 MAD [FIT] 2026-2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Standard - Single Room",
+              "st": "400 MAD [FIT] 2026-2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Standard - Triple Room",
+              "st": "750 MAD [FIT] 2026-2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Standard - Twin Room",
+              "st": "500 MAD [FIT] 2026-2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Twin Room (Family)",
+              "st": "500 MAD [FIT] 2026-2027 All Year",
+              "prod": "500.0 MAD [All Group Series]; 500.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
@@ -11149,11 +9839,6 @@ window.ISSUE_DATA = {
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Sawadee - 2nd Leader Room 400.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
               "prod": "Twin - Standard Room 500.0 MAD [FIT]"
             },
             {
@@ -11175,24 +9860,19 @@ window.ISSUE_DATA = {
               "pc": "(Prod)",
               "st": "—",
               "prod": "Leader Room Single - Standard 0.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Sawadee - 2nd Leader Room 400.0 MAD [FIT]"
             }
           ],
-          "stPriceDates": "",
+          "stPriceDates": "1/1/2026  -  31/12/2027",
           "formDefaults": {
-            "name": "Hotel Riad Ouinz  HB",
+            "name": "Hotel Riad Ouinz HB",
             "location": "",
             "businessUnit": "",
             "serviceType": "",
-            "priceCategory": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Twin Room (Family)",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
             "priceSeason": "",
-            "priceSeasonDates": "",
+            "priceSeasonDates": "1/1/2026  -  31/12/2027",
             "pricelist": "",
-            "price": "",
+            "price": "Standard - Double Room 500 MAD [FIT] 2026-2027 All Year; Standard - Twin Room 500 MAD [FIT] 2026-2027 All Year; Standard - Single Room 400 MAD [FIT] 2026-2027 All Year; Leader Single Room 0 MAD [FIT] 2026-2027 All Year; Sawadee - 2nd Leader Room 400 MAD [FIT] 2026-2027 All Year; Standard - Triple Room 750 MAD [FIT] 2026-2027 All Year; Twin Room (Family) 500 MAD [FIT] 2026-2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": "Service exists in Kaptio"
@@ -11759,6 +10439,7 @@ window.ISSUE_DATA = {
           "service": "Hotel Xaluca Dades HB",
           "packages": [
             "Classic Sahara Crossing",
+            "Classic Sahara Crossing (Rev)",
             "Sahara Crossing",
             "Sahara crossing (Rev)",
             "The Sahara Loop",
@@ -12276,6 +10957,105 @@ window.ISSUE_DATA = {
           }
         },
         {
+          "id": "P4::kasbah ait ben damiette-hb",
+          "service": "Kasbah Ait Ben Damiette-HB",
+          "packages": [
+            "Draa & the deep desert"
+          ],
+          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
+          "also": "Also listed in P8",
+          "fields": {
+            "TM package": "Draa & the deep desert",
+            "Prod exists": "Yes",
+            "Prod Name": "Kasbah Ait Ben Damiette HB",
+            "Prod Id": "a1HVk0000023TtxMAE",
+            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "ST PCs": "Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Standard - Twin Room",
+            "ST PCs missing on Prod": "Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Standard - Twin Room",
+            "Active price": "Yes",
+            "Price kind": "Group Tour",
+            "Gap": "Group Tour only — no FIT",
+            "ST prices": "Standard - Twin Room 1000 MAD [FIT/Group Series] 2026-2027 All Year; Standard - Double Room 1000 MAD [FIT/Group Series] 2026-2027 All Year; Standard - Single Room 800 MAD [FIT/Group Series] 2026-2027 All Year; Standard - Leader Single Room 0 MAD [FIT/Group Series] 2026-2027 All Year",
+            "ST price dates": "1/1/2026  -  31/12/2027",
+            "Prod PCs priced": "Standard - Twin Room (FIT) 1000.0 MAD [All Group Series]; Standard - Double Room (FIT) 1000.0 MAD [All Group Series]; Standard - Single Room (FIT) 800.0 MAD [All Group Series]; Standard - Leader Single Room (FIT) 0.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P8"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [
+            {
+              "from": "Standard - Double Room",
+              "value": "Standard - Double Room (FIT)",
+              "score": 92.0
+            },
+            {
+              "from": "Standard - Leader Single Room",
+              "value": "Standard - Leader Single Room (FIT)",
+              "score": 92.0
+            },
+            {
+              "from": "Standard - Single Room",
+              "value": "Standard - Single Room (FIT)",
+              "score": 92.0
+            },
+            {
+              "from": "Standard - Twin Room",
+              "value": "Standard - Twin Room (FIT)",
+              "score": 92.0
+            }
+          ],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk0000023TtxMAE",
+          "priceCompare": [
+            {
+              "pc": "Standard - Double Room",
+              "st": "1000 MAD [FIT/Group Series] 2026-2027 All Year",
+              "prod": "(FIT) 1000.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Standard - Leader Single Room",
+              "st": "0 MAD [FIT/Group Series] 2026-2027 All Year",
+              "prod": "(FIT) 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Standard - Single Room",
+              "st": "800 MAD [FIT/Group Series] 2026-2027 All Year",
+              "prod": "(FIT) 800.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Standard - Twin Room",
+              "st": "1000 MAD [FIT/Group Series] 2026-2027 All Year",
+              "prod": "(FIT) 1000.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/1/2026  -  31/12/2027",
+          "formDefaults": {
+            "name": "Kasbah Ait Ben Damiette-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026  -  31/12/2027",
+            "pricelist": "",
+            "price": "Standard - Twin Room 1000 MAD [FIT/Group Series] 2026-2027 All Year; Standard - Double Room 1000 MAD [FIT/Group Series] 2026-2027 All Year; Standard - Single Room 800 MAD [FIT/Group Series] 2026-2027 All Year; Standard - Leader Single Room 0 MAD [FIT/Group Series] 2026-2027 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service already exists"
+          },
+          "stComments": [
+            "Service already exists"
+          ],
+          "stCommentImport": "Service already exists"
+        },
+        {
           "id": "P4::kasbah amazir bb",
           "service": "Kasbah Amazir BB",
           "packages": [
@@ -12665,6 +11445,245 @@ window.ISSUE_DATA = {
           }
         },
         {
+          "id": "P4::kasbah hnini hb",
+          "service": "Kasbah Hnini HB",
+          "packages": [
+            "Draa & the deep desert"
+          ],
+          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
+          "also": "Also listed in P8",
+          "fields": {
+            "TM package": "Draa & the deep desert",
+            "Prod exists": "Yes",
+            "Prod Name": "Kasbah Hnini - HB",
+            "Prod Id": "a1HVk000002L62uMAC",
+            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "ST PCs": "Double - Standard Room; Leader Single Leader - Standard; Single - Standard Room; Twin - Standard Room",
+            "ST PCs missing on Prod": "Leader Single Leader - Standard",
+            "Active price": "Yes",
+            "Price kind": "Group Tour",
+            "Gap": "Group Tour only — no FIT",
+            "ST prices": "Double - Standard Room 1290 MAD [FIT/Group Series] 2027 Low; Twin - Standard Room 1290 MAD [FIT/Group Series] 2027 Low; Single - Standard Room 1040 MAD [FIT/Group Series] 2027 Low; Leader Single Leader - Standard 1040 MAD [FIT/Group Series] 2027 Low; Double - Standard Room 1390 MAD [FIT/Group Series] 2027 High; Twin - Standard Room 1390 MAD [FIT/Group Series] 2027 High; Single - Standard Room 1140 MAD [FIT/Group Series] 2027 High; Leader Single Leader - Standard 1140 MAD [FIT/Group Series] 2027 High",
+            "ST price dates": "1/7/2027  -  31/8/2027",
+            "Prod PCs priced": "Double - Standard Room 1290.0 MAD [All Group Series]; Twin - Standard Room 1290.0 MAD [All Group Series]; Single - Standard Room 1040.0 MAD [All Group Series]; Leader Single - Standard Room 1040.0 MAD [All Group Series]; Double - Standard Room 1390.0 MAD [All Group Series]; Twin - Standard Room 1390.0 MAD [All Group Series]; Single - Standard Room 1140.0 MAD [All Group Series]; Leader Single - Standard Room 1140.0 MAD [All Group Series]; Junior Double Room 1390.0 MAD [All Group Series]; Junior Twin Room 1390.0 MAD [All Group Series]; Junior Single Room 1140.0 MAD [All Group Series]; Double Standard Suite 1450.0 MAD [All Group Series]; Twin Standard Suite 1450.0 MAD [All Group Series]; Single Standard Suite 1200.0 MAD [All Group Series]; Double Senior Suite 1040.0 MAD [All Group Series]; Twin Junior Suite 1550.0 MAD [All Group Series]; Single Junior Suite 1300.0 MAD [All Group Series]; Twin Senior Suite 1650.0 MAD [All Group Series]; Double Senior Suite 1650.0 MAD [All Group Series]; Single Senior Suite 1400.0 MAD [All Group Series]; Junior Double Room 1490.0 MAD [All Group Series]; Junior Twin Room 1490.0 MAD [All Group Series]; Junior Single Room 1240.0 MAD [All Group Series]; Double Standard Suite 1500.0 MAD [All Group Series]; Twin Standard Suite 1500.0 MAD [All Group Series]; Single Standard Suite 1250.0 MAD [All Group Series]; Double Junior Suite 1600.0 MAD [All Group Series]; Twin Junior Suite 1600.0 MAD [All Group Series]; Triple Junior Suite 1800.0 MAD [All Group Series]; Double Junior Suite 1550.0 MAD [All Group Series]; Triple Senior Suite 1900.0 MAD [All Group Series]; Single Junior Suite 1350.0 MAD [All Group Series]; Triple Junior Suite 1850.0 MAD [All Group Series]; Twin Senior Suite 1750.0 MAD [All Group Series]; Double Senior Suite 1750.0 MAD [All Group Series]; Single Senior Suite 1500.0 MAD [All Group Series]; Triple Senior Suite 2000.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P8"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [
+            {
+              "from": "Leader Single Leader - Standard",
+              "value": "Leader Single - Standard Room",
+              "score": 99.0
+            }
+          ],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000002L62uMAC",
+          "priceCompare": [
+            {
+              "pc": "Double - Standard Room",
+              "st": "1290 MAD [FIT/Group Series] 2027 Low; 1390 MAD [FIT/Group Series] 2027 High",
+              "prod": "1290.0 MAD [All Group Series]; 1390.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Leader Single Leader - Standard",
+              "st": "1040 MAD [FIT/Group Series] 2027 Low; 1140 MAD [FIT/Group Series] 2027 High",
+              "prod": "—"
+            },
+            {
+              "pc": "Single - Standard Room",
+              "st": "1040 MAD [FIT/Group Series] 2027 Low; 1140 MAD [FIT/Group Series] 2027 High",
+              "prod": "1040.0 MAD [All Group Series]; 1140.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Twin - Standard Room",
+              "st": "1290 MAD [FIT/Group Series] 2027 Low; 1390 MAD [FIT/Group Series] 2027 High",
+              "prod": "1290.0 MAD [All Group Series]; 1390.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Single - Standard Room 1040.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Single - Standard Room 1140.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Junior Double Room 1390.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Junior Twin Room 1390.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Junior Single Room 1140.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double Standard Suite 1450.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin Standard Suite 1450.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single Standard Suite 1200.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double Senior Suite 1040.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin Junior Suite 1550.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single Junior Suite 1300.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin Senior Suite 1650.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double Senior Suite 1650.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single Senior Suite 1400.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Junior Double Room 1490.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Junior Twin Room 1490.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Junior Single Room 1240.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double Standard Suite 1500.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin Standard Suite 1500.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single Standard Suite 1250.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double Junior Suite 1600.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin Junior Suite 1600.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple Junior Suite 1800.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double Junior Suite 1550.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple Senior Suite 1900.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single Junior Suite 1350.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple Junior Suite 1850.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin Senior Suite 1750.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double Senior Suite 1750.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single Senior Suite 1500.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple Senior Suite 2000.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/7/2027  -  31/8/2027",
+          "formDefaults": {
+            "name": "Kasbah Hnini HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "1/7/2027  -  31/8/2027",
+            "pricelist": "",
+            "price": "Double - Standard Room 1290 MAD [FIT/Group Series] 2027 Low; Twin - Standard Room 1290 MAD [FIT/Group Series] 2027 Low; Single - Standard Room 1040 MAD [FIT/Group Series] 2027 Low; Leader Single Leader - Standard 1040 MAD [FIT/Group Series] 2027 Low; Double - Standard Room 1390 MAD [FIT/Group Series] 2027 High; Twin - Standard Room 1390 MAD [FIT/Group Series] 2027 High; Single - Standard Room 1140 MAD [FIT/Group Series] 2027 High; Leader Single Leader - Standard 1140 MAD [FIT/Group Series] 2027 High",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service already available in Kaptio. Same rates for IG and FIT for 2027"
+          },
+          "stComments": [
+            "Service already available in Kaptio. Same rates for IG and FIT for 2027"
+          ],
+          "stCommentImport": "Service already available in Kaptio. Same rates for IG and FIT for 2027"
+        },
+        {
           "id": "P4::kasbah itrane",
           "service": "Kasbah Itrane",
           "packages": [
@@ -12778,6 +11797,7 @@ window.ISSUE_DATA = {
           "service": "Kasbah La Famille Berbere HB",
           "packages": [
             "Classic Sahara Crossing",
+            "Classic Sahara Crossing (Rev)",
             "Sahara Crossing",
             "Sahara crossing (Rev)",
             "The Sahara Loop",
@@ -14112,6 +13132,80 @@ window.ISSUE_DATA = {
           }
         },
         {
+          "id": "P4::local guide chefchaouen",
+          "service": "Local guide Chefchaouen",
+          "packages": [
+            "The Blue North (Rev)"
+          ],
+          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
+          "also": "Also listed in P8; P9; P10",
+          "fields": {
+            "TM package": "The Blue North (Rev)",
+            "Prod exists": "Yes",
+            "Prod Name": "Local Guide - Chefchaouen",
+            "Prod Id": "a1HVk0000028cyDMAQ",
+            "Package PCs": "Per Group",
+            "ST PCs": "Per Crew; Per Group",
+            "ST PCs missing on Prod": "Per Crew; Per Group",
+            "Active price": "Yes",
+            "Price kind": "Group Tour",
+            "Gap": "Group Tour only — no FIT",
+            "ST prices": "Per Group 350 MAD [FIT] 2026 All Year; Per Crew 0 MAD [FIT] 2026 All Year; Per Group 400 MAD [FIT] 2027 All Year; Per Crew 0 MAD [FIT] 2027 All Year",
+            "ST price dates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
+            "Prod PCs priced": "Per Group Per Day (Non-Banded) 500.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P8; P9; P10"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [
+            {
+              "from": "Per Group",
+              "value": "Per Group Per Day (Non-Banded)",
+              "score": 92.0
+            }
+          ],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk0000028cyDMAQ",
+          "priceCompare": [
+            {
+              "pc": "Per Crew",
+              "st": "0 MAD [FIT] 2026 All Year; 0 MAD [FIT] 2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Per Group",
+              "st": "350 MAD [FIT] 2026 All Year; 400 MAD [FIT] 2027 All Year",
+              "prod": "Per Day (Non-Banded) 500.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
+          "formDefaults": {
+            "name": "Local guide Chefchaouen",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
+            "pricelist": "",
+            "price": "Per Group 350 MAD [FIT] 2026 All Year; Per Crew 0 MAD [FIT] 2026 All Year; Per Group 400 MAD [FIT] 2027 All Year; Per Crew 0 MAD [FIT] 2027 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
+        },
+        {
           "id": "P4::local guide dades-half day",
           "service": "Local Guide Dades-Half Day",
           "packages": [
@@ -14483,9 +13577,9 @@ window.ISSUE_DATA = {
             "Package PCs": "Per Group Per Day",
             "ST PCs missing on Prod": "Per Group Per Day",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Group Per Day (Non-Banded) 250.0 MAD [All Group Series]",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Per Group Per Day (Non-Banded) 250.0 MAD [FIT]; Per Group Per Day (Non-Banded) 250.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P9; P10"
           },
           "fuzzyService": [],
@@ -14510,7 +13604,7 @@ window.ISSUE_DATA = {
             {
               "pc": "Per Group Per Day",
               "st": "—",
-              "prod": "(Non-Banded) 250.0 MAD [All Group Series]"
+              "prod": "(Non-Banded) 250.0 MAD [FIT]; (Non-Banded) 250.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "",
@@ -14633,7 +13727,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P8; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "The Imperial Table",
             "Prod exists": "Yes",
@@ -14643,12 +13737,12 @@ window.ISSUE_DATA = {
             "ST PCs": "Per Group",
             "ST PCs missing on Prod": "Per Group",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
             "ST prices": "Per Group 300 MAD [FIT] 2026 All Year; Per Group 350 MAD [FIT] 2027 All Year",
             "ST price dates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
-            "Prod PCs priced": "Per Group Per Day (Non-Banded) 300.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 350.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P8; P10"
+            "Prod PCs priced": "Per Group Per Day (Non-Banded) 350.0 MAD [FIT]; Per Group Per Day (Non-Banded) 300.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 350.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -14677,7 +13771,7 @@ window.ISSUE_DATA = {
             {
               "pc": "Per Group Per Day",
               "st": "—",
-              "prod": "(Non-Banded) 300.0 MAD [All Group Series]; (Non-Banded) 350.0 MAD [All Group Series]"
+              "prod": "(Non-Banded) 350.0 MAD [FIT]; (Non-Banded) 300.0 MAD [All Group Series]; (Non-Banded) 350.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
@@ -14714,7 +13808,7 @@ window.ISSUE_DATA = {
             "SGA XMSS"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P8; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "The Imperial Table",
             "Prod exists": "Yes",
@@ -14724,12 +13818,12 @@ window.ISSUE_DATA = {
             "ST PCs": "Per Group",
             "ST PCs missing on Prod": "Per Group",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
             "ST prices": "Per Group 200 MAD [FIT] 2026 All Year; Per Group 300 MAD [FIT] 2027 All Year",
             "ST price dates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
-            "Prod PCs priced": "Per Group Per Day (Banded) Max 20 200.0 MAD [All Group Series]; Per Group Per Day (Banded) Max 40 500.0 MAD [All Group Series]; Per Group Per Day (Banded) Max 20 350.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P8; P10"
+            "Prod PCs priced": "Per Group Per Day (Banded) Max 20 350.0 MAD [FIT]; Per Group Per Day (Banded) Max 20 200.0 MAD [All Group Series]; Per Group Per Day (Banded) Max 40 500.0 MAD [All Group Series]; Per Group Per Day (Banded) Max 20 350.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -14758,7 +13852,7 @@ window.ISSUE_DATA = {
             {
               "pc": "Per Group Per Day",
               "st": "—",
-              "prod": "(Banded) Max 20 200.0 MAD [All Group Series]; (Banded) Max 40 500.0 MAD [All Group Series]; (Banded) Max 20 350.0 MAD [All Group Series]"
+              "prod": "(Banded) Max 20 350.0 MAD [FIT]; (Banded) Max 20 200.0 MAD [All Group Series]; (Banded) Max 40 500.0 MAD [All Group Series]; (Banded) Max 20 350.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
@@ -16918,8 +16012,8 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P4::palmeras y dunas luxury camp - hb",
-          "service": "Palmeras Y Dunas Luxury Camp - HB",
+          "id": "P4::palmeras y dunas luxury camp  hb",
+          "service": "Palmeras Y Dunas Luxury Camp  HB",
           "packages": [
             "The Sahara Loop"
           ],
@@ -16930,8 +16024,8 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Palmeras Y Dunas Luxury Camp - HB",
             "Prod Id": "a1HVk0000023o5ZMAQ",
-            "Package PCs": "Double Room; Leader Single Room; Single Room",
-            "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room",
+            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
@@ -16952,6 +16046,11 @@ window.ISSUE_DATA = {
             {
               "from": "Single Room",
               "value": "Single - Tent",
+              "score": 58.0
+            },
+            {
+              "from": "Twin Room",
+              "value": "Twin - Tent",
               "score": 58.0
             }
           ],
@@ -17039,11 +16138,11 @@ window.ISSUE_DATA = {
           ],
           "stPriceDates": "",
           "formDefaults": {
-            "name": "Palmeras Y Dunas Luxury Camp - HB",
+            "name": "Palmeras Y Dunas Luxury Camp  HB",
             "location": "",
             "businessUnit": "",
             "serviceType": "",
-            "priceCategory": "Double Room; Leader Single Room; Single Room",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -18070,6 +17169,8 @@ window.ISSUE_DATA = {
           "packages": [
             "Draa & the deep desert",
             "Marrakech & the high atlas",
+            "Sahara Crossing",
+            "Sahara crossing (Rev)",
             "The Sahara Loop"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
@@ -20576,7 +19677,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "ST supplier does not match Prod. Pick the Prod account, keep ST, or No if a different / new account is needed.",
       "choice": "supplier",
-      "count": 6,
+      "count": 7,
       "issues": [
         {
           "id": "P5::2 ciels luxury boutique",
@@ -20695,6 +19796,64 @@ window.ISSUE_DATA = {
               "prodPc": "Twin - Standard Room"
             }
           ]
+        },
+        {
+          "id": "P5::hotel riad bahammou dades hb",
+          "service": "Hotel Riad BaHammou Dades HB",
+          "packages": [
+            "Classic Sahara Crossing",
+            "Classic Sahara Crossing (Rev)",
+            "Sahara Crossing",
+            "Sahara crossing (Rev)",
+            "The Sahara Loop"
+          ],
+          "action": "ST supplier does not match the Prod supplier. Confirm which account this service should use.",
+          "also": "Also listed in P8; P9",
+          "fields": {
+            "TM package": "Classic Sahara Crossing",
+            "ST supplier": "Riad BaHammou Dades",
+            "Prod supplier": "Riad Bahammou",
+            "Match type": "Close name",
+            "Prod exists": "Yes",
+            "Prod Name": "Hotel Riad BaHammou Dades  HB",
+            "Prod Id": "a1HVk000000aBryMAE",
+            "Active price": "Yes",
+            "Price kind": "Group Tour",
+            "Gap": "Group Tour only — no FIT",
+            "Also listed in": "Also listed in P8; P9"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "Riad BaHammou Dades",
+          "prodSupplier": "Riad Bahammou",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000000aBryMAE",
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Hotel Riad BaHammou Dades HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad BaHammou Dades",
+            "comment": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
         },
         {
           "id": "P5::idou anfa hotel & spa",
@@ -20945,7 +20104,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "Only package occupancies that are not on Prod and not on the Service Template. This tab blocks Ready until every card is Yes or No. Yes = create those package PCs. Occupancies that already exist on Prod or ST are not listed — ST names used on the package are created from ST.",
       "choice": "pc-map",
-      "count": 18,
+      "count": 17,
       "issues": [
         {
           "id": "P6::aday hotel",
@@ -21387,83 +20546,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P6::hotel riad bahammou dades hb",
-          "service": "Hotel Riad BaHammou Dades HB",
-          "packages": [
-            "Classic Sahara Crossing",
-            "Sahara Crossing",
-            "Sahara crossing (Rev)",
-            "The Sahara Loop"
-          ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
-          "also": "Also listed in P2",
-          "fields": {
-            "TM package": "Classic Sahara Crossing",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "ST PCs": "Double - Standard Room",
-            "Suggested PC map": "Double Room → create new; Leader Single Room → create new; Single Room → create new; Twin Room → create new",
-            "PC issue": "Package PC not on Prod or ST: Leader Single Room; Single Room; Twin Room",
-            "ST PCs missing on Prod": "Double - Standard Room",
-            "Active price": "No",
-            "Gap": "Not on Prod",
-            "Also listed in": "Also listed in P2"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [
-            {
-              "from": "Double Room",
-              "value": "create new",
-              "score": null
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "create new",
-              "score": null
-            },
-            {
-              "from": "Single Room",
-              "value": "create new",
-              "score": null
-            },
-            {
-              "from": "Twin Room",
-              "value": "create new",
-              "score": null
-            }
-          ],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Riad BaHammou Dades HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
-          },
-          "stComments": [
-            "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
-          ],
-          "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
-        },
-        {
           "id": "P6::kasbah ait benhaddou visit",
           "service": "Kasbah Ait Benhaddou Visit",
           "packages": [
@@ -21772,18 +20854,19 @@ window.ISSUE_DATA = {
             "The Blue North (Rev)"
           ],
           "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
-          "also": "Also listed in P2",
+          "also": "",
           "fields": {
             "TM package": "C1 Blue North Gateway",
-            "Prod exists": "No",
+            "Prod exists": "Yes",
+            "Prod Name": "Medersa Attarine  Fes",
+            "Prod Id": "a1HVk000000aBrJMAU",
             "Package PCs": "Per Crew; Per Group",
             "ST PCs": "Per Crew; Per Person",
             "Suggested PC map": "Per Group → create new",
             "PC issue": "Package PC not on Prod or ST: Per Group",
-            "ST PCs missing on Prod": "Per Crew; Per Person",
-            "Active price": "No",
-            "Gap": "Not on Prod",
-            "Also listed in": "Also listed in P2"
+            "Active price": "Yes",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Per Person 20.0 MAD [FIT]; Per Crew 0.0 MAD [FIT]; Per Person 20.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -21802,7 +20885,7 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
-          "prodId": "",
+          "prodId": "a1HVk000000aBrJMAU",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22143,7 +21226,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "Prod has Group Tour pricing only. Yes = FIT is required (FIT prices will be added). No = Group Tour only is fine; no FIT will be added.",
       "choice": "yesno",
-      "count": 32,
+      "count": 33,
       "issues": [
         {
           "id": "P8::atlas film studio visit",
@@ -22308,6 +21391,7 @@ window.ISSUE_DATA = {
           "id": "P8::bread cooking demonstration",
           "service": "Bread cooking Demonstration",
           "packages": [
+            "Atlas Discovery",
             "South Morocco with Agafay",
             "SGA XMFB",
             "SGA XMFE",
@@ -22316,7 +21400,7 @@ window.ISSUE_DATA = {
           "action": "Prod has Group Tour pricing only. Add FIT prices if FIT is required; otherwise this can stay.",
           "also": "Also listed in P9",
           "fields": {
-            "TM package": "South Morocco with Agafay",
+            "TM package": "Atlas Discovery",
             "Prod exists": "Yes",
             "Prod Name": "Bread Cooking Demonstration",
             "Prod Id": "a1HVk000000aBs7MAE",
@@ -22533,7 +21617,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Hotel Karam Palace HB",
             "Prod Id": "a1HSo00000BB2RZMA1",
-            "Package PCs": "Twin Room",
+            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "City Tax; Double Room - Standard; Leader Single Room - Standard; Single Room - Standard; Twin Room - Standard",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only — no FIT",
@@ -22559,7 +21643,7 @@ window.ISSUE_DATA = {
             "location": "",
             "businessUnit": "",
             "serviceType": "",
-            "priceCategory": "Twin Room",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -22679,6 +21763,63 @@ window.ISSUE_DATA = {
             "Service exists in Kaptio"
           ],
           "stCommentImport": "Service exists in Kaptio"
+        },
+        {
+          "id": "P8::hotel riad bahammou dades hb",
+          "service": "Hotel Riad BaHammou Dades HB",
+          "packages": [
+            "Classic Sahara Crossing",
+            "Classic Sahara Crossing (Rev)",
+            "Sahara Crossing",
+            "Sahara crossing (Rev)",
+            "The Sahara Loop"
+          ],
+          "action": "Prod has Group Tour pricing only. Add FIT prices if FIT is required; otherwise this can stay.",
+          "also": "Also listed in P5; P9",
+          "fields": {
+            "TM package": "Classic Sahara Crossing",
+            "Prod exists": "Yes",
+            "Prod Name": "Hotel Riad BaHammou Dades  HB",
+            "Prod Id": "a1HVk000000aBryMAE",
+            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "ST PCs": "Double - Standard Room",
+            "Price kind": "Group Tour",
+            "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Twin - Standard Room 560.0 MAD [All Group Series]; Single - Standard Room 440.0 MAD [All Group Series]; Double - Standard Room 560.0 MAD [All Group Series]; Triple - Standard Room 800.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double for Single Use 440.0 MAD [All Group Series]; Double - Standard Room 900.0 MAD [All Group Series]; Twin - Standard Room 900.0 MAD [All Group Series]; Single - Standard Room 700.0 MAD [All Group Series]; Double for Single Use 700.0 MAD [All Group Series]; Triple - Standard Room 1200.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 700.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P5; P9"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000000aBryMAE",
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Hotel Riad BaHammou Dades HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
         },
         {
           "id": "P8::hotel rose valley",
@@ -22843,6 +21984,7 @@ window.ISSUE_DATA = {
           "service": "Hotel Xaluca Dades HB",
           "packages": [
             "Classic Sahara Crossing",
+            "Classic Sahara Crossing (Rev)",
             "Sahara Crossing",
             "Sahara crossing (Rev)",
             "The Sahara Loop",
@@ -22895,6 +22037,112 @@ window.ISSUE_DATA = {
             "The Service has been Already Loaded in Kaptio"
           ],
           "stCommentImport": "The Service has been Already Loaded in Kaptio"
+        },
+        {
+          "id": "P8::kasbah ait ben damiette-hb",
+          "service": "Kasbah Ait Ben Damiette-HB",
+          "packages": [
+            "Draa & the deep desert"
+          ],
+          "action": "Prod has Group Tour pricing only. Add FIT prices if FIT is required; otherwise this can stay.",
+          "also": "Also listed in P4",
+          "fields": {
+            "TM package": "Draa & the deep desert",
+            "Prod exists": "Yes",
+            "Prod Name": "Kasbah Ait Ben Damiette HB",
+            "Prod Id": "a1HVk0000023TtxMAE",
+            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "ST PCs": "Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Standard - Twin Room",
+            "Price kind": "Group Tour",
+            "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Standard - Twin Room (FIT) 1000.0 MAD [All Group Series]; Standard - Double Room (FIT) 1000.0 MAD [All Group Series]; Standard - Single Room (FIT) 800.0 MAD [All Group Series]; Standard - Leader Single Room (FIT) 0.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P4"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk0000023TtxMAE",
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Kasbah Ait Ben Damiette-HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service already exists"
+          },
+          "stComments": [
+            "Service already exists"
+          ],
+          "stCommentImport": "Service already exists"
+        },
+        {
+          "id": "P8::kasbah hnini hb",
+          "service": "Kasbah Hnini HB",
+          "packages": [
+            "Draa & the deep desert"
+          ],
+          "action": "Prod has Group Tour pricing only. Add FIT prices if FIT is required; otherwise this can stay.",
+          "also": "Also listed in P4",
+          "fields": {
+            "TM package": "Draa & the deep desert",
+            "Prod exists": "Yes",
+            "Prod Name": "Kasbah Hnini - HB",
+            "Prod Id": "a1HVk000002L62uMAC",
+            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "ST PCs": "Double - Standard Room; Leader Single Leader - Standard; Single - Standard Room; Twin - Standard Room",
+            "Price kind": "Group Tour",
+            "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Double - Standard Room 1290.0 MAD [All Group Series]; Twin - Standard Room 1290.0 MAD [All Group Series]; Single - Standard Room 1040.0 MAD [All Group Series]; Leader Single - Standard Room 1040.0 MAD [All Group Series]; Double - Standard Room 1390.0 MAD [All Group Series]; Twin - Standard Room 1390.0 MAD [All Group Series]; Single - Standard Room 1140.0 MAD [All Group Series]; Leader Single - Standard Room 1140.0 MAD [All Group Series]; Junior Double Room 1390.0 MAD [All Group Series]; Junior Twin Room 1390.0 MAD [All Group Series]; Junior Single Room 1140.0 MAD [All Group Series]; Double Standard Suite 1450.0 MAD [All Group Series]; Twin Standard Suite 1450.0 MAD [All Group Series]; Single Standard Suite 1200.0 MAD [All Group Series]; Double Senior Suite 1040.0 MAD [All Group Series]; Twin Junior Suite 1550.0 MAD [All Group Series]; Single Junior Suite 1300.0 MAD [All Group Series]; Twin Senior Suite 1650.0 MAD [All Group Series]; Double Senior Suite 1650.0 MAD [All Group Series]; Single Senior Suite 1400.0 MAD [All Group Series]; Junior Double Room 1490.0 MAD [All Group Series]; Junior Twin Room 1490.0 MAD [All Group Series]; Junior Single Room 1240.0 MAD [All Group Series]; Double Standard Suite 1500.0 MAD [All Group Series]; Twin Standard Suite 1500.0 MAD [All Group Series]; Single Standard Suite 1250.0 MAD [All Group Series]; Double Junior Suite 1600.0 MAD [All Group Series]; Twin Junior Suite 1600.0 MAD [All Group Series]; Triple Junior Suite 1800.0 MAD [All Group Series]; Double Junior Suite 1550.0 MAD [All Group Series]; Triple Senior Suite 1900.0 MAD [All Group Series]; Single Junior Suite 1350.0 MAD [All Group Series]; Triple Junior Suite 1850.0 MAD [All Group Series]; Twin Senior Suite 1750.0 MAD [All Group Series]; Double Senior Suite 1750.0 MAD [All Group Series]; Single Senior Suite 1500.0 MAD [All Group Series]; Triple Senior Suite 2000.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P4"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000002L62uMAC",
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Kasbah Hnini HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service already available in Kaptio. Same rates for IG and FIT for 2027"
+          },
+          "stComments": [
+            "Service already available in Kaptio. Same rates for IG and FIT for 2027"
+          ],
+          "stCommentImport": "Service already available in Kaptio. Same rates for IG and FIT for 2027"
         },
         {
           "id": "P8::kasbah itrane",
@@ -22954,6 +22202,7 @@ window.ISSUE_DATA = {
           "service": "Kasbah La Famille Berbere HB",
           "packages": [
             "Classic Sahara Crossing",
+            "Classic Sahara Crossing (Rev)",
             "Sahara Crossing",
             "Sahara crossing (Rev)",
             "The Sahara Loop",
@@ -23111,6 +22360,59 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
+          "id": "P8::local guide chefchaouen",
+          "service": "Local guide Chefchaouen",
+          "packages": [
+            "The Blue North (Rev)"
+          ],
+          "action": "Prod has Group Tour pricing only. Add FIT prices if FIT is required; otherwise this can stay.",
+          "also": "Also listed in P4; P9; P10",
+          "fields": {
+            "TM package": "The Blue North (Rev)",
+            "Prod exists": "Yes",
+            "Prod Name": "Local Guide - Chefchaouen",
+            "Prod Id": "a1HVk0000028cyDMAQ",
+            "Package PCs": "Per Group",
+            "ST PCs": "Per Crew; Per Group",
+            "Price kind": "Group Tour",
+            "Gap": "Group Tour only — no FIT",
+            "Prod PCs priced": "Per Group Per Day (Non-Banded) 500.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P4; P9; P10"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk0000028cyDMAQ",
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Local guide Chefchaouen",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
+        },
+        {
           "id": "P8::local guide half day essaouira",
           "service": "Local Guide Half Day Essaouira",
           "packages": [
@@ -23203,123 +22505,6 @@ window.ISSUE_DATA = {
           "stPriceDates": "",
           "formDefaults": {
             "name": "Local Guide Half Day Imlil",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
-        },
-        {
-          "id": "P8::local guide half day meknes",
-          "service": "Local guide Half day Meknes",
-          "packages": [
-            "The Imperial Table",
-            "SGA XMKC",
-            "SGA XMPE",
-            "SGA XMPM",
-            "SGA XMZF"
-          ],
-          "action": "Prod has Group Tour pricing only. Add FIT prices if FIT is required; otherwise this can stay.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "The Imperial Table",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Half Day Meknes",
-            "Prod Id": "a1HVk000000aBphMAE",
-            "Package PCs": "Per Group",
-            "ST PCs": "Per Group",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
-            "Prod PCs priced": "Per Group Per Day (Non-Banded) 300.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 350.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P4; P10"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBphMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local guide Half day Meknes",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
-        },
-        {
-          "id": "P8::local guide site visit volubilis",
-          "service": "Local Guide Site Visit Volubilis",
-          "packages": [
-            "The Imperial Table",
-            "SGA XMKC",
-            "SGA XMKN",
-            "SGA XMPE",
-            "SGA XMPM",
-            "SGA XMSB",
-            "SGA XMSC",
-            "SGA XMSS"
-          ],
-          "action": "Prod has Group Tour pricing only. Add FIT prices if FIT is required; otherwise this can stay.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "The Imperial Table",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Site Visit Volubilis",
-            "Prod Id": "a1HVk000000aBn5MAE",
-            "Package PCs": "Per Group",
-            "ST PCs": "Per Group",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
-            "Prod PCs priced": "Per Group Per Day (Banded) Max 20 200.0 MAD [All Group Series]; Per Group Per Day (Banded) Max 40 500.0 MAD [All Group Series]; Per Group Per Day (Banded) Max 20 350.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P4; P10"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBn5MAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Site Visit Volubilis",
             "location": "",
             "businessUnit": "",
             "serviceType": "",
@@ -23721,59 +22906,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Existing service in Kaptio. Sames rates for FIT and IG/Group series for both 2026 and 2027"
         },
         {
-          "id": "P8::riad ritaj",
-          "service": "Riad Ritaj",
-          "packages": [
-            "The Imperial Table",
-            "SGA XMPE"
-          ],
-          "action": "Prod has Group Tour pricing only. Add FIT prices if FIT is required; otherwise this can stay.",
-          "also": "",
-          "fields": {
-            "TM package": "The Imperial Table",
-            "Prod exists": "Yes",
-            "Prod Name": "Riad Ritaj",
-            "Prod Id": "a1HVk000000aBmjMAE",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "ST PCs": "Crew Twin Room - Standard; Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
-            "Prod PCs priced": "Twin - Standard Room 600.0 MAD [All Group Series]; Double - Standard Room 600.0 MAD [All Group Series]; Double for Single Use 600.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Crew Twin Room - Standard 0.0 MAD [All Group Series]; Single - Standard Room 600.0 MAD [All Group Series]"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBmjMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Riad Ritaj",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "Service exists in Kaptio. Same rates for IG and FIT"
-          },
-          "stComments": [
-            "Service exists in Kaptio. Same rates for IG and FIT"
-          ],
-          "stCommentImport": "Service exists in Kaptio. Same rates for IG and FIT"
-        },
-        {
           "id": "P8::riad tafilalet",
           "service": "Riad Tafilalet",
           "packages": [
@@ -23890,7 +23022,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "ST/template location does not overlap Prod. Pick Prod, keep ST, or No if neither is right.",
       "choice": "location",
-      "count": 33,
+      "count": 36,
       "issues": [
         {
           "id": "P9::10 days xmfp private transfer",
@@ -24150,18 +23282,19 @@ window.ISSUE_DATA = {
           "id": "P9::bread cooking demonstration",
           "service": "Bread cooking Demonstration",
           "packages": [
+            "Atlas Discovery",
             "South Morocco with Agafay",
             "SGA XMFE"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
           "also": "Also listed in P8",
           "fields": {
-            "TM package": "South Morocco with Agafay",
+            "TM package": "Atlas Discovery",
             "Prod exists": "Yes",
             "Prod Name": "Bread Cooking Demonstration",
             "Prod Id": "a1HVk000000aBs7MAE",
             "Gap": "Group Tour only — no FIT",
-            "Template location": "Ouirgane",
+            "Template location": "Imlil",
             "Prod location": "Armed",
             "Template type": "Activity",
             "Prod record type": "Activity",
@@ -24172,7 +23305,7 @@ window.ISSUE_DATA = {
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
-          "stLocation": "Ouirgane",
+          "stLocation": "Imlil",
           "prodLocation": "Armed",
           "stType": "Activity",
           "prodType": "Activity",
@@ -24183,7 +23316,7 @@ window.ISSUE_DATA = {
           "stPriceDates": "",
           "formDefaults": {
             "name": "Bread cooking Demonstration",
-            "location": "Ouirgane",
+            "location": "Imlil",
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "",
@@ -24810,6 +23943,62 @@ window.ISSUE_DATA = {
           ]
         },
         {
+          "id": "P9::hotel riad bahammou dades hb",
+          "service": "Hotel Riad BaHammou Dades HB",
+          "packages": [
+            "Classic Sahara Crossing",
+            "Classic Sahara Crossing (Rev)",
+            "Sahara Crossing",
+            "Sahara crossing (Rev)"
+          ],
+          "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
+          "also": "Also listed in P5; P8",
+          "fields": {
+            "TM package": "Classic Sahara Crossing",
+            "Prod exists": "Yes",
+            "Prod Name": "Hotel Riad BaHammou Dades  HB",
+            "Prod Id": "a1HVk000000aBryMAE",
+            "Gap": "Group Tour only — no FIT",
+            "Template location": "Dades Gorge",
+            "Prod location": "Dades",
+            "Template type": "Accommodation",
+            "Prod record type": "Accommodation",
+            "Also listed in": "Also listed in P5; P8"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "Dades Gorge",
+          "prodLocation": "Dades",
+          "stType": "Accommodation",
+          "prodType": "Accommodation",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000000aBryMAE",
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Hotel Riad BaHammou Dades HB",
+            "location": "Dades Gorge",
+            "businessUnit": "",
+            "serviceType": "Accommodation",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+        },
+        {
           "id": "P9::hotel tarek",
           "service": "Hotel Tarek",
           "packages": [
@@ -24875,6 +24064,7 @@ window.ISSUE_DATA = {
           "service": "Hotel Xaluca Dades HB",
           "packages": [
             "Classic Sahara Crossing",
+            "Classic Sahara Crossing (Rev)",
             "Sahara Crossing",
             "Sahara crossing (Rev)"
           ],
@@ -24990,6 +24180,7 @@ window.ISSUE_DATA = {
           "service": "Kasbah La Famille Berbere HB",
           "packages": [
             "Classic Sahara Crossing",
+            "Classic Sahara Crossing (Rev)",
             "Sahara Crossing",
             "Sahara crossing (Rev)"
           ],
@@ -25090,6 +24281,59 @@ window.ISSUE_DATA = {
           }
         },
         {
+          "id": "P9::local guide chefchaouen",
+          "service": "Local guide Chefchaouen",
+          "packages": [
+            "The Blue North (Rev)"
+          ],
+          "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
+          "also": "Also listed in P4; P8; P10",
+          "fields": {
+            "TM package": "The Blue North (Rev)",
+            "Prod exists": "Yes",
+            "Prod Name": "Local Guide - Chefchaouen",
+            "Prod Id": "a1HVk0000028cyDMAQ",
+            "Gap": "Group Tour only — no FIT",
+            "Template location": "Chefcharouen",
+            "Prod location": "Chefchaouen",
+            "Template type": "Activity",
+            "Prod record type": "Local Guide",
+            "Also listed in": "Also listed in P4; P8; P10"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "Chefcharouen",
+          "prodLocation": "Chefchaouen",
+          "stType": "Activity",
+          "prodType": "Local Guide",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk0000028cyDMAQ",
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Local guide Chefchaouen",
+            "location": "Chefcharouen",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
+        },
+        {
           "id": "P9::local guide half day m'goun",
           "service": "Local Guide Half Day M'goun",
           "packages": [
@@ -25102,7 +24346,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day M'goun",
             "Prod Id": "a1HVk000000aBrKMAU",
-            "Gap": "Group Tour only",
+            "Gap": "OK — FIT and Group Tour",
             "Template location": "Morocco",
             "Prod location": "Kelaa M'Gouna",
             "Template type": "Activity",
@@ -25530,6 +24774,55 @@ window.ISSUE_DATA = {
           }
         },
         {
+          "id": "P9::tipping kitty - xmpe",
+          "service": "Tipping Kitty - XMPE",
+          "packages": [
+            "SGA XMPE"
+          ],
+          "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
+          "also": "Also listed in P10",
+          "fields": {
+            "TM package": "SGA XMPE",
+            "Prod exists": "Yes",
+            "Prod Name": "Tipping Kitty - XMPE",
+            "Prod Id": "a1HVk000000aBs8MAE",
+            "Gap": "OK — FIT and Group Tour",
+            "Template location": "Morocco",
+            "Prod location": "Casablanca",
+            "Template type": "Activity",
+            "Prod record type": "Tolls & Charges",
+            "Also listed in": "Also listed in P10"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "Morocco",
+          "prodLocation": "Casablanca",
+          "stType": "Activity",
+          "prodType": "Tolls & Charges",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000000aBs8MAE",
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Tipping Kitty - XMPE",
+            "location": "Morocco",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
+        },
+        {
           "id": "P9::tipping kitty - xmpm",
           "service": "Tipping Kitty - XMPM",
           "packages": [
@@ -25587,7 +24880,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "Package/ST type has no overlap with the Prod record type. Pick Prod, keep ST, or No if both are wrong.",
       "choice": "type",
-      "count": 42,
+      "count": 43,
       "issues": [
         {
           "id": "P10::5 days package morocco expedition: women in focus hike",
@@ -25896,7 +25189,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Casablanca Airport to Marly Boutique Hotel Individual",
             "Prod Id": "a1HVk000000aBsmMAE",
-            "Gap": "Group Tour only",
+            "Gap": "OK — FIT and Group Tour",
             "Template location": "Casablanca",
             "Prod location": "Casablanca",
             "Template type": "Airport Transfer",
@@ -26373,6 +25666,59 @@ window.ISSUE_DATA = {
           ]
         },
         {
+          "id": "P10::local guide chefchaouen",
+          "service": "Local guide Chefchaouen",
+          "packages": [
+            "The Blue North (Rev)"
+          ],
+          "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
+          "also": "Also listed in P4; P8; P9",
+          "fields": {
+            "TM package": "The Blue North (Rev)",
+            "Prod exists": "Yes",
+            "Prod Name": "Local Guide - Chefchaouen",
+            "Prod Id": "a1HVk0000028cyDMAQ",
+            "Gap": "Group Tour only — no FIT",
+            "Template location": "Chefcharouen",
+            "Prod location": "Chefchaouen",
+            "Template type": "Activity",
+            "Prod record type": "Local Guide",
+            "Also listed in": "Also listed in P4; P8; P9"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "Chefcharouen",
+          "prodLocation": "Chefchaouen",
+          "stType": "Activity",
+          "prodType": "Local Guide",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk0000028cyDMAQ",
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Local guide Chefchaouen",
+            "location": "Chefcharouen",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
+        },
+        {
           "id": "P10::local guide dades-half day",
           "service": "Local Guide Dades-Half Day",
           "packages": [
@@ -26655,7 +26001,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day M'goun",
             "Prod Id": "a1HVk000000aBrKMAU",
-            "Gap": "Group Tour only",
+            "Gap": "OK — FIT and Group Tour",
             "Template location": "Kelaa M'Gouna",
             "Prod location": "Kelaa M'Gouna",
             "Template type": "Activity",
@@ -26769,18 +26115,18 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P4; P8",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "The Imperial Table",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Meknes",
             "Prod Id": "a1HVk000000aBphMAE",
-            "Gap": "Group Tour only — no FIT",
+            "Gap": "OK — FIT and Group Tour",
             "Template location": "Meknes",
             "Prod location": "Meknes",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P4; P8"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -26943,7 +26289,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Ouirgane-Half Day",
             "Prod Id": "a1HVk000000aBqMMAU",
-            "Gap": "Group Tour only",
+            "Gap": "OK — FIT and Group Tour",
             "Template location": "Ouirgane",
             "Prod location": "Ouirgane",
             "Template type": "Activity",
@@ -26992,18 +26338,18 @@ window.ISSUE_DATA = {
             "SGA XMSS"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P4; P8",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "The Imperial Table",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Site Visit Volubilis",
             "Prod Id": "a1HVk000000aBn5MAE",
-            "Gap": "Group Tour only — no FIT",
+            "Gap": "OK — FIT and Group Tour",
             "Template location": "Volubilis",
             "Prod location": "Volubilis",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P4; P8"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -27051,7 +26397,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Skoura",
             "Prod Id": "a1HVk000000aBoNMAU",
-            "Gap": "Group Tour only",
+            "Gap": "OK — FIT and Group Tour",
             "Template location": "Skoura",
             "Prod location": "Skoura",
             "Template type": "Activity",
@@ -27697,24 +27043,25 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "",
+          "also": "Also listed in P9",
           "fields": {
             "TM package": "SGA XMPE",
             "Prod exists": "Yes",
             "Prod Name": "Tipping Kitty - XMPE",
             "Prod Id": "a1HVk000000aBs8MAE",
-            "Gap": "Group Tour only",
-            "Template location": "Casablanca",
+            "Gap": "OK — FIT and Group Tour",
+            "Template location": "Morocco",
             "Prod location": "Casablanca",
             "Template type": "Activity",
-            "Prod record type": "Tolls & Charges"
+            "Prod record type": "Tolls & Charges",
+            "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
-          "stLocation": "Casablanca",
+          "stLocation": "Morocco",
           "prodLocation": "Casablanca",
           "stType": "Activity",
           "prodType": "Tolls & Charges",
@@ -27725,7 +27072,7 @@ window.ISSUE_DATA = {
           "stPriceDates": "",
           "formDefaults": {
             "name": "Tipping Kitty - XMPE",
-            "location": "Casablanca",
+            "location": "Morocco",
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "",
@@ -27904,7 +27251,7 @@ window.ISSUE_DATA = {
       "workbook": "agreements",
       "help": "No Prod agreement. Yes = create a new supplier agreement (fill the fields). No = not needed for this service.",
       "choice": "sa-create",
-      "count": 157,
+      "count": 138,
       "issues": [
         {
           "id": "SA1::1 hour surf lesson",
@@ -28364,109 +27711,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::azawad luxury desert camp - hb",
-          "service": "Azawad Luxury Desert Camp - HB",
-          "packages": [
-            "The Sahara Loop"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "The Sahara Loop",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Azawad Luxury Desert Camp",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Azawad Luxury Desert Camp - HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::azawad luxury desert camp hb",
-          "service": "Azawad Luxury Desert Camp HB",
-          "packages": [
-            "The Sahara Loop"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "The Sahara Loop",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Azawad Luxury Desert Camp",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Azawad Luxury Desert Camp HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "SA1::azawad luxury desert camp-hb",
           "service": "Azawad Luxury Desert Camp-HB",
           "packages": [
             "Sahara Crossing",
-            "Sahara crossing (Rev)"
+            "Sahara crossing (Rev)",
+            "The Sahara Loop"
           ],
           "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
           "also": "",
@@ -28934,64 +28184,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::bread cooking  demonstration",
-          "service": "Bread cooking  Demonstration",
-          "packages": [
-            "Atlas Discovery"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlas Discovery",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Bread Cooking Demonstration",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Madfouna Cooking Demonstration",
-              "score": 66.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Bread cooking  Demonstration",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
-        },
-        {
           "id": "SA1::bread-making demonstration",
           "service": "Bread-Making Demonstration",
           "packages": [
@@ -29189,114 +28381,18 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::camp caravane -hb",
-          "service": "Camp Caravane -HB",
-          "packages": [
-            "Classic Sahara Crossing (Rev)"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "Classic Sahara Crossing (Rev)",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Camp la Caravane",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Camp Caravane -HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::camp caravane hb",
-          "service": "Camp Caravane HB",
-          "packages": [
-            "Classic Sahara Crossing"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "Classic Sahara Crossing",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Camp la Caravane",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Camp Caravane HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "SA1::camp caravane-hb",
           "service": "Camp Caravane-HB",
           "packages": [
+            "Classic Sahara Crossing",
+            "Classic Sahara Crossing (Rev)",
             "Sahara Crossing",
             "Sahara crossing (Rev)"
           ],
           "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
           "also": "",
           "fields": {
-            "TM package": "Sahara Crossing",
+            "TM package": "Classic Sahara Crossing",
             "Prod exists": "No",
             "Agreement": "—",
             "Agreement source": "—"
@@ -30261,7 +29357,9 @@ window.ISSUE_DATA = {
           "id": "SA1::home cooked lunch",
           "service": "Home cooked Lunch",
           "packages": [
-            "Atlas Discovery"
+            "Atlas Discovery",
+            "South Morocco with Agafay",
+            "The Sahara Loop"
           ],
           "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
           "also": "",
@@ -30298,61 +29396,6 @@ window.ISSUE_DATA = {
           "stPriceDates": "",
           "formDefaults": {
             "name": "Home cooked Lunch",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::home-cooked lunch",
-          "service": "Home-Cooked Lunch",
-          "packages": [
-            "South Morocco with Agafay",
-            "The Sahara Loop"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "South Morocco with Agafay",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Home Cooked Lunch",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Luxor Home Cooked Lunch",
-              "score": 83.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Home-Cooked Lunch",
             "location": "",
             "businessUnit": "",
             "serviceType": "",
@@ -30668,60 +29711,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::hotel karam palace-hb",
-          "service": "Hotel Karam palace-HB",
-          "packages": [
-            "Draa & the deep desert"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "Draa & the deep desert",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Karam Palace BB",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Hotel Karam Palace HB",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Karam palace-HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "SA1::hotel madrid",
           "service": "Hotel Madrid",
           "packages": [
@@ -30913,122 +29902,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::hotel riad bahammou dades hb",
-          "service": "Hotel Riad BaHammou Dades HB",
-          "packages": [
-            "Classic Sahara Crossing",
-            "Sahara Crossing",
-            "Sahara crossing (Rev)",
-            "The Sahara Loop"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "Classic Sahara Crossing",
-            "ST supplier": "Riad BaHammou Dades",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Riad BaHammou Dades  HB",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Riad BaHammou Dades  BB",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "Riad BaHammou Dades",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Riad BaHammou Dades HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Riad BaHammou Dades",
-            "comment": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
-          },
-          "stComments": [
-            "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
-          ],
-          "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
-        },
-        {
-          "id": "SA1::hotel riad bahammou dades-hb",
-          "service": "Hotel Riad BaHammou Dades-HB",
-          "packages": [
-            "Classic Sahara Crossing (Rev)"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "Classic Sahara Crossing (Rev)",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Riad BaHammou Dades  HB",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Riad BaHammou Dades  BB",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Riad BaHammou Dades-HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "SA1::hotel souiri",
           "service": "Hotel Souiri",
           "packages": [
@@ -31165,60 +30038,6 @@ window.ISSUE_DATA = {
             "Supplier and Service aren't available in Kaptio"
           ],
           "stCommentImport": "Supplier and Service aren't available in Kaptio"
-        },
-        {
-          "id": "SA1::hotel xaluca dades-hb",
-          "service": "Hotel Xaluca Dades-HB",
-          "packages": [
-            "Classic Sahara Crossing (Rev)"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "Classic Sahara Crossing (Rev)",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Xaluca Dades HB",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Hotel Xaluca Dades",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Xaluca Dades-HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
         },
         {
           "id": "SA1::hotel xaluxa dades hb",
@@ -31364,65 +30183,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::kasbah ait ben damiette-hb",
-          "service": "Kasbah Ait Ben Damiette-HB",
-          "packages": [
-            "Draa & the deep desert"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "Draa & the deep desert",
-            "ST supplier": "Kasbah Ait Ben Damiette",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Kasbah Ait Ben Damiette  BB",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Kasbah Ait Ben Damiette HB",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "Kasbah Ait Ben Damiette",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah Ait Ben Damiette-HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Kasbah Ait Ben Damiette",
-            "comment": "Service already exists"
-          },
-          "stComments": [
-            "Service already exists"
-          ],
-          "stCommentImport": "Service already exists"
-        },
-        {
           "id": "SA1::kasbah des oudaias",
           "service": "Kasbah des Oudaias",
           "packages": [
@@ -31464,60 +30224,6 @@ window.ISSUE_DATA = {
             "supplierName": "",
             "comment": ""
           }
-        },
-        {
-          "id": "SA1::kasbah hnini hb",
-          "service": "Kasbah Hnini HB",
-          "packages": [
-            "Draa & the deep desert"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "Draa & the deep desert",
-            "ST supplier": "Dar Hnini",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Kasbah Hnini - HB",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "Dar Hnini",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah Hnini HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Dar Hnini",
-            "comment": "Service already available in Kaptio. Same rates for IG and FIT for 2027"
-          },
-          "stComments": [
-            "Service already available in Kaptio. Same rates for IG and FIT for 2027"
-          ],
-          "stCommentImport": "Service already available in Kaptio. Same rates for IG and FIT for 2027"
         },
         {
           "id": "SA1::kasbah itrane",
@@ -31606,60 +30312,6 @@ window.ISSUE_DATA = {
           "stPriceDates": "",
           "formDefaults": {
             "name": "Kasbah Itrane-HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::kasbah la famille berbere-hb",
-          "service": "Kasbah la famille berbere-HB",
-          "packages": [
-            "Classic Sahara Crossing (Rev)"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "Classic Sahara Crossing (Rev)",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Kasbah La Famille Berbere BB",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Kasbah La Famille Berbere HB",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah la famille berbere-HB",
             "location": "",
             "businessUnit": "",
             "serviceType": "",
@@ -31816,8 +30468,8 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::ksar timnay riad mimouna-hb",
-          "service": "Ksar Timnay Riad Mimouna-HB",
+          "id": "SA1::ksar timnay riad mimouna hb",
+          "service": "Ksar Timnay Riad Mimouna HB",
           "packages": [
             "Sahara Crossing",
             "Sahara crossing (Rev)"
@@ -31826,6 +30478,7 @@ window.ISSUE_DATA = {
           "also": "",
           "fields": {
             "TM package": "Sahara Crossing",
+            "ST supplier": "Ksar Timnay",
             "Prod exists": "No",
             "Agreement": "—",
             "Agreement source": "—"
@@ -31844,7 +30497,7 @@ window.ISSUE_DATA = {
           ],
           "fuzzyPc": [],
           "pcMap": [],
-          "stSupplier": "",
+          "stSupplier": "Ksar Timnay",
           "prodSupplier": "",
           "stLocation": "",
           "prodLocation": "",
@@ -31856,7 +30509,7 @@ window.ISSUE_DATA = {
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
-            "name": "Ksar Timnay Riad Mimouna-HB",
+            "name": "Ksar Timnay Riad Mimouna HB",
             "location": "",
             "businessUnit": "",
             "serviceType": "",
@@ -31866,9 +30519,13 @@ window.ISSUE_DATA = {
             "pricelist": "",
             "price": "",
             "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
+            "supplierName": "Ksar Timnay",
+            "comment": "Service exisitng in Kaptio"
+          },
+          "stComments": [
+            "Service exisitng in Kaptio"
+          ],
+          "stCommentImport": "Service exisitng in Kaptio"
         },
         {
           "id": "SA1::l'ma lodge-hb",
@@ -32011,8 +30668,8 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::le palais des cerisiers-hb",
-          "service": "Le Palais des Cerisiers-HB",
+          "id": "SA1::le palais des cerisiers - hb",
+          "service": "Le Palais des Cerisiers - HB",
           "packages": [
             "The Imperial Table"
           ],
@@ -32020,6 +30677,7 @@ window.ISSUE_DATA = {
           "also": "",
           "fields": {
             "TM package": "The Imperial Table",
+            "ST supplier": "Le Palais des Cerisiers",
             "Prod exists": "No",
             "Agreement": "—",
             "Agreement source": "—"
@@ -32027,7 +30685,7 @@ window.ISSUE_DATA = {
           "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
-          "stSupplier": "",
+          "stSupplier": "Le Palais des Cerisiers",
           "prodSupplier": "",
           "stLocation": "",
           "prodLocation": "",
@@ -32039,7 +30697,7 @@ window.ISSUE_DATA = {
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
-            "name": "Le Palais des Cerisiers-HB",
+            "name": "Le Palais des Cerisiers - HB",
             "location": "",
             "businessUnit": "",
             "serviceType": "",
@@ -32049,9 +30707,13 @@ window.ISSUE_DATA = {
             "pricelist": "",
             "price": "",
             "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
+            "supplierName": "Le Palais des Cerisiers",
+            "comment": "Only Supplier account exists.Same rates for IG and FIT for 2026"
+          },
+          "stComments": [
+            "Only Supplier account exists.Same rates for IG and FIT for 2026"
+          ],
+          "stCommentImport": "Only Supplier account exists.Same rates for IG and FIT for 2026"
         },
         {
           "id": "SA1::lemnaouar erg camp",
@@ -32192,65 +30854,6 @@ window.ISSUE_DATA = {
             "supplierName": "",
             "comment": ""
           }
-        },
-        {
-          "id": "SA1::local guide chefchaouen",
-          "service": "Local guide Chefchaouen",
-          "packages": [
-            "The Blue North (Rev)"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "The Blue North (Rev)",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide - Half Day Chefchaouen",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Local Guide - Chefchaouen",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local guide Chefchaouen",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::local guide essaouira",
@@ -33171,71 +31774,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::medersa attarine fes",
-          "service": "Medersa Attarine Fes",
-          "packages": [
-            "C1 Blue North Gateway",
-            "Sahara crossing (Rev)",
-            "The Blue North",
-            "The Blue North (Rev)"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Medersa Attarine  Fes",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Medersa Attarine Fes",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist",
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "Use Prod",
-              "prodName": "Medersa Attarine Fes",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "SA1::meknes 3 star hotel placeholder",
           "service": "Meknes 3 Star Hotel Placeholder",
           "packages": [
@@ -33675,117 +32213,10 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
-          "id": "SA1::palmeras y dunas hb",
-          "service": "Palmeras y Dunas HB",
-          "packages": [
-            "Classic Sahara Crossing"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "Classic Sahara Crossing",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Palmeras Y Dunas Luxury Camp - HB",
-              "score": 83.0
-            },
-            {
-              "from": "",
-              "value": "Palmeras Y Dunas Luxury Camp",
-              "score": 83.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Palmeras y Dunas HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::palmeras y dunas luxury camp  hb",
-          "service": "Palmeras Y Dunas Luxury Camp  HB",
-          "packages": [
-            "The Sahara Loop"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "The Sahara Loop",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Palmeras Y Dunas Luxury Camp - HB",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Palmeras Y Dunas Luxury Camp",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Palmeras Y Dunas Luxury Camp  HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "SA1::palmeras y dunas-hb",
           "service": "Palmeras y Dunas-HB",
           "packages": [
+            "Classic Sahara Crossing",
             "Classic Sahara Crossing (Rev)",
             "Sahara Crossing",
             "Sahara crossing (Rev)"
@@ -33793,7 +32224,7 @@ window.ISSUE_DATA = {
           "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
           "also": "",
           "fields": {
-            "TM package": "Classic Sahara Crossing (Rev)",
+            "TM package": "Classic Sahara Crossing",
             "Prod exists": "No",
             "Agreement": "—",
             "Agreement source": "—"
@@ -34253,8 +32684,8 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::riad jnane imlil - hb",
-          "service": "Riad Jnane Imlil - HB",
+          "id": "SA1::riad jnane imlil hb",
+          "service": "Riad Jnane Imlil HB",
           "packages": [
             "Atlas Discovery"
           ],
@@ -34262,6 +32693,7 @@ window.ISSUE_DATA = {
           "also": "",
           "fields": {
             "TM package": "Atlas Discovery",
+            "ST supplier": "Riad Jnane Imlil",
             "Prod exists": "No",
             "Agreement": "—",
             "Agreement source": "—"
@@ -34275,7 +32707,7 @@ window.ISSUE_DATA = {
           ],
           "fuzzyPc": [],
           "pcMap": [],
-          "stSupplier": "",
+          "stSupplier": "Riad Jnane Imlil",
           "prodSupplier": "",
           "stLocation": "",
           "prodLocation": "",
@@ -34287,7 +32719,7 @@ window.ISSUE_DATA = {
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
-            "name": "Riad Jnane Imlil - HB",
+            "name": "Riad Jnane Imlil HB",
             "location": "",
             "businessUnit": "",
             "serviceType": "",
@@ -34297,64 +32729,13 @@ window.ISSUE_DATA = {
             "pricelist": "",
             "price": "",
             "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::riad ksar ighnda-hb",
-          "service": "Riad Ksar Ighnda-HB",
-          "packages": [
-            "Sahara Crossing",
-            "Sahara crossing (Rev)"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "Sahara Crossing",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
+            "supplierName": "Riad Jnane Imlil",
+            "comment": "Service exists in Kaptio"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Riad Ksar Ighnda HB",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Riad Ksar Ighnda BB",
-              "score": 99.0
-            }
+          "stComments": [
+            "Service exists in Kaptio"
           ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Riad Ksar Ighnda-HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
+          "stCommentImport": "Service exists in Kaptio"
         },
         {
           "id": "SA1::rt bag - morocco",
@@ -34755,7 +33136,8 @@ window.ISSUE_DATA = {
           "id": "SA1::train ticket  1st class",
           "service": "Train Ticket  1st class",
           "packages": [
-            "CAS to MAR - Train"
+            "CAS to MAR - Train",
+            "MAR to CAS - Train"
           ],
           "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
           "also": "",
@@ -34787,55 +33169,6 @@ window.ISSUE_DATA = {
           "stPriceDates": "",
           "formDefaults": {
             "name": "Train Ticket  1st class",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::train ticket- 1st class",
-          "service": "Train ticket- 1st class",
-          "packages": [
-            "MAR to CAS - Train"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "MAR to CAS - Train",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Train ticket Fes to Casa - 1st class",
-              "score": 75.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Train ticket- 1st class",
             "location": "",
             "businessUnit": "",
             "serviceType": "",
@@ -40349,7 +38682,7 @@ window.ISSUE_DATA = {
       "workbook": "agreements",
       "help": "ST supplier does not match Prod. Pick the Prod account, keep ST, or No if a different / new supplier is needed.",
       "choice": "supplier",
-      "count": 6,
+      "count": 7,
       "issues": [
         {
           "id": "SA5::2 ciels luxury boutique",
@@ -40466,6 +38799,62 @@ window.ISSUE_DATA = {
               "prodPc": "Twin - Standard Room"
             }
           ]
+        },
+        {
+          "id": "SA5::hotel riad bahammou dades hb",
+          "service": "Hotel Riad BaHammou Dades HB",
+          "packages": [
+            "Classic Sahara Crossing",
+            "Classic Sahara Crossing (Rev)",
+            "Sahara Crossing",
+            "Sahara crossing (Rev)",
+            "The Sahara Loop"
+          ],
+          "action": "ST supplier does not match the Prod supplier. Confirm which account this service/agreement should use.",
+          "also": "",
+          "fields": {
+            "TM package": "Classic Sahara Crossing",
+            "ST supplier": "Riad BaHammou Dades",
+            "Prod supplier": "Riad Bahammou",
+            "Match type": "Close name",
+            "Prod exists": "Yes",
+            "Prod Name": "Hotel Riad BaHammou Dades  HB",
+            "Prod Id": "a1HVk000000aBryMAE",
+            "Agreement": "Jan 2026 - Dec 2027",
+            "Agreement source": "Account-level"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "Riad BaHammou Dades",
+          "prodSupplier": "Riad Bahammou",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk000000aBryMAE",
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Hotel Riad BaHammou Dades HB",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad BaHammou Dades",
+            "comment": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          },
+          "stComments": [
+            "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
+          ],
+          "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
         },
         {
           "id": "SA5::idou anfa hotel & spa",
@@ -40709,9 +39098,9 @@ window.ISSUE_DATA = {
       ]
     }
   ],
-  "total": 628,
+  "total": 598,
   "stCommentsSource": "Service Template Comment column (20 Nov workbook + Siham CSV extras). Notes only, not Yes/No.",
-  "stCommentsCards": 208,
+  "stCommentsCards": 209,
   "nariCommentsSource": "Nari Notes on Atlantic Imperials (Rev), The Blue North, and C1 Blue North Gateway. Notes only, not Yes/No.",
-  "nariCommentsCards": 41
+  "nariCommentsCards": 39
 };

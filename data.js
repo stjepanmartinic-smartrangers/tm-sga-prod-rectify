@@ -1,6 +1,6 @@
 window.ISSUE_DATA = {
-  "generated": "18 Nov 2026",
-  "source": "SGA vs Prod from Templates_18112026.xlsx",
+  "generated": "20 Nov 2026",
+  "source": "SGA vs Prod from Templates_20112026.xlsx",
   "org": "IntrepidProd (read-only extract)",
   "sheets": [
     {
@@ -10,7 +10,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "On a TM package, not on the Service Template. SGA itinerary services are not listed here — they already exist on Prod and will be carried onto a package. Yes = add it using the selected Prod name. No = brand new — fill the Service Template fields.",
       "choice": "fuzzy-service",
-      "count": 98,
+      "count": 96,
       "issues": [
         {
           "id": "P1::4wd excursion",
@@ -536,7 +536,7 @@ window.ISSUE_DATA = {
             "C1 Blue North Gateway"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
+          "also": "",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -548,32 +548,10 @@ window.ISSUE_DATA = {
             "Gap": "FIT only",
             "Template location": "Tangier",
             "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
             "In Service Template": "No"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Deluxe - Double Room",
-              "score": 92.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Deluxe - Leader Single Room",
-              "score": 92.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Deluxe - Leader Single Room",
-              "score": 92.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Deluxe - Twin Room",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -601,12 +579,6 @@ window.ISSUE_DATA = {
             "comment": ""
           },
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "NOT LISTED",
-              "prodName": "",
-              "prodPc": ""
-            },
             {
               "package": "Atlantic Imperials (Rev)",
               "note": "NOT LISTED",
@@ -1291,7 +1263,7 @@ window.ISSUE_DATA = {
             "The Blue North (Rev)"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P6",
+          "also": "Also listed in P4; P6",
           "fields": {
             "TM package": "Atlantic Imperials",
             "Prod exists": "Yes",
@@ -1303,7 +1275,7 @@ window.ISSUE_DATA = {
             "Gap": "OK — FIT and Group Tour",
             "Template location": "Tangier",
             "Template type": "Activity",
-            "Also listed in": "Also listed in P6",
+            "Also listed in": "Also listed in P4; P6",
             "In Service Template": "No"
           },
           "fuzzyService": [],
@@ -1336,12 +1308,6 @@ window.ISSUE_DATA = {
           },
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "CAP Spartel",
-              "prodPc": ""
-            },
-            {
               "package": "Atlantic Imperials (Rev)",
               "note": "Use Prod",
               "prodName": "CAP Spartel",
@@ -1357,7 +1323,7 @@ window.ISSUE_DATA = {
             "C1 Blue North Gateway"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P6",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -1369,7 +1335,7 @@ window.ISSUE_DATA = {
             "Gap": "OK — FIT and Group Tour",
             "Template location": "Casablanca",
             "Template type": "Transport",
-            "Also listed in": "Also listed in P4; P6",
+            "Also listed in": "Also listed in P4",
             "In Service Template": "No"
           },
           "fuzzyService": [],
@@ -1408,12 +1374,6 @@ window.ISSUE_DATA = {
           },
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "NOT LISTED",
-              "prodName": "",
-              "prodPc": ""
-            },
-            {
               "package": "Atlantic Imperials (Rev)",
               "note": "NOT LISTED",
               "prodName": "",
@@ -1422,32 +1382,36 @@ window.ISSUE_DATA = {
           ]
         },
         {
-          "id": "P1::chefchaouen to fes private transfer package",
-          "service": "Chefchaouen to Fes private transfer package",
+          "id": "P1::chefchaouen to fes private transfer + fes guided tour",
+          "service": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
           "packages": [
+            "C1 Blue North Gateway",
             "The Blue North"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
+          "also": "Also listed in P4",
           "fields": {
-            "TM package": "The Blue North",
-            "Prod exists": "No",
-            "Package PCs": "Per Day",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
+            "TM package": "C1 Blue North Gateway",
+            "Prod exists": "Yes",
+            "Prod Name": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
+            "Prod Id": "a1HSo00000BiOczMAF",
+            "Package PCs": "Per Unit",
+            "Active price": "Yes",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
             "Template location": "Chefchaouen",
             "Template type": "Transport",
+            "Also listed in": "Also listed in P4",
             "In Service Template": "No"
           },
-          "fuzzyService": [
+          "fuzzyService": [],
+          "fuzzyPc": [
             {
-              "from": "",
-              "value": "Chefchaouen to Fes Private Transfer",
+              "from": "Per Unit",
+              "value": "Per Unit (Max",
               "score": 92.0
             }
           ],
-          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -1457,16 +1421,15 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
-          "prodId": "",
+          "prodId": "a1HSo00000BiOczMAF",
           "priceCompare": [],
           "stPriceDates": "",
-          "fullyMissing": true,
           "formDefaults": {
-            "name": "Chefchaouen to Fes private transfer package",
+            "name": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
             "location": "Chefchaouen",
             "businessUnit": "",
             "serviceType": "Transport",
-            "priceCategory": "Per Day",
+            "priceCategory": "Per Unit",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -1796,7 +1759,8 @@ window.ISSUE_DATA = {
           "id": "P1::goat cheese tasting",
           "service": "Goat Cheese Tasting",
           "packages": [
-            "C1 Blue North Gateway"
+            "C1 Blue North Gateway",
+            "The Blue North"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
           "also": "",
@@ -1805,7 +1769,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Goat Cheese Tasting",
             "Prod Id": "a1HVk000000aBrtMAE",
-            "Package PCs": "Per Person",
+            "Package PCs": "Per Crew; Per Person",
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
@@ -1832,7 +1796,7 @@ window.ISSUE_DATA = {
             "location": "Chefchaouen",
             "businessUnit": "",
             "serviceType": "Activity",
-            "priceCategory": "Per Person",
+            "priceCategory": "Per Crew; Per Person",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -1843,7 +1807,7 @@ window.ISSUE_DATA = {
           },
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
+              "package": "The Blue North",
               "note": "Use Prod",
               "prodName": "Goat Cheese Tasting",
               "prodPc": ""
@@ -2017,12 +1981,6 @@ window.ISSUE_DATA = {
           },
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Hassan Tower Visit",
-              "prodPc": ""
-            },
-            {
               "package": "Atlantic Imperials (Rev)",
               "note": "CHECK",
               "prodName": "Hassan Tower Visit",
@@ -2155,7 +2113,8 @@ window.ISSUE_DATA = {
           "id": "P1::hotel belere rabat bb",
           "service": "Hotel Belere Rabat BB",
           "packages": [
-            "Atlantic Imperials (Rev)"
+            "Atlantic Imperials (Rev)",
+            "C1 Blue North Gateway"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
           "also": "",
@@ -2325,7 +2284,7 @@ window.ISSUE_DATA = {
             "Sahara Crossing"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
@@ -2333,14 +2292,36 @@ window.ISSUE_DATA = {
             "Prod Id": "a1HVk000000aBo5MAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
             "Template location": "Marrakech",
             "Template type": "Accommodation",
+            "Also listed in": "Also listed in P4",
             "In Service Template": "No"
           },
           "fuzzyService": [],
-          "fuzzyPc": [],
+          "fuzzyPc": [
+            {
+              "from": "Double Room",
+              "value": "Double - Standard Room",
+              "score": 58.0
+            },
+            {
+              "from": "Leader Single Room",
+              "value": "Leader Room Single - Standard",
+              "score": 75.0
+            },
+            {
+              "from": "Single Room",
+              "value": "Single - Standard Room",
+              "score": 58.0
+            },
+            {
+              "from": "Twin Room",
+              "value": "Twin - Standard Room",
+              "score": 58.0
+            }
+          ],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -3206,12 +3187,6 @@ window.ISSUE_DATA = {
           },
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Kasbah Oudaya Visit",
-              "prodPc": ""
-            },
-            {
               "package": "Atlantic Imperials (Rev)",
               "note": "NOT LISTED",
               "prodName": "Kasbah Oudaya Visit",
@@ -3358,7 +3333,7 @@ window.ISSUE_DATA = {
             "C1 Blue North Gateway"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P6; P10",
+          "also": "",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -3370,7 +3345,6 @@ window.ISSUE_DATA = {
             "Gap": "OK — FIT and Group Tour",
             "Template location": "Rabat",
             "Template type": "Meal",
-            "Also listed in": "Also listed in P4; P6; P10",
             "In Service Template": "No"
           },
           "fuzzyService": [],
@@ -3402,12 +3376,6 @@ window.ISSUE_DATA = {
             "comment": ""
           },
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Drink at Kasbah Oudaya",
-              "prodPc": ""
-            },
             {
               "package": "Atlantic Imperials (Rev)",
               "note": "NOT LISTED",
@@ -3469,22 +3437,23 @@ window.ISSUE_DATA = {
           "id": "P1::local guide - half day chefchaouen",
           "service": "Local Guide - Half Day Chefchaouen",
           "packages": [
-            "C1 Blue North Gateway"
+            "C1 Blue North Gateway",
+            "The Blue North"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P6; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide - Half Day Chefchaouen",
             "Prod Id": "a1HVk000000aBpqMAE",
-            "Package PCs": "Per Person",
+            "Package PCs": "Per Group Per Day (Non-Banded)",
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
             "Template location": "Chefchaouen",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P6; P10",
+            "Template type": "Local Guide",
+            "Also listed in": "Also listed in P10",
             "In Service Template": "No"
           },
           "fuzzyService": [],
@@ -3494,7 +3463,7 @@ window.ISSUE_DATA = {
           "prodSupplier": "",
           "stLocation": "Chefchaouen",
           "prodLocation": "",
-          "stType": "Activity",
+          "stType": "Local Guide",
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
@@ -3505,8 +3474,8 @@ window.ISSUE_DATA = {
             "name": "Local Guide - Half Day Chefchaouen",
             "location": "Chefchaouen",
             "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
+            "serviceType": "Local Guide",
+            "priceCategory": "Per Group Per Day (Non-Banded)",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -3517,9 +3486,9 @@ window.ISSUE_DATA = {
           },
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Guide - Half Day Chefchaouen",
+              "package": "The Blue North",
+              "note": "CHECK",
+              "prodName": "Local Guide - Chefchaouen",
               "prodPc": ""
             }
           ]
@@ -3612,6 +3581,11 @@ window.ISSUE_DATA = {
           ],
           "fuzzyPc": [
             {
+              "from": "Per Group",
+              "value": "Per Group Per Day (Non-Banded)",
+              "score": 92.0
+            },
+            {
               "from": "Per day",
               "value": "Per Group Per Day (Non-Banded)",
               "score": 92.0
@@ -3653,7 +3627,7 @@ window.ISSUE_DATA = {
             "C1 Blue North Gateway"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -3665,17 +3639,11 @@ window.ISSUE_DATA = {
             "Gap": "OK — FIT and Group Tour",
             "Template location": "Casablanca",
             "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
+            "Also listed in": "Also listed in P10",
             "In Service Template": "No"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -3703,12 +3671,6 @@ window.ISSUE_DATA = {
             "comment": ""
           },
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Guide Casablanca - Half Day",
-              "prodPc": "Per Group Per Day (Non-Banded)"
-            },
             {
               "package": "Atlantic Imperials (Rev)",
               "note": "CHECK",
@@ -3785,71 +3747,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::local guide half day fes",
-          "service": "Local Guide Half Day Fes",
-          "packages": [
-            "C1 Blue North Gateway"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Half Day Fes",
-            "Prod Id": "a1HVk000000aBpfMAE",
-            "Package PCs": "Per Group",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Fes",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBpfMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Half Day Fes",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Guide Half Day Fes",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P1::local guide half day rabat",
           "service": "Local Guide Half Day Rabat",
           "packages": [
@@ -3857,7 +3754,7 @@ window.ISSUE_DATA = {
             "C1 Blue North Gateway"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -3869,17 +3766,11 @@ window.ISSUE_DATA = {
             "Gap": "OK — FIT and Group Tour",
             "Template location": "Rabat",
             "Template type": "Local guide",
-            "Also listed in": "Also listed in P4; P10",
+            "Also listed in": "Also listed in P10",
             "In Service Template": "No"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -3908,12 +3799,6 @@ window.ISSUE_DATA = {
           },
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Guide Half Day Rabat",
-              "prodPc": "Per Group Per Day (Non-Banded)"
-            },
-            {
               "package": "Atlantic Imperials (Rev)",
               "note": "CHECK",
               "prodName": "Local Guide Half Day Rabat",
@@ -3929,7 +3814,7 @@ window.ISSUE_DATA = {
             "C1 Blue North Gateway"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -3941,17 +3826,11 @@ window.ISSUE_DATA = {
             "Gap": "OK — FIT and Group Tour",
             "Template location": "Tangier",
             "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
+            "Also listed in": "Also listed in P10",
             "In Service Template": "No"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -3979,12 +3858,6 @@ window.ISSUE_DATA = {
             "comment": ""
           },
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "CHECK",
-              "prodName": "Local Guide Half Day Tangier",
-              "prodPc": ""
-            },
             {
               "package": "Atlantic Imperials (Rev)",
               "note": "CHECK",
@@ -4784,7 +4657,6 @@ window.ISSUE_DATA = {
             "Atlantic shore",
             "Atlantic shore (Rev)",
             "Atlas Discovery",
-            "C1 Blue North Gateway",
             "Classic Sahara Crossing",
             "Classic Sahara Crossing (Rev)",
             "Draa & the deep desert",
@@ -4838,21 +4710,14 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "CHECK",
-              "prodName": "Tangier to Chefchaouen Private transfer",
-              "prodPc": ""
-            }
-          ]
+          }
         },
         {
           "id": "P1::rabat to tangier private transfer",
           "service": "Rabat to Tangier Private Transfer",
           "packages": [
-            "Atlantic Imperials (Rev)"
+            "Atlantic Imperials (Rev)",
+            "C1 Blue North Gateway"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
           "also": "Also listed in P4",
@@ -5030,81 +4895,6 @@ window.ISSUE_DATA = {
             "supplierName": "",
             "comment": ""
           }
-        },
-        {
-          "id": "P1::riad cherifa",
-          "service": "Riad Cherifa",
-          "packages": [
-            "C1 Blue North Gateway"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Riad Cherifa",
-            "Prod Id": "a1HVk000002P8dxMAC",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Chefchaouen",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Standard - Double Room",
-              "score": 92.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Single Room",
-              "score": 92.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Standard - Twin Room",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000002P8dxMAC",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Riad Cherifa",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Riad Cherifa",
-              "prodPc": ""
-            }
-          ]
         },
         {
           "id": "P1::riad jnane imlil - hb",
@@ -5314,37 +5104,36 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::tangier to chefchaouen private transfer bn",
-          "service": "Tangier to Chefchaouen private transfer BN",
+          "id": "P1::tangier port to chefchaouen private transfer",
+          "service": "Tangier Port to Chefchaouen Private Transfer",
           "packages": [
+            "C1 Blue North Gateway",
             "The Blue North"
           ],
           "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
+          "also": "Also listed in P4",
           "fields": {
-            "TM package": "The Blue North",
-            "Prod exists": "No",
-            "Package PCs": "Per Day",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
+            "TM package": "C1 Blue North Gateway",
+            "Prod exists": "Yes",
+            "Prod Name": "Tangier Port to Chefchaouen Private Transfer",
+            "Prod Id": "a1HVk000000aBucMAE",
+            "Package PCs": "Per Vehicle (Banded)",
+            "Active price": "Yes",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
             "Template location": "Tangier",
             "Template type": "Transport",
+            "Also listed in": "Also listed in P4",
             "In Service Template": "No"
           },
-          "fuzzyService": [
+          "fuzzyService": [],
+          "fuzzyPc": [
             {
-              "from": "",
-              "value": "Tangier to Chefchaouen Private transfer",
+              "from": "Per Vehicle (Banded)",
+              "value": "Per Vehicle (Banded) Max",
               "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Chefchaouen to Tangier Private transfer",
-              "score": 75.0
             }
           ],
-          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -5354,16 +5143,15 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
-          "prodId": "",
+          "prodId": "a1HVk000000aBucMAE",
           "priceCompare": [],
           "stPriceDates": "",
-          "fullyMissing": true,
           "formDefaults": {
-            "name": "Tangier to Chefchaouen private transfer BN",
+            "name": "Tangier Port to Chefchaouen Private Transfer",
             "location": "Tangier",
             "businessUnit": "",
             "serviceType": "Transport",
-            "priceCategory": "Per Day",
+            "priceCategory": "Per Vehicle (Banded)",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -6069,8 +5857,7 @@ window.ISSUE_DATA = {
           "id": "P2::hotel belere",
           "service": "Hotel Belere",
           "packages": [
-            "Atlantic Imperials",
-            "C1 Blue North Gateway"
+            "Atlantic Imperials"
           ],
           "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
           "also": "",
@@ -6124,15 +5911,7 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
           ],
-          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027",
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Hotel Belere Rabat BB",
-              "prodPc": "Twin - Standard Room (FIT)"
-            }
-          ]
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
         },
         {
           "id": "P2::hotel caspien",
@@ -6426,24 +6205,22 @@ window.ISSUE_DATA = {
           "id": "P2::local guide chefchaouen",
           "service": "Local guide Chefchaouen",
           "packages": [
-            "The Blue North",
             "The Blue North (Rev)"
           ],
           "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "Also listed in P6",
+          "also": "",
           "fields": {
-            "TM package": "The Blue North",
+            "TM package": "The Blue North (Rev)",
             "ST supplier": "DMC Morocco - Cash Paid Services",
             "Prod exists": "No",
-            "Package PCs": "Per Person",
+            "Package PCs": "Per Group",
             "ST PCs": "Per Crew; Per Group",
             "ST PCs missing on Prod": "Per Crew; Per Group",
             "Active price": "No",
             "Price kind": "Not on Prod",
             "Gap": "Not on Prod",
             "Template location": "Chefcharouen",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P6"
+            "Template type": "Activity"
           },
           "fuzzyService": [
             {
@@ -6481,7 +6258,7 @@ window.ISSUE_DATA = {
             "location": "Chefcharouen",
             "businessUnit": "",
             "serviceType": "Activity",
-            "priceCategory": "Per Person",
+            "priceCategory": "Per Group",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -6493,20 +6270,13 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist",
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "CHECK",
-              "prodName": "Local Guide - Chefchaouen",
-              "prodPc": ""
-            }
-          ]
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P2::local guide fes half day",
           "service": "Local Guide Fes Half Day",
           "packages": [
+            "C1 Blue North Gateway",
             "Sahara crossing (Rev)",
             "The Blue North",
             "The Blue North (Rev)"
@@ -6514,17 +6284,17 @@ window.ISSUE_DATA = {
           "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
           "also": "",
           "fields": {
-            "TM package": "Sahara crossing (Rev)",
+            "TM package": "C1 Blue North Gateway",
             "ST supplier": "DMC Morocco - Cash Paid Services",
             "Prod exists": "No",
-            "Package PCs": "Per Group",
+            "Package PCs": "Per Group Per Day (Non-Banded)",
             "ST PCs": "Per Crew; Per Group",
             "ST PCs missing on Prod": "Per Crew; Per Group",
             "Active price": "No",
             "Price kind": "Not on Prod",
             "Gap": "Not on Prod",
             "Template location": "Fes",
-            "Template type": "Activity"
+            "Template type": "Local Guide"
           },
           "fuzzyService": [
             {
@@ -6550,7 +6320,7 @@ window.ISSUE_DATA = {
           "prodSupplier": "",
           "stLocation": "Fes",
           "prodLocation": "",
-          "stType": "Activity",
+          "stType": "Local Guide",
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
@@ -6561,8 +6331,8 @@ window.ISSUE_DATA = {
             "name": "Local Guide Fes Half Day",
             "location": "Fes",
             "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group",
+            "serviceType": "Local Guide",
+            "priceCategory": "Per Group Per Day (Non-Banded)",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -6956,7 +6726,7 @@ window.ISSUE_DATA = {
             "TM package": "C1 Blue North Gateway",
             "ST supplier": "DMC Morocco - Cash Paid Services",
             "Prod exists": "No",
-            "Package PCs": "Per Group",
+            "Package PCs": "Per Crew; Per Group",
             "ST PCs": "Per Crew; Per Person",
             "ST PCs missing on Prod": "Per Crew; Per Person",
             "Active price": "No",
@@ -6991,7 +6761,7 @@ window.ISSUE_DATA = {
             "location": "Fes",
             "businessUnit": "",
             "serviceType": "Activity",
-            "priceCategory": "Per Group",
+            "priceCategory": "Per Crew; Per Group",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -7005,12 +6775,6 @@ window.ISSUE_DATA = {
           ],
           "stCommentImport": "Service already exist",
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Medersa Attarine Fes",
-              "prodPc": ""
-            },
             {
               "package": "The Blue North",
               "note": "Use Prod",
@@ -7479,7 +7243,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "On a package and on Prod, but pricing is missing, inactive, or missing 2027. Yes = insert the ST price (or fill prices if ST has none). No = keep the Prod price.",
       "choice": "price-st",
-      "count": 148,
+      "count": 145,
       "issues": [
         {
           "id": "P4::10 days xmfp private transfer",
@@ -8170,308 +7934,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service exists in Kaptio"
         },
         {
-          "id": "P4::barceló tanger",
-          "service": "Barceló Tanger",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway"
-          ],
-          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod exists": "Yes",
-            "Prod Name": "Barceló Tanger",
-            "Prod Id": "a1HSo00000BhpaQMAR",
-            "Package PCs": "Deluxe - Double Room; Deluxe - Leader Single Room; Deluxe - Twin Room; Deluxe Single Use",
-            "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "FIT",
-            "Gap": "FIT only",
-            "Prod PCs priced": "Deluxe - Double Room 1360.0 MAD [FIT]; Deluxe - Twin Room 1360.0 MAD [FIT]; Sea Front View - Double Deluxe 1560.0 MAD [FIT]; Sea Front View - Twin Deluxe 1560.0 MAD [FIT]; Deluxe Sea Front View single use 1390.0 MAD [FIT]; Deluxe Single Use 1190.0 MAD [FIT]; Deluxe - Leader Single Room 1190.0 MAD [FIT]; Deluxe - Double Room 1540.0 MAD [FIT]; Deluxe - Twin Room 1540.0 MAD [FIT]; Sea Front View - Double Deluxe 1740.0 MAD [FIT]; Sea Front View - Twin Deluxe 1740.0 MAD [FIT]; Deluxe Sea Front View single use 1570.0 MAD [FIT]; Deluxe Single Use 1370.0 MAD [FIT]; Deluxe - Leader Single Room 1370.0 MAD [FIT]; Deluxe - Double Room 1720.0 MAD [FIT]; Deluxe - Twin Room 1720.0 MAD [FIT]; Sea Front View - Double Deluxe 1920.0 MAD [FIT]; Sea Front View - Twin Deluxe 1920.0 MAD [FIT]; Deluxe Sea Front View single use 1750.0 MAD [FIT]; Deluxe Single Use 1550.0 MAD [FIT]; Deluxe - Leader Single Room 1550.0 MAD [FIT]; Premium - Double Room 1660.0 MAD [FIT]; Premium - Twin Room 1660.0 MAD [FIT]; Premium Sea Front View - Double Room 1860.0 MAD [FIT]; Premium Sea Front View - Twin Room 1860.0 MAD [FIT]; Premium Sea Front View Single Use 1690.0 MAD [FIT]; Premium Single Use 1490.0 MAD [FIT]; Premium - Leader Room 1490.0 MAD [FIT]; Premium - Double Room 1840.0 MAD [FIT]; Premium - Twin Room 1840.0 MAD [FIT]; Premium Sea Front View - Double Room 2040.0 MAD [FIT]; Premium Sea Front View - Twin Room 2040.0 MAD [FIT]; Premium Sea Front View Single Use 1870.0 MAD [FIT]; Premium Single Use 1670.0 MAD [FIT]; Premium - Leader Room 1670.0 MAD [FIT]; Premium - Double Room 2020.0 MAD [FIT]; Premium - Twin Room 2020.0 MAD [FIT]; Premium Sea Front View - Double Room 2020.0 MAD [FIT]; Premium Sea Front View - Twin Room 2020.0 MAD [FIT]; Premium Sea Front View Single Use 2050.0 MAD [FIT]; Premium Single Use 1850.0 MAD [FIT]; Premium - Leader Room 1850.0 MAD [FIT]; (no PC) 260.0 MAD [FIT]",
-            "Also listed in": "Also listed in P1"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Deluxe - Double Room",
-              "score": 92.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Deluxe - Leader Single Room",
-              "score": 92.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Deluxe - Leader Single Room",
-              "score": 92.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Deluxe - Twin Room",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HSo00000BhpaQMAR",
-          "priceCompare": [
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Deluxe - Double Room 1360.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Deluxe - Twin Room 1360.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Sea Front View - Double Deluxe 1560.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Sea Front View - Twin Deluxe 1560.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Deluxe Sea Front View single use 1390.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Deluxe Single Use 1190.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Deluxe - Leader Single Room 1190.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Deluxe - Double Room 1540.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Deluxe - Twin Room 1540.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Sea Front View - Double Deluxe 1740.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Sea Front View - Twin Deluxe 1740.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Deluxe Sea Front View single use 1570.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Deluxe Single Use 1370.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Deluxe - Leader Single Room 1370.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Deluxe - Double Room 1720.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Deluxe - Twin Room 1720.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Sea Front View - Double Deluxe 1920.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Sea Front View - Twin Deluxe 1920.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Deluxe Sea Front View single use 1750.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Deluxe Single Use 1550.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Deluxe - Leader Single Room 1550.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium - Double Room 1660.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium - Twin Room 1660.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium Sea Front View - Double Room 1860.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium Sea Front View - Twin Room 1860.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium Sea Front View Single Use 1690.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium Single Use 1490.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium - Leader Room 1490.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium - Double Room 1840.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium - Twin Room 1840.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium Sea Front View - Double Room 2040.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium Sea Front View - Twin Room 2040.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium Sea Front View Single Use 1870.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium Single Use 1670.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium - Leader Room 1670.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium - Double Room 2020.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium - Twin Room 2020.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium Sea Front View - Double Room 2020.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium Sea Front View - Twin Room 2020.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium Sea Front View Single Use 2050.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium Single Use 1850.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Premium - Leader Room 1850.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "(no PC) 260.0 MAD [FIT]"
-            }
-          ],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Barceló Tanger",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Deluxe - Double Room; Deluxe - Leader Single Room; Deluxe - Twin Room; Deluxe Single Use",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "NOT LISTED",
-              "prodName": "",
-              "prodPc": ""
-            },
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "NOT LISTED",
-              "prodName": "",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P4::boutaghrar to marrakech private transfer xmrw",
           "service": "Boutaghrar to Marrakech Private Transfer XMRW",
           "packages": [
@@ -8548,12 +8010,18 @@ window.ISSUE_DATA = {
             "Package PCs": "Double - Tent (With Shared Facilities) (FIT); Leader Tent Single (with Shared Facilities) (FIT); Single - Tent (with Shared Facilities) (FIT); Twin - Tent (with Shared Facilities) (FIT)",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Leader Tent Single (with Shared Facilities) (FIT) 0.0 MAD [All Group Series]; Twin - Tent (with Shared Facilities) (FIT) 1000.0 MAD [All Group Series]; Single - Tent (with Shared Facilities) (FIT) 600.0 MAD [All Group Series]; Double - Tent (With Shared Facilities) (FIT) 1000.0 MAD [All Group Series]; (no PC) 10.0 MAD [All Group Series]; (no PC) 300.0 MAD [All Group Series]; Twin - Tent (Family) 1000.0 MAD [All Group Series]; Triple - Tent (FIT) 1500.0 MAD [All Group Series]; Quadruple - Tent (FIT) 2000.0 MAD [All Group Series]"
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Leader Tent Single (with Shared Facilities) 0.0 MAD [FIT]; Twin - Tent (with Shared Facilities) 1000.0 MAD [FIT]; Single - Tent (with Shared Facilities) 600.0 MAD [FIT]; Double - Tent (With Shared Facilities) 1000.0 MAD [FIT]; (no PC) 10.0 MAD [FIT]; Twin - Tent (Family) 1000.0 MAD [FIT]; Triple - Tent 1500.0 MAD [FIT]; Quadruple - Tent 2000.0 MAD [FIT]; (no PC) 300.0 MAD [FIT]; Leader Tent Single (with Shared Facilities) 0.0 MAD [All Group Series]; Twin - Tent (with Shared Facilities) 1000.0 MAD [All Group Series]; Single - Tent (with Shared Facilities) 600.0 MAD [All Group Series]; Double - Tent (With Shared Facilities) 1000.0 MAD [All Group Series]; (no PC) 10.0 MAD [All Group Series]; (no PC) 300.0 MAD [All Group Series]; Twin - Tent (Family) 1000.0 MAD [All Group Series]; Triple - Tent 1500.0 MAD [All Group Series]; Quadruple - Tent 2000.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [],
+          "fuzzyPc": [
+            {
+              "from": "Leader Single Room",
+              "value": "Leader Tent Single (with Shared Facilities)",
+              "score": 48.0
+            }
+          ],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -8566,24 +8034,69 @@ window.ISSUE_DATA = {
           "prodId": "a1HVk000000aBnUMAU",
           "priceCompare": [
             {
-              "pc": "Double - Tent (With Shared Facilities) (FIT)",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "1000.0 MAD [All Group Series]"
+              "prod": "Leader Tent Single (with Shared Facilities) 0.0 MAD [FIT]"
             },
             {
-              "pc": "Leader Tent Single (with Shared Facilities) (FIT)",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "0.0 MAD [All Group Series]"
+              "prod": "Twin - Tent (with Shared Facilities) 1000.0 MAD [FIT]"
             },
             {
-              "pc": "Single - Tent (with Shared Facilities) (FIT)",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "600.0 MAD [All Group Series]"
+              "prod": "Single - Tent (with Shared Facilities) 600.0 MAD [FIT]"
             },
             {
-              "pc": "Twin - Tent (with Shared Facilities) (FIT)",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "1000.0 MAD [All Group Series]"
+              "prod": "Double - Tent (With Shared Facilities) 1000.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 10.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Tent (Family) 1000.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Tent 1500.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Quadruple - Tent 2000.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 300.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Tent Single (with Shared Facilities) 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Tent (with Shared Facilities) 1000.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Tent (with Shared Facilities) 600.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Tent (With Shared Facilities) 1000.0 MAD [All Group Series]"
             },
             {
               "pc": "(Prod)",
@@ -8603,12 +8116,12 @@ window.ISSUE_DATA = {
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Triple - Tent (FIT) 1500.0 MAD [All Group Series]"
+              "prod": "Triple - Tent 1500.0 MAD [All Group Series]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Quadruple - Tent (FIT) 2000.0 MAD [All Group Series]"
+              "prod": "Quadruple - Tent 2000.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "",
@@ -8769,6 +8282,88 @@ window.ISSUE_DATA = {
           }
         },
         {
+          "id": "P4::cap spartel",
+          "service": "CAP Spartel",
+          "packages": [
+            "Atlantic Imperials",
+            "Atlantic Imperials (Rev)",
+            "C1 Blue North Gateway",
+            "The Blue North (Rev)"
+          ],
+          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
+          "also": "Also listed in P1; P6",
+          "fields": {
+            "TM package": "Atlantic Imperials",
+            "Prod exists": "Yes",
+            "Prod Name": "CAP Spartel",
+            "Prod Id": "a1HVk000002G4EbMAK",
+            "Package PCs": "Per Group",
+            "ST PCs missing on Prod": "Per Group",
+            "Active price": "Yes",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Per Person 50.0 MAD [FIT]; Per Crew 50.0 MAD [FIT]; Per Person 50.0 MAD [All Group Series]; Per Crew 50.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P1; P6"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000002G4EbMAK",
+          "priceCompare": [
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Person 50.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Crew 50.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Person 50.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Crew 50.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "CAP Spartel",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          },
+          "nariComments": [
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "CAP Spartel",
+              "prodPc": ""
+            }
+          ]
+        },
+        {
           "id": "P4::casablanca airport to city hotel group transfer",
           "service": "Casablanca Airport to City Hotel Group Transfer",
           "packages": [
@@ -8784,9 +8379,9 @@ window.ISSUE_DATA = {
             "Package PCs": "Per Vehicle (Banded) Max 12; Per Vehicle (Banded) Max 13; Per Vehicle (Banded) Max 14; Per Vehicle (Banded) Max 15; Per Vehicle (Banded) Max 16; Per Vehicle (Banded) Max 18; Per Vehicle (Banded) Max 2; Per Vehicle (Banded) Max 5",
             "ST PCs missing on Prod": "Per Vehicle (Banded)",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Vehicle (Banded) Max 2 350.0 MAD [All Group Series]; Per Vehicle (Banded) Max 5 500.0 MAD [All Group Series]; Per Vehicle (Banded) Max 12 570.0 MAD [All Group Series]; Per Vehicle (Banded) Max 13 640.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 710.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 780.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 850.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 990.0 MAD [All Group Series]; Per Vehicle (Banded) Max 2 385.0 MAD [All Group Series]; Per Vehicle (Banded) Max 5 550.0 MAD [All Group Series]; Per Vehicle (Banded) Max 12 627.0 MAD [All Group Series]; Per Vehicle (Banded) Max 13 704.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 781.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 858.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 935.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 1089.0 MAD [All Group Series]",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Per Vehicle (Banded) Max 2 385.0 MAD [FIT]; Per Vehicle (Banded) Max 5 550.0 MAD [FIT]; Per Vehicle (Banded) Max 12 627.0 MAD [FIT]; Per Vehicle (Banded) Max 13 704.0 MAD [FIT]; Per Vehicle (Banded) Max 14 781.0 MAD [FIT]; Per Vehicle (Banded) Max 15 858.0 MAD [FIT]; Per Vehicle (Banded) Max 16 935.0 MAD [FIT]; Per Vehicle (Banded) Max 18 1089.0 MAD [FIT]; Per Vehicle (Banded) Max 2 350.0 MAD [All Group Series]; Per Vehicle (Banded) Max 5 500.0 MAD [All Group Series]; Per Vehicle (Banded) Max 12 570.0 MAD [All Group Series]; Per Vehicle (Banded) Max 13 640.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 710.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 780.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 850.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 990.0 MAD [All Group Series]; Per Vehicle (Banded) Max 2 385.0 MAD [All Group Series]; Per Vehicle (Banded) Max 5 550.0 MAD [All Group Series]; Per Vehicle (Banded) Max 12 627.0 MAD [All Group Series]; Per Vehicle (Banded) Max 13 704.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 781.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 858.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 935.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 1089.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
@@ -8811,42 +8406,42 @@ window.ISSUE_DATA = {
             {
               "pc": "Per Vehicle (Banded) Max 12",
               "st": "—",
-              "prod": "570.0 MAD [All Group Series]; 627.0 MAD [All Group Series]"
+              "prod": "627.0 MAD [FIT]; 570.0 MAD [All Group Series]; 627.0 MAD [All Group Series]"
             },
             {
               "pc": "Per Vehicle (Banded) Max 13",
               "st": "—",
-              "prod": "640.0 MAD [All Group Series]; 704.0 MAD [All Group Series]"
+              "prod": "704.0 MAD [FIT]; 640.0 MAD [All Group Series]; 704.0 MAD [All Group Series]"
             },
             {
               "pc": "Per Vehicle (Banded) Max 14",
               "st": "—",
-              "prod": "710.0 MAD [All Group Series]; 781.0 MAD [All Group Series]"
+              "prod": "781.0 MAD [FIT]; 710.0 MAD [All Group Series]; 781.0 MAD [All Group Series]"
             },
             {
               "pc": "Per Vehicle (Banded) Max 15",
               "st": "—",
-              "prod": "780.0 MAD [All Group Series]; 858.0 MAD [All Group Series]"
+              "prod": "858.0 MAD [FIT]; 780.0 MAD [All Group Series]; 858.0 MAD [All Group Series]"
             },
             {
               "pc": "Per Vehicle (Banded) Max 16",
               "st": "—",
-              "prod": "850.0 MAD [All Group Series]; 935.0 MAD [All Group Series]"
+              "prod": "935.0 MAD [FIT]; 850.0 MAD [All Group Series]; 935.0 MAD [All Group Series]"
             },
             {
               "pc": "Per Vehicle (Banded) Max 18",
               "st": "—",
-              "prod": "990.0 MAD [All Group Series]; 1089.0 MAD [All Group Series]"
+              "prod": "1089.0 MAD [FIT]; 990.0 MAD [All Group Series]; 1089.0 MAD [All Group Series]"
             },
             {
               "pc": "Per Vehicle (Banded) Max 2",
               "st": "—",
-              "prod": "350.0 MAD [All Group Series]; 385.0 MAD [All Group Series]"
+              "prod": "385.0 MAD [FIT]; 350.0 MAD [All Group Series]; 385.0 MAD [All Group Series]"
             },
             {
               "pc": "Per Vehicle (Banded) Max 5",
               "st": "—",
-              "prod": "500.0 MAD [All Group Series]; 550.0 MAD [All Group Series]"
+              "prod": "550.0 MAD [FIT]; 500.0 MAD [All Group Series]; 550.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "",
@@ -8881,9 +8476,9 @@ window.ISSUE_DATA = {
             "Package PCs": "Transport (Per Person)",
             "ST PCs missing on Prod": "Transport (Per Person)",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Unit (Max 02, Non-Banded) 350.0 MAD [All Group Series]; Per Unit (Max 05, Non-Banded) 500.0 MAD [All Group Series]; Per Unit (Max 12, Non-Banded) 570.0 MAD [All Group Series]",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Per Unit (Max 02, Non-Banded) 385.0 MAD [FIT]; Per Unit (Max 05, Non-Banded) 550.0 MAD [FIT]; Per Unit (Max 12, Non-Banded) 627.0 MAD [FIT]; Per Unit (Max 02, Non-Banded) 385.0 MAD [All Group Series]; Per Unit (Max 05, Non-Banded) 550.0 MAD [All Group Series]; Per Unit (Max 12, Non-Banded) 627.0 MAD [All Group Series]; Per Unit (Max 02, Non-Banded) 350.0 MAD [All Group Series]; Per Unit (Max 05, Non-Banded) 500.0 MAD [All Group Series]; Per Unit (Max 12, Non-Banded) 570.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P6; P10"
           },
           "fuzzyService": [],
@@ -8899,6 +8494,36 @@ window.ISSUE_DATA = {
           "prodAgreement": "",
           "prodId": "a1HVk000000aBs5MAE",
           "priceCompare": [
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Unit (Max 02, Non-Banded) 385.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Unit (Max 05, Non-Banded) 550.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Unit (Max 12, Non-Banded) 627.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Unit (Max 02, Non-Banded) 385.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Unit (Max 05, Non-Banded) 550.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Per Unit (Max 12, Non-Banded) 627.0 MAD [All Group Series]"
+            },
             {
               "pc": "(Prod)",
               "st": "—",
@@ -9393,19 +9018,19 @@ window.ISSUE_DATA = {
             "C1 Blue North Gateway"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P6",
+          "also": "Also listed in P1",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca to Rabat Private Transfer",
             "Prod Id": "a1HSo00000BiMxlMAF",
             "Package PCs": "Per Unit",
-            "ST PCs missing on Prod": "Per Day; Per Unit",
+            "ST PCs missing on Prod": "Per Unit",
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
             "Prod PCs priced": "Per Unit (Max 8) 2200.0 MAD [FIT]; Per Unit (Max 14) 2650.0 MAD [FIT]; Per Unit (Max 17) 2900.0 MAD [FIT]; Per Unit (Max 27) 3900.0 MAD [FIT]; Per Unit (Max 8) 2200.0 MAD [All Group Series]; Per Unit (Max 14) 2650.0 MAD [All Group Series]; Per Unit (Max 17) 2900.0 MAD [All Group Series]; Per Unit (Max 27) 3900.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P6"
+            "Also listed in": "Also listed in P1"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -9427,44 +9052,9 @@ window.ISSUE_DATA = {
           "prodId": "a1HSo00000BiMxlMAF",
           "priceCompare": [
             {
-              "pc": "(Prod)",
+              "pc": "Per Unit",
               "st": "—",
-              "prod": "Per Unit (Max 8) 2200.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Per Unit (Max 14) 2650.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Per Unit (Max 17) 2900.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Per Unit (Max 27) 3900.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Per Unit (Max 8) 2200.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Per Unit (Max 14) 2650.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Per Unit (Max 17) 2900.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Per Unit (Max 27) 3900.0 MAD [All Group Series]"
+              "prod": "(Max 8) 2200.0 MAD [FIT]; (Max 14) 2650.0 MAD [FIT]; (Max 17) 2900.0 MAD [FIT]; (Max 27) 3900.0 MAD [FIT]; (Max 8) 2200.0 MAD [All Group Series]; (Max 14) 2650.0 MAD [All Group Series]; (Max 17) 2900.0 MAD [All Group Series]; (Max 27) 3900.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "",
@@ -9483,12 +9073,6 @@ window.ISSUE_DATA = {
             "comment": ""
           },
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "NOT LISTED",
-              "prodName": "",
-              "prodPc": ""
-            },
             {
               "package": "Atlantic Imperials (Rev)",
               "note": "NOT LISTED",
@@ -9565,6 +9149,77 @@ window.ISSUE_DATA = {
           }
         },
         {
+          "id": "P4::chefchaouen to fes private transfer + fes guided tour",
+          "service": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
+          "packages": [
+            "C1 Blue North Gateway",
+            "The Blue North"
+          ],
+          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
+          "also": "Also listed in P1",
+          "fields": {
+            "TM package": "C1 Blue North Gateway",
+            "Prod exists": "Yes",
+            "Prod Name": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
+            "Prod Id": "a1HSo00000BiOczMAF",
+            "Package PCs": "Per Unit",
+            "ST PCs missing on Prod": "Per Unit",
+            "Active price": "Yes",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Per Unit (Max 8) 2050.0 MAD [All Group Series]; Per Unit (Max 14) 2700.0 MAD [All Group Series]; Per Unit (Max 17) 3100.0 MAD [All Group Series]; Per Unit (Max 27) 6050.0 MAD [All Group Series]; Per Unit (Max 8) 2050.0 MAD [FIT]; Per Unit (Max 14) 2700.0 MAD [FIT]; Per Unit (Max 17) 3100.0 MAD [FIT]; Per Unit (Max 27) 6050.0 MAD [FIT]",
+            "Also listed in": "Also listed in P1"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [
+            {
+              "from": "Per Unit",
+              "value": "Per Unit (Max",
+              "score": 92.0
+            }
+          ],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HSo00000BiOczMAF",
+          "priceCompare": [
+            {
+              "pc": "Per Unit",
+              "st": "—",
+              "prod": "(Max 8) 2050.0 MAD [All Group Series]; (Max 14) 2700.0 MAD [All Group Series]; (Max 17) 3100.0 MAD [All Group Series]; (Max 27) 6050.0 MAD [All Group Series]; (Max 8) 2050.0 MAD [FIT]; (Max 14) 2700.0 MAD [FIT]; (Max 17) 3100.0 MAD [FIT]; (Max 27) 6050.0 MAD [FIT]"
+            }
+          ],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Unit",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          },
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "CHECK",
+              "prodName": "Chefchaouen to Fes Private Transfer",
+              "prodPc": ""
+            }
+          ]
+        },
+        {
           "id": "P4::cooking class and lunch at tawsna association",
           "service": "Cooking Class and Lunch at Tawsna Association",
           "packages": [
@@ -9628,17 +9283,18 @@ window.ISSUE_DATA = {
           "id": "P4::dar cherifa",
           "service": "Dar cherifa",
           "packages": [
+            "C1 Blue North Gateway",
             "The Blue North",
             "The Blue North (Rev)"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
           "also": "Also listed in P9",
           "fields": {
-            "TM package": "The Blue North",
+            "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Dar cherifa",
             "Prod Id": "a1HVk0000024Mf7MAE",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "Package PCs": "Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Twin Room",
             "ST PCs": "Double for Single Use; Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Twin Room",
             "Active price": "Yes",
             "Price kind": "FIT",
@@ -9693,7 +9349,7 @@ window.ISSUE_DATA = {
             "location": "",
             "businessUnit": "",
             "serviceType": "",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceCategory": "Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Twin Room",
             "priceSeason": "",
             "priceSeasonDates": "1/1/2026  -  31/12/2027",
             "pricelist": "",
@@ -10041,6 +9697,67 @@ window.ISSUE_DATA = {
           }
         },
         {
+          "id": "P4::dinner at djemma el fna-booking",
+          "service": "Dinner at Djemma El Fna-Booking",
+          "packages": [
+            "SGA XMFB",
+            "SGA XMFK",
+            "SGA XMXC"
+          ],
+          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
+          "also": "",
+          "fields": {
+            "TM package": "SGA XMFB",
+            "Prod exists": "Yes",
+            "Prod Name": "Dinner at Djemma El Fna-Booking",
+            "Prod Id": "a1HVk000000aBp6MAE",
+            "Package PCs": "Dinner",
+            "Active price": "No",
+            "Price kind": "Inactive only",
+            "Gap": "Inactive prices only",
+            "Prod PCs priced": "Dinner 70.0 MAD [All Group Series]; Dinner (Crew) 0.0 MAD [All Group Series]; Dinner 80.0 MAD [All Group Series]"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000000aBp6MAE",
+          "priceCompare": [
+            {
+              "pc": "Dinner",
+              "st": "—",
+              "prod": "70.0 MAD [All Group Series]; 80.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Dinner (Crew)",
+              "st": "—",
+              "prod": "0.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Dinner at Djemma El Fna-Booking",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Dinner",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
+        },
+        {
           "id": "P4::emeraude luxury camp & tents hb",
           "service": "Emeraude Luxury Camp & Tents HB",
           "packages": [
@@ -10197,7 +9914,7 @@ window.ISSUE_DATA = {
             "The Sahara Loop"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P8",
+          "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
@@ -10207,12 +9924,11 @@ window.ISSUE_DATA = {
             "ST PCs": "Crew Twin Room; Double for Single Use; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Standard - Triple Room; Twin - Twin Room",
             "ST PCs missing on Prod": "Standard - Leader Single Room; Twin - Twin Room",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
             "ST prices": "Standard - Double Room 330 MAD [FIT/Group Series] 2025-2026 All Year; Twin - Twin Room 330 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Single Room 300 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Leader Single Room 0 MAD [FIT/Group Series] 2025-2026 All Year; Double for Single Use 300 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Triple Room 495 MAD [FIT/Group Series] 2025-2026 All Year; Crew Twin Room 0 MAD [FIT/Group Series] 2025-2026 All Year; Standard - Double Room 380 MAD [FIT/Group Series] 2027 All Year; Twin - Twin Room 380 MAD [FIT/Group Series] 2027 All Year; Standard - Single Room 300 MAD [FIT/Group Series] 2027 All Year; Standard - Leader Single Room 0 MAD [FIT/Group Series] 2027 All Year; Double for Single Use 300 MAD [FIT/Group Series] 2027 All Year; Standard - Triple Room 530 MAD [FIT/Group Series] 2027 All Year; Crew Twin Room 0 MAD [FIT/Group Series] 2027 All Year",
             "ST price dates": "1/1/2027  -  31/12/2027; 1/5/2025  -  31/12/2026",
-            "Prod PCs priced": "Standard - Twin Room 330.0 MAD [All Group Series]; Standard - Double Room 330.0 MAD [All Group Series]; Double for Single Use 300.0 MAD [All Group Series]; Standard - Single Room 300.0 MAD [All Group Series]; Standard - Triple Room 495.0 MAD [All Group Series]; Leader Single Room 0.0 MAD [All Group Series]; Crew Twin Room 0.0 MAD [All Group Series]; Standard - Twin Room 380.0 MAD [All Group Series]; Standard - Double Room 380.0 MAD [All Group Series]; Standard - Triple Room 580.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P8"
+            "Prod PCs priced": "Standard - Twin Room 380.0 MAD [FIT]; Standard - Double Room 380.0 MAD [FIT]; Double for Single Use 300.0 MAD [FIT]; Standard - Single Room 300.0 MAD [FIT]; Standard - Triple Room 580.0 MAD [FIT]; Leader Single Room 0.0 MAD [FIT]; Crew Twin Room 0.0 MAD [FIT]; Standard - Twin Room 330.0 MAD [All Group Series]; Standard - Double Room 330.0 MAD [All Group Series]; Double for Single Use 300.0 MAD [All Group Series]; Standard - Single Room 300.0 MAD [All Group Series]; Standard - Triple Room 495.0 MAD [All Group Series]; Leader Single Room 0.0 MAD [All Group Series]; Crew Twin Room 0.0 MAD [All Group Series]; Standard - Twin Room 380.0 MAD [All Group Series]; Standard - Double Room 380.0 MAD [All Group Series]; Standard - Triple Room 580.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -10241,17 +9957,17 @@ window.ISSUE_DATA = {
             {
               "pc": "Crew Twin Room",
               "st": "0 MAD [FIT/Group Series] 2025-2026 All Year; 0 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "0.0 MAD [All Group Series]"
+              "prod": "0.0 MAD [FIT]; 0.0 MAD [All Group Series]"
             },
             {
               "pc": "Double for Single Use",
               "st": "300 MAD [FIT/Group Series] 2025-2026 All Year; 300 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "300.0 MAD [All Group Series]"
+              "prod": "300.0 MAD [FIT]; 300.0 MAD [All Group Series]"
             },
             {
               "pc": "Standard - Double Room",
               "st": "330 MAD [FIT/Group Series] 2025-2026 All Year; 380 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "330.0 MAD [All Group Series]; 380.0 MAD [All Group Series]"
+              "prod": "380.0 MAD [FIT]; 330.0 MAD [All Group Series]; 380.0 MAD [All Group Series]"
             },
             {
               "pc": "Standard - Leader Single Room",
@@ -10261,12 +9977,12 @@ window.ISSUE_DATA = {
             {
               "pc": "Standard - Single Room",
               "st": "300 MAD [FIT/Group Series] 2025-2026 All Year; 300 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "300.0 MAD [All Group Series]"
+              "prod": "300.0 MAD [FIT]; 300.0 MAD [All Group Series]"
             },
             {
               "pc": "Standard - Triple Room",
               "st": "495 MAD [FIT/Group Series] 2025-2026 All Year; 530 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "495.0 MAD [All Group Series]; 580.0 MAD [All Group Series]"
+              "prod": "580.0 MAD [FIT]; 495.0 MAD [All Group Series]; 580.0 MAD [All Group Series]"
             },
             {
               "pc": "Twin - Twin Room",
@@ -10276,7 +9992,12 @@ window.ISSUE_DATA = {
             {
               "pc": "Leader Single Room",
               "st": "—",
-              "prod": "0.0 MAD [All Group Series]"
+              "prod": "0.0 MAD [FIT]; 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Standard - Twin Room 380.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
@@ -10419,12 +10140,6 @@ window.ISSUE_DATA = {
           ],
           "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT",
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Executive Boutique Hotel Rabat",
-              "prodPc": "Twin - Standard Room"
-            },
             {
               "package": "Atlantic Imperials (Rev)",
               "note": "Use Prod",
@@ -11347,12 +11062,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service exists in Kaptio",
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Hotel Charf",
-              "prodPc": ""
-            },
-            {
               "package": "Atlantic Imperials (Rev)",
               "note": "Use Prod",
               "prodName": "Hotel Charf",
@@ -11614,7 +11323,7 @@ window.ISSUE_DATA = {
             "Gap": "OK — FIT and Group Tour",
             "ST prices": "Twin - Superior 957 MAD [FIT] 2026 All Year; Double - Superior 957 MAD [FIT] 2026 All Year; Single - Superior 814.5 MAD [FIT] 2026 All Year; Double - Deluxe 1007 MAD [FIT] 2026 All Year; Twin - Deluxe 1007 MAD [FIT] 2026 All Year; Single - Deluxe 864.5 MAD [FIT] 2026 All Year; Twin Pool View 1057 MAD [FIT] 2026 All Year; Double Pool View 1057 MAD [FIT] 2026 All Year; Single Pool View 914.5 MAD [FIT] 2026 All Year; City Tax 16.5 MAD [FIT] 2026 All Year; Twin - Superior 924 MAD [Group Series] 2026 All Year; Double - Superior 924 MAD [Group Series] 2026 All Year; Single - Superior 798 MAD [Group Series] 2026 All Year; Double - Deluxe 976 MAD [Group Series] 2026 All Year; Twin - Deluxe 976 MAD [Group Series] 2026 All Year; Single - Deluxe 850.5 MAD [Group Series] 2026 All Year; Twin Pool View 1029 MAD [Group Series] 2026 All Year; Double Pool View 1029 MAD [Group Series] 2026 All Year; Single Pool View 903 MAD [Group Series] 2026 All Year; City Tax 16.5 MAD [Group Series] 2026 All Year; Triple Pool View 1491 MAD [Group Series] 2026 All Year; Triple - Deluxe 1438.5 MAD [Group Series] 2026 All Year; Triple - Superior 1386 MAD [Group Series] 2026 All Year; Leader Single Room 400 MAD [Group Series] 2026 All Year; Twin Room (Family) 920.3 MAD [Group Series] 2026 All Year; Twin - Superior 970 MAD [FIT/Group Series] 2027 All Year; Double - Superior 970 MAD [FIT/Group Series] 2027 All Year; Single - Superior 838 MAD [FIT/Group Series] 2027 All Year; Double - Deluxe 1022 MAD [FIT/Group Series] 2027 All Year; Twin - Deluxe 1022 MAD [FIT/Group Series] 2027 All Year; Single - Deluxe 890 MAD [FIT/Group Series] 2027 All Year; Twin Pool View 1076 MAD [FIT/Group Series] 2027 All Year; Double Pool View 1076 MAD [FIT/Group Series] 2027 All Year; Single Pool View 943 MAD [FIT/Group Series] 2027 All Year; City Tax 16.5 MAD [FIT/Group Series] 2027 All Year; Triple Pool View 1371 MAD [FIT/Group Series] 2027 All Year; Triple - Deluxe 1303.05 MAD [FIT/Group Series] 2027 All Year; Triple - Superior 1236.75 MAD [FIT/Group Series] 2027 All Year; Leader Single Room 400 MAD [FIT/Group Series] 2027 All Year; Twin Room (Family) 1045.9 MAD [Group Series] 2027 All Year",
             "ST price dates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
-            "Prod PCs priced": "Double - Superior 957.0 MAD [FIT]; Twin - Superior 957.0 MAD [FIT]; Single - Superior 814.5 MAD [FIT]; (no PC) 16.5 MAD [FIT]; Single - Deluxe 864.5 MAD [FIT]; Double - Deluxe 1007.0 MAD [FIT]; Twin - Deluxe 1007.0 MAD [FIT]; Single Pool View 914.5 MAD [FIT]; Double Pool View 1057.0 MAD [FIT]; Twin Pool View 1057.0 MAD [FIT]; Twin - Standard Room 800.0 MAD [All Group Series]; Single - Standard Room 690.0 MAD [All Group Series]; Double - Standard Room 800.0 MAD [All Group Series]; Triple - Standard Room 1200.0 MAD [All Group Series]; Leader Room Single - Standard 690.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; (no PC) 1800.0 MAD [All Group Series]; Twin - Standard Room 913.0 MAD [All Group Series]; Single - Standard Room 776.5 MAD [All Group Series]; Double - Standard Room 913.0 MAD [All Group Series]; Triple - Standard Room 1369.5 MAD [All Group Series]; Leader Room Single - Standard 350.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Twin - Standard Room 880.0 MAD [All Group Series]; Single - Standard Room 759.0 MAD [All Group Series]; Double - Standard Room 880.0 MAD [All Group Series]; Triple - Standard Room 1320.0 MAD [All Group Series]; Leader Room Single - Standard 759.0 MAD [All Group Series]; (no PC) 1980.0 MAD [All Group Series]; Double - Superior 924.0 MAD [All Group Series]; Twin - Superior 924.0 MAD [All Group Series]; Single - Superior 798.0 MAD [All Group Series]; Triple - Superior 1386.0 MAD [All Group Series]; Single - Deluxe 850.5 MAD [All Group Series]; Double - Deluxe 976.5 MAD [All Group Series]; Twin - Deluxe 976.5 MAD [All Group Series]; Triple - Deluxe 1438.5 MAD [All Group Series]; Single Pool View 903.0 MAD [All Group Series]; Double Pool View 1029.0 MAD [All Group Series]; Twin Pool View 1029.0 MAD [All Group Series]; Triple Pool View 1491.0 MAD [All Group Series]; Leader Room Single - Standard 400.0 MAD [All Group Series]; Twin Room (Family) 920.303 MAD [All Group Series]; Double - Superior 970.0 MAD [All Group Series]; Twin - Superior 970.0 MAD [All Group Series]; Single - Superior 838.0 MAD [All Group Series]; Triple - Superior 1236.75 MAD [All Group Series]; Single - Deluxe 890.0 MAD [All Group Series]; Double - Deluxe 1022.0 MAD [All Group Series]; Twin - Deluxe 1022.0 MAD [All Group Series]; Triple - Deluxe 1303.05 MAD [All Group Series]; Single Pool View 943.0 MAD [All Group Series]; Double Pool View 1076.0 MAD [All Group Series]; Twin Pool View 1076.0 MAD [All Group Series]; Triple Pool View 1371.9 MAD [All Group Series]; Twin Family Room 1045.9 MAD [All Group Series]; Twin Room (Family) 1045.9 MAD [All Group Series]"
+            "Prod PCs priced": "Double - Superior 957.0 MAD [FIT]; Twin - Superior 957.0 MAD [FIT]; Single - Superior 814.5 MAD [FIT]; (no PC) 16.5 MAD [FIT]; Single - Deluxe 864.5 MAD [FIT]; Double - Deluxe 1007.0 MAD [FIT]; Twin - Deluxe 1007.0 MAD [FIT]; Single Pool View 914.5 MAD [FIT]; Double Pool View 1057.0 MAD [FIT]; Twin Pool View 1057.0 MAD [FIT]; Double - Superior 1212.5 MAD [FIT]; Twin - Superior 1212.5 MAD [FIT]; Single - Superior 1047.5 MAD [FIT]; Triple - Superior 1546.0 MAD [FIT]; Single - Deluxe 1112.5 MAD [FIT]; Double - Deluxe 1227.5 MAD [FIT]; Twin - Deluxe 1227.5 MAD [FIT]; Triple - Deluxe 1629.0 MAD [FIT]; Single Pool View 1178.75 MAD [FIT]; Double Pool View 1345.0 MAD [FIT]; Twin Pool View 1345.0 MAD [FIT]; Triple Pool View 1715.0 MAD [FIT]; Leader Room Single - Standard 500.0 MAD [FIT]; Twin Family Room 1307.5 MAD [FIT]; Twin Room (Family) 1307.5 MAD [FIT]; Twin - Standard Room 800.0 MAD [All Group Series]; Single - Standard Room 690.0 MAD [All Group Series]; Double - Standard Room 800.0 MAD [All Group Series]; Triple - Standard Room 1200.0 MAD [All Group Series]; Leader Room Single - Standard 690.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; (no PC) 1800.0 MAD [All Group Series]; Twin - Standard Room 913.0 MAD [All Group Series]; Single - Standard Room 776.5 MAD [All Group Series]; Double - Standard Room 913.0 MAD [All Group Series]; Triple - Standard Room 1369.5 MAD [All Group Series]; Leader Room Single - Standard 350.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Twin - Standard Room 880.0 MAD [All Group Series]; Single - Standard Room 759.0 MAD [All Group Series]; Double - Standard Room 880.0 MAD [All Group Series]; Triple - Standard Room 1320.0 MAD [All Group Series]; Leader Room Single - Standard 759.0 MAD [All Group Series]; (no PC) 1980.0 MAD [All Group Series]; Double - Superior 924.0 MAD [All Group Series]; Twin - Superior 924.0 MAD [All Group Series]; Single - Superior 798.0 MAD [All Group Series]; Triple - Superior 1386.0 MAD [All Group Series]; Single - Deluxe 850.5 MAD [All Group Series]; Double - Deluxe 976.5 MAD [All Group Series]; Twin - Deluxe 976.5 MAD [All Group Series]; Triple - Deluxe 1438.5 MAD [All Group Series]; Single Pool View 903.0 MAD [All Group Series]; Double Pool View 1029.0 MAD [All Group Series]; Twin Pool View 1029.0 MAD [All Group Series]; Triple Pool View 1491.0 MAD [All Group Series]; Leader Room Single - Standard 400.0 MAD [All Group Series]; Twin Room (Family) 920.303 MAD [All Group Series]; Double - Superior 970.0 MAD [All Group Series]; Twin - Superior 970.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -11643,17 +11352,17 @@ window.ISSUE_DATA = {
             {
               "pc": "Double - Deluxe",
               "st": "1007 MAD [FIT] 2026 All Year; 976 MAD [Group Series] 2026 All Year; 1022 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "1007.0 MAD [FIT]; 976.5 MAD [All Group Series]; 1022.0 MAD [All Group Series]"
+              "prod": "1007.0 MAD [FIT]; 1227.5 MAD [FIT]; 976.5 MAD [All Group Series]"
             },
             {
               "pc": "Double - Superior",
               "st": "957 MAD [FIT] 2026 All Year; 924 MAD [Group Series] 2026 All Year; 970 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "957.0 MAD [FIT]; 924.0 MAD [All Group Series]; 970.0 MAD [All Group Series]"
+              "prod": "957.0 MAD [FIT]; 1212.5 MAD [FIT]; 924.0 MAD [All Group Series]; 970.0 MAD [All Group Series]"
             },
             {
               "pc": "Double Pool View",
               "st": "1057 MAD [FIT] 2026 All Year; 1029 MAD [Group Series] 2026 All Year; 1076 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "1057.0 MAD [FIT]; 1029.0 MAD [All Group Series]; 1076.0 MAD [All Group Series]"
+              "prod": "1057.0 MAD [FIT]; 1345.0 MAD [FIT]; 1029.0 MAD [All Group Series]"
             },
             {
               "pc": "Leader Single Room",
@@ -11663,52 +11372,52 @@ window.ISSUE_DATA = {
             {
               "pc": "Single - Deluxe",
               "st": "864.5 MAD [FIT] 2026 All Year; 850.5 MAD [Group Series] 2026 All Year; 890 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "864.5 MAD [FIT]; 850.5 MAD [All Group Series]; 890.0 MAD [All Group Series]"
+              "prod": "864.5 MAD [FIT]; 1112.5 MAD [FIT]; 850.5 MAD [All Group Series]"
             },
             {
               "pc": "Single - Superior",
               "st": "814.5 MAD [FIT] 2026 All Year; 798 MAD [Group Series] 2026 All Year; 838 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "814.5 MAD [FIT]; 798.0 MAD [All Group Series]; 838.0 MAD [All Group Series]"
+              "prod": "814.5 MAD [FIT]; 1047.5 MAD [FIT]; 798.0 MAD [All Group Series]"
             },
             {
               "pc": "Single Pool View",
               "st": "914.5 MAD [FIT] 2026 All Year; 903 MAD [Group Series] 2026 All Year; 943 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "914.5 MAD [FIT]; 903.0 MAD [All Group Series]; 943.0 MAD [All Group Series]"
+              "prod": "914.5 MAD [FIT]; 1178.75 MAD [FIT]; 903.0 MAD [All Group Series]"
             },
             {
               "pc": "Triple - Deluxe",
               "st": "1438.5 MAD [Group Series] 2026 All Year; 1303.05 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "1438.5 MAD [All Group Series]; 1303.05 MAD [All Group Series]"
+              "prod": "1629.0 MAD [FIT]; 1438.5 MAD [All Group Series]"
             },
             {
               "pc": "Triple - Superior",
               "st": "1386 MAD [Group Series] 2026 All Year; 1236.75 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "1386.0 MAD [All Group Series]; 1236.75 MAD [All Group Series]"
+              "prod": "1546.0 MAD [FIT]; 1386.0 MAD [All Group Series]"
             },
             {
               "pc": "Triple Pool View",
               "st": "1491 MAD [Group Series] 2026 All Year; 1371 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "1491.0 MAD [All Group Series]; 1371.9 MAD [All Group Series]"
+              "prod": "1715.0 MAD [FIT]; 1491.0 MAD [All Group Series]"
             },
             {
               "pc": "Twin - Deluxe",
               "st": "1007 MAD [FIT] 2026 All Year; 976 MAD [Group Series] 2026 All Year; 1022 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "1007.0 MAD [FIT]; 976.5 MAD [All Group Series]; 1022.0 MAD [All Group Series]"
+              "prod": "1007.0 MAD [FIT]; 1227.5 MAD [FIT]; 976.5 MAD [All Group Series]"
             },
             {
               "pc": "Twin - Superior",
               "st": "957 MAD [FIT] 2026 All Year; 924 MAD [Group Series] 2026 All Year; 970 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "957.0 MAD [FIT]; 924.0 MAD [All Group Series]; 970.0 MAD [All Group Series]"
+              "prod": "957.0 MAD [FIT]; 1212.5 MAD [FIT]; 924.0 MAD [All Group Series]; 970.0 MAD [All Group Series]"
             },
             {
               "pc": "Twin Pool View",
               "st": "1057 MAD [FIT] 2026 All Year; 1029 MAD [Group Series] 2026 All Year; 1076 MAD [FIT/Group Series] 2027 All Year",
-              "prod": "1057.0 MAD [FIT]; 1029.0 MAD [All Group Series]; 1076.0 MAD [All Group Series]"
+              "prod": "1057.0 MAD [FIT]; 1345.0 MAD [FIT]; 1029.0 MAD [All Group Series]"
             },
             {
               "pc": "Twin Room (Family)",
               "st": "920.3 MAD [Group Series] 2026 All Year; 1045.9 MAD [Group Series] 2027 All Year",
-              "prod": "920.303 MAD [All Group Series]; 1045.9 MAD [All Group Series]"
+              "prod": "1307.5 MAD [FIT]; 920.303 MAD [All Group Series]"
             },
             {
               "pc": "Double - Standard Room",
@@ -11718,7 +11427,7 @@ window.ISSUE_DATA = {
             {
               "pc": "Leader Room Single - Standard",
               "st": "—",
-              "prod": "690.0 MAD [All Group Series]; 350.0 MAD [All Group Series]; 759.0 MAD [All Group Series]; 400.0 MAD [All Group Series]"
+              "prod": "500.0 MAD [FIT]; 690.0 MAD [All Group Series]; 350.0 MAD [All Group Series]; 759.0 MAD [All Group Series]; 400.0 MAD [All Group Series]"
             },
             {
               "pc": "Single - Standard Room",
@@ -11729,6 +11438,11 @@ window.ISSUE_DATA = {
               "pc": "(Prod)",
               "st": "—",
               "prod": "(no PC) 16.5 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin Family Room 1307.5 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
@@ -11779,11 +11493,6 @@ window.ISSUE_DATA = {
               "pc": "(Prod)",
               "st": "—",
               "prod": "(no PC) 1980.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Twin Family Room 1045.9 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
@@ -11935,6 +11644,183 @@ window.ISSUE_DATA = {
             "Service exists in Kaptio"
           ],
           "stCommentImport": "Service exists in Kaptio"
+        },
+        {
+          "id": "P4::hotel le caspien",
+          "service": "Hotel le Caspien",
+          "packages": [
+            "Sahara Crossing"
+          ],
+          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
+          "also": "Also listed in P1",
+          "fields": {
+            "TM package": "Sahara Crossing",
+            "Prod exists": "Yes",
+            "Prod Name": "Hotel Le Caspien",
+            "Prod Id": "a1HVk000000aBo5MAE",
+            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "Active price": "Yes",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Sawadee - 2nd Leader Room 511.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 511.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Double - Standard Room 612.0 MAD [FIT]; Twin - Standard Room 612.0 MAD [FIT]; Double for Single Use 511.0 MAD [FIT]; Single - Standard Room 511.0 MAD [FIT]; Twin - Standard Room 422.0 MAD [All Group Series]; Single - Standard Room 351.0 MAD [All Group Series]; Double - Standard Room 422.0 MAD [All Group Series]; Triple - Standard Room 633.0 MAD [All Group Series]; Double for Single Use 351.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 462.0 MAD [All Group Series]; Twin - Standard Room 462.0 MAD [All Group Series]; Double for Single Use 462.0 MAD [All Group Series]; Single - Standard Room 462.0 MAD [All Group Series]; Double - Standard Room 612.0 MAD [All Group Series]; Twin - Standard Room 612.0 MAD [All Group Series]; Double for Single Use 511.0 MAD [All Group Series]; Single - Standard Room 511.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P1"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [
+            {
+              "from": "Double Room",
+              "value": "Double - Standard Room",
+              "score": 58.0
+            },
+            {
+              "from": "Leader Single Room",
+              "value": "Leader Room Single - Standard",
+              "score": 75.0
+            },
+            {
+              "from": "Single Room",
+              "value": "Single - Standard Room",
+              "score": 58.0
+            },
+            {
+              "from": "Twin Room",
+              "value": "Twin - Standard Room",
+              "score": 58.0
+            }
+          ],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000000aBo5MAE",
+          "priceCompare": [
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Sawadee - 2nd Leader Room 511.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Sawadee - 2nd Leader Room 511.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard 0.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room 612.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room 612.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double for Single Use 511.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room 511.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room 422.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room 351.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room 422.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Standard Room 633.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double for Single Use 351.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room 462.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room 462.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double for Single Use 462.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room 462.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room 612.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room 612.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double for Single Use 511.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room 511.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Hotel le Caspien",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
         },
         {
           "id": "P4::hotel les amandiers  bb",
@@ -12790,9 +12676,9 @@ window.ISSUE_DATA = {
             "Package PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Twin Room (Family)",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
-            "Price kind": "FIT",
-            "Gap": "FIT only",
-            "Prod PCs priced": "Twin - Standard Room 500.0 MAD [FIT]; Single - Standard Room 400.0 MAD [FIT]; Double - Standard Room 500.0 MAD [FIT]; Triple - Standard Room 750.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Twin Room (Family) 500.0 MAD [FIT]; Sawadee - 2nd Leader Room 400.0 MAD [FIT]"
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Twin - Standard Room 500.0 MAD [All Group Series]; Single - Standard Room 400.0 MAD [All Group Series]; Double - Standard Room 500.0 MAD [All Group Series]; Triple - Standard Room 750.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin Room (Family) 500.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 400.0 MAD [All Group Series]; Twin - Standard Room 500.0 MAD [FIT]; Single - Standard Room 400.0 MAD [FIT]; Double - Standard Room 500.0 MAD [FIT]; Triple - Standard Room 750.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Twin Room (Family) 500.0 MAD [FIT]; Sawadee - 2nd Leader Room 400.0 MAD [FIT]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -12829,24 +12715,39 @@ window.ISSUE_DATA = {
           "prodId": "a1HVk000000aBuwMAE",
           "priceCompare": [
             {
-              "pc": "Double - Standard Room",
+              "pc": "Twin Room",
               "st": "—",
-              "prod": "500.0 MAD [FIT]"
+              "prod": "(Family) 500.0 MAD [All Group Series]; (Family) 500.0 MAD [FIT]"
             },
             {
-              "pc": "Leader Room Single - Standard",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "0.0 MAD [FIT]"
+              "prod": "Twin - Standard Room 500.0 MAD [All Group Series]"
             },
             {
-              "pc": "Single - Standard Room",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "400.0 MAD [FIT]"
+              "prod": "Single - Standard Room 400.0 MAD [All Group Series]"
             },
             {
-              "pc": "Twin Room (Family)",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "500.0 MAD [FIT]"
+              "prod": "Double - Standard Room 500.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Standard Room 750.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Sawadee - 2nd Leader Room 400.0 MAD [All Group Series]"
             },
             {
               "pc": "(Prod)",
@@ -12856,7 +12757,22 @@ window.ISSUE_DATA = {
             {
               "pc": "(Prod)",
               "st": "—",
+              "prod": "Single - Standard Room 400.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room 500.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
               "prod": "Triple - Standard Room 750.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard 0.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
@@ -13179,7 +13095,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Hotel Tarek",
             "Prod Id": "a1HSo00000Bi3DZMAZ",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "Package PCs": "Double - Standard Room; Leader Single - Standard Room; Single - Standard Room; Twin - Standard Room",
             "ST PCs": "Double - Standard Room; Double For Single Use; Leader Room Single - Standard; Quad - Standard Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
             "ST PCs missing on Prod": "Leader Room Single - Standard",
             "Active price": "Yes",
@@ -13271,7 +13187,7 @@ window.ISSUE_DATA = {
             "location": "",
             "businessUnit": "",
             "serviceType": "",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "priceCategory": "Double - Standard Room; Leader Single - Standard Room; Single - Standard Room; Twin - Standard Room",
             "priceSeason": "",
             "priceSeasonDates": "1/1/2026 - 31/12/2026; 1/1/2027 - 31/12/2027",
             "pricelist": "",
@@ -13285,12 +13201,6 @@ window.ISSUE_DATA = {
           ],
           "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027",
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Service Template",
-              "prodName": "",
-              "prodPc": ""
-            },
             {
               "package": "The Blue North",
               "note": "Use Service Template",
@@ -13980,9 +13890,9 @@ window.ISSUE_DATA = {
             "Package PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Twin Family Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 430.0 MAD [All Group Series]; Single - Standard Room 350.0 MAD [All Group Series]; Double - Standard Room 430.0 MAD [All Group Series]; Triple - Standard Room 650.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin- Standard 0.0 MAD [All Group Series]; Twin Family Room 430.97 MAD [All Group Series]"
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Twin - Standard Room 537.5 MAD [FIT]; Single - Standard Room 437.5 MAD [FIT]; Double - Standard Room 537.5 MAD [FIT]; Triple - Standard Room 787.5 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Leader Room Twin- Standard 0.0 MAD [FIT]; Twin Family Room 539.0 MAD [FIT]; Twin - Standard Room 430.0 MAD [All Group Series]; Single - Standard Room 350.0 MAD [All Group Series]; Double - Standard Room 430.0 MAD [All Group Series]; Triple - Standard Room 650.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin- Standard 0.0 MAD [All Group Series]; Twin Family Room 430.97 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -14019,24 +13929,39 @@ window.ISSUE_DATA = {
           "prodId": "a1HVk000000aBvZMAU",
           "priceCompare": [
             {
-              "pc": "Double - Standard Room",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "430.0 MAD [All Group Series]"
+              "prod": "Twin - Standard Room 537.5 MAD [FIT]"
             },
             {
-              "pc": "Leader Room Single - Standard",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "0.0 MAD [All Group Series]"
+              "prod": "Single - Standard Room 437.5 MAD [FIT]"
             },
             {
-              "pc": "Single - Standard Room",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "350.0 MAD [All Group Series]"
+              "prod": "Double - Standard Room 537.5 MAD [FIT]"
             },
             {
-              "pc": "Twin Family Room",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "430.97 MAD [All Group Series]"
+              "prod": "Triple - Standard Room 787.5 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard 0.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Twin- Standard 0.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin Family Room 539.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
@@ -14046,12 +13971,32 @@ window.ISSUE_DATA = {
             {
               "pc": "(Prod)",
               "st": "—",
+              "prod": "Single - Standard Room 350.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room 430.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
               "prod": "Triple - Standard Room 650.0 MAD [All Group Series]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
+              "prod": "Leader Room Single - Standard 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
               "prod": "Leader Room Twin- Standard 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin Family Room 430.97 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "",
@@ -15080,9 +15025,9 @@ window.ISSUE_DATA = {
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Triple - Standard Room 450.0 MAD [All Group Series]; Twin - Standard Room 300.0 MAD [All Group Series]; Single - Standard Room 280.0 MAD [All Group Series]; Double - Standard Room 300.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Twin Room (Family) XMFK 288.43 MAD [All Group Series]; Twin Room (Family) XMFB 239.99 MAD [All Group Series]"
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Triple - Standard Room 562.5 MAD [FIT]; Twin - Standard Room 375.0 MAD [FIT]; Single - Standard Room 350.0 MAD [FIT]; Double - Standard Room 375.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Leader Room Twin - Standard 0.0 MAD [FIT]; Twin Room (Family) XMFK 360.5 MAD [FIT]; Twin Room (Family) XMFB 425.0 MAD [FIT]; Triple - Standard Room 450.0 MAD [All Group Series]; Twin - Standard Room 300.0 MAD [All Group Series]; Single - Standard Room 280.0 MAD [All Group Series]; Double - Standard Room 300.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Twin Room (Family) XMFK 288.43 MAD [All Group Series]; Twin Room (Family) XMFB 239.99 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -15119,24 +15064,39 @@ window.ISSUE_DATA = {
           "prodId": "a1HVk000000aBmmMAE",
           "priceCompare": [
             {
-              "pc": "Double - Standard Room",
+              "pc": "Twin Room",
               "st": "—",
-              "prod": "300.0 MAD [All Group Series]"
+              "prod": "(Family) XMFK 360.5 MAD [FIT]; (Family) XMFB 425.0 MAD [FIT]; (Family) XMFK 288.43 MAD [All Group Series]; (Family) XMFB 239.99 MAD [All Group Series]"
             },
             {
-              "pc": "Leader Room Single - Standard",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "0.0 MAD [All Group Series]"
+              "prod": "Triple - Standard Room 562.5 MAD [FIT]"
             },
             {
-              "pc": "Single - Standard Room",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "280.0 MAD [All Group Series]"
+              "prod": "Twin - Standard Room 375.0 MAD [FIT]"
             },
             {
-              "pc": "Twin Room (Family) XMFK",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "288.43 MAD [All Group Series]"
+              "prod": "Single - Standard Room 350.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room 375.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard 0.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Twin - Standard 0.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
@@ -15151,12 +15111,22 @@ window.ISSUE_DATA = {
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Leader Room Twin - Standard 0.0 MAD [All Group Series]"
+              "prod": "Single - Standard Room 280.0 MAD [All Group Series]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Twin Room (Family) XMFB 239.99 MAD [All Group Series]"
+              "prod": "Double - Standard Room 300.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard 0.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Twin - Standard 0.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "",
@@ -15615,171 +15585,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P4::local drink at kasbah oudaya",
-          "service": "Local Drink at Kasbah Oudaya",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway",
-            "SGA XMKC",
-            "SGA XMPE"
-          ],
-          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P6; P10",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Drink at Kasbah Oudaya",
-            "Prod Id": "a1HVk000000aBn0MAE",
-            "Package PCs": "Snacks & Drinks; Snacks & Drinks (Crew)",
-            "ST PCs missing on Prod": "Per person",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Snacks & Drinks 15.0 MAD [FIT]; Snacks & Drinks (Crew) 0.0 MAD [FIT]; Snacks & Drinks 15.0 MAD [All Group Series]; Snacks & Drinks (Crew) 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P6; P10"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBn0MAE",
-          "priceCompare": [
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Snacks & Drinks 15.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Snacks & Drinks (Crew) 0.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Snacks & Drinks 15.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Snacks & Drinks (Crew) 0.0 MAD [All Group Series]"
-            }
-          ],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Drink at Kasbah Oudaya",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Snacks & Drinks; Snacks & Drinks (Crew)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Drink at Kasbah Oudaya",
-              "prodPc": ""
-            },
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "NOT LISTED",
-              "prodName": "Local Drink at Kasbah Oudaya",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
-          "id": "P4::local guide - half day chefchaouen",
-          "service": "Local Guide - Half Day Chefchaouen",
-          "packages": [
-            "C1 Blue North Gateway",
-            "SGA XMFB",
-            "SGA XMFP",
-            "SGA XMPE"
-          ],
-          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P6; P10",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide - Half Day Chefchaouen",
-            "Prod Id": "a1HVk000000aBpqMAE",
-            "Package PCs": "Per Person",
-            "ST PCs missing on Prod": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Group Per Day (Non-Banded) 400.0 MAD [FIT]; Per Group Per Day (Non-Banded) 350.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 400.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P6; P10"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBpqMAE",
-          "priceCompare": [
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Per Group Per Day (Non-Banded) 400.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Per Group Per Day (Non-Banded) 350.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Per Group Per Day (Non-Banded) 400.0 MAD [All Group Series]"
-            }
-          ],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide - Half Day Chefchaouen",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Guide - Half Day Chefchaouen",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P4::local guide - sidi chamharouch walk",
           "service": "Local Guide - Sidi Chamharouch Walk",
           "packages": [
@@ -15905,89 +15710,6 @@ window.ISSUE_DATA = {
             "supplierName": "",
             "comment": ""
           }
-        },
-        {
-          "id": "P4::local guide casablanca - half day",
-          "service": "Local Guide Casablanca - Half Day",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway",
-            "SGA XMFK"
-          ],
-          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Casablanca - Half Day",
-            "Prod Id": "a1HVk000000aBqAMAU",
-            "Package PCs": "Per Group Per Day (Non-Banded)",
-            "ST PCs missing on Prod": "Per day",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Group Per Day (Non-Banded) 600.0 MAD [FIT]; Per Group Per Day (Non-Banded) 500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBqAMAU",
-          "priceCompare": [
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Per Group Per Day (Non-Banded) 600.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Per Group Per Day (Non-Banded) 500.0 MAD [All Group Series]"
-            }
-          ],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Casablanca - Half Day",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Group Per Day (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Guide Casablanca - Half Day",
-              "prodPc": "Per Group Per Day (Non-Banded)"
-            },
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "CHECK",
-              "prodName": "Local Guide Casablanca - Half Day",
-              "prodPc": "Per Group Per Day (Non-Banded)"
-            }
-          ]
         },
         {
           "id": "P4::local guide dades-half day",
@@ -16200,7 +15922,6 @@ window.ISSUE_DATA = {
           "id": "P4::local guide half day fes",
           "service": "Local Guide Half Day Fes",
           "packages": [
-            "C1 Blue North Gateway",
             "SGA XMFB",
             "SGA XMFK",
             "SGA XMFP",
@@ -16215,24 +15936,24 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
-            "TM package": "C1 Blue North Gateway",
+            "TM package": "SGA XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Fes",
             "Prod Id": "a1HVk000000aBpfMAE",
-            "Package PCs": "Per Group",
-            "ST PCs missing on Prod": "Per Group",
+            "Package PCs": "Per Group Per Day",
+            "ST PCs missing on Prod": "Per Group Per Day",
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
             "Prod PCs priced": "Per Group Per Day (Non-Banded) 400.0 MAD [FIT]; Per Group Per Day (Non-Banded) 300.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 400.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
             {
-              "from": "Per Group",
+              "from": "Per Group Per Day",
               "value": "Per Group Per Day (Non-Banded)",
               "score": 92.0
             }
@@ -16249,9 +15970,9 @@ window.ISSUE_DATA = {
           "prodId": "a1HVk000000aBpfMAE",
           "priceCompare": [
             {
-              "pc": "Per Group",
+              "pc": "Per Group Per Day",
               "st": "—",
-              "prod": "Per Day (Non-Banded) 400.0 MAD [FIT]; Per Day (Non-Banded) 300.0 MAD [All Group Series]; Per Day (Non-Banded) 400.0 MAD [All Group Series]"
+              "prod": "(Non-Banded) 400.0 MAD [FIT]; (Non-Banded) 300.0 MAD [All Group Series]; (Non-Banded) 400.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "",
@@ -16260,7 +15981,7 @@ window.ISSUE_DATA = {
             "location": "",
             "businessUnit": "",
             "serviceType": "",
-            "priceCategory": "Per Group",
+            "priceCategory": "Per Group Per Day",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -16268,15 +15989,7 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Guide Half Day Fes",
-              "prodPc": ""
-            }
-          ]
+          }
         },
         {
           "id": "P4::local guide half day imlil",
@@ -16437,7 +16150,7 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P8; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "CAS to MAR - Train",
             "Prod exists": "Yes",
@@ -16447,12 +16160,12 @@ window.ISSUE_DATA = {
             "ST PCs": "Per Group; Per crew",
             "ST PCs missing on Prod": "Per Group; Per crew",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
             "ST prices": "Per Group 500 MAD [FIT] 2026-2027 All Year; Per crew 0 MAD [FIT] 2026-2027 All Year",
             "ST price dates": "1/1/2026  -  31/12/2027",
-            "Prod PCs priced": "Per Group Per Day (Non-Banded) 500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P8; P10"
+            "Prod PCs priced": "Per Group Per Day (Non-Banded) 500.0 MAD [FIT]; Per Group Per Day (Non-Banded) 500.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -16486,7 +16199,7 @@ window.ISSUE_DATA = {
             {
               "pc": "Per Group Per Day",
               "st": "—",
-              "prod": "(Non-Banded) 500.0 MAD [All Group Series]"
+              "prod": "(Non-Banded) 500.0 MAD [FIT]; (Non-Banded) 500.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "1/1/2026  -  31/12/2027",
@@ -16586,163 +16299,6 @@ window.ISSUE_DATA = {
             "Service already exist"
           ],
           "stCommentImport": "Service already exist"
-        },
-        {
-          "id": "P4::local guide half day rabat",
-          "service": "Local Guide Half Day Rabat",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway",
-            "SGA XMKC",
-            "SGA XMPE"
-          ],
-          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Half Day Rabat",
-            "Prod Id": "a1HVk000000aBpsMAE",
-            "Package PCs": "Per Group Per Day (Non-Banded)",
-            "ST PCs missing on Prod": "Per Group",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Group Per Day (Non-Banded) 600.0 MAD [FIT]; Per Group Per Day (Non-Banded) 600.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBpsMAE",
-          "priceCompare": [
-            {
-              "pc": "Per Group Per Day (Non-Banded)",
-              "st": "—",
-              "prod": "600.0 MAD [FIT]; 600.0 MAD [All Group Series]"
-            }
-          ],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Half Day Rabat",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Group Per Day (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Guide Half Day Rabat",
-              "prodPc": "Per Group Per Day (Non-Banded)"
-            },
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "CHECK",
-              "prodName": "Local Guide Half Day Rabat",
-              "prodPc": "Per Group Per Day (Non-Banded)"
-            }
-          ]
-        },
-        {
-          "id": "P4::local guide half day tangier",
-          "service": "Local Guide Half Day Tangier",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway",
-            "SGA XMFB"
-          ],
-          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Half Day Tangier",
-            "Prod Id": "a1HVk000001xjzpMAA",
-            "Package PCs": "Per Group Per Day (Non-Banded)",
-            "ST PCs missing on Prod": "Per Group",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Group Per Day (Non-Banded) 600.0 MAD [FIT]; Per Group Per Day (Non-Banded) 600.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000001xjzpMAA",
-          "priceCompare": [
-            {
-              "pc": "Per Group Per Day (Non-Banded)",
-              "st": "—",
-              "prod": "600.0 MAD [FIT]; 600.0 MAD [All Group Series]"
-            }
-          ],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Half Day Tangier",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Group Per Day (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "CHECK",
-              "prodName": "Local Guide Half Day Tangier",
-              "prodPc": ""
-            },
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "CHECK",
-              "prodName": "Local Guide Half Day Tangier",
-              "prodPc": ""
-            }
-          ]
         },
         {
           "id": "P4::local guide site visit volubilis",
@@ -17138,7 +16694,7 @@ window.ISSUE_DATA = {
             "The Blue North (Rev)"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P5",
+          "also": "",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -17152,8 +16708,7 @@ window.ISSUE_DATA = {
             "Gap": "FIT only",
             "ST prices": "Twin - Standard Room Pool View 1110 MAD [FIT] 2026-27 Low; Double - Standard Room Pool View 1110 MAD [FIT] 2026-27 Low; Single - Standard Room Pool View 980 MAD [FIT] 2026-27 Low; Twin - Standard Room Marina View 1310 MAD [FIT] 2026-27 Low; Double - Standard Room Marina View 1310 MAD [FIT] 2026-27 Low; Single - Standard Room Marina View 1180 MAD [FIT] 2026-27 Low; Leader Room Single - Standard 980 MAD [FIT] 2026-27 Low; City Tax 19.8 MAD [FIT] 2026-27 Low; Twin - Standard Room Pool View 1300 MAD [FIT] 2027 Medium; Double - Standard Room Pool View 1300 MAD [FIT] 2027 Medium; Single - Standard Room Pool View 1140 MAD [FIT] 2027 Medium; Twin - Standard Room Marina View 1500 MAD [FIT] 2027 Medium; Double - Standard Room Marina View 1500 MAD [FIT] 2027 Medium; Single - Standard Room Marina View 1340 MAD [FIT] 2027 Medium; Leader Room Single - Standard 1140 MAD [FIT] 2027 Medium; City Tax 19.8 MAD [FIT] 2027 Medium; Twin - Standard Room Pool View 1580 MAD [FIT] 2027 High; Double - Standard Room Pool View 1580 MAD [FIT] 2027 High; Single - Standard Room Pool View 1390 MAD [FIT] 2027 High; Twin - Standard Room Marina View 1830 MAD [FIT] 2027 High; Double - Standard Room Marina View 1830 MAD [FIT] 2027 High; Single - Standard Room Marina View 1640 MAD [FIT] 2027 High; Leader Room Single - Standard 1390 MAD [FIT] 2027 High; City Tax 19.8 MAD [FIT] 2027 High; Twin - Standard Room Pool View 1070 MAD [FIT] 2026 Low; Double - Standard Room Pool View 1070 MAD [FIT] 2026 Low; Single - Standard Room Pool View 920 MAD [FIT] 2026 Low; Twin - Standard Room Marina View 1270 MAD [FIT] 2026 Low; Double - Standard Room Marina View 1270 MAD [FIT] 2026 Low; Single - Standard Room Marina View 1180 MAD [FIT] 2026 Low; Leader Room Single - Standard 980 MAD [FIT] 2026 Low; City Tax 19.8 MAD [FIT] 2026 Low",
             "ST price dates": "01/07/2027 - 31/08/2027; 01/09/2026 - 31/10/2026; 01/11/2026 - 08/03/2027; 09/03/2027 - 30/06/2027\n01/09/2027 - 31/10/2027",
-            "Prod PCs priced": "Double Room - Standard (Marina View) 1310.0 MAD [FIT]; Double Room - Standard (Marina View) 1500.0 MAD [FIT]; Double Room - Standard (Marina View) 1830.0 MAD [FIT]; Twin Room - Standard (Marina View) 1310.0 MAD [FIT]; Twin Room - Standard (Marina View) 1500.0 MAD [FIT]; Twin Room - Standard (Marina View) 1830.0 MAD [FIT]; Single Room - Standard (Marina View) 1180.0 MAD [FIT]; Single Room - Standard (Marina View) 1340.0 MAD [FIT]; Single Room - Standard (Marina View) 1640.0 MAD [FIT]; Leader Single Room - Standard (Marina View) 1180.0 MAD [FIT]; Leader Single Room - Standard (Marina View) 1340.0 MAD [FIT]; Leader Single Room - Standard (Marina View) 1640.0 MAD [FIT]; (no PC) 19.8 MAD [FIT]; Twin Room - Standard (Pool View) 1110.0 MAD [FIT]; Twin Room - Standard (Pool View) 1300.0 MAD [FIT]; Twin Room - Standard (Pool View) 1580.0 MAD [FIT]; Double Room - Standard (Pool View) 1110.0 MAD [FIT]; Double Room - Standard (Pool View) 1300.0 MAD [FIT]; Double Room - Standard (Pool View) 1580.0 MAD [FIT]; Single Room - Standard (Pool View) 980.0 MAD [FIT]; Single Room - Standard (Pool View) 1140.0 MAD [FIT]; Single Room - Standard (Pool View) 1390.0 MAD [FIT]; Leader Single Room - Standard (Pool View) 980.0 MAD [FIT]; Leader Single Room - Standard (Pool View) 1140.0 MAD [FIT]; Leader Single Room - Standard (Pool View) 1390.0 MAD [FIT]",
-            "Also listed in": "Also listed in P5"
+            "Prod PCs priced": "Double Room - Standard (Marina View) 1310.0 MAD [FIT]; Double Room - Standard (Marina View) 1500.0 MAD [FIT]; Double Room - Standard (Marina View) 1830.0 MAD [FIT]; Twin Room - Standard (Marina View) 1310.0 MAD [FIT]; Twin Room - Standard (Marina View) 1500.0 MAD [FIT]; Twin Room - Standard (Marina View) 1830.0 MAD [FIT]; Single Room - Standard (Marina View) 1180.0 MAD [FIT]; Single Room - Standard (Marina View) 1340.0 MAD [FIT]; Single Room - Standard (Marina View) 1640.0 MAD [FIT]; Leader Single Room - Standard (Marina View) 1180.0 MAD [FIT]; Leader Single Room - Standard (Marina View) 1340.0 MAD [FIT]; Leader Single Room - Standard (Marina View) 1640.0 MAD [FIT]; (no PC) 19.8 MAD [FIT]; Twin Room - Standard (Pool View) 1110.0 MAD [FIT]; Twin Room - Standard (Pool View) 1300.0 MAD [FIT]; Twin Room - Standard (Pool View) 1580.0 MAD [FIT]; Double Room - Standard (Pool View) 1110.0 MAD [FIT]; Double Room - Standard (Pool View) 1300.0 MAD [FIT]; Double Room - Standard (Pool View) 1580.0 MAD [FIT]; Single Room - Standard (Pool View) 980.0 MAD [FIT]; Single Room - Standard (Pool View) 1140.0 MAD [FIT]; Single Room - Standard (Pool View) 1390.0 MAD [FIT]; Leader Single Room - Standard (Pool View) 980.0 MAD [FIT]; Leader Single Room - Standard (Pool View) 1140.0 MAD [FIT]; Leader Single Room - Standard (Pool View) 1390.0 MAD [FIT]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -17351,12 +16906,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service does not exist in Kaptio",
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Service Template",
-              "prodName": "",
-              "prodPc": ""
-            },
-            {
               "package": "Atlantic Imperials (Rev)",
               "note": "Use Service Template",
               "prodName": "",
@@ -17372,7 +16921,7 @@ window.ISSUE_DATA = {
             "SGA XMPM"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P6",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPE",
             "Prod exists": "Yes",
@@ -17381,10 +16930,9 @@ window.ISSUE_DATA = {
             "Package PCs": "Deluxe Double; Deluxe Twin; Leader Roon Single; Single Twin",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Deluxe Double 1848.67 MAD [All Group Series]; Deluxe Twin 1848.67 MAD [All Group Series]; Single Twin 1678.94 MAD [All Group Series]; Leader Roon Single 500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P6"
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Deluxe Double 2310.83 MAD [FIT]; Deluxe Twin 2310.83 MAD [FIT]; Deluxe Single 2098.67 MAD [FIT]; Leader Roon Single 625.0 MAD [FIT]; Deluxe Double 1848.67 MAD [All Group Series]; Deluxe Twin 1848.67 MAD [All Group Series]; Deluxe Single 1678.94 MAD [All Group Series]; Leader Roon Single 500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -17400,7 +16948,7 @@ window.ISSUE_DATA = {
             },
             {
               "from": "Single Room",
-              "value": "Single Twin",
+              "value": "Deluxe Single",
               "score": 58.0
             },
             {
@@ -17421,24 +16969,44 @@ window.ISSUE_DATA = {
           "prodId": "a1HVk000002jIhBMAU",
           "priceCompare": [
             {
-              "pc": "Deluxe Double",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "1848.67 MAD [All Group Series]"
+              "prod": "Deluxe Double 2310.83 MAD [FIT]"
             },
             {
-              "pc": "Deluxe Twin",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "1848.67 MAD [All Group Series]"
+              "prod": "Deluxe Twin 2310.83 MAD [FIT]"
             },
             {
-              "pc": "Leader Roon Single",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "500.0 MAD [All Group Series]"
+              "prod": "Deluxe Single 2098.67 MAD [FIT]"
             },
             {
-              "pc": "Single Twin",
+              "pc": "(Prod)",
               "st": "—",
-              "prod": "1678.94 MAD [All Group Series]"
+              "prod": "Leader Roon Single 625.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Deluxe Double 1848.67 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Deluxe Twin 1848.67 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Deluxe Single 1678.94 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Roon Single 500.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "",
@@ -19171,7 +18739,8 @@ window.ISSUE_DATA = {
           "id": "P4::rabat to tangier private transfer",
           "service": "Rabat to Tangier Private Transfer",
           "packages": [
-            "Atlantic Imperials (Rev)"
+            "Atlantic Imperials (Rev)",
+            "C1 Blue North Gateway"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
           "also": "Also listed in P1",
@@ -19245,9 +18814,9 @@ window.ISSUE_DATA = {
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Double - Standard Room 1100.0 MAD [All Group Series]; Twin - Standard Room 1100.0 MAD [All Group Series]; Single - Standard Room 1100.0 MAD [All Group Series]; Double for Single Use 1100.0 MAD [All Group Series]; Leader Single - Standard Room 0.0 MAD [All Group Series]; Double - Standard Room 1150.0 MAD [All Group Series]; Twin - Standard Room 1150.0 MAD [All Group Series]; Triple - Standard Room 1500.0 MAD [All Group Series]; Quad - Standard Room 1800.0 MAD [All Group Series]"
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Double - Standard Room 1100.0 MAD [All Group Series]; Twin - Standard Room 1100.0 MAD [All Group Series]; Single - Standard Room 1100.0 MAD [All Group Series]; Double for Single Use 1100.0 MAD [All Group Series]; Leader Single - Standard Room 0.0 MAD [All Group Series]; Double - Standard Room 1150.0 MAD [FIT]; Twin - Standard Room 1150.0 MAD [FIT]; Single - Standard Room 1100.0 MAD [FIT]; Double for Single Use 1100.0 MAD [FIT]; Triple - Standard Room 1500.0 MAD [FIT]; Quad - Standard Room 1800.0 MAD [FIT]; Leader Single - Standard Room 0.0 MAD [FIT]; Double - Standard Room 1150.0 MAD [All Group Series]; Twin - Standard Room 1150.0 MAD [All Group Series]; Triple - Standard Room 1500.0 MAD [All Group Series]; Quad - Standard Room 1800.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -19311,6 +18880,41 @@ window.ISSUE_DATA = {
             {
               "pc": "(Prod)",
               "st": "—",
+              "prod": "Double - Standard Room 1150.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room 1150.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room 1100.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double for Single Use 1100.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Standard Room 1500.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Quad - Standard Room 1800.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Single - Standard Room 0.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
               "prod": "Double - Standard Room 1150.0 MAD [All Group Series]"
             },
             {
@@ -19361,9 +18965,9 @@ window.ISSUE_DATA = {
             "Package PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 950.0 MAD [All Group Series]; Single - Standard Room 850.0 MAD [All Group Series]; Double - Standard Room 950.0 MAD [All Group Series]; Triple - Standard Room 1200.0 MAD [All Group Series]; Quad - Standard Room 1600.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin - Standard Room 990.0 MAD [All Group Series]; Double - Standard Room 990.0 MAD [All Group Series]; Single - Standard Room 880.0 MAD [All Group Series]; Double for Single Use 990.0 MAD [All Group Series]; Triple - Standard Room 1280.0 MAD [All Group Series]; Quad - Standard Room 1680.0 MAD [All Group Series]; Leader Room Single ( 3 Room Booked ) 459.0 MAD [All Group Series]; Leader Room Single ( 4 Room or more ) 0.0 MAD [All Group Series]; Twin - Standard Room 970.0 MAD [All Group Series]; Double - Standard Room 970.0 MAD [All Group Series]; Single - Standard Room 870.0 MAD [All Group Series]; Double for Single Use 870.0 MAD [All Group Series]; Triple - Standard Room 1240.0 MAD [All Group Series]; Quad - Standard Room 1640.0 MAD [All Group Series]"
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Twin - Standard Room 1212.5 MAD [FIT]; Double - Standard Room 1212.5 MAD [FIT]; Single - Standard Room 1087.5 MAD [FIT]; Double for Single Use 1087.5 MAD [FIT]; Triple - Standard Room 1550.0 MAD [FIT]; Quad - Standard Room 2050.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Twin - Standard Room 950.0 MAD [All Group Series]; Single - Standard Room 850.0 MAD [All Group Series]; Double - Standard Room 950.0 MAD [All Group Series]; Triple - Standard Room 1200.0 MAD [All Group Series]; Quad - Standard Room 1600.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin - Standard Room 990.0 MAD [All Group Series]; Double - Standard Room 990.0 MAD [All Group Series]; Single - Standard Room 880.0 MAD [All Group Series]; Double for Single Use 990.0 MAD [All Group Series]; Triple - Standard Room 1280.0 MAD [All Group Series]; Quad - Standard Room 1680.0 MAD [All Group Series]; Leader Room Single ( 3 Room Booked ) 459.0 MAD [All Group Series]; Leader Room Single ( 4 Room or more ) 0.0 MAD [All Group Series]; Twin - Standard Room 970.0 MAD [All Group Series]; Double - Standard Room 970.0 MAD [All Group Series]; Single - Standard Room 870.0 MAD [All Group Series]; Double for Single Use 870.0 MAD [All Group Series]; Triple - Standard Room 1240.0 MAD [All Group Series]; Quad - Standard Room 1640.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -19402,22 +19006,37 @@ window.ISSUE_DATA = {
             {
               "pc": "Double - Standard Room",
               "st": "—",
-              "prod": "950.0 MAD [All Group Series]; 990.0 MAD [All Group Series]; 970.0 MAD [All Group Series]"
+              "prod": "1212.5 MAD [FIT]; 950.0 MAD [All Group Series]; 990.0 MAD [All Group Series]; 970.0 MAD [All Group Series]"
             },
             {
               "pc": "Leader Room Single - Standard",
               "st": "—",
-              "prod": "0.0 MAD [All Group Series]"
+              "prod": "0.0 MAD [FIT]; 0.0 MAD [All Group Series]"
             },
             {
               "pc": "Single - Standard Room",
               "st": "—",
-              "prod": "850.0 MAD [All Group Series]; 880.0 MAD [All Group Series]; 870.0 MAD [All Group Series]"
+              "prod": "1087.5 MAD [FIT]; 850.0 MAD [All Group Series]; 880.0 MAD [All Group Series]; 870.0 MAD [All Group Series]"
             },
             {
               "pc": "Twin - Standard Room",
               "st": "—",
-              "prod": "950.0 MAD [All Group Series]; 990.0 MAD [All Group Series]; 970.0 MAD [All Group Series]"
+              "prod": "1212.5 MAD [FIT]; 950.0 MAD [All Group Series]; 990.0 MAD [All Group Series]; 970.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double for Single Use 1087.5 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Standard Room 1550.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Quad - Standard Room 2050.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
@@ -19915,116 +19534,6 @@ window.ISSUE_DATA = {
             "Service Already Exist"
           ],
           "stCommentImport": "Service Already Exist"
-        },
-        {
-          "id": "P4::riad cherifa",
-          "service": "Riad Cherifa",
-          "packages": [
-            "C1 Blue North Gateway"
-          ],
-          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Riad Cherifa",
-            "Prod Id": "a1HVk000002P8dxMAC",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "ST PCs missing on Prod": "Double Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Standard - Double Room 1330.0 MAD [FIT]; Standard - Twin Room 1330.0 MAD [FIT]; Standard - Single Room 1030.0 MAD [FIT]; Leader Single Room 0.0 MAD [FIT]; Standard - Double Room 1330.0 MAD [All Group Series]; Standard - Twin Room 1330.0 MAD [All Group Series]; Standard - Single Room 1030.0 MAD [All Group Series]; Leader Single Room 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Standard - Double Room",
-              "score": 92.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Single Room",
-              "score": 92.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Standard - Twin Room",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000002P8dxMAC",
-          "priceCompare": [
-            {
-              "pc": "Leader Single Room",
-              "st": "—",
-              "prod": "0.0 MAD [FIT]; 0.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Standard - Double Room 1330.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Standard - Twin Room 1330.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Standard - Single Room 1030.0 MAD [FIT]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Standard - Double Room 1330.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Standard - Twin Room 1330.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Standard - Single Room 1030.0 MAD [All Group Series]"
-            }
-          ],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Riad Cherifa",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Riad Cherifa",
-              "prodPc": ""
-            }
-          ]
         },
         {
           "id": "P4::riad dilar - bb",
@@ -21074,12 +20583,14 @@ window.ISSUE_DATA = {
           "id": "P4::tangier port to chefchaouen private transfer",
           "service": "Tangier Port to Chefchaouen Private Transfer",
           "packages": [
+            "C1 Blue North Gateway",
+            "The Blue North",
             "SGA XMSC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "",
+          "also": "Also listed in P1",
           "fields": {
-            "TM package": "SGA XMSC",
+            "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Tangier Port to Chefchaouen Private Transfer",
             "Prod Id": "a1HVk000000aBucMAE",
@@ -21088,7 +20599,8 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Vehicle (Banded) Max 7 1450.0 MAD [FIT]; Per Vehicle (Banded) Max 15 1600.0 MAD [FIT]; Per Vehicle (Banded) Max 16 1750.0 MAD [FIT]; Per Vehicle (Banded) Max 7 1450.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 1600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 1750.0 MAD [All Group Series]"
+            "Prod PCs priced": "Per Vehicle (Banded) Max 7 1450.0 MAD [FIT]; Per Vehicle (Banded) Max 15 1600.0 MAD [FIT]; Per Vehicle (Banded) Max 16 1750.0 MAD [FIT]; Per Vehicle (Banded) Max 7 1450.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 1600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 1750.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P1"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -21129,7 +20641,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "CHECK",
+              "prodName": "Tangier to Chefchaouen Private transfer",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P4::tangier to chefchaouen private transfer",
@@ -22659,7 +22179,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "ST supplier does not match Prod. Pick the Prod account, keep ST, or No if a different / new account is needed.",
       "choice": "supplier",
-      "count": 8,
+      "count": 6,
       "issues": [
         {
           "id": "P5::2 ciels luxury boutique",
@@ -22714,68 +22234,6 @@ window.ISSUE_DATA = {
             "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
           ],
           "stCommentImport": "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
-        },
-        {
-          "id": "P5::cheese tasting",
-          "service": "Cheese Tasting",
-          "packages": [
-            "The Blue North"
-          ],
-          "action": "ST supplier does not match the Prod supplier. Confirm which account this service should use.",
-          "also": "Also listed in P8; P9",
-          "fields": {
-            "TM package": "The Blue North",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod supplier": "DMC Europe West - Cash Paid Services",
-            "Match type": "Different account",
-            "Prod exists": "Yes",
-            "Prod Name": "Cheese tasting",
-            "Prod Id": "a1HVk000000wKcfMAE",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
-            "Also listed in": "Also listed in P8; P9"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "DMC Europe West - Cash Paid Services",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000wKcfMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Cheese Tasting",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist",
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "Use Prod",
-              "prodName": "Goat Cheese Tasting",
-              "prodPc": ""
-            }
-          ]
         },
         {
           "id": "P5::executive boutique hotel rabat",
@@ -22833,12 +22291,6 @@ window.ISSUE_DATA = {
           ],
           "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT",
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Executive Boutique Hotel Rabat",
-              "prodPc": "Twin - Standard Room"
-            },
             {
               "package": "Atlantic Imperials (Rev)",
               "note": "Use Prod",
@@ -22962,76 +22414,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Already loaded in Kaptio for 2026 / 2027"
         },
         {
-          "id": "P5::marina bay city center",
-          "service": "Marina Bay City Center",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway",
-            "The Blue North (Rev)"
-          ],
-          "action": "ST supplier does not match the Prod supplier. Confirm which account this service should use.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "ST supplier": "Marina Bay City Center",
-            "Prod supplier": "Experiencah",
-            "Match type": "Different account",
-            "Prod exists": "Yes",
-            "Prod Name": "Marina Bay City Center",
-            "Prod Id": "a1HSo00000Bi46PMAR",
-            "Active price": "Yes",
-            "Price kind": "FIT",
-            "Gap": "FIT only",
-            "Also listed in": "Also listed in P4"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "Marina Bay City Center",
-          "prodSupplier": "Experiencah",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HSo00000Bi46PMAR",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marina Bay City Center",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Marina Bay City Center",
-            "comment": "Service does not exist in Kaptio"
-          },
-          "stComments": [
-            "Service does not exist in Kaptio"
-          ],
-          "stCommentImport": "Service does not exist in Kaptio",
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Service Template",
-              "prodName": "",
-              "prodPc": ""
-            },
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "Use Service Template",
-              "prodName": "",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P5::mia hotel - fes",
           "service": "Mia Hotel - Fes",
           "packages": [
@@ -23092,12 +22474,6 @@ window.ISSUE_DATA = {
           ],
           "stCommentImport": "Service exists in Kaptio",
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Service Template",
-              "prodName": "",
-              "prodPc": ""
-            },
             {
               "package": "The Blue North",
               "note": "Use Service Template",
@@ -23172,7 +22548,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "Only package occupancies that are not on Prod and not on the Service Template. This tab blocks Ready until every card is Yes or No. Yes = create those package PCs. Occupancies that already exist on Prod or ST are not listed — ST names used on the package are created from ST.",
       "choice": "pc-map",
-      "count": 23,
+      "count": 18,
       "issues": [
         {
           "id": "P6::aday hotel",
@@ -23315,7 +22691,7 @@ window.ISSUE_DATA = {
             "Atlantic Imperials"
           ],
           "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
-          "also": "Also listed in P1",
+          "also": "Also listed in P1; P4",
           "fields": {
             "TM package": "Atlantic Imperials",
             "Prod exists": "Yes",
@@ -23324,10 +22700,11 @@ window.ISSUE_DATA = {
             "Package PCs": "Per Group",
             "Suggested PC map": "Per Group → create new",
             "PC issue": "Package PC not on Prod or ST: Per Group",
+            "ST PCs missing on Prod": "Per Group",
             "Active price": "Yes",
             "Gap": "OK — FIT and Group Tour",
             "Prod PCs priced": "Per Person 50.0 MAD [FIT]; Per Crew 50.0 MAD [FIT]; Per Person 50.0 MAD [All Group Series]; Per Crew 50.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Also listed in": "Also listed in P1; P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -23365,12 +22742,6 @@ window.ISSUE_DATA = {
           },
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "CAP Spartel",
-              "prodPc": ""
-            },
-            {
               "package": "Atlantic Imperials (Rev)",
               "note": "Use Prod",
               "prodName": "CAP Spartel",
@@ -23396,8 +22767,8 @@ window.ISSUE_DATA = {
             "PC issue": "Package PC not on Prod or ST: Transport (Per Person)",
             "ST PCs missing on Prod": "Transport (Per Person)",
             "Active price": "Yes",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Unit (Max 02, Non-Banded) 350.0 MAD [All Group Series]; Per Unit (Max 05, Non-Banded) 500.0 MAD [All Group Series]; Per Unit (Max 12, Non-Banded) 570.0 MAD [All Group Series]",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Per Unit (Max 02, Non-Banded) 385.0 MAD [FIT]; Per Unit (Max 05, Non-Banded) 550.0 MAD [FIT]; Per Unit (Max 12, Non-Banded) 627.0 MAD [FIT]; Per Unit (Max 02, Non-Banded) 385.0 MAD [All Group Series]; Per Unit (Max 05, Non-Banded) 550.0 MAD [All Group Series]; Per Unit (Max 12, Non-Banded) 627.0 MAD [All Group Series]; Per Unit (Max 02, Non-Banded) 350.0 MAD [All Group Series]; Per Unit (Max 05, Non-Banded) 500.0 MAD [All Group Series]; Per Unit (Max 12, Non-Banded) 570.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4; P10"
           },
           "fuzzyService": [],
@@ -23557,83 +22928,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P6::casablanca to rabat private transfer",
-          "service": "Casablanca to Rabat Private Transfer",
-          "packages": [
-            "C1 Blue North Gateway"
-          ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
-          "also": "Also listed in P1; P4",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca to Rabat Private Transfer",
-            "Prod Id": "a1HSo00000BiMxlMAF",
-            "Package PCs": "Per Day",
-            "Suggested PC map": "Per Day → create new",
-            "PC issue": "Package PC not on Prod or ST: Per Day",
-            "ST PCs missing on Prod": "Per Day; Per Unit",
-            "Active price": "Yes",
-            "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Unit (Max 8) 2200.0 MAD [FIT]; Per Unit (Max 14) 2650.0 MAD [FIT]; Per Unit (Max 17) 2900.0 MAD [FIT]; Per Unit (Max 27) 3900.0 MAD [FIT]; Per Unit (Max 8) 2200.0 MAD [All Group Series]; Per Unit (Max 14) 2650.0 MAD [All Group Series]; Per Unit (Max 17) 2900.0 MAD [All Group Series]; Per Unit (Max 27) 3900.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P4"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [
-            {
-              "from": "Per Day",
-              "value": "create new",
-              "score": null
-            }
-          ],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HSo00000BiMxlMAF",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca to Rabat Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Day",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "NOT LISTED",
-              "prodName": "",
-              "prodPc": ""
-            },
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "NOT LISTED",
-              "prodName": "",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P6::golden camp",
           "service": "Golden Camp",
           "packages": [
@@ -23781,7 +23075,7 @@ window.ISSUE_DATA = {
             "The Sahara Loop"
           ],
           "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
-          "also": "Also listed in P8",
+          "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
@@ -23792,9 +23086,8 @@ window.ISSUE_DATA = {
             "Suggested PC map": "Per Group → create new",
             "PC issue": "Package PC not on Prod or ST: Per Group",
             "Active price": "Yes",
-            "Gap": "Group Tour only — no FIT",
-            "Prod PCs priced": "Per Person 0.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P8"
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Per Person 0.0 MAD [FIT]; Per Crew 0.0 MAD [FIT]; Per Person 0.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -23834,215 +23127,6 @@ window.ISSUE_DATA = {
             "Service already exist"
           ],
           "stCommentImport": "Service already exist"
-        },
-        {
-          "id": "P6::local drink at kasbah oudaya",
-          "service": "Local Drink at Kasbah Oudaya",
-          "packages": [
-            "C1 Blue North Gateway"
-          ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
-          "also": "Also listed in P1; P4; P10",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Drink at Kasbah Oudaya",
-            "Prod Id": "a1HVk000000aBn0MAE",
-            "Package PCs": "Per person",
-            "Suggested PC map": "Per person → create new",
-            "PC issue": "Package PC not on Prod or ST: Per person",
-            "ST PCs missing on Prod": "Per person",
-            "Active price": "Yes",
-            "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Snacks & Drinks 15.0 MAD [FIT]; Snacks & Drinks (Crew) 0.0 MAD [FIT]; Snacks & Drinks 15.0 MAD [All Group Series]; Snacks & Drinks (Crew) 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P4; P10"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [
-            {
-              "from": "Per person",
-              "value": "create new",
-              "score": null
-            }
-          ],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBn0MAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Drink at Kasbah Oudaya",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Drink at Kasbah Oudaya",
-              "prodPc": ""
-            },
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "NOT LISTED",
-              "prodName": "Local Drink at Kasbah Oudaya",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
-          "id": "P6::local guide - half day chefchaouen",
-          "service": "Local Guide - Half Day Chefchaouen",
-          "packages": [
-            "C1 Blue North Gateway"
-          ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
-          "also": "Also listed in P1; P4; P10",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide - Half Day Chefchaouen",
-            "Prod Id": "a1HVk000000aBpqMAE",
-            "Package PCs": "Per Person",
-            "Suggested PC map": "Per Person → create new",
-            "PC issue": "Package PC not on Prod or ST: Per Person",
-            "ST PCs missing on Prod": "Per Person",
-            "Active price": "Yes",
-            "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Group Per Day (Non-Banded) 400.0 MAD [FIT]; Per Group Per Day (Non-Banded) 350.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 400.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P4; P10"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [
-            {
-              "from": "Per Person",
-              "value": "create new",
-              "score": null
-            }
-          ],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBpqMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide - Half Day Chefchaouen",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Guide - Half Day Chefchaouen",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
-          "id": "P6::local guide chefchaouen",
-          "service": "Local guide Chefchaouen",
-          "packages": [
-            "The Blue North"
-          ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
-          "also": "Also listed in P2",
-          "fields": {
-            "TM package": "The Blue North",
-            "Prod exists": "No",
-            "Package PCs": "Per Person",
-            "ST PCs": "Per Crew; Per Group",
-            "Suggested PC map": "Per Person → create new",
-            "PC issue": "Package PC not on Prod or ST: Per Person",
-            "ST PCs missing on Prod": "Per Crew; Per Group",
-            "Active price": "No",
-            "Gap": "Not on Prod",
-            "Also listed in": "Also listed in P2"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [
-            {
-              "from": "Per Person",
-              "value": "create new",
-              "score": null
-            }
-          ],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local guide Chefchaouen",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist",
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "CHECK",
-              "prodName": "Local Guide - Chefchaouen",
-              "prodPc": ""
-            }
-          ]
         },
         {
           "id": "P6::local guide marrakech",
@@ -24158,99 +23242,6 @@ window.ISSUE_DATA = {
             "businessUnit": "",
             "serviceType": "",
             "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P6::marly boutique hotel",
-          "service": "MARLY BOUTIQUE HOTEL",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod exists": "Yes",
-            "Prod Name": "MARLY BOUTIQUE HOTEL",
-            "Prod Id": "a1HVk000002jIhBMAU",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Suggested PC map": "Double Room → create new; Leader Single Room → create new; Single Room → create new; Twin Room → create new",
-            "PC issue": "Package PC not on Prod or ST: Single Room",
-            "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Deluxe Double 1848.67 MAD [All Group Series]; Deluxe Twin 1848.67 MAD [All Group Series]; Single Twin 1678.94 MAD [All Group Series]; Leader Roon Single 500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P4"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Deluxe Double",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Roon Single",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single Twin",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Deluxe Twin",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [
-            {
-              "from": "Double Room",
-              "value": "create new",
-              "score": null
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "create new",
-              "score": null
-            },
-            {
-              "from": "Single Room",
-              "value": "create new",
-              "score": null
-            },
-            {
-              "from": "Twin Room",
-              "value": "create new",
-              "score": null
-            }
-          ],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000002jIhBMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "MARLY BOUTIQUE HOTEL",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -24388,7 +23379,7 @@ window.ISSUE_DATA = {
           "fields": {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "No",
-            "Package PCs": "Per Group",
+            "Package PCs": "Per Crew; Per Group",
             "ST PCs": "Per Crew; Per Person",
             "Suggested PC map": "Per Group → create new",
             "PC issue": "Package PC not on Prod or ST: Per Group",
@@ -24422,7 +23413,7 @@ window.ISSUE_DATA = {
             "location": "",
             "businessUnit": "",
             "serviceType": "",
-            "priceCategory": "Per Group",
+            "priceCategory": "Per Crew; Per Group",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -24436,12 +23427,6 @@ window.ISSUE_DATA = {
           ],
           "stCommentImport": "Service already exist",
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Medersa Attarine Fes",
-              "prodPc": ""
-            },
             {
               "package": "The Blue North",
               "note": "Use Prod",
@@ -24761,7 +23746,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "Prod has Group Tour pricing only. Yes = FIT is required (FIT prices will be added). No = Group Tour only is fine; no FIT will be added.",
       "choice": "yesno",
-      "count": 37,
+      "count": 32,
       "issues": [
         {
           "id": "P8::atlas film studio visit",
@@ -25033,67 +24018,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026"
         },
         {
-          "id": "P8::cheese tasting",
-          "service": "Cheese Tasting",
-          "packages": [
-            "The Blue North"
-          ],
-          "action": "Prod has Group Tour pricing only. Add FIT prices if FIT is required; otherwise this can stay.",
-          "also": "Also listed in P5; P9",
-          "fields": {
-            "TM package": "The Blue North",
-            "Prod exists": "Yes",
-            "Prod Name": "Cheese tasting",
-            "Prod Id": "a1HVk000000wKcfMAE",
-            "Package PCs": "Per Person",
-            "ST PCs": "Per Crew; Per Person",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
-            "Prod PCs priced": "Per Person 15.0 EUR [All Group Series]; Per Crew 15.0 EUR [All Group Series]",
-            "Also listed in": "Also listed in P5; P9"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000wKcfMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Cheese Tasting",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist",
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "Use Prod",
-              "prodName": "Goat Cheese Tasting",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P8::cote ocean mogador hotel",
           "service": "Cote Ocean Mogador Hotel",
           "packages": [
@@ -25144,63 +24068,6 @@ window.ISSUE_DATA = {
             "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
           ],
           "stCommentImport": "Service exisitng in Kaptio. Same rates for IG anf FIT 2026/2027"
-        },
-        {
-          "id": "P8::etoile filante d'or hb",
-          "service": "Etoile Filante D'or HB",
-          "packages": [
-            "Draa & the deep desert",
-            "Marrakech & the high atlas",
-            "Sahara Crossing",
-            "Sahara crossing (Rev)",
-            "The Sahara Loop"
-          ],
-          "action": "Prod has Group Tour pricing only. Add FIT prices if FIT is required; otherwise this can stay.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "Draa & the deep desert",
-            "Prod exists": "Yes",
-            "Prod Name": "Etoile Filante D'or HB",
-            "Prod Id": "a1HVk000002LIdVMAW",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "ST PCs": "Crew Twin Room; Double for Single Use; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Standard - Triple Room; Twin - Twin Room",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
-            "Prod PCs priced": "Standard - Twin Room 330.0 MAD [All Group Series]; Standard - Double Room 330.0 MAD [All Group Series]; Double for Single Use 300.0 MAD [All Group Series]; Standard - Single Room 300.0 MAD [All Group Series]; Standard - Triple Room 495.0 MAD [All Group Series]; Leader Single Room 0.0 MAD [All Group Series]; Crew Twin Room 0.0 MAD [All Group Series]; Standard - Twin Room 380.0 MAD [All Group Series]; Standard - Double Room 380.0 MAD [All Group Series]; Standard - Triple Room 580.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P4"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000002LIdVMAW",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Etoile Filante D'or HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "Service exists in Kaptio. IG same as FIT rates"
-          },
-          "stComments": [
-            "Service exists in Kaptio. IG same as FIT rates"
-          ],
-          "stCommentImport": "Service exists in Kaptio. IG same as FIT rates"
         },
         {
           "id": "P8::hotel gomassine",
@@ -25633,63 +24500,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "The Service has been Already Loaded in Kaptio"
         },
         {
-          "id": "P8::kasbah ait benhaddou visit",
-          "service": "Kasbah Ait Benhaddou Visit",
-          "packages": [
-            "Draa & the deep desert",
-            "Marrakech & the high atlas",
-            "The Sahara Loop",
-            "SGA XMFK",
-            "SGA XMKN"
-          ],
-          "action": "Prod has Group Tour pricing only. Add FIT prices if FIT is required; otherwise this can stay.",
-          "also": "Also listed in P6",
-          "fields": {
-            "TM package": "Draa & the deep desert",
-            "Prod exists": "Yes",
-            "Prod Name": "Kasbah Ait Benhaddou Visit",
-            "Prod Id": "a1HVk000000aBx6MAE",
-            "Package PCs": "Per Group",
-            "ST PCs": "Per Crew; Per Person",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
-            "Prod PCs priced": "Per Person 0.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P6"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBx6MAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah Ait Benhaddou Visit",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
-        },
-        {
           "id": "P8::kasbah itrane",
           "service": "Kasbah Itrane",
           "packages": [
@@ -25996,73 +24806,6 @@ window.ISSUE_DATA = {
           "stPriceDates": "",
           "formDefaults": {
             "name": "Local Guide Half Day Imlil",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
-        },
-        {
-          "id": "P8::local guide half day marrakech",
-          "service": "Local Guide Half Day Marrakech",
-          "packages": [
-            "CAS to MAR - Train",
-            "MAR to CAS - Train",
-            "South Morocco with Agafay",
-            "SGA XMFB",
-            "SGA XMFE",
-            "SGA XMFK",
-            "SGA XMKC",
-            "SGA XMKN",
-            "SGA XMPE",
-            "SGA XMPM",
-            "SGA XMPX",
-            "SGA XMSB",
-            "SGA XMSC",
-            "SGA XMSS",
-            "SGA XMZF"
-          ],
-          "action": "Prod has Group Tour pricing only. Add FIT prices if FIT is required; otherwise this can stay.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "CAS to MAR - Train",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Half Day Marrakech",
-            "Prod Id": "a1HVk000000aBpiMAE",
-            "Package PCs": "Per Group",
-            "ST PCs": "Per Group; Per crew",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
-            "Prod PCs priced": "Per Group Per Day (Non-Banded) 500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P4; P10"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBpiMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Half Day Marrakech",
             "location": "",
             "businessUnit": "",
             "serviceType": "",
@@ -26740,66 +25483,6 @@ window.ISSUE_DATA = {
             "Service already in Kaptio with sames rates for IG and FIT for 2027"
           ],
           "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026"
-        },
-        {
-          "id": "P8::volubilis visit",
-          "service": "Volubilis Visit",
-          "packages": [
-            "The Imperial Table",
-            "SGA XMFP",
-            "SGA XMKC",
-            "SGA XMKN",
-            "SGA XMPE",
-            "SGA XMPM",
-            "SGA XMSB",
-            "SGA XMSC",
-            "SGA XMSS"
-          ],
-          "action": "Prod has Group Tour pricing only. Add FIT prices if FIT is required; otherwise this can stay.",
-          "also": "",
-          "fields": {
-            "TM package": "The Imperial Table",
-            "Prod exists": "Yes",
-            "Prod Name": "Volubilis Visit",
-            "Prod Id": "a1HVk000000aBpgMAE",
-            "Package PCs": "Per Person",
-            "ST PCs": "Per Crew; Per Person",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
-            "Prod PCs priced": "Per Person 100.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]; Sawadee - 2nd Leader 100.0 MAD [All Group Series]"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBpgMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Volubilis Visit",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
         }
       ]
     },
@@ -26810,7 +25493,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "ST/template location does not overlap Prod. Pick Prod, keep ST, or No if neither is right.",
       "choice": "location",
-      "count": 35,
+      "count": 33,
       "issues": [
         {
           "id": "P9::10 days xmfp private transfer",
@@ -27316,67 +25999,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P9::cheese tasting",
-          "service": "Cheese Tasting",
-          "packages": [
-            "The Blue North"
-          ],
-          "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P5; P8",
-          "fields": {
-            "TM package": "The Blue North",
-            "Prod exists": "Yes",
-            "Prod Name": "Cheese tasting",
-            "Prod Id": "a1HVk000000wKcfMAE",
-            "Gap": "Group Tour only — no FIT",
-            "Template location": "Chefcharouen",
-            "Prod location": "France",
-            "Template type": "Activity",
-            "Prod record type": "Activity",
-            "Also listed in": "Also listed in P5; P8"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefcharouen",
-          "prodLocation": "France",
-          "stType": "Activity",
-          "prodType": "Activity",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000wKcfMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Cheese Tasting",
-            "location": "Chefcharouen",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist",
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "Use Prod",
-              "prodName": "Goat Cheese Tasting",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P9::chefchaouen to essaouira xmsc private transfer",
           "service": "Chefchaouen to Essaouira XMSC Private Transfer",
           "packages": [
@@ -27478,13 +26100,12 @@ window.ISSUE_DATA = {
           "id": "P9::dar cherifa",
           "service": "Dar cherifa",
           "packages": [
-            "The Blue North",
             "The Blue North (Rev)"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
           "also": "Also listed in P4",
           "fields": {
-            "TM package": "The Blue North",
+            "TM package": "The Blue North (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Dar cherifa",
             "Prod Id": "a1HVk0000024Mf7MAE",
@@ -27734,83 +26355,15 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P9::hotel al walid",
-          "service": "Hotel Al Walid",
-          "packages": [
-            "C1 Blue North Gateway"
-          ],
-          "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel Al Walid",
-            "Prod Id": "a1HVk0000029ovhMAA",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Operational",
-            "Prod location": "Casablanca",
-            "Template type": "Operational",
-            "Prod record type": "Accommodation",
-            "Also listed in": "Also listed in P10"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Operational",
-          "prodLocation": "Casablanca",
-          "stType": "Operational",
-          "prodType": "Accommodation",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk0000029ovhMAA",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Al Walid",
-            "location": "Operational",
-            "businessUnit": "",
-            "serviceType": "Operational",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "The service has been already loaded in Kaptio with Group Series and FIT rates"
-          },
-          "stComments": [
-            "The service has been already loaded in Kaptio with Group Series and FIT rates"
-          ],
-          "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates",
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Hotel Al Walid",
-              "prodPc": "Leader Room Single - Standard"
-            },
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "Use Prod",
-              "prodName": "Hotel Al Walid",
-              "prodPc": "Leader Room Single - Standard"
-            }
-          ]
-        },
-        {
           "id": "P9::hotel parador",
           "service": "Hotel Parador",
           "packages": [
-            "The Blue North",
             "The Blue North (Rev)"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
           "also": "",
           "fields": {
-            "TM package": "The Blue North",
+            "TM package": "The Blue North (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Parador",
             "Prod Id": "a1HVk000000aBnwMAE",
@@ -27854,12 +26407,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027",
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Hotel Parador",
-              "prodPc": ""
-            },
-            {
               "package": "The Blue North",
               "note": "Use Prod",
               "prodName": "Hotel Parador",
@@ -27871,13 +26418,12 @@ window.ISSUE_DATA = {
           "id": "P9::hotel tarek",
           "service": "Hotel Tarek",
           "packages": [
-            "The Blue North",
             "The Blue North (Rev)"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
           "also": "Also listed in P4",
           "fields": {
-            "TM package": "The Blue North",
+            "TM package": "The Blue North (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Tarek",
             "Prod Id": "a1HSo00000Bi3DZMAZ",
@@ -27921,12 +26467,6 @@ window.ISSUE_DATA = {
           ],
           "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027",
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Service Template",
-              "prodName": "",
-              "prodPc": ""
-            },
             {
               "package": "The Blue North",
               "note": "Use Service Template",
@@ -27994,13 +26534,12 @@ window.ISSUE_DATA = {
           "id": "P9::kasbah chefchaouen",
           "service": "Kasbah Chefchaouen",
           "packages": [
-            "The Blue North",
             "The Blue North (Rev)"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
           "also": "",
           "fields": {
-            "TM package": "The Blue North",
+            "TM package": "The Blue North (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Kasbah Chefchaouen",
             "Prod Id": "a1HVk000000aBs0MAE",
@@ -28043,12 +26582,6 @@ window.ISSUE_DATA = {
           ],
           "stCommentImport": "Service already exist",
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "",
-              "prodPc": ""
-            },
             {
               "package": "The Blue North",
               "note": "NOT LISTED",
@@ -28659,7 +27192,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "Package/ST type has no overlap with the Prod record type. Pick Prod, keep ST, or No if both are wrong.",
       "choice": "type",
-      "count": 43,
+      "count": 42,
       "issues": [
         {
           "id": "P10::5 days package morocco expedition: women in focus hike",
@@ -28821,7 +27354,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Casablanca Airport to City Hotel Group Transfer",
             "Prod Id": "a1HVk000000aBsRMAU",
-            "Gap": "Group Tour only",
+            "Gap": "OK — FIT and Group Tour",
             "Template location": "Casablanca",
             "Prod location": "Casablanca",
             "Template type": "Airport Transfer",
@@ -28870,7 +27403,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Casablanca Airport to Hotel Private Transfer",
             "Prod Id": "a1HVk000000aBs5MAE",
-            "Gap": "Group Tour only",
+            "Gap": "OK — FIT and Group Tour",
             "Template location": "Casablanca",
             "Prod location": "Casablanca",
             "Template type": "Airport Transfer",
@@ -29104,11 +27637,10 @@ window.ISSUE_DATA = {
           "id": "P10::hotel al walid",
           "service": "Hotel Al Walid",
           "packages": [
-            "Atlantic shore",
-            "C1 Blue North Gateway"
+            "Atlantic shore"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P9",
+          "also": "",
           "fields": {
             "TM package": "Atlantic shore",
             "Prod exists": "Yes",
@@ -29118,8 +27650,7 @@ window.ISSUE_DATA = {
             "Template location": "Casablanca",
             "Prod location": "Casablanca",
             "Template type": "Operational",
-            "Prod record type": "Accommodation",
-            "Also listed in": "Also listed in P9"
+            "Prod record type": "Accommodation"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -29155,12 +27686,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates",
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Hotel Al Walid",
-              "prodPc": "Leader Room Single - Standard"
-            },
-            {
               "package": "Atlantic Imperials (Rev)",
               "note": "Use Prod",
               "prodName": "Hotel Al Walid",
@@ -29172,8 +27697,7 @@ window.ISSUE_DATA = {
           "id": "P10::hotel charf",
           "service": "Hotel Charf",
           "packages": [
-            "Atlantic Imperials",
-            "The Blue North"
+            "Atlantic Imperials"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
           "also": "Also listed in P4",
@@ -29223,12 +27747,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service exists in Kaptio",
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Hotel Charf",
-              "prodPc": ""
-            },
-            {
               "package": "Atlantic Imperials (Rev)",
               "note": "Use Prod",
               "prodName": "Hotel Charf",
@@ -29243,81 +27761,17 @@ window.ISSUE_DATA = {
           ]
         },
         {
-          "id": "P10::local drink at kasbah oudaya",
-          "service": "Local Drink at Kasbah Oudaya",
-          "packages": [
-            "C1 Blue North Gateway"
-          ],
-          "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4; P6",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Drink at Kasbah Oudaya",
-            "Prod Id": "a1HVk000000aBn0MAE",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Rabat",
-            "Prod location": "Rabat",
-            "Template type": "Activity",
-            "Prod record type": "Meal",
-            "Also listed in": "Also listed in P1; P4; P6"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Rabat",
-          "prodLocation": "Rabat",
-          "stType": "Activity",
-          "prodType": "Meal",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBn0MAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Drink at Kasbah Oudaya",
-            "location": "Rabat",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Drink at Kasbah Oudaya",
-              "prodPc": ""
-            },
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "NOT LISTED",
-              "prodName": "Local Drink at Kasbah Oudaya",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P10::local guide - half day chefchaouen",
           "service": "Local Guide - Half Day Chefchaouen",
           "packages": [
-            "C1 Blue North Gateway",
             "SGA XMFB",
             "SGA XMFP",
             "SGA XMPE"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4; P6",
+          "also": "Also listed in P1",
           "fields": {
-            "TM package": "C1 Blue North Gateway",
+            "TM package": "SGA XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide - Half Day Chefchaouen",
             "Prod Id": "a1HVk000000aBpqMAE",
@@ -29326,7 +27780,7 @@ window.ISSUE_DATA = {
             "Prod location": "Chefchaouen",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4; P6"
+            "Also listed in": "Also listed in P1"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -29358,9 +27812,9 @@ window.ISSUE_DATA = {
           },
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Guide - Half Day Chefchaouen",
+              "package": "The Blue North",
+              "note": "CHECK",
+              "prodName": "Local Guide - Chefchaouen",
               "prodPc": ""
             }
           ]
@@ -29475,7 +27929,7 @@ window.ISSUE_DATA = {
             "SGA XMFK"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P1",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -29486,7 +27940,7 @@ window.ISSUE_DATA = {
             "Prod location": "Casablanca",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P1"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -29517,12 +27971,6 @@ window.ISSUE_DATA = {
             "comment": ""
           },
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Guide Casablanca - Half Day",
-              "prodPc": "Per Group Per Day (Non-Banded)"
-            },
             {
               "package": "Atlantic Imperials (Rev)",
               "note": "CHECK",
@@ -29690,7 +28138,6 @@ window.ISSUE_DATA = {
           "id": "P10::local guide half day fes",
           "service": "Local Guide Half Day Fes",
           "packages": [
-            "C1 Blue North Gateway",
             "SGA XMFB",
             "SGA XMFK",
             "SGA XMFP",
@@ -29705,9 +28152,9 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
-            "TM package": "C1 Blue North Gateway",
+            "TM package": "SGA XMFB",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Fes",
             "Prod Id": "a1HVk000000aBpfMAE",
@@ -29716,7 +28163,7 @@ window.ISSUE_DATA = {
             "Prod location": "Fes",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -29745,15 +28192,7 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Guide Half Day Fes",
-              "prodPc": ""
-            }
-          ]
+          }
         },
         {
           "id": "P10::local guide half day imlil",
@@ -29880,18 +28319,18 @@ window.ISSUE_DATA = {
             "SGA XMZF"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P4; P8",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "CAS to MAR - Train",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Marrakech",
             "Prod Id": "a1HVk000000aBpiMAE",
-            "Gap": "Group Tour only — no FIT",
+            "Gap": "OK — FIT and Group Tour",
             "Template location": "Marrakech",
             "Prod location": "Marrakech",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P4; P8"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -29987,14 +28426,13 @@ window.ISSUE_DATA = {
           "id": "P10::local guide half day rabat",
           "service": "Local Guide Half Day Rabat",
           "packages": [
-            "C1 Blue North Gateway",
             "SGA XMKC",
             "SGA XMPE"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P1",
           "fields": {
-            "TM package": "C1 Blue North Gateway",
+            "TM package": "SGA XMKC",
             "Prod exists": "Yes",
             "Prod Name": "Local Guide Half Day Rabat",
             "Prod Id": "a1HVk000000aBpsMAE",
@@ -30003,7 +28441,7 @@ window.ISSUE_DATA = {
             "Prod location": "Rabat",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P1"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -30035,12 +28473,6 @@ window.ISSUE_DATA = {
           },
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Local Guide Half Day Rabat",
-              "prodPc": "Per Group Per Day (Non-Banded)"
-            },
-            {
               "package": "Atlantic Imperials (Rev)",
               "note": "CHECK",
               "prodName": "Local Guide Half Day Rabat",
@@ -30057,7 +28489,7 @@ window.ISSUE_DATA = {
             "SGA XMFB"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P1",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -30068,7 +28500,7 @@ window.ISSUE_DATA = {
             "Prod location": "Tangier",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P1"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -30099,12 +28531,6 @@ window.ISSUE_DATA = {
             "comment": ""
           },
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "CHECK",
-              "prodName": "Local Guide Half Day Tangier",
-              "prodPc": ""
-            },
             {
               "package": "Atlantic Imperials (Rev)",
               "note": "CHECK",
@@ -30714,12 +29140,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service exists in Kaptio",
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Service Template",
-              "prodName": "",
-              "prodPc": ""
-            },
-            {
               "package": "The Blue North",
               "note": "Use Service Template",
               "prodName": "",
@@ -30844,7 +29264,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "RT Bag - Morocco",
             "Prod Id": "a1HVk000000aBwoMAE",
-            "Gap": "Group Tour only",
+            "Gap": "OK — FIT and Group Tour",
             "Template location": "Morocco",
             "Prod location": "Morocco",
             "Template type": "Activity",
@@ -31093,7 +29513,7 @@ window.ISSUE_DATA = {
       "workbook": "agreements",
       "help": "No Prod agreement. Yes = create a new supplier agreement (fill the fields). No = not needed for this service.",
       "choice": "sa-create",
-      "count": 185,
+      "count": 157,
       "issues": [
         {
           "id": "SA1::1 hour surf lesson",
@@ -31138,52 +29558,6 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Hotel Ocean Vagabond",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::10 days xmfp private transfer",
-          "service": "10 Days XMFP Private Transfer",
-          "packages": [
-            "SGA XMFP"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod supplier": "Ouhra Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "10 Days XMFP Private Transfer",
-            "Prod Id": "a1HVk0000028zI5MAI",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Ouhra Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk0000028zI5MAI",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "10 Days XMFP Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ouhra Transport",
             "comment": ""
           }
         },
@@ -31546,52 +29920,6 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::astrologist transportation to oukaimden with return",
-          "service": "Astrologist transportation to Oukaimden with return",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod supplier": "Ouhra Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Astrologist transportation to Oukaimden with return",
-            "Prod Id": "a1HVk000000jXPdMAM",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Ouhra Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000jXPdMAM",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Astrologist transportation to Oukaimden with return",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ouhra Transport",
             "comment": ""
           }
         },
@@ -32721,237 +31049,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::casablanca airport to city hotel group transfer",
-          "service": "Casablanca Airport to City Hotel Group Transfer",
-          "packages": [
-            "SGA XMFK"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod supplier": "Apexia Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca Airport to City Hotel Group Transfer",
-            "Prod Id": "a1HVk000000aBsRMAU",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Apexia Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBsRMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca Airport to City Hotel Group Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Apexia Transport",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::casablanca airport to hotel private transfer",
-          "service": "Casablanca Airport to Hotel Private Transfer",
-          "packages": [
-            "SGA XMFP"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFP",
-            "Prod supplier": "Apexia Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca Airport to Hotel Private Transfer",
-            "Prod Id": "a1HVk000000aBs5MAE",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Apexia Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBs5MAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca Airport to Hotel Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Apexia Transport",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::casablanca airport to hotel private transfer individual xmkc / xmkn",
-          "service": "Casablanca Airport to Hotel Private Transfer Individual XMKC / XMKN",
-          "packages": [
-            "SGA XMKC",
-            "SGA XMKN"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod supplier": "Apexia Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca Airport to Hotel Private Transfer Individual XMKC / XMKN",
-            "Prod Id": "a1HVk000000aBsoMAE",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Apexia Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBsoMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca Airport to Hotel Private Transfer Individual XMKC / XMKN",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Apexia Transport",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::casablanca airport to marly boutique hotel individual",
-          "service": "Casablanca Airport to Marly Boutique Hotel Individual",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod supplier": "Apexia Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca Airport to Marly Boutique Hotel Individual",
-            "Prod Id": "a1HVk000000aBsmMAE",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Apexia Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBsmMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca Airport to Marly Boutique Hotel Individual",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Apexia Transport",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::casablanca airport to marrakech private transfer",
-          "service": "Casablanca Airport to Marrakech Private Transfer",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod supplier": "Ouhra Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca Airport to Marrakech Private Transfer",
-            "Prod Id": "a1HVk000000aBoCMAU",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Ouhra Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBoCMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca Airport to Marrakech Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ouhra Transport",
-            "comment": ""
-          }
-        },
-        {
           "id": "SA1::casablanca hotel placeholder  xmsb",
           "service": "Casablanca Hotel Placeholder  XMSB",
           "packages": [
@@ -32994,52 +31091,6 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Placeholder Services",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::casablanca to marrakech 11 days xmkc private transfer",
-          "service": "Casablanca to Marrakech 11 Days XMKC Private Transfer",
-          "packages": [
-            "SGA XMKC"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod supplier": "Ouhra Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca to Marrakech 11 Days XMKC Private Transfer",
-            "Prod Id": "a1HVk000000aBqaMAE",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Ouhra Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBqaMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca to Marrakech 11 Days XMKC Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ouhra Transport",
             "comment": ""
           }
         },
@@ -33090,300 +31141,39 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::casablanca to marrakech xmpe  private transfer",
-          "service": "Casablanca to Marrakech XMPE  Private Transfer",
+          "id": "SA1::chefchaouen to fes private transfer + fes guided tour",
+          "service": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
           "packages": [
-            "SGA XMPE"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod supplier": "Ouhra Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca to Marrakech XMPE  Private Transfer",
-            "Prod Id": "a1HVk000000aBqNMAU",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Ouhra Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBqNMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca to Marrakech XMPE  Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ouhra Transport",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::casablanca to marrakech xmpm private transfer",
-          "service": "Casablanca to Marrakech XMPM Private Transfer",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod supplier": "Ouhra Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca to Marrakech XMPM Private Transfer",
-            "Prod Id": "a1HVk000000aBqHMAU",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Ouhra Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBqHMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca to Marrakech XMPM Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ouhra Transport",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::casablanca to rabat private transfer",
-          "service": "Casablanca to Rabat Private Transfer",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod supplier": "Apexia Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca to Rabat Private Transfer",
-            "Prod Id": "a1HSo00000BiMxlMAF",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Apexia Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HSo00000BiMxlMAF",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca to Rabat Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Apexia Transport",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "NOT LISTED",
-              "prodName": "",
-              "prodPc": ""
-            },
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "NOT LISTED",
-              "prodName": "",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
-          "id": "SA1::cheese tasting",
-          "service": "Cheese Tasting",
-          "packages": [
-            "The Blue North"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "Also listed in SA5",
-          "fields": {
-            "TM package": "The Blue North",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod supplier": "DMC Europe West - Cash Paid Services",
-            "Prod exists": "Yes",
-            "Prod Name": "Cheese Tasting Bulle",
-            "Prod Id": "a1HVk000000a7lcMAA",
-            "Agreement": "None assigned",
-            "Agreement source": "None",
-            "Also listed in": "Also listed in SA5"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "DMC Europe West - Cash Paid Services",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000a7lcMAA",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Cheese Tasting",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist",
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "Use Prod",
-              "prodName": "Goat Cheese Tasting",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
-          "id": "SA1::chefchaouen to essaouira xmsc private transfer",
-          "service": "Chefchaouen to Essaouira XMSC Private Transfer",
-          "packages": [
-            "SGA XMSC"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMSC",
-            "Prod supplier": "Ouhra Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Chefchaouen to Essaouira XMSC Private Transfer",
-            "Prod Id": "a1HVk000000aBqZMAU",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Ouhra Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBqZMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Chefchaouen to Essaouira XMSC Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ouhra Transport",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::chefchaouen to fes private transfer package",
-          "service": "Chefchaouen to Fes private transfer package",
-          "packages": [
+            "C1 Blue North Gateway",
             "The Blue North"
           ],
           "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
           "also": "",
           "fields": {
-            "TM package": "The Blue North",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
+            "TM package": "C1 Blue North Gateway",
+            "Prod supplier": "Atlas Amazigh Tour",
+            "Prod exists": "Yes",
+            "Prod Name": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
+            "Prod Id": "a1HSo00000BiOczMAF",
+            "Agreement": "None assigned",
+            "Agreement source": "None"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Chefchaouen to Fes Private Transfer",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
-          "prodSupplier": "",
+          "prodSupplier": "Atlas Amazigh Tour",
           "stLocation": "",
           "prodLocation": "",
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
+          "prodAgreement": "None assigned",
+          "prodId": "a1HSo00000BiOczMAF",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
-            "name": "Chefchaouen to Fes private transfer package",
+            "name": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
             "location": "",
             "businessUnit": "",
             "serviceType": "",
@@ -33393,7 +31183,7 @@ window.ISSUE_DATA = {
             "pricelist": "",
             "price": "",
             "priceCurrency": "MAD",
-            "supplierName": "",
+            "supplierName": "Atlas Amazigh Tour",
             "comment": ""
           },
           "nariComments": [
@@ -33785,52 +31575,6 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Riad Al Maha",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::fes to marrakech private transfer xmfk",
-          "service": "Fes to Marrakech Private Transfer XMFK",
-          "packages": [
-            "SGA XMFK"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod supplier": "Ouhra Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Fes to Marrakech Private Transfer XMFK",
-            "Prod Id": "a1HVk000000aBs6MAE",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Ouhra Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBs6MAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Fes to Marrakech Private Transfer XMFK",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ouhra Transport",
             "comment": ""
           }
         },
@@ -34282,8 +32026,7 @@ window.ISSUE_DATA = {
           "id": "SA1::hotel belere",
           "service": "Hotel Belere",
           "packages": [
-            "Atlantic Imperials",
-            "C1 Blue North Gateway"
+            "Atlantic Imperials"
           ],
           "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
           "also": "Also listed in SA3",
@@ -34333,15 +32076,7 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
           ],
-          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027",
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Hotel Belere Rabat BB",
-              "prodPc": "Twin - Standard Room (FIT)"
-            }
-          ]
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
         },
         {
           "id": "SA1::hotel caspien",
@@ -34949,53 +32684,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::hotel to amal association targa return private transfer",
-          "service": "Hotel to Amal Association Targa Return Private Transfer",
-          "packages": [
-            "SGA XMSF",
-            "SGA XMZF"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMSF",
-            "Prod supplier": "Ouhra Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel to Amal Association Targa Return Private Transfer",
-            "Prod Id": "a1HVk000000aBqfMAE",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Ouhra Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBqfMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel to Amal Association Targa Return Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ouhra Transport",
-            "comment": ""
-          }
-        },
-        {
           "id": "SA1::hotel toumbouctou-hb",
           "service": "Hotel Toumbouctou-HB",
           "packages": [
@@ -35342,99 +33030,6 @@ window.ISSUE_DATA = {
             "Service already exists"
           ],
           "stCommentImport": "Service already exists"
-        },
-        {
-          "id": "SA1::kasbah amazir bb",
-          "service": "Kasbah Amazir BB",
-          "packages": [
-            "SGA XMFK",
-            "SGA XMXM"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod supplier": "Kasbah Amazir",
-            "Prod exists": "Yes",
-            "Prod Name": "Kasbah Amazir BB",
-            "Prod Id": "a1HVk000000aBvZMAU",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Kasbah Amazir",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBvZMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah Amazir BB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Kasbah Amazir",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::kasbah amazir hb",
-          "service": "Kasbah Amazir HB",
-          "packages": [
-            "SGA XMKN"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMKN",
-            "Prod supplier": "Kasbah Amazir",
-            "Prod exists": "Yes",
-            "Prod Name": "Kasbah Amazir HB",
-            "Prod Id": "a1HVk000000aBvaMAE",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Kasbah Amazir",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBvaMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah Amazir HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Kasbah Amazir",
-            "comment": ""
-          }
         },
         {
           "id": "SA1::kasbah des oudaias",
@@ -36211,13 +33806,12 @@ window.ISSUE_DATA = {
           "id": "SA1::local guide chefchaouen",
           "service": "Local guide Chefchaouen",
           "packages": [
-            "The Blue North",
             "The Blue North (Rev)"
           ],
           "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
           "also": "",
           "fields": {
-            "TM package": "The Blue North",
+            "TM package": "The Blue North (Rev)",
             "ST supplier": "DMC Morocco - Cash Paid Services",
             "Prod exists": "No",
             "Agreement": "—",
@@ -36265,15 +33859,7 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service already exist"
           ],
-          "stCommentImport": "Service already exist",
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "CHECK",
-              "prodName": "Local Guide - Chefchaouen",
-              "prodPc": ""
-            }
-          ]
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "SA1::local guide essaouira",
@@ -36334,6 +33920,7 @@ window.ISSUE_DATA = {
           "id": "SA1::local guide fes half day",
           "service": "Local Guide Fes Half Day",
           "packages": [
+            "C1 Blue North Gateway",
             "Sahara crossing (Rev)",
             "The Blue North",
             "The Blue North (Rev)"
@@ -36341,7 +33928,7 @@ window.ISSUE_DATA = {
           "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
           "also": "",
           "fields": {
-            "TM package": "Sahara crossing (Rev)",
+            "TM package": "C1 Blue North Gateway",
             "ST supplier": "DMC Morocco - Cash Paid Services",
             "Prod exists": "No",
             "Agreement": "—",
@@ -36951,39 +34538,41 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::marly boutique hotel",
-          "service": "MARLY BOUTIQUE HOTEL",
+          "id": "SA1::marina bay city center",
+          "service": "Marina Bay City Center",
           "packages": [
-            "SGA XMPE",
-            "SGA XMPM"
+            "Atlantic Imperials (Rev)",
+            "C1 Blue North Gateway",
+            "The Blue North (Rev)"
           ],
           "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
           "also": "",
           "fields": {
-            "TM package": "SGA XMPE",
-            "Prod supplier": "MARLY BOUTIQUE HOTEL",
+            "TM package": "Atlantic Imperials (Rev)",
+            "ST supplier": "Marina Bay City Center",
+            "Prod supplier": "Marina Bay City Center",
             "Prod exists": "Yes",
-            "Prod Name": "MARLY BOUTIQUE HOTEL",
-            "Prod Id": "a1HVk000002jIhBMAU",
+            "Prod Name": "Marina Bay City Center",
+            "Prod Id": "a1HSo00000Bi46PMAR",
             "Agreement": "None assigned",
             "Agreement source": "None"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "MARLY BOUTIQUE HOTEL",
+          "stSupplier": "Marina Bay City Center",
+          "prodSupplier": "Marina Bay City Center",
           "stLocation": "",
           "prodLocation": "",
           "stType": "",
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "None assigned",
-          "prodId": "a1HVk000002jIhBMAU",
+          "prodId": "a1HSo00000Bi46PMAR",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
-            "name": "MARLY BOUTIQUE HOTEL",
+            "name": "Marina Bay City Center",
             "location": "",
             "businessUnit": "",
             "serviceType": "",
@@ -36993,55 +34582,21 @@ window.ISSUE_DATA = {
             "pricelist": "",
             "price": "",
             "priceCurrency": "MAD",
-            "supplierName": "MARLY BOUTIQUE HOTEL",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::marrakech airport to hotel transfer",
-          "service": "Marrakech Airport to Hotel Transfer",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod supplier": "Desert Evasion",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech Airport to Hotel Transfer",
-            "Prod Id": "a1HVk000000aBnFMAU",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
+            "supplierName": "Marina Bay City Center",
+            "comment": "Service does not exist in Kaptio"
           },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Desert Evasion",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBnFMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech Airport to Hotel Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Desert Evasion",
-            "comment": ""
-          }
+          "stComments": [
+            "Service does not exist in Kaptio"
+          ],
+          "stCommentImport": "Service does not exist in Kaptio",
+          "nariComments": [
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Service Template",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::marrakech food tasting budget",
@@ -37083,52 +34638,6 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::marrakech to agafay astronaut transportation with return",
-          "service": "Marrakech to Agafay Astronaut Transportation with return",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "Prod supplier": "Ouhra Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech to Agafay Astronaut Transportation with return",
-            "Prod Id": "a1HVk000000aBwQMAU",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Ouhra Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBwQMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech to Agafay Astronaut Transportation with return",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ouhra Transport",
             "comment": ""
           }
         },
@@ -37175,144 +34684,6 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Roaming Camels",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::marrakech to essaouira 7 days xmsf private transfer",
-          "service": "Marrakech to Essaouira 7 Days XMSF Private Transfer",
-          "packages": [
-            "SGA XMSF"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMSF",
-            "Prod supplier": "Ouhra Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech to Essaouira 7 Days XMSF Private Transfer",
-            "Prod Id": "a1HVk000000aBn6MAE",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Ouhra Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBn6MAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech to Essaouira 7 Days XMSF Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ouhra Transport",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::marrakech to marrakech xmfe 6 days private transfer",
-          "service": "Marrakech to Marrakech XMFE 6 Days Private Transfer",
-          "packages": [
-            "SGA XMFE"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFE",
-            "Prod supplier": "Desert Evasion",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech to Marrakech XMFE 6 Days Private Transfer",
-            "Prod Id": "a1HVk000000aBx2MAE",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Desert Evasion",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBx2MAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech to Marrakech XMFE 6 Days Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Desert Evasion",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::marrakech to marrakech xmha 3 days private transfer",
-          "service": "Marrakech to Marrakech XMHA 3 Days Private Transfer",
-          "packages": [
-            "SGA XMHA"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMHA",
-            "Prod supplier": "Ouhra Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Marrakech to Marrakech XMHA 3 Days Private Transfer",
-            "Prod Id": "a1HVk000000aBw0MAE",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Ouhra Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBw0MAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marrakech to Marrakech XMHA 3 Days Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ouhra Transport",
             "comment": ""
           }
         },
@@ -37465,12 +34836,6 @@ window.ISSUE_DATA = {
           ],
           "stCommentImport": "Service already exist",
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Medersa Attarine Fes",
-              "prodPc": ""
-            },
             {
               "package": "The Blue North",
               "note": "Use Prod",
@@ -37866,52 +35231,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::moulay driss to marrakech xmzf 8 days private transfer",
-          "service": "Moulay Driss to Marrakech XMZF 8 Days Private Transfer",
-          "packages": [
-            "SGA XMZF"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMZF",
-            "Prod supplier": "Ouhra Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Moulay Driss to Marrakech XMZF 8 Days Private Transfer",
-            "Prod Id": "a1HVk000000aBmyMAE",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Ouhra Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBmyMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Moulay Driss to Marrakech XMZF 8 Days Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ouhra Transport",
-            "comment": ""
-          }
-        },
-        {
           "id": "SA1::palais houyam",
           "service": "Palais Houyam",
           "packages": [
@@ -38181,7 +35500,6 @@ window.ISSUE_DATA = {
             "Atlantic shore",
             "Atlantic shore (Rev)",
             "Atlas Discovery",
-            "C1 Blue North Gateway",
             "Classic Sahara Crossing",
             "Classic Sahara Crossing (Rev)",
             "Draa & the deep desert",
@@ -38229,15 +35547,7 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "CHECK",
-              "prodName": "Tangier to Chefchaouen Private transfer",
-              "prodPc": ""
-            }
-          ]
+          }
         },
         {
           "id": "SA1::puerta azul",
@@ -38295,52 +35605,6 @@ window.ISSUE_DATA = {
             "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
           ],
           "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
-        },
-        {
-          "id": "SA1::rabat to tangier private transfer",
-          "service": "Rabat to Tangier Private Transfer",
-          "packages": [
-            "Atlantic Imperials (Rev)"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod supplier": "Apexia Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Rabat to Tangier Private Transfer",
-            "Prod Id": "a1HSo00000BiNDtMAN",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Apexia Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HSo00000BiNDtMAN",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Rabat to Tangier Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Apexia Transport",
-            "comment": ""
-          }
         },
         {
           "id": "SA1::riad 48",
@@ -38403,52 +35667,6 @@ window.ISSUE_DATA = {
             "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
           ],
           "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
-        },
-        {
-          "id": "SA1::riad al makan",
-          "service": "Riad Al Makan",
-          "packages": [
-            "SGA XMFK"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFK",
-            "Prod supplier": "Riad Al Makan",
-            "Prod exists": "Yes",
-            "Prod Name": "Riad Al Makan",
-            "Prod Id": "a1HVk000000aBpZMAU",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Riad Al Makan",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBpZMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Riad Al Makan",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Riad Al Makan",
-            "comment": ""
-          }
         },
         {
           "id": "SA1::riad chakir",
@@ -38946,12 +36164,14 @@ window.ISSUE_DATA = {
           "id": "SA1::tangier port to chefchaouen private transfer",
           "service": "Tangier Port to Chefchaouen Private Transfer",
           "packages": [
+            "C1 Blue North Gateway",
+            "The Blue North",
             "SGA XMSC"
           ],
           "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
           "also": "",
           "fields": {
-            "TM package": "SGA XMSC",
+            "TM package": "C1 Blue North Gateway",
             "Prod supplier": "Inter-Bus",
             "Prod exists": "Yes",
             "Prod Name": "Tangier Port to Chefchaouen Private Transfer",
@@ -38986,7 +36206,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "Inter-Bus",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "CHECK",
+              "prodName": "Tangier to Chefchaouen Private transfer",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "SA1::tangier to chefchaouen private transfer",
@@ -39031,114 +36259,6 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "Bafa Transport",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::tangier to chefchaouen private transfer bn",
-          "service": "Tangier to Chefchaouen private transfer BN",
-          "packages": [
-            "The Blue North"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "The Blue North",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Tangier to Chefchaouen Private transfer",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Chefchaouen to Tangier Private transfer",
-              "score": 75.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Tangier to Chefchaouen private transfer BN",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "CHECK",
-              "prodName": "Tangier to Chefchaouen Private transfer",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
-          "id": "SA1::tangier to marrakech xmfb 11 days private transfer",
-          "service": "Tangier to Marrakech XMFB 11 days Private Transfer",
-          "packages": [
-            "SGA XMFB"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "Prod supplier": "Ouhra Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "Tangier to Marrakech XMFB 11 days Private Transfer",
-            "Prod Id": "a1HVk000000aBnIMAU",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Ouhra Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBnIMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Tangier to Marrakech XMFB 11 days Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ouhra Transport",
             "comment": ""
           }
         },
@@ -39828,52 +36948,6 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "DMC Morocco - Placeholder Services",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::xmpx 9 days private transfer",
-          "service": "XMPX 9 Days Private transfer",
-          "packages": [
-            "SGA XMPX"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPX",
-            "Prod supplier": "Ouhra Transport",
-            "Prod exists": "Yes",
-            "Prod Name": "XMPX 9 Days Private transfer",
-            "Prod Id": "a1HVk000000jXCjMAM",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Ouhra Transport",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000jXCjMAM",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "XMPX 9 Days Private transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ouhra Transport",
             "comment": ""
           }
         },
@@ -41164,12 +38238,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "The service has been already loaded in Kaptio with Group Series and FIT rates",
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Hotel Al Walid",
-              "prodPc": "Leader Room Single - Standard"
-            },
-            {
               "package": "Atlantic Imperials (Rev)",
               "note": "Use Prod",
               "prodName": "Hotel Al Walid",
@@ -41223,15 +38291,7 @@ window.ISSUE_DATA = {
           "stComments": [
             "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
           ],
-          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027",
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Hotel Belere Rabat BB",
-              "prodPc": "Twin - Standard Room (FIT)"
-            }
-          ]
+          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
         },
         {
           "id": "SA3::hotel charf",
@@ -41283,12 +38343,6 @@ window.ISSUE_DATA = {
           ],
           "stCommentImport": "Service exists in Kaptio",
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Hotel Charf",
-              "prodPc": ""
-            },
             {
               "package": "Atlantic Imperials (Rev)",
               "note": "Use Prod",
@@ -41681,12 +38735,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2026-2027",
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Hotel Le Musee",
-              "prodPc": "Twin - Standard Room"
-            },
-            {
               "package": "Atlantic Imperials (Rev)",
               "note": "Use Prod",
               "prodName": "Hotel Le Musee",
@@ -42070,12 +39118,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027",
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Hotel Parador",
-              "prodPc": ""
-            },
-            {
               "package": "The Blue North",
               "note": "Use Prod",
               "prodName": "Hotel Parador",
@@ -42276,12 +39318,6 @@ window.ISSUE_DATA = {
           ],
           "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2027",
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Service Template",
-              "prodName": "",
-              "prodPc": ""
-            },
             {
               "package": "The Blue North",
               "note": "Use Service Template",
@@ -43119,12 +40155,6 @@ window.ISSUE_DATA = {
           ],
           "stCommentImport": "Service exists in Kaptio",
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Service Template",
-              "prodName": "",
-              "prodPc": ""
-            },
             {
               "package": "The Blue North",
               "note": "Use Service Template",
@@ -44488,12 +41518,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service exists in Kaptio. 2026-2027 FIT rates applicable for IG/Group Series",
           "nariComments": [
             {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Riad Sayeda al Hora",
-              "prodPc": ""
-            },
-            {
               "package": "The Blue North",
               "note": "Use Prod",
               "prodName": "Riad Sayeda al Hora",
@@ -44747,25 +41771,25 @@ window.ISSUE_DATA = {
           "action": "SA template name does not match the Prod agreement. Align the template name or confirm the Prod agreement is the one to use.",
           "also": "",
           "fields": {
-            "Prod supplier": "Experiencah",
+            "Prod supplier": "The View Agadir",
             "Prod exists": "Yes",
             "Prod Id": "a1HSo00000BB3p3MAD",
             "SA template name": "Experiencah 2026-2027",
-            "Prod agreement": "Jan 2026 - Dec 2027",
-            "Name match": "No",
-            "Agreement source": "Account-level"
+            "Prod agreement": "None assigned",
+            "Name match": "No Prod agreement",
+            "Agreement source": "None"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
-          "prodSupplier": "Experiencah",
+          "prodSupplier": "The View Agadir",
           "stLocation": "",
           "prodLocation": "",
           "stType": "",
           "prodType": "",
           "saTemplateName": "Experiencah 2026-2027",
-          "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodAgreement": "None assigned",
           "prodId": "a1HSo00000BB3p3MAD",
           "priceCompare": [],
           "stPriceDates": "",
@@ -44780,7 +41804,7 @@ window.ISSUE_DATA = {
             "pricelist": "",
             "price": "",
             "priceCurrency": "MAD",
-            "supplierName": "Experiencah",
+            "supplierName": "The View Agadir",
             "comment": "Service exists in Kaptio"
           },
           "stComments": [
@@ -44934,7 +41958,7 @@ window.ISSUE_DATA = {
       "workbook": "agreements",
       "help": "ST supplier does not match Prod. Pick the Prod account, keep ST, or No if a different / new supplier is needed.",
       "choice": "supplier",
-      "count": 8,
+      "count": 6,
       "issues": [
         {
           "id": "SA5::2 ciels luxury boutique",
@@ -44991,67 +42015,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service Already Exist - FIT rates already Loaded for 2026 / 2027 still not available"
         },
         {
-          "id": "SA5::cheese tasting",
-          "service": "Cheese Tasting",
-          "packages": [
-            "The Blue North"
-          ],
-          "action": "ST supplier does not match the Prod supplier. Confirm which account this service/agreement should use.",
-          "also": "Also listed in SA1",
-          "fields": {
-            "TM package": "The Blue North",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod supplier": "DMC Europe West - Cash Paid Services",
-            "Match type": "Different account",
-            "Prod exists": "Yes",
-            "Prod Name": "Cheese Tasting Bulle",
-            "Prod Id": "a1HVk000000a7lcMAA",
-            "Agreement": "None assigned",
-            "Agreement source": "None",
-            "Also listed in": "Also listed in SA1"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "DMC Europe West - Cash Paid Services",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000a7lcMAA",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Cheese Tasting",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist",
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "Use Prod",
-              "prodName": "Goat Cheese Tasting",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "SA5::executive boutique hotel rabat",
           "service": "Executive Boutique Hotel Rabat",
           "packages": [
@@ -45105,12 +42068,6 @@ window.ISSUE_DATA = {
           ],
           "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT",
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Prod",
-              "prodName": "Executive Boutique Hotel Rabat",
-              "prodPc": "Twin - Standard Room"
-            },
             {
               "package": "Atlantic Imperials (Rev)",
               "note": "Use Prod",
@@ -45234,74 +42191,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Already loaded in Kaptio for 2026 / 2027"
         },
         {
-          "id": "SA5::marina bay city center",
-          "service": "Marina Bay City Center",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway",
-            "The Blue North (Rev)"
-          ],
-          "action": "ST supplier does not match the Prod supplier. Confirm which account this service/agreement should use.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "ST supplier": "Marina Bay City Center",
-            "Prod supplier": "Experiencah",
-            "Match type": "Different account",
-            "Prod exists": "Yes",
-            "Prod Name": "Marina Bay City Center",
-            "Prod Id": "a1HSo00000Bi46PMAR",
-            "Agreement": "Jan 2026 - Dec 2027",
-            "Agreement source": "Account-level"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "Marina Bay City Center",
-          "prodSupplier": "Experiencah",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "Jan 2026 - Dec 2027",
-          "prodId": "a1HSo00000Bi46PMAR",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Marina Bay City Center",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Marina Bay City Center",
-            "comment": "Service does not exist in Kaptio"
-          },
-          "stComments": [
-            "Service does not exist in Kaptio"
-          ],
-          "stCommentImport": "Service does not exist in Kaptio",
-          "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Service Template",
-              "prodName": "",
-              "prodPc": ""
-            },
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "Use Service Template",
-              "prodName": "",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "SA5::mia hotel - fes",
           "service": "Mia Hotel - Fes",
           "packages": [
@@ -45361,12 +42250,6 @@ window.ISSUE_DATA = {
           ],
           "stCommentImport": "Service exists in Kaptio",
           "nariComments": [
-            {
-              "package": "C1 Blue North Gateway",
-              "note": "Use Service Template",
-              "prodName": "",
-              "prodPc": ""
-            },
             {
               "package": "The Blue North",
               "note": "Use Service Template",
@@ -45435,9 +42318,9 @@ window.ISSUE_DATA = {
       ]
     }
   ],
-  "total": 705,
-  "stCommentsSource": "Service Template Comment column (18 Nov workbook + Siham CSV extras). Notes only, not Yes/No.",
-  "stCommentsCards": 220,
+  "total": 655,
+  "stCommentsSource": "Service Template Comment column (20 Nov workbook + Siham CSV extras). Notes only, not Yes/No.",
+  "stCommentsCards": 208,
   "nariCommentsSource": "Nari Notes on Atlantic Imperials (Rev), The Blue North, and C1 Blue North Gateway. Notes only, not Yes/No.",
-  "nariCommentsCards": 83
+  "nariCommentsCards": 55
 };

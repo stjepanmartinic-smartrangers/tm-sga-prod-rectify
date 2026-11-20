@@ -3045,7 +3045,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "On package and ST, no exact Prod Item, but a close name exists. Yes = rename ST to the selected Prod name. No = treat as brand new; create from ST.",
       "choice": "fuzzy-service",
-      "count": 18,
+      "count": 15,
       "issues": [
         {
           "id": "P2::farewell dinner marrakech - el fassia restaurant",
@@ -3316,232 +3316,6 @@ window.ISSUE_DATA = {
             "Service exisitng in Kaptio"
           ],
           "stCommentImport": "Service exisitng in Kaptio"
-        },
-        {
-          "id": "P2::local guide fes half day",
-          "service": "Local Guide Fes Half Day",
-          "packages": [
-            "C1 Blue North Gateway",
-            "Sahara crossing (Rev)",
-            "The Blue North",
-            "The Blue North (Rev)"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod exists": "No",
-            "Package PCs": "Per Group Per Day (Non-Banded)",
-            "ST PCs": "Per Crew; Per Group",
-            "ST PCs missing on Prod": "Per Crew; Per Group",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Fes",
-            "Template type": "Local Guide"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Half Day Fes",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Local Guide Fes Full Day",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "",
-          "stLocation": "Fes",
-          "prodLocation": "",
-          "stType": "Local Guide",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Fes Half Day",
-            "location": "Fes",
-            "businessUnit": "",
-            "serviceType": "Local Guide",
-            "priceCategory": "Per Group Per Day (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist",
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "Use Prod",
-              "prodName": "Local Guide Half Day Fes",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
-          "id": "P2::local guide half day casablanca",
-          "service": "Local Guide Half Day Casablanca",
-          "packages": [
-            "CAS to MAR - Train",
-            "MAR to CAS - Train"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "CAS to MAR - Train",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod exists": "No",
-            "Package PCs": "Per Group",
-            "ST PCs": "Per Group; Per crew",
-            "ST PCs missing on Prod": "Per Group; Per crew",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Casablanca",
-            "Template type": "Activity"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Half Day Rabat",
-              "score": 84.0
-            },
-            {
-              "from": "",
-              "value": "Local Guide Half Day Fes",
-              "score": 80.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Half Day Casablanca",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
-        },
-        {
-          "id": "P2::local guide half day ouirgane",
-          "service": "Local Guide Half Day Ouirgane",
-          "packages": [
-            "South Morocco with Agafay",
-            "The Sahara Loop"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "South Morocco with Agafay",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod exists": "No",
-            "Package PCs": "Per Group",
-            "ST PCs": "Per Group; Per crew",
-            "ST PCs missing on Prod": "Per Group; Per crew",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Ouirgane",
-            "Template type": "Activity"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Half Day Essaouira",
-              "score": 88.0
-            },
-            {
-              "from": "",
-              "value": "Local Guide Half Day M'goun",
-              "score": 86.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "",
-          "stLocation": "Ouirgane",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Half Day Ouirgane",
-            "location": "Ouirgane",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
         },
         {
           "id": "P2::local guide marrakech",
@@ -4106,7 +3880,7 @@ window.ISSUE_DATA = {
             {
               "from": "Leader Room Single - Standard",
               "value": "Leader Room Single- Standard",
-              "score": 99.0
+              "score": 100.0
             },
             {
               "from": "Quad - Standard Room",
@@ -4276,7 +4050,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "On a package and on Prod, but pricing is missing, inactive, or missing 2027. Yes = insert the ST price (or fill prices if ST has none). No = keep the Prod price.",
       "choice": "price-st",
-      "count": 148,
+      "count": 151,
       "issues": [
         {
           "id": "P4::10 days xmfp private transfer",
@@ -4741,7 +4515,7 @@ window.ISSUE_DATA = {
             {
               "from": "Per Groupe Non-Banded",
               "value": "Per Groupe Non Banded",
-              "score": 99.0
+              "score": 100.0
             }
           ],
           "pcMap": [],
@@ -9326,7 +9100,7 @@ window.ISSUE_DATA = {
             {
               "from": "Triple - Standard Room",
               "value": "Triple- Standard Room",
-              "score": 99.0
+              "score": 100.0
             }
           ],
           "pcMap": [],
@@ -13268,6 +13042,96 @@ window.ISSUE_DATA = {
           }
         },
         {
+          "id": "P4::local guide fes half day",
+          "service": "Local Guide Fes Half Day",
+          "packages": [
+            "C1 Blue North Gateway",
+            "Sahara crossing (Rev)",
+            "The Blue North",
+            "The Blue North (Rev)"
+          ],
+          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
+          "also": "Also listed in P10",
+          "fields": {
+            "TM package": "C1 Blue North Gateway",
+            "Prod exists": "Yes",
+            "Prod Name": "Local Guide Half Day Fes",
+            "Prod Id": "a1HVk000000aBpfMAE",
+            "Package PCs": "Per Group Per Day (Non-Banded)",
+            "ST PCs": "Per Crew; Per Group",
+            "ST PCs missing on Prod": "Per Crew; Per Group",
+            "Active price": "Yes",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "ST prices": "Per Group 400 MAD [FIT] 2026-2027 All Year; Per Crew 0 MAD [FIT] 2026-2027 All Year",
+            "ST price dates": "1/1/2026  -  31/12/2027",
+            "Prod PCs priced": "Per Group Per Day (Non-Banded) 400.0 MAD [FIT]; Per Group Per Day (Non-Banded) 300.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 400.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P10"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [
+            {
+              "from": "Per Group",
+              "value": "Per Group Per Day (Non-Banded)",
+              "score": 92.0
+            }
+          ],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000000aBpfMAE",
+          "priceCompare": [
+            {
+              "pc": "Per Crew",
+              "st": "0 MAD [FIT] 2026-2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Per Group",
+              "st": "400 MAD [FIT] 2026-2027 All Year",
+              "prod": "—"
+            },
+            {
+              "pc": "Per Group Per Day (Non-Banded)",
+              "st": "—",
+              "prod": "400.0 MAD [FIT]; 300.0 MAD [All Group Series]; 400.0 MAD [All Group Series]"
+            }
+          ],
+          "stPriceDates": "1/1/2026  -  31/12/2027",
+          "formDefaults": {
+            "name": "Local Guide Fes Half Day",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group Per Day (Non-Banded)",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026  -  31/12/2027",
+            "pricelist": "",
+            "price": "Per Group 400 MAD [FIT] 2026-2027 All Year; Per Crew 0 MAD [FIT] 2026-2027 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Local Guide Half Day Fes",
+              "prodPc": ""
+            }
+          ]
+        },
+        {
           "id": "P4::local guide half day - armed",
           "service": "Local Guide Half Day - Armed",
           "packages": [
@@ -13328,6 +13192,81 @@ window.ISSUE_DATA = {
             "supplierName": "",
             "comment": ""
           }
+        },
+        {
+          "id": "P4::local guide half day casablanca",
+          "service": "Local Guide Half Day Casablanca",
+          "packages": [
+            "CAS to MAR - Train",
+            "MAR to CAS - Train"
+          ],
+          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
+          "also": "Also listed in P10",
+          "fields": {
+            "TM package": "CAS to MAR - Train",
+            "Prod exists": "Yes",
+            "Prod Name": "Local Guide Casablanca - Half Day",
+            "Prod Id": "a1HVk000000aBqAMAU",
+            "Package PCs": "Per Group",
+            "ST PCs": "Per Group; Per crew",
+            "ST PCs missing on Prod": "Per Group; Per crew",
+            "Active price": "Yes",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "ST prices": "Per Group 500 MAD [FIT] 2026-2027 All Year; Per crew 0 MAD [FIT] 2026-2027 All Year",
+            "ST price dates": "1/1/2026  -  31/12/2027",
+            "Prod PCs priced": "Per Group Per Day (Non-Banded) 600.0 MAD [FIT]; Per Group Per Day (Non-Banded) 500.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P10"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [
+            {
+              "from": "Per Group",
+              "value": "Per Group Per Day (Non-Banded)",
+              "score": 92.0
+            }
+          ],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000000aBqAMAU",
+          "priceCompare": [
+            {
+              "pc": "Per Group",
+              "st": "500 MAD [FIT] 2026-2027 All Year",
+              "prod": "Per Day (Non-Banded) 600.0 MAD [FIT]; Per Day (Non-Banded) 500.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Per crew",
+              "st": "0 MAD [FIT] 2026-2027 All Year",
+              "prod": "—"
+            }
+          ],
+          "stPriceDates": "1/1/2026  -  31/12/2027",
+          "formDefaults": {
+            "name": "Local Guide Half Day Casablanca",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026  -  31/12/2027",
+            "pricelist": "",
+            "price": "Per Group 500 MAD [FIT] 2026-2027 All Year; Per crew 0 MAD [FIT] 2026-2027 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P4::local guide half day essaouira",
@@ -13785,6 +13724,81 @@ window.ISSUE_DATA = {
             "priceSeasonDates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
             "pricelist": "",
             "price": "Per Group 300 MAD [FIT] 2026 All Year; Per Group 350 MAD [FIT] 2027 All Year",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
+        },
+        {
+          "id": "P4::local guide half day ouirgane",
+          "service": "Local Guide Half Day Ouirgane",
+          "packages": [
+            "South Morocco with Agafay",
+            "The Sahara Loop"
+          ],
+          "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
+          "also": "Also listed in P10",
+          "fields": {
+            "TM package": "South Morocco with Agafay",
+            "Prod exists": "Yes",
+            "Prod Name": "Local Guide Ouirgane-Half Day",
+            "Prod Id": "a1HVk000000aBqMMAU",
+            "Package PCs": "Per Group",
+            "ST PCs": "Per Group; Per crew",
+            "ST PCs missing on Prod": "Per Group; Per crew",
+            "Active price": "Yes",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "ST prices": "Per Group 200 MAD [FIT] 2026 All Year; Per crew 0 MAD [FIT] 2026 All Year; Per Group 250 MAD [FIT] 2027 All Year; Per crew 0 MAD [FIT] 2027 All Year",
+            "ST price dates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
+            "Prod PCs priced": "Per Group Per Day (Non-Banded) 250.0 MAD [FIT]; Per Group Per Day (Non-Banded) 150.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 200.0 MAD [All Group Series]; Per Group Per Day (Non-Banded) 250.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P10"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [
+            {
+              "from": "Per Group",
+              "value": "Per Group Per Day (Non-Banded)",
+              "score": 92.0
+            }
+          ],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000000aBqMMAU",
+          "priceCompare": [
+            {
+              "pc": "Per Group",
+              "st": "200 MAD [FIT] 2026 All Year; 250 MAD [FIT] 2027 All Year",
+              "prod": "Per Day (Non-Banded) 250.0 MAD [FIT]; Per Day (Non-Banded) 150.0 MAD [All Group Series]; Per Day (Non-Banded) 200.0 MAD [All Group Series]; Per Day (Non-Banded) 250.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Per crew",
+              "st": "0 MAD [FIT] 2026 All Year; 0 MAD [FIT] 2027 All Year",
+              "prod": "—"
+            }
+          ],
+          "stPriceDates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
+          "formDefaults": {
+            "name": "Local Guide Half Day Ouirgane",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Group",
+            "priceSeason": "",
+            "priceSeasonDates": "1/1/2026  -  31/12/2026; 1/1/2027  -  31/12/2027",
+            "pricelist": "",
+            "price": "Per Group 200 MAD [FIT] 2026 All Year; Per crew 0 MAD [FIT] 2026 All Year; Per Group 250 MAD [FIT] 2027 All Year; Per crew 0 MAD [FIT] 2027 All Year",
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": "Service already exist"
@@ -15970,7 +15984,7 @@ window.ISSUE_DATA = {
             {
               "from": "Per Group (Non-Banded)",
               "value": "Per Group - (Non- Banded)",
-              "score": 99.0
+              "score": 100.0
             }
           ],
           "pcMap": [],
@@ -24880,7 +24894,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "Package/ST type has no overlap with the Prod record type. Pick Prod, keep ST, or No if both are wrong.",
       "choice": "type",
-      "count": 43,
+      "count": 46,
       "issues": [
         {
           "id": "P10::5 days package morocco expedition: women in focus hike",
@@ -25768,6 +25782,68 @@ window.ISSUE_DATA = {
           }
         },
         {
+          "id": "P10::local guide fes half day",
+          "service": "Local Guide Fes Half Day",
+          "packages": [
+            "Sahara crossing (Rev)",
+            "The Blue North (Rev)"
+          ],
+          "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
+          "also": "Also listed in P4",
+          "fields": {
+            "TM package": "Sahara crossing (Rev)",
+            "Prod exists": "Yes",
+            "Prod Name": "Local Guide Half Day Fes",
+            "Prod Id": "a1HVk000000aBpfMAE",
+            "Gap": "OK — FIT and Group Tour",
+            "Template location": "Fes",
+            "Prod location": "Fes",
+            "Template type": "Activity",
+            "Prod record type": "Local Guide",
+            "Also listed in": "Also listed in P4"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "Fes",
+          "prodLocation": "Fes",
+          "stType": "Activity",
+          "prodType": "Local Guide",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000000aBpfMAE",
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Local Guide Fes Half Day",
+            "location": "Fes",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist",
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "Use Prod",
+              "prodName": "Local Guide Half Day Fes",
+              "prodPc": ""
+            }
+          ]
+        },
+        {
           "id": "P10::local guide half day - armed",
           "service": "Local Guide Half Day - Armed",
           "packages": [
@@ -25815,6 +25891,60 @@ window.ISSUE_DATA = {
             "supplierName": "",
             "comment": ""
           }
+        },
+        {
+          "id": "P10::local guide half day casablanca",
+          "service": "Local Guide Half Day Casablanca",
+          "packages": [
+            "CAS to MAR - Train",
+            "MAR to CAS - Train"
+          ],
+          "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
+          "also": "Also listed in P4",
+          "fields": {
+            "TM package": "CAS to MAR - Train",
+            "Prod exists": "Yes",
+            "Prod Name": "Local Guide Casablanca - Half Day",
+            "Prod Id": "a1HVk000000aBqAMAU",
+            "Gap": "OK — FIT and Group Tour",
+            "Template location": "Casablanca",
+            "Prod location": "Casablanca",
+            "Template type": "Activity",
+            "Prod record type": "Local Guide",
+            "Also listed in": "Also listed in P4"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "Casablanca",
+          "prodLocation": "Casablanca",
+          "stType": "Activity",
+          "prodType": "Local Guide",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000000aBqAMAU",
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Local Guide Half Day Casablanca",
+            "location": "Casablanca",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
         },
         {
           "id": "P10::local guide half day essaouira",
@@ -26145,6 +26275,60 @@ window.ISSUE_DATA = {
           "formDefaults": {
             "name": "Local guide Half day Meknes",
             "location": "Meknes",
+            "businessUnit": "",
+            "serviceType": "Activity",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": "Service already exist"
+          },
+          "stComments": [
+            "Service already exist"
+          ],
+          "stCommentImport": "Service already exist"
+        },
+        {
+          "id": "P10::local guide half day ouirgane",
+          "service": "Local Guide Half Day Ouirgane",
+          "packages": [
+            "South Morocco with Agafay",
+            "The Sahara Loop"
+          ],
+          "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
+          "also": "Also listed in P4",
+          "fields": {
+            "TM package": "South Morocco with Agafay",
+            "Prod exists": "Yes",
+            "Prod Name": "Local Guide Ouirgane-Half Day",
+            "Prod Id": "a1HVk000000aBqMMAU",
+            "Gap": "OK — FIT and Group Tour",
+            "Template location": "Ouirgane",
+            "Prod location": "Ouirgane",
+            "Template type": "Activity",
+            "Prod record type": "Local Guide",
+            "Also listed in": "Also listed in P4"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "Ouirgane",
+          "prodLocation": "Ouirgane",
+          "stType": "Activity",
+          "prodType": "Local Guide",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000000aBqMMAU",
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Local Guide Half Day Ouirgane",
+            "location": "Ouirgane",
             "businessUnit": "",
             "serviceType": "Activity",
             "priceCategory": "",
@@ -27251,7 +27435,7 @@ window.ISSUE_DATA = {
       "workbook": "agreements",
       "help": "No Prod agreement. Yes = create a new supplier agreement (fill the fields). No = not needed for this service.",
       "choice": "sa-create",
-      "count": 138,
+      "count": 135,
       "issues": [
         {
           "id": "SA1::1 hour surf lesson",
@@ -30911,196 +31095,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::local guide fes half day",
-          "service": "Local Guide Fes Half Day",
-          "packages": [
-            "C1 Blue North Gateway",
-            "Sahara crossing (Rev)",
-            "The Blue North",
-            "The Blue North (Rev)"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Half Day Fes",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Local Guide Fes Full Day",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Fes Half Day",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist",
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "Use Prod",
-              "prodName": "Local Guide Half Day Fes",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
-          "id": "SA1::local guide half day casablanca",
-          "service": "Local Guide Half Day Casablanca",
-          "packages": [
-            "CAS to MAR - Train",
-            "MAR to CAS - Train"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "CAS to MAR - Train",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Half Day Rabat",
-              "score": 84.0
-            },
-            {
-              "from": "",
-              "value": "Local Guide Half Day Fes",
-              "score": 80.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Half Day Casablanca",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
-        },
-        {
-          "id": "SA1::local guide half day ouirgane",
-          "service": "Local Guide Half Day Ouirgane",
-          "packages": [
-            "South Morocco with Agafay",
-            "The Sahara Loop"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "South Morocco with Agafay",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod exists": "No",
-            "Agreement": "—",
-            "Agreement source": "—"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Half Day Essaouira",
-              "score": 88.0
-            },
-            {
-              "from": "",
-              "value": "Local Guide Half Day M'goun",
-              "score": 86.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "—",
-          "prodId": "",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Half Day Ouirgane",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
-        },
-        {
           "id": "SA1::local guide marrakech",
           "service": "Local guide Marrakech",
           "packages": [
@@ -34346,23 +34340,26 @@ window.ISSUE_DATA = {
           "action": "SA template name does not match the Prod agreement. Align the template name or confirm the Prod agreement is the one to use.",
           "also": "",
           "fields": {
-            "Prod exists": "No",
+            "Prod supplier": "Chez Le Pacha",
+            "Prod exists": "Yes",
+            "Prod Id": "a1HSo000009zd8vMAA",
             "SA template name": "Camp Le Sand 2027",
-            "Prod agreement": "—",
-            "Agreement source": "—"
+            "Prod agreement": "Jan 2026 - Dec 2027",
+            "Name match": "No",
+            "Agreement source": "Account-level"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
-          "prodSupplier": "",
+          "prodSupplier": "Chez Le Pacha",
           "stLocation": "",
           "prodLocation": "",
           "stType": "",
           "prodType": "",
           "saTemplateName": "Camp Le Sand 2027",
-          "prodAgreement": "—",
-          "prodId": "",
+          "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HSo000009zd8vMAA",
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34376,7 +34373,7 @@ window.ISSUE_DATA = {
             "pricelist": "",
             "price": "",
             "priceCurrency": "MAD",
-            "supplierName": "",
+            "supplierName": "Chez Le Pacha",
             "comment": ""
           }
         },

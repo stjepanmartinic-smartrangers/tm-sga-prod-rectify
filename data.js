@@ -8,9 +8,9 @@ window.ISSUE_DATA = {
       "title": "Package not in ST",
       "sheet": "P1 Package not in ST",
       "workbook": "pricing",
-      "help": "On a TM package, not on the Service Template. SGA itinerary services are not listed here — they already exist on Prod and will be carried onto a package. Yes = add it using the selected Prod name. No = brand new — fill the Service Template fields.",
+      "help": "On a TM package, not on ST, and no exact Prod Item. If Prod already has the same name, that is fine — clone from Prod (no P1 card). SGA itineraries are not listed. Yes = add it using a fuzzy Prod name if valid. No = brand new — fill the Service Template fields.",
       "choice": "fuzzy-service",
-      "count": 96,
+      "count": 69,
       "issues": [
         {
           "id": "P1::4wd excursion",
@@ -18,7 +18,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Draa & the deep desert"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
@@ -67,7 +67,7 @@ window.ISSUE_DATA = {
           "packages": [
             "South Morocco with Agafay"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "South Morocco with Agafay",
@@ -116,7 +116,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Atlas Discovery"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Atlas Discovery",
@@ -171,7 +171,7 @@ window.ISSUE_DATA = {
           "packages": [
             "The Sahara Loop"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "The Sahara Loop",
@@ -215,62 +215,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::ancient library tamegroute",
-          "service": "Ancient Library Tamegroute",
-          "packages": [
-            "Draa & the deep desert"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "Draa & the deep desert",
-            "Prod exists": "Yes",
-            "Prod Name": "Ancient Library Tamegroute",
-            "Prod Id": "a1HVk000000aBwhMAE",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Tamegroute",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tamegroute",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBwhMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Ancient Library Tamegroute",
-            "location": "Tamegroute",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::atlas studios visit",
           "service": "Atlas Studios Visit",
           "packages": [
             "Draa & the deep desert"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
@@ -325,7 +275,7 @@ window.ISSUE_DATA = {
           "packages": [
             "The Sahara Loop"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "The Sahara Loop",
@@ -396,7 +346,7 @@ window.ISSUE_DATA = {
           "packages": [
             "The Sahara Loop"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "The Sahara Loop",
@@ -458,7 +408,7 @@ window.ISSUE_DATA = {
             "Sahara Crossing",
             "Sahara crossing (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Sahara Crossing",
@@ -529,71 +479,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::barceló tanger",
-          "service": "Barceló Tanger",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod exists": "Yes",
-            "Prod Name": "Barceló Tanger",
-            "Prod Id": "a1HSo00000BhpaQMAR",
-            "Package PCs": "Deluxe - Double Room; Deluxe - Leader Single Room; Deluxe - Twin Room; Deluxe Single Use",
-            "Active price": "Yes",
-            "Price kind": "FIT",
-            "Gap": "FIT only",
-            "Template location": "Tangier",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tangier",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HSo00000BhpaQMAR",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Barceló Tanger",
-            "location": "Tangier",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Deluxe - Double Room; Deluxe - Leader Single Room; Deluxe - Twin Room; Deluxe Single Use",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "NOT LISTED",
-              "prodName": "",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P1::bread cooking  demonstration",
           "service": "Bread cooking  Demonstration",
           "packages": [
             "Atlas Discovery"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Atlas Discovery",
@@ -657,7 +548,7 @@ window.ISSUE_DATA = {
           "packages": [
             "The Sahara Loop"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "The Sahara Loop",
@@ -712,63 +603,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::camel ride",
-          "service": "Camel Ride",
-          "packages": [
-            "Draa & the deep desert"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P9",
-          "fields": {
-            "TM package": "Draa & the deep desert",
-            "Prod exists": "Yes",
-            "Prod Name": "Camel Ride",
-            "Prod Id": "a1HVk000000aBp2MAE",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Erg Chigaga",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P9",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Erg Chigaga",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBp2MAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Camel Ride",
-            "location": "Erg Chigaga",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::camel ride - sunrise",
           "service": "Camel Ride - Sunrise",
           "packages": [
             "The Sahara Loop"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "The Sahara Loop",
@@ -823,68 +663,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::camel ride - sunset",
-          "service": "Camel Ride - Sunset",
-          "packages": [
-            "Classic Sahara Crossing",
-            "Classic Sahara Crossing (Rev)",
-            "Sahara Crossing",
-            "Sahara crossing (Rev)",
-            "South Morocco with Agafay",
-            "The Sahara Loop"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P9",
-          "fields": {
-            "TM package": "Classic Sahara Crossing",
-            "Prod exists": "Yes",
-            "Prod Name": "Camel Ride - Sunset",
-            "Prod Id": "a1HVk000001yGcPMAU",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Merzouga",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P9",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000001yGcPMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Camel Ride - Sunset",
-            "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::camp alladin -hb",
           "service": "Camp Alladin -HB",
           "packages": [
             "Draa & the deep desert"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
@@ -933,7 +717,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Classic Sahara Crossing (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Classic Sahara Crossing (Rev)",
@@ -994,7 +778,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Classic Sahara Crossing"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Classic Sahara Crossing",
@@ -1056,7 +840,7 @@ window.ISSUE_DATA = {
             "Sahara Crossing",
             "Sahara crossing (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Sahara Crossing",
@@ -1117,7 +901,7 @@ window.ISSUE_DATA = {
           "packages": [
             "The Sahara Loop"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "The Sahara Loop",
@@ -1183,7 +967,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Draa & the deep desert"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
@@ -1254,309 +1038,13 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::cap spartel",
-          "service": "CAP Spartel",
-          "packages": [
-            "Atlantic Imperials",
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway",
-            "The Blue North (Rev)"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P6",
-          "fields": {
-            "TM package": "Atlantic Imperials",
-            "Prod exists": "Yes",
-            "Prod Name": "CAP Spartel",
-            "Prod Id": "a1HVk000002G4EbMAK",
-            "Package PCs": "Per Group",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Tangier",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P6",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tangier",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000002G4EbMAK",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "CAP Spartel",
-            "location": "Tangier",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "Use Prod",
-              "prodName": "CAP Spartel",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
-          "id": "P1::casablanca to rabat private transfer",
-          "service": "Casablanca to Rabat Private Transfer",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca to Rabat Private Transfer",
-            "Prod Id": "a1HSo00000BiMxlMAF",
-            "Package PCs": "Per Unit",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Casablanca",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HSo00000BiMxlMAF",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca to Rabat Private Transfer",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Unit",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "NOT LISTED",
-              "prodName": "",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
-          "id": "P1::chefchaouen to fes private transfer + fes guided tour",
-          "service": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
-          "packages": [
-            "C1 Blue North Gateway",
-            "The Blue North"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
-            "Prod Id": "a1HSo00000BiOczMAF",
-            "Package PCs": "Per Unit",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Chefchaouen",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HSo00000BiOczMAF",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Unit",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "CHECK",
-              "prodName": "Chefchaouen to Fes Private Transfer",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
-          "id": "P1::cooking class and lunch at tawsna association",
-          "service": "Cooking Class and Lunch at Tawsna Association",
-          "packages": [
-            "Marrakech & the high atlas"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "Marrakech & the high atlas",
-            "Prod exists": "Yes",
-            "Prod Name": "Cooking Class and Lunch at Tawsna Association",
-            "Prod Id": "a1HVk000000aBrQMAU",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ait Benhaddou",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ait Benhaddou",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBrQMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Cooking Class and Lunch at Tawsna Association",
-            "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "P1::day trip to khamlia 4x4 excursion",
-          "service": "Day Trip to Khamlia 4x4 Excursion",
-          "packages": [
-            "Sahara Crossing"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P9",
-          "fields": {
-            "TM package": "Sahara Crossing",
-            "Prod exists": "Yes",
-            "Prod Name": "Day Trip to Khamlia 4x4 Excursion",
-            "Prod Id": "a1HVk000002L1KvMAK",
-            "Package PCs": "Per Person",
-            "Active price": "No",
-            "Price kind": "No pricing",
-            "Gap": "On Prod, no pricing",
-            "Template location": "Merzouga Desert Camp",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P9",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga Desert Camp",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000002L1KvMAK",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Day Trip to Khamlia 4x4 Excursion",
-            "location": "Merzouga Desert Camp",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::domaine de la roseraie resort and spa hb",
           "service": "Domaine de la Roseraie Resort and Spa HB",
           "packages": [
             "South Morocco with Agafay",
             "The Sahara Loop"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "South Morocco with Agafay",
@@ -1605,7 +1093,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Marrakech & the high atlas"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Marrakech & the high atlas",
@@ -1655,7 +1143,7 @@ window.ISSUE_DATA = {
             "Atlantic shore",
             "Atlantic shore (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Atlantic shore",
@@ -1711,7 +1199,7 @@ window.ISSUE_DATA = {
             "Atlantic shore",
             "The Imperial Table"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "Also listed in P11",
           "fields": {
             "TM package": "Atlantic shore",
@@ -1756,71 +1244,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::goat cheese tasting",
-          "service": "Goat Cheese Tasting",
-          "packages": [
-            "C1 Blue North Gateway",
-            "The Blue North"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Goat Cheese Tasting",
-            "Prod Id": "a1HVk000000aBrtMAE",
-            "Package PCs": "Per Crew; Per Person",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Chefchaouen",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBrtMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Goat Cheese Tasting",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Crew; Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "Use Prod",
-              "prodName": "Goat Cheese Tasting",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P1::guided hike - ait bouguemez (happy valley)",
           "service": "Guided Hike - Ait Bouguemez (Happy Valley)",
           "packages": [
             "Marrakech & the high atlas"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Marrakech & the high atlas",
@@ -1880,7 +1309,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Atlantic Imperials"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Atlantic Imperials",
@@ -1930,71 +1359,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::hassan tower visit",
-          "service": "Hassan Tower Visit",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod exists": "Yes",
-            "Prod Name": "Hassan Tower Visit",
-            "Prod Id": "a1HVk000000aBmzMAE",
-            "Package PCs": "Per crew; Per person",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Rabat",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Rabat",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBmzMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hassan Tower Visit",
-            "location": "Rabat",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per crew; Per person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "CHECK",
-              "prodName": "Hassan Tower Visit",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P1::home cooked lunch",
           "service": "Home cooked Lunch",
           "packages": [
             "Atlas Discovery"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Atlas Discovery",
@@ -2055,7 +1425,7 @@ window.ISSUE_DATA = {
             "South Morocco with Agafay",
             "The Sahara Loop"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "South Morocco with Agafay",
@@ -2110,71 +1480,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::hotel belere rabat bb",
-          "service": "Hotel Belere Rabat BB",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel Belere Rabat BB",
-            "Prod Id": "a1HVk000000aBwXMAU",
-            "Package PCs": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Rabat",
-            "Template type": "Accommodation",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Rabat",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBwXMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Belere Rabat BB",
-            "location": "Rabat",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double - Standard Room; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "Use Prod",
-              "prodName": "Hotel Belere Rabat BB",
-              "prodPc": "Twin - Standard Room (FIT)"
-            }
-          ]
-        },
-        {
           "id": "P1::hotel hilton",
           "service": "Hotel Hilton",
           "packages": [
             "The Blue North (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "The Blue North (Rev)",
@@ -2223,7 +1534,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Draa & the deep desert"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
@@ -2278,84 +1589,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::hotel le caspien",
-          "service": "Hotel le Caspien",
-          "packages": [
-            "Sahara Crossing"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "Sahara Crossing",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel Le Caspien",
-            "Prod Id": "a1HVk000000aBo5MAE",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Marrakech",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBo5MAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel le Caspien",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::hotel oscar-hb",
           "service": "Hotel Oscar-HB",
           "packages": [
             "Draa & the deep desert"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
@@ -2431,7 +1670,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Classic Sahara Crossing (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Classic Sahara Crossing (Rev)",
@@ -2513,7 +1752,7 @@ window.ISSUE_DATA = {
             "Sahara Crossing",
             "Sahara crossing (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Sahara Crossing",
@@ -2562,7 +1801,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Classic Sahara Crossing (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Classic Sahara Crossing (Rev)",
@@ -2633,7 +1872,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Classic Sahara Crossing"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Classic Sahara Crossing",
@@ -2700,7 +1939,7 @@ window.ISSUE_DATA = {
             "Sahara Crossing",
             "Sahara crossing (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Sahara Crossing",
@@ -2777,7 +2016,7 @@ window.ISSUE_DATA = {
             "South Morocco with Agafay",
             "The Sahara Loop"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "South Morocco with Agafay",
@@ -2821,64 +2060,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::kasbah amridil visit",
-          "service": "Kasbah Amridil Visit",
-          "packages": [
-            "Draa & the deep desert",
-            "Sahara crossing (Rev)"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "Draa & the deep desert",
-            "Prod exists": "Yes",
-            "Prod Name": "Kasbah Amridil Visit",
-            "Prod Id": "a1HVk000000aBq8MAE",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Skoura",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Skoura",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBq8MAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah Amridil Visit",
-            "location": "Skoura",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::kasbah des oudaias",
           "service": "Kasbah des Oudaias",
           "packages": [
             "Atlantic Imperials"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Atlantic Imperials",
@@ -2922,84 +2109,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::kasbah du toubkal - hb",
-          "service": "Kasbah du Toubkal - HB",
-          "packages": [
-            "Atlas Discovery"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "Atlas Discovery",
-            "Prod exists": "Yes",
-            "Prod Name": "Kasbah du Toubkal - HB",
-            "Prod Id": "a1HVk000002L7YPMA0",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Imlil",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single - Standard Room",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Imlil",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000002L7YPMA0",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah du Toubkal - HB",
-            "location": "Imlil",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::kasbah itrane-hb",
           "service": "Kasbah Itrane-HB",
           "packages": [
             "Draa & the deep desert"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
@@ -3075,7 +2190,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Classic Sahara Crossing (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Classic Sahara Crossing (Rev)",
@@ -3136,72 +2251,13 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::kasbah oudaya visit",
-          "service": "Kasbah Oudaya Visit",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod exists": "Yes",
-            "Prod Name": "Kasbah Oudaya Visit",
-            "Prod Id": "a1HVk000000aBwsMAE",
-            "Package PCs": "Per Crew; Per person",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Rabat",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Rabat",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBwsMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Kasbah Oudaya Visit",
-            "location": "Rabat",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Crew; Per person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "NOT LISTED",
-              "prodName": "Kasbah Oudaya Visit",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P1::ksar timnay riad mimouna-hb",
           "service": "Ksar Timnay Riad Mimouna-HB",
           "packages": [
             "Sahara Crossing",
             "Sahara crossing (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Sahara Crossing",
@@ -3282,7 +2338,7 @@ window.ISSUE_DATA = {
           "packages": [
             "The Imperial Table"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "The Imperial Table",
@@ -3326,71 +2382,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::local drink at kasbah oudaya",
-          "service": "Local Drink at Kasbah Oudaya",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Drink at Kasbah Oudaya",
-            "Prod Id": "a1HVk000000aBn0MAE",
-            "Package PCs": "Snacks & Drinks; Snacks & Drinks (Crew)",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Rabat",
-            "Template type": "Meal",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Rabat",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBn0MAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Drink at Kasbah Oudaya",
-            "location": "Rabat",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Snacks & Drinks; Snacks & Drinks (Crew)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "NOT LISTED",
-              "prodName": "Local Drink at Kasbah Oudaya",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P1::local embroidery workshop visit",
           "service": "Local Embroidery Workshop Visit",
           "packages": [
             "The Sahara Loop"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "The Sahara Loop",
@@ -3434,124 +2431,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::local guide - half day chefchaouen",
-          "service": "Local Guide - Half Day Chefchaouen",
-          "packages": [
-            "C1 Blue North Gateway",
-            "The Blue North"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide - Half Day Chefchaouen",
-            "Prod Id": "a1HVk000000aBpqMAE",
-            "Package PCs": "Per Group Per Day (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Chefchaouen",
-            "Template type": "Local Guide",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Local Guide",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBpqMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide - Half Day Chefchaouen",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Local Guide",
-            "priceCategory": "Per Group Per Day (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "CHECK",
-              "prodName": "Local Guide - Chefchaouen",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
-          "id": "P1::local guide ait benhaddou",
-          "service": "Local guide Ait Benhaddou",
-          "packages": [
-            "Sahara Crossing",
-            "Sahara crossing (Rev)"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P10",
-          "fields": {
-            "TM package": "Sahara Crossing",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Ait Benhaddou",
-            "Prod Id": "a1HVk000001yIJFMA2",
-            "Package PCs": "Per Group",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Ait Benhaddou",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P4; P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Ait Benhaddou",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000001yIJFMA2",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local guide Ait Benhaddou",
-            "location": "Ait Benhaddou",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::local guide casablanca",
           "service": "Local Guide Casablanca",
           "packages": [
@@ -3559,7 +2438,7 @@ window.ISSUE_DATA = {
             "Atlantic shore",
             "Atlantic shore (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Atlantic Imperials",
@@ -3620,73 +2499,13 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::local guide casablanca - half day",
-          "service": "Local Guide Casablanca - Half Day",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Casablanca - Half Day",
-            "Prod Id": "a1HVk000000aBqAMAU",
-            "Package PCs": "Per Group Per Day (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Casablanca",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Casablanca",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBqAMAU",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Casablanca - Half Day",
-            "location": "Casablanca",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "CHECK",
-              "prodName": "Local Guide Casablanca - Half Day",
-              "prodPc": "Per Group Per Day (Non-Banded)"
-            }
-          ]
-        },
-        {
           "id": "P1::local guide essaouira",
           "service": "Local guide Essaouira",
           "packages": [
             "Atlantic shore",
             "Atlantic shore (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Atlantic shore",
@@ -3747,132 +2566,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::local guide half day rabat",
-          "service": "Local Guide Half Day Rabat",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Half Day Rabat",
-            "Prod Id": "a1HVk000000aBpsMAE",
-            "Package PCs": "Per Group Per Day (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Rabat",
-            "Template type": "Local guide",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Rabat",
-          "prodLocation": "",
-          "stType": "Local guide",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBpsMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Half Day Rabat",
-            "location": "Rabat",
-            "businessUnit": "",
-            "serviceType": "Local guide",
-            "priceCategory": "Per Group Per Day (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "CHECK",
-              "prodName": "Local Guide Half Day Rabat",
-              "prodPc": "Per Group Per Day (Non-Banded)"
-            }
-          ]
-        },
-        {
-          "id": "P1::local guide half day tangier",
-          "service": "Local Guide Half Day Tangier",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P10",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod exists": "Yes",
-            "Prod Name": "Local Guide Half Day Tangier",
-            "Prod Id": "a1HVk000001xjzpMAA",
-            "Package PCs": "Per Group Per Day (Non-Banded)",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Tangier",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P10",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tangier",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000001xjzpMAA",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Half Day Tangier",
-            "location": "Tangier",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group Per Day (Non-Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "CHECK",
-              "prodName": "Local Guide Half Day Tangier",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P1::local guide tanger",
           "service": "Local Guide Tanger",
           "packages": [
             "The Blue North (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "The Blue North (Rev)",
@@ -3938,7 +2637,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Sahara Crossing"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Sahara Crossing",
@@ -3998,7 +2697,7 @@ window.ISSUE_DATA = {
           "packages": [
             "The Sahara Loop"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "The Sahara Loop",
@@ -4053,64 +2752,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::lunch with a local family in todra",
-          "service": "Lunch With a Local Family in Todra",
-          "packages": [
-            "Sahara Crossing",
-            "Sahara crossing (Rev)"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4; P6",
-          "fields": {
-            "TM package": "Sahara Crossing",
-            "Prod exists": "Yes",
-            "Prod Name": "Lunch With a Local Family in Todra",
-            "Prod Id": "a1HVk000000aBo3MAE",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Todra Gorge",
-            "Template type": "Meal",
-            "Also listed in": "Also listed in P4; P6",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Todra Gorge",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBo3MAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Lunch With a Local Family in Todra",
-            "location": "Todra Gorge",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::maison d'hôtes kasbah azul-hb",
           "service": "Maison d'Hôtes Kasbah Azul-HB",
           "packages": [
             "Draa & the deep desert"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
@@ -4159,7 +2806,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Sahara Crossing"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Sahara Crossing",
@@ -4208,7 +2855,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Atlantic Imperials"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Atlantic Imperials",
@@ -4252,62 +2899,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::palais bahia visit marrakech",
-          "service": "Palais Bahia Visit Marrakech",
-          "packages": [
-            "South Morocco with Agafay"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "",
-          "fields": {
-            "TM package": "South Morocco with Agafay",
-            "Prod exists": "Yes",
-            "Prod Name": "Palais Bahia Visit Marrakech",
-            "Prod Id": "a1HVk000000aBpjMAE",
-            "Package PCs": "Per Person",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Marrakech",
-            "Template type": "Activity",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBpjMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Palais Bahia Visit Marrakech",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::palmeras y dunas hb",
           "service": "Palmeras y Dunas HB",
           "packages": [
             "Classic Sahara Crossing"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Classic Sahara Crossing",
@@ -4388,7 +2985,7 @@ window.ISSUE_DATA = {
           "packages": [
             "The Sahara Loop"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "The Sahara Loop",
@@ -4449,73 +3046,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::palmeras y dunas luxury camp - hb",
-          "service": "Palmeras Y Dunas Luxury Camp - HB",
-          "packages": [
-            "The Sahara Loop"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "The Sahara Loop",
-            "Prod exists": "Yes",
-            "Prod Name": "Palmeras Y Dunas Luxury Camp - HB",
-            "Prod Id": "a1HVk0000023o5ZMAQ",
-            "Package PCs": "Double Room; Leader Single Room; Single Room",
-            "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Template location": "Merzouga",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single Tent",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Tent",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Merzouga",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk0000023o5ZMAQ",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Palmeras Y Dunas Luxury Camp - HB",
-            "location": "Merzouga",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::palmeras y dunas-hb",
           "service": "Palmeras y Dunas-HB",
           "packages": [
@@ -4523,7 +3053,7 @@ window.ISSUE_DATA = {
             "Sahara Crossing",
             "Sahara crossing (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Classic Sahara Crossing (Rev)",
@@ -4605,7 +3135,7 @@ window.ISSUE_DATA = {
             "Atlantic Imperials",
             "Atlantic shore (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Atlantic Imperials",
@@ -4669,7 +3199,7 @@ window.ISSUE_DATA = {
             "The Imperial Table",
             "The Sahara Loop"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Agafay Extension",
@@ -4713,70 +3243,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::rabat to tangier private transfer",
-          "service": "Rabat to Tangier Private Transfer",
-          "packages": [
-            "Atlantic Imperials (Rev)",
-            "C1 Blue North Gateway"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
-            "Prod exists": "Yes",
-            "Prod Name": "Rabat to Tangier Private Transfer",
-            "Prod Id": "a1HSo00000BiNDtMAN",
-            "Package PCs": "Per Unit",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Rabat",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Rabat",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HSo00000BiNDtMAN",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Rabat to Tangier Private Transfer",
-            "location": "Rabat",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Unit",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
           "id": "P1::riad chakir",
           "service": "Riad Chakir",
           "packages": [
             "Atlantic shore (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Atlantic shore (Rev)",
@@ -4853,7 +3325,7 @@ window.ISSUE_DATA = {
             "Sahara Crossing",
             "Sahara crossing (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Sahara Crossing",
@@ -4902,7 +3374,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Atlas Discovery"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Atlas Discovery",
@@ -4979,7 +3451,7 @@ window.ISSUE_DATA = {
             "Sahara Crossing",
             "Sahara crossing (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Sahara Crossing",
@@ -5060,7 +3532,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Sahara Crossing"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Sahara Crossing",
@@ -5104,78 +3576,12 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P1::tangier port to chefchaouen private transfer",
-          "service": "Tangier Port to Chefchaouen Private Transfer",
-          "packages": [
-            "C1 Blue North Gateway",
-            "The Blue North"
-          ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Tangier Port to Chefchaouen Private Transfer",
-            "Prod Id": "a1HVk000000aBucMAE",
-            "Package PCs": "Per Vehicle (Banded)",
-            "Active price": "Yes",
-            "Price kind": "Both",
-            "Gap": "OK — FIT and Group Tour",
-            "Template location": "Tangier",
-            "Template type": "Transport",
-            "Also listed in": "Also listed in P4",
-            "In Service Template": "No"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "Tangier",
-          "prodLocation": "",
-          "stType": "Transport",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBucMAE",
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Tangier Port to Chefchaouen Private Transfer",
-            "location": "Tangier",
-            "businessUnit": "",
-            "serviceType": "Transport",
-            "priceCategory": "Per Vehicle (Banded)",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "CHECK",
-              "prodName": "Tangier to Chefchaouen Private transfer",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P1::taourirt kasbah visit",
           "service": "Taourirt Kasbah Visit",
           "packages": [
             "Draa & the deep desert"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
@@ -5230,7 +3636,7 @@ window.ISSUE_DATA = {
           "packages": [
             "The Sahara Loop"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "The Sahara Loop",
@@ -5285,7 +3691,7 @@ window.ISSUE_DATA = {
           "packages": [
             "CAS to MAR - Train"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "CAS to MAR - Train",
@@ -5340,7 +3746,7 @@ window.ISSUE_DATA = {
           "packages": [
             "MAR to CAS - Train"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "MAR to CAS - Train",
@@ -5396,7 +3802,7 @@ window.ISSUE_DATA = {
             "CAS to MAR - Train",
             "MAR to CAS - Train"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "CAS to MAR - Train",
@@ -5463,7 +3869,7 @@ window.ISSUE_DATA = {
             "CAS to MAR - Train",
             "MAR to CAS - Train"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "CAS to MAR - Train",
@@ -5524,7 +3930,7 @@ window.ISSUE_DATA = {
             "CAS to MAR - Train",
             "MAR to CAS - Train"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "CAS to MAR - Train",
@@ -5580,7 +3986,7 @@ window.ISSUE_DATA = {
             "CAS to MAR - Train",
             "MAR to CAS - Train"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "CAS to MAR - Train",
@@ -5629,7 +4035,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Draa & the deep desert"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
@@ -5679,7 +4085,7 @@ window.ISSUE_DATA = {
             "Sahara Crossing",
             "Sahara crossing (Rev)"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "Sahara Crossing",
@@ -5728,7 +4134,7 @@ window.ISSUE_DATA = {
           "packages": [
             "The Imperial Table"
           ],
-          "action": "Add this service to the Service Template. If Prod/fuzzy match is valid, use that Prod name.",
+          "action": "Not on ST and not an exact Prod Item. Add it to the Service Template, or pick a fuzzy Prod name if that match is valid.",
           "also": "",
           "fields": {
             "TM package": "The Imperial Table",
@@ -8291,7 +6697,7 @@ window.ISSUE_DATA = {
             "The Blue North (Rev)"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P6",
+          "also": "Also listed in P6",
           "fields": {
             "TM package": "Atlantic Imperials",
             "Prod exists": "Yes",
@@ -8303,7 +6709,7 @@ window.ISSUE_DATA = {
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
             "Prod PCs priced": "Per Person 50.0 MAD [FIT]; Per Crew 50.0 MAD [FIT]; Per Person 50.0 MAD [All Group Series]; Per Crew 50.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P6"
+            "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -9018,7 +7424,7 @@ window.ISSUE_DATA = {
             "C1 Blue North Gateway"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -9029,8 +7435,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Unit (Max 8) 2200.0 MAD [FIT]; Per Unit (Max 14) 2650.0 MAD [FIT]; Per Unit (Max 17) 2900.0 MAD [FIT]; Per Unit (Max 27) 3900.0 MAD [FIT]; Per Unit (Max 8) 2200.0 MAD [All Group Series]; Per Unit (Max 14) 2650.0 MAD [All Group Series]; Per Unit (Max 17) 2900.0 MAD [All Group Series]; Per Unit (Max 27) 3900.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Unit (Max 8) 2200.0 MAD [FIT]; Per Unit (Max 14) 2650.0 MAD [FIT]; Per Unit (Max 17) 2900.0 MAD [FIT]; Per Unit (Max 27) 3900.0 MAD [FIT]; Per Unit (Max 8) 2200.0 MAD [All Group Series]; Per Unit (Max 14) 2650.0 MAD [All Group Series]; Per Unit (Max 17) 2900.0 MAD [All Group Series]; Per Unit (Max 27) 3900.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -9156,7 +7561,7 @@ window.ISSUE_DATA = {
             "The Blue North"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
@@ -9167,8 +7572,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Unit (Max 8) 2050.0 MAD [All Group Series]; Per Unit (Max 14) 2700.0 MAD [All Group Series]; Per Unit (Max 17) 3100.0 MAD [All Group Series]; Per Unit (Max 27) 6050.0 MAD [All Group Series]; Per Unit (Max 8) 2050.0 MAD [FIT]; Per Unit (Max 14) 2700.0 MAD [FIT]; Per Unit (Max 17) 3100.0 MAD [FIT]; Per Unit (Max 27) 6050.0 MAD [FIT]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Unit (Max 8) 2050.0 MAD [All Group Series]; Per Unit (Max 14) 2700.0 MAD [All Group Series]; Per Unit (Max 17) 3100.0 MAD [All Group Series]; Per Unit (Max 27) 6050.0 MAD [All Group Series]; Per Unit (Max 8) 2050.0 MAD [FIT]; Per Unit (Max 14) 2700.0 MAD [FIT]; Per Unit (Max 17) 3100.0 MAD [FIT]; Per Unit (Max 27) 6050.0 MAD [FIT]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -9226,7 +7630,7 @@ window.ISSUE_DATA = {
             "Marrakech & the high atlas"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "Marrakech & the high atlas",
             "Prod exists": "Yes",
@@ -9236,8 +7640,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Person 120.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]; Per Person 150.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Person 120.0 MAD [All Group Series]; Per Crew 0.0 MAD [All Group Series]; Per Person 150.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -9653,7 +8056,7 @@ window.ISSUE_DATA = {
             "Sahara Crossing"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P9",
+          "also": "Also listed in P9",
           "fields": {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
@@ -9665,7 +8068,7 @@ window.ISSUE_DATA = {
             "Price kind": "No pricing",
             "Gap": "On Prod, no pricing",
             "Prod PCs priced": "—",
-            "Also listed in": "Also listed in P1; P9"
+            "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -11652,7 +10055,7 @@ window.ISSUE_DATA = {
             "Sahara Crossing"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
@@ -11663,8 +10066,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Sawadee - 2nd Leader Room 511.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 511.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Double - Standard Room 612.0 MAD [FIT]; Twin - Standard Room 612.0 MAD [FIT]; Double for Single Use 511.0 MAD [FIT]; Single - Standard Room 511.0 MAD [FIT]; Twin - Standard Room 422.0 MAD [All Group Series]; Single - Standard Room 351.0 MAD [All Group Series]; Double - Standard Room 422.0 MAD [All Group Series]; Triple - Standard Room 633.0 MAD [All Group Series]; Double for Single Use 351.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 462.0 MAD [All Group Series]; Twin - Standard Room 462.0 MAD [All Group Series]; Double for Single Use 462.0 MAD [All Group Series]; Single - Standard Room 462.0 MAD [All Group Series]; Double - Standard Room 612.0 MAD [All Group Series]; Twin - Standard Room 612.0 MAD [All Group Series]; Double for Single Use 511.0 MAD [All Group Series]; Single - Standard Room 511.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Sawadee - 2nd Leader Room 511.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 511.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Double - Standard Room 612.0 MAD [FIT]; Twin - Standard Room 612.0 MAD [FIT]; Double for Single Use 511.0 MAD [FIT]; Single - Standard Room 511.0 MAD [FIT]; Twin - Standard Room 422.0 MAD [All Group Series]; Single - Standard Room 351.0 MAD [All Group Series]; Double - Standard Room 422.0 MAD [All Group Series]; Triple - Standard Room 633.0 MAD [All Group Series]; Double for Single Use 351.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 462.0 MAD [All Group Series]; Twin - Standard Room 462.0 MAD [All Group Series]; Double for Single Use 462.0 MAD [All Group Series]; Single - Standard Room 462.0 MAD [All Group Series]; Double - Standard Room 612.0 MAD [All Group Series]; Twin - Standard Room 612.0 MAD [All Group Series]; Double for Single Use 511.0 MAD [All Group Series]; Single - Standard Room 511.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -14119,7 +12521,7 @@ window.ISSUE_DATA = {
             "Sahara crossing (Rev)"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
@@ -14129,8 +12531,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Person 40.0 MAD [All Group Series]; Per Crew 40.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Person 40.0 MAD [All Group Series]; Per Crew 40.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -14179,7 +12580,7 @@ window.ISSUE_DATA = {
             "Atlas Discovery"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "Atlas Discovery",
             "Prod exists": "Yes",
@@ -14190,8 +12591,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Double - Standard Room 2750.0 MAD [All Group Series]; Twin - Standard Room 2750.0 MAD [All Group Series]; Single - Standard Room 2420.0 MAD [All Group Series]; Leader Single - Standard Room 2420.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Double - Standard Room 2750.0 MAD [All Group Series]; Twin - Standard Room 2750.0 MAD [All Group Series]; Single - Standard Room 2420.0 MAD [All Group Series]; Leader Single - Standard Room 2420.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -15656,7 +14056,7 @@ window.ISSUE_DATA = {
             "Sahara crossing (Rev)"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P10",
+          "also": "Also listed in P10",
           "fields": {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
@@ -15668,7 +14068,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Per Group Per Day 400.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P10"
+            "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -16569,7 +14969,7 @@ window.ISSUE_DATA = {
             "Sahara crossing (Rev)"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1; P6",
+          "also": "Also listed in P6",
           "fields": {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
@@ -16581,7 +14981,7 @@ window.ISSUE_DATA = {
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Lunch 120.0 MAD [All Group Series]; Lunch (Crew) 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P6"
+            "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -18524,7 +16924,7 @@ window.ISSUE_DATA = {
             "The Sahara Loop"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "The Sahara Loop",
             "Prod exists": "Yes",
@@ -18535,8 +16935,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Single - Tent (FIT) 250.0 MAD [All Group Series]; Double - Tent (FIT) 500.0 MAD [All Group Series]; Twin - Tent (FIT) 500.0 MAD [All Group Series]; Double for Single Use - Tent (FIT) 250.0 MAD [All Group Series]; Triple - Tent (FIT) 650.0 MAD [All Group Series]; Leader Single Tent (FIT) 0.0 MAD [All Group Series]; Single - Tent 300.0 MAD [All Group Series]; Double - Tent 500.0 MAD [All Group Series]; Twin - Tent 500.0 MAD [All Group Series]; Double for Single Use - Tent 300.0 MAD [All Group Series]; Triple - Tent 650.0 MAD [All Group Series]; Leader Single Tent 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 250.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 300.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Single - Tent (FIT) 250.0 MAD [All Group Series]; Double - Tent (FIT) 500.0 MAD [All Group Series]; Twin - Tent (FIT) 500.0 MAD [All Group Series]; Double for Single Use - Tent (FIT) 250.0 MAD [All Group Series]; Triple - Tent (FIT) 650.0 MAD [All Group Series]; Leader Single Tent (FIT) 0.0 MAD [All Group Series]; Single - Tent 300.0 MAD [All Group Series]; Double - Tent 500.0 MAD [All Group Series]; Twin - Tent 500.0 MAD [All Group Series]; Double for Single Use - Tent 300.0 MAD [All Group Series]; Triple - Tent 650.0 MAD [All Group Series]; Leader Single Tent 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 250.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 300.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -18743,7 +17142,7 @@ window.ISSUE_DATA = {
             "C1 Blue North Gateway"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -18754,8 +17153,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Unit (Max 8) 4400.0 MAD [All Group Series]; Per Unit (Max 14) 5300.0 MAD [All Group Series]; Per Unit (Max 17) 5800.0 MAD [All Group Series]; Per Unit (Max 27) 7800.0 MAD [All Group Series]; Per Unit (Max 8) 4400.0 MAD [FIT]; Per Unit (Max 14) 5300.0 MAD [FIT]; Per Unit (Max 17) 5800.0 MAD [FIT]; Per Unit (Max 27) 7800.0 MAD [FIT]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Unit (Max 8) 4400.0 MAD [All Group Series]; Per Unit (Max 14) 5300.0 MAD [All Group Series]; Per Unit (Max 17) 5800.0 MAD [All Group Series]; Per Unit (Max 27) 7800.0 MAD [All Group Series]; Per Unit (Max 8) 4400.0 MAD [FIT]; Per Unit (Max 14) 5300.0 MAD [FIT]; Per Unit (Max 17) 5800.0 MAD [FIT]; Per Unit (Max 27) 7800.0 MAD [FIT]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -20588,7 +18986,7 @@ window.ISSUE_DATA = {
             "SGA XMSC"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
@@ -20599,8 +18997,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Vehicle (Banded) Max 7 1450.0 MAD [FIT]; Per Vehicle (Banded) Max 15 1600.0 MAD [FIT]; Per Vehicle (Banded) Max 16 1750.0 MAD [FIT]; Per Vehicle (Banded) Max 7 1450.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 1600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 1750.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1"
+            "Prod PCs priced": "Per Vehicle (Banded) Max 7 1450.0 MAD [FIT]; Per Vehicle (Banded) Max 15 1600.0 MAD [FIT]; Per Vehicle (Banded) Max 16 1750.0 MAD [FIT]; Per Vehicle (Banded) Max 7 1450.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 1600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 1750.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -22691,7 +21088,7 @@ window.ISSUE_DATA = {
             "Atlantic Imperials"
           ],
           "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "Atlantic Imperials",
             "Prod exists": "Yes",
@@ -22704,7 +21101,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Gap": "OK — FIT and Group Tour",
             "Prod PCs priced": "Per Person 50.0 MAD [FIT]; Per Crew 50.0 MAD [FIT]; Per Person 50.0 MAD [All Group Series]; Per Crew 50.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -23201,7 +21598,7 @@ window.ISSUE_DATA = {
             "Sahara crossing (Rev)"
           ],
           "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
@@ -23214,7 +21611,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Gap": "Group Tour only",
             "Prod PCs priced": "Lunch 120.0 MAD [All Group Series]; Lunch (Crew) 0.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -25858,7 +24255,7 @@ window.ISSUE_DATA = {
             "Draa & the deep desert"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
             "Prod exists": "Yes",
@@ -25868,8 +24265,7 @@ window.ISSUE_DATA = {
             "Template location": "Erg Chigaga",
             "Prod location": "Erg Chegaga",
             "Template type": "Activity",
-            "Prod record type": "Activity",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Activity"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -25907,7 +24303,7 @@ window.ISSUE_DATA = {
             "South Morocco with Agafay"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "South Morocco with Agafay",
             "Prod exists": "Yes",
@@ -25917,8 +24313,7 @@ window.ISSUE_DATA = {
             "Template location": "Agafay",
             "Prod location": "Merzouga",
             "Template type": "Activity",
-            "Prod record type": "Activity",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Activity"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -26164,7 +24559,7 @@ window.ISSUE_DATA = {
             "Sahara Crossing"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
@@ -26175,7 +24570,7 @@ window.ISSUE_DATA = {
             "Prod location": "Merzouga",
             "Template type": "Activity",
             "Prod record type": "Activity",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -27769,7 +26164,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMFB",
             "Prod exists": "Yes",
@@ -27779,8 +26174,7 @@ window.ISSUE_DATA = {
             "Template location": "Chefchaouen",
             "Prod location": "Chefchaouen",
             "Template type": "Activity",
-            "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Local Guide"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -27878,7 +26272,7 @@ window.ISSUE_DATA = {
             "Sahara crossing (Rev)"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1; P4",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "Sahara Crossing",
             "Prod exists": "Yes",
@@ -27889,7 +26283,7 @@ window.ISSUE_DATA = {
             "Prod location": "Ait Benhaddou",
             "Template type": "Activity",
             "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1; P4"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -27929,7 +26323,7 @@ window.ISSUE_DATA = {
             "SGA XMFK"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -27939,8 +26333,7 @@ window.ISSUE_DATA = {
             "Template location": "Casablanca",
             "Prod location": "Casablanca",
             "Template type": "Activity",
-            "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Local Guide"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -28430,7 +26823,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "SGA XMKC",
             "Prod exists": "Yes",
@@ -28440,8 +26833,7 @@ window.ISSUE_DATA = {
             "Template location": "Rabat",
             "Prod location": "Rabat",
             "Template type": "Activity",
-            "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Local Guide"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -28489,7 +26881,7 @@ window.ISSUE_DATA = {
             "SGA XMFB"
           ],
           "action": "Package/ST type does not match Prod record type. Confirm whether this is a real type error or different picklists.",
-          "also": "Also listed in P1",
+          "also": "",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -28499,8 +26891,7 @@ window.ISSUE_DATA = {
             "Template location": "Tangier",
             "Prod location": "Tangier",
             "Template type": "Activity",
-            "Prod record type": "Local Guide",
-            "Also listed in": "Also listed in P1"
+            "Prod record type": "Local Guide"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -42318,9 +40709,9 @@ window.ISSUE_DATA = {
       ]
     }
   ],
-  "total": 655,
+  "total": 628,
   "stCommentsSource": "Service Template Comment column (20 Nov workbook + Siham CSV extras). Notes only, not Yes/No.",
   "stCommentsCards": 208,
   "nariCommentsSource": "Nari Notes on Atlantic Imperials (Rev), The Blue North, and C1 Blue North Gateway. Notes only, not Yes/No.",
-  "nariCommentsCards": 55
+  "nariCommentsCards": 41
 };

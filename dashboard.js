@@ -178,7 +178,15 @@
     const st = String(row.status || "").toLowerCase();
     const ch = String(row.choice || "").toLowerCase();
     if (st === "no" || ch === "no") return "no";
-    if (st === "yes" || ch === "yes" || ch === "prod" || ch.startsWith("match:")) return "yes";
+    if (
+      st === "yes" ||
+      ch === "yes" ||
+      ch === "prod" ||
+      ch === "st" ||
+      ch === "use-existing" ||
+      ch.startsWith("match:")
+    )
+      return "yes";
     if (st === "done" || ch === "done") return "done";
     return "open";
   }

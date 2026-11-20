@@ -43,6 +43,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -92,6 +93,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -147,6 +149,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -196,6 +199,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -251,6 +255,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -329,6 +334,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -389,6 +395,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -449,6 +456,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -498,6 +506,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -562,6 +571,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -628,6 +638,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -704,6 +715,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -754,6 +766,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -803,6 +816,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -859,6 +873,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -910,6 +925,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -970,6 +986,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1025,6 +1042,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1087,6 +1105,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1136,6 +1155,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1212,6 +1232,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1262,6 +1283,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1328,6 +1350,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1405,6 +1428,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1455,6 +1479,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1504,6 +1529,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1580,6 +1606,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1629,6 +1656,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1697,6 +1725,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1764,6 +1793,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1830,6 +1860,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1890,6 +1921,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1950,6 +1982,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -1999,6 +2032,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2048,6 +2082,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2097,6 +2132,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2181,6 +2217,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2231,6 +2268,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2295,6 +2333,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2371,6 +2410,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2421,6 +2461,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2470,6 +2511,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2525,6 +2567,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2580,6 +2623,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2636,6 +2680,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2703,6 +2748,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2764,6 +2810,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2820,6 +2867,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2870,6 +2918,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2919,6 +2968,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -2969,6 +3019,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -3018,6 +3069,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -3097,6 +3149,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3157,6 +3210,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3224,6 +3278,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3296,6 +3351,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3372,6 +3428,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3443,6 +3500,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3509,6 +3567,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3570,6 +3629,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3632,6 +3692,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3693,6 +3754,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3767,6 +3829,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3827,6 +3890,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3898,6 +3962,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -3958,6 +4023,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -4020,6 +4086,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -4091,6 +4158,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028zI5MAI",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -4165,6 +4233,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBwYMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "City Tax",
@@ -4326,6 +4395,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028YszMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double Room",
@@ -4422,6 +4492,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBuWMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -4528,6 +4599,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000jXPdMAM",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -4604,6 +4676,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000gdTCMAY",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -4728,6 +4801,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028Zc9MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double - Tent",
@@ -4818,6 +4892,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBuYMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -4879,6 +4954,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnUMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -5045,6 +5121,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnRMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Twin Room",
@@ -5164,6 +5241,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002G4EbMAK",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -5249,6 +5327,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBsRMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded) Max 12",
@@ -5340,6 +5419,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBs5MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -5436,6 +5516,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBoCMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -5547,6 +5628,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002rQrFMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -5626,6 +5708,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrTMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -5692,6 +5775,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBvRMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -5758,6 +5842,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqNMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -5824,6 +5909,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqHMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -5855,7 +5941,7 @@ window.ISSUE_DATA = {
             "C1 Blue North Gateway"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "",
+          "also": "Also listed in P6",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -5866,7 +5952,8 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Unit (Max 8) 2200.0 MAD [FIT]; Per Unit (Max 14) 2650.0 MAD [FIT]; Per Unit (Max 17) 2900.0 MAD [FIT]; Per Unit (Max 27) 3900.0 MAD [FIT]; Per Unit (Max 8) 2200.0 MAD [All Group Series]; Per Unit (Max 14) 2650.0 MAD [All Group Series]; Per Unit (Max 17) 2900.0 MAD [All Group Series]; Per Unit (Max 27) 3900.0 MAD [All Group Series]"
+            "Prod PCs priced": "Per Unit (Max 8) 2200.0 MAD [FIT]; Per Unit (Max 14) 2650.0 MAD [FIT]; Per Unit (Max 17) 2900.0 MAD [FIT]; Per Unit (Max 27) 3900.0 MAD [FIT]; Per Unit (Max 8) 2200.0 MAD [All Group Series]; Per Unit (Max 14) 2650.0 MAD [All Group Series]; Per Unit (Max 17) 2900.0 MAD [All Group Series]; Per Unit (Max 27) 3900.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -5886,6 +5973,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HSo00000BiMxlMAF",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Unit",
@@ -5956,6 +6044,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqZMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -5992,7 +6081,7 @@ window.ISSUE_DATA = {
             "The Blue North"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "",
+          "also": "Also listed in P6",
           "fields": {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
@@ -6003,7 +6092,8 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Unit (Max 8) 2050.0 MAD [All Group Series]; Per Unit (Max 14) 2700.0 MAD [All Group Series]; Per Unit (Max 17) 3100.0 MAD [All Group Series]; Per Unit (Max 27) 6050.0 MAD [All Group Series]; Per Unit (Max 8) 2050.0 MAD [FIT]; Per Unit (Max 14) 2700.0 MAD [FIT]; Per Unit (Max 17) 3100.0 MAD [FIT]; Per Unit (Max 27) 6050.0 MAD [FIT]"
+            "Prod PCs priced": "Per Unit (Max 8) 2050.0 MAD [All Group Series]; Per Unit (Max 14) 2700.0 MAD [All Group Series]; Per Unit (Max 17) 3100.0 MAD [All Group Series]; Per Unit (Max 27) 6050.0 MAD [All Group Series]; Per Unit (Max 8) 2050.0 MAD [FIT]; Per Unit (Max 14) 2700.0 MAD [FIT]; Per Unit (Max 17) 3100.0 MAD [FIT]; Per Unit (Max 27) 6050.0 MAD [FIT]",
+            "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -6023,6 +6113,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HSo00000BiOczMAF",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Unit",
@@ -6085,6 +6176,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrQMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Person",
@@ -6150,6 +6242,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000024Mf7MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double for Single Use",
@@ -6258,6 +6351,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpHMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double - Standard Room",
@@ -6361,6 +6455,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000029pGfMAI",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -6457,6 +6552,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnMMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -6513,6 +6609,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002L1KvMAK",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -6563,6 +6660,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBp6MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Dinner",
@@ -6639,6 +6737,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002IUZZMA4",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Leader Single Room",
@@ -6782,6 +6881,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002LIdVMAW",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Crew Twin Room",
@@ -6897,6 +6997,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000001yygfMAA",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "City Tax",
@@ -7015,6 +7116,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBs6MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded) Max 14",
@@ -7087,6 +7189,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBvrMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -7155,6 +7258,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnQMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double Room",
@@ -7264,6 +7368,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnSMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -7349,7 +7454,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P6",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPE",
             "Prod exists": "Yes",
@@ -7360,8 +7465,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Tent (with Bathroom) (FIT) 3700.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 3700.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 2700.0 MAD [All Group Series]; Leader Tent Single (with Shared Facilities) (FIT) 1200.0 MAD [All Group Series]; Triple - Tent (FIT) 4700.0 MAD [All Group Series]; Quad - Tent (FIT) 5700.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 1000.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 1200.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 1200.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 400.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 16 0.0 MAD [All Group Series]; Triple - Tent (FIT) 1750.0 MAD [All Group Series]; Quad - Tent (FIT) 2200.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 3400.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 3400.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 2300.0 MAD [All Group Series]; Triple - Tent (FIT) 4500.0 MAD [All Group Series]; Quad - Tent (FIT) 5600.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 1000.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 1300.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 1300.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 1050.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 500.0 MAD [All Group Series]; Triple - Tent (FIT) 1900.0 MAD [All Group Series]; Quad - Tent (FIT) 2400.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P6"
+            "Prod PCs priced": "Twin - Tent (with Bathroom) (FIT) 3700.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 3700.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 2700.0 MAD [All Group Series]; Leader Tent Single (with Shared Facilities) (FIT) 1200.0 MAD [All Group Series]; Triple - Tent (FIT) 4700.0 MAD [All Group Series]; Quad - Tent (FIT) 5700.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 1000.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 1200.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 1200.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 400.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 16 0.0 MAD [All Group Series]; Triple - Tent (FIT) 1750.0 MAD [All Group Series]; Quad - Tent (FIT) 2200.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 3400.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 3400.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 2300.0 MAD [All Group Series]; Triple - Tent (FIT) 4500.0 MAD [All Group Series]; Quad - Tent (FIT) 5600.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 1000.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 1300.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 1300.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 1050.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 500.0 MAD [All Group Series]; Triple - Tent (FIT) 1900.0 MAD [All Group Series]; Quad - Tent (FIT) 2400.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -7375,6 +7479,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBodMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double - Tent (with Bathroom) (FIT)",
@@ -7517,6 +7622,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpIMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Twin Room",
@@ -7622,7 +7728,7 @@ window.ISSUE_DATA = {
             "SGA XMPX"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "",
+          "also": "Also listed in P6",
           "fields": {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
@@ -7633,7 +7739,8 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room 1100.0 MAD [All Group Series]; Single - Standard Room 1050.0 MAD [All Group Series]; Double - Standard Room 1100.0 MAD [All Group Series]; Double for Single Use 1050.0 MAD [All Group Series]; Leader Room Single - Standard Max 6 0.0 MAD [All Group Series]; Leader Room Single - Standard Max 6 525.0 MAD [All Group Series]; Double - Standard Room 1250.0 MAD [All Group Series]; Twin - Standard Room 1250.0 MAD [All Group Series]; Double for Single Use 1125.0 MAD [All Group Series]; Single - Standard Room 1125.0 MAD [All Group Series]; Leader Room Single - Standard Max 16 (Cloned) 0.0 MAD [All Group Series]; Double for Single Use 1150.0 MAD [All Group Series]; Single - Standard Room 1150.0 MAD [All Group Series]"
+            "Prod PCs priced": "Twin - Standard Room 1100.0 MAD [All Group Series]; Single - Standard Room 1050.0 MAD [All Group Series]; Double - Standard Room 1100.0 MAD [All Group Series]; Double for Single Use 1050.0 MAD [All Group Series]; Leader Room Single - Standard Max 6 0.0 MAD [All Group Series]; Leader Room Single - Standard Max 6 525.0 MAD [All Group Series]; Double - Standard Room 1250.0 MAD [All Group Series]; Twin - Standard Room 1250.0 MAD [All Group Series]; Double for Single Use 1125.0 MAD [All Group Series]; Single - Standard Room 1125.0 MAD [All Group Series]; Leader Room Single - Standard Max 16 (Cloned) 0.0 MAD [All Group Series]; Double for Single Use 1150.0 MAD [All Group Series]; Single - Standard Room 1150.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -7668,6 +7775,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBvdMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -7793,6 +7901,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBwTMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Breakfast",
@@ -7957,6 +8066,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBwwMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -8093,6 +8203,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028Yg5MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Single Room",
@@ -8172,6 +8283,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpEMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "City Tax",
@@ -8402,6 +8514,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HSo00000BB2RZMA1",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "City Tax",
@@ -8527,6 +8640,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBo5MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -8703,6 +8817,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002LwsfMAC",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -8820,6 +8935,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBwxMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -8928,6 +9044,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBmfMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -9113,6 +9230,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpJMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double - Standard Room",
@@ -9255,6 +9373,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBoFMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -9435,6 +9554,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000029odxMAA",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double - Standard Room",
@@ -9549,6 +9669,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBuwMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Leader Single Room",
@@ -9709,6 +9830,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBoJMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Twin Room",
@@ -9874,6 +9996,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBmkMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double - Standard Room",
@@ -9980,6 +10103,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HSo00000Bi3DZMAZ",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double - Standard Room",
@@ -10104,6 +10228,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqfMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -10185,6 +10310,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBn7MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -10271,6 +10397,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBmdMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "City Tax",
@@ -10552,6 +10679,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBoRMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -10787,6 +10915,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000023TtxMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Standard - Double Room",
@@ -10883,6 +11012,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBvZMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -11024,6 +11154,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBvaMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -11099,6 +11230,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBq8MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Person",
@@ -11180,6 +11312,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002L7YPMA0",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -11260,6 +11393,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002L62uMAC",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double - Standard Room",
@@ -11499,6 +11633,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpVMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double - Standard Room",
@@ -11606,6 +11741,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002IqVFMA0",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Single Room",
@@ -11704,6 +11840,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpLMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Twin Room",
@@ -11840,6 +11977,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpYMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -11958,6 +12096,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBmgMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Twin Room",
@@ -12118,6 +12257,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000023jnRMAQ",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "City Tax",
@@ -12256,6 +12396,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBmmMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Twin Room",
@@ -12392,6 +12533,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBoBMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -12488,6 +12630,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpWMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -12604,6 +12747,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBvnMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -12735,6 +12879,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028al7MAA",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -12819,6 +12964,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBorMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -12882,6 +13028,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000001yIJFMA2",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group",
@@ -12947,6 +13094,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028cyDMAQ",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Crew",
@@ -13018,6 +13166,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBroMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -13086,6 +13235,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpfMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Crew",
@@ -13170,6 +13320,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqrMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -13236,6 +13387,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqAMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group",
@@ -13314,6 +13466,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpuMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group",
@@ -13401,6 +13554,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpfMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -13466,6 +13620,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqCMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group",
@@ -13539,6 +13694,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrKMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -13618,6 +13774,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpiMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group",
@@ -13701,6 +13858,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBphMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group",
@@ -13776,6 +13934,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqMMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group",
@@ -13857,6 +14016,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBn5MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group",
@@ -13928,6 +14088,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBriMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -13984,6 +14145,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBo2MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -14046,6 +14208,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002E8uDMAS",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -14103,6 +14266,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBo3MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -14170,6 +14334,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBsHMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -14266,6 +14431,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HSo00000Bi46PMAR",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "City Tax",
@@ -14475,6 +14641,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002jIhBMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -14566,6 +14733,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnFMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -14652,6 +14820,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBwQMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -14728,6 +14897,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBuXMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -14784,6 +14954,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000gzIPMAY",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -14850,6 +15021,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBn6MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -14911,6 +15083,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBx2MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -14977,6 +15150,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnuMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -15044,6 +15218,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBttMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -15110,6 +15285,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrwMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Overnight Transport",
@@ -15174,6 +15350,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBtmMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -15245,6 +15422,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBwKMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -15326,6 +15504,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBvqMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -15417,6 +15596,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrUMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -15498,6 +15678,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002posrMAA",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -15579,6 +15760,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpSMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -15655,6 +15837,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBo6MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -15746,6 +15929,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002sMyTMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -15807,6 +15991,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBubMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -15873,6 +16058,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBmyMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -15936,6 +16122,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBq6MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Group Per Day",
@@ -15997,6 +16184,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000ilpdMAA",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -16078,6 +16266,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000023o5ZMAQ",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -16210,6 +16399,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpeMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Crew",
@@ -16255,7 +16445,7 @@ window.ISSUE_DATA = {
             "C1 Blue North Gateway"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "",
+          "also": "Also listed in P6",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -16266,7 +16456,8 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Unit (Max 8) 4400.0 MAD [All Group Series]; Per Unit (Max 14) 5300.0 MAD [All Group Series]; Per Unit (Max 17) 5800.0 MAD [All Group Series]; Per Unit (Max 27) 7800.0 MAD [All Group Series]; Per Unit (Max 8) 4400.0 MAD [FIT]; Per Unit (Max 14) 5300.0 MAD [FIT]; Per Unit (Max 17) 5800.0 MAD [FIT]; Per Unit (Max 27) 7800.0 MAD [FIT]"
+            "Prod PCs priced": "Per Unit (Max 8) 4400.0 MAD [All Group Series]; Per Unit (Max 14) 5300.0 MAD [All Group Series]; Per Unit (Max 17) 5800.0 MAD [All Group Series]; Per Unit (Max 27) 7800.0 MAD [All Group Series]; Per Unit (Max 8) 4400.0 MAD [FIT]; Per Unit (Max 14) 5300.0 MAD [FIT]; Per Unit (Max 17) 5800.0 MAD [FIT]; Per Unit (Max 27) 7800.0 MAD [FIT]",
+            "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -16286,6 +16477,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HSo00000BiNDtMAN",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Unit",
@@ -16362,6 +16554,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002pF3tMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -16513,6 +16706,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpZMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double - Standard Room",
@@ -16651,6 +16845,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002I9mrMAC",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double - Standard Room",
@@ -16751,6 +16946,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBuCMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -16954,6 +17150,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBscMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "City Tax PP",
@@ -17094,6 +17291,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002400HMAQ",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Leader Single Room",
@@ -17216,6 +17414,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBwVMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "City Tax",
@@ -17406,6 +17605,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBtOMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -17509,6 +17709,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBsrMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Leader Single Room",
@@ -17768,6 +17969,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBoKMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Crew Twin Room",
@@ -17883,6 +18085,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnPMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double - Tent",
@@ -17983,6 +18186,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBp9MAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Crew",
@@ -18064,6 +18268,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrDMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -18132,6 +18337,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBucMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -18201,6 +18407,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBsjMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -18267,6 +18474,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnIMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Per Vehicle (Banded)",
@@ -18328,6 +18536,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrNMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -18394,6 +18603,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002gW2LMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double Room",
@@ -18490,6 +18700,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBsTMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -18646,6 +18857,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqIMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -18823,6 +19035,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBmbMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -18908,7 +19121,7 @@ window.ISSUE_DATA = {
             "SGA XMPX"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "",
+          "also": "Also listed in P6",
           "fields": {
             "TM package": "SGA XMPX",
             "Prod exists": "Yes",
@@ -18919,7 +19132,8 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Group Tour",
             "Gap": "Group Tour only",
-            "Prod PCs priced": "Per Vehicle (Non Banded) Max 6 10200.0 MAD [All Group Series]; Per Vehicle (Non Banded) Max 14 10500.0 MAD [All Group Series]; Per Vehicle (Non Banded) Max 17 10900.0 MAD [All Group Series]"
+            "Prod PCs priced": "Per Vehicle (Non Banded) Max 6 10200.0 MAD [All Group Series]; Per Vehicle (Non Banded) Max 14 10500.0 MAD [All Group Series]; Per Vehicle (Non Banded) Max 17 10900.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
           "fuzzyPc": [
@@ -18939,6 +19153,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000jXCjMAM",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -19026,6 +19241,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000jYdRMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "Double Room",
@@ -19102,6 +19318,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBwpMAE",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -19228,6 +19445,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002rkzdMAA",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -19324,6 +19542,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002rVPVMA2",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -19415,6 +19634,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002sTFBMA2",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -19507,6 +19727,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBoIMAU",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -19644,6 +19865,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002rUGYMA2",
+          "existingPcs": [],
           "priceCompare": [
             {
               "pc": "(Prod)",
@@ -19726,6 +19948,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBwYMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -19782,6 +20005,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000001yygfMAA",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -19848,6 +20072,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBryMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -19905,6 +20130,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBwWMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -19961,6 +20187,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBwJMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -20023,6 +20250,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HSo00000A74acMAB",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -20088,6 +20316,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBscMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -20116,9 +20345,9 @@ window.ISSUE_DATA = {
       "title": "PC name mismatch",
       "sheet": "P6 PC name mismatch",
       "workbook": "pricing",
-      "help": "Only package occupancies that are not on Prod and not on the Service Template. This tab blocks Ready until every card is Yes or No. Yes = create a new PC and fill the price-category fields. Occupancies that already exist on Prod or ST are not listed — ST names used on the package are created from ST.",
+      "help": "Only package occupancies that are not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). This tab blocks Ready. Yes = create a new PC. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC. Occupancies that already exist on Prod or ST are not listed — ST names used on the package are created from ST.",
       "choice": "pc-map",
-      "count": 17,
+      "count": 21,
       "issues": [
         {
           "id": "P6::aday hotel",
@@ -20126,7 +20355,7 @@ window.ISSUE_DATA = {
           "packages": [
             "SGA XMFP"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMFP",
@@ -20134,7 +20363,7 @@ window.ISSUE_DATA = {
             "Prod Name": "Aday Hotel",
             "Prod Id": "a1HVk0000028YszMAE",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Suggested PC map": "Leader Single Room → create new; Single Room → create new",
+            "Suggested PC map": "Single Room → create new, or use existing: Double For Single / Leader Room Single",
             "PC issue": "Package PC not on Prod or ST: Single Room",
             "ST PCs missing on Prod": "Leader Single Room; Single Room",
             "Active price": "Yes",
@@ -20157,13 +20386,8 @@ window.ISSUE_DATA = {
           ],
           "pcMap": [
             {
-              "from": "Leader Single Room",
-              "value": "create new",
-              "score": null
-            },
-            {
               "from": "Single Room",
-              "value": "create new",
+              "value": "create new, or use existing: Double For Single / Leader Room Single",
               "score": null
             }
           ],
@@ -20176,6 +20400,13 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028YszMAE",
+          "existingPcs": [
+            "Triple Room",
+            "Double Room",
+            "Twin Room",
+            "Double For Single",
+            "Leader Room Single"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -20199,7 +20430,7 @@ window.ISSUE_DATA = {
           "packages": [
             "The Sahara Loop"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P8; P9",
           "fields": {
             "TM package": "The Sahara Loop",
@@ -20233,6 +20464,11 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028bu5MAA",
+          "existingPcs": [
+            "Per Crew",
+            "Per Person",
+            "Sawadee - 2nd Leader"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -20260,7 +20496,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Atlantic Imperials"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P4",
           "fields": {
             "TM package": "Atlantic Imperials",
@@ -20294,6 +20530,10 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002G4EbMAK",
+          "existingPcs": [
+            "Per Person",
+            "Per Crew"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -20325,7 +20565,7 @@ window.ISSUE_DATA = {
           "packages": [
             "SGA XMFP"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P4; P10",
           "fields": {
             "TM package": "SGA XMFP",
@@ -20359,6 +20599,11 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBs5MAE",
+          "existingPcs": [
+            "Per Unit (Max 02, Non-Banded)",
+            "Per Unit (Max 05, Non-Banded)",
+            "Per Unit (Max 12, Non-Banded)"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -20382,7 +20627,7 @@ window.ISSUE_DATA = {
           "packages": [
             "SGA XMPM"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P4; P9; P10",
           "fields": {
             "TM package": "SGA XMPM",
@@ -20416,6 +20661,16 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBoCMAU",
+          "existingPcs": [
+            "Per Vehicle (Banded) Max 6",
+            "Per Vehicle (Banded) Max 12",
+            "Per Vehicle (Banded) Max 13",
+            "Per Vehicle (Banded) Max 15",
+            "Per Vehicle (Banded) Max 16",
+            "Per Vehicle (Banded) Max 26",
+            "Per Vehicle (Banded) Max 34",
+            "Per Vehicle (Banded) Max 46"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -20440,7 +20695,7 @@ window.ISSUE_DATA = {
             "SGA XMSB",
             "SGA XMSC"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMSB",
@@ -20480,6 +20735,9 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrTMAU",
+          "existingPcs": [
+            "Per Unit (Max 04, Non-Banded)"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -20498,38 +20756,40 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P6::golden camp",
-          "service": "Golden Camp",
+          "id": "P6::casablanca to rabat private transfer",
+          "service": "Casablanca to Rabat Private Transfer",
           "packages": [
-            "SGA XMPE"
+            "Atlantic Imperials (Rev)",
+            "C1 Blue North Gateway"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P4",
           "fields": {
-            "TM package": "SGA XMPE",
+            "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
-            "Prod Name": "Golden Camp",
-            "Prod Id": "a1HVk000000aBodMAE",
-            "Package PCs": "Double - Tent (with Bathroom) (FIT); Maos Method Multiple Crew Room (Pax Banded) Max 16; Maos Method Multiple Crew Room (Pax Banded) Max 4; Single - Tent (with Bathroom) (FIT); Twin - Tent (with Bathroom) (FIT)",
-            "Suggested PC map": "Maos Method Multiple Crew Room (Pax Banded) Max 16 → create new; Maos Method Multiple Crew Room (Pax Banded) Max 4 → create new",
-            "PC issue": "Package PC not on Prod or ST: Maos Method Multiple Crew Room (Pax Banded) Max 16; Maos Method Multiple Crew Room (Pax Banded) Max 4",
-            "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "Prod Name": "Casablanca to Rabat Private Transfer",
+            "Prod Id": "a1HSo00000BiMxlMAF",
+            "Package PCs": "Per Unit",
+            "Suggested PC map": "Per Unit → create new, or use existing: Per Unit (Max 8) / Per Unit (Max 14) / Per Unit (Max 17) / Per Unit (Max 27)",
+            "PC issue": "Package PC not on Prod or ST: Per Unit",
+            "ST PCs missing on Prod": "Per Unit",
             "Active price": "Yes",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Tent (with Bathroom) (FIT) 3700.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 3700.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 2700.0 MAD [All Group Series]; Leader Tent Single (with Shared Facilities) (FIT) 1200.0 MAD [All Group Series]; Triple - Tent (FIT) 4700.0 MAD [All Group Series]; Quad - Tent (FIT) 5700.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 1000.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 1200.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 1200.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 400.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 16 0.0 MAD [All Group Series]; Triple - Tent (FIT) 1750.0 MAD [All Group Series]; Quad - Tent (FIT) 2200.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 3400.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 3400.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 2300.0 MAD [All Group Series]; Triple - Tent (FIT) 4500.0 MAD [All Group Series]; Quad - Tent (FIT) 5600.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 1000.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 1300.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 1300.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 1050.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 500.0 MAD [All Group Series]; Triple - Tent (FIT) 1900.0 MAD [All Group Series]; Quad - Tent (FIT) 2400.0 MAD [All Group Series]",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Per Unit (Max 8) 2200.0 MAD [FIT]; Per Unit (Max 14) 2650.0 MAD [FIT]; Per Unit (Max 17) 2900.0 MAD [FIT]; Per Unit (Max 27) 3900.0 MAD [FIT]; Per Unit (Max 8) 2200.0 MAD [All Group Series]; Per Unit (Max 14) 2650.0 MAD [All Group Series]; Per Unit (Max 17) 2900.0 MAD [All Group Series]; Per Unit (Max 27) 3900.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
-          "fuzzyPc": [],
+          "fuzzyPc": [
+            {
+              "from": "Per Unit",
+              "value": "Per Unit (Max",
+              "score": 92.0
+            }
+          ],
           "pcMap": [
             {
-              "from": "Maos Method Multiple Crew Room (Pax Banded) Max 16",
-              "value": "create new",
-              "score": null
-            },
-            {
-              "from": "Maos Method Multiple Crew Room (Pax Banded) Max 4",
-              "value": "create new",
+              "from": "Per Unit",
+              "value": "create new, or use existing: Per Unit (Max 8) / Per Unit (Max 14) / Per Unit (Max 17) / Per Unit (Max 27)",
               "score": null
             }
           ],
@@ -20541,15 +20801,193 @@ window.ISSUE_DATA = {
           "prodType": "",
           "saTemplateName": "",
           "prodAgreement": "",
-          "prodId": "a1HVk000000aBodMAE",
+          "prodId": "a1HSo00000BiMxlMAF",
+          "existingPcs": [
+            "Per Unit (Max 8)",
+            "Per Unit (Max 14)",
+            "Per Unit (Max 17)",
+            "Per Unit (Max 27)"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
-            "name": "Golden Camp",
+            "name": "Casablanca to Rabat Private Transfer",
             "location": "",
             "businessUnit": "",
             "serviceType": "",
-            "priceCategory": "Double - Tent (with Bathroom) (FIT); Maos Method Multiple Crew Room (Pax Banded) Max 16; Maos Method Multiple Crew Room (Pax Banded) Max 4; Single - Tent (with Bathroom) (FIT); Twin - Tent (with Bathroom) (FIT)",
+            "priceCategory": "Per Unit",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          },
+          "nariComments": [
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "NOT LISTED",
+              "prodName": "",
+              "prodPc": ""
+            }
+          ]
+        },
+        {
+          "id": "P6::chefchaouen to fes private transfer + fes guided tour",
+          "service": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
+          "packages": [
+            "C1 Blue North Gateway",
+            "The Blue North"
+          ],
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
+          "also": "Also listed in P4",
+          "fields": {
+            "TM package": "C1 Blue North Gateway",
+            "Prod exists": "Yes",
+            "Prod Name": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
+            "Prod Id": "a1HSo00000BiOczMAF",
+            "Package PCs": "Per Unit",
+            "Suggested PC map": "Per Unit → create new, or use existing: Per Unit (Max 8) / Per Unit (Max 14) / Per Unit (Max 17) / Per Unit (Max 27)",
+            "PC issue": "Package PC not on Prod or ST: Per Unit",
+            "ST PCs missing on Prod": "Per Unit",
+            "Active price": "Yes",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Per Unit (Max 8) 2050.0 MAD [All Group Series]; Per Unit (Max 14) 2700.0 MAD [All Group Series]; Per Unit (Max 17) 3100.0 MAD [All Group Series]; Per Unit (Max 27) 6050.0 MAD [All Group Series]; Per Unit (Max 8) 2050.0 MAD [FIT]; Per Unit (Max 14) 2700.0 MAD [FIT]; Per Unit (Max 17) 3100.0 MAD [FIT]; Per Unit (Max 27) 6050.0 MAD [FIT]",
+            "Also listed in": "Also listed in P4"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [
+            {
+              "from": "Per Unit",
+              "value": "Per Unit (Max",
+              "score": 92.0
+            }
+          ],
+          "pcMap": [
+            {
+              "from": "Per Unit",
+              "value": "create new, or use existing: Per Unit (Max 8) / Per Unit (Max 14) / Per Unit (Max 17) / Per Unit (Max 27)",
+              "score": null
+            }
+          ],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HSo00000BiOczMAF",
+          "existingPcs": [
+            "Per Unit (Max 8)",
+            "Per Unit (Max 14)",
+            "Per Unit (Max 17)",
+            "Per Unit (Max 27)"
+          ],
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Unit",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          },
+          "nariComments": [
+            {
+              "package": "The Blue North",
+              "note": "CHECK",
+              "prodName": "Chefchaouen to Fes Private Transfer",
+              "prodPc": ""
+            }
+          ]
+        },
+        {
+          "id": "P6::hotel aurocher ourika",
+          "service": "Hotel Aurocher Ourika",
+          "packages": [
+            "SGA XMPX"
+          ],
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
+          "also": "Also listed in P4",
+          "fields": {
+            "TM package": "SGA XMPX",
+            "Prod exists": "Yes",
+            "Prod Name": "Hotel Aurocher Ourika",
+            "Prod Id": "a1HVk000000aBvdMAE",
+            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "Suggested PC map": "Leader Single Room → create new, or use existing: Single - Standard Room / Double for Single Use / Leader Room Single - Standard Max 6 / Leader Room Single - Standard Max 16 (Cloned)",
+            "PC issue": "Package PC not on Prod or ST: Leader Single Room",
+            "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
+            "Active price": "Yes",
+            "Gap": "Group Tour only",
+            "Prod PCs priced": "Twin - Standard Room 1100.0 MAD [All Group Series]; Single - Standard Room 1050.0 MAD [All Group Series]; Double - Standard Room 1100.0 MAD [All Group Series]; Double for Single Use 1050.0 MAD [All Group Series]; Leader Room Single - Standard Max 6 0.0 MAD [All Group Series]; Leader Room Single - Standard Max 6 525.0 MAD [All Group Series]; Double - Standard Room 1250.0 MAD [All Group Series]; Twin - Standard Room 1250.0 MAD [All Group Series]; Double for Single Use 1125.0 MAD [All Group Series]; Single - Standard Room 1125.0 MAD [All Group Series]; Leader Room Single - Standard Max 16 (Cloned) 0.0 MAD [All Group Series]; Double for Single Use 1150.0 MAD [All Group Series]; Single - Standard Room 1150.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P4"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [
+            {
+              "from": "Double Room",
+              "value": "Double - Standard Room",
+              "score": 58.0
+            },
+            {
+              "from": "Leader Single Room",
+              "value": "Leader Room Single - Standard Max",
+              "score": 58.0
+            },
+            {
+              "from": "Single Room",
+              "value": "Single - Standard Room",
+              "score": 58.0
+            },
+            {
+              "from": "Twin Room",
+              "value": "Twin - Standard Room",
+              "score": 58.0
+            }
+          ],
+          "pcMap": [
+            {
+              "from": "Leader Single Room",
+              "value": "create new, or use existing: Single - Standard Room / Double for Single Use / Leader Room Single - Standard Max 6 / Leader Room Single - Standard Max 16 (Cloned)",
+              "score": null
+            }
+          ],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000000aBvdMAE",
+          "existingPcs": [
+            "Twin - Standard Room",
+            "Single - Standard Room",
+            "Double - Standard Room",
+            "Double for Single Use",
+            "Leader Room Single - Standard Max 6",
+            "Leader Room Single - Standard Max 16 (Cloned)"
+          ],
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Hotel Aurocher Ourika",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -20567,7 +21005,7 @@ window.ISSUE_DATA = {
             "Marrakech & the high atlas",
             "The Sahara Loop"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
@@ -20600,6 +21038,10 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBx6MAE",
+          "existingPcs": [
+            "Per Crew",
+            "Per Person"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -20627,7 +21069,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Sahara Crossing"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P2",
           "fields": {
             "TM package": "Sahara Crossing",
@@ -20665,6 +21107,10 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [
+            "Per Crew",
+            "Per Group"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -20693,7 +21139,7 @@ window.ISSUE_DATA = {
             "Sahara Crossing",
             "Sahara crossing (Rev)"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P4",
           "fields": {
             "TM package": "Sahara Crossing",
@@ -20727,6 +21173,10 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBo3MAE",
+          "existingPcs": [
+            "Lunch",
+            "Lunch (Crew)"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -20750,7 +21200,7 @@ window.ISSUE_DATA = {
           "packages": [
             "SGA XMPX"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P4; P10",
           "fields": {
             "TM package": "SGA XMPX",
@@ -20784,6 +21234,14 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnFMAU",
+          "existingPcs": [
+            "Per Vehicle (Banded) Max 8",
+            "Per Vehicle (Banded) Max 14",
+            "Per Vehicle (Banded) Max 18",
+            "Per Vehicle (Banded) Max 28",
+            "Per Vehicle (Banded) Max 36",
+            "Per Vehicle (Banded) Max 48"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -20807,7 +21265,7 @@ window.ISSUE_DATA = {
           "packages": [
             "SGA XMSS"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMSS",
@@ -20841,6 +21299,10 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000gzIPMAY",
+          "existingPcs": [
+            "Per Vehicle Max 8",
+            "Per Vehicle Max 13"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -20867,7 +21329,7 @@ window.ISSUE_DATA = {
             "The Blue North",
             "The Blue North (Rev)"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "",
           "fields": {
             "TM package": "C1 Blue North Gateway",
@@ -20900,6 +21362,10 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrJMAU",
+          "existingPcs": [
+            "Per Crew",
+            "Per Person"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -20935,14 +21401,14 @@ window.ISSUE_DATA = {
           "packages": [
             "SGA XMPM"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P2",
           "fields": {
             "TM package": "SGA XMPM",
             "Prod exists": "No",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Signle - Leader Tent; Single - Tent; Twin - Tent",
-            "Suggested PC map": "Double Room → create new; Leader Single Room → create new; Single Room → create new; Twin Room → create new",
+            "Suggested PC map": "Double Room → create new",
             "PC issue": "Package PC not on Prod or ST: Double Room",
             "ST PCs missing on Prod": "Signle - Leader Tent; Single - Tent; Twin - Tent",
             "Active price": "No",
@@ -20956,21 +21422,6 @@ window.ISSUE_DATA = {
               "from": "Double Room",
               "value": "create new",
               "score": null
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "create new",
-              "score": null
-            },
-            {
-              "from": "Single Room",
-              "value": "create new",
-              "score": null
-            },
-            {
-              "from": "Twin Room",
-              "value": "create new",
-              "score": null
             }
           ],
           "stSupplier": "",
@@ -20982,6 +21433,11 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [
+            "Signle - Leader Tent",
+            "Single - Tent",
+            "Twin - Tent"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21011,14 +21467,14 @@ window.ISSUE_DATA = {
             "Agafay Extension",
             "South Morocco with Agafay"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "",
           "fields": {
             "TM package": "Agafay Extension",
             "Prod exists": "No",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs": "Double - Tent",
-            "Suggested PC map": "Double Room → create new; Leader Single Room → create new; Single Room → create new; Twin Room → create new",
+            "Suggested PC map": "Leader Single Room → create new; Single Room → create new; Twin Room → create new",
             "PC issue": "Package PC not on Prod or ST: Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double - Tent",
             "Active price": "No",
@@ -21027,11 +21483,6 @@ window.ISSUE_DATA = {
           "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [
-            {
-              "from": "Double Room",
-              "value": "create new",
-              "score": null
-            },
             {
               "from": "Leader Single Room",
               "value": "create new",
@@ -21057,6 +21508,9 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [
+            "Double - Tent"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21080,12 +21534,82 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service Has been already loaded with FIT Rates"
         },
         {
+          "id": "P6::rabat to tangier private transfer",
+          "service": "Rabat to Tangier Private Transfer",
+          "packages": [
+            "Atlantic Imperials (Rev)",
+            "C1 Blue North Gateway"
+          ],
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
+          "also": "Also listed in P4",
+          "fields": {
+            "TM package": "Atlantic Imperials (Rev)",
+            "Prod exists": "Yes",
+            "Prod Name": "Rabat to Tangier Private Transfer",
+            "Prod Id": "a1HSo00000BiNDtMAN",
+            "Package PCs": "Per Unit",
+            "Suggested PC map": "Per Unit → create new, or use existing: Per Unit (Max 8) / Per Unit (Max 14) / Per Unit (Max 17) / Per Unit (Max 27)",
+            "PC issue": "Package PC not on Prod or ST: Per Unit",
+            "ST PCs missing on Prod": "Per Unit",
+            "Active price": "Yes",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Per Unit (Max 8) 4400.0 MAD [All Group Series]; Per Unit (Max 14) 5300.0 MAD [All Group Series]; Per Unit (Max 17) 5800.0 MAD [All Group Series]; Per Unit (Max 27) 7800.0 MAD [All Group Series]; Per Unit (Max 8) 4400.0 MAD [FIT]; Per Unit (Max 14) 5300.0 MAD [FIT]; Per Unit (Max 17) 5800.0 MAD [FIT]; Per Unit (Max 27) 7800.0 MAD [FIT]",
+            "Also listed in": "Also listed in P4"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [
+            {
+              "from": "Per Unit",
+              "value": "Per Unit (Max",
+              "score": 92.0
+            }
+          ],
+          "pcMap": [
+            {
+              "from": "Per Unit",
+              "value": "create new, or use existing: Per Unit (Max 8) / Per Unit (Max 14) / Per Unit (Max 17) / Per Unit (Max 27)",
+              "score": null
+            }
+          ],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HSo00000BiNDtMAN",
+          "existingPcs": [
+            "Per Unit (Max 8)",
+            "Per Unit (Max 14)",
+            "Per Unit (Max 17)",
+            "Per Unit (Max 27)"
+          ],
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Rabat to Tangier Private Transfer",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Unit",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
+        },
+        {
           "id": "P6::wine tasting & lunch at val d'argan",
           "service": "Wine Tasting & Lunch at Val d'Argan",
           "packages": [
             "South Morocco with Agafay"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P2",
           "fields": {
             "TM package": "South Morocco with Agafay",
@@ -21117,6 +21641,11 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [
+            "Formule Dejeuner 1",
+            "Formule Dejeuner 2",
+            "Formule Dejeuner 3"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21139,12 +21668,80 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service does not exist in Kaptio"
         },
         {
+          "id": "P6::xmpx 9 days private transfer",
+          "service": "XMPX 9 Days Private transfer",
+          "packages": [
+            "SGA XMPX"
+          ],
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
+          "also": "Also listed in P4",
+          "fields": {
+            "TM package": "SGA XMPX",
+            "Prod exists": "Yes",
+            "Prod Name": "XMPX 9 Days Private transfer",
+            "Prod Id": "a1HVk000000jXCjMAM",
+            "Package PCs": "Per Vehicle (Non-Banded)",
+            "Suggested PC map": "Per Vehicle (Non-Banded) → create new, or use existing: Per Vehicle (Non Banded) Max 6 / Per Vehicle (Non Banded) Max 14 / Per Vehicle (Non Banded) Max 17",
+            "PC issue": "Package PC not on Prod or ST: Per Vehicle (Non-Banded)",
+            "ST PCs missing on Prod": "Per Vehicle (Non-Banded)",
+            "Active price": "Yes",
+            "Gap": "Group Tour only",
+            "Prod PCs priced": "Per Vehicle (Non Banded) Max 6 10200.0 MAD [All Group Series]; Per Vehicle (Non Banded) Max 14 10500.0 MAD [All Group Series]; Per Vehicle (Non Banded) Max 17 10900.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P4"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [
+            {
+              "from": "Per Vehicle (Non-Banded)",
+              "value": "Per Vehicle (Non Banded) Max",
+              "score": 83.0
+            }
+          ],
+          "pcMap": [
+            {
+              "from": "Per Vehicle (Non-Banded)",
+              "value": "create new, or use existing: Per Vehicle (Non Banded) Max 6 / Per Vehicle (Non Banded) Max 14 / Per Vehicle (Non Banded) Max 17",
+              "score": null
+            }
+          ],
+          "stSupplier": "",
+          "prodSupplier": "",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk000000jXCjMAM",
+          "existingPcs": [
+            "Per Vehicle (Non Banded) Max 6",
+            "Per Vehicle (Non Banded) Max 14",
+            "Per Vehicle (Non Banded) Max 17"
+          ],
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "XMPX 9 Days Private transfer",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "Per Vehicle (Non-Banded)",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "",
+            "comment": ""
+          }
+        },
+        {
           "id": "P6::xmpx imlil placeholder",
           "service": "XMPX Imlil Placeholder",
           "packages": [
             "SGA XMPX"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMPX",
@@ -21152,7 +21749,7 @@ window.ISSUE_DATA = {
             "Prod Name": "XMPX Imlil Placeholder",
             "Prod Id": "a1HVk000000jYdRMAU",
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "Suggested PC map": "Double Room → create new; Leader Single Room → create new; Single Room → create new; Twin Room → create new",
+            "Suggested PC map": "Single Room → create new, or use existing: Leader Room Single / Double For Single Use",
             "PC issue": "Package PC not on Prod or ST: Single Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
@@ -21185,23 +21782,8 @@ window.ISSUE_DATA = {
           ],
           "pcMap": [
             {
-              "from": "Double Room",
-              "value": "create new",
-              "score": null
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "create new",
-              "score": null
-            },
-            {
               "from": "Single Room",
-              "value": "create new",
-              "score": null
-            },
-            {
-              "from": "Twin Room",
-              "value": "create new",
+              "value": "create new, or use existing: Leader Room Single / Double For Single Use",
               "score": null
             }
           ],
@@ -21214,6 +21796,12 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000jYdRMAU",
+          "existingPcs": [
+            "Double Room - Standard",
+            "Twin Room - Standard",
+            "Leader Room Single",
+            "Double For Single Use"
+          ],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21274,6 +21862,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028bu5MAA",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21326,6 +21915,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HSo00000BEASbMAP",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21380,6 +21970,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028Zc9MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21437,6 +22028,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBs7MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21490,6 +22082,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnDMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21543,6 +22136,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBoeMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21597,6 +22191,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBoOMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21650,6 +22245,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HSo00000BB2RZMA1",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21703,6 +22299,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpJMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21757,6 +22354,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000029odxMAA",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21814,6 +22412,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBryMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21866,6 +22465,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqPMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21919,6 +22519,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBmkMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -21972,6 +22573,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000kRzhMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22031,6 +22633,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBmdMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22084,6 +22687,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000023TtxMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22137,6 +22741,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002L62uMAC",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22190,6 +22795,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpVMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22248,6 +22854,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002IqVFMA0",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22300,6 +22907,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnWMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22352,6 +22960,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnXMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22405,6 +23014,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028cyDMAQ",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22462,6 +23072,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpuMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22515,6 +23126,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqCMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22573,6 +23185,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBplMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22625,6 +23238,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk00000240BZMAY",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22680,6 +23294,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpeMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22733,6 +23348,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002I9mrMAC",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22794,6 +23410,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBsrMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22846,6 +23463,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002RATZMA4",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22898,6 +23516,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBoqMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -22951,6 +23570,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBoKMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23005,6 +23625,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnPMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23070,6 +23691,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028zI5MAI",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23119,6 +23741,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028bu5MAA",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23173,6 +23796,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028Zc9MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23226,6 +23850,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnmMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23275,6 +23900,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnlMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23326,6 +23952,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBs7MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23378,6 +24005,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBmqMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23426,6 +24054,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBp2MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23474,6 +24103,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000001yGcPMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23523,6 +24153,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBoCMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23572,6 +24203,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqZMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23621,6 +24253,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrxMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23670,6 +24303,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000024Mf7MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23731,6 +24365,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002L1KvMAK",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23780,6 +24415,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBvrMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23829,6 +24465,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnQMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23879,6 +24516,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnSMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23927,6 +24565,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnwMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -23991,6 +24630,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBryMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24044,6 +24684,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HSo00000Bi3DZMAZ",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24108,6 +24749,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBmdMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24160,6 +24802,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBs0MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24224,6 +24867,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002IqVFMA0",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24277,6 +24921,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpLMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24326,6 +24971,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028cyDMAQ",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24379,6 +25025,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrKMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24427,6 +25074,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBs2MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24475,6 +25123,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBw0MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24524,6 +25173,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBttMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24572,6 +25222,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBs1MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24620,6 +25271,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBuhMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24669,6 +25321,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnPMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24722,6 +25375,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBmuMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24770,6 +25424,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBs4MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24819,6 +25474,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBs8MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24868,6 +25524,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrsMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24927,6 +25584,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnBMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -24977,6 +25635,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnmMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25026,6 +25685,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnlMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25075,6 +25735,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBsRMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25124,6 +25785,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBs5MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25173,6 +25835,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBsoMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25221,6 +25884,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBsmMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25270,6 +25934,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBoCMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25318,6 +25983,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBufMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25366,6 +26032,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000029ovhMAA",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25427,6 +26094,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBwTMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25495,6 +26163,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpqMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25554,6 +26223,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBorMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25604,6 +26274,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000001yIJFMA2",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25654,6 +26325,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqAMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25711,6 +26383,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk0000028cyDMAQ",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25764,6 +26437,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBroMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25814,6 +26488,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpfMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25875,6 +26550,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqrMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25925,6 +26601,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqAMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -25982,6 +26659,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpuMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26046,6 +26724,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpfMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26095,6 +26774,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqCMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26150,6 +26830,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrKMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26213,6 +26894,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpiMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26270,6 +26952,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBphMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26324,6 +27007,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqMMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26377,6 +27061,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBpsMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26435,6 +27120,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000001xjzpMAA",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26491,6 +27177,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBqMMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26547,6 +27234,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBn5MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26599,6 +27287,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBoNMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26648,6 +27337,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBriMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26697,6 +27387,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBo2MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26746,6 +27437,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000002E8uDMAS",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26795,6 +27487,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrcMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26843,6 +27536,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBr6MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26892,6 +27586,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrCMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26941,6 +27636,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBsHMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -26990,6 +27686,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBnFMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27039,6 +27736,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HSo00000A74acMAB",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27101,6 +27799,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBq6MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27149,6 +27848,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000ibblMAA",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27203,6 +27903,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBwoMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27252,6 +27953,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBs8MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27301,6 +28003,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "a1HVk000000aBrsMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27358,6 +28061,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "fullyMissing": true,
@@ -27405,6 +28109,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27466,6 +28171,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000002EXJ7MAO",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27509,6 +28215,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27555,6 +28262,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBnBMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27601,6 +28309,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk0000028YszMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27644,6 +28353,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27693,6 +28403,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27739,6 +28450,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBuWMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27785,6 +28497,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBsQMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27828,6 +28541,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27877,6 +28591,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27928,6 +28643,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -27972,6 +28688,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28021,6 +28738,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28069,6 +28787,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28120,6 +28839,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBnmMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28166,6 +28886,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBntMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28212,6 +28933,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBvmMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28258,6 +28980,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBnlMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28304,6 +29027,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBvgMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28350,6 +29074,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBuYMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28404,6 +29129,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28458,6 +29184,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28504,6 +29231,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000002KMhZMAW",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28547,6 +29275,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28599,6 +29328,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28653,6 +29383,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28702,6 +29433,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28748,6 +29480,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000002rQrFMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28794,6 +29527,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBvRMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28841,6 +29575,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HSo00000BiOczMAF",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28895,6 +29630,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBpHMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28943,6 +29679,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk0000029pGfMAI",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -28989,6 +29726,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBnMMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29033,6 +29771,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29076,6 +29815,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29126,6 +29866,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29181,6 +29922,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29232,6 +29974,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000002jJa1MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29278,6 +30021,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBvrMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29322,6 +30066,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29369,6 +30114,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBnQMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29417,6 +30163,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBnSMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29471,6 +30218,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29520,6 +30268,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29576,6 +30325,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29623,6 +30373,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBpIMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29675,6 +30426,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Belere 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29736,6 +30488,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29786,6 +30539,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBwwMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29832,6 +30586,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk0000028Yg5MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29877,6 +30632,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Hilton 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29924,6 +30680,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBwxMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -29972,6 +30729,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBmfMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30019,6 +30777,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBoFMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30068,6 +30827,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30114,6 +30874,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBoJMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30158,6 +30919,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30202,6 +30964,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30255,6 +31018,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30305,6 +31069,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30349,6 +31114,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30392,6 +31158,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30439,6 +31206,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBpVMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30492,6 +31260,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30540,6 +31309,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBpLMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30586,6 +31356,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBpYMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30634,6 +31405,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBmgMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30690,6 +31462,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30738,6 +31511,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30788,6 +31562,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBoBMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30834,6 +31609,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBpWMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30878,6 +31654,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30928,6 +31705,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk0000028al7MAA",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -30971,6 +31749,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31022,6 +31801,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31077,6 +31857,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31136,6 +31917,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31195,6 +31977,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31253,6 +32036,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31303,6 +32087,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31353,6 +32138,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Lodge Hara Oasis 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31411,6 +32197,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31465,6 +32252,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31508,6 +32296,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31557,6 +32346,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HSo00000Bi46PMAR",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31612,6 +32402,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31658,6 +32449,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBuXMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31704,6 +32496,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBnuMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31750,6 +32543,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBttMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31796,6 +32590,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBvqMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31842,6 +32637,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000002posrMAA",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31892,6 +32688,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31942,6 +32739,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -31990,6 +32788,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32036,6 +32835,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBo6MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32086,6 +32886,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32136,6 +32937,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000002sMyTMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32185,6 +32987,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Palais Houyam 2026-2027",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk00000240BZMAY",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32246,6 +33049,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32290,6 +33094,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32348,6 +33153,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32401,6 +33207,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Puerta Azul 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32463,6 +33270,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32516,6 +33324,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32560,6 +33369,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32606,6 +33416,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000002400HMAQ",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32660,6 +33471,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32710,6 +33522,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32766,6 +33579,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBwoMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32816,6 +33630,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32866,6 +33681,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000002gXb7MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32909,6 +33725,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -32957,6 +33774,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBucMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33011,6 +33829,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBsjMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33060,6 +33879,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33109,6 +33929,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33159,6 +33980,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33214,6 +34036,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33269,6 +34092,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33319,6 +34143,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33363,6 +34188,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33406,6 +34232,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33452,6 +34279,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000002gW2LMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33502,6 +34330,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33557,6 +34386,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33605,6 +34435,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33652,6 +34483,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBmbMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33698,6 +34530,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000jYdRMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33744,6 +34577,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBwpMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33790,6 +34624,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000002rkzdMAA",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33836,6 +34671,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000002rVPVMA2",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33882,6 +34718,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000002sTFBMA2",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33929,6 +34766,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000000aBoIMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -33976,6 +34814,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk000002rUGYMA2",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34019,6 +34858,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34077,6 +34917,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "2 Ciels Luxury Boutique 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBwYMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34127,6 +34968,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Chez Le Pacha 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HSo000009zd8vMAA",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34174,6 +35016,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Amadil 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34217,6 +35060,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Auberge Chez Ali 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34260,6 +35104,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Auberge Chez Momo 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34310,6 +35155,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Azawad Riad & Desert Camp 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk0000028Zc9MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34360,6 +35206,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Camp Le Sand 2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HSo000009zd8vMAA",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34406,6 +35253,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Camp La Caravane 2027",
           "prodAgreement": "Jan 2027 - Dec 2027",
           "prodId": "a1HVk000000aBnDMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34457,6 +35305,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Château Roslane Boutique Hôtel & SPA 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HSo00000B9yOPMAZ",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34507,6 +35356,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Cote Ocean Mogador Hotel 2026-2027",
           "prodAgreement": "Jan 2026-",
           "prodId": "a1HVk000000aBoeMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34557,6 +35407,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Dar Baibou 2026-2027",
           "prodAgreement": "Jan 2026-",
           "prodId": "a1HVk000000aBsPMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34607,6 +35458,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Dar cherifa 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk0000024Mf7MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34665,6 +35517,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Dar Echaouen 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk0000024MnBMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34712,6 +35565,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Diyar Timnay 2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34755,6 +35609,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Emeraude Luxury Camp & Tents 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34798,6 +35653,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Etoile Filante D'or 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34841,6 +35697,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Executive Boutique Hotel 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34887,6 +35744,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Al Kalaa 2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBvvMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34937,6 +35795,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Al Walid 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk0000029ovhMAA",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -34993,6 +35852,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Belere 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35043,6 +35903,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Charf 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBwTMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35107,6 +35968,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Gomassine 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBoOMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35157,6 +36019,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Grand Plaza 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBpEMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35208,6 +36071,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Gray Boutique Hotel 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000001xorRMAQ",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35256,6 +36120,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Hilton 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35299,6 +36164,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Karam Palace 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35342,6 +36208,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Xaluca Lac Aguelmam 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35388,6 +36255,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel le Caspien 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBo5MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35434,6 +36302,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Musee 2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBmlMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35492,6 +36361,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Les Saisons  2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk0000029ocLMAQ",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35539,6 +36409,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Longue Vie 2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35582,6 +36453,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Miramar 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35628,6 +36500,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Mont Gueliz 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HSo000009xHIzMAM",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35675,6 +36548,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Oasis & Spa 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35721,6 +36595,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Olympic 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk0000029odxMAA",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35771,6 +36646,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Oscar 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000002HTdxMAG",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35817,6 +36693,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Parador 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBnwMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35875,6 +36752,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Rose Valley 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBqPMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35925,6 +36803,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Swani 2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBmkMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -35972,6 +36851,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Taddart 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36018,6 +36898,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Tarek 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HSo00000Bi3DZMAZ",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36076,6 +36957,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Tomboctou Xaluca 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000002KzFtMAK",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36122,6 +37004,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Volubilis 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBsMMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36172,6 +37055,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Xaluca Dades 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBoQMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36218,6 +37102,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Yasmina Hotel and Camps 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBpGMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36269,6 +37154,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Idou Anfa 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBwWMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36316,6 +37202,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Kasbah Ait Ben Damiette 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36359,6 +37246,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Kasbah du Toubkal 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36402,6 +37290,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Kasbah Hnini 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36445,6 +37334,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Kasbah La Famille Berbere 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36488,6 +37378,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Ksar Shama 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36534,6 +37425,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Ksar Timnay Riad Mimouna 2026-2027",
           "prodAgreement": "Jan 2027 - Dec 2027",
           "prodId": "a1HVk000000aBrvMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36581,6 +37473,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "La Colombe Blanche 2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36624,6 +37517,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Le Palais des Cerisiers 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36667,6 +37561,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Lodge Hara Oasis 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36715,6 +37610,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Lodge Hara Oasis 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36762,6 +37658,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Marina Bay 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36808,6 +37705,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Mia Hotels 2026",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk00000258DVMAY",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36855,6 +37753,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Mia Hotels 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HSo00000A74acMAB",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36913,6 +37812,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Moroccan House Hotel Marrakech 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBpaMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -36964,6 +37864,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Palais Houyam 2026-2027",
           "prodAgreement": "None assigned",
           "prodId": "a1HVk00000240BZMAY",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37011,6 +37912,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Palais Ommeyad  2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37057,6 +37959,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Palmeras Y Dunas Luxury Camp 2026-2027",
           "prodAgreement": "Jan 2027 - Dec 2027",
           "prodId": "a1HVk000002p6dKMAQ",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37101,6 +38004,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Puerta Azul 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37148,6 +38052,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad & Camp Chebbi 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37194,6 +38099,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Kasbah Riad 48 & Spa 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000002pF3tMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37237,6 +38143,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Atlas 4 Seasons 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37280,6 +38187,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "RIAD BAHAMMOU 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37326,6 +38234,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Benatar 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HSo00000B7AsMMAV",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37372,6 +38281,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Chakir Mogador 2026-2027",
           "prodAgreement": "Jan 2026-",
           "prodId": "a1HVk000000aBpDMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37423,6 +38333,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Chbanate 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBscMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37473,6 +38384,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad El Palacio & Spa 2026-2027",
           "prodAgreement": "Jan 2026-",
           "prodId": "a1HSo00000B9t3lMAB",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37520,6 +38432,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Fes Ziyat 2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37563,6 +38476,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Jnane Imlil 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37606,6 +38520,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Joudour 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37649,6 +38564,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Ksar Ighnda 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37695,6 +38611,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad la Clé d'Or 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBsrMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37742,6 +38659,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Lamane 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37785,6 +38703,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Maison du Sud 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37828,6 +38747,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Maktoub 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37874,6 +38794,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Marrakech By Hivernage 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBwqMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37924,6 +38845,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Mimouna 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HSo00000BcNOfMAN",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -37974,6 +38896,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Nesma 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBoqMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38021,6 +38944,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad ouinz 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38067,6 +38991,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Oussagou 2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk0000024NzNMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38117,6 +39042,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Raoud Rayhane 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBwbMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38167,6 +39093,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Ritaj 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBmjMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38217,6 +39144,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Sayeda al Hora 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBu2MAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38275,6 +39203,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Tafilalet 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBoKMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38322,6 +39251,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Sahara Aventure 2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38368,6 +39298,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Sahara Aventures Camp 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBnPMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38416,6 +39347,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Skoura Lodge  2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38462,6 +39394,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Stars Hotel 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBuGMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38512,6 +39445,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Experiencah 2026-2027",
           "prodAgreement": "None assigned",
           "prodId": "a1HSo00000BB3p3MAD",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38559,6 +39493,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "The White Camel 2026",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38606,6 +39541,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Villa Pomme D'Or 2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38649,6 +39585,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Zephyr Mazagan 2026-2027",
           "prodAgreement": "—",
           "prodId": "",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38714,6 +39651,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "2 Ciels Luxury Boutique 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBwYMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38768,6 +39706,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000001yygfMAA",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38832,6 +39771,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBryMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38890,6 +39830,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Hotel Idou Anfa 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBwWMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -38945,6 +39886,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBwJMAU",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39006,6 +39948,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Mia Hotels 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HSo00000A74acMAB",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39071,6 +40014,7 @@ window.ISSUE_DATA = {
           "saTemplateName": "Riad Chbanate 2026-2027",
           "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk000000aBscMAE",
+          "existingPcs": [],
           "priceCompare": [],
           "stPriceDates": "",
           "formDefaults": {
@@ -39095,9 +40039,9 @@ window.ISSUE_DATA = {
       ]
     }
   ],
-  "total": 598,
+  "total": 602,
   "stCommentsSource": "Service Template Comment column (20 Nov workbook + Siham CSV extras). Notes only, not Yes/No.",
   "stCommentsCards": 209,
   "nariCommentsSource": "Nari Notes on Atlantic Imperials (Rev), The Blue North, and C1 Blue North Gateway. Notes only, not Yes/No.",
-  "nariCommentsCards": 39
+  "nariCommentsCards": 41
 };

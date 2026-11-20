@@ -274,6 +274,27 @@
     return d && d.status && d.status !== "open";
   }
 
+  function existingPcNames(issue) {
+    if (Array.isArray(issue.existingPcs) && issue.existingPcs.length) return issue.existingPcs;
+    const fields = issue.fields || {};
+    const names = [];
+    const seen = new Set();
+    String(fields["ST PCs"] || "")
+      .split(/[;,]/)
+      .concat(String(fields["Prod PCs priced"] || "").split(";"))
+      .forEach((raw) => {
+        let name = String(raw || "").trim();
+        name = name.replace(/\s+-?\d+(?:\.\d+)?\s+[A-Z]{3}\s*(\[.*\])?\s*$/i, "").trim();
+        name = name.replace(/\s*\[.*$/, "").trim();
+        const k = name.toLowerCase();
+        if (name && !seen.has(k)) {
+          seen.add(k);
+          names.push(name);
+        }
+      });
+    return names;
+  }
+
   function optionsFor(sheet, issue) {
     const kind = sheet.id === "SA1" ? "sa-create" : sheet.choice;
     if (kind === "fuzzy-service") {
@@ -289,8 +310,13 @@
       return opts;
     }
     if (kind === "pc-map") {
+      const existing = existingPcNames(issue);
+      const useLabel = existing.length
+        ? "Use existing PCs (multiple): " + existing.join("; ")
+        : "Use existing PCs (multiple)";
       return [
         { value: "yes", label: "Yes — create a new PC", extra: "" },
+        { value: "use-existing", label: useLabel, extra: "" },
         { value: "no", label: "No — do not add these occupancies", extra: "" },
       ];
     }
@@ -370,7 +396,7 @@
       P2: "On package and ST, no exact Prod Item, but a close name exists. Yes = rename ST to the selected Prod name. No = treat as brand new; create from ST.",
       P4: "On a package and on Prod, but pricing is missing, inactive, or missing 2027. Yes = insert the ST price (or fill prices if ST has none). No = keep the Prod price.",
       P5: "ST supplier does not match Prod. Pick the Prod account, keep ST, or No if a different / new account is needed.",
-      P6: "Only package occupancies that are not on Prod and not on the Service Template. This tab blocks Ready. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST names used on the package are created from ST).",
+      P6: "Only package occupancies that are not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). This tab blocks Ready. Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item — or list those names in notes. No = do not add the package PC. Occupancies that already exist on Prod or ST are not listed (ST names used on the package are created from ST).",
       P8: "Prod has Group Tour pricing only. Yes = FIT is required (FIT prices will be added). No = Group Tour only is fine; no FIT will be added.",
       P9: "ST/template location does not overlap Prod. Pick Prod, keep ST, or No if neither is right.",
       P10: "Package/ST type has no overlap with the Prod record type. Pick Prod, keep ST, or No if both are wrong.",
@@ -464,6 +490,11 @@
       d.prodId = issue.prodId || (issue.fields && issue.fields["Prod Id"]) || "";
     } else if (value === "yes" && sheet.choice === "pc-map") {
       d.selected = (issue.pcMap || []).map((x) => (x.from ? x.from + " → " : "") + x.value).join("; ");
+    } else if (value === "use-existing" && sheet.choice === "pc-map") {
+      d.selected = existingPcNames(issue).join("; ") || "Use existing PCs (multiple)";
+      if (!(d.notes || "").trim() && existingPcNames(issue).length) {
+        d.notes = "Use existing PCs: " + existingPcNames(issue).join("; ");
+      }
     } else if (value === "no" && sheet.choice === "pc-map") {
       d.selected = "Do not add these occupancies";
     } else if (sheet.choice === "price-st") {
@@ -1485,6 +1516,17 @@
           title: "Do not add these occupancies",
           body: "The package PCs that are not on Prod or ST will not be created.",
         };
+      if (c === "use-existing") {
+        const names = existingPcNames(issue);
+        return {
+          title: "Use the existing PCs (multiple)",
+          body: names.length
+            ? "Do not create the package occupancy name. Attach these Prod/ST PCs instead: " +
+              names.join("; ") +
+              ". Notes win if you list a subset."
+            : "Do not create the package occupancy name. Use the Prod/ST occupancies already on this Item. List which ones in notes if needed.",
+        };
+      }
       return {
         title: "Create a new PC",
         body: "Fill the price-category fields below. One block per occupancy that is not on Prod or ST. Add another if you need more than the listed names.",
@@ -1709,7 +1751,15 @@
       })
       .join("");
     const tag = isDecided(d)
-      ? `<span class="tag ${cls}">${d.status === "yes" ? "Yes" : d.status === "no" ? "No" : "Done"}</span>`
+      ? `<span class="tag ${cls}">${
+          d.choice === "use-existing"
+            ? "Use existing"
+            : d.status === "yes"
+              ? "Yes"
+              : d.status === "no"
+                ? "No"
+                : "Done"
+        }</span>`
       : `<span class="tag open">Open</span>`;
     const reopenBtn = isDecided(d)
       ? `<div class="row-actions"><button type="button" class="reopen" data-reopen data-id="${issue.id}">Reopen — change this decision</button></div>`
@@ -1730,13 +1780,22 @@
       <div class="meta">${esc(sheet.id)} · ${esc(issue.action || "")}</div>
       ${prodIdHtml}
       <div class="pkgs">${pkgs}</div>
-      ${pc && sheet.choice === "pc-map" ? `<p><b>Package PCs to create</b><br>${pc}</p>` : ""}
+      ${pc && sheet.choice === "pc-map" ? `<p><b>Package PCs missing from Prod and ST</b><br>${pc}</p>` : ""}
+      ${
+        sheet.id === "P6" && existingPcNames(issue).length
+          ? `<p><b>Existing Prod/ST PCs</b><br>${existingPcNames(issue).map(esc).join("<br>")}</p>`
+          : ""
+      }
       ${priceCompareHtml(issue)}
       <dl class="fields">${fieldRows}</dl>
       <div class="choices">${choice}</div>
       ${choiceNoteHtml(sheet, issue, d)}
       ${formHtml(sheet, issue, d)}
-      <textarea data-notes data-id="${issue.id}" placeholder="Decision notes">${esc(d.notes || "")}</textarea>
+      <textarea data-notes data-id="${issue.id}" placeholder="${
+        sheet.id === "P6"
+          ? "Decision notes — or list which existing PCs to use (e.g. Per Unit Max 8 / 14 / 17 / 27)"
+          : "Decision notes"
+      }">${esc(d.notes || "")}</textarea>
       ${reopenBtn}
     </article>`;
   }

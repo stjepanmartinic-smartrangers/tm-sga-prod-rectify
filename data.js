@@ -20116,7 +20116,7 @@ window.ISSUE_DATA = {
       "title": "PC name mismatch",
       "sheet": "P6 PC name mismatch",
       "workbook": "pricing",
-      "help": "Only package occupancies that are not on Prod and not on the Service Template. This tab blocks Ready until every card is Yes or No. Yes = create those package PCs. Occupancies that already exist on Prod or ST are not listed — ST names used on the package are created from ST.",
+      "help": "Only package occupancies that are not on Prod and not on the Service Template. This tab blocks Ready until every card is Yes or No. Yes = create a new PC and fill the price-category fields. Occupancies that already exist on Prod or ST are not listed — ST names used on the package are created from ST.",
       "choice": "pc-map",
       "count": 17,
       "issues": [
@@ -20126,7 +20126,7 @@ window.ISSUE_DATA = {
           "packages": [
             "SGA XMFP"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMFP",
@@ -20199,7 +20199,7 @@ window.ISSUE_DATA = {
           "packages": [
             "The Sahara Loop"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "Also listed in P8; P9",
           "fields": {
             "TM package": "The Sahara Loop",
@@ -20260,7 +20260,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Atlantic Imperials"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "Also listed in P4",
           "fields": {
             "TM package": "Atlantic Imperials",
@@ -20325,7 +20325,7 @@ window.ISSUE_DATA = {
           "packages": [
             "SGA XMFP"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "Also listed in P4; P10",
           "fields": {
             "TM package": "SGA XMFP",
@@ -20382,7 +20382,7 @@ window.ISSUE_DATA = {
           "packages": [
             "SGA XMPM"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "Also listed in P4; P9; P10",
           "fields": {
             "TM package": "SGA XMPM",
@@ -20440,7 +20440,7 @@ window.ISSUE_DATA = {
             "SGA XMSB",
             "SGA XMSC"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMSB",
@@ -20503,7 +20503,7 @@ window.ISSUE_DATA = {
           "packages": [
             "SGA XMPE"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMPE",
@@ -20567,7 +20567,7 @@ window.ISSUE_DATA = {
             "Marrakech & the high atlas",
             "The Sahara Loop"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "",
           "fields": {
             "TM package": "Draa & the deep desert",
@@ -20627,7 +20627,7 @@ window.ISSUE_DATA = {
           "packages": [
             "Sahara Crossing"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "Also listed in P2",
           "fields": {
             "TM package": "Sahara Crossing",
@@ -20693,7 +20693,7 @@ window.ISSUE_DATA = {
             "Sahara Crossing",
             "Sahara crossing (Rev)"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "Also listed in P4",
           "fields": {
             "TM package": "Sahara Crossing",
@@ -20750,7 +20750,7 @@ window.ISSUE_DATA = {
           "packages": [
             "SGA XMPX"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "Also listed in P4; P10",
           "fields": {
             "TM package": "SGA XMPX",
@@ -20807,7 +20807,7 @@ window.ISSUE_DATA = {
           "packages": [
             "SGA XMSS"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMSS",
@@ -20867,7 +20867,7 @@ window.ISSUE_DATA = {
             "The Blue North",
             "The Blue North (Rev)"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "",
           "fields": {
             "TM package": "C1 Blue North Gateway",
@@ -20935,7 +20935,7 @@ window.ISSUE_DATA = {
           "packages": [
             "SGA XMPM"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "Also listed in P2",
           "fields": {
             "TM package": "SGA XMPM",
@@ -21011,7 +21011,7 @@ window.ISSUE_DATA = {
             "Agafay Extension",
             "South Morocco with Agafay"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "",
           "fields": {
             "TM package": "Agafay Extension",
@@ -21085,7 +21085,7 @@ window.ISSUE_DATA = {
           "packages": [
             "South Morocco with Agafay"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "Also listed in P2",
           "fields": {
             "TM package": "South Morocco with Agafay",
@@ -21144,7 +21144,7 @@ window.ISSUE_DATA = {
           "packages": [
             "SGA XMPX"
           ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create that PC from the package name. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
+          "action": "Package has a price category that is not on Prod and not on the Service Template. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST PCs used on the package are created from ST).",
           "also": "Also listed in P4",
           "fields": {
             "TM package": "SGA XMPX",

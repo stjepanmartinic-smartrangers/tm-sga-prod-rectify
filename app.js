@@ -290,7 +290,7 @@
     }
     if (kind === "pc-map") {
       return [
-        { value: "yes", label: "Yes — create these package PCs (not on Prod or ST)", extra: "" },
+        { value: "yes", label: "Yes — create a new PC", extra: "" },
         { value: "no", label: "No — do not add these occupancies", extra: "" },
       ];
     }
@@ -370,7 +370,7 @@
       P2: "On package and ST, no exact Prod Item, but a close name exists. Yes = rename ST to the selected Prod name. No = treat as brand new; create from ST.",
       P4: "On a package and on Prod, but pricing is missing, inactive, or missing 2027. Yes = insert the ST price (or fill prices if ST has none). No = keep the Prod price.",
       P5: "ST supplier does not match Prod. Pick the Prod account, keep ST, or No if a different / new account is needed.",
-      P6: "Only package occupancies that are not on Prod and not on the Service Template. This tab blocks Ready. Yes = create those package PCs. Occupancies that already exist on Prod or ST are fine (ST names used on the package are created from ST).",
+      P6: "Only package occupancies that are not on Prod and not on the Service Template. This tab blocks Ready. Yes = create a new PC and fill the price-category fields below. Occupancies that already exist on Prod or ST are fine (ST names used on the package are created from ST).",
       P8: "Prod has Group Tour pricing only. Yes = FIT is required (FIT prices will be added). No = Group Tour only is fine; no FIT will be added.",
       P9: "ST/template location does not overlap Prod. Pick Prod, keep ST, or No if neither is right.",
       P10: "Package/ST type has no overlap with the Prod record type. Pick Prod, keep ST, or No if both are wrong.",
@@ -1164,6 +1164,7 @@
     if (sheet.id === "SA3" && c === "no") return "sa";
     if (sheet.id === "SA5" && c === "no") return "supplier";
     if (sheet.id === "P4" && c === "yes" && !hasStPrice(issue)) return "st";
+    if (sheet.id === "P6" && c === "yes") return "pc";
     if (issue.fullyMissing && c === "no") return "st";
     return "";
   }
@@ -1185,6 +1186,39 @@
       priceCurrency: extra.priceCurrency || "MAD",
       inventoryType: extra.inventoryType || "",
     };
+  }
+
+  function missingOccupancyNames(issue) {
+    const fromMap = (issue.pcMap || [])
+      .filter((x) => !x.value || /create new/i.test(String(x.value)))
+      .map((x) => (x && x.from) || "")
+      .filter(Boolean);
+    if (fromMap.length) return uniqueNames(fromMap);
+    const raw = String((issue.fields || {})["PC issue"] || "");
+    const idx = raw.indexOf(":");
+    if (idx >= 0) {
+      return uniqueNames(
+        raw
+          .slice(idx + 1)
+          .split(/[;,]/)
+          .map((s) => s.trim())
+          .filter(Boolean)
+      );
+    }
+    return [];
+  }
+
+  function uniqueNames(names) {
+    const out = [];
+    const seen = new Set();
+    names.forEach((n) => {
+      const k = String(n || "").toLowerCase();
+      if (n && !seen.has(k)) {
+        seen.add(k);
+        out.push(n);
+      }
+    });
+    return out;
   }
 
   function pcNamesFromIssue(issue) {
@@ -1214,7 +1248,11 @@
 
   function defaultPriceLines(issue) {
     const extra = issue.formDefaults || {};
-    const names = pcNamesFromIssue(issue);
+    let names = pcNamesFromIssue(issue);
+    if (String(issue.id || "").startsWith("P6::")) {
+      const miss = missingOccupancyNames(issue);
+      if (miss.length) names = miss;
+    }
     if (!names.length) {
       const line = emptyPcLine(issue);
       line.price = extra.price || "";
@@ -1337,6 +1375,34 @@
     </div>`;
   }
 
+  function pcFormHtml(sheet, issue, d) {
+    const lines = ensurePriceLines(d, issue);
+    const hint =
+      "The service already exists. These fields create the missing occupancy on that Item (price category, season, and price).";
+    const pcBlocks = lines
+      .map((line, i) => {
+        const remove =
+          lines.length > 1
+            ? `<button type="button" class="pc-remove" data-remove-pc data-pcline="${i}" data-id="${issue.id}">Remove</button>`
+            : "";
+        return `<div class="pc-line">
+          <div class="pc-line-head">
+            <h5 class="form-section-title">Price category ${i + 1}</h5>
+            ${remove}
+          </div>
+          ${groupedSections(ST_PC_LINE_FIELDS, line, {}, issue.id, `data-pcline="${i}"`)}
+        </div>`;
+      })
+      .join("");
+    const add = `<p class="pc-add"><button type="button" data-add-pc data-id="${issue.id}">Add another price category</button></p>`;
+    return `<div class="create-form">
+      <h4>New occupancy — price category fields</h4>
+      <p class="meta">${esc(hint)}</p>
+      ${pcBlocks}
+      ${add}
+    </div>`;
+  }
+
   function choiceNote(sheet, issue, d) {
     const c = d && d.choice;
     if (!c) return null;
@@ -1420,8 +1486,8 @@
           body: "The package PCs that are not on Prod or ST will not be created.",
         };
       return {
-        title: "Create these package PCs",
-        body: "Each listed occupancy will be created as a new price category from the package name. Names that already exist on Prod or ST are not in this list.",
+        title: "Create a new PC",
+        body: "Fill the price-category fields below. One block per occupancy that is not on Prod or ST. Add another if you need more than the listed names.",
       };
     }
     if (id === "P8") {
@@ -1533,6 +1599,7 @@
     const kind = formKind(sheet, issue, d);
     if (!kind) return "";
     if (kind === "st") return stFormHtml(sheet, issue, d);
+    if (kind === "pc") return pcFormHtml(sheet, issue, d);
     const form = d.form || {};
     const extra = issue.formDefaults || {};
     let spec;

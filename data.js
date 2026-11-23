@@ -1,6 +1,6 @@
 window.ISSUE_DATA = {
-  "generated": "20 Nov 2026",
-  "source": "SGA vs Prod from Templates_20112026.xlsx",
+  "generated": "23 Nov 2026",
+  "source": "SGA vs Prod from Templates_23112026.xlsx",
   "org": "IntrepidProd (read-only extract)",
   "sheets": [
     {
@@ -131,13 +131,7 @@ window.ISSUE_DATA = {
             "Template type": "Activity",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Afternoon Hammam Experience",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -237,13 +231,7 @@ window.ISSUE_DATA = {
             "Template type": "Activity",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Atlas Film Studio visit",
-              "score": 63.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -295,35 +283,8 @@ window.ISSUE_DATA = {
             "Template type": "Accommodation",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Azawad Luxury Desert Camp",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single - Tent",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Tent",
-              "score": 58.0
-            }
-          ],
+          "fuzzyService": [],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -372,18 +333,7 @@ window.ISSUE_DATA = {
             "Template type": "Activity",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Tea Making Demonstration",
-              "score": 69.0
-            },
-            {
-              "from": "",
-              "value": "Bread Cooking Demonstration",
-              "score": 68.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -433,18 +383,7 @@ window.ISSUE_DATA = {
             "Template type": "Activity",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Camel Ride",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Sunrise Camel Ride - Under30",
-              "score": 83.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -547,20 +486,8 @@ window.ISSUE_DATA = {
             "Template type": "Accommodation",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Camp la Caravane",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Tent Single (with Shared Facilities)",
-              "score": 48.0
-            }
-          ],
+          "fuzzyService": [],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -609,25 +536,8 @@ window.ISSUE_DATA = {
             "Template type": "Accommodation",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Camp la Caravane",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Auberge la Caravane",
-              "score": 65.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Tent Single (with Shared Facilities)",
-              "score": 48.0
-            }
-          ],
+          "fuzzyService": [],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -676,35 +586,8 @@ window.ISSUE_DATA = {
             "Template type": "Accommodation",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Camp Le Sand",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single Tent",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Tent",
-              "score": 58.0
-            }
-          ],
+          "fuzzyService": [],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -855,13 +738,7 @@ window.ISSUE_DATA = {
             "Template type": "Activity",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Cooking Class",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -963,18 +840,7 @@ window.ISSUE_DATA = {
             "Template type": "Activity",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Happy Valley",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Guided Hike",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -1024,13 +890,7 @@ window.ISSUE_DATA = {
             "Template type": "Activity",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hassan Tower Visit",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -1082,18 +942,7 @@ window.ISSUE_DATA = {
             "Template type": "Meal",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Home Cooked Lunch at Mr. Vannak's House - Booking",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Home Cooked Lunch - Chefchaouen - Solo Connect",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -1193,35 +1042,8 @@ window.ISSUE_DATA = {
             "Template type": "Accommodation",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Oscar",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double Room - Standard",
-              "score": 92.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single Room - Standard",
-              "score": 92.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Single Room - Standard",
-              "score": 92.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room - Standard",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -1321,25 +1143,8 @@ window.ISSUE_DATA = {
             "Template type": "Accommodation",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Xaluca Dades HB",
-              "score": 64.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single Room - Standard (Max 10 pax)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -1389,35 +1194,8 @@ window.ISSUE_DATA = {
             "Template type": "Accommodation",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Yasmina",
-              "score": 87.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyService": [],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -1567,35 +1345,8 @@ window.ISSUE_DATA = {
             "Template type": "Accommodation",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Kasbah Itrane",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyService": [],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -1696,25 +1447,8 @@ window.ISSUE_DATA = {
             "Template type": "Activity",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Casablanca - Half Day",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            },
-            {
-              "from": "Per day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -1764,25 +1498,8 @@ window.ISSUE_DATA = {
             "Template type": "Activity",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Half Day Essaouira",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Local Guide Full Day Essaouira",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -1831,25 +1548,8 @@ window.ISSUE_DATA = {
             "Template type": "Activity",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Dades",
-              "score": 80.0
-            },
-            {
-              "from": "",
-              "value": "Local Guide Todra",
-              "score": 80.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -1898,18 +1598,7 @@ window.ISSUE_DATA = {
             "Template type": "Activity",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Lunch at Tawesna Association",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Lunch in Tawesna XMHA",
-              "score": 75.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -1959,18 +1648,7 @@ window.ISSUE_DATA = {
             "Template type": "Meal",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Lunch en route to Pushkar from Jaipur",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Lunch en route Sulawesi",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -2173,40 +1851,8 @@ window.ISSUE_DATA = {
             "Template type": "Accommodation",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Palmeras Y Dunas Luxury Camp - HB",
-              "score": 83.0
-            },
-            {
-              "from": "",
-              "value": "Palmeras Y Dunas Luxury Camp",
-              "score": 83.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single Tent",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Tent",
-              "score": 58.0
-            }
-          ],
+          "fuzzyService": [],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -2371,35 +2017,8 @@ window.ISSUE_DATA = {
             "Template type": "Accommodation",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Riad Chakir Mogador",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room (Family)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -2549,13 +2168,7 @@ window.ISSUE_DATA = {
             "Template type": "Activity",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Erfoud Kasbah visit",
-              "score": 62.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -2605,13 +2218,7 @@ window.ISSUE_DATA = {
             "Template type": "Activity",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Vintgar Gorge Visit",
-              "score": 64.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -2662,13 +2269,7 @@ window.ISSUE_DATA = {
             "Template type": "Transport",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Train ticket Fes to Casa - 1st class",
-              "score": 75.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -2719,25 +2320,8 @@ window.ISSUE_DATA = {
             "Template type": "Transport",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel to Train Station",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Casablanca Hotel to Train Station Private Transfer",
-              "score": 75.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Banded",
-              "value": "Per Vehicle (Banded) Max 17",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -2787,18 +2371,7 @@ window.ISSUE_DATA = {
             "Template type": "Transport",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Train Station to Hotel",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Arrival Transfer Train Station to Hotel",
-              "score": 76.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -2849,13 +2422,7 @@ window.ISSUE_DATA = {
             "Template type": "Transport",
             "In Service Template": "No"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Tasting Trail Fes",
-              "score": 75.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -3097,1018 +2664,8 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "On package and ST, no exact Prod Item, but a close name exists. Yes = rename ST to the selected Prod name. No = treat as brand new; create from ST.",
       "choice": "fuzzy-service",
-      "count": 15,
-      "issues": [
-        {
-          "id": "P2::farewell dinner marrakech - el fassia restaurant",
-          "service": "Farewell Dinner Marrakech - El Fassia Restaurant",
-          "packages": [
-            "South Morocco with Agafay"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "South Morocco with Agafay",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod exists": "No",
-            "Package PCs": "Per Person",
-            "ST PCs": "Per Crew; Per Person",
-            "ST PCs missing on Prod": "Per Crew; Per Person",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Marrakech",
-            "Template type": "Meal"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Farewell Dinner",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Farewell Dinner at Restaurant",
-              "score": 68.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Per Crew",
-              "value": "Dinner (Crew)",
-              "score": 58.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Farewell Dinner Marrakech - El Fassia Restaurant",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
-        },
-        {
-          "id": "P2::hotel belere",
-          "service": "Hotel Belere",
-          "packages": [
-            "Atlantic Imperials"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlantic Imperials",
-            "ST supplier": "Hotel Belere",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "ST PCs": "Dinner; Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
-            "ST PCs missing on Prod": "Dinner; Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Twin - Standard Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Rabat",
-            "Template type": "Accommodation"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Belere Rabat BB",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "Hotel Belere",
-          "prodSupplier": "",
-          "stLocation": "Rabat",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Belere",
-            "location": "Rabat",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Hotel Belere",
-            "comment": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
-          },
-          "stComments": [
-            "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
-          ],
-          "stCommentImport": "Service exists in Kaptio.Same rates for IG and FIT for 2026-2027"
-        },
-        {
-          "id": "P2::hotel caspien",
-          "service": "Hotel Caspien",
-          "packages": [
-            "Atlantic shore",
-            "Atlas Discovery",
-            "CAS to MAR - Train",
-            "Classic Sahara Crossing",
-            "Draa & the deep desert",
-            "MAR to CAS - Train",
-            "Marrakech & the high atlas",
-            "South Morocco with Agafay"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlantic shore",
-            "ST supplier": "Hotel Le Caspien",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Sawadee - 2nd Leader Room; Single - Standard Room; Twin - Standard Room",
-            "ST PCs missing on Prod": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Sawadee - 2nd Leader Room; Single - Standard Room; Twin - Standard Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Marrakech",
-            "Template type": "Accommodation"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Le Caspien",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "Hotel Le Caspien",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Caspien",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Hotel Le Caspien",
-            "comment": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
-          },
-          "stComments": [
-            "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
-          ],
-          "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
-        },
-        {
-          "id": "P2::ksar timnay riad mimouna hb",
-          "service": "Ksar Timnay Riad Mimouna HB",
-          "packages": [
-            "Sahara Crossing",
-            "Sahara crossing (Rev)"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "Sahara Crossing",
-            "ST supplier": "Ksar Timnay",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "ST PCs": "Double - Standard Room; Leader Room Single - Basic; Single - Standard Room; Twin - Standard Room",
-            "ST PCs missing on Prod": "Double - Standard Room; Leader Room Single - Basic; Single - Standard Room; Twin - Standard Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Midelt",
-            "Template type": "Accommodation"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Ksar Timnay",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Ksar Timnay Riad Mimouna",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Leader Room Single - Basic",
-              "value": "Leader Room Single - Standard",
-              "score": 65.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "Ksar Timnay",
-          "prodSupplier": "",
-          "stLocation": "Midelt",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Ksar Timnay Riad Mimouna HB",
-            "location": "Midelt",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Ksar Timnay",
-            "comment": "Service exisitng in Kaptio"
-          },
-          "stComments": [
-            "Service exisitng in Kaptio"
-          ],
-          "stCommentImport": "Service exisitng in Kaptio"
-        },
-        {
-          "id": "P2::local guide marrakech",
-          "service": "Local guide Marrakech",
-          "packages": [
-            "Atlantic shore",
-            "Atlantic shore (Rev)",
-            "Draa & the deep desert",
-            "Marrakech & the high atlas",
-            "Sahara Crossing"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "Also listed in P6",
-          "fields": {
-            "TM package": "Atlantic shore",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod exists": "No",
-            "Package PCs": "Per Group",
-            "ST PCs": "Per Crew; Per Group",
-            "ST PCs missing on Prod": "Per Crew; Per Group",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Marrakech",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P6"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Half Day Marrakech",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Premium Local Guide Marrakech Half Day",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local guide Marrakech",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
-        },
-        {
-          "id": "P2::local guide rabat",
-          "service": "Local Guide Rabat",
-          "packages": [
-            "Atlantic Imperials"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlantic Imperials",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod exists": "No",
-            "Package PCs": "Per Group",
-            "ST PCs": "Per Crew; Per Group",
-            "ST PCs missing on Prod": "Per Crew; Per Group",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Rabat",
-            "Template type": "Activity"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Half Day Rabat",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Local Guide Todra",
-              "score": 82.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "",
-          "stLocation": "Rabat",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local Guide Rabat",
-            "location": "Rabat",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
-        },
-        {
-          "id": "P2::local guide tangier",
-          "service": "Local guide Tangier",
-          "packages": [
-            "Atlantic Imperials"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlantic Imperials",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod exists": "No",
-            "Package PCs": "Per Group",
-            "ST PCs": "Per Crew; Per Group",
-            "ST PCs missing on Prod": "Per Crew; Per Group",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Tangier",
-            "Template type": "Activity"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Half Day Tangier",
-              "score": 99.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "",
-          "stLocation": "Tangier",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Local guide Tangier",
-            "location": "Tangier",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "Per Group",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service already exist"
-          },
-          "stComments": [
-            "Service already exist"
-          ],
-          "stCommentImport": "Service already exist"
-        },
-        {
-          "id": "P2::mia camp",
-          "service": "Mia Camp",
-          "packages": [
-            "SGA XMPM"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "Also listed in P6",
-          "fields": {
-            "TM package": "SGA XMPM",
-            "ST supplier": "Mia Hotels",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "ST PCs": "Signle - Leader Tent; Single - Tent; Twin - Tent",
-            "ST PCs missing on Prod": "Signle - Leader Tent; Single - Tent; Twin - Tent",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Agafay",
-            "Template type": "Accommodation",
-            "Also listed in": "Also listed in P6"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Mia Camp Sunset Aperitif",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "Mia Hotels",
-          "prodSupplier": "",
-          "stLocation": "Agafay",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Mia Camp",
-            "location": "Agafay",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Mia Hotels",
-            "comment": "Service Has been already loaded with FIT Rates"
-          },
-          "stComments": [
-            "Service Has been already loaded with FIT Rates",
-            "Service Has been already loaded with FIT Rates - Estimated Rates"
-          ],
-          "stCommentImport": "Service Has been already loaded with FIT Rates"
-        },
-        {
-          "id": "P2::moulay driss couscous lunch",
-          "service": "Moulay Driss Couscous Lunch",
-          "packages": [
-            "The Imperial Table"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "Also listed in P11",
-          "fields": {
-            "TM package": "The Imperial Table",
-            "ST supplier": "DMC Morocco - Cash Paid Services",
-            "Prod exists": "No",
-            "Package PCs": "N/A",
-            "ST PCs": "Per Crew; Per Person",
-            "ST PCs missing on Prod": "Per Crew; Per Person",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Moulday Idriss",
-            "Template type": "Activity",
-            "Also listed in": "Also listed in P11"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Moulay Driss Couscous Lunch - Backroads",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "DMC Morocco - Cash Paid Services",
-          "prodSupplier": "",
-          "stLocation": "Moulday Idriss",
-          "prodLocation": "",
-          "stType": "Activity",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Moulay Driss Couscous Lunch",
-            "location": "Moulday Idriss",
-            "businessUnit": "",
-            "serviceType": "Activity",
-            "priceCategory": "N/A",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "DMC Morocco - Cash Paid Services",
-            "comment": "Service does not exist in Kaptio"
-          },
-          "stComments": [
-            "Service does not exist in Kaptio"
-          ],
-          "stCommentImport": "Service does not exist in Kaptio"
-        },
-        {
-          "id": "P2::puerta azul",
-          "service": "Puerta Azul",
-          "packages": [
-            "SGA XMFB",
-            "SGA XMZF"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMFB",
-            "ST supplier": "Puerta Azul",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room; Twin Family Room",
-            "ST PCs missing on Prod": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Single - Standard Room; Triple - Standard Room; Twin - Standard Room; Twin Family Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Chefchaouen",
-            "Template type": "Accommodation"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Puerta Azul",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "Puerta Azul",
-          "prodSupplier": "",
-          "stLocation": "Chefchaouen",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Puerta Azul",
-            "location": "Chefchaouen",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Puerta Azul",
-            "comment": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
-          },
-          "stComments": [
-            "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
-          ],
-          "stCommentImport": "Service exists in Kaptio. Same rates for FIT and IG for 2026/2027"
-        },
-        {
-          "id": "P2::riad 48",
-          "service": "Riad 48",
-          "packages": [
-            "Atlantic shore",
-            "Atlas Discovery",
-            "CAS to MAR - Train",
-            "Classic Sahara Crossing",
-            "Draa & the deep desert",
-            "MAR to CAS - Train",
-            "Marrakech & the high atlas",
-            "Sahara Crossing",
-            "South Morocco with Agafay"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlantic shore",
-            "ST supplier": "Riad 48",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "ST PCs": "Double - Standard Room; Double for Single Use; Leader Single Room - Standard; Quad - Standard Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
-            "ST PCs missing on Prod": "Double - Standard Room; Double for Single Use; Leader Single Room - Standard; Quad - Standard Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Marrakech",
-            "Template type": "Accommodation"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Riad 48 & Spa",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room - Standard",
-              "value": "Leader Single - Standard Room",
-              "score": 99.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "Riad 48",
-          "prodSupplier": "",
-          "stLocation": "Marrakech",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Riad 48",
-            "location": "Marrakech",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Riad 48",
-            "comment": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
-          },
-          "stComments": [
-            "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
-          ],
-          "stCommentImport": "Service already exists in Kaptio with same rates for FIT/Group Series for 2027"
-        },
-        {
-          "id": "P2::riad jnane imlil hb",
-          "service": "Riad Jnane Imlil HB",
-          "packages": [
-            "Atlas Discovery"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "Atlas Discovery",
-            "ST supplier": "Riad Jnane Imlil",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "ST PCs": "Double - Deluxe Suite; Double - Standard Room; Double - Superior (Balcony); Double for Single Use; Leader Room Single - Standard; Single - Deluxe Suite; Single - Standard Room; Single - Superior (Balcony); Twin - Deluxe Suite; Twin - Standard Room; Twin - Superior (Balcony)",
-            "ST PCs missing on Prod": "Double - Deluxe Suite; Double - Standard Room; Double - Superior (Balcony); Double for Single Use; Leader Room Single - Standard; Single - Deluxe Suite; Single - Standard Room; Single - Superior (Balcony); Twin - Deluxe Suite; Twin - Standard Room; Twin - Superior (Balcony)",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Imlil",
-            "Template type": "Accommodation"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Riad Jnane Imlil-Standard",
-              "score": 75.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "Riad Jnane Imlil",
-          "prodSupplier": "",
-          "stLocation": "Imlil",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Riad Jnane Imlil HB",
-            "location": "Imlil",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Riad Jnane Imlil",
-            "comment": "Service exists in Kaptio"
-          },
-          "stComments": [
-            "Service exists in Kaptio"
-          ],
-          "stCommentImport": "Service exists in Kaptio"
-        },
-        {
-          "id": "P2::skoura lodge- hb",
-          "service": "Skoura Lodge- HB",
-          "packages": [
-            "Draa & the deep desert"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "Draa & the deep desert",
-            "ST supplier": "SKOURA LODGE",
-            "Prod exists": "No",
-            "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "ST PCs": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Leader Room Twin - Standard; Quad - Standard Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
-            "ST PCs missing on Prod": "Double - Standard Room; Double for Single Use; Leader Room Single - Standard; Leader Room Twin - Standard; Quad - Standard Room; Single - Standard Room; Triple - Standard Room; Twin - Standard Room",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Skoura",
-            "Template type": "Accommodation"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Skoura Lodge - Standard",
-              "score": 75.0
-            }
-          ],
-          "fuzzyPc": [
-            {
-              "from": "Leader Room Single - Standard",
-              "value": "Leader Room Single- Standard",
-              "score": 100.0
-            },
-            {
-              "from": "Quad - Standard Room",
-              "value": "Quadruple - Standard Room",
-              "score": 61.0
-            }
-          ],
-          "pcMap": [],
-          "stSupplier": "SKOURA LODGE",
-          "prodSupplier": "",
-          "stLocation": "Skoura",
-          "prodLocation": "",
-          "stType": "Accommodation",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Skoura Lodge- HB",
-            "location": "Skoura",
-            "businessUnit": "",
-            "serviceType": "Accommodation",
-            "priceCategory": "Double Room; Leader Single Room; Single Room; Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "SKOURA LODGE",
-            "comment": "Service exists in Kaptio. Same rates for IG and FIT"
-          },
-          "stComments": [
-            "Service exists in Kaptio. Same rates for IG and FIT"
-          ],
-          "stCommentImport": "Service exists in Kaptio. Same rates for IG and FIT"
-        },
-        {
-          "id": "P2::wine tasting & lunch at château roslane",
-          "service": "Wine Tasting & Lunch at Château Roslane",
-          "packages": [
-            "The Imperial Table"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "",
-          "fields": {
-            "TM package": "The Imperial Table",
-            "ST supplier": "Château Roslane Boutique Hotel & Spa",
-            "Prod exists": "No",
-            "Package PCs": "Per Person",
-            "ST PCs": "Per Crew; Per Person",
-            "ST PCs missing on Prod": "Per Crew; Per Person",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Chatteau Roslane",
-            "Template type": "Meal"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Wine Tasting",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "Château Roslane Boutique Hotel & Spa",
-          "prodSupplier": "",
-          "stLocation": "Chatteau Roslane",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Wine Tasting & Lunch at Château Roslane",
-            "location": "Chatteau Roslane",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Château Roslane Boutique Hotel & Spa",
-            "comment": "Service does not exist in Kaptio - Menu classique + Package Dégustation Premium"
-          },
-          "stComments": [
-            "Service does not exist in Kaptio - Menu classique + Package Dégustation Premium",
-            "Service does not exist in Kaptio - Menu classique only"
-          ],
-          "stCommentImport": "Service does not exist in Kaptio - Menu classique + Package Dégustation Premium"
-        },
-        {
-          "id": "P2::wine tasting & lunch at val d'argan",
-          "service": "Wine Tasting & Lunch at Val d'Argan",
-          "packages": [
-            "South Morocco with Agafay"
-          ],
-          "action": "If the fuzzy Prod match is valid, rename the ST service/PC to the Prod name. If not, mark it as a brand-new service.",
-          "also": "Also listed in P6",
-          "fields": {
-            "TM package": "South Morocco with Agafay",
-            "ST supplier": "LES DOMAINES DU VAL D'ARGAN",
-            "Prod exists": "No",
-            "Package PCs": "Per Person",
-            "ST PCs": "Formule Dejeuner 1; Formule Dejeuner 2; Formule Dejeuner 3",
-            "ST PCs missing on Prod": "Formule Dejeuner 1; Formule Dejeuner 2; Formule Dejeuner 3",
-            "Active price": "No",
-            "Price kind": "Not on Prod",
-            "Gap": "Not on Prod",
-            "Template location": "Essaouira",
-            "Template type": "Meal",
-            "Also listed in": "Also listed in P6"
-          },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Wine Tasting",
-              "score": 92.0
-            }
-          ],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "LES DOMAINES DU VAL D'ARGAN",
-          "prodSupplier": "",
-          "stLocation": "Essaouira",
-          "prodLocation": "",
-          "stType": "Meal",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Wine Tasting & Lunch at Val d'Argan",
-            "location": "Essaouira",
-            "businessUnit": "",
-            "serviceType": "Meal",
-            "priceCategory": "Per Person",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "LES DOMAINES DU VAL D'ARGAN",
-            "comment": "Service does not exist in Kaptio"
-          },
-          "stComments": [
-            "Service does not exist in Kaptio"
-          ],
-          "stCommentImport": "Service does not exist in Kaptio"
-        }
-      ]
+      "count": 0,
+      "issues": []
     },
     {
       "id": "P4",
@@ -4141,13 +2698,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle Banded (Max7)",
-              "score": 76.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -4218,7 +2769,7 @@ window.ISSUE_DATA = {
             "Gap": "OK — FIT and Group Tour",
             "ST prices": "Double - Standard Room 1200 MAD [FIT] 2026 All Year; Twin - Standard Room 1200 MAD [FIT] 2026 All Year; Single - Standard Room 1200 MAD [FIT] 2026 All Year; Leader Room Single - Standard 1200 MAD [FIT] 2026 All Year; Double for Single Use 1200 MAD [FIT] 2026 All Year; City Tax 16.5 MAD [FIT] 2026 All Year",
             "ST price dates": "1/1/2026  -  31/12/2026",
-            "Prod PCs priced": "Twin - Standard Room 1033.0 MAD [All Group Series]; Single - Standard Room 1016.5 MAD [All Group Series]; Double - Standard Room 1033.0 MAD [All Group Series]; Leader Room Single - Standard 350.0 MAD [All Group Series]; (no PC) 400.0 MAD [All Group Series]; (no PC) 300.0 MAD [All Group Series]; Twin - Deluxe 1233.0 MAD [All Group Series]; Single - Deluxe 1216.5 MAD [All Group Series]; Double - Deluxe 1233.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 30 0.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 19 1016.5 MAD [All Group Series]; Double for Single Use 1016.5 MAD [All Group Series]; Twin - Standard Room 1583.0 MAD [All Group Series]; Single - Standard Room 1566.5 MAD [All Group Series]; Double - Standard Room 1583.0 MAD [All Group Series]; Twin - Deluxe 1883.0 MAD [All Group Series]; Single - Deluxe 1866.5 MAD [All Group Series]; Double - Deluxe 1883.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 19 1566.5 MAD [All Group Series]; Double for Single Use 1566.5 MAD [All Group Series]; Double for Single Use 1050.0 MAD [All Group Series]; Double - Standard Room 1050.0 MAD [All Group Series]; Twin - Standard Room 1050.0 MAD [All Group Series]; Leader Room Single - Standard 450.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; Double - Standard Room 1200.0 MAD [FIT]; Twin - Standard Room 1200.0 MAD [FIT]; Single - Standard Room 1200.0 MAD [FIT]; Double for Single Use 1200.0 MAD [FIT]; Leader Room Single - Standard 1200.0 MAD [FIT]; (no PC) 16.5 MAD [FIT]; Double - Charme 1300.0 MAD [All Group Series]; Single - Charme 1300.0 MAD [All Group Series]; Twin - Charme 1300.0 MAD [All Group Series]; Double - Deluxe 2000.0 MAD [All Group Series]; Twin - Deluxe 2000.0 MAD [All Group Series]; Leader Room Single - Standard 500.0 MAD [All Group Series]; Single - Deluxe 1700.0 MAD [All Group Series]",
+            "Prod PCs priced": "(no PC) 16.5 MAD [FIT]; (no PC) 375.0 MAD [FIT]; Double - Charme 1625.0 MAD [FIT]; Single - Charme 1625.0 MAD [FIT]; Twin - Charme 1625.0 MAD [FIT]; Double - Deluxe 2500.0 MAD [FIT]; Twin - Deluxe 2500.0 MAD [FIT]; Leader Room Single - Standard 625.0 MAD [FIT]; Single - Deluxe 2125.0 MAD [FIT]; Twin - Standard Room 1033.0 MAD [All Group Series]; Single - Standard Room 1016.5 MAD [All Group Series]; Double - Standard Room 1033.0 MAD [All Group Series]; Leader Room Single - Standard 350.0 MAD [All Group Series]; (no PC) 400.0 MAD [All Group Series]; (no PC) 300.0 MAD [All Group Series]; Twin - Deluxe 1233.0 MAD [All Group Series]; Single - Deluxe 1216.5 MAD [All Group Series]; Double - Deluxe 1233.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 30 0.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 19 1016.5 MAD [All Group Series]; Double for Single Use 1016.5 MAD [All Group Series]; Twin - Standard Room 1583.0 MAD [All Group Series]; Single - Standard Room 1566.5 MAD [All Group Series]; Double - Standard Room 1583.0 MAD [All Group Series]; Twin - Deluxe 1883.0 MAD [All Group Series]; Single - Deluxe 1866.5 MAD [All Group Series]; Double - Deluxe 1883.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 19 1566.5 MAD [All Group Series]; Double for Single Use 1566.5 MAD [All Group Series]; Double for Single Use 1050.0 MAD [All Group Series]; Double - Standard Room 1050.0 MAD [All Group Series]; Twin - Standard Room 1050.0 MAD [All Group Series]; Leader Room Single - Standard 450.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; Double - Standard Room 1200.0 MAD [FIT]; Twin - Standard Room 1200.0 MAD [FIT]; Single - Standard Room 1200.0 MAD [FIT]; Double for Single Use 1200.0 MAD [FIT]; Leader Room Single - Standard 1200.0 MAD [FIT]; Double - Charme 1300.0 MAD [All Group Series]; Single - Charme 1300.0 MAD [All Group Series]; Twin - Charme 1300.0 MAD [All Group Series]; Double - Deluxe 2000.0 MAD [All Group Series]; Twin - Deluxe 2000.0 MAD [All Group Series]; Leader Room Single - Standard 500.0 MAD [All Group Series]; Single - Deluxe 1700.0 MAD [All Group Series]",
             "Also listed in": "Also listed in P5"
           },
           "fuzzyService": [],
@@ -4253,7 +2804,7 @@ window.ISSUE_DATA = {
             {
               "pc": "Leader Room Single - Standard",
               "st": "1200 MAD [FIT] 2026 All Year",
-              "prod": "350.0 MAD [All Group Series]; 450.0 MAD [All Group Series]; 1200.0 MAD [FIT]; 500.0 MAD [All Group Series]"
+              "prod": "625.0 MAD [FIT]; 350.0 MAD [All Group Series]; 450.0 MAD [All Group Series]; 1200.0 MAD [FIT]; 500.0 MAD [All Group Series]"
             },
             {
               "pc": "Single - Standard Room",
@@ -4268,17 +2819,42 @@ window.ISSUE_DATA = {
             {
               "pc": "Double - Deluxe",
               "st": "—",
-              "prod": "1233.0 MAD [All Group Series]; 1883.0 MAD [All Group Series]; 2000.0 MAD [All Group Series]"
+              "prod": "2500.0 MAD [FIT]; 1233.0 MAD [All Group Series]; 1883.0 MAD [All Group Series]; 2000.0 MAD [All Group Series]"
             },
             {
               "pc": "Single - Deluxe",
               "st": "—",
-              "prod": "1216.5 MAD [All Group Series]; 1866.5 MAD [All Group Series]; 1700.0 MAD [All Group Series]"
+              "prod": "2125.0 MAD [FIT]; 1216.5 MAD [All Group Series]; 1866.5 MAD [All Group Series]; 1700.0 MAD [All Group Series]"
             },
             {
               "pc": "Twin - Deluxe",
               "st": "—",
-              "prod": "1233.0 MAD [All Group Series]; 1883.0 MAD [All Group Series]; 2000.0 MAD [All Group Series]"
+              "prod": "2500.0 MAD [FIT]; 1233.0 MAD [All Group Series]; 1883.0 MAD [All Group Series]; 2000.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 16.5 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 375.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Charme 1625.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Charme 1625.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Charme 1625.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
@@ -4309,11 +2885,6 @@ window.ISSUE_DATA = {
               "pc": "(Prod)",
               "st": "—",
               "prod": "(no PC) 16.5 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "(no PC) 16.5 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
@@ -4373,18 +2944,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Double For Single",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -4460,28 +3020,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 600.0 MAD [All Group Series]; Single - Standard Room 500.0 MAD [All Group Series]; Double - Standard Room 600.0 MAD [All Group Series]; Double for Single Use 500.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin - Standard Room 650.0 MAD [All Group Series]; Double - Standard Room 650.0 MAD [All Group Series]; Single - Standard Room 650.0 MAD [All Group Series]; Double for Single Use 650.0 MAD [All Group Series]; Single - Standard Room 600.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -4582,13 +3121,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Groupe Non Banded 1000.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Groupe Non-Banded",
-              "value": "Per Groupe Non Banded",
-              "score": 100.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -4641,31 +3174,10 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Single Standard Room 1100.0 MAD [FIT]; Double Standard Room 1150.0 MAD [FIT]; Twin Standard Room 1150.0 MAD [FIT]; Double For Single Use 1100.0 MAD [FIT]; Leader Room Single Standard 0.0 MAD [FIT]; Double Standard Room 1200.0 MAD [FIT]; Twin Standard Room 1200.0 MAD [FIT]; Single Standard Room 1100.0 MAD [All Group Series]; Double Standard Room 1150.0 MAD [All Group Series]; Twin Standard Room 1150.0 MAD [All Group Series]; Double For Single Use 1100.0 MAD [All Group Series]; Leader Room Single Standard 0.0 MAD [All Group Series]; Double Standard Room 1200.0 MAD [All Group Series]; Twin Standard Room 1200.0 MAD [All Group Series]"
+            "Prod PCs priced": "Single Standard Room 1375.0 MAD [FIT]; Double Standard Room 1437.5 MAD [FIT]; Twin Standard Room 1437.5 MAD [FIT]; Double For Single Use 1375.0 MAD [FIT]; Leader Room Single Standard 0.0 MAD [FIT]; Double Standard Room 1500.0 MAD [FIT]; Twin Standard Room 1500.0 MAD [FIT]; Single Standard Room 1100.0 MAD [All Group Series]; Double Standard Room 1150.0 MAD [All Group Series]; Twin Standard Room 1150.0 MAD [All Group Series]; Double For Single Use 1100.0 MAD [All Group Series]; Leader Room Single Standard 0.0 MAD [All Group Series]; Double Standard Room 1200.0 MAD [All Group Series]; Twin Standard Room 1200.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double Standard Room",
-              "score": 60.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single Standard Room",
-              "score": 60.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -4681,22 +3193,22 @@ window.ISSUE_DATA = {
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Single Standard Room 1100.0 MAD [FIT]"
+              "prod": "Single Standard Room 1375.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Double Standard Room 1150.0 MAD [FIT]"
+              "prod": "Double Standard Room 1437.5 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Twin Standard Room 1150.0 MAD [FIT]"
+              "prod": "Twin Standard Room 1437.5 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Double For Single Use 1100.0 MAD [FIT]"
+              "prod": "Double For Single Use 1375.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
@@ -4706,12 +3218,12 @@ window.ISSUE_DATA = {
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Double Standard Room 1200.0 MAD [FIT]"
+              "prod": "Double Standard Room 1500.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Twin Standard Room 1200.0 MAD [FIT]"
+              "prod": "Twin Standard Room 1500.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
@@ -4875,13 +3387,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Vehicle (Banded) Max 7 1750.0 MAD [All Group Series]; Per Vehicle (Banded) Max 17 1950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 7 1950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 17 2200.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -4937,13 +3443,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Leader Tent Single (with Shared Facilities) 0.0 MAD [FIT]; Twin - Tent (with Shared Facilities) 1000.0 MAD [FIT]; Single - Tent (with Shared Facilities) 600.0 MAD [FIT]; Double - Tent (With Shared Facilities) 1000.0 MAD [FIT]; (no PC) 10.0 MAD [FIT]; Twin - Tent (Family) 1000.0 MAD [FIT]; Triple - Tent 1500.0 MAD [FIT]; Quadruple - Tent 2000.0 MAD [FIT]; (no PC) 300.0 MAD [FIT]; Leader Tent Single (with Shared Facilities) 0.0 MAD [All Group Series]; Twin - Tent (with Shared Facilities) 1000.0 MAD [All Group Series]; Single - Tent (with Shared Facilities) 600.0 MAD [All Group Series]; Double - Tent (With Shared Facilities) 1000.0 MAD [All Group Series]; (no PC) 10.0 MAD [All Group Series]; (no PC) 300.0 MAD [All Group Series]; Twin - Tent (Family) 1000.0 MAD [All Group Series]; Triple - Tent 1500.0 MAD [All Group Series]; Quadruple - Tent 2000.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Tent Single (with Shared Facilities)",
-              "score": 48.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -5089,28 +3589,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 500.0 MAD [All Group Series]; Single - Standard Room 270.0 MAD [All Group Series]; Double - Standard Room 500.0 MAD [All Group Series]; Triple - Standard Room 720.0 MAD [All Group Series]; Quad - Standard Room 960.0 MAD [All Group Series]; Double for Single Use 270.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; (no PC) 10.0 MAD [All Group Series]; (no PC) 300.0 MAD [All Group Series]; Leader Tent Twin (with Shared Facilities) 0.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Twin Room (Family) 516.4 MAD [All Group Series]; Sawadee - 2nd Leader Room 270.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room (Family)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -5310,13 +3789,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -5596,28 +4069,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Double - Standard Room 427.0 MAD [All Group Series]; Twin - Standard Room 427.0 MAD [All Group Series]; Single - Standard Room 365.0 MAD [All Group Series]; Leader Single - Standard Room 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single - Standard Room",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -5691,13 +4143,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -5758,13 +4204,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 7650.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 8700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 10000.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -5825,13 +4265,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 13600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 14980.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 17120.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 14000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 15500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -5892,13 +4326,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Vehicle (Banded) Max 8 6950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 7500.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 9050.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 7600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 8000.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -5947,7 +4375,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Casablanca to Rabat Private Transfer",
             "Prod Id": "a1HSo00000BiMxlMAF",
-            "Package PCs": "Per Unit",
+            "Package PCs": "Per Unit (Max 14); Per Unit (Max 17); Per Unit (Max 27); Per Unit (Max 8)",
             "ST PCs missing on Prod": "Per Unit",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -5956,13 +4384,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -5976,9 +4398,24 @@ window.ISSUE_DATA = {
           "existingPcs": [],
           "priceCompare": [
             {
-              "pc": "Per Unit",
+              "pc": "Per Unit (Max 14)",
               "st": "—",
-              "prod": "(Max 8) 2200.0 MAD [FIT]; (Max 14) 2650.0 MAD [FIT]; (Max 17) 2900.0 MAD [FIT]; (Max 27) 3900.0 MAD [FIT]; (Max 8) 2200.0 MAD [All Group Series]; (Max 14) 2650.0 MAD [All Group Series]; (Max 17) 2900.0 MAD [All Group Series]; (Max 27) 3900.0 MAD [All Group Series]"
+              "prod": "2650.0 MAD [FIT]; 2650.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Per Unit (Max 17)",
+              "st": "—",
+              "prod": "2900.0 MAD [FIT]; 2900.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Per Unit (Max 27)",
+              "st": "—",
+              "prod": "3900.0 MAD [FIT]; 3900.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Per Unit (Max 8)",
+              "st": "—",
+              "prod": "2200.0 MAD [FIT]; 2200.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "",
@@ -5987,7 +4424,7 @@ window.ISSUE_DATA = {
             "location": "",
             "businessUnit": "",
             "serviceType": "",
-            "priceCategory": "Per Unit",
+            "priceCategory": "Per Unit (Max 14); Per Unit (Max 17); Per Unit (Max 27); Per Unit (Max 8)",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -5999,8 +4436,8 @@ window.ISSUE_DATA = {
           "nariComments": [
             {
               "package": "Atlantic Imperials (Rev)",
-              "note": "NOT LISTED",
-              "prodName": "",
+              "note": "Use Prod",
+              "prodName": "Casablanca to Rabat Private Transfer",
               "prodPc": ""
             }
           ]
@@ -6027,13 +4464,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -6096,13 +4527,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -6319,28 +4744,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 937.5 MAD [FIT]; Single - Standard Room 937.5 MAD [FIT]; Double - Standard Room 937.5 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Double for Single Use 937.5 MAD [FIT]; Twin - Standard Room 750.0 MAD [All Group Series]; Single - Standard Room 750.0 MAD [All Group Series]; Double - Standard Room 750.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double for Single Use 750.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -6423,28 +4827,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Multishare 205.0 MAD [All Group Series]; Standard - Single Room (FIT) 205.0 MAD [All Group Series]; Standard - Double Room (FIT) 410.0 MAD [All Group Series]; Standard - Twin Room (FIT) 410.0 MAD [All Group Series]; Twin (Family) XMFE 386.4968 MAD [All Group Series]; Twin (Family) XMFB 410.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 205.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Standard - Double Room (FIT)",
-              "score": 92.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard (FIT)",
-              "score": 58.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Standard - Single Room (FIT)",
-              "score": 92.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Standard - Twin Room (FIT)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -6535,13 +4918,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Vehicle (Banded) Max 8 350.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 680.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 770.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 440.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -6705,28 +5082,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Single Tent 1155.0 MAD [All Group Series]; Double - Tent 1310.0 MAD [All Group Series]; Twin - Tent 1310.0 MAD [All Group Series]; Triple - Tent 1615.0 MAD [All Group Series]; Single - Dome 1355.0 MAD [All Group Series]; Double - Dome 1510.0 MAD [All Group Series]; Twin - Dome 1510.0 MAD [All Group Series]; Leader Single Room - Standard 0.0 MAD [All Group Series]; Single Tent 1355.0 MAD [All Group Series]; Double - Tent 1510.0 MAD [All Group Series]; Twin - Tent 1510.0 MAD [All Group Series]; Triple - Tent 1815.0 MAD [All Group Series]; Single - Dome 1600.0 MAD [All Group Series]; Double - Dome 1755.0 MAD [All Group Series]; Twin - Dome 1755.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Dome",
-              "score": 62.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single Room - Standard",
-              "score": 92.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Single Room - Standard",
-              "score": 92.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Dome",
-              "score": 60.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -6859,18 +5215,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Standard - Twin Room 380.0 MAD [FIT]; Standard - Double Room 380.0 MAD [FIT]; Double for Single Use 300.0 MAD [FIT]; Standard - Single Room 300.0 MAD [FIT]; Standard - Triple Room 580.0 MAD [FIT]; Leader Single Room 0.0 MAD [FIT]; Crew Twin Room 0.0 MAD [FIT]; Standard - Twin Room 330.0 MAD [All Group Series]; Standard - Double Room 330.0 MAD [All Group Series]; Double for Single Use 300.0 MAD [All Group Series]; Standard - Single Room 300.0 MAD [All Group Series]; Standard - Triple Room 495.0 MAD [All Group Series]; Leader Single Room 0.0 MAD [All Group Series]; Crew Twin Room 0.0 MAD [All Group Series]; Standard - Twin Room 380.0 MAD [All Group Series]; Standard - Double Room 380.0 MAD [All Group Series]; Standard - Triple Room 580.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Standard - Leader Single Room",
-              "value": "Leader Single Room",
-              "score": 92.0
-            },
-            {
-              "from": "Twin - Twin Room",
-              "value": "Standard - Twin Room",
-              "score": 64.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -7099,13 +5444,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Vehicle (Banded) Max 8 7600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 8700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 9800.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -7172,13 +5511,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -7241,13 +5574,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Single Room",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -7336,28 +5663,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -7463,9 +5769,9 @@ window.ISSUE_DATA = {
             "Package PCs": "Double - Tent (with Bathroom) (FIT); Maos Method Multiple Crew Room (Pax Banded) Max 16; Maos Method Multiple Crew Room (Pax Banded) Max 4; Single - Tent (with Bathroom) (FIT); Twin - Tent (with Bathroom) (FIT)",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Tent (with Bathroom) (FIT) 3700.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 3700.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 2700.0 MAD [All Group Series]; Leader Tent Single (with Shared Facilities) (FIT) 1200.0 MAD [All Group Series]; Triple - Tent (FIT) 4700.0 MAD [All Group Series]; Quad - Tent (FIT) 5700.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 1000.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 1200.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 1200.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 400.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 16 0.0 MAD [All Group Series]; Triple - Tent (FIT) 1750.0 MAD [All Group Series]; Quad - Tent (FIT) 2200.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 3400.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 3400.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 2300.0 MAD [All Group Series]; Triple - Tent (FIT) 4500.0 MAD [All Group Series]; Quad - Tent (FIT) 5600.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 1000.0 MAD [All Group Series]; Double - Tent (with Bathroom) (FIT) 1300.0 MAD [All Group Series]; Twin - Tent (with Bathroom) (FIT) 1300.0 MAD [All Group Series]; Single - Tent (with Bathroom) (FIT) 1050.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 500.0 MAD [All Group Series]; Triple - Tent (FIT) 1900.0 MAD [All Group Series]; Quad - Tent (FIT) 2400.0 MAD [All Group Series]"
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Twin - Tent (with Bathroom) 3700.0 MAD [All Group Series]; Double - Tent (with Bathroom) 3700.0 MAD [All Group Series]; Single - Tent (with Bathroom) 2700.0 MAD [All Group Series]; Leader Tent Single (with Shared Facilities) 1200.0 MAD [All Group Series]; Triple - Tent 4700.0 MAD [All Group Series]; Quad - Tent 5700.0 MAD [All Group Series]; Double - Tent (with Bathroom) 1625.0 MAD [FIT]; Twin - Tent (with Bathroom) 1625.0 MAD [FIT]; Single - Tent (with Bathroom) 1212.5 MAD [FIT]; Maos Method Multiple Crew Room (Pax Banded) Max 4 625.0 MAD [FIT]; Maos Method Multiple Crew Room (Pax Banded) Max 16 0.0 MAD [FIT]; Triple - Tent 2375.0 MAD [FIT]; Quad - Tent 2400.0 MAD [FIT]; Twin - Tent (with Bathroom) 4625.0 MAD [FIT]; Double - Tent (with Bathroom) 4625.0 MAD [FIT]; Single - Tent (with Bathroom) 3375.0 MAD [FIT]; Leader Tent Single (with Shared Facilities) 1500.0 MAD [FIT]; Triple - Tent 5875.0 MAD [FIT]; Quad - Tent 7125.0 MAD [FIT]; Single - Tent (with Bathroom) 1000.0 MAD [All Group Series]; Twin - Tent (with Bathroom) 1200.0 MAD [All Group Series]; Double - Tent (with Bathroom) 1200.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 400.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 16 0.0 MAD [All Group Series]; Triple - Tent 1750.0 MAD [All Group Series]; Quad - Tent 2200.0 MAD [All Group Series]; Double - Tent (with Bathroom) 3400.0 MAD [All Group Series]; Twin - Tent (with Bathroom) 3400.0 MAD [All Group Series]; Single - Tent (with Bathroom) 2300.0 MAD [All Group Series]; Triple - Tent 4500.0 MAD [All Group Series]; Quad - Tent 5600.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 1000.0 MAD [All Group Series]; Double - Tent (with Bathroom) 1300.0 MAD [All Group Series]; Twin - Tent (with Bathroom) 1300.0 MAD [All Group Series]; Single - Tent (with Bathroom) 1050.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 4 500.0 MAD [All Group Series]; Triple - Tent 1900.0 MAD [All Group Series]; Quad - Tent 2400.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -7482,74 +5788,174 @@ window.ISSUE_DATA = {
           "existingPcs": [],
           "priceCompare": [
             {
-              "pc": "Double - Tent (with Bathroom) (FIT)",
-              "st": "—",
-              "prod": "3700.0 MAD [All Group Series]; 1200.0 MAD [All Group Series]; 3400.0 MAD [All Group Series]; 1300.0 MAD [All Group Series]"
-            },
-            {
               "pc": "Maos Method Multiple Crew Room (Pax Banded) Max 16",
               "st": "—",
-              "prod": "0.0 MAD [All Group Series]"
+              "prod": "0.0 MAD [FIT]; 0.0 MAD [All Group Series]"
             },
             {
               "pc": "Maos Method Multiple Crew Room (Pax Banded) Max 4",
               "st": "—",
-              "prod": "400.0 MAD [All Group Series]; 1000.0 MAD [All Group Series]; 500.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "Single - Tent (with Bathroom) (FIT)",
-              "st": "—",
-              "prod": "2700.0 MAD [All Group Series]; 1000.0 MAD [All Group Series]; 2300.0 MAD [All Group Series]; 1050.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "Twin - Tent (with Bathroom) (FIT)",
-              "st": "—",
-              "prod": "3700.0 MAD [All Group Series]; 1200.0 MAD [All Group Series]; 3400.0 MAD [All Group Series]; 1300.0 MAD [All Group Series]"
+              "prod": "625.0 MAD [FIT]; 400.0 MAD [All Group Series]; 1000.0 MAD [All Group Series]; 500.0 MAD [All Group Series]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Leader Tent Single (with Shared Facilities) (FIT) 1200.0 MAD [All Group Series]"
+              "prod": "Twin - Tent (with Bathroom) 3700.0 MAD [All Group Series]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Triple - Tent (FIT) 4700.0 MAD [All Group Series]"
+              "prod": "Double - Tent (with Bathroom) 3700.0 MAD [All Group Series]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Quad - Tent (FIT) 5700.0 MAD [All Group Series]"
+              "prod": "Single - Tent (with Bathroom) 2700.0 MAD [All Group Series]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Triple - Tent (FIT) 1750.0 MAD [All Group Series]"
+              "prod": "Leader Tent Single (with Shared Facilities) 1200.0 MAD [All Group Series]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Quad - Tent (FIT) 2200.0 MAD [All Group Series]"
+              "prod": "Triple - Tent 4700.0 MAD [All Group Series]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Triple - Tent (FIT) 4500.0 MAD [All Group Series]"
+              "prod": "Quad - Tent 5700.0 MAD [All Group Series]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Quad - Tent (FIT) 5600.0 MAD [All Group Series]"
+              "prod": "Double - Tent (with Bathroom) 1625.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Triple - Tent (FIT) 1900.0 MAD [All Group Series]"
+              "prod": "Twin - Tent (with Bathroom) 1625.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
               "st": "—",
-              "prod": "Quad - Tent (FIT) 2400.0 MAD [All Group Series]"
+              "prod": "Single - Tent (with Bathroom) 1212.5 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Tent 2375.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Quad - Tent 2400.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Tent (with Bathroom) 4625.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Tent (with Bathroom) 4625.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Tent (with Bathroom) 3375.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Tent Single (with Shared Facilities) 1500.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Tent 5875.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Quad - Tent 7125.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Tent (with Bathroom) 1000.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Tent (with Bathroom) 1200.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Tent (with Bathroom) 1200.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Tent 1750.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Quad - Tent 2200.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Tent (with Bathroom) 3400.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Tent (with Bathroom) 3400.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Tent (with Bathroom) 2300.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Tent 4500.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Quad - Tent 5600.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Tent (with Bathroom) 1300.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Tent (with Bathroom) 1300.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Tent (with Bathroom) 1050.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Triple - Tent 1900.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Quad - Tent 2400.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "",
@@ -7590,28 +5996,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room (FIT) 640.0 MAD [All Group Series]; Single - Standard Room (FIT) 640.0 MAD [All Group Series]; Double - Standard Room (FIT) 640.0 MAD [All Group Series]; Double for Single Use (FIT) 640.0 MAD [All Group Series]; Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Twin Room (Family) XMFK 640.0 MAD [All Group Series]; Twin Room (Family) XMFB 633.6 MAD [All Group Series]; Triple - Standard Room (FIT) 960.0 MAD [All Group Series]; Double - Standard Room 655.0 MAD [All Group Series]; Twin - Standard Room 655.0 MAD [All Group Series]; Double for Single Use 655.0 MAD [All Group Series]; Triple - Standard Room 980.0 MAD [All Group Series]; Single - Standard Room 655.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin Family Room XMFB 660.0 MAD [All Group Series]; Twin Room (Family) XMFK 655.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 640.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 655.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room (Family) XMFB",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -7743,28 +6128,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard Max",
-              "score": 58.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -8034,28 +6398,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 550.0 MAD [All Group Series]; Single - Standard Room 420.0 MAD [All Group Series]; Double - Standard Room 550.0 MAD [All Group Series]; Triple - Standard Room 750.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double for Single Use 520.0 MAD [All Group Series]; Double for Single Use 530.0 MAD [All Group Series]; Single - Standard Room 430.0 MAD [All Group Series]; Triple - Standard Room 800.0 MAD [All Group Series]; Double - Standard Room 570.0 MAD [All Group Series]; Twin - Standard Room 570.0 MAD [All Group Series]; Single - Standard Room 440.0 MAD [All Group Series]; Triple - Standard Room 820.0 MAD [All Group Series]; Double - Standard Room 580.0 MAD [All Group Series]; Twin - Standard Room 580.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -8181,18 +6524,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Double Rooom 1102.5 MAD [All Group Series]; Twin Room 1102.5 MAD [All Group Series]; Single Room 787.5 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double Rooom",
-              "score": 73.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -8266,13 +6598,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Double - Superior 957.0 MAD [FIT]; Twin - Superior 957.0 MAD [FIT]; Single - Superior 814.5 MAD [FIT]; (no PC) 16.5 MAD [FIT]; Single - Deluxe 864.5 MAD [FIT]; Double - Deluxe 1007.0 MAD [FIT]; Twin - Deluxe 1007.0 MAD [FIT]; Single Pool View 914.5 MAD [FIT]; Double Pool View 1057.0 MAD [FIT]; Twin Pool View 1057.0 MAD [FIT]; Double - Superior 1212.5 MAD [FIT]; Twin - Superior 1212.5 MAD [FIT]; Single - Superior 1047.5 MAD [FIT]; Triple - Superior 1546.0 MAD [FIT]; Single - Deluxe 1112.5 MAD [FIT]; Double - Deluxe 1227.5 MAD [FIT]; Twin - Deluxe 1227.5 MAD [FIT]; Triple - Deluxe 1629.0 MAD [FIT]; Single Pool View 1178.75 MAD [FIT]; Double Pool View 1345.0 MAD [FIT]; Twin Pool View 1345.0 MAD [FIT]; Triple Pool View 1715.0 MAD [FIT]; Leader Room Single - Standard 500.0 MAD [FIT]; Twin Family Room 1307.5 MAD [FIT]; Twin Room (Family) 1307.5 MAD [FIT]; Twin - Standard Room 800.0 MAD [All Group Series]; Single - Standard Room 690.0 MAD [All Group Series]; Double - Standard Room 800.0 MAD [All Group Series]; Triple - Standard Room 1200.0 MAD [All Group Series]; Leader Room Single - Standard 690.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; (no PC) 1800.0 MAD [All Group Series]; Twin - Standard Room 913.0 MAD [All Group Series]; Single - Standard Room 776.5 MAD [All Group Series]; Double - Standard Room 913.0 MAD [All Group Series]; Triple - Standard Room 1369.5 MAD [All Group Series]; Leader Room Single - Standard 350.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Twin - Standard Room 880.0 MAD [All Group Series]; Single - Standard Room 759.0 MAD [All Group Series]; Double - Standard Room 880.0 MAD [All Group Series]; Triple - Standard Room 1320.0 MAD [All Group Series]; Leader Room Single - Standard 759.0 MAD [All Group Series]; (no PC) 1980.0 MAD [All Group Series]; Double - Superior 924.0 MAD [All Group Series]; Twin - Superior 924.0 MAD [All Group Series]; Single - Superior 798.0 MAD [All Group Series]; Triple - Superior 1386.0 MAD [All Group Series]; Single - Deluxe 850.5 MAD [All Group Series]; Double - Deluxe 976.5 MAD [All Group Series]; Twin - Deluxe 976.5 MAD [All Group Series]; Triple - Deluxe 1438.5 MAD [All Group Series]; Single Pool View 903.0 MAD [All Group Series]; Double Pool View 1029.0 MAD [All Group Series]; Twin Pool View 1029.0 MAD [All Group Series]; Triple Pool View 1491.0 MAD [All Group Series]; Leader Room Single - Standard 400.0 MAD [All Group Series]; Twin Room (Family) 920.303 MAD [All Group Series]; Double - Superior 970.0 MAD [All Group Series]; Twin - Superior 970.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -8482,28 +6808,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room - Standard",
-              "value": "Double Room",
-              "score": 92.0
-            },
-            {
-              "from": "Leader Single Room - Standard",
-              "value": "Leader Single Room",
-              "score": 92.0
-            },
-            {
-              "from": "Single Room - Standard",
-              "value": "Single Room",
-              "score": 92.0
-            },
-            {
-              "from": "Twin Room - Standard",
-              "value": "Twin Room",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -8608,28 +6913,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Sawadee - 2nd Leader Room 511.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 511.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Double - Standard Room 612.0 MAD [FIT]; Twin - Standard Room 612.0 MAD [FIT]; Double for Single Use 511.0 MAD [FIT]; Single - Standard Room 511.0 MAD [FIT]; Twin - Standard Room 422.0 MAD [All Group Series]; Single - Standard Room 351.0 MAD [All Group Series]; Double - Standard Room 422.0 MAD [All Group Series]; Triple - Standard Room 633.0 MAD [All Group Series]; Double for Single Use 351.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 462.0 MAD [All Group Series]; Twin - Standard Room 462.0 MAD [All Group Series]; Double for Single Use 462.0 MAD [All Group Series]; Single - Standard Room 462.0 MAD [All Group Series]; Double - Standard Room 612.0 MAD [All Group Series]; Twin - Standard Room 612.0 MAD [All Group Series]; Double for Single Use 511.0 MAD [All Group Series]; Single - Standard Room 511.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -8785,28 +7069,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 616.0 MAD [All Group Series]; Single - Standard Room 408.0 MAD [All Group Series]; Double - Standard Room 616.0 MAD [All Group Series]; Double for Single Use 408.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Single - Standard Room 330.0 MAD [All Group Series]; Double - Standard Room 420.0 MAD [All Group Series]; Twin - Standard Room 420.0 MAD [All Group Series]; Double for Single Use 330.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -8903,28 +7166,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 388.0 MAD [All Group Series]; Single - Standard Room 314.0 MAD [All Group Series]; Double - Standard Room 388.0 MAD [All Group Series]; Double for Single Use 314.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 314.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -9012,28 +7254,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 633.0 MAD [All Group Series]; Single - Standard Room 516.0 MAD [All Group Series]; Double - Standard Room 633.0 MAD [All Group Series]; Triple - Standard Room 904.0 MAD [All Group Series]; Quad - Standard Room 1176.0 MAD [All Group Series]; Double for Single Use 516.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 11 516.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 50 0.0 MAD [All Group Series]; Double - Standard Room 613.0 MAD [All Group Series]; Twin - Standard Room 613.0 MAD [All Group Series]; Single - Standard Room 516.5 MAD [All Group Series]; Triple - Standard Room 876.0 MAD [All Group Series]; Quad - Standard Room 1139.0 MAD [All Group Series]; Leader Room Single - Standard 516.5 MAD [All Group Series]; Single - Standard Room 540.5 MAD [All Group Series]; Double - Standard Room 650.0 MAD [All Group Series]; Twin - Standard Room 650.0 MAD [All Group Series]; Triple - Standard Room 930.0 MAD [All Group Series]; Quad - Standard Room 1207.45 MAD [All Group Series]; Twin Family Room 694.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 516.5 MAD [All Group Series]; Sawadee - 2nd Leader Room 540.5 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Family Room",
-              "score": 61.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -9203,23 +7424,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Room Single - Standard (Less than 6 rooms)",
-              "value": "Leader Room Single (Less than 6 Rooms)",
-              "score": 94.0
-            },
-            {
-              "from": "Leader Room Single - Standard (More than 6 rooms)",
-              "value": "Leader Room Single (More than 6 Rooms)",
-              "score": 94.0
-            },
-            {
-              "from": "Triple - Standard Room",
-              "value": "Triple- Standard Room",
-              "score": 100.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -9346,23 +7551,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Double - Standard Room ZMSH 350.0 MAD [All Group Series]; Single - Standard Room (FIT) 280.0 MAD [All Group Series]; Double - Standard Room (FIT) 350.0 MAD [All Group Series]; Double for Single Use (FIT) 310.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room (FIT) 370.0 MAD [All Group Series]; Double for Single Use (FIT) 325.0 MAD [All Group Series]; Single - Standard Room (FIT) 295.0 MAD [All Group Series]; Triple - Standard Room (FIT) 530.0 MAD [All Group Series]; Leader Room Twin - Standard (FIT) 0.0 MAD [All Group Series]; Double - Standard Room ZMSH 360.0 MAD [All Group Series]; Single - Standard Room ZMSH 290.0 MAD [All Group Series]; Leader Room Single - Standard Room ZMSH 0.0 MAD [All Group Series]; Triple - Standard Room ZMSH 520.0 MAD [All Group Series]; Twin - Standard Room (FIT) 370.0 MAD [All Group Series]; Twin - Standard Room ZMSH 360.0 MAD [All Group Series]; Double for  Single Use ZMSH 310.0 MAD [All Group Series]; Double - Standard Room ZMSH 370.0 MAD [All Group Series]; Twin - Standard Room ZMSH 370.0 MAD [All Group Series]; Double for  Single Use ZMSH 325.0 MAD [All Group Series]; Single - Standard Room ZMSH 295.0 MAD [All Group Series]; Triple - Standard Room ZMSH 530.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 290.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 295.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room ZMSH",
-              "score": 46.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room ZMSH",
-              "score": 46.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -9537,13 +7726,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader - Single Standard Room",
-              "value": "Leader Room Single - Standard",
-              "score": 99.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -9632,33 +7815,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 500.0 MAD [All Group Series]; Single - Standard Room 400.0 MAD [All Group Series]; Double - Standard Room 500.0 MAD [All Group Series]; Triple - Standard Room 750.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin Room (Family) 500.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 400.0 MAD [All Group Series]; Twin - Standard Room 500.0 MAD [FIT]; Single - Standard Room 400.0 MAD [FIT]; Double - Standard Room 500.0 MAD [FIT]; Triple - Standard Room 750.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Twin Room (Family) 500.0 MAD [FIT]; Sawadee - 2nd Leader Room 400.0 MAD [FIT]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Standard - Double Room",
-              "value": "Double - Standard Room",
-              "score": 60.0
-            },
-            {
-              "from": "Standard - Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Standard - Triple Room",
-              "value": "Triple - Standard Room",
-              "score": 60.0
-            },
-            {
-              "from": "Standard - Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 65.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -9798,28 +7955,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 270.0 MAD [All Group Series]; Single - Standard Room 205.0 MAD [All Group Series]; Double - Standard Room 270.0 MAD [All Group Series]; Triple - Standard Room 400.0 MAD [All Group Series]; Double for Single Use 205.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 280.0 MAD [All Group Series]; Twin - Standard Room 280.0 MAD [All Group Series]; Single - Standard Room 250.0 MAD [All Group Series]; Triple - Standard Room 450.0 MAD [All Group Series]; Quad - Standard Room 550.0 MAD [All Group Series]; Twin Room (Family) 284.7 MAD [All Group Series]; Double for Single Use 230.0 MAD [All Group Series]; Single - Standard Room 230.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 250.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 230.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room (Family)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -9954,38 +8090,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double - Standard Room",
-              "value": "Double - Standard Room (FIT)",
-              "score": 92.0
-            },
-            {
-              "from": "Double for Single Use",
-              "value": "Double for Single Use (FIT)",
-              "score": 92.0
-            },
-            {
-              "from": "Leader Room Single - Standard",
-              "value": "Leader Room Single - Standard (FIT)",
-              "score": 92.0
-            },
-            {
-              "from": "Single - Standard Room",
-              "value": "Single - Standard Room (FIT)",
-              "score": 92.0
-            },
-            {
-              "from": "Triple - Standard Room",
-              "value": "Triple - Standard Room (FIT)",
-              "score": 92.0
-            },
-            {
-              "from": "Twin - Standard Rom",
-              "value": "Twin - Standard Room (FIT)",
-              "score": 67.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -10086,13 +8191,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Room Single - Standard",
-              "value": "Leader Single - Standard Room",
-              "score": 99.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -10211,13 +8310,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Unit (Max 17, Non-Banded) 200.0 MAD [All Group Series]; Per Unit (Max 8, Non-Banded) 200.0 MAD [All Group Series]; Per Unit (Max 14, Non-Banded) 300.0 MAD [All Group Series]; Per Unit (Max 15, Non-Banded) 350.0 MAD [All Group Series]; Per Unit (Max 17, Non-Banded) 400.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 1...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -10293,13 +8386,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Unit (Max 03, Non-Banded) 70.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -10347,7 +8434,7 @@ window.ISSUE_DATA = {
             "SGA XMPE"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P8; P9",
+          "also": "Also listed in P9",
           "fields": {
             "TM package": "Classic Sahara Crossing",
             "Prod exists": "Yes",
@@ -10357,36 +8444,15 @@ window.ISSUE_DATA = {
             "ST PCs": "City Tax; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Twin - Twin Room",
             "ST PCs missing on Prod": "City Tax; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Twin - Twin Room",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
             "ST prices": "Standard - Double Room 1560 MAD [FIT] 2026-27 High; Twin - Twin Room 1560 MAD [FIT] 2026-27 High; Standard - Single Room 1130 MAD [FIT] 2026-27 High; Standard - Leader Single Room 0 MAD [FIT] 2026-27 High; City Tax 16.5 MAD [FIT] 2026-27 High; Standard - Double Room 1500 MAD [FIT] 2026-27 Low; Twin - Twin Room 1500 MAD [FIT] 2026-27 Low; Standard - Single Room 1100 MAD [FIT] 2026-27 Low; Standard - Leader Single Room 0 MAD [FIT] 2026-27 Low; City Tax 16.5 MAD [FIT] 2026-27 Low; Standard - Double Room 3160 MAD [FIT] 2026-27 New Year; Twin - Twin Room 3160 MAD [FIT] 2026-27 New Year; Standard - Single Room 1930 MAD [FIT] 2026-27 New Year; Standard - Leader Single Room 0 MAD [FIT] 2026-27 New Year; City Tax 16.5 MAD [FIT] 2026-27 New Year; Standard - Double Room 1360 MAD [FIT] 2026 High; Twin - Twin Room 1360 MAD [FIT] 2026 High; Standard - Single Room 1030 MAD [FIT] 2026 High; Standard - Leader Single Room 0 MAD [FIT] 2026 High; City Tax 16.5 MAD [FIT] 2026 High",
             "ST price dates": "01/11/2026 - 30/12/2026 \n01/01/2027 - 14/06/2027\n01/09/2027 - 31/10/2027; 1/10/2026 - 31/10/2026; 15/06/2027 - 31/08/2027; 31/12/2026 - 31/12/2026",
-            "Prod PCs priced": "Twin - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 970.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Triple - Standard Room 1790.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1030.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Triple - Standard Room 1910.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 950.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1000.0 MAD [All Group Series]; Triple - Standard Room 1740.0 MAD [All Group Series]; Triple - Standard Room 1885.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1050.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1400.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1400.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1020.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1340.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1340.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1850.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 3000.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 3000.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1930.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 3160.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 3160.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1130.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1560.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1560.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1100.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P8; P9"
+            "Prod PCs priced": "Single - Standard Room (Min 11 pax) 1312.5 MAD [FIT]; Double - Standard Room (Min 11 pax) 1750.0 MAD [FIT]; Twin - Standard Room (Min 11 pax) 1750.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Single - Standard Room (Min 11 pax) 1275.0 MAD [FIT]; Double - Standard Room (Min 11 pax) 1675.0 MAD [FIT]; Twin - Standard Room (Min 11 pax) 1675.0 MAD [FIT]; Single - Standard Room (Min 11 pax) 2312.5 MAD [FIT]; Double - Standard Room (Min 11 pax) 3750.0 MAD [FIT]; Twin - Standard Room (Min 11 pax) 3750.0 MAD [FIT]; Single Room - Standard (Max 10 pax) 2412.5 MAD [FIT]; Double - Standard Room (Max 10 pax) 3950.0 MAD [FIT]; Twin - Standard Room (Max 10 pax) 3950.0 MAD [FIT]; Single Room - Standard (Max 10 pax) 1412.5 MAD [FIT]; Double - Standard Room (Max 10 pax) 1950.0 MAD [FIT]; Twin - Standard Room (Max 10 pax) 1950.0 MAD [FIT]; (no PC) 16.5 MAD [FIT]; Single Room - Standard (Max 10 pax) 1375.0 MAD [FIT]; Double - Standard Room (Max 10 pax) 1875.0 MAD [FIT]; Twin - Standard Room (Max 10 pax) 1875.0 MAD [FIT]; Twin - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 970.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Triple - Standard Room 1790.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1030.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Triple - Standard Room 1910.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1050.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1400.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1400.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1020.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1340.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1340.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1850.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 3000.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 3000.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1930.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 3160.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 3160.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1130.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1560.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1560.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1100.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]",
+            "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Standard - Double Room",
-              "value": "Double - Standard Room (Max",
-              "score": 75.0
-            },
-            {
-              "from": "Standard - Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 60.0
-            },
-            {
-              "from": "Standard - Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Twin - Twin Room",
-              "value": "Twin - Standard Room (Max",
-              "score": 51.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -10423,6 +8489,106 @@ window.ISSUE_DATA = {
               "pc": "Twin - Twin Room",
               "st": "1560 MAD [FIT] 2026-27 High; 1500 MAD [FIT] 2026-27 Low; 3160 MAD [FIT] 2026-27 New Year; 1360 MAD [FIT] 2026 High",
               "prod": "—"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Min 11 pax) 1312.5 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Min 11 pax) 1750.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Min 11 pax) 1750.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard 0.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Min 11 pax) 1275.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Min 11 pax) 1675.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Min 11 pax) 1675.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Min 11 pax) 2312.5 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Min 11 pax) 3750.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Min 11 pax) 3750.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single Room - Standard (Max 10 pax) 2412.5 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Max 10 pax) 3950.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Max 10 pax) 3950.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single Room - Standard (Max 10 pax) 1412.5 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Max 10 pax) 1950.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Max 10 pax) 1950.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 16.5 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single Room - Standard (Max 10 pax) 1375.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Max 10 pax) 1875.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Max 10 pax) 1875.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
@@ -10473,46 +8639,6 @@ window.ISSUE_DATA = {
               "pc": "(Prod)",
               "st": "—",
               "prod": "Triple - Standard Room 1910.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Double - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Twin - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Single - Standard Room (Min 11 pax) 950.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Double - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Twin - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Single - Standard Room (Min 11 pax) 1000.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Triple - Standard Room 1740.0 MAD [All Group Series]"
-            },
-            {
-              "pc": "(Prod)",
-              "st": "—",
-              "prod": "Triple - Standard Room 1885.0 MAD [All Group Series]"
             },
             {
               "pc": "(Prod)",
@@ -10647,28 +8773,12 @@ window.ISSUE_DATA = {
             "Package PCs": "Double Room; Leader Single Room; Single Room; Twin Room",
             "ST PCs missing on Prod": "Double Room; Leader Single Room; Single Room; Twin Room",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Twin - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 970.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Leader Room Single - Standard 970.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1030.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Leader Room Single - Standard 1030.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1000.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 950.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1010.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1320.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 2960.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1830.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 3100.0 MAD [All Group Series]; Single - Standard Room (Max 10 pax) 1900.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 3100.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1320.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 2960.0 MAD [All Group Series]; Single - Standard Room (Max 10 pax) 1080.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1460.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1460.0 MAD [All Group Series]; Single - Standard Room (Max 10 pax) 1100.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]"
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "(no PC) 16.5 MAD [FIT]; Double - Standard Room (Min 11 pax) 1700.0 MAD [FIT]; Single - Standard Room (Min 11 pax) 1287.5 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Twin - Standard Room (Min 11 pax) 1700.0 MAD [FIT]; Single - Standard Room (Max 10 pax) 1375.0 MAD [FIT]; Double - Standard Room (Max 10 pax) 1875.0 MAD [FIT]; Twin - Standard Room (Max 10 pax) 1875.0 MAD [FIT]; Single - Standard Room (Min 11 pax) 1262.5 MAD [FIT]; Double - Standard Room (Min 11 pax) 1650.0 MAD [FIT]; Twin - Standard Room (Min 11 pax) 1650.0 MAD [FIT]; Single - Standard Room (Max 10 pax) 1350.0 MAD [FIT]; Double - Standard Room (Max 10 pax) 1825.0 MAD [FIT]; Twin - Standard Room (Max 10 pax) 1825.0 MAD [FIT]; Double - Standard Room (Min 11 pax) 3700.0 MAD [FIT]; Single - Standard Room (Min 11 pax) 2287.5 MAD [FIT]; Double - Standard Room (Max 10 pax) 3875.0 MAD [FIT]; Single - Standard Room (Max 10 pax) 2375.0 MAD [FIT]; Twin - Standard Room (Max 10 pax) 3875.0 MAD [FIT]; Twin - Standard Room (Min 11 pax) 3700.0 MAD [FIT]; Twin - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 970.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Leader Room Single - Standard 970.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1030.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Leader Room Single - Standard 1030.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1000.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 950.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1010.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1320.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 2960.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1830.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 3100.0 MAD [All Group Series]; Single - Standard Room (Max 10 pax) 1900.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 3100.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1320.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 2960.0 MAD [All Group Series]; Single - Standard Room (Max 10 pax) 1080.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1460.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1460.0 MAD [All Group Series]; Single - Standard Room (Max 10 pax) 1100.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room (Max",
-              "score": 46.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room (Max",
-              "score": 46.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -10681,6 +8791,106 @@ window.ISSUE_DATA = {
           "prodId": "a1HVk000000aBoRMAU",
           "existingPcs": [],
           "priceCompare": [
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 16.5 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Min 11 pax) 1700.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Min 11 pax) 1287.5 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Leader Room Single - Standard 0.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Min 11 pax) 1700.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Max 10 pax) 1375.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Max 10 pax) 1875.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Max 10 pax) 1875.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Min 11 pax) 1262.5 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Min 11 pax) 1650.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Min 11 pax) 1650.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Max 10 pax) 1350.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Max 10 pax) 1825.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Max 10 pax) 1825.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Min 11 pax) 3700.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Min 11 pax) 2287.5 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Double - Standard Room (Max 10 pax) 3875.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Single - Standard Room (Max 10 pax) 2375.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Max 10 pax) 3875.0 MAD [FIT]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "Twin - Standard Room (Min 11 pax) 3700.0 MAD [FIT]"
+            },
             {
               "pc": "(Prod)",
               "st": "—",
@@ -10883,28 +9093,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Standard - Double Room",
-              "value": "Standard - Double Room (FIT)",
-              "score": 92.0
-            },
-            {
-              "from": "Standard - Leader Single Room",
-              "value": "Standard - Leader Single Room (FIT)",
-              "score": 92.0
-            },
-            {
-              "from": "Standard - Single Room",
-              "value": "Standard - Single Room (FIT)",
-              "score": 92.0
-            },
-            {
-              "from": "Standard - Twin Room",
-              "value": "Standard - Twin Room (FIT)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -10980,28 +9169,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 537.5 MAD [FIT]; Single - Standard Room 437.5 MAD [FIT]; Double - Standard Room 537.5 MAD [FIT]; Triple - Standard Room 787.5 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Leader Room Twin- Standard 0.0 MAD [FIT]; Twin Family Room 539.0 MAD [FIT]; Twin - Standard Room 430.0 MAD [All Group Series]; Single - Standard Room 350.0 MAD [All Group Series]; Double - Standard Room 430.0 MAD [All Group Series]; Triple - Standard Room 650.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin- Standard 0.0 MAD [All Group Series]; Twin Family Room 430.97 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Family Room",
-              "score": 61.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -11122,28 +9290,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 570.0 MAD [All Group Series]; Single - Standard Room 450.0 MAD [All Group Series]; Double - Standard Room 570.0 MAD [All Group Series]; Triple - Standard Room 850.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -11280,28 +9427,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Double - Standard Room 2750.0 MAD [All Group Series]; Twin - Standard Room 2750.0 MAD [All Group Series]; Single - Standard Room 2420.0 MAD [All Group Series]; Leader Single - Standard Room 2420.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single - Standard Room",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -11376,13 +9502,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Leader - Standard",
-              "value": "Leader Single - Standard Room",
-              "score": 99.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -11616,13 +9736,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -11808,28 +9922,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room (Family)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -11945,28 +10038,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 330.0 MAD [All Group Series]; Single - Standard Room 220.0 MAD [All Group Series]; Double - Standard Room 330.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Triple - Standard Room 440.0 MAD [All Group Series]; Quad - Standard Room 495.0 MAD [All Group Series]; Double for Single Use 220.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 220.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -12064,28 +10136,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 440.0 MAD [All Group Series]; Single - Standard Room 320.0 MAD [All Group Series]; Double - Standard Room 440.0 MAD [All Group Series]; Triple - Standard Room 660.0 MAD [All Group Series]; Quad - Standard Room 880.0 MAD [All Group Series]; Double for Single Use 400.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin Room (Family) 440.0 MAD [All Group Series]; Leader Room Twin- Standard 0.0 MAD [All Group Series]; Twin - Standard Room 460.0 MAD [All Group Series]; Single - Standard Room 340.0 MAD [All Group Series]; Double - Standard Room 460.0 MAD [All Group Series]; Triple - Standard Room 720.0 MAD [All Group Series]; Quad - Standard Room 960.0 MAD [All Group Series]; Double for Single Use 420.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 320.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room (Family)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -12220,33 +10271,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Standard - Single Room 750.0 MAD [FIT]; Standard - Double for Single Use 850.0 MAD [FIT]; Standard - Leader Single Room 750.0 MAD [FIT]; Standard - Double Room 950.0 MAD [FIT]; Standard - Twin Room 950.0 MAD [FIT]; (no PC) 15.0 MAD [FIT]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double - Standard Room",
-              "value": "Standard - Double Room",
-              "score": 60.0
-            },
-            {
-              "from": "Double for Single Use",
-              "value": "Standard - Double for Single Use",
-              "score": 92.0
-            },
-            {
-              "from": "Leader Room Single - Standard",
-              "value": "Standard - Single Room",
-              "score": 75.0
-            },
-            {
-              "from": "Single - Standard Room",
-              "value": "Standard - Leader Single Room",
-              "score": 75.0
-            },
-            {
-              "from": "Twin - Standard Room",
-              "value": "Standard - Twin Room",
-              "score": 65.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -12364,28 +10389,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Triple - Standard Room 562.5 MAD [FIT]; Twin - Standard Room 375.0 MAD [FIT]; Single - Standard Room 350.0 MAD [FIT]; Double - Standard Room 375.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Leader Room Twin - Standard 0.0 MAD [FIT]; Twin Room (Family) XMFK 360.5 MAD [FIT]; Twin Room (Family) XMFB 425.0 MAD [FIT]; Triple - Standard Room 450.0 MAD [All Group Series]; Twin - Standard Room 300.0 MAD [All Group Series]; Single - Standard Room 280.0 MAD [All Group Series]; Double - Standard Room 300.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Leader Room Twin - Standard 0.0 MAD [All Group Series]; Twin Room (Family) XMFK 288.43 MAD [All Group Series]; Twin Room (Family) XMFB 239.99 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room (Family) XMFB",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -12501,28 +10505,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 416.0 MAD [All Group Series]; Single - Standard Room 210.0 MAD [All Group Series]; Double - Standard Room 416.0 MAD [All Group Series]; Double for Single Use 210.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -12598,28 +10581,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 250.0 MAD [All Group Series]; Single - Standard Room 160.0 MAD [All Group Series]; Double - Standard Room 250.0 MAD [All Group Series]; Double for Single Use 160.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 260.0 MAD [All Group Series]; Twin - Standard Room 260.0 MAD [All Group Series]; Single - Standard Room 170.0 MAD [All Group Series]; Double for Single Use 170.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -12715,28 +10677,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 500.0 MAD [All Group Series]; Single - Standard Room 330.0 MAD [All Group Series]; Double - Standard Room 500.0 MAD [All Group Series]; Leader Room Single - Standard 330.0 MAD [All Group Series]; Maos Method Multiple Crew Room (Pax Banded) Max 24 0.0 MAD [All Group Series]; Double - Standard Room 540.0 MAD [All Group Series]; Twin - Standard Room 540.0 MAD [All Group Series]; Single - Standard Room 355.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 595.0 MAD [All Group Series]; Twin - Standard Room 595.0 MAD [All Group Series]; Single - Standard Room 390.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -12847,28 +10788,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Leader Single Tent 0.0 MAD [All Group Series]; Twin - Tent 1500.0 MAD [All Group Series]; Double - Tent 1500.0 MAD [All Group Series]; Single - Tent 1500.0 MAD [All Group Series]; Double For Single - Tent 1500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single Tent",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Tent",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -12947,13 +10867,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -13011,13 +10925,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -13077,13 +10985,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P8; P9; P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -13149,13 +11051,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -13218,13 +11114,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -13303,13 +11193,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -13370,13 +11254,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -13449,13 +11327,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P8; P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -13537,13 +11409,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -13603,13 +11469,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P8; P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -13677,13 +11537,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P9; P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -13757,13 +11611,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -13841,13 +11689,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -13917,13 +11759,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -13999,13 +11835,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -14071,13 +11901,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -14191,13 +12015,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -14317,13 +12135,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -14384,43 +12196,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Double Room - Standard (Marina View) 1310.0 MAD [FIT]; Double Room - Standard (Marina View) 1500.0 MAD [FIT]; Double Room - Standard (Marina View) 1830.0 MAD [FIT]; Twin Room - Standard (Marina View) 1310.0 MAD [FIT]; Twin Room - Standard (Marina View) 1500.0 MAD [FIT]; Twin Room - Standard (Marina View) 1830.0 MAD [FIT]; Single Room - Standard (Marina View) 1180.0 MAD [FIT]; Single Room - Standard (Marina View) 1340.0 MAD [FIT]; Single Room - Standard (Marina View) 1640.0 MAD [FIT]; Leader Single Room - Standard (Marina View) 1180.0 MAD [FIT]; Leader Single Room - Standard (Marina View) 1340.0 MAD [FIT]; Leader Single Room - Standard (Marina View) 1640.0 MAD [FIT]; (no PC) 19.8 MAD [FIT]; Twin Room - Standard (Pool View) 1110.0 MAD [FIT]; Twin Room - Standard (Pool View) 1300.0 MAD [FIT]; Twin Room - Standard (Pool View) 1580.0 MAD [FIT]; Double Room - Standard (Pool View) 1110.0 MAD [FIT]; Double Room - Standard (Pool View) 1300.0 MAD [FIT]; Double Room - Standard (Pool View) 1580.0 MAD [FIT]; Single Room - Standard (Pool View) 980.0 MAD [FIT]; Single Room - Standard (Pool View) 1140.0 MAD [FIT]; Single Room - Standard (Pool View) 1390.0 MAD [FIT]; Leader Single Room - Standard (Pool View) 980.0 MAD [FIT]; Leader Single Room - Standard (Pool View) 1140.0 MAD [FIT]; Leader Single Room - Standard (Pool View) 1390.0 MAD [FIT]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double - Standard Room Marina View",
-              "value": "Double Room - Standard (Marina View)",
-              "score": 99.0
-            },
-            {
-              "from": "Double - Standard Room Pool View",
-              "value": "Double Room - Standard (Pool View)",
-              "score": 99.0
-            },
-            {
-              "from": "Leader Room Single - Standard",
-              "value": "Leader Single Room - Standard (Marina View)",
-              "score": 68.0
-            },
-            {
-              "from": "Single - Standard Room Marina View",
-              "value": "Single Room - Standard (Marina View)",
-              "score": 99.0
-            },
-            {
-              "from": "Single - Standard Room Pool View",
-              "value": "Single Room - Standard (Pool View)",
-              "score": 99.0
-            },
-            {
-              "from": "Twin - Standard Room Marina View",
-              "value": "Twin Room - Standard (Marina View)",
-              "score": 99.0
-            },
-            {
-              "from": "Twin - Standard Room Pool View",
-              "value": "Twin Room - Standard (Pool View)",
-              "score": 99.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -14609,28 +12385,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Deluxe Double 2310.83 MAD [FIT]; Deluxe Twin 2310.83 MAD [FIT]; Deluxe Single 2098.67 MAD [FIT]; Leader Roon Single 625.0 MAD [FIT]; Deluxe Double 1848.67 MAD [All Group Series]; Deluxe Twin 1848.67 MAD [All Group Series]; Deluxe Single 1678.94 MAD [All Group Series]; Leader Roon Single 500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Deluxe Double",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Roon Single",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Deluxe Single",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Deluxe Twin",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -14803,13 +12558,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Unit (Max 04, Non-Banded) 800.0 MAD [All Group Series]; Per Unit (Max 12, Non-Banded) 800.0 MAD [All Group Series]; Per Unit (Max 04, Non-Banded) 1000.0 MAD [All Group Series]; Per Unit (Max 12, Non-Banded) 1000.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 1...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -14880,13 +12629,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Vehicle (Banded) Max 7 1750.0 MAD [All Group Series]; Per Vehicle (Banded) Max 17 1950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 1950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 7 1950.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 2200.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -15004,13 +12747,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Vehicle (Banded) Max 8 7000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 8000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 9000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 7700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 9500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -15066,13 +12803,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 5463.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 6038.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 7475.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 5300.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 6000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 6500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -15133,13 +12864,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 24200.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 26400.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 28600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 25410.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 27720.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 30030.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -15201,13 +12926,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P9"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -15268,13 +12987,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Overnight Transport (PP) 370.0 MAD [All Group Series]; Overnight Transport Per Crew 370.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Overnight Transport",
-              "value": "Overnight Transport (PP)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -15333,13 +13046,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Unit (Max 03, Non-Banded) 50.0 MAD [All Group Series]; Per Unit (Max 03, Non-Banded) 60.0 MAD [All Group Series]; Per Unit (Max 03, Non-Banded) 70.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -15405,13 +13112,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Unit (Max 03, Non-Banded) 50.0 MAD [All Group Series]; Per Unit (Max 03, Non-Banded) 60.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -15472,28 +13173,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 370.0 MAD [All Group Series]; Single - Standard Room 269.0 MAD [All Group Series]; Double - Standard Room 370.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double - Standard Room 380.0 MAD [All Group Series]; Twin - Standard Room 380.0 MAD [All Group Series]; Single - Standard Room 380.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -15579,13 +13259,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Unit (Max 04, Non-Banded) 250.0 MAD [All Group Series]; Per Unit (Max 05, Non-Banded) 300.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -15646,28 +13320,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 600.0 MAD [All Group Series]; Single - Standard Room 300.0 MAD [All Group Series]; Double - Standard Room 600.0 MAD [All Group Series]; Double for Single Use 600.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -15743,13 +13396,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Vehicle (Banded) Max 4 1890.0 MAD [All Group Series]; Per Vehicle (Banded) Max 9 3780.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 5670.0 MAD [All Group Series]; Per Vehicle (Banded) Max 17 7560.0 MAD [All Group Series]; Per Vehicle (Banded) Max 19 9450.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -15805,28 +13452,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 452.0 MAD [All Group Series]; Single - Standard Room 330.0 MAD [All Group Series]; Double - Standard Room 452.0 MAD [All Group Series]; Triple - Standard Room 656.0 MAD [All Group Series]; Quad - Standard Room 839.0 MAD [All Group Series]; Double for Single Use 330.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -15912,13 +13538,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Vehicle (Banded) Max 8 1600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 2050.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 2280.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 1700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 2300.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 2900.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -15974,13 +13594,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Unit (Max 04, Non-Banded) 500.0 MAD [All Group Series]; Per Unit (Max 04, Non-Banded) 600.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -16041,13 +13655,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Vehicle (Banded) Max 8 10800.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 11664.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -16105,13 +13713,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P10"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group Per Day",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -16167,13 +13769,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Group - (Non- Banded) 3000.0 MAD [All Group Series]; Per Group - (Non- Banded) 3200.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group (Non-Banded)",
-              "value": "Per Group - (Non- Banded)",
-              "score": 100.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -16234,28 +13830,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Single - Tent (FIT) 250.0 MAD [All Group Series]; Double - Tent (FIT) 500.0 MAD [All Group Series]; Twin - Tent (FIT) 500.0 MAD [All Group Series]; Double for Single Use - Tent (FIT) 250.0 MAD [All Group Series]; Triple - Tent (FIT) 650.0 MAD [All Group Series]; Leader Single Tent (FIT) 0.0 MAD [All Group Series]; Single - Tent 300.0 MAD [All Group Series]; Double - Tent 500.0 MAD [All Group Series]; Twin - Tent 500.0 MAD [All Group Series]; Double for Single Use - Tent 300.0 MAD [All Group Series]; Triple - Tent 650.0 MAD [All Group Series]; Leader Single Tent 0.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 250.0 MAD [All Group Series]; Sawadee - 2nd Leader Room 300.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single Tent",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Tent",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Tent",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -16382,13 +13957,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Crew",
-              "value": "Dinner (Crew)",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -16451,7 +14020,7 @@ window.ISSUE_DATA = {
             "Prod exists": "Yes",
             "Prod Name": "Rabat to Tangier Private Transfer",
             "Prod Id": "a1HSo00000BiNDtMAN",
-            "Package PCs": "Per Unit",
+            "Package PCs": "Per Unit (Max 14); Per Unit (Max 17); Per Unit (Max 27); Per Unit (Max 8)",
             "ST PCs missing on Prod": "Per Unit",
             "Active price": "Yes",
             "Price kind": "Both",
@@ -16460,13 +14029,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -16480,9 +14043,24 @@ window.ISSUE_DATA = {
           "existingPcs": [],
           "priceCompare": [
             {
-              "pc": "Per Unit",
+              "pc": "Per Unit (Max 14)",
               "st": "—",
-              "prod": "(Max 8) 4400.0 MAD [All Group Series]; (Max 14) 5300.0 MAD [All Group Series]; (Max 17) 5800.0 MAD [All Group Series]; (Max 27) 7800.0 MAD [All Group Series]; (Max 8) 4400.0 MAD [FIT]; (Max 14) 5300.0 MAD [FIT]; (Max 17) 5800.0 MAD [FIT]; (Max 27) 7800.0 MAD [FIT]"
+              "prod": "5300.0 MAD [All Group Series]; 5300.0 MAD [FIT]"
+            },
+            {
+              "pc": "Per Unit (Max 17)",
+              "st": "—",
+              "prod": "5800.0 MAD [All Group Series]; 5800.0 MAD [FIT]"
+            },
+            {
+              "pc": "Per Unit (Max 27)",
+              "st": "—",
+              "prod": "7800.0 MAD [All Group Series]; 7800.0 MAD [FIT]"
+            },
+            {
+              "pc": "Per Unit (Max 8)",
+              "st": "—",
+              "prod": "4400.0 MAD [All Group Series]; 4400.0 MAD [FIT]"
             }
           ],
           "stPriceDates": "",
@@ -16491,7 +14069,7 @@ window.ISSUE_DATA = {
             "location": "",
             "businessUnit": "",
             "serviceType": "",
-            "priceCategory": "Per Unit",
+            "priceCategory": "Per Unit (Max 14); Per Unit (Max 17); Per Unit (Max 27); Per Unit (Max 8)",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -16499,7 +14077,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Rabat to Tangier Private Transfer",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P4::riad 48 & spa",
@@ -16522,28 +14108,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Double - Standard Room 1100.0 MAD [All Group Series]; Twin - Standard Room 1100.0 MAD [All Group Series]; Single - Standard Room 1100.0 MAD [All Group Series]; Double for Single Use 1100.0 MAD [All Group Series]; Leader Single - Standard Room 0.0 MAD [All Group Series]; Double - Standard Room 1150.0 MAD [FIT]; Twin - Standard Room 1150.0 MAD [FIT]; Single - Standard Room 1100.0 MAD [FIT]; Double for Single Use 1100.0 MAD [FIT]; Triple - Standard Room 1500.0 MAD [FIT]; Quad - Standard Room 1800.0 MAD [FIT]; Leader Single - Standard Room 0.0 MAD [FIT]; Double - Standard Room 1150.0 MAD [All Group Series]; Twin - Standard Room 1150.0 MAD [All Group Series]; Triple - Standard Room 1500.0 MAD [All Group Series]; Quad - Standard Room 1800.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Single - Standard Room",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -16674,28 +14239,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 1212.5 MAD [FIT]; Double - Standard Room 1212.5 MAD [FIT]; Single - Standard Room 1087.5 MAD [FIT]; Double for Single Use 1087.5 MAD [FIT]; Triple - Standard Room 1550.0 MAD [FIT]; Quad - Standard Room 2050.0 MAD [FIT]; Leader Room Single - Standard 0.0 MAD [FIT]; Twin - Standard Room 950.0 MAD [All Group Series]; Single - Standard Room 850.0 MAD [All Group Series]; Double - Standard Room 950.0 MAD [All Group Series]; Triple - Standard Room 1200.0 MAD [All Group Series]; Quad - Standard Room 1600.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin - Standard Room 990.0 MAD [All Group Series]; Double - Standard Room 990.0 MAD [All Group Series]; Single - Standard Room 880.0 MAD [All Group Series]; Double for Single Use 990.0 MAD [All Group Series]; Triple - Standard Room 1280.0 MAD [All Group Series]; Quad - Standard Room 1680.0 MAD [All Group Series]; Leader Room Single ( 3 Room Booked ) 459.0 MAD [All Group Series]; Leader Room Single ( 4 Room or more ) 0.0 MAD [All Group Series]; Twin - Standard Room 970.0 MAD [All Group Series]; Double - Standard Room 970.0 MAD [All Group Series]; Single - Standard Room 870.0 MAD [All Group Series]; Double for Single Use 870.0 MAD [All Group Series]; Triple - Standard Room 1240.0 MAD [All Group Series]; Quad - Standard Room 1640.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single (",
-              "score": 99.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -16914,28 +14458,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 710.0 MAD [All Group Series]; Single - Standard Room 625.0 MAD [All Group Series]; Double - Standard Room 650.0 MAD [All Group Series]; Triple - Standard Room 975.0 MAD [All Group Series]; Twin - Standard Room 950.0 MAD [All Group Series]; Single - Standard Room 900.0 MAD [All Group Series]; Double - Standard Room 900.0 MAD [All Group Series]; Triple - Standard Room 1100.0 MAD [All Group Series]; Leader Room Single - Standard 900.0 MAD [All Group Series]; Double - Standard Room 750.0 MAD [All Group Series]; Twin - Standard Room 750.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Double For Single 650.0 MAD [All Group Series]; Single - Standard Room 650.0 MAD [All Group Series]; Triple - Standard Room 1125.0 MAD [All Group Series]; Double - Standard Room 800.0 MAD [All Group Series]; Twin - Standard Room 800.0 MAD [All Group Series]; Double For Single 690.0 MAD [All Group Series]; Single - Standard Room 690.0 MAD [All Group Series]; Triple - Standard Room 1200.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -17093,53 +14616,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P5"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double - Suite Confort",
-              "value": "Double - Romantic Suite",
-              "score": 56.0
-            },
-            {
-              "from": "Double - Suite Panoramic",
-              "value": "Double - Romantic Suite",
-              "score": 55.0
-            },
-            {
-              "from": "Double - Suite Romantic",
-              "value": "Double - Romantic Suite",
-              "score": 99.0
-            },
-            {
-              "from": "Double For Single  - Suite Confort",
-              "value": "Double - Romantic Suite",
-              "score": 46.0
-            },
-            {
-              "from": "Double For Single  - Suite Panoramic",
-              "value": "Double - Romantic Suite",
-              "score": 45.0
-            },
-            {
-              "from": "Double For Single  - Suite Romantic",
-              "value": "Double - Romantic Suite",
-              "score": 83.0
-            },
-            {
-              "from": "Twin - Suite Confoort",
-              "value": "Twin - Romantic Suite",
-              "score": 54.0
-            },
-            {
-              "from": "Twin - Suite Panoramic",
-              "value": "Twin - Romantic Suite",
-              "score": 53.0
-            },
-            {
-              "from": "Twin - Suite Romantic",
-              "value": "Twin - Romantic Suite",
-              "score": 71.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -17264,23 +14741,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Standard - Double Room 950.0 MAD [All Group Series]; Standard - Twin Room 950.0 MAD [All Group Series]; Double for Single Use 850.0 MAD [All Group Series]; Standard - Single Room 850.0 MAD [All Group Series]; Standard - Triple Room 1200.0 MAD [All Group Series]; Standard - Quadruple Room 1600.0 MAD [All Group Series]; Leader Single Room 0.0 MAD [All Group Series]; Standard - Double Room 970.0 MAD [All Group Series]; Standard - Twin Room 970.0 MAD [All Group Series]; Double for Single Use 870.0 MAD [All Group Series]; Standard - Single Room 870.0 MAD [All Group Series]; Standard - Triple Room 1240.0 MAD [All Group Series]; Standard - Quadruple Room 1640.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Standard - Double Room",
-              "score": 92.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Single Room",
-              "score": 92.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Standard - Twin Room",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -17588,13 +15049,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Double - Superior Standard 2200.0 MAD [All Group Series]; Twin - Superior Standard 2200.0 MAD [All Group Series]; Single - Superior Standard 2200.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -17677,28 +15132,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Standard - Double Room",
-              "value": "Double - Standard Room (FIT)",
-              "score": 75.0
-            },
-            {
-              "from": "Standard - Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Standard - Twin Room",
-              "value": "Twin - Standard Room (FIT)",
-              "score": 75.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -17952,13 +15386,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P8"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader - Single Standard Room",
-              "value": "Leader Room Single - Standard",
-              "score": 99.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -18053,28 +15481,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P8; P9"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double - Tent",
-              "value": "Double - Tent (FIT)",
-              "score": 92.0
-            },
-            {
-              "from": "Single - Tent",
-              "value": "Single - Tent (FIT)",
-              "score": 92.0
-            },
-            {
-              "from": "Triple - Tent",
-              "value": "Triple - Tent (FIT)",
-              "score": 92.0
-            },
-            {
-              "from": "Twin - Tent",
-              "value": "Twin - Tent (FIT)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -18169,13 +15576,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Lunch 150.0 MAD [All Group Series]; Lunch (Crew) 150.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Crew",
-              "value": "Lunch (Crew)",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -18251,13 +15652,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Unit (Max 03, Non-Banded) 50.0 MAD [All Group Series]; Per Unit (Max 03, Non-Banded) 60.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -18320,13 +15715,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Vehicle (Banded) Max 7 1450.0 MAD [FIT]; Per Vehicle (Banded) Max 15 1600.0 MAD [FIT]; Per Vehicle (Banded) Max 16 1750.0 MAD [FIT]; Per Vehicle (Banded) Max 7 1450.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 1600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 1750.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -18390,13 +15779,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Crew 0.0 MAD [All Group Series]; Per Vehicle (Banded) Max 7 1450.0 MAD [All Group Series]; Per Vehicle (Banded) Max 15 1600.0 MAD [All Group Series]; Per Vehicle (Banded) Max 16 1750.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -18457,13 +15840,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Vehicle (Banded) Max 8 8800.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 9700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 10700.0 MAD [All Group Series]; Per Vehicle (Banded) Max 30 21000.0 MAD [All Group Series]; Per Vehicle (Banded) Max 8 13200.0 MAD [All Group Series]; Per Vehicle (Banded) Max 14 14800.0 MAD [All Group Series]; Per Vehicle (Banded) Max 18 16200.0 MAD [All Group Series]; Per Vehicle (Banded) Max 30 29500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Banded)",
-              "value": "Per Vehicle (Banded) Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -18519,13 +15896,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Per Unit (Max 03, Non-Banded) 60.0 MAD [All Group Series]; Per Unit (Max 03, Non-Banded) 70.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -18581,18 +15952,12 @@ window.ISSUE_DATA = {
             "Package PCs": "Double Room; Leader Room Single; Single Room; Twin Room",
             "ST PCs missing on Prod": "Leader Single Room",
             "Active price": "Yes",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only",
-            "Prod PCs priced": "Double Room 1200.0 MAD [All Group Series]; Twin Room 1200.0 MAD [All Group Series]; Single Room 1050.0 MAD [All Group Series]; Leader Room Single 500.0 MAD [All Group Series]; (no PC) 30.0 MAD [All Group Series]"
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour",
+            "Prod PCs priced": "Double Room 1500.0 MAD [FIT]; Twin Room 1500.0 MAD [FIT]; Single Room 1312.5 MAD [FIT]; Leader Room Single 625.0 MAD [FIT]; (no PC) 30.0 MAD [FIT]; Double Room 1200.0 MAD [All Group Series]; Twin Room 1200.0 MAD [All Group Series]; Single Room 1050.0 MAD [All Group Series]; Leader Room Single 500.0 MAD [All Group Series]; (no PC) 30.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -18608,22 +15973,27 @@ window.ISSUE_DATA = {
             {
               "pc": "Double Room",
               "st": "—",
-              "prod": "1200.0 MAD [All Group Series]"
+              "prod": "1500.0 MAD [FIT]; 1200.0 MAD [All Group Series]"
             },
             {
               "pc": "Leader Room Single",
               "st": "—",
-              "prod": "500.0 MAD [All Group Series]"
+              "prod": "625.0 MAD [FIT]; 500.0 MAD [All Group Series]"
             },
             {
               "pc": "Single Room",
               "st": "—",
-              "prod": "1050.0 MAD [All Group Series]"
+              "prod": "1312.5 MAD [FIT]; 1050.0 MAD [All Group Series]"
             },
             {
               "pc": "Twin Room",
               "st": "—",
-              "prod": "1200.0 MAD [All Group Series]"
+              "prod": "1500.0 MAD [FIT]; 1200.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "(Prod)",
+              "st": "—",
+              "prod": "(no PC) 30.0 MAD [FIT]"
             },
             {
               "pc": "(Prod)",
@@ -18668,28 +16038,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Single - Superior 1239.6 MAD [All Group Series]; Double for Single Use Superior 1239.6 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Twin - Superior 1279.2 MAD [All Group Series]; Double - Superior 1279.2 MAD [All Group Series]; Single - Superior 1439.6 MAD [All Group Series]; Double for Single Use Superior 1439.6 MAD [All Group Series]; Twin - Superior 1479.2 MAD [All Group Series]; Double - Superior 1479.2 MAD [All Group Series]; Twin - Superior 1419.91 MAD [All Group Series]; Double - Superior 1419.91 MAD [All Group Series]; Single - Superior 1375.96 MAD [All Group Series]; Double for Single Use Superior 1375.96 MAD [All Group Series]; Twin - Superior 1641.9 MAD [All Group Series]; Double - Superior 1641.9 MAD [All Group Series]; Single - Superior 1597.96 MAD [All Group Series]; Double for Single Use Superior 1597.96 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Superior",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Superior",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Superior",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -18825,28 +16174,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Single - Superior 1539.6 MAD [All Group Series]; Twin - Superior 1879.2 MAD [All Group Series]; Double - Superior 1879.2 MAD [All Group Series]; Double for Single Use 1539.6 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Single - Superior 1739.6 MAD [All Group Series]; Twin - Superior 2079.2 MAD [All Group Series]; Double - Superior 2079.2 MAD [All Group Series]; Double for Single Use 1739.6 MAD [All Group Series]; Double - Superior 1979.2 MAD [All Group Series]; Twin - Superior 1979.2 MAD [All Group Series]; Single - Superior 1589.6 MAD [All Group Series]; Double - Superior 2179.2 MAD [All Group Series]; Twin - Superior 2179.2 MAD [All Group Series]; Single - Superior 1789.6 MAD [All Group Series]; Double - Superior 2141.912 MAD [All Group Series]; Twin - Superior 2141.912 MAD [All Group Series]; Single - Superior 2041.96 MAD [All Group Series]; Double - Superior 2363.91 MAD [All Group Series]; Twin - Superior 2363.91 MAD [All Group Series]; Single - Superior 1958.96 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Superior",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Superior",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Superior",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -19003,28 +16331,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 570.0 MAD [All Group Series]; Single - Standard Room 460.0 MAD [All Group Series]; Double - Standard Room 570.0 MAD [All Group Series]; Triple - Standard Room 788.0 MAD [All Group Series]; Double for Single Use 570.0 MAD [All Group Series]; Leader Room Single - Standard 153.0 MAD [All Group Series]; Twin - Standard Room 620.0 MAD [All Group Series]; Single - Standard Room 500.0 MAD [All Group Series]; Double - Standard Room 620.0 MAD [All Group Series]; Triple - Standard Room 850.0 MAD [All Group Series]; Double for Single Use 500.0 MAD [All Group Series]; Leader Room Single - Standard 350.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -19136,13 +16443,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Non-Banded)",
-              "value": "Per Vehicle (Non Banded) Max",
-              "score": 83.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -19209,28 +16510,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P6"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double Room - Standard",
-              "score": 92.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Room Single",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room - Standard",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -19301,13 +16581,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room (FIT) 425.0 MAD [All Group Series]; Single - Standard Room (FIT) 350.0 MAD [All Group Series]; Double - Standard Room (FIT) 425.0 MAD [All Group Series]; Triple - Standard Room (FIT) 637.5 MAD [All Group Series]; Double for Single Use (FIT) 350.0 MAD [All Group Series]; Leader Room Single - Standard (FIT) 0.0 MAD [All Group Series]; Single - Standard Room (FIT) 365.0 MAD [All Group Series]; Double - Standard Room (FIT) 440.0 MAD [All Group Series]; Triple - Standard Room (FIT) 660.0 MAD [All Group Series]; Twin - Standard Room (FIT) 440.0 MAD [All Group Series]; Double for Single Use (FIT) 365.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard (FIT)",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -19413,28 +16687,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 377.0 MAD [All Group Series]; Single - Standard Room 377.0 MAD [All Group Series]; Double - Standard Room 377.0 MAD [All Group Series]; Double for Single Use 377.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -19510,28 +16763,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Single - Standard 550.0 MAD [All Group Series]; Double - Standard 550.0 MAD [All Group Series]; Twin - Standard 550.0 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Room Single",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -19602,28 +16834,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Single - Standard 500.0 MAD [All Group Series]; Double - Standard 500.0 MAD [All Group Series]; Twin - Standard 500.0 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Room Single",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -19695,28 +16906,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Twin - Standard Room 350.0 MAD [All Group Series]; Single - Standard Room 270.0 MAD [All Group Series]; Double - Standard Room 350.0 MAD [All Group Series]; Double for Single Use 270.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; Single - Standard Room 280.0 MAD [All Group Series]; Double for Single Use 280.0 MAD [All Group Series]; Double - Standard Room 349.5 MAD [All Group Series]; Twin - Standard Room 349.5 MAD [All Group Series]; Single - Standard Room 300.0 MAD [All Group Series]; Double for Single Use 300.0 MAD [All Group Series]; Double - Standard Room 369.0 MAD [All Group Series]; Twin - Standard Room 369.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard",
-              "score": 75.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -19833,28 +17023,7 @@ window.ISSUE_DATA = {
             "Prod PCs priced": "Double - Standard 500.0 MAD [All Group Series]; Twin - Standard 500.0 MAD [All Group Series]; Leader Room Single 0.0 MAD [All Group Series]; Single - Standard 500.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Room Single",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
           "prodSupplier": "",
@@ -19913,7 +17082,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "ST supplier does not match Prod. Pick the Prod account, keep ST, or No if a different / new account is needed.",
       "choice": "supplier",
-      "count": 7,
+      "count": 8,
       "issues": [
         {
           "id": "P5::2 ciels luxury boutique",
@@ -20281,6 +17450,60 @@ window.ISSUE_DATA = {
           ]
         },
         {
+          "id": "P5::palais houyam",
+          "service": "Palais Houyam",
+          "packages": [
+            "SGA XMPE"
+          ],
+          "action": "ST supplier does not match the Prod supplier. Confirm which account this service should use.",
+          "also": "",
+          "fields": {
+            "TM package": "SGA XMPE",
+            "ST supplier": "Riad Houyam",
+            "Prod supplier": "Palais Houyam",
+            "Match type": "Different account",
+            "Prod exists": "Yes",
+            "Prod Name": "Palais Houyam",
+            "Prod Id": "a1HVk00000240BZMAY",
+            "Active price": "Yes",
+            "Price kind": "Both",
+            "Gap": "OK — FIT and Group Tour"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "Riad Houyam",
+          "prodSupplier": "Palais Houyam",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "",
+          "prodAgreement": "",
+          "prodId": "a1HVk00000240BZMAY",
+          "existingPcs": [],
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Palais Houyam",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Houyam",
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+        },
+        {
           "id": "P5::riad chbanate",
           "service": "Riad Chbanate",
           "packages": [
@@ -20372,18 +17595,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Double For Single",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [
             {
               "from": "Single Room",
@@ -20712,13 +17924,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit (Max 0...)",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [
             {
               "from": "Per Vehicle (Banded)",
@@ -20759,13 +17965,12 @@ window.ISSUE_DATA = {
           "id": "P6::casablanca to rabat private transfer",
           "service": "Casablanca to Rabat Private Transfer",
           "packages": [
-            "Atlantic Imperials (Rev)",
             "C1 Blue North Gateway"
           ],
           "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P4",
           "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
+            "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Casablanca to Rabat Private Transfer",
             "Prod Id": "a1HSo00000BiMxlMAF",
@@ -20779,13 +17984,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [
             {
               "from": "Per Unit",
@@ -20827,8 +18026,8 @@ window.ISSUE_DATA = {
           "nariComments": [
             {
               "package": "Atlantic Imperials (Rev)",
-              "note": "NOT LISTED",
-              "prodName": "",
+              "note": "Use Prod",
+              "prodName": "Casablanca to Rabat Private Transfer",
               "prodPc": ""
             }
           ]
@@ -20857,13 +18056,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [
             {
               "from": "Per Unit",
@@ -20934,28 +18127,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single - Standard Max",
-              "score": 58.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Single - Standard Room",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin - Standard Room",
-              "score": 58.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [
             {
               "from": "Leader Single Room",
@@ -21070,7 +18242,7 @@ window.ISSUE_DATA = {
             "Sahara Crossing"
           ],
           "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
-          "also": "Also listed in P2",
+          "also": "",
           "fields": {
             "TM package": "Sahara Crossing",
             "Prod exists": "No",
@@ -21080,17 +18252,10 @@ window.ISSUE_DATA = {
             "PC issue": "Package PC not on Prod or ST: per day",
             "ST PCs missing on Prod": "Per Crew; Per Group",
             "Active price": "No",
-            "Gap": "Not on Prod",
-            "Also listed in": "Also listed in P2"
+            "Gap": "Not on Prod"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Group",
-              "value": "Per Group Per Day (Non-Banded)",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [
             {
               "from": "per day",
@@ -21402,7 +18567,7 @@ window.ISSUE_DATA = {
             "SGA XMPM"
           ],
           "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
-          "also": "Also listed in P2",
+          "also": "",
           "fields": {
             "TM package": "SGA XMPM",
             "Prod exists": "No",
@@ -21412,8 +18577,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package PC not on Prod or ST: Double Room",
             "ST PCs missing on Prod": "Signle - Leader Tent; Single - Tent; Twin - Tent",
             "Active price": "No",
-            "Gap": "Not on Prod",
-            "Also listed in": "Also listed in P2"
+            "Gap": "Not on Prod"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -21537,13 +18701,12 @@ window.ISSUE_DATA = {
           "id": "P6::rabat to tangier private transfer",
           "service": "Rabat to Tangier Private Transfer",
           "packages": [
-            "Atlantic Imperials (Rev)",
             "C1 Blue North Gateway"
           ],
           "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "Also listed in P4",
           "fields": {
-            "TM package": "Atlantic Imperials (Rev)",
+            "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Rabat to Tangier Private Transfer",
             "Prod Id": "a1HSo00000BiNDtMAN",
@@ -21557,13 +18720,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Unit",
-              "value": "Per Unit (Max",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [
             {
               "from": "Per Unit",
@@ -21601,7 +18758,15 @@ window.ISSUE_DATA = {
             "priceCurrency": "MAD",
             "supplierName": "",
             "comment": ""
-          }
+          },
+          "nariComments": [
+            {
+              "package": "Atlantic Imperials (Rev)",
+              "note": "Use Prod",
+              "prodName": "Rabat to Tangier Private Transfer",
+              "prodPc": ""
+            }
+          ]
         },
         {
           "id": "P6::wine tasting & lunch at val d'argan",
@@ -21610,7 +18775,7 @@ window.ISSUE_DATA = {
             "South Morocco with Agafay"
           ],
           "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
-          "also": "Also listed in P2",
+          "also": "",
           "fields": {
             "TM package": "South Morocco with Agafay",
             "Prod exists": "No",
@@ -21620,8 +18785,7 @@ window.ISSUE_DATA = {
             "PC issue": "Package PC not on Prod or ST: Per Person",
             "ST PCs missing on Prod": "Formule Dejeuner 1; Formule Dejeuner 2; Formule Dejeuner 3",
             "Active price": "No",
-            "Gap": "Not on Prod",
-            "Also listed in": "Also listed in P2"
+            "Gap": "Not on Prod"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -21690,13 +18854,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Per Vehicle (Non-Banded)",
-              "value": "Per Vehicle (Non Banded) Max",
-              "score": 83.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [
             {
               "from": "Per Vehicle (Non-Banded)",
@@ -21758,28 +18916,7 @@ window.ISSUE_DATA = {
             "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
-          "fuzzyPc": [
-            {
-              "from": "Double Room",
-              "value": "Double Room - Standard",
-              "score": 92.0
-            },
-            {
-              "from": "Leader Single Room",
-              "value": "Leader Room Single",
-              "score": 99.0
-            },
-            {
-              "from": "Single Room",
-              "value": "Leader Room Single",
-              "score": 58.0
-            },
-            {
-              "from": "Twin Room",
-              "value": "Twin Room - Standard",
-              "score": 92.0
-            }
-          ],
+          "fuzzyPc": [],
           "pcMap": [
             {
               "from": "Single Room",
@@ -21828,7 +18965,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "Prod has Group Tour pricing only. Yes = FIT is required (FIT prices will be added). No = Group Tour only is fine; no FIT will be added.",
       "choice": "yesno",
-      "count": 33,
+      "count": 31,
       "issues": [
         {
           "id": "P8::atlas film studio visit",
@@ -22596,66 +19733,6 @@ window.ISSUE_DATA = {
           "stCommentImport": "Service exisitng in Kaptio. Same rates for IG and FIT 2026/2027"
         },
         {
-          "id": "P8::hotel xaluca dades hb",
-          "service": "Hotel Xaluca Dades HB",
-          "packages": [
-            "Classic Sahara Crossing",
-            "Classic Sahara Crossing (Rev)",
-            "Sahara Crossing",
-            "Sahara crossing (Rev)",
-            "The Sahara Loop",
-            "SGA XMFP",
-            "SGA XMPE"
-          ],
-          "action": "Prod has Group Tour pricing only. Add FIT prices if FIT is required; otherwise this can stay.",
-          "also": "Also listed in P4; P9",
-          "fields": {
-            "TM package": "Classic Sahara Crossing",
-            "Prod exists": "Yes",
-            "Prod Name": "Hotel Xaluca Dades HB",
-            "Prod Id": "a1HVk000000aBmdMAE",
-            "Package PCs": "Twin Room",
-            "ST PCs": "City Tax; Standard - Double Room; Standard - Leader Single Room; Standard - Single Room; Twin - Twin Room",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
-            "Prod PCs priced": "Twin - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 970.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1240.0 MAD [All Group Series]; Triple - Standard Room 1790.0 MAD [All Group Series]; Leader Room Single - Standard 0.0 MAD [All Group Series]; (no PC) 16.5 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1030.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1360.0 MAD [All Group Series]; Triple - Standard Room 1910.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1200.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 950.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1300.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1000.0 MAD [All Group Series]; Triple - Standard Room 1740.0 MAD [All Group Series]; Triple - Standard Room 1885.0 MAD [All Group Series]; (no PC) 0.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1050.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1400.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1400.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1020.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 1340.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 1340.0 MAD [All Group Series]; Single - Standard Room (Min 11 pax) 1850.0 MAD [All Group Series]; Double - Standard Room (Min 11 pax) 3000.0 MAD [All Group Series]; Twin - Standard Room (Min 11 pax) 3000.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1930.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 3160.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 3160.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1130.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1560.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1560.0 MAD [All Group Series]; Single Room - Standard (Max 10 pax) 1100.0 MAD [All Group Series]; Double - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]; Twin - Standard Room (Max 10 pax) 1500.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P4; P9"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk000000aBmdMAE",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Hotel Xaluca Dades HB",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "The Service has been Already Loaded in Kaptio"
-          },
-          "stComments": [
-            "The Service has been Already Loaded in Kaptio"
-          ],
-          "stCommentImport": "The Service has been Already Loaded in Kaptio"
-        },
-        {
           "id": "P8::kasbah ait ben damiette-hb",
           "service": "Kasbah Ait Ben Damiette-HB",
           "packages": [
@@ -23206,59 +20283,6 @@ window.ISSUE_DATA = {
             "Service already exist"
           ],
           "stCommentImport": "Service already exist"
-        },
-        {
-          "id": "P8::palais houyam",
-          "service": "Palais Houyam",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "Prod has Group Tour pricing only. Add FIT prices if FIT is required; otherwise this can stay.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod exists": "Yes",
-            "Prod Name": "Palais Houyam",
-            "Prod Id": "a1HVk00000240BZMAY",
-            "Package PCs": "Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Twin Room",
-            "ST PCs": "Double for Single Use; Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Twin Room",
-            "Price kind": "Group Tour",
-            "Gap": "Group Tour only — no FIT",
-            "Prod PCs priced": "Standard - Twin Room 1100.0 MAD [All Group Series]; Standard - Double Room 1100.0 MAD [All Group Series]; Double for Single Use 880.0 MAD [All Group Series]; Standard - Single Room 880.0 MAD [All Group Series]; Leader Single Room 0.0 MAD [All Group Series]"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HVk00000240BZMAY",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Palais Houyam",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Leader Single Room; Standard - Double Room; Standard - Single Room; Standard - Twin Room",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
-          },
-          "stComments": [
-            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
-          ],
-          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
         },
         {
           "id": "P8::pastilla dinner fes",
@@ -24724,18 +21748,18 @@ window.ISSUE_DATA = {
             "Sahara crossing (Rev)"
           ],
           "action": "ST/template location does not match Prod location. Confirm which location the service should use.",
-          "also": "Also listed in P4; P8",
+          "also": "Also listed in P4",
           "fields": {
             "TM package": "Classic Sahara Crossing",
             "Prod exists": "Yes",
             "Prod Name": "Hotel Xaluca Dades HB",
             "Prod Id": "a1HVk000000aBmdMAE",
-            "Gap": "Group Tour only — no FIT",
+            "Gap": "OK — FIT and Group Tour",
             "Template location": "Dades Gorge",
             "Prod location": "Dades",
             "Template type": "Accommodation",
             "Prod record type": "Accommodation",
-            "Also listed in": "Also listed in P4; P8"
+            "Also listed in": "Also listed in P4"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -26345,7 +23369,7 @@ window.ISSUE_DATA = {
           "nariComments": [
             {
               "package": "Atlantic Imperials (Rev)",
-              "note": "CHECK",
+              "note": "Use Prod",
               "prodName": "Local Guide Casablanca - Half Day",
               "prodPc": "Per Group Per Day (Non-Banded)"
             }
@@ -27081,7 +24105,7 @@ window.ISSUE_DATA = {
           "nariComments": [
             {
               "package": "Atlantic Imperials (Rev)",
-              "note": "CHECK",
+              "note": "Use Prod",
               "prodName": "Local Guide Half Day Rabat",
               "prodPc": "Per Group Per Day (Non-Banded)"
             }
@@ -27140,7 +24164,7 @@ window.ISSUE_DATA = {
           "nariComments": [
             {
               "package": "Atlantic Imperials (Rev)",
-              "note": "CHECK",
+              "note": "Use Prod",
               "prodName": "Local Guide Half Day Tangier",
               "prodPc": ""
             }
@@ -28087,14 +25111,13 @@ window.ISSUE_DATA = {
             "The Imperial Table"
           ],
           "action": "Package price category is N/A (placeholder). Replace with a real PC before import.",
-          "also": "Also listed in P2",
+          "also": "",
           "fields": {
             "TM package": "The Imperial Table",
             "Prod exists": "No",
             "Package PCs": "N/A",
             "ST PCs": "Per Crew; Per Person",
             "Gap": "Not on Prod",
-            "Also listed in": "Also listed in P2",
             "In Service Template": "Yes"
           },
           "fuzzyService": [],
@@ -28140,7 +25163,7 @@ window.ISSUE_DATA = {
       "workbook": "agreements",
       "help": "No Prod agreement. Yes = create a new supplier agreement (fill the fields). No = not needed for this service.",
       "choice": "sa-create",
-      "count": 135,
+      "count": 131,
       "issues": [
         {
           "id": "SA1::1 hour surf lesson",
@@ -28385,13 +25408,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Afternoon Hammam Experience",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -28418,53 +25435,6 @@ window.ISSUE_DATA = {
             "price": "",
             "priceCurrency": "MAD",
             "supplierName": "",
-            "comment": ""
-          }
-        },
-        {
-          "id": "SA1::ain echchaouen xmkc",
-          "service": "Ain Echchaouen XMKC",
-          "packages": [
-            "SGA XMKC"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMKC",
-            "Prod supplier": "Dar Echchaouen",
-            "Prod exists": "Yes",
-            "Prod Name": "Ain Echchaouen XMKC",
-            "Prod Id": "a1HVk000000aBuWMAU",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Dar Echchaouen",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBuWMAU",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Ain Echchaouen XMKC",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Dar Echchaouen",
             "comment": ""
           }
         },
@@ -28573,13 +25543,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Atlas Film Studio visit",
-              "score": 63.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -28625,13 +25589,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Azawad Luxury Desert Camp",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -29106,18 +26064,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Tea Making Demonstration",
-              "score": 69.0
-            },
-            {
-              "from": "",
-              "value": "Bread Cooking Demonstration",
-              "score": 68.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -29161,18 +26108,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Camel Ride",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Sunrise Camel Ride - Under30",
-              "score": 83.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -29310,13 +26246,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Camp la Caravane",
-              "score": 99.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -29360,18 +26290,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Camp la Caravane",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Auberge la Caravane",
-              "score": 65.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -29415,13 +26334,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Camp Le Sand",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -29600,53 +26513,6 @@ window.ISSUE_DATA = {
               "prodPc": ""
             }
           ]
-        },
-        {
-          "id": "SA1::dar echchaouen",
-          "service": "Dar Echchaouen",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod supplier": "Dar Echchaouen",
-            "Prod exists": "Yes",
-            "Prod Name": "Dar Echchaouen",
-            "Prod Id": "a1HVk000000aBpHMAU",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Dar Echchaouen",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000000aBpHMAU",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Dar Echchaouen",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Dar Echchaouen",
-            "comment": ""
-          }
         },
         {
           "id": "SA1::dar tajine",
@@ -29848,13 +26714,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Cooking Class",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -29899,18 +26759,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Farewell Dinner",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Farewell Dinner at Restaurant",
-              "score": 68.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "DMC Morocco - Cash Paid Services",
@@ -30195,18 +27044,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Happy Valley",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Guided Hike",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -30250,13 +27088,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hassan Tower Visit",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -30302,18 +27134,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Home Cooked Lunch at Mr. Vannak's House - Booking",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Home Cooked Lunch - Chefchaouen - Solo Connect",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -30408,13 +27229,7 @@ window.ISSUE_DATA = {
             "Agreement source": "—",
             "Also listed in": "Also listed in SA3"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Belere Rabat BB",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "Hotel Belere",
@@ -30470,13 +27285,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Le Caspien",
-              "score": 99.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "Hotel Le Caspien",
@@ -30809,13 +27618,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Oscar",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -31000,13 +27803,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Xaluca Dades HB",
-              "score": 64.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -31051,13 +27848,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Yasmina",
-              "score": 87.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -31242,13 +28033,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Kasbah Itrane",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -31439,18 +28224,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Ksar Timnay",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Ksar Timnay Riad Mimouna",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "Ksar Timnay",
@@ -31783,13 +28557,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Casablanca - Half Day",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -31834,18 +28602,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Half Day Essaouira",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Local Guide Full Day Essaouira",
-              "score": 99.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -31894,18 +28651,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Half Day Marrakech",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Premium Local Guide Marrakech Half Day",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "DMC Morocco - Cash Paid Services",
@@ -31954,18 +28700,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Half Day Rabat",
-              "score": 99.0
-            },
-            {
-              "from": "",
-              "value": "Local Guide Todra",
-              "score": 82.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "DMC Morocco - Cash Paid Services",
@@ -32013,18 +28748,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Dades",
-              "score": 80.0
-            },
-            {
-              "from": "",
-              "value": "Local Guide Todra",
-              "score": 80.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -32069,13 +28793,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Local Guide Half Day Tangier",
-              "score": 99.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "DMC Morocco - Cash Paid Services",
@@ -32174,18 +28892,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Lunch at Tawesna Association",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Lunch in Tawesna XMHA",
-              "score": 75.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -32229,18 +28936,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Lunch en route to Pushkar from Jaipur",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Lunch en route Sulawesi",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -32670,13 +29366,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Mia Camp Sunset Aperitif",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "Mia Hotels",
@@ -32868,13 +29558,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Moulay Driss Couscous Lunch - Backroads",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "DMC Morocco - Cash Paid Services",
@@ -32956,60 +29640,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::palais houyam",
-          "service": "Palais Houyam",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "Also listed in SA3",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "ST supplier": "Riad Houyam",
-            "Prod supplier": "Riad Houyam",
-            "Prod exists": "Yes",
-            "Prod Name": "Palais Houyam",
-            "Prod Id": "a1HVk00000240BZMAY",
-            "SA template name": "Palais Houyam 2026-2027",
-            "Agreement": "None assigned",
-            "Agreement source": "None",
-            "Also listed in": "Also listed in SA3"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "Riad Houyam",
-          "prodSupplier": "Riad Houyam",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "Palais Houyam 2026-2027",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk00000240BZMAY",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Palais Houyam",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Riad Houyam",
-            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
-          },
-          "stComments": [
-            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
-          ],
-          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
-        },
-        {
           "id": "SA1::palmeras y dunas-hb",
           "service": "Palmeras y Dunas-HB",
           "packages": [
@@ -33026,18 +29656,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Palmeras Y Dunas Luxury Camp - HB",
-              "score": 83.0
-            },
-            {
-              "from": "",
-              "value": "Palmeras Y Dunas Luxury Camp",
-              "score": 83.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -33189,13 +29808,7 @@ window.ISSUE_DATA = {
             "Agreement source": "—",
             "Also listed in": "Also listed in SA3"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel Puerta Azul",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "Puerta Azul",
@@ -33252,13 +29865,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Riad 48 & Spa",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "Riad 48",
@@ -33306,13 +29913,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Riad Chakir Mogador",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -33448,18 +30049,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Riad Fes Ziyat & Spa HB",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Riad Fes Ziyat & Spa BB",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -33504,13 +30094,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Riad Jnane Imlil-Standard",
-              "score": 75.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "Riad Jnane Imlil",
@@ -33612,13 +30196,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Skoura Lodge - Standard",
-              "score": 75.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "SKOURA LODGE",
@@ -33861,13 +30439,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Erfoud Kasbah visit",
-              "score": 62.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -33911,13 +30483,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Vintgar Gorge Visit",
-              "score": 64.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -33962,13 +30528,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Train ticket Fes to Casa - 1st class",
-              "score": 75.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -34013,18 +30573,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Hotel to Train Station",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Casablanca Hotel to Train Station Private Transfer",
-              "score": 75.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -34069,18 +30618,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Train Station to Hotel",
-              "score": 92.0
-            },
-            {
-              "from": "",
-              "value": "Arrival Transfer Train Station to Hotel",
-              "score": 76.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -34125,13 +30663,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Tasting Trail Fes",
-              "score": 75.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
@@ -34251,53 +30783,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "SA1::villa akabar",
-          "service": "Villa Akabar",
-          "packages": [
-            "SGA XMPE"
-          ],
-          "action": "No usable Prod agreement on this package service. Create or assign a supplier agreement.",
-          "also": "",
-          "fields": {
-            "TM package": "SGA XMPE",
-            "Prod supplier": "Villa Akabar",
-            "Prod exists": "Yes",
-            "Prod Name": "Villa Akabar",
-            "Prod Id": "a1HVk000002gW2LMAU",
-            "Agreement": "None assigned",
-            "Agreement source": "None"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [],
-          "stSupplier": "",
-          "prodSupplier": "Villa Akabar",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "None assigned",
-          "prodId": "a1HVk000002gW2LMAU",
-          "existingPcs": [],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Villa Akabar",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "Villa Akabar",
-            "comment": ""
-          }
-        },
-        {
           "id": "SA1::wine tasting & lunch at château roslane",
           "service": "Wine Tasting & Lunch at Château Roslane",
           "packages": [
@@ -34312,13 +30797,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Wine Tasting",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "Château Roslane Boutique Hotel & Spa",
@@ -34368,13 +30847,7 @@ window.ISSUE_DATA = {
             "Agreement": "—",
             "Agreement source": "—"
           },
-          "fuzzyService": [
-            {
-              "from": "",
-              "value": "Wine Tasting",
-              "score": 92.0
-            }
-          ],
+          "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "LES DOMAINES DU VAL D'ARGAN",
@@ -37841,28 +34314,28 @@ window.ISSUE_DATA = {
             "Palais Houyam 2026-2027"
           ],
           "action": "SA template name does not match the Prod agreement. Align the template name or confirm the Prod agreement is the one to use.",
-          "also": "Also listed in SA1",
+          "also": "Also listed in SA5",
           "fields": {
-            "Prod supplier": "Riad Houyam",
+            "Prod supplier": "Palais Houyam",
             "Prod exists": "Yes",
             "Prod Id": "a1HVk00000240BZMAY",
             "SA template name": "Palais Houyam 2026-2027",
-            "Prod agreement": "None assigned",
-            "Name match": "No Prod agreement",
-            "Agreement source": "None",
-            "Also listed in": "Also listed in SA1"
+            "Prod agreement": "Jan 2026 - Dec 2027",
+            "Name match": "No",
+            "Agreement source": "Account-level",
+            "Also listed in": "Also listed in SA5"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
           "pcMap": [],
           "stSupplier": "",
-          "prodSupplier": "Riad Houyam",
+          "prodSupplier": "Palais Houyam",
           "stLocation": "",
           "prodLocation": "",
           "stType": "",
           "prodType": "",
           "saTemplateName": "Palais Houyam 2026-2027",
-          "prodAgreement": "None assigned",
+          "prodAgreement": "Jan 2026 - Dec 2027",
           "prodId": "a1HVk00000240BZMAY",
           "existingPcs": [],
           "priceCompare": [],
@@ -37878,7 +34351,7 @@ window.ISSUE_DATA = {
             "pricelist": "",
             "price": "",
             "priceCurrency": "MAD",
-            "supplierName": "Riad Houyam",
+            "supplierName": "Palais Houyam",
             "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
           },
           "stComments": [
@@ -39616,7 +36089,7 @@ window.ISSUE_DATA = {
       "workbook": "agreements",
       "help": "ST supplier does not match Prod. Pick the Prod account, keep ST, or No if a different / new supplier is needed.",
       "choice": "supplier",
-      "count": 7,
+      "count": 8,
       "issues": [
         {
           "id": "SA5::2 ciels luxury boutique",
@@ -39979,6 +36452,61 @@ window.ISSUE_DATA = {
           ]
         },
         {
+          "id": "SA5::palais houyam",
+          "service": "Palais Houyam",
+          "packages": [
+            "SGA XMPE"
+          ],
+          "action": "ST supplier does not match the Prod supplier. Confirm which account this service/agreement should use.",
+          "also": "Also listed in SA3",
+          "fields": {
+            "TM package": "SGA XMPE",
+            "ST supplier": "Riad Houyam",
+            "Prod supplier": "Palais Houyam",
+            "Match type": "Different account",
+            "Prod exists": "Yes",
+            "Prod Name": "Palais Houyam",
+            "Prod Id": "a1HVk00000240BZMAY",
+            "SA template name": "Palais Houyam 2026-2027",
+            "Agreement": "Jan 2026 - Dec 2027",
+            "Agreement source": "Account-level",
+            "Also listed in": "Also listed in SA3"
+          },
+          "fuzzyService": [],
+          "fuzzyPc": [],
+          "pcMap": [],
+          "stSupplier": "Riad Houyam",
+          "prodSupplier": "Palais Houyam",
+          "stLocation": "",
+          "prodLocation": "",
+          "stType": "",
+          "prodType": "",
+          "saTemplateName": "Palais Houyam 2026-2027",
+          "prodAgreement": "Jan 2026 - Dec 2027",
+          "prodId": "a1HVk00000240BZMAY",
+          "existingPcs": [],
+          "priceCompare": [],
+          "stPriceDates": "",
+          "formDefaults": {
+            "name": "Palais Houyam",
+            "location": "",
+            "businessUnit": "",
+            "serviceType": "",
+            "priceCategory": "",
+            "priceSeason": "",
+            "priceSeasonDates": "",
+            "pricelist": "",
+            "price": "",
+            "priceCurrency": "MAD",
+            "supplierName": "Riad Houyam",
+            "comment": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          },
+          "stComments": [
+            "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+          ],
+          "stCommentImport": "Service already in Kaptio with sames rates for IG and FIT for 2026/2027"
+        },
+        {
           "id": "SA5::riad chbanate",
           "service": "Riad Chbanate",
           "packages": [
@@ -40039,9 +36567,9 @@ window.ISSUE_DATA = {
       ]
     }
   ],
-  "total": 602,
+  "total": 583,
   "stCommentsSource": "Service Template Comment column (20 Nov workbook + Siham CSV extras). Notes only, not Yes/No.",
-  "stCommentsCards": 209,
+  "stCommentsCards": 193,
   "nariCommentsSource": "Nari Notes on Atlantic Imperials (Rev), The Blue North, and C1 Blue North Gateway. Notes only, not Yes/No.",
-  "nariCommentsCards": 41
+  "nariCommentsCards": 43
 };

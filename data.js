@@ -4369,7 +4369,7 @@ window.ISSUE_DATA = {
             "C1 Blue North Gateway"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P6",
+          "also": "",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -4380,8 +4380,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Unit (Max 8) 2200.0 MAD [FIT]; Per Unit (Max 14) 2650.0 MAD [FIT]; Per Unit (Max 17) 2900.0 MAD [FIT]; Per Unit (Max 27) 3900.0 MAD [FIT]; Per Unit (Max 8) 2200.0 MAD [All Group Series]; Per Unit (Max 14) 2650.0 MAD [All Group Series]; Per Unit (Max 17) 2900.0 MAD [All Group Series]; Per Unit (Max 27) 3900.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P6"
+            "Prod PCs priced": "Per Unit (Max 8) 2200.0 MAD [FIT]; Per Unit (Max 14) 2650.0 MAD [FIT]; Per Unit (Max 17) 2900.0 MAD [FIT]; Per Unit (Max 27) 3900.0 MAD [FIT]; Per Unit (Max 8) 2200.0 MAD [All Group Series]; Per Unit (Max 14) 2650.0 MAD [All Group Series]; Per Unit (Max 17) 2900.0 MAD [All Group Series]; Per Unit (Max 27) 3900.0 MAD [All Group Series]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -4512,19 +4511,18 @@ window.ISSUE_DATA = {
             "The Blue North"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P6",
+          "also": "",
           "fields": {
             "TM package": "C1 Blue North Gateway",
             "Prod exists": "Yes",
             "Prod Name": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
             "Prod Id": "a1HSo00000BiOczMAF",
-            "Package PCs": "Per Unit",
+            "Package PCs": "Per Unit (Max 14); Per Unit (Max 17); Per Unit (Max 27); Per Unit (Max 8)",
             "ST PCs missing on Prod": "Per Unit",
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Unit (Max 8) 2050.0 MAD [All Group Series]; Per Unit (Max 14) 2700.0 MAD [All Group Series]; Per Unit (Max 17) 3100.0 MAD [All Group Series]; Per Unit (Max 27) 6050.0 MAD [All Group Series]; Per Unit (Max 8) 2050.0 MAD [FIT]; Per Unit (Max 14) 2700.0 MAD [FIT]; Per Unit (Max 17) 3100.0 MAD [FIT]; Per Unit (Max 27) 6050.0 MAD [FIT]",
-            "Also listed in": "Also listed in P6"
+            "Prod PCs priced": "Per Unit (Max 8) 2050.0 MAD [All Group Series]; Per Unit (Max 14) 2700.0 MAD [All Group Series]; Per Unit (Max 17) 3100.0 MAD [All Group Series]; Per Unit (Max 27) 6050.0 MAD [All Group Series]; Per Unit (Max 8) 2050.0 MAD [FIT]; Per Unit (Max 14) 2700.0 MAD [FIT]; Per Unit (Max 17) 3100.0 MAD [FIT]; Per Unit (Max 27) 6050.0 MAD [FIT]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -4541,9 +4539,24 @@ window.ISSUE_DATA = {
           "existingPcs": [],
           "priceCompare": [
             {
-              "pc": "Per Unit",
+              "pc": "Per Unit (Max 14)",
               "st": "—",
-              "prod": "(Max 8) 2050.0 MAD [All Group Series]; (Max 14) 2700.0 MAD [All Group Series]; (Max 17) 3100.0 MAD [All Group Series]; (Max 27) 6050.0 MAD [All Group Series]; (Max 8) 2050.0 MAD [FIT]; (Max 14) 2700.0 MAD [FIT]; (Max 17) 3100.0 MAD [FIT]; (Max 27) 6050.0 MAD [FIT]"
+              "prod": "2700.0 MAD [All Group Series]; 2700.0 MAD [FIT]"
+            },
+            {
+              "pc": "Per Unit (Max 17)",
+              "st": "—",
+              "prod": "3100.0 MAD [All Group Series]; 3100.0 MAD [FIT]"
+            },
+            {
+              "pc": "Per Unit (Max 27)",
+              "st": "—",
+              "prod": "6050.0 MAD [All Group Series]; 6050.0 MAD [FIT]"
+            },
+            {
+              "pc": "Per Unit (Max 8)",
+              "st": "—",
+              "prod": "2050.0 MAD [All Group Series]; 2050.0 MAD [FIT]"
             }
           ],
           "stPriceDates": "",
@@ -4552,7 +4565,7 @@ window.ISSUE_DATA = {
             "location": "",
             "businessUnit": "",
             "serviceType": "",
-            "priceCategory": "Per Unit",
+            "priceCategory": "Per Unit (Max 14); Per Unit (Max 17); Per Unit (Max 27); Per Unit (Max 8)",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -14014,7 +14027,7 @@ window.ISSUE_DATA = {
             "C1 Blue North Gateway"
           ],
           "action": "Pricing is incomplete. Use Prod prices if they exist, or add ST/Prod prices for the missing PCs.",
-          "also": "Also listed in P6",
+          "also": "",
           "fields": {
             "TM package": "Atlantic Imperials (Rev)",
             "Prod exists": "Yes",
@@ -14025,8 +14038,7 @@ window.ISSUE_DATA = {
             "Active price": "Yes",
             "Price kind": "Both",
             "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Unit (Max 8) 4400.0 MAD [All Group Series]; Per Unit (Max 14) 5300.0 MAD [All Group Series]; Per Unit (Max 17) 5800.0 MAD [All Group Series]; Per Unit (Max 27) 7800.0 MAD [All Group Series]; Per Unit (Max 8) 4400.0 MAD [FIT]; Per Unit (Max 14) 5300.0 MAD [FIT]; Per Unit (Max 17) 5800.0 MAD [FIT]; Per Unit (Max 27) 7800.0 MAD [FIT]",
-            "Also listed in": "Also listed in P6"
+            "Prod PCs priced": "Per Unit (Max 8) 4400.0 MAD [All Group Series]; Per Unit (Max 14) 5300.0 MAD [All Group Series]; Per Unit (Max 17) 5800.0 MAD [All Group Series]; Per Unit (Max 27) 7800.0 MAD [All Group Series]; Per Unit (Max 8) 4400.0 MAD [FIT]; Per Unit (Max 14) 5300.0 MAD [FIT]; Per Unit (Max 17) 5800.0 MAD [FIT]; Per Unit (Max 27) 7800.0 MAD [FIT]"
           },
           "fuzzyService": [],
           "fuzzyPc": [],
@@ -15729,9 +15741,19 @@ window.ISSUE_DATA = {
           "existingPcs": [],
           "priceCompare": [
             {
-              "pc": "Per Vehicle (Banded)",
+              "pc": "Per Vehicle (Banded) Max 15",
               "st": "—",
-              "prod": "Max 7 1450.0 MAD [FIT]; Max 15 1600.0 MAD [FIT]; Max 16 1750.0 MAD [FIT]; Max 7 1450.0 MAD [All Group Series]; Max 15 1600.0 MAD [All Group Series]; Max 16 1750.0 MAD [All Group Series]"
+              "prod": "1600.0 MAD [FIT]; 1600.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Per Vehicle (Banded) Max 16",
+              "st": "—",
+              "prod": "1750.0 MAD [FIT]; 1750.0 MAD [All Group Series]"
+            },
+            {
+              "pc": "Per Vehicle (Banded) Max 7",
+              "st": "—",
+              "prod": "1450.0 MAD [FIT]; 1450.0 MAD [All Group Series]"
             }
           ],
           "stPriceDates": "",
@@ -17570,7 +17592,7 @@ window.ISSUE_DATA = {
       "workbook": "pricing",
       "help": "Only package occupancies that are not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). This tab blocks Ready. Yes = create a new PC. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC. Occupancies that already exist on Prod or ST are not listed — ST names used on the package are created from ST.",
       "choice": "pc-map",
-      "count": 21,
+      "count": 18,
       "issues": [
         {
           "id": "P6::aday hotel",
@@ -17962,149 +17984,6 @@ window.ISSUE_DATA = {
           }
         },
         {
-          "id": "P6::casablanca to rabat private transfer",
-          "service": "Casablanca to Rabat Private Transfer",
-          "packages": [
-            "C1 Blue North Gateway"
-          ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Casablanca to Rabat Private Transfer",
-            "Prod Id": "a1HSo00000BiMxlMAF",
-            "Package PCs": "Per Unit",
-            "Suggested PC map": "Per Unit → create new, or use existing: Per Unit (Max 8) / Per Unit (Max 14) / Per Unit (Max 17) / Per Unit (Max 27)",
-            "PC issue": "Package PC not on Prod or ST: Per Unit",
-            "ST PCs missing on Prod": "Per Unit",
-            "Active price": "Yes",
-            "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Unit (Max 8) 2200.0 MAD [FIT]; Per Unit (Max 14) 2650.0 MAD [FIT]; Per Unit (Max 17) 2900.0 MAD [FIT]; Per Unit (Max 27) 3900.0 MAD [FIT]; Per Unit (Max 8) 2200.0 MAD [All Group Series]; Per Unit (Max 14) 2650.0 MAD [All Group Series]; Per Unit (Max 17) 2900.0 MAD [All Group Series]; Per Unit (Max 27) 3900.0 MAD [All Group Series]",
-            "Also listed in": "Also listed in P4"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [
-            {
-              "from": "Per Unit",
-              "value": "create new, or use existing: Per Unit (Max 8) / Per Unit (Max 14) / Per Unit (Max 17) / Per Unit (Max 27)",
-              "score": null
-            }
-          ],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HSo00000BiMxlMAF",
-          "existingPcs": [
-            "Per Unit (Max 8)",
-            "Per Unit (Max 14)",
-            "Per Unit (Max 17)",
-            "Per Unit (Max 27)"
-          ],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Casablanca to Rabat Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Unit",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "Use Prod",
-              "prodName": "Casablanca to Rabat Private Transfer",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
-          "id": "P6::chefchaouen to fes private transfer + fes guided tour",
-          "service": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
-          "packages": [
-            "C1 Blue North Gateway",
-            "The Blue North"
-          ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
-            "Prod Id": "a1HSo00000BiOczMAF",
-            "Package PCs": "Per Unit",
-            "Suggested PC map": "Per Unit → create new, or use existing: Per Unit (Max 8) / Per Unit (Max 14) / Per Unit (Max 17) / Per Unit (Max 27)",
-            "PC issue": "Package PC not on Prod or ST: Per Unit",
-            "ST PCs missing on Prod": "Per Unit",
-            "Active price": "Yes",
-            "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Unit (Max 8) 2050.0 MAD [All Group Series]; Per Unit (Max 14) 2700.0 MAD [All Group Series]; Per Unit (Max 17) 3100.0 MAD [All Group Series]; Per Unit (Max 27) 6050.0 MAD [All Group Series]; Per Unit (Max 8) 2050.0 MAD [FIT]; Per Unit (Max 14) 2700.0 MAD [FIT]; Per Unit (Max 17) 3100.0 MAD [FIT]; Per Unit (Max 27) 6050.0 MAD [FIT]",
-            "Also listed in": "Also listed in P4"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [
-            {
-              "from": "Per Unit",
-              "value": "create new, or use existing: Per Unit (Max 8) / Per Unit (Max 14) / Per Unit (Max 17) / Per Unit (Max 27)",
-              "score": null
-            }
-          ],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HSo00000BiOczMAF",
-          "existingPcs": [
-            "Per Unit (Max 8)",
-            "Per Unit (Max 14)",
-            "Per Unit (Max 17)",
-            "Per Unit (Max 27)"
-          ],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Chefchaouen to Fes Private Transfer + Fes Guided Tour",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Unit",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "The Blue North",
-              "note": "CHECK",
-              "prodName": "Chefchaouen to Fes Private Transfer",
-              "prodPc": ""
-            }
-          ]
-        },
-        {
           "id": "P6::hotel aurocher ourika",
           "service": "Hotel Aurocher Ourika",
           "packages": [
@@ -18489,19 +18368,17 @@ window.ISSUE_DATA = {
           "id": "P6::medersa attarine fes",
           "service": "Medersa Attarine Fes",
           "packages": [
-            "C1 Blue North Gateway",
             "Sahara crossing (Rev)",
-            "The Blue North",
             "The Blue North (Rev)"
           ],
           "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
           "also": "",
           "fields": {
-            "TM package": "C1 Blue North Gateway",
+            "TM package": "Sahara crossing (Rev)",
             "Prod exists": "Yes",
             "Prod Name": "Medersa Attarine  Fes",
             "Prod Id": "a1HVk000000aBrJMAU",
-            "Package PCs": "Per Crew; Per Group",
+            "Package PCs": "Per Group",
             "ST PCs": "Per Crew; Per Person",
             "Suggested PC map": "Per Group → create new",
             "PC issue": "Package PC not on Prod or ST: Per Group",
@@ -18538,7 +18415,7 @@ window.ISSUE_DATA = {
             "location": "",
             "businessUnit": "",
             "serviceType": "",
-            "priceCategory": "Per Crew; Per Group",
+            "priceCategory": "Per Group",
             "priceSeason": "",
             "priceSeasonDates": "",
             "pricelist": "",
@@ -18696,77 +18573,6 @@ window.ISSUE_DATA = {
             "Service Has been already loaded with FIT Rates - Estimated Rates"
           ],
           "stCommentImport": "Service Has been already loaded with FIT Rates"
-        },
-        {
-          "id": "P6::rabat to tangier private transfer",
-          "service": "Rabat to Tangier Private Transfer",
-          "packages": [
-            "C1 Blue North Gateway"
-          ],
-          "action": "Package has a price category that is not on Prod and not on the Service Template. Bare Per Unit / Per Vehicle is not the same as Per Unit (Max …) or Per Vehicle (Banded). Yes = create a new PC and fill the fields. Use existing (multiple) = attach the Prod/ST occupancies already on this Item (or name them in notes). No = do not add the package PC.",
-          "also": "Also listed in P4",
-          "fields": {
-            "TM package": "C1 Blue North Gateway",
-            "Prod exists": "Yes",
-            "Prod Name": "Rabat to Tangier Private Transfer",
-            "Prod Id": "a1HSo00000BiNDtMAN",
-            "Package PCs": "Per Unit",
-            "Suggested PC map": "Per Unit → create new, or use existing: Per Unit (Max 8) / Per Unit (Max 14) / Per Unit (Max 17) / Per Unit (Max 27)",
-            "PC issue": "Package PC not on Prod or ST: Per Unit",
-            "ST PCs missing on Prod": "Per Unit",
-            "Active price": "Yes",
-            "Gap": "OK — FIT and Group Tour",
-            "Prod PCs priced": "Per Unit (Max 8) 4400.0 MAD [All Group Series]; Per Unit (Max 14) 5300.0 MAD [All Group Series]; Per Unit (Max 17) 5800.0 MAD [All Group Series]; Per Unit (Max 27) 7800.0 MAD [All Group Series]; Per Unit (Max 8) 4400.0 MAD [FIT]; Per Unit (Max 14) 5300.0 MAD [FIT]; Per Unit (Max 17) 5800.0 MAD [FIT]; Per Unit (Max 27) 7800.0 MAD [FIT]",
-            "Also listed in": "Also listed in P4"
-          },
-          "fuzzyService": [],
-          "fuzzyPc": [],
-          "pcMap": [
-            {
-              "from": "Per Unit",
-              "value": "create new, or use existing: Per Unit (Max 8) / Per Unit (Max 14) / Per Unit (Max 17) / Per Unit (Max 27)",
-              "score": null
-            }
-          ],
-          "stSupplier": "",
-          "prodSupplier": "",
-          "stLocation": "",
-          "prodLocation": "",
-          "stType": "",
-          "prodType": "",
-          "saTemplateName": "",
-          "prodAgreement": "",
-          "prodId": "a1HSo00000BiNDtMAN",
-          "existingPcs": [
-            "Per Unit (Max 8)",
-            "Per Unit (Max 14)",
-            "Per Unit (Max 17)",
-            "Per Unit (Max 27)"
-          ],
-          "priceCompare": [],
-          "stPriceDates": "",
-          "formDefaults": {
-            "name": "Rabat to Tangier Private Transfer",
-            "location": "",
-            "businessUnit": "",
-            "serviceType": "",
-            "priceCategory": "Per Unit",
-            "priceSeason": "",
-            "priceSeasonDates": "",
-            "pricelist": "",
-            "price": "",
-            "priceCurrency": "MAD",
-            "supplierName": "",
-            "comment": ""
-          },
-          "nariComments": [
-            {
-              "package": "Atlantic Imperials (Rev)",
-              "note": "Use Prod",
-              "prodName": "Rabat to Tangier Private Transfer",
-              "prodPc": ""
-            }
-          ]
         },
         {
           "id": "P6::wine tasting & lunch at val d'argan",
@@ -36567,9 +36373,9 @@ window.ISSUE_DATA = {
       ]
     }
   ],
-  "total": 583,
+  "total": 580,
   "stCommentsSource": "Service Template Comment column (20 Nov workbook + Siham CSV extras). Notes only, not Yes/No.",
   "stCommentsCards": 193,
   "nariCommentsSource": "Nari Notes on Atlantic Imperials (Rev), The Blue North, and C1 Blue North Gateway. Notes only, not Yes/No.",
-  "nariCommentsCards": 43
+  "nariCommentsCards": 40
 };
